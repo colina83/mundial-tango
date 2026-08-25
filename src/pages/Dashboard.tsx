@@ -115,6 +115,7 @@ export function Dashboard() {
                   key={`${row.blockId}-${row.coupleId}`}
                   row={row}
                   coupleCount={count}
+                  showBoxplot={false}
                 />
               );
             })}

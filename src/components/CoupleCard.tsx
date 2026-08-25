@@ -9,10 +9,12 @@ export function CoupleCard({
   row,
   coupleCount,
   showBlock = true,
+  showBoxplot = true,
 }: {
   row: ScoreRow;
   coupleCount: number;
   showBlock?: boolean;
+  showBoxplot?: boolean;
 }) {
   const { t } = useI18n();
   const { isPinned, toggle } = useWatchlist();
@@ -52,7 +54,7 @@ export function CoupleCard({
           {formatDelta(row.cutoffDelta)}
         </span>
       </div>
-      <ScoreBoxplot row={row} size="card" />
+      {showBoxplot && <ScoreBoxplot row={row} size="card" />}
       <button
         type="button"
         className={`pin-btn ${pinned ? "is-on" : ""}`}
