@@ -92,11 +92,29 @@ export function Dashboard() {
               <strong>{block.classifiedCount}</strong> {t("classified")} {t("of")}{" "}
               {block.coupleCount}
             </p>
-            <ul className="judge-chips">
-              {block.judges.map((j) => (
-                <li key={j}>{j}</li>
-              ))}
-            </ul>
+            <dl className="block-stats">
+              {(() => {
+                const blockRows = data.rows.filter((r) => r.blockId === block.id);
+                const topScore = blockRows.length
+                  ? Math.max(...blockRows.map((r) => r.average))
+                  : null;
+                const lowestScore = blockRows.length
+                  ? Math.min(...blockRows.map((r) => r.average))
+                  : null;
+                return (
+                  <>
+                    <div>
+                      <dt>{t("topScoreCutoff")}</dt>
+                      <dd>{topScore !== null ? formatAverage(topScore) : "—"}</dd>
+                    </div>
+                    <div>
+                      <dt>{t("lowestScore")}</dt>
+                      <dd>{lowestScore !== null ? formatAverage(lowestScore) : "—"}</dd>
+                    </div>
+                  </>
+                );
+              })()}
+            </dl>
             <Link className="text-link" to={`/rankings?block=${block.id}`}>
               {t("navRankings")} {block.id} →
             </Link>
