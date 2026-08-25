@@ -23,6 +23,8 @@ export interface ScoreRow {
   spread: number;
   blockId: BlockId;
   averageMismatch: boolean;
+  /** Stage from which this couple originated (for cross-stage journey tracking). */
+  originStage?: Stage;
 }
 
 export interface SourcePdf {
@@ -61,4 +63,17 @@ export interface Dataset {
   blocks: BlockSummary[];
   rows: ScoreRow[];
   mismatches: AverageMismatch[];
+}
+
+export interface StageEntry {
+  stage: Stage;
+  generatedAt: string;
+  /** Number of result rows available for this stage. */
+  rowCount: number;
+}
+
+/** Manifest file written to public/data/manifest.json listing all available stages. */
+export interface StageManifest {
+  updatedAt: string;
+  stages: StageEntry[];
 }

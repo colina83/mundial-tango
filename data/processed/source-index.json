@@ -14,5 +14,21 @@
   "https://tangoba.org/wp-content/uploads/2026/08/Jurados-_-Pista-Clasificatorias-2026-24_8-D-Copia-de-JURADOS-_-RONDAS-TODAS-248-D.pdf": {
     "sha256": "c2172779f8214be1f4a41a557764ad0d0afc68aac416c193c6f6a7718c923290",
     "filename": "pista-clasificatorias-2026-24-08-D.pdf"
+  },
+  "clasificatoria::https://tangoba.org/wp-content/uploads/2026/08/Jurados-_-Pista-Clasificatorias-2026-23_8-A-Copia-de-JURADOS-_-RONDAS-TODAS-238-A-1.pdf": {
+    "sha256": "b38a3cb6773615e40182e3f2dbd5a315cceba0a1fde3c71b37eeb1c9250828fc",
+    "filename": "pista-clasificatorias-2026-23-08-A.pdf"
+  },
+  "clasificatoria::https://tangoba.org/wp-content/uploads/2026/08/Jurados-_-Pista-Clasificatorias-2026-23_8-B-Copia-de-JURADOS-_-RONDAS-TODAS-23_8-B-1.pdf": {
+    "sha256": "20d2921f380cf2618ac06c2ba553e49c3f09e432cbefc77c059fea79810937a1",
+    "filename": "pista-clasificatorias-2026-23-08-B.pdf"
+  },
+  "clasificatoria::https://tangoba.org/wp-content/uploads/2026/08/Jurados-_-Pista-Clasificatorias-2026-24_8-C-Copia-de-JURADOS-_-RONDAS-TODAS-248-C.pdf": {
+    "sha256": "3d6d2af44988b8dce584cbbbe354c1726073ca9795e98cd8fa5b6fac0a727a09",
+    "filename": "pista-clasificatorias-2026-24-08-C.pdf"
+  },
+  "clasificatoria::https://tangoba.org/wp-content/uploads/2026/08/Jurados-_-Pista-Clasificatorias-2026-24_8-D-Copia-de-JURADOS-_-RONDAS-TODAS-248-D.pdf": {
+    "sha256": "c2172779f8214be1f4a41a557764ad0d0afc68aac416c193c6f6a7718c923290",
+    "filename": "pista-clasificatorias-2026-24-08-D.pdf"
   }
 }

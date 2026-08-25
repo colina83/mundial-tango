@@ -2,6 +2,8 @@ name: Ingest Tango BA results
 
 on:
   schedule:
+    # Every 15 minutes — fine for clasificatoria and important for detecting when
+    # cuartos/semifinal/final data goes live for the first time.
     - cron: "*/15 * * * *"
   workflow_dispatch:
 
@@ -18,15 +20,23 @@ jobs:
           node-version: "22"
           cache: npm
       - run: npm ci
-      - run: npm run ingest
+
+      - name: Run multi-stage ingest
+        run: |
+          echo "=== Starting multi-stage ingest ==="
+          npm run ingest
+          echo "=== Ingest complete ==="
+
       - name: Commit refreshed results
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/raw data/processed public/data
           if git diff --staged --quiet; then
-            echo "No result changes."
+            echo "No result changes — all stages unchanged."
           else
+            CHANGED=$(git diff --staged --name-only | tr '\n' ' ')
+            echo "Changed files: $CHANGED"
             git commit -m "chore: refresh Tango BA 2026 results"
             git push
           fi
