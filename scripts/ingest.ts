@@ -106,6 +106,16 @@ function isSkippablePdf(url: string): boolean {
   if (u.includes("/2025/") || u.includes("2025") || u.includes("cbc25")) {
     return true;
   }
+  // Skip non-results documents (catalogs, regulations, brochures, etc.)
+  if (
+    u.includes("catalogo") ||
+    u.includes("reglamento") ||
+    u.includes("rules-and-regulations") ||
+    u.includes("world-dance-championship") ||
+    u.includes("regulation")
+  ) {
+    return true;
+  }
   return false;
 }
 
@@ -519,11 +529,15 @@ async function ingestStage(
 
   const parsed = [];
   for (const name of pdfs) {
-    const block = await parsePdfFile(join(stageRawDir, name));
-    console.log(
-      `[${stage}] Block ${block.id}: ${block.couples.length} couples, ${block.judges.length} judges (${name})`,
-    );
-    parsed.push(block);
+    try {
+      const block = await parsePdfFile(join(stageRawDir, name));
+      console.log(
+        `[${stage}] Block ${block.id}: ${block.couples.length} couples, ${block.judges.length} judges (${name})`,
+      );
+      parsed.push(block);
+    } catch (err) {
+      console.warn(`[${stage}] Skipping ${name}: ${err instanceof Error ? err.message : err}`);
+    }
   }
 
   const dataset = buildDataset(stage, sourcePage, sourceCategoryPage, parsed);
