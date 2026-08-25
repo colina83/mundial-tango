@@ -1,5 +1,6 @@
 import { lazy, Suspense } from "react";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react";
 import { Layout } from "./components/Layout";
 import { DataProvider } from "./context/DataContext";
 import { I18nProvider } from "./context/I18nContext";
@@ -40,6 +41,7 @@ export default function App() {
               </Route>
             </Routes>
           </BrowserRouter>
+          <Analytics />
         </DataProvider>
       </WatchlistProvider>
     </I18nProvider>
