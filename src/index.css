@@ -363,21 +363,31 @@ h3 {
   color: var(--muted);
 }
 
-.judge-chips {
-  list-style: none;
+.block-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px 12px;
+  margin: 10px 0 14px;
   padding: 0;
-  margin: 8px 0 12px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
 }
 
-.judge-chips li {
-  font-size: 0.72rem;
+.block-stats div {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.block-stats dt {
+  font-size: 0.68rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
   color: var(--muted);
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  padding: 2px 8px;
+}
+
+.block-stats dd {
+  font-family: var(--display);
+  font-size: 1.25rem;
+  margin: 0;
 }
 
 .two-col {
