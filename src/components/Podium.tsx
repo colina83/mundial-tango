@@ -52,16 +52,21 @@ export function BlockPodium({
 export function PodiumGrid({
   rows,
   blocks,
+  stageLabel,
 }: {
   rows: ScoreRow[];
   blocks: { id: BlockId; date?: string }[];
+  stageLabel?: string;
 }) {
   const { t, lang } = useI18n();
   const locale = lang === "es" ? "es-AR" : "en-GB";
   return (
     <section className="podium-section">
       <div className="podium-section-head">
-        <h2>{t("podium")}</h2>
+        <h2>
+          {t("podium")}
+          {stageLabel && <span className="podium-stage-label"> · {stageLabel}</span>}
+        </h2>
         <p className="muted">{t("podiumHint")}</p>
       </div>
       <div className="podium-grid">

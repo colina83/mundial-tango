@@ -8,7 +8,6 @@ import {
   formatAverage,
   formatBlockDate,
   formatIngestTime,
-  isDangerZone,
 } from "../lib/format";
 import { classifiedTotal } from "../lib/stats";
 import type { ScoreRow } from "../types";
@@ -34,15 +33,11 @@ export function Dashboard() {
     .filter((r): r is ScoreRow => Boolean(r))
     .slice(0, 4);
 
-  const danger = data.blocks.flatMap((block) => {
-    const rows = data.rows
-      .filter((r) => r.blockId === block.id)
-      .filter((r) => isDangerZone(r.rankInBlock, r.classified, block.coupleCount))
-      .sort((a, b) => a.rankInBlock - b.rankInBlock);
-    return rows;
-  });
-
   const inCount = classifiedTotal(data);
+
+  const top5AllRounds = [...data.rows]
+    .sort((a, b) => b.average - a.average)
+    .slice(0, 5);
 
   return (
     <div className="page dashboard">
@@ -65,12 +60,12 @@ export function Dashboard() {
             </dd>
           </div>
         </dl>
-        <p className="muted tiny">{t("ingestHint")}</p>
       </section>
 
       <PodiumGrid
         rows={data.rows}
         blocks={data.blocks.map((b) => ({ id: b.id, date: b.date }))}
+        stageLabel={stageLabel[activeStage] ?? t("stageClasificatoria")}
       />
 
       <section className="block-grid">
@@ -111,10 +106,10 @@ export function Dashboard() {
 
       <section className="two-col">
         <article className="panel">
-          <h2>{t("dangerZone")}</h2>
-          <p className="muted">{t("dangerHint")}</p>
+          <h2>{t("top5AllRounds")}</h2>
+          <p className="muted">{t("top5Hint")}</p>
           <div className="card-list">
-            {danger.slice(0, 8).map((row) => {
+            {top5AllRounds.map((row) => {
               const count =
                 data.blocks.find((b) => b.id === row.blockId)?.coupleCount ?? 0;
               return (

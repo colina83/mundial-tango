@@ -22,13 +22,6 @@ export function Layout() {
       <header className="topbar">
         <div className="topbar-inner">
           <NavLink to="/" className="brand">
-            <img
-              className="brand-logo"
-              src={`${import.meta.env.BASE_URL}pulso-logo.svg`}
-              alt=""
-              width={28}
-              height={28}
-            />
             <span className="brand-text">
               <span className="pulso-wordmark">{t("brand")}</span>
               <strong>{t("appName")}</strong>
@@ -90,6 +83,10 @@ export function Layout() {
             </button>
           );
         })}
+      </div>
+
+      <div className="event-header">
+        <span>Mundial de Tango 2026 – Results</span>
       </div>
 
       <div className="source-bar">
