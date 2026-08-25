@@ -1,10 +1,21 @@
 import { NavLink, Outlet } from "react-router-dom";
 import { useI18n } from "../context/I18nContext";
 import { useData } from "../context/DataContext";
+import type { Stage } from "../types";
 
 export function Layout() {
   const { t, lang, setLang } = useI18n();
-  const { data, loading, error, reload } = useData();
+  const { data, loading, error, reload, manifest, activeStage, setActiveStage } = useData();
+
+  const ALL_STAGES: Stage[] = ["clasificatoria", "cuartos", "semifinal", "final"];
+  const availableStages = new Set(manifest?.stages.map((s) => s.stage) ?? ["clasificatoria"]);
+
+  const stageLabel: Record<Stage, string> = {
+    clasificatoria: t("stageClasificatoria"),
+    cuartos: t("stageCuartos"),
+    semifinal: t("stageSemifinal"),
+    final: t("stageFinal"),
+  };
 
   return (
     <div className="app-shell">
@@ -53,6 +64,33 @@ export function Layout() {
           </div>
         </div>
       </header>
+
+      <div className="stage-bar" role="tablist" aria-label={t("liveStage")}>
+        {ALL_STAGES.map((stage) => {
+          const available = availableStages.has(stage);
+          return (
+            <button
+              key={stage}
+              type="button"
+              role="tab"
+              aria-selected={activeStage === stage}
+              aria-disabled={!available}
+              disabled={!available}
+              className={[
+                "stage-tab",
+                activeStage === stage ? "is-active" : "",
+                !available ? "is-disabled" : "",
+              ]
+                .filter(Boolean)
+                .join(" ")}
+              onClick={() => available && setActiveStage(stage)}
+              title={available ? stageLabel[stage] : `${stageLabel[stage]} — ${t("comingSoon")}`}
+            >
+              {stageLabel[stage]}
+            </button>
+          );
+        })}
+      </div>
 
       <div className="source-bar">
         <span>

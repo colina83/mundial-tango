@@ -14,10 +14,17 @@ import { classifiedTotal } from "../lib/stats";
 import type { ScoreRow } from "../types";
 
 export function Dashboard() {
-  const { data } = useData();
+  const { data, activeStage } = useData();
   const { t, lang } = useI18n();
   const { pins } = useWatchlist();
   if (!data) return null;
+
+  const stageLabel: Record<string, string> = {
+    clasificatoria: t("stageClasificatoria"),
+    cuartos: t("stageCuartos"),
+    semifinal: t("stageSemifinal"),
+    final: t("stageFinal"),
+  };
 
   const locale = lang === "es" ? "es-AR" : "en-GB";
   const watchRows = pins
@@ -42,7 +49,7 @@ export function Dashboard() {
       <section className="hero-panel">
         <div className="hero-kicker">{t("liveStage")}</div>
         <h1>
-          {t("stageClasificatoria")}
+          {stageLabel[activeStage] ?? t("stageClasificatoria")}
           <span> · {t("categoryPista")}</span>
         </h1>
         <p className="lede">{t("howToScore")}</p>

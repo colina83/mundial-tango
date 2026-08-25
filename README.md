@@ -4,7 +4,7 @@ Unofficial fan companion for **Tango BA Mundial de Baile 2026** results, publish
 
 Always **Fuente: Tango BA**. Not affiliated with Tango BA or the championship.
 
-v1 tracks **Tango de pista · clasificatorias** (blocks A–D). Quarterfinals, semifinal, final, and Escenario can land later when Tango BA publishes them.
+v1 tracks **Tango de pista · clasificatorias** (blocks A–D). The pipeline is now multi-stage: as Tango BA publishes cuartos, semifinal, and final results, the app detects and ingests them automatically — no manual code changes required for each new stage.
 
 Official source: [Resultados Clasificatoria Tango de Pista 2026](https://tangoba.org/resultados-clasificatoria-tango-de-pista-2026/)
 
@@ -24,7 +24,7 @@ npm run dev
 
 Then open [http://localhost:5173/](http://localhost:5173/).
 
-Seed PDFs (`data/raw/`) and processed JSON (`public/data/results.json`) are in the repo, so **`npm install && npm run dev` is enough**. You do not have to ingest before the first run.
+Seed PDFs (`data/raw/clasificatoria/`) and processed JSON (`public/data/results.json`, `public/data/results-clasificatoria.json`, `public/data/manifest.json`) are in the repo, so **`npm install && npm run dev` is enough**. You do not have to ingest before the first run.
 
 One-shot setup (install + re-parse the local PDFs):
 
@@ -47,18 +47,36 @@ npm run setup
 
 ## Ingest
 
-Official PDFs for the four Pista clasificatoria blocks (A–D, 23–24 Aug 2026) live in `data/raw/`. The parser writes:
+### Multi-stage pipeline
 
-- `data/processed/results.json`
-- `public/data/results.json` (what the UI loads)
+The ingest pipeline supports all four stages: `clasificatoria`, `cuartos`, `semifinal`, and `final`. Source URLs are configured in `STAGE_SOURCES` in `scripts/ingest.ts`. Placeholder URLs for cuartos/semifinal/final follow the same URL pattern as clasificatoria — update them once Tango BA publishes the real links.
+
+`npm run ingest` for each configured stage:
+
+1. Fetches the stage's source page to discover PDF links
+2. If the page returns 404 or has no PDFs, **skips the stage gracefully** (logs and continues)
+3. Logs **"detected for the first time"** the first time a new stage's results appear
+4. Downloads PDFs identified by SHA-256 hash into `data/raw/{stage}/` (no re-downloads of unchanged files)
+5. Parses PDFs and writes:
+   - `data/processed/results-{stage}.json`
+   - `public/data/results-{stage}.json`
+6. Updates `public/data/manifest.json` listing which stages have data and their timestamps
+7. Keeps `public/data/results.json` / `data/processed/results.json` as the backward-compatible clasificatoria file
+
+### Stage-awareness in the frontend
+
+The frontend loads `manifest.json` on startup to discover which stages are available. A stage-switching tab bar appears at the top; stages with no data yet are shown as disabled. Switching stages reloads the corresponding dataset.
+
+### Source index caching
+
+`data/processed/source-index.json` uses namespaced keys (`{stage}::{url}`) to track downloaded PDFs per stage, avoiding hash collisions between stages.
 
 `npm run ingest`:
 
-- Reads the live clasificatorias page (and watches [category/resultados](https://tangoba.org/category/resultados/) for later 2026 posts)
-- Collects `.pdf` hrefs from HTML — does not hardcode 2025 filenames; skips `2025` / `CBC25`
+- Checks each stage's source page — cheap HEAD/link discovery before any heavy parsing
 - Identifies itself with a project User-Agent, caches by SHA-256, waits between requests
 
-A GitHub Action (`.github/workflows/ingest.yml`) can refresh results every 15 minutes after you enable Actions on the repo.
+A GitHub Action (`.github/workflows/ingest.yml`) refreshes results every 15 minutes after you enable Actions on the repo. The workflow logs a summary of which stages were checked, unchanged, or had new data.
 
 ## Scoring
 

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T13:33:01.074Z",
+  "generatedAt": "2026-08-25T13:51:52.467Z",
   "year": 2026,
   "stage": "clasificatoria",
   "category": "pista",
@@ -130,7 +130,8 @@
       "cutoffDelta": 0.694,
       "spread": 0.15,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 208,
@@ -172,7 +173,8 @@
       "cutoffDelta": 0.607,
       "spread": 0.3,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 522,
@@ -214,7 +216,8 @@
       "cutoffDelta": 0.584,
       "spread": 0.31,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 386,
@@ -256,7 +259,8 @@
       "cutoffDelta": 0.554,
       "spread": 0.23,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 238,
@@ -298,7 +302,8 @@
       "cutoffDelta": 0.514,
       "spread": 0.88,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 552,
@@ -340,7 +345,8 @@
       "cutoffDelta": 0.474,
       "spread": 0.4,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 425,
@@ -382,7 +388,8 @@
       "cutoffDelta": 0.45,
       "spread": 1.25,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 315,
@@ -424,7 +431,8 @@
       "cutoffDelta": 0.437,
       "spread": 0.57,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 215,
@@ -466,7 +474,8 @@
       "cutoffDelta": 0.424,
       "spread": 0.7,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 342,
@@ -508,7 +517,8 @@
       "cutoffDelta": 0.42,
       "spread": 0.55,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 701,
@@ -550,7 +560,8 @@
       "cutoffDelta": 0.407,
       "spread": 0.63,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 542,
@@ -592,7 +603,8 @@
       "cutoffDelta": 0.407,
       "spread": 0.36,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 377,
@@ -634,7 +646,8 @@
       "cutoffDelta": 0.377,
       "spread": 0.56,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 504,
@@ -676,7 +689,8 @@
       "cutoffDelta": 0.377,
       "spread": 0.47,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 370,
@@ -718,7 +732,8 @@
       "cutoffDelta": 0.36,
       "spread": 0.45,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 257,
@@ -760,7 +775,8 @@
       "cutoffDelta": 0.35,
       "spread": 0.53,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 647,
@@ -802,7 +818,8 @@
       "cutoffDelta": 0.344,
       "spread": 0.47,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 79,
@@ -844,7 +861,8 @@
       "cutoffDelta": 0.344,
       "spread": 0.42,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 209,
@@ -886,7 +904,8 @@
       "cutoffDelta": 0.34,
       "spread": 0.53,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 365,
@@ -928,7 +947,8 @@
       "cutoffDelta": 0.337,
       "spread": 0.35,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 339,
@@ -970,7 +990,8 @@
       "cutoffDelta": 0.324,
       "spread": 0.37,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 75,
@@ -1012,7 +1033,8 @@
       "cutoffDelta": 0.314,
       "spread": 0.58,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 356,
@@ -1054,7 +1076,8 @@
       "cutoffDelta": 0.31,
       "spread": 0.78,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 285,
@@ -1096,7 +1119,8 @@
       "cutoffDelta": 0.307,
       "spread": 0.62,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 169,
@@ -1138,7 +1162,8 @@
       "cutoffDelta": 0.304,
       "spread": 0.49,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 100,
@@ -1180,7 +1205,8 @@
       "cutoffDelta": 0.3,
       "spread": 0.56,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 656,
@@ -1222,7 +1248,8 @@
       "cutoffDelta": 0.29,
       "spread": 0.21,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 608,
@@ -1264,7 +1291,8 @@
       "cutoffDelta": 0.27,
       "spread": 0.96,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 223,
@@ -1306,7 +1334,8 @@
       "cutoffDelta": 0.267,
       "spread": 0.46,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 524,
@@ -1348,7 +1377,8 @@
       "cutoffDelta": 0.244,
       "spread": 0.93,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 368,
@@ -1390,7 +1420,8 @@
       "cutoffDelta": 0.237,
       "spread": 0.63,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 175,
@@ -1432,7 +1463,8 @@
       "cutoffDelta": 0.234,
       "spread": 0.4,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 164,
@@ -1474,7 +1506,8 @@
       "cutoffDelta": 0.22,
       "spread": 0.57,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 397,
@@ -1516,7 +1549,8 @@
       "cutoffDelta": 0.217,
       "spread": 0.82,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 645,
@@ -1558,7 +1592,8 @@
       "cutoffDelta": 0.214,
       "spread": 0.45,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 130,
@@ -1600,7 +1635,8 @@
       "cutoffDelta": 0.214,
       "spread": 0.74,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 427,
@@ -1642,7 +1678,8 @@
       "cutoffDelta": 0.207,
       "spread": 0.65,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 308,
@@ -1684,7 +1721,8 @@
       "cutoffDelta": 0.2,
       "spread": 1.16,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 581,
@@ -1726,7 +1764,8 @@
       "cutoffDelta": 0.19,
       "spread": 1.53,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 592,
@@ -1768,7 +1807,8 @@
       "cutoffDelta": 0.184,
       "spread": 0.72,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 181,
@@ -1810,7 +1850,8 @@
       "cutoffDelta": 0.177,
       "spread": 0.92,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 644,
@@ -1852,7 +1893,8 @@
       "cutoffDelta": 0.177,
       "spread": 0.72,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 480,
@@ -1894,7 +1936,8 @@
       "cutoffDelta": 0.174,
       "spread": 0.58,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 255,
@@ -1936,7 +1979,8 @@
       "cutoffDelta": 0.17,
       "spread": 0.52,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 21,
@@ -1978,7 +2022,8 @@
       "cutoffDelta": 0.167,
       "spread": 0.75,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 256,
@@ -2020,7 +2065,8 @@
       "cutoffDelta": 0.157,
       "spread": 0.76,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 82,
@@ -2062,7 +2108,8 @@
       "cutoffDelta": 0.157,
       "spread": 0.95,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 448,
@@ -2104,7 +2151,8 @@
       "cutoffDelta": 0.154,
       "spread": 0.74,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 132,
@@ -2146,7 +2194,8 @@
       "cutoffDelta": 0.144,
       "spread": 1.37,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 30,
@@ -2188,7 +2237,8 @@
       "cutoffDelta": 0.144,
       "spread": 0.58,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 198,
@@ -2230,7 +2280,8 @@
       "cutoffDelta": 0.117,
       "spread": 0.42,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 376,
@@ -2272,7 +2323,8 @@
       "cutoffDelta": 0.104,
       "spread": 0.83,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 120,
@@ -2314,7 +2366,8 @@
       "cutoffDelta": 0.1,
       "spread": 0.69,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 487,
@@ -2356,7 +2409,8 @@
       "cutoffDelta": 0.097,
       "spread": 0.85,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 404,
@@ -2398,7 +2452,8 @@
       "cutoffDelta": 0.094,
       "spread": 0.66,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 490,
@@ -2440,7 +2495,8 @@
       "cutoffDelta": 0.087,
       "spread": 0.74,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 302,
@@ -2482,7 +2538,8 @@
       "cutoffDelta": 0.084,
       "spread": 0.47,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 417,
@@ -2524,7 +2581,8 @@
       "cutoffDelta": 0.08,
       "spread": 0.78,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 410,
@@ -2566,7 +2624,8 @@
       "cutoffDelta": 0.08,
       "spread": 0.94,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 575,
@@ -2608,7 +2667,8 @@
       "cutoffDelta": 0.077,
       "spread": 0.68,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 550,
@@ -2650,7 +2710,8 @@
       "cutoffDelta": 0.067,
       "spread": 0.52,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 464,
@@ -2692,7 +2753,8 @@
       "cutoffDelta": 0.054,
       "spread": 0.68,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 102,
@@ -2734,7 +2796,8 @@
       "cutoffDelta": 0.054,
       "spread": 0.74,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 282,
@@ -2776,7 +2839,8 @@
       "cutoffDelta": 0.04,
       "spread": 1.05,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 559,
@@ -2818,7 +2882,8 @@
       "cutoffDelta": 0.04,
       "spread": 0.69,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 222,
@@ -2860,7 +2925,8 @@
       "cutoffDelta": 0.037,
       "spread": 0.4,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 17,
@@ -2902,7 +2968,8 @@
       "cutoffDelta": 0.03,
       "spread": 0.85,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 227,
@@ -2944,7 +3011,8 @@
       "cutoffDelta": 0.017,
       "spread": 0.46,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 41,
@@ -2986,7 +3054,8 @@
       "cutoffDelta": 0.01,
       "spread": 0.34,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 220,
@@ -3028,7 +3097,8 @@
       "cutoffDelta": 0.007,
       "spread": 1.08,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 58,
@@ -3070,7 +3140,8 @@
       "cutoffDelta": 0.007,
       "spread": 0.61,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 118,
@@ -3112,7 +3183,8 @@
       "cutoffDelta": 0.007,
       "spread": 1.55,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 212,
@@ -3154,7 +3226,8 @@
       "cutoffDelta": 0,
       "spread": 0.51,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 303,
@@ -3196,7 +3269,8 @@
       "cutoffDelta": 0,
       "spread": 0.41,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 173,
@@ -3238,7 +3312,8 @@
       "cutoffDelta": -0.013,
       "spread": 1.12,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 318,
@@ -3280,7 +3355,8 @@
       "cutoffDelta": -0.016,
       "spread": 0.43,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 433,
@@ -3322,7 +3398,8 @@
       "cutoffDelta": -0.016,
       "spread": 0.67,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 583,
@@ -3364,7 +3441,8 @@
       "cutoffDelta": -0.026,
       "spread": 0.32,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 360,
@@ -3406,7 +3484,8 @@
       "cutoffDelta": -0.033,
       "spread": 0.46,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 42,
@@ -3448,7 +3527,8 @@
       "cutoffDelta": -0.043,
       "spread": 0.66,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 154,
@@ -3490,7 +3570,8 @@
       "cutoffDelta": -0.056,
       "spread": 0.6,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 316,
@@ -3532,7 +3613,8 @@
       "cutoffDelta": -0.086,
       "spread": 0.9,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 171,
@@ -3574,7 +3656,8 @@
       "cutoffDelta": -0.09,
       "spread": 0.64,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 646,
@@ -3616,7 +3699,8 @@
       "cutoffDelta": -0.1,
       "spread": 0.93,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 364,
@@ -3658,7 +3742,8 @@
       "cutoffDelta": -0.103,
       "spread": 1.35,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 251,
@@ -3700,7 +3785,8 @@
       "cutoffDelta": -0.103,
       "spread": 0.62,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 455,
@@ -3742,7 +3828,8 @@
       "cutoffDelta": -0.106,
       "spread": 0.79,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 8,
@@ -3784,7 +3871,8 @@
       "cutoffDelta": -0.11,
       "spread": 0.13,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 101,
@@ -3826,7 +3914,8 @@
       "cutoffDelta": -0.116,
       "spread": 0.65,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 168,
@@ -3868,7 +3957,8 @@
       "cutoffDelta": -0.126,
       "spread": 1.12,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 34,
@@ -3910,7 +4000,8 @@
       "cutoffDelta": -0.13,
       "spread": 0.7,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 395,
@@ -3952,7 +4043,8 @@
       "cutoffDelta": -0.14,
       "spread": 0.98,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 526,
@@ -3994,7 +4086,8 @@
       "cutoffDelta": -0.14,
       "spread": 0.82,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 240,
@@ -4036,7 +4129,8 @@
       "cutoffDelta": -0.166,
       "spread": 1.35,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 620,
@@ -4078,7 +4172,8 @@
       "cutoffDelta": -0.166,
       "spread": 0.71,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 444,
@@ -4120,7 +4215,8 @@
       "cutoffDelta": -0.17,
       "spread": 0.45,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 654,
@@ -4162,7 +4258,8 @@
       "cutoffDelta": -0.176,
       "spread": 1.24,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 653,
@@ -4204,7 +4301,8 @@
       "cutoffDelta": -0.183,
       "spread": 1.2,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 271,
@@ -4246,7 +4344,8 @@
       "cutoffDelta": -0.193,
       "spread": 0.52,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 206,
@@ -4288,7 +4387,8 @@
       "cutoffDelta": -0.2,
       "spread": 1.3,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 605,
@@ -4330,7 +4430,8 @@
       "cutoffDelta": -0.203,
       "spread": 1.22,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 664,
@@ -4372,7 +4473,8 @@
       "cutoffDelta": -0.206,
       "spread": 1.52,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 93,
@@ -4414,7 +4516,8 @@
       "cutoffDelta": -0.213,
       "spread": 1.25,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 131,
@@ -4456,7 +4559,8 @@
       "cutoffDelta": -0.216,
       "spread": 1.31,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 197,
@@ -4498,7 +4602,8 @@
       "cutoffDelta": -0.233,
       "spread": 1.25,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 467,
@@ -4540,7 +4645,8 @@
       "cutoffDelta": -0.246,
       "spread": 1.22,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 358,
@@ -4582,7 +4688,8 @@
       "cutoffDelta": -0.256,
       "spread": 1.57,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 18,
@@ -4624,7 +4731,8 @@
       "cutoffDelta": -0.26,
       "spread": 0.45,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 281,
@@ -4666,7 +4774,8 @@
       "cutoffDelta": -0.266,
       "spread": 1.22,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 409,
@@ -4708,7 +4817,8 @@
       "cutoffDelta": -0.273,
       "spread": 0.82,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 435,
@@ -4750,7 +4860,8 @@
       "cutoffDelta": -0.286,
       "spread": 0.67,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 84,
@@ -4792,7 +4903,8 @@
       "cutoffDelta": -0.29,
       "spread": 0.62,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 434,
@@ -4834,7 +4946,8 @@
       "cutoffDelta": -0.3,
       "spread": 1.24,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 323,
@@ -4876,7 +4989,8 @@
       "cutoffDelta": -0.3,
       "spread": 1.38,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 695,
@@ -4918,7 +5032,8 @@
       "cutoffDelta": -0.303,
       "spread": 1,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 180,
@@ -4960,7 +5075,8 @@
       "cutoffDelta": -0.31,
       "spread": 0.55,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 383,
@@ -5002,7 +5118,8 @@
       "cutoffDelta": -0.323,
       "spread": 1.05,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 394,
@@ -5044,7 +5161,8 @@
       "cutoffDelta": -0.343,
       "spread": 0.95,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 494,
@@ -5086,7 +5204,8 @@
       "cutoffDelta": -0.363,
       "spread": 1.35,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 231,
@@ -5128,7 +5247,8 @@
       "cutoffDelta": -0.406,
       "spread": 1.39,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 334,
@@ -5170,7 +5290,8 @@
       "cutoffDelta": -0.433,
       "spread": 0.73,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 97,
@@ -5212,7 +5333,8 @@
       "cutoffDelta": -0.463,
       "spread": 0.6,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 624,
@@ -5254,7 +5376,8 @@
       "cutoffDelta": -0.463,
       "spread": 0.88,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 270,
@@ -5296,7 +5419,8 @@
       "cutoffDelta": -0.476,
       "spread": 1.43,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 53,
@@ -5338,7 +5462,8 @@
       "cutoffDelta": -0.493,
       "spread": 0.95,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 540,
@@ -5380,7 +5505,8 @@
       "cutoffDelta": -0.526,
       "spread": 1.65,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 50,
@@ -5422,7 +5548,8 @@
       "cutoffDelta": -0.56,
       "spread": 1,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 628,
@@ -5464,7 +5591,8 @@
       "cutoffDelta": -0.563,
       "spread": 0.5,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 528,
@@ -5506,7 +5634,8 @@
       "cutoffDelta": -0.636,
       "spread": 1.13,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 537,
@@ -5548,7 +5677,8 @@
       "cutoffDelta": -0.636,
       "spread": 1.3,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 193,
@@ -5590,7 +5720,8 @@
       "cutoffDelta": -0.666,
       "spread": 1.29,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 362,
@@ -5632,7 +5763,8 @@
       "cutoffDelta": -0.696,
       "spread": 1.4,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 320,
@@ -5674,7 +5806,8 @@
       "cutoffDelta": -0.71,
       "spread": 1.5,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 578,
@@ -5716,7 +5849,8 @@
       "cutoffDelta": -0.733,
       "spread": 1.37,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 576,
@@ -5758,7 +5892,8 @@
       "cutoffDelta": -0.733,
       "spread": 1.48,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 287,
@@ -5800,7 +5935,8 @@
       "cutoffDelta": -0.78,
       "spread": 1,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 457,
@@ -5842,7 +5978,8 @@
       "cutoffDelta": -0.783,
       "spread": 1.15,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 167,
@@ -5884,7 +6021,8 @@
       "cutoffDelta": -0.83,
       "spread": 1.28,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 625,
@@ -5926,7 +6064,8 @@
       "cutoffDelta": -0.843,
       "spread": 1.2,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 612,
@@ -5968,7 +6107,8 @@
       "cutoffDelta": -0.85,
       "spread": 1.29,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 16,
@@ -6010,7 +6150,8 @@
       "cutoffDelta": -0.933,
       "spread": 1.28,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 385,
@@ -6052,7 +6193,8 @@
       "cutoffDelta": -0.966,
       "spread": 1.16,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 37,
@@ -6094,7 +6236,8 @@
       "cutoffDelta": -0.983,
       "spread": 1.05,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 626,
@@ -6136,7 +6279,8 @@
       "cutoffDelta": -1.276,
       "spread": 1.34,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 55,
@@ -6178,7 +6322,8 @@
       "cutoffDelta": -1.416,
       "spread": 0.91,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 546,
@@ -6220,7 +6365,8 @@
       "cutoffDelta": -1.5,
       "spread": 0.65,
       "blockId": "A",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 460,
@@ -6262,7 +6408,8 @@
       "cutoffDelta": 1.15,
       "spread": 0.75,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 335,
@@ -6304,7 +6451,8 @@
       "cutoffDelta": 1.034,
       "spread": 0.7,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 424,
@@ -6346,7 +6494,8 @@
       "cutoffDelta": 0.984,
       "spread": 0.6,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 166,
@@ -6388,7 +6537,8 @@
       "cutoffDelta": 0.984,
       "spread": 1,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 1,
@@ -6430,7 +6580,8 @@
       "cutoffDelta": 0.984,
       "spread": 0.8,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 545,
@@ -6472,7 +6623,8 @@
       "cutoffDelta": 0.934,
       "spread": 0.5,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 141,
@@ -6514,7 +6666,8 @@
       "cutoffDelta": 0.917,
       "spread": 0.6,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 259,
@@ -6556,7 +6709,8 @@
       "cutoffDelta": 0.85,
       "spread": 0.6,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 254,
@@ -6598,7 +6752,8 @@
       "cutoffDelta": 0.834,
       "spread": 0.9,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 236,
@@ -6640,7 +6795,8 @@
       "cutoffDelta": 0.784,
       "spread": 0.55,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 720,
@@ -6682,7 +6838,8 @@
       "cutoffDelta": 0.684,
       "spread": 1,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 104,
@@ -6724,7 +6881,8 @@
       "cutoffDelta": 0.684,
       "spread": 0.95,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 95,
@@ -6766,7 +6924,8 @@
       "cutoffDelta": 0.634,
       "spread": 0.95,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 35,
@@ -6808,7 +6967,8 @@
       "cutoffDelta": 0.567,
       "spread": 0.7,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 431,
@@ -6850,7 +7010,8 @@
       "cutoffDelta": 0.534,
       "spread": 1.4,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 133,
@@ -6892,7 +7053,8 @@
       "cutoffDelta": 0.534,
       "spread": 1.1,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 107,
@@ -6934,7 +7096,8 @@
       "cutoffDelta": 0.517,
       "spread": 0.7,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 161,
@@ -6976,7 +7139,8 @@
       "cutoffDelta": 0.5,
       "spread": 0.6,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 116,
@@ -7018,7 +7182,8 @@
       "cutoffDelta": 0.5,
       "spread": 1.5,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 329,
@@ -7060,7 +7225,8 @@
       "cutoffDelta": 0.484,
       "spread": 1.05,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 564,
@@ -7102,7 +7268,8 @@
       "cutoffDelta": 0.484,
       "spread": 0.92,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 196,
@@ -7144,7 +7311,8 @@
       "cutoffDelta": 0.484,
       "spread": 0.9,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 483,
@@ -7186,7 +7354,8 @@
       "cutoffDelta": 0.484,
       "spread": 1.1,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 149,
@@ -7228,7 +7397,8 @@
       "cutoffDelta": 0.467,
       "spread": 0.45,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 429,
@@ -7270,7 +7440,8 @@
       "cutoffDelta": 0.467,
       "spread": 0.9,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 420,
@@ -7312,7 +7483,8 @@
       "cutoffDelta": 0.467,
       "spread": 1.3,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 157,
@@ -7354,7 +7526,8 @@
       "cutoffDelta": 0.467,
       "spread": 1.3,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 103,
@@ -7396,7 +7569,8 @@
       "cutoffDelta": 0.434,
       "spread": 0.9,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 451,
@@ -7438,7 +7612,8 @@
       "cutoffDelta": 0.434,
       "spread": 1.1,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 134,
@@ -7480,7 +7655,8 @@
       "cutoffDelta": 0.384,
       "spread": 0.4,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 327,
@@ -7522,7 +7698,8 @@
       "cutoffDelta": 0.367,
       "spread": 0.65,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 237,
@@ -7564,7 +7741,8 @@
       "cutoffDelta": 0.367,
       "spread": 0.35,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 188,
@@ -7606,7 +7784,8 @@
       "cutoffDelta": 0.317,
       "spread": 0.6,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 163,
@@ -7648,7 +7827,8 @@
       "cutoffDelta": 0.317,
       "spread": 1.15,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 264,
@@ -7690,7 +7870,8 @@
       "cutoffDelta": 0.317,
       "spread": 0.4,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 260,
@@ -7732,7 +7913,8 @@
       "cutoffDelta": 0.3,
       "spread": 0.7,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 659,
@@ -7774,7 +7956,8 @@
       "cutoffDelta": 0.284,
       "spread": 0.8,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 541,
@@ -7816,7 +7999,8 @@
       "cutoffDelta": 0.267,
       "spread": 1.1,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 233,
@@ -7858,7 +8042,8 @@
       "cutoffDelta": 0.25,
       "spread": 1.95,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 488,
@@ -7900,7 +8085,8 @@
       "cutoffDelta": 0.217,
       "spread": 1.15,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 228,
@@ -7942,7 +8128,8 @@
       "cutoffDelta": 0.217,
       "spread": 1.1,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 274,
@@ -7984,7 +8171,8 @@
       "cutoffDelta": 0.2,
       "spread": 0.8,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 485,
@@ -8026,7 +8214,8 @@
       "cutoffDelta": 0.2,
       "spread": 1.5,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 344,
@@ -8068,7 +8257,8 @@
       "cutoffDelta": 0.2,
       "spread": 0.85,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 128,
@@ -8110,7 +8300,8 @@
       "cutoffDelta": 0.184,
       "spread": 0.35,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 125,
@@ -8152,7 +8343,8 @@
       "cutoffDelta": 0.184,
       "spread": 0.3,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 512,
@@ -8194,7 +8386,8 @@
       "cutoffDelta": 0.167,
       "spread": 0.6,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 473,
@@ -8236,7 +8429,8 @@
       "cutoffDelta": 0.134,
       "spread": 0.3,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 83,
@@ -8278,7 +8472,8 @@
       "cutoffDelta": 0.134,
       "spread": 0.4,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 313,
@@ -8320,7 +8515,8 @@
       "cutoffDelta": 0.117,
       "spread": 0.25,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 229,
@@ -8362,7 +8558,8 @@
       "cutoffDelta": 0.1,
       "spread": 1.35,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 565,
@@ -8404,7 +8601,8 @@
       "cutoffDelta": 0.084,
       "spread": 1.2,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 153,
@@ -8446,7 +8644,8 @@
       "cutoffDelta": 0.084,
       "spread": 0.6,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 687,
@@ -8488,7 +8687,8 @@
       "cutoffDelta": 0.067,
       "spread": 0.8,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 418,
@@ -8530,7 +8730,8 @@
       "cutoffDelta": 0.067,
       "spread": 1.3,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 115,
@@ -8572,7 +8773,8 @@
       "cutoffDelta": 0.067,
       "spread": 0.95,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 61,
@@ -8614,7 +8816,8 @@
       "cutoffDelta": 0.067,
       "spread": 1,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 10,
@@ -8656,7 +8859,8 @@
       "cutoffDelta": 0.05,
       "spread": 1.4,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 428,
@@ -8698,7 +8902,8 @@
       "cutoffDelta": 0.017,
       "spread": 0.4,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 148,
@@ -8740,7 +8945,8 @@
       "cutoffDelta": 0,
       "spread": 1.2,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 484,
@@ -8782,7 +8988,8 @@
       "cutoffDelta": 0,
       "spread": 1.1,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 454,
@@ -8824,7 +9031,8 @@
       "cutoffDelta": 0,
       "spread": 1.4,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 350,
@@ -8866,7 +9074,8 @@
       "cutoffDelta": 0,
       "spread": 0.45,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 515,
@@ -8908,7 +9117,8 @@
       "cutoffDelta": 0,
       "spread": 0.95,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 210,
@@ -8950,7 +9160,8 @@
       "cutoffDelta": -0.016,
       "spread": 0.7,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 321,
@@ -8992,7 +9203,8 @@
       "cutoffDelta": -0.016,
       "spread": 1.05,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 245,
@@ -9034,7 +9246,8 @@
       "cutoffDelta": -0.033,
       "spread": 0.7,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 588,
@@ -9076,7 +9289,8 @@
       "cutoffDelta": -0.033,
       "spread": 1,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 73,
@@ -9118,7 +9332,8 @@
       "cutoffDelta": -0.05,
       "spread": 0.85,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 111,
@@ -9160,7 +9375,8 @@
       "cutoffDelta": -0.066,
       "spread": 1.15,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 225,
@@ -9202,7 +9418,8 @@
       "cutoffDelta": -0.1,
       "spread": 0.8,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 398,
@@ -9244,7 +9461,8 @@
       "cutoffDelta": -0.1,
       "spread": 0.5,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 619,
@@ -9286,7 +9504,8 @@
       "cutoffDelta": -0.1,
       "spread": 1.1,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 306,
@@ -9328,7 +9547,8 @@
       "cutoffDelta": -0.116,
       "spread": 0.7,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 94,
@@ -9370,7 +9590,8 @@
       "cutoffDelta": -0.116,
       "spread": 1.7,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 544,
@@ -9412,7 +9633,8 @@
       "cutoffDelta": -0.133,
       "spread": 1,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 331,
@@ -9454,7 +9676,8 @@
       "cutoffDelta": -0.166,
       "spread": 1.4,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 680,
@@ -9496,7 +9719,8 @@
       "cutoffDelta": -0.183,
       "spread": 1.8,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 108,
@@ -9538,7 +9762,8 @@
       "cutoffDelta": -0.2,
       "spread": 1.05,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 474,
@@ -9580,7 +9805,8 @@
       "cutoffDelta": -0.2,
       "spread": 0.8,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 432,
@@ -9622,7 +9848,8 @@
       "cutoffDelta": -0.216,
       "spread": 1.55,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 617,
@@ -9664,7 +9891,8 @@
       "cutoffDelta": -0.233,
       "spread": 1.15,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 140,
@@ -9706,7 +9934,8 @@
       "cutoffDelta": -0.233,
       "spread": 0.75,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 6,
@@ -9748,7 +9977,8 @@
       "cutoffDelta": -0.25,
       "spread": 1.1,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 307,
@@ -9790,7 +10020,8 @@
       "cutoffDelta": -0.3,
       "spread": 1.1,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 563,
@@ -9832,7 +10063,8 @@
       "cutoffDelta": -0.3,
       "spread": 0.9,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 203,
@@ -9874,7 +10106,8 @@
       "cutoffDelta": -0.316,
       "spread": 1.2,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 446,
@@ -9916,7 +10149,8 @@
       "cutoffDelta": -0.316,
       "spread": 1.1,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 22,
@@ -9958,7 +10192,8 @@
       "cutoffDelta": -0.316,
       "spread": 1.55,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 319,
@@ -10000,7 +10235,8 @@
       "cutoffDelta": -0.333,
       "spread": 1.5,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 299,
@@ -10042,7 +10278,8 @@
       "cutoffDelta": -0.35,
       "spread": 1.2,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 241,
@@ -10084,7 +10321,8 @@
       "cutoffDelta": -0.35,
       "spread": 1.5,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 98,
@@ -10126,7 +10364,8 @@
       "cutoffDelta": -0.366,
       "spread": 1.38,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 375,
@@ -10168,7 +10407,8 @@
       "cutoffDelta": -0.4,
       "spread": 0.62,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 651,
@@ -10210,7 +10450,8 @@
       "cutoffDelta": -0.416,
       "spread": 1.2,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 32,
@@ -10252,7 +10493,8 @@
       "cutoffDelta": -0.433,
       "spread": 0.95,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 475,
@@ -10294,7 +10536,8 @@
       "cutoffDelta": -0.433,
       "spread": 1.1,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 324,
@@ -10336,7 +10579,8 @@
       "cutoffDelta": -0.466,
       "spread": 0.8,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 239,
@@ -10378,7 +10622,8 @@
       "cutoffDelta": -0.5,
       "spread": 0.9,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 548,
@@ -10420,7 +10665,8 @@
       "cutoffDelta": -0.5,
       "spread": 1.6,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 261,
@@ -10462,7 +10708,8 @@
       "cutoffDelta": -0.5,
       "spread": 1.4,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 555,
@@ -10504,7 +10751,8 @@
       "cutoffDelta": -0.516,
       "spread": 1.35,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 64,
@@ -10546,7 +10794,8 @@
       "cutoffDelta": -0.516,
       "spread": 0.55,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 652,
@@ -10588,7 +10837,8 @@
       "cutoffDelta": -0.533,
       "spread": 1.35,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 268,
@@ -10630,7 +10880,8 @@
       "cutoffDelta": -0.533,
       "spread": 1.5,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 616,
@@ -10672,7 +10923,8 @@
       "cutoffDelta": -0.533,
       "spread": 1.2,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 346,
@@ -10714,7 +10966,8 @@
       "cutoffDelta": -0.55,
       "spread": 0.8,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 230,
@@ -10756,7 +11009,8 @@
       "cutoffDelta": -0.583,
       "spread": 1.3,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 202,
@@ -10798,7 +11052,8 @@
       "cutoffDelta": -0.633,
       "spread": 1.1,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 122,
@@ -10840,7 +11095,8 @@
       "cutoffDelta": -0.7,
       "spread": 1.1,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 216,
@@ -10882,7 +11138,8 @@
       "cutoffDelta": -0.7,
       "spread": 1.2,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 38,
@@ -10924,7 +11181,8 @@
       "cutoffDelta": -0.716,
       "spread": 0.8,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 77,
@@ -10966,7 +11224,8 @@
       "cutoffDelta": -0.74,
       "spread": 1.6,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 361,
@@ -11008,7 +11267,8 @@
       "cutoffDelta": -0.766,
       "spread": 1,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 221,
@@ -11050,7 +11310,8 @@
       "cutoffDelta": -0.766,
       "spread": 1.7,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 90,
@@ -11092,7 +11353,8 @@
       "cutoffDelta": -0.8,
       "spread": 1.1,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 411,
@@ -11134,7 +11396,8 @@
       "cutoffDelta": -0.8,
       "spread": 1.4,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 374,
@@ -11176,7 +11439,8 @@
       "cutoffDelta": -0.85,
       "spread": 1.5,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 170,
@@ -11218,7 +11482,8 @@
       "cutoffDelta": -0.85,
       "spread": 0.5,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 599,
@@ -11260,7 +11525,8 @@
       "cutoffDelta": -0.933,
       "spread": 0.6,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 135,
@@ -11302,7 +11568,8 @@
       "cutoffDelta": -0.933,
       "spread": 0.9,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 562,
@@ -11344,7 +11611,8 @@
       "cutoffDelta": -0.983,
       "spread": 0.65,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 294,
@@ -11386,7 +11654,8 @@
       "cutoffDelta": -1,
       "spread": 0.5,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 105,
@@ -11428,7 +11697,8 @@
       "cutoffDelta": -1.166,
       "spread": 0.4,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 214,
@@ -11470,7 +11740,8 @@
       "cutoffDelta": -1.3,
       "spread": 0.8,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 152,
@@ -11512,7 +11783,8 @@
       "cutoffDelta": -1.3,
       "spread": 0.7,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 219,
@@ -11554,7 +11826,8 @@
       "cutoffDelta": -1.466,
       "spread": 0.5,
       "blockId": "B",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 519,
@@ -11596,7 +11869,8 @@
       "cutoffDelta": 0.59,
       "spread": 0.62,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 347,
@@ -11638,7 +11912,8 @@
       "cutoffDelta": 0.567,
       "spread": 0.77,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 665,
@@ -11680,7 +11955,8 @@
       "cutoffDelta": 0.513,
       "spread": 0.67,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 293,
@@ -11722,7 +11998,8 @@
       "cutoffDelta": 0.48,
       "spread": 0.1,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 678,
@@ -11764,7 +12041,8 @@
       "cutoffDelta": 0.463,
       "spread": 0.43,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 151,
@@ -11806,7 +12084,8 @@
       "cutoffDelta": 0.457,
       "spread": 0.42,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 29,
@@ -11848,7 +12127,8 @@
       "cutoffDelta": 0.423,
       "spread": 0.15,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 31,
@@ -11890,7 +12170,8 @@
       "cutoffDelta": 0.413,
       "spread": 0.47,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 518,
@@ -11932,7 +12213,8 @@
       "cutoffDelta": 0.413,
       "spread": 0.23,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 301,
@@ -11974,7 +12256,8 @@
       "cutoffDelta": 0.39,
       "spread": 0.28,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 337,
@@ -12016,7 +12299,8 @@
       "cutoffDelta": 0.38,
       "spread": 0.58,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 461,
@@ -12058,7 +12342,8 @@
       "cutoffDelta": 0.363,
       "spread": 0.37,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 462,
@@ -12100,7 +12385,8 @@
       "cutoffDelta": 0.36,
       "spread": 0.52,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 469,
@@ -12142,7 +12428,8 @@
       "cutoffDelta": 0.34,
       "spread": 0.15,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 5,
@@ -12184,7 +12471,8 @@
       "cutoffDelta": 0.34,
       "spread": 0.11,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 300,
@@ -12226,7 +12514,8 @@
       "cutoffDelta": 0.337,
       "spread": 0.7,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 66,
@@ -12268,7 +12557,8 @@
       "cutoffDelta": 0.32,
       "spread": 0.45,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 423,
@@ -12310,7 +12600,8 @@
       "cutoffDelta": 0.317,
       "spread": 0.3,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 330,
@@ -12352,7 +12643,8 @@
       "cutoffDelta": 0.313,
       "spread": 0.85,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 517,
@@ -12394,7 +12686,8 @@
       "cutoffDelta": 0.3,
       "spread": 0.15,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 244,
@@ -12436,7 +12729,8 @@
       "cutoffDelta": 0.297,
       "spread": 0.2,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 348,
@@ -12478,7 +12772,8 @@
       "cutoffDelta": 0.293,
       "spread": 0.25,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 311,
@@ -12520,7 +12815,8 @@
       "cutoffDelta": 0.283,
       "spread": 0.6,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 600,
@@ -12562,7 +12858,8 @@
       "cutoffDelta": 0.28,
       "spread": 0.55,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 267,
@@ -12604,7 +12901,8 @@
       "cutoffDelta": 0.273,
       "spread": 0.43,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 187,
@@ -12646,7 +12944,8 @@
       "cutoffDelta": 0.27,
       "spread": 0.4,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 192,
@@ -12688,7 +12987,8 @@
       "cutoffDelta": 0.25,
       "spread": 1,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 162,
@@ -12730,7 +13030,8 @@
       "cutoffDelta": 0.24,
       "spread": 0.36,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 48,
@@ -12772,7 +13073,8 @@
       "cutoffDelta": 0.233,
       "spread": 0.7,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 389,
@@ -12814,7 +13116,8 @@
       "cutoffDelta": 0.233,
       "spread": 0.2,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 276,
@@ -12856,7 +13159,8 @@
       "cutoffDelta": 0.227,
       "spread": 0.25,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 553,
@@ -12898,7 +13202,8 @@
       "cutoffDelta": 0.227,
       "spread": 0.39,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 441,
@@ -12940,7 +13245,8 @@
       "cutoffDelta": 0.213,
       "spread": 0.16,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 247,
@@ -12982,7 +13288,8 @@
       "cutoffDelta": 0.213,
       "spread": 0.34,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 226,
@@ -13024,7 +13331,8 @@
       "cutoffDelta": 0.207,
       "spread": 0.45,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 23,
@@ -13066,7 +13374,8 @@
       "cutoffDelta": 0.19,
       "spread": 0.3,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 357,
@@ -13108,7 +13417,8 @@
       "cutoffDelta": 0.187,
       "spread": 0.42,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 200,
@@ -13150,7 +13460,8 @@
       "cutoffDelta": 0.183,
       "spread": 0.38,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 246,
@@ -13192,7 +13503,8 @@
       "cutoffDelta": 0.183,
       "spread": 0.55,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 476,
@@ -13234,7 +13546,8 @@
       "cutoffDelta": 0.18,
       "spread": 0.48,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 500,
@@ -13276,7 +13589,8 @@
       "cutoffDelta": 0.177,
       "spread": 0.57,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 156,
@@ -13318,7 +13632,8 @@
       "cutoffDelta": 0.177,
       "spread": 0.6,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 580,
@@ -13360,7 +13675,8 @@
       "cutoffDelta": 0.17,
       "spread": 0.21,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 725,
@@ -13402,7 +13718,8 @@
       "cutoffDelta": 0.167,
       "spread": 0.33,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 36,
@@ -13444,7 +13761,8 @@
       "cutoffDelta": 0.167,
       "spread": 0.65,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 373,
@@ -13486,7 +13804,8 @@
       "cutoffDelta": 0.163,
       "spread": 0.17,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 155,
@@ -13528,7 +13847,8 @@
       "cutoffDelta": 0.16,
       "spread": 0.58,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 585,
@@ -13570,7 +13890,8 @@
       "cutoffDelta": 0.157,
       "spread": 0.65,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 412,
@@ -13612,7 +13933,8 @@
       "cutoffDelta": 0.157,
       "spread": 0.7,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 363,
@@ -13654,7 +13976,8 @@
       "cutoffDelta": 0.153,
       "spread": 0.35,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 568,
@@ -13696,7 +14019,8 @@
       "cutoffDelta": 0.15,
       "spread": 0.32,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 138,
@@ -13738,7 +14062,8 @@
       "cutoffDelta": 0.15,
       "spread": 0.42,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 40,
@@ -13780,7 +14105,8 @@
       "cutoffDelta": 0.143,
       "spread": 0.16,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 529,
@@ -13822,7 +14148,8 @@
       "cutoffDelta": 0.143,
       "spread": 0.3,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 25,
@@ -13864,7 +14191,8 @@
       "cutoffDelta": 0.137,
       "spread": 0.52,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 392,
@@ -13906,7 +14234,8 @@
       "cutoffDelta": 0.133,
       "spread": 0.75,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 407,
@@ -13948,7 +14277,8 @@
       "cutoffDelta": 0.127,
       "spread": 0.31,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 399,
@@ -13990,7 +14320,8 @@
       "cutoffDelta": 0.127,
       "spread": 0.35,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 60,
@@ -14032,7 +14363,8 @@
       "cutoffDelta": 0.117,
       "spread": 0.72,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 351,
@@ -14074,7 +14406,8 @@
       "cutoffDelta": 0.113,
       "spread": 0.8,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 4,
@@ -14116,7 +14449,8 @@
       "cutoffDelta": 0.107,
       "spread": 0.25,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 400,
@@ -14158,7 +14492,8 @@
       "cutoffDelta": 0.103,
       "spread": 0.7,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 234,
@@ -14200,7 +14535,8 @@
       "cutoffDelta": 0.1,
       "spread": 0.59,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 402,
@@ -14242,7 +14578,8 @@
       "cutoffDelta": 0.097,
       "spread": 0.55,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 124,
@@ -14284,7 +14621,8 @@
       "cutoffDelta": 0.09,
       "spread": 0.72,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 9,
@@ -14326,7 +14664,8 @@
       "cutoffDelta": 0.08,
       "spread": 0.45,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 587,
@@ -14368,7 +14707,8 @@
       "cutoffDelta": 0.067,
       "spread": 0.48,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 113,
@@ -14410,7 +14750,8 @@
       "cutoffDelta": 0.057,
       "spread": 0.21,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 534,
@@ -14452,7 +14793,8 @@
       "cutoffDelta": 0.047,
       "spread": 0.81,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 290,
@@ -14494,7 +14836,8 @@
       "cutoffDelta": 0.037,
       "spread": 0.74,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 479,
@@ -14536,7 +14879,8 @@
       "cutoffDelta": 0.017,
       "spread": 0.7,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 328,
@@ -14578,7 +14922,8 @@
       "cutoffDelta": 0.01,
       "spread": 0.45,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 666,
@@ -14620,7 +14965,8 @@
       "cutoffDelta": 0,
       "spread": 0.78,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 174,
@@ -14662,7 +15008,8 @@
       "cutoffDelta": 0,
       "spread": 0.36,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 498,
@@ -14704,7 +15051,8 @@
       "cutoffDelta": 0,
       "spread": 0.62,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 655,
@@ -14746,7 +15094,8 @@
       "cutoffDelta": -0.003,
       "spread": 0.88,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 610,
@@ -14788,7 +15137,8 @@
       "cutoffDelta": -0.007,
       "spread": 0.59,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 123,
@@ -14830,7 +15180,8 @@
       "cutoffDelta": -0.013,
       "spread": 0.65,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 593,
@@ -14872,7 +15223,8 @@
       "cutoffDelta": -0.023,
       "spread": 1.3,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 527,
@@ -14914,7 +15266,8 @@
       "cutoffDelta": -0.027,
       "spread": 0.8,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 137,
@@ -14956,7 +15309,8 @@
       "cutoffDelta": -0.03,
       "spread": 0.77,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 613,
@@ -14998,7 +15352,8 @@
       "cutoffDelta": -0.037,
       "spread": 0.5,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 354,
@@ -15040,7 +15395,8 @@
       "cutoffDelta": -0.037,
       "spread": 0.38,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 265,
@@ -15082,7 +15438,8 @@
       "cutoffDelta": -0.043,
       "spread": 0.88,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 99,
@@ -15124,7 +15481,8 @@
       "cutoffDelta": -0.043,
       "spread": 0.63,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 143,
@@ -15166,7 +15524,8 @@
       "cutoffDelta": -0.05,
       "spread": 0.39,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 178,
@@ -15208,7 +15567,8 @@
       "cutoffDelta": -0.067,
       "spread": 0.3,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 503,
@@ -15250,7 +15610,8 @@
       "cutoffDelta": -0.07,
       "spread": 0.91,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 280,
@@ -15292,7 +15653,8 @@
       "cutoffDelta": -0.08,
       "spread": 0.76,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 74,
@@ -15334,7 +15696,8 @@
       "cutoffDelta": -0.083,
       "spread": 0.8,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 85,
@@ -15376,7 +15739,8 @@
       "cutoffDelta": -0.093,
       "spread": 0.66,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 602,
@@ -15418,7 +15782,8 @@
       "cutoffDelta": -0.1,
       "spread": 0.88,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 637,
@@ -15460,7 +15825,8 @@
       "cutoffDelta": -0.103,
       "spread": 0.75,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 172,
@@ -15502,7 +15868,8 @@
       "cutoffDelta": -0.117,
       "spread": 1.12,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 275,
@@ -15544,7 +15911,8 @@
       "cutoffDelta": -0.12,
       "spread": 0.8,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 597,
@@ -15586,7 +15954,8 @@
       "cutoffDelta": -0.127,
       "spread": 1.22,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 601,
@@ -15628,7 +15997,8 @@
       "cutoffDelta": -0.127,
       "spread": 1.15,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 258,
@@ -15670,7 +16040,8 @@
       "cutoffDelta": -0.133,
       "spread": 0.9,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 648,
@@ -15712,7 +16083,8 @@
       "cutoffDelta": -0.14,
       "spread": 1.08,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 191,
@@ -15754,7 +16126,8 @@
       "cutoffDelta": -0.143,
       "spread": 0.68,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 304,
@@ -15796,7 +16169,8 @@
       "cutoffDelta": -0.143,
       "spread": 1.05,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 478,
@@ -15838,7 +16212,8 @@
       "cutoffDelta": -0.193,
       "spread": 0.7,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 566,
@@ -15880,7 +16255,8 @@
       "cutoffDelta": -0.223,
       "spread": 0.93,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 502,
@@ -15922,7 +16298,8 @@
       "cutoffDelta": -0.227,
       "spread": 1.05,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 190,
@@ -15964,7 +16341,8 @@
       "cutoffDelta": -0.227,
       "spread": 0.91,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 343,
@@ -16006,7 +16384,8 @@
       "cutoffDelta": -0.233,
       "spread": 0.64,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 382,
@@ -16048,7 +16427,8 @@
       "cutoffDelta": -0.293,
       "spread": 0.57,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 106,
@@ -16090,7 +16470,8 @@
       "cutoffDelta": -0.3,
       "spread": 0.7,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 401,
@@ -16132,7 +16513,8 @@
       "cutoffDelta": -0.303,
       "spread": 0.5,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 570,
@@ -16174,7 +16556,8 @@
       "cutoffDelta": -0.307,
       "spread": 0.75,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 355,
@@ -16216,7 +16599,8 @@
       "cutoffDelta": -0.31,
       "spread": 1.28,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 47,
@@ -16258,7 +16642,8 @@
       "cutoffDelta": -0.323,
       "spread": 0.55,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 353,
@@ -16300,7 +16685,8 @@
       "cutoffDelta": -0.323,
       "spread": 1,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 574,
@@ -16342,7 +16728,8 @@
       "cutoffDelta": -0.34,
       "spread": 0.9,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 266,
@@ -16384,7 +16771,8 @@
       "cutoffDelta": -0.353,
       "spread": 0.6,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 650,
@@ -16426,7 +16814,8 @@
       "cutoffDelta": -0.383,
       "spread": 0.75,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 150,
@@ -16468,7 +16857,8 @@
       "cutoffDelta": -0.387,
       "spread": 0.75,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 205,
@@ -16510,7 +16900,8 @@
       "cutoffDelta": -0.393,
       "spread": 0.45,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 121,
@@ -16552,7 +16943,8 @@
       "cutoffDelta": -0.417,
       "spread": 0.95,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 551,
@@ -16594,7 +16986,8 @@
       "cutoffDelta": -0.42,
       "spread": 0.92,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 272,
@@ -16636,7 +17029,8 @@
       "cutoffDelta": -0.423,
       "spread": 0.45,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 614,
@@ -16678,7 +17072,8 @@
       "cutoffDelta": -0.443,
       "spread": 0.7,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 571,
@@ -16720,7 +17115,8 @@
       "cutoffDelta": -0.457,
       "spread": 1.02,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 269,
@@ -16762,7 +17158,8 @@
       "cutoffDelta": -0.483,
       "spread": 0.75,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 7,
@@ -16804,7 +17201,8 @@
       "cutoffDelta": -0.487,
       "spread": 0.8,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 561,
@@ -16846,7 +17244,8 @@
       "cutoffDelta": -0.49,
       "spread": 0.75,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 369,
@@ -16888,7 +17287,8 @@
       "cutoffDelta": -0.493,
       "spread": 0.35,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 11,
@@ -16930,7 +17330,8 @@
       "cutoffDelta": -0.523,
       "spread": 0.85,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 127,
@@ -16972,7 +17373,8 @@
       "cutoffDelta": -0.53,
       "spread": 1.17,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 326,
@@ -17014,7 +17416,8 @@
       "cutoffDelta": -0.533,
       "spread": 0.5,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 19,
@@ -17056,7 +17459,8 @@
       "cutoffDelta": -0.55,
       "spread": 0.8,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 611,
@@ -17098,7 +17502,8 @@
       "cutoffDelta": -0.56,
       "spread": 1.35,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 65,
@@ -17140,7 +17545,8 @@
       "cutoffDelta": -0.583,
       "spread": 0.9,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 525,
@@ -17182,7 +17588,8 @@
       "cutoffDelta": -0.59,
       "spread": 1.1,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 183,
@@ -17224,7 +17631,8 @@
       "cutoffDelta": -0.597,
       "spread": 0.65,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 371,
@@ -17266,7 +17674,8 @@
       "cutoffDelta": -0.603,
       "spread": 0.74,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 413,
@@ -17308,7 +17717,8 @@
       "cutoffDelta": -0.607,
       "spread": 0.91,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 607,
@@ -17350,7 +17760,8 @@
       "cutoffDelta": -0.613,
       "spread": 0.82,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 43,
@@ -17392,7 +17803,8 @@
       "cutoffDelta": -0.637,
       "spread": 0.7,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 629,
@@ -17434,7 +17846,8 @@
       "cutoffDelta": -0.643,
       "spread": 1.05,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 147,
@@ -17476,7 +17889,8 @@
       "cutoffDelta": -0.75,
       "spread": 1.15,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 253,
@@ -17518,7 +17932,8 @@
       "cutoffDelta": -0.75,
       "spread": 1.05,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 506,
@@ -17560,7 +17975,8 @@
       "cutoffDelta": -0.82,
       "spread": 0.97,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 67,
@@ -17602,7 +18018,8 @@
       "cutoffDelta": -0.827,
       "spread": 0.51,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 14,
@@ -17644,7 +18061,8 @@
       "cutoffDelta": -0.877,
       "spread": 1.05,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 262,
@@ -17686,7 +18104,8 @@
       "cutoffDelta": -0.877,
       "spread": 0.73,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 623,
@@ -17728,7 +18147,8 @@
       "cutoffDelta": -1.093,
       "spread": 0.99,
       "blockId": "C",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 139,
@@ -17770,7 +18190,8 @@
       "cutoffDelta": 0.88,
       "spread": 0.9,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 91,
@@ -17812,7 +18233,8 @@
       "cutoffDelta": 0.797,
       "spread": 0.2,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 440,
@@ -17854,7 +18276,8 @@
       "cutoffDelta": 0.7,
       "spread": 0.45,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 447,
@@ -17896,7 +18319,8 @@
       "cutoffDelta": 0.683,
       "spread": 0.45,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 263,
@@ -17938,7 +18362,8 @@
       "cutoffDelta": 0.65,
       "spread": 0.75,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 159,
@@ -17980,7 +18405,8 @@
       "cutoffDelta": 0.643,
       "spread": 0.5,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 390,
@@ -18022,7 +18448,8 @@
       "cutoffDelta": 0.64,
       "spread": 1.1,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 572,
@@ -18064,7 +18491,8 @@
       "cutoffDelta": 0.633,
       "spread": 0.35,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 273,
@@ -18106,7 +18534,8 @@
       "cutoffDelta": 0.633,
       "spread": 0.52,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 145,
@@ -18148,7 +18577,8 @@
       "cutoffDelta": 0.633,
       "spread": 0.8,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 322,
@@ -18190,7 +18620,8 @@
       "cutoffDelta": 0.62,
       "spread": 0.25,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 277,
@@ -18232,7 +18663,8 @@
       "cutoffDelta": 0.573,
       "spread": 0.6,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 393,
@@ -18274,7 +18706,8 @@
       "cutoffDelta": 0.553,
       "spread": 0.55,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 26,
@@ -18316,7 +18749,8 @@
       "cutoffDelta": 0.55,
       "spread": 0.58,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 250,
@@ -18358,7 +18792,8 @@
       "cutoffDelta": 0.55,
       "spread": 0.59,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 176,
@@ -18400,7 +18835,8 @@
       "cutoffDelta": 0.533,
       "spread": 0.55,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 405,
@@ -18442,7 +18878,8 @@
       "cutoffDelta": 0.527,
       "spread": 0.7,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 533,
@@ -18484,7 +18921,8 @@
       "cutoffDelta": 0.517,
       "spread": 0.5,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 573,
@@ -18526,7 +18964,8 @@
       "cutoffDelta": 0.5,
       "spread": 0.55,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 54,
@@ -18568,7 +19007,8 @@
       "cutoffDelta": 0.493,
       "spread": 1.7,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 211,
@@ -18610,7 +19050,8 @@
       "cutoffDelta": 0.467,
       "spread": 0.8,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 177,
@@ -18652,7 +19093,8 @@
       "cutoffDelta": 0.467,
       "spread": 0.25,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 452,
@@ -18694,7 +19136,8 @@
       "cutoffDelta": 0.467,
       "spread": 0.8,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 278,
@@ -18736,7 +19179,8 @@
       "cutoffDelta": 0.433,
       "spread": 1.1,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 332,
@@ -18778,7 +19222,8 @@
       "cutoffDelta": 0.417,
       "spread": 0.4,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 70,
@@ -18820,7 +19265,8 @@
       "cutoffDelta": 0.4,
       "spread": 0.35,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 69,
@@ -18862,7 +19308,8 @@
       "cutoffDelta": 0.39,
       "spread": 1.15,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 217,
@@ -18904,7 +19351,8 @@
       "cutoffDelta": 0.383,
       "spread": 0.55,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 567,
@@ -18946,7 +19394,8 @@
       "cutoffDelta": 0.37,
       "spread": 0.4,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 204,
@@ -18988,7 +19437,8 @@
       "cutoffDelta": 0.363,
       "spread": 0.9,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 51,
@@ -19030,7 +19480,8 @@
       "cutoffDelta": 0.357,
       "spread": 0.65,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 660,
@@ -19072,7 +19523,8 @@
       "cutoffDelta": 0.35,
       "spread": 0.5,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 406,
@@ -19114,7 +19566,8 @@
       "cutoffDelta": 0.317,
       "spread": 0.9,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 379,
@@ -19156,7 +19609,8 @@
       "cutoffDelta": 0.3,
       "spread": 0.21,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 388,
@@ -19198,7 +19652,8 @@
       "cutoffDelta": 0.283,
       "spread": 0.3,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 242,
@@ -19240,7 +19695,8 @@
       "cutoffDelta": 0.283,
       "spread": 1.35,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 443,
@@ -19282,7 +19738,8 @@
       "cutoffDelta": 0.25,
       "spread": 0.25,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 657,
@@ -19324,7 +19781,8 @@
       "cutoffDelta": 0.25,
       "spread": 1.27,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 129,
@@ -19366,7 +19824,8 @@
       "cutoffDelta": 0.233,
       "spread": 1.16,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 372,
@@ -19408,7 +19867,8 @@
       "cutoffDelta": 0.217,
       "spread": 0.45,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 422,
@@ -19450,7 +19910,8 @@
       "cutoffDelta": 0.217,
       "spread": 0.68,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 489,
@@ -19492,7 +19953,8 @@
       "cutoffDelta": 0.217,
       "spread": 0.6,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 142,
@@ -19534,7 +19996,8 @@
       "cutoffDelta": 0.2,
       "spread": 0.9,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 538,
@@ -19576,7 +20039,8 @@
       "cutoffDelta": 0.193,
       "spread": 1.3,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 185,
@@ -19618,7 +20082,8 @@
       "cutoffDelta": 0.187,
       "spread": 0.7,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 634,
@@ -19660,7 +20125,8 @@
       "cutoffDelta": 0.183,
       "spread": 1,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 421,
@@ -19702,7 +20168,8 @@
       "cutoffDelta": 0.177,
       "spread": 0.85,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 693,
@@ -19744,7 +20211,8 @@
       "cutoffDelta": 0.167,
       "spread": 0.45,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 68,
@@ -19786,7 +20254,8 @@
       "cutoffDelta": 0.15,
       "spread": 0.38,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 71,
@@ -19828,7 +20297,8 @@
       "cutoffDelta": 0.15,
       "spread": 1.75,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 57,
@@ -19870,7 +20340,8 @@
       "cutoffDelta": 0.133,
       "spread": 1,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 381,
@@ -19912,7 +20383,8 @@
       "cutoffDelta": 0.097,
       "spread": 1.1,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 160,
@@ -19954,7 +20426,8 @@
       "cutoffDelta": 0.093,
       "spread": 1,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 408,
@@ -19996,7 +20469,8 @@
       "cutoffDelta": 0.083,
       "spread": 1.7,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 292,
@@ -20038,7 +20512,8 @@
       "cutoffDelta": 0.08,
       "spread": 0.31,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 33,
@@ -20080,7 +20555,8 @@
       "cutoffDelta": 0.05,
       "spread": 1.65,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 549,
@@ -20122,7 +20598,8 @@
       "cutoffDelta": 0.033,
       "spread": 1.35,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 309,
@@ -20164,7 +20641,8 @@
       "cutoffDelta": 0.023,
       "spread": 1.75,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 314,
@@ -20206,7 +20684,8 @@
       "cutoffDelta": 0.017,
       "spread": 1.3,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 384,
@@ -20248,7 +20727,8 @@
       "cutoffDelta": 0.017,
       "spread": 0.9,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 218,
@@ -20290,7 +20770,8 @@
       "cutoffDelta": 0.017,
       "spread": 0.4,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 496,
@@ -20332,7 +20813,8 @@
       "cutoffDelta": 0.017,
       "spread": 1.4,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 458,
@@ -20374,7 +20856,8 @@
       "cutoffDelta": 0,
       "spread": 0.98,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 508,
@@ -20416,7 +20899,8 @@
       "cutoffDelta": 0,
       "spread": 0.95,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 584,
@@ -20458,7 +20942,8 @@
       "cutoffDelta": 0,
       "spread": 1.35,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 24,
@@ -20500,7 +20985,8 @@
       "cutoffDelta": -0.007,
       "spread": 1.05,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 201,
@@ -20542,7 +21028,8 @@
       "cutoffDelta": -0.017,
       "spread": 0.66,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 297,
@@ -20584,7 +21071,8 @@
       "cutoffDelta": -0.017,
       "spread": 1.05,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 28,
@@ -20626,7 +21114,8 @@
       "cutoffDelta": -0.03,
       "spread": 1.4,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 396,
@@ -20668,7 +21157,8 @@
       "cutoffDelta": -0.033,
       "spread": 0.43,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 126,
@@ -20710,7 +21200,8 @@
       "cutoffDelta": -0.033,
       "spread": 0.75,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 532,
@@ -20752,7 +21243,8 @@
       "cutoffDelta": -0.05,
       "spread": 0.95,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 497,
@@ -20794,7 +21286,8 @@
       "cutoffDelta": -0.063,
       "spread": 0.87,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 359,
@@ -20836,7 +21329,8 @@
       "cutoffDelta": -0.067,
       "spread": 0.85,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 535,
@@ -20878,7 +21372,8 @@
       "cutoffDelta": -0.067,
       "spread": 0.94,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 632,
@@ -20920,7 +21415,8 @@
       "cutoffDelta": -0.083,
       "spread": 1.05,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 577,
@@ -20962,7 +21458,8 @@
       "cutoffDelta": -0.1,
       "spread": 1.2,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 144,
@@ -21004,7 +21501,8 @@
       "cutoffDelta": -0.1,
       "spread": 0.52,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 325,
@@ -21046,7 +21544,8 @@
       "cutoffDelta": -0.11,
       "spread": 0.81,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 589,
@@ -21088,7 +21587,8 @@
       "cutoffDelta": -0.117,
       "spread": 0.7,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 186,
@@ -21130,7 +21630,8 @@
       "cutoffDelta": -0.133,
       "spread": 0.35,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 492,
@@ -21172,7 +21673,8 @@
       "cutoffDelta": -0.167,
       "spread": 1.29,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 199,
@@ -21214,7 +21716,8 @@
       "cutoffDelta": -0.167,
       "spread": 1.65,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 595,
@@ -21256,7 +21759,8 @@
       "cutoffDelta": -0.17,
       "spread": 1.15,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 507,
@@ -21298,7 +21802,8 @@
       "cutoffDelta": -0.19,
       "spread": 1.3,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 721,
@@ -21340,7 +21845,8 @@
       "cutoffDelta": -0.2,
       "spread": 0.65,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 224,
@@ -21382,7 +21888,8 @@
       "cutoffDelta": -0.2,
       "spread": 1.3,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 723,
@@ -21424,7 +21931,8 @@
       "cutoffDelta": -0.2,
       "spread": 0.75,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 621,
@@ -21466,7 +21974,8 @@
       "cutoffDelta": -0.2,
       "spread": 1,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 349,
@@ -21508,7 +22017,8 @@
       "cutoffDelta": -0.217,
       "spread": 1,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 367,
@@ -21550,7 +22060,8 @@
       "cutoffDelta": -0.233,
       "spread": 1.54,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 639,
@@ -21592,7 +22103,8 @@
       "cutoffDelta": -0.25,
       "spread": 0.4,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 109,
@@ -21634,7 +22146,8 @@
       "cutoffDelta": -0.253,
       "spread": 1.3,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 470,
@@ -21676,7 +22189,8 @@
       "cutoffDelta": -0.3,
       "spread": 1.2,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 636,
@@ -21718,7 +22232,8 @@
       "cutoffDelta": -0.31,
       "spread": 1.69,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 661,
@@ -21760,7 +22275,8 @@
       "cutoffDelta": -0.317,
       "spread": 1.32,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 146,
@@ -21802,7 +22318,8 @@
       "cutoffDelta": -0.333,
       "spread": 0.89,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 72,
@@ -21844,7 +22361,8 @@
       "cutoffDelta": -0.367,
       "spread": 0.9,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 194,
@@ -21886,7 +22404,8 @@
       "cutoffDelta": -0.383,
       "spread": 0.4,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 449,
@@ -21928,7 +22447,8 @@
       "cutoffDelta": -0.4,
       "spread": 1.48,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 596,
@@ -21970,7 +22490,8 @@
       "cutoffDelta": -0.433,
       "spread": 1.08,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 114,
@@ -22012,7 +22533,8 @@
       "cutoffDelta": -0.483,
       "spread": 1.22,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 387,
@@ -22054,7 +22576,8 @@
       "cutoffDelta": -0.517,
       "spread": 1.15,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 366,
@@ -22096,7 +22619,8 @@
       "cutoffDelta": -0.517,
       "spread": 1.4,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 591,
@@ -22138,7 +22662,8 @@
       "cutoffDelta": -0.533,
       "spread": 1.2,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 80,
@@ -22180,7 +22705,8 @@
       "cutoffDelta": -0.533,
       "spread": 0.55,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 59,
@@ -22222,7 +22748,8 @@
       "cutoffDelta": -0.537,
       "spread": 1.19,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 317,
@@ -22264,7 +22791,8 @@
       "cutoffDelta": -0.6,
       "spread": 0.85,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 466,
@@ -22306,7 +22834,8 @@
       "cutoffDelta": -0.6,
       "spread": 1.19,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 179,
@@ -22348,7 +22877,8 @@
       "cutoffDelta": -0.6,
       "spread": 1.1,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 288,
@@ -22390,7 +22920,8 @@
       "cutoffDelta": -0.633,
       "spread": 1.3,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 569,
@@ -22432,7 +22963,8 @@
       "cutoffDelta": -0.65,
       "spread": 1.58,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 539,
@@ -22474,7 +23006,8 @@
       "cutoffDelta": -0.683,
       "spread": 1.2,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 232,
@@ -22516,7 +23049,8 @@
       "cutoffDelta": -0.683,
       "spread": 1.19,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 286,
@@ -22558,7 +23092,8 @@
       "cutoffDelta": -0.867,
       "spread": 1.45,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 556,
@@ -22600,7 +23135,8 @@
       "cutoffDelta": -0.873,
       "spread": 1.3,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 76,
@@ -22642,7 +23178,8 @@
       "cutoffDelta": -0.89,
       "spread": 1.69,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 12,
@@ -22684,7 +23221,8 @@
       "cutoffDelta": -0.9,
       "spread": 1.15,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 472,
@@ -22726,7 +23264,8 @@
       "cutoffDelta": -0.95,
       "spread": 1.65,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 669,
@@ -22768,7 +23307,8 @@
       "cutoffDelta": -1.033,
       "spread": 0.6,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 119,
@@ -22810,7 +23350,8 @@
       "cutoffDelta": -1.067,
       "spread": 1.3,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 419,
@@ -22852,7 +23393,8 @@
       "cutoffDelta": -1.25,
       "spread": 0.8,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 456,
@@ -22894,7 +23436,8 @@
       "cutoffDelta": -1.267,
       "spread": 1.5,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 13,
@@ -22936,7 +23479,8 @@
       "cutoffDelta": -1.267,
       "spread": 1.2,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     },
     {
       "coupleId": 333,
@@ -22978,7 +23522,8 @@
       "cutoffDelta": -1.833,
       "spread": 1.3,
       "blockId": "D",
-      "averageMismatch": false
+      "averageMismatch": false,
+      "originStage": "clasificatoria"
     }
   ],
   "mismatches": []

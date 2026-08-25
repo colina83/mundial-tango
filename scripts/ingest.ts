@@ -2,7 +2,15 @@ import { createHash } from "node:crypto";
 import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import { basename, dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import type { AverageMismatch, BlockSummary, Dataset, ScoreRow } from "../src/types.ts";
+import type {
+  AverageMismatch,
+  BlockSummary,
+  Dataset,
+  ScoreRow,
+  Stage,
+  StageEntry,
+  StageManifest,
+} from "../src/types.ts";
 import { parsePdfFile } from "./parse-pdf.ts";
 import { attachOverallRanks, qualifyBlock } from "./qualify.ts";
 
@@ -11,14 +19,54 @@ const RAW_DIR = join(ROOT, "data", "raw");
 const PROCESSED_DIR = join(ROOT, "data", "processed");
 const PUBLIC_DATA_DIR = join(ROOT, "public", "data");
 
-export const SOURCE_PAGE =
-  "https://tangoba.org/resultados-clasificatoria-tango-de-pista-2026/";
-export const SOURCE_CATEGORY_PAGE = "https://tangoba.org/category/resultados/";
-
 const USER_AGENT =
   "mundial-tango-unofficial/0.1 (fan companion of Tango BA Mundial de Baile 2026; not affiliated; +https://tangoba.org)";
 
 const PDF_HREF_RE = /href=["']([^"']+\.pdf)["']/gi;
+
+/**
+ * Stage source configuration.
+ * Cuartos/semifinal/final URLs are best-guess placeholders based on the clasificatoria URL
+ * pattern (https://tangoba.org/resultados-{stage}-tango-de-pista-2026/).
+ * Update these once Tango BA publishes the real URLs.
+ */
+export const STAGE_SOURCES: {
+  stage: Stage;
+  sourcePage: string;
+  sourceCategoryPage: string;
+}[] = [
+  {
+    stage: "clasificatoria",
+    sourcePage:
+      "https://tangoba.org/resultados-clasificatoria-tango-de-pista-2026/",
+    sourceCategoryPage: "https://tangoba.org/category/resultados/",
+  },
+  {
+    // TODO: update to real URL once Tango BA publishes cuartos results
+    stage: "cuartos",
+    sourcePage:
+      "https://tangoba.org/resultados-cuartos-final-tango-de-pista-2026/",
+    sourceCategoryPage: "https://tangoba.org/category/resultados/",
+  },
+  {
+    // TODO: update to real URL once Tango BA publishes semifinal results
+    stage: "semifinal",
+    sourcePage:
+      "https://tangoba.org/resultados-semifinal-tango-de-pista-2026/",
+    sourceCategoryPage: "https://tangoba.org/category/resultados/",
+  },
+  {
+    // TODO: update to real URL once Tango BA publishes final results
+    stage: "final",
+    sourcePage:
+      "https://tangoba.org/resultados-final-tango-de-pista-2026/",
+    sourceCategoryPage: "https://tangoba.org/category/resultados/",
+  },
+];
+
+// Keep the original constants for backwards compatibility
+export const SOURCE_PAGE = STAGE_SOURCES[0]!.sourcePage;
+export const SOURCE_CATEGORY_PAGE = STAGE_SOURCES[0]!.sourceCategoryPage;
 
 function sleep(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms));
@@ -46,6 +94,9 @@ function isLikelyResultsPdf(url: string): boolean {
   return (
     u.includes("2026") &&
     (u.includes("clasificator") ||
+      u.includes("cuartos") ||
+      u.includes("semifinal") ||
+      u.includes("final") ||
       u.includes("jurados") ||
       u.includes("pista") ||
       u.includes("escenario") ||
@@ -90,13 +141,18 @@ async function downloadPdf(url: string, destPath: string): Promise<boolean> {
   return true;
 }
 
-const SOURCE_INDEX = join(PROCESSED_DIR, "source-index.json");
+const SOURCE_INDEX_PATH = join(PROCESSED_DIR, "source-index.json");
 
+/**
+ * Stage-aware source index.
+ * Keys are namespaced as "{stage}::{url}" to avoid collisions between stages
+ * while remaining backwards-compatible with legacy keys (which have no "::" prefix).
+ */
 type SourceIndex = Record<string, { sha256: string; filename?: string }>;
 
 async function readSourceIndex(): Promise<SourceIndex> {
   try {
-    const raw = await readFile(SOURCE_INDEX, "utf8");
+    const raw = await readFile(SOURCE_INDEX_PATH, "utf8");
     return JSON.parse(raw) as SourceIndex;
   } catch {
     return {};
@@ -104,26 +160,28 @@ async function readSourceIndex(): Promise<SourceIndex> {
 }
 
 async function writeSourceIndex(index: SourceIndex): Promise<void> {
-  await writeFile(SOURCE_INDEX, `${JSON.stringify(index, null, 2)}\n`);
+  await writeFile(SOURCE_INDEX_PATH, `${JSON.stringify(index, null, 2)}\n`);
 }
 
-async function syncRemotePdfs(fetchRemote: boolean): Promise<string[]> {
-  if (!fetchRemote) return [];
-  const downloaded: string[] = [];
-  const existing = await readdir(RAW_DIR);
-  const existingHashes = new Set<string>();
-  for (const name of existing.filter((n) => n.toLowerCase().endsWith(".pdf"))) {
-    const buf = new Uint8Array(await readFile(join(RAW_DIR, name)));
-    existingHashes.add(sha256(buf));
-  }
-  const index = await readSourceIndex();
+/** Build a namespaced key for the source index for a given stage + URL. */
+function indexKey(stage: Stage, url: string): string {
+  return `${stage}::${url}`;
+}
 
-  const pages = [
-    { url: SOURCE_PAGE, strict: false },
-    { url: SOURCE_CATEGORY_PAGE, strict: true },
-  ];
-
+/**
+ * Discover PDF links for a stage. Returns an empty set if the page 404s or
+ * has no discoverable PDFs — the caller skips the stage gracefully.
+ */
+async function discoverStagePdfs(
+  stage: Stage,
+  sourcePage: string,
+  sourceCategoryPage: string,
+): Promise<Set<string>> {
   const found = new Set<string>();
+  const pages = [
+    { url: sourcePage, strict: false },
+    { url: sourceCategoryPage, strict: true },
+  ];
   for (const page of pages) {
     try {
       const html = await fetchText(page.url);
@@ -131,36 +189,67 @@ async function syncRemotePdfs(fetchRemote: boolean): Promise<string[]> {
         found.add(pdfUrl);
       }
     } catch (err) {
-      console.warn(`Could not read ${page.url}:`, err);
+      const msg = err instanceof Error ? err.message : String(err);
+      if (msg.includes("-> 404")) {
+        console.log(
+          `[${stage}] Source page not yet available (404): ${page.url} — skipping.`,
+        );
+      } else {
+        console.warn(`[${stage}] Could not read ${page.url}:`, err);
+      }
     }
     await sleep(800);
   }
+  return found;
+}
 
-  for (const pdfUrl of found) {
+/**
+ * Download/cache PDFs for a single stage. Returns the list of newly downloaded
+ * filenames (empty if nothing changed).
+ */
+async function syncStagePdfs(
+  stage: Stage,
+  pdfUrls: Set<string>,
+  index: SourceIndex,
+): Promise<{ downloaded: string[]; stageRawDir: string }> {
+  const stageRawDir = join(RAW_DIR, stage);
+  await mkdir(stageRawDir, { recursive: true });
+
+  const existing = await readdir(stageRawDir);
+  const existingHashes = new Set<string>();
+  for (const name of existing.filter((n) => n.toLowerCase().endsWith(".pdf"))) {
+    const buf = new Uint8Array(await readFile(join(stageRawDir, name)));
+    existingHashes.add(sha256(buf));
+  }
+
+  const downloaded: string[] = [];
+
+  for (const pdfUrl of pdfUrls) {
     const filename = decodeURIComponent(basename(new URL(pdfUrl).pathname));
-    const dest = join(RAW_DIR, filename);
-    const known = index[pdfUrl];
+    const dest = join(stageRawDir, filename);
+    const key = indexKey(stage, pdfUrl);
+    const known = index[key];
     if (known && existingHashes.has(known.sha256)) {
-      console.log("Cached", filename);
+      console.log(`[${stage}] Cached ${filename}`);
       continue;
     }
     if (existing.includes(filename)) {
       const buf = new Uint8Array(await readFile(dest));
       const hash = sha256(buf);
       existingHashes.add(hash);
-      index[pdfUrl] = { sha256: hash, filename };
+      index[key] = { sha256: hash, filename };
       continue;
     }
-    console.log("Downloading", pdfUrl);
-    const tmp = join(RAW_DIR, `.tmp-${filename}`);
+    console.log(`[${stage}] Downloading ${pdfUrl}`);
+    const tmp = join(stageRawDir, `.tmp-${filename}`);
     await downloadPdf(pdfUrl, tmp);
     const buf = new Uint8Array(await readFile(tmp));
     const hash = sha256(buf);
     const { unlink } = await import("node:fs/promises");
     await unlink(tmp).catch(() => undefined);
-    index[pdfUrl] = { sha256: hash, filename };
+    index[key] = { sha256: hash, filename };
     if (existingHashes.has(hash)) {
-      console.log("  skip (same hash already in data/raw)");
+      console.log(`[${stage}]   skip (same hash already in data/raw/${stage})`);
       continue;
     }
     await writeFile(dest, buf);
@@ -169,11 +258,15 @@ async function syncRemotePdfs(fetchRemote: boolean): Promise<string[]> {
     await sleep(800);
   }
 
-  await writeSourceIndex(index);
-  return downloaded;
+  return { downloaded, stageRawDir };
 }
 
-function buildDataset(blocks: Awaited<ReturnType<typeof parsePdfFile>>[]): Dataset {
+function buildDataset(
+  stage: Stage,
+  sourcePage: string,
+  sourceCategoryPage: string,
+  blocks: Awaited<ReturnType<typeof parsePdfFile>>[],
+): Dataset {
   const rows: ScoreRow[] = [];
   const mismatches: AverageMismatch[] = [];
   const summaries: BlockSummary[] = [];
@@ -210,6 +303,7 @@ function buildDataset(blocks: Awaited<ReturnType<typeof parsePdfFile>>[]): Datas
         spread: couple.spread,
         blockId: block.id,
         averageMismatch: mismatch,
+        originStage: stage,
       });
     }
     summaries.push({
@@ -233,10 +327,10 @@ function buildDataset(blocks: Awaited<ReturnType<typeof parsePdfFile>>[]): Datas
   return {
     generatedAt: new Date().toISOString(),
     year: 2026,
-    stage: "clasificatoria",
+    stage,
     category: "pista",
-    sourcePage: SOURCE_PAGE,
-    sourceCategoryPage: SOURCE_CATEGORY_PAGE,
+    sourcePage,
+    sourceCategoryPage,
     sourceLabel: "Tango BA",
     disclaimer:
       "Compañero extraoficial de fans. No afiliado a Tango BA ni al Mundial de Baile. Fuente: Tango BA.",
@@ -246,70 +340,174 @@ function buildDataset(blocks: Awaited<ReturnType<typeof parsePdfFile>>[]): Datas
   };
 }
 
+async function ingestStage(
+  stageConf: (typeof STAGE_SOURCES)[number],
+  fetchRemote: boolean,
+  index: SourceIndex,
+): Promise<Dataset | null> {
+  const { stage, sourcePage, sourceCategoryPage } = stageConf;
+  console.log(`\n[${stage}] === Processing stage ===`);
+
+  let stageRawDir = join(RAW_DIR, stage);
+
+  if (fetchRemote) {
+    const pdfUrls = await discoverStagePdfs(stage, sourcePage, sourceCategoryPage);
+    if (pdfUrls.size === 0) {
+      console.log(
+        `[${stage}] No PDFs discovered — stage not yet published. Skipping.`,
+      );
+
+      // Check if we already have local PDFs for this stage from a prior run
+      try {
+        const existing = await readdir(stageRawDir);
+        const localPdfs = existing.filter((n) => n.toLowerCase().endsWith(".pdf"));
+        if (localPdfs.length === 0) return null;
+        console.log(
+          `[${stage}] Using ${localPdfs.length} cached local PDF(s) from prior ingest.`,
+        );
+      } catch {
+        return null;
+      }
+    } else {
+      const { downloaded, stageRawDir: dir } = await syncStagePdfs(
+        stage,
+        pdfUrls,
+        index,
+      );
+      stageRawDir = dir;
+      if (downloaded.length) {
+        // Only log "detected for the first time" if previous dataset didn't exist
+        const existingDataset = join(PROCESSED_DIR, `results-${stage}.json`);
+        try {
+          await readFile(existingDataset);
+          console.log(`[${stage}] New PDFs: ${downloaded.join(", ")}`);
+        } catch {
+          console.log(
+            `[${stage}] *** ${stage} results detected for the first time! New PDFs: ${downloaded.join(", ")}`,
+          );
+        }
+      } else {
+        console.log(`[${stage}] No new remote PDFs.`);
+      }
+    }
+  } else {
+    console.log(`[${stage}] Offline ingest — using data/raw/${stage} only.`);
+  }
+
+  let pdfs: string[];
+  try {
+    pdfs = (await readdir(stageRawDir)).filter((n) =>
+      n.toLowerCase().endsWith(".pdf"),
+    );
+  } catch {
+    // Dir doesn't exist yet for this stage
+    pdfs = [];
+  }
+
+  if (!pdfs.length) {
+    console.log(`[${stage}] No PDFs available — skipping.`);
+    return null;
+  }
+
+  const parsed = [];
+  for (const name of pdfs) {
+    const block = await parsePdfFile(join(stageRawDir, name));
+    console.log(
+      `[${stage}] Block ${block.id}: ${block.couples.length} couples, ${block.judges.length} judges (${name})`,
+    );
+    parsed.push(block);
+  }
+
+  const dataset = buildDataset(stage, sourcePage, sourceCategoryPage, parsed);
+  const json = `${JSON.stringify(dataset, null, 2)}\n`;
+  await writeFile(join(PROCESSED_DIR, `results-${stage}.json`), json);
+  await writeFile(join(PUBLIC_DATA_DIR, `results-${stage}.json`), json);
+  console.log(`[${stage}] Written results-${stage}.json`);
+
+  // Update source index with parsed PDF hashes
+  for (const block of parsed) {
+    if (block.url) {
+      const key = indexKey(stage, block.url);
+      index[key] = { sha256: block.sha256, filename: block.filename };
+    }
+  }
+
+  return dataset;
+}
+
 async function main(): Promise<void> {
   const fetchRemote = !process.argv.includes("--offline");
   await mkdir(RAW_DIR, { recursive: true });
   await mkdir(PROCESSED_DIR, { recursive: true });
   await mkdir(PUBLIC_DATA_DIR, { recursive: true });
 
-  if (fetchRemote) {
-    try {
-      const downloaded = await syncRemotePdfs(true);
-      if (downloaded.length) console.log("New PDFs:", downloaded.join(", "));
-      else console.log("No new remote PDFs.");
-    } catch (err) {
-      console.warn("Remote sync failed, continuing with local PDFs:", err);
-    }
-  } else {
-    console.log("Offline ingest — using data/raw only.");
-  }
-
-  const pdfs = (await readdir(RAW_DIR)).filter((n) =>
-    n.toLowerCase().endsWith(".pdf"),
-  );
-  if (!pdfs.length) throw new Error("No PDFs in data/raw");
-
-  const parsed = [];
-  for (const name of pdfs) {
-    const block = await parsePdfFile(join(RAW_DIR, name));
-    console.log(
-      `Block ${block.id}: ${block.couples.length} couples, ${block.judges.length} judges (${name})`,
-    );
-    parsed.push(block);
-  }
-
-  const dataset = buildDataset(parsed);
-  const json = `${JSON.stringify(dataset, null, 2)}\n`;
-  await writeFile(join(PROCESSED_DIR, "results.json"), json);
-  await writeFile(join(PUBLIC_DATA_DIR, "results.json"), json);
-
   const index = await readSourceIndex();
-  for (const block of parsed) {
-    if (block.url) {
-      index[block.url] = { sha256: block.sha256, filename: block.filename };
+  const manifest: StageManifest = {
+    updatedAt: new Date().toISOString(),
+    stages: [],
+  };
+
+  // Summary for logging
+  const stageResults: Record<string, "new" | "unchanged" | "unavailable"> = {};
+
+  for (const stageConf of STAGE_SOURCES) {
+    const dataset = await ingestStage(stageConf, fetchRemote, index);
+    if (dataset) {
+      const entry: StageEntry = {
+        stage: dataset.stage,
+        generatedAt: dataset.generatedAt,
+        rowCount: dataset.rows.length,
+      };
+      manifest.stages.push(entry);
+      stageResults[stageConf.stage] = "new";
+    } else {
+      stageResults[stageConf.stage] = "unavailable";
     }
   }
+
   await writeSourceIndex(index);
 
-  const couple139 = dataset.rows.find((r) => r.coupleId === 139);
-  if (!couple139 || couple139.average !== 7.78) {
-    throw new Error(
-      `Couple 139 check failed: expected truncated average 7.780, got ${couple139?.average}`,
-    );
-  }
-  console.log(
-    `Couple 139 check: avg=${couple139.average} official=${couple139.officialAverage} classified=${couple139.classified} block=${couple139.blockId}`,
+  // Write manifest
+  await writeFile(
+    join(PUBLIC_DATA_DIR, "manifest.json"),
+    `${JSON.stringify(manifest, null, 2)}\n`,
   );
+  console.log(`\nManifest written with ${manifest.stages.length} stage(s): ${manifest.stages.map((s) => s.stage).join(", ")}`);
 
-  for (const block of dataset.blocks) {
-    const pct = ((block.classifiedCount / block.coupleCount) * 100).toFixed(1);
-    console.log(
-      `  ${block.id} cutoff=${block.cutoff.toFixed(3)} classified=${block.classifiedCount}/${block.coupleCount} (${pct}%)`,
+  // Also keep backwards-compatible results.json pointing to clasificatoria
+  const clasifDataset = manifest.stages.find((s) => s.stage === "clasificatoria");
+  if (clasifDataset) {
+    const clasifJson = await readFile(
+      join(PROCESSED_DIR, "results-clasificatoria.json"),
+      "utf8",
     );
+    await writeFile(join(PROCESSED_DIR, "results.json"), clasifJson);
+    await writeFile(join(PUBLIC_DATA_DIR, "results.json"), clasifJson);
+    console.log("Backwards-compatible results.json updated from clasificatoria dataset.");
   }
-  console.log(`Mismatches vs printed PROMEDIO: ${dataset.mismatches.length}`);
-  if (dataset.mismatches.length) {
-    console.log(dataset.mismatches.slice(0, 12));
+
+  // Summary log
+  console.log("\n=== Ingest summary ===");
+  for (const [stage, status] of Object.entries(stageResults)) {
+    const icon = status === "unavailable" ? "⏭" : "✓";
+    console.log(`  ${icon} ${stage}: ${status}`);
+  }
+
+  // Self-check for clasificatoria
+  const clasifFile = manifest.stages.find((s) => s.stage === "clasificatoria");
+  if (clasifFile) {
+    const clasifData = JSON.parse(
+      await readFile(join(PROCESSED_DIR, "results-clasificatoria.json"), "utf8"),
+    ) as { rows: { coupleId: number; average: number; officialAverage: number; classified: boolean; blockId: string }[] };
+    const couple139 = clasifData.rows.find((r) => r.coupleId === 139);
+    if (!couple139 || couple139.average !== 7.78) {
+      throw new Error(
+        `Couple 139 check failed: expected truncated average 7.780, got ${couple139?.average}`,
+      );
+    }
+    console.log(
+      `\nCouple 139 check: avg=${couple139.average} official=${couple139.officialAverage} classified=${couple139.classified} block=${couple139.blockId}`,
+    );
   }
 }
 
