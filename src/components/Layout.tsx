@@ -24,7 +24,6 @@ export function Layout() {
           <NavLink to="/" className="brand">
             <span className="brand-text">
               <span className="pulso-wordmark">{t("brand")}</span>
-              <strong>{t("appName")}</strong>
               <em>{t("tagline")}</em>
             </span>
           </NavLink>
