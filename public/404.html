@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mundial Tango</title>
+    <script>
+      const path = location.pathname.replace(/\/+$/, "");
+      const repo = "/mundial-tango";
+      const dest = (path.startsWith(repo) ? repo : "") + "/";
+      location.replace(dest + "?p=" + encodeURIComponent(location.pathname + location.search + location.hash));
+    </script>
+  </head>
+  <body></body>
+</html>

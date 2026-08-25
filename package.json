@@ -1,0 +1,38 @@
+{
+  "name": "mundial-tango",
+  "private": true,
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "Unofficial fan tracker for Tango BA Mundial de Baile 2026 results. Source: Tango BA. Not affiliated.",
+  "type": "module",
+  "engines": {
+    "node": ">=20.11.0"
+  },
+  "scripts": {
+    "setup": "npm install && npm run ingest:offline",
+    "start": "vite preview",
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "oxlint",
+    "ingest": "tsx scripts/ingest.ts",
+    "ingest:offline": "tsx scripts/ingest.ts --offline"
+  },
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-router-dom": "^7.18.2",
+    "recharts": "^3.10.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "@vitejs/plugin-react": "^6.1.0",
+    "oxlint": "^1.79.0",
+    "tsx": "^4.23.12",
+    "typescript": "~6.0.2",
+    "unpdf": "^1.8.1",
+    "vite": "^8.2.2"
+  }
+}
