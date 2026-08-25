@@ -23,12 +23,36 @@ const USER_AGENT =
   "mundial-tango-unofficial/0.1 (fan companion of Tango BA Mundial de Baile 2026; not affiliated; +https://tangoba.org)";
 
 const PDF_HREF_RE = /href=["']([^"']+\.pdf)["']/gi;
+const PAGE_HREF_RE = /href=["']([^"']+)["']/gi;
+
+/**
+ * Keywords that must appear in an article/page link for it to be considered a
+ * results page for that stage (matched case-insensitively against the URL path).
+ * The "final" stage additionally excludes paths containing "semifinal" in
+ * collectStagePageLinks, so a simple "final" keyword is safe here.
+ */
+const STAGE_LINK_KEYWORDS: Record<Stage, string[]> = {
+  clasificatoria: ["clasificator"],
+  cuartos: ["cuartos"],
+  semifinal: ["semifinal"],
+  final: ["final"],
+};
+
+/**
+ * Discovery pages that are scanned for article links pointing at result pages.
+ * These are scraped to perform two-hop discovery: index page → result page → PDFs.
+ */
+const DISCOVERY_PAGES = [
+  "https://tangoba.org/category/resultados/",
+  "https://tangoba.org/festival-mundial/actividades-del-mundial/",
+];
 
 /**
  * Stage source configuration.
  * Cuartos/semifinal/final URLs are best-guess placeholders based on the clasificatoria URL
  * pattern (https://tangoba.org/resultados-{stage}-tango-de-pista-2026/).
- * Update these once Tango BA publishes the real URLs.
+ * The ingest pipeline also performs two-hop discovery from DISCOVERY_PAGES so that
+ * the real URLs are found automatically once Tango BA publishes each stage's results.
  */
 export const STAGE_SOURCES: {
   stage: Stage;
@@ -42,21 +66,18 @@ export const STAGE_SOURCES: {
     sourceCategoryPage: "https://tangoba.org/category/resultados/",
   },
   {
-    // TODO: update to real URL once Tango BA publishes cuartos results
     stage: "cuartos",
     sourcePage:
       "https://tangoba.org/resultados-cuartos-final-tango-de-pista-2026/",
     sourceCategoryPage: "https://tangoba.org/category/resultados/",
   },
   {
-    // TODO: update to real URL once Tango BA publishes semifinal results
     stage: "semifinal",
     sourcePage:
       "https://tangoba.org/resultados-semifinal-tango-de-pista-2026/",
     sourceCategoryPage: "https://tangoba.org/category/resultados/",
   },
   {
-    // TODO: update to real URL once Tango BA publishes final results
     stage: "final",
     sourcePage:
       "https://tangoba.org/resultados-final-tango-de-pista-2026/",
@@ -128,6 +149,38 @@ function collectPdfUrls(html: string, pageUrl: string, strict: boolean): string[
   return [...urls];
 }
 
+/**
+ * Collect all hrefs from an HTML page that look like Tango BA result page links
+ * for the given stage (i.e., contain one of the stage's link keywords).
+ * Filters out PDFs (handled separately), off-domain links, and anchor-only links.
+ */
+function collectStagePageLinks(html: string, pageUrl: string, stage: Stage): string[] {
+  const base = new URL(pageUrl);
+  const keywords = STAGE_LINK_KEYWORDS[stage];
+  const links = new Set<string>();
+  for (const match of html.matchAll(PAGE_HREF_RE)) {
+    const href = match[1];
+    if (!href || href.startsWith("#")) continue;
+    // Skip PDF links — those are handled by collectPdfUrls
+    if (href.toLowerCase().endsWith(".pdf")) continue;
+    let url: URL;
+    try {
+      url = new URL(href, pageUrl);
+    } catch {
+      continue;
+    }
+    // Same domain only
+    if (url.hostname !== base.hostname) continue;
+    const path = url.pathname.toLowerCase();
+    // For the "final" stage, exclude paths that actually refer to "semifinal"
+    if (stage === "final" && path.includes("semifinal")) continue;
+    if (keywords.some((kw) => path.includes(kw))) {
+      links.add(url.toString());
+    }
+  }
+  return [...links];
+}
+
 async function downloadPdf(url: string, destPath: string): Promise<boolean> {
   const res = await fetch(url, {
     headers: {
@@ -169,8 +222,11 @@ function indexKey(stage: Stage, url: string): string {
 }
 
 /**
- * Discover PDF links for a stage. Returns an empty set if the page 404s or
- * has no discoverable PDFs — the caller skips the stage gracefully.
+ * Discover PDF links for a stage using a two-hop strategy:
+ *   1. Try the hardcoded sourcePage directly.
+ *   2. Scan DISCOVERY_PAGES for article links matching this stage's keywords,
+ *      then follow each discovered link to collect PDFs.
+ * Returns an empty set if no PDFs are found — the caller skips the stage gracefully.
  */
 async function discoverStagePdfs(
   stage: Stage,
@@ -178,28 +234,80 @@ async function discoverStagePdfs(
   sourceCategoryPage: string,
 ): Promise<Set<string>> {
   const found = new Set<string>();
-  const pages = [
-    { url: sourcePage, strict: false },
-    { url: sourceCategoryPage, strict: true },
+
+  // --- Hop 1a: try the hardcoded sourcePage directly ---
+  try {
+    const html = await fetchText(sourcePage);
+    for (const pdfUrl of collectPdfUrls(html, sourcePage, false)) {
+      found.add(pdfUrl);
+    }
+    console.log(`[${stage}] sourcePage OK — found ${found.size} PDF(s) so far.`);
+  } catch (err) {
+    const msg = err instanceof Error ? err.message : String(err);
+    if (msg.includes("-> 404")) {
+      console.log(
+        `[${stage}] Source page not yet available (404): ${sourcePage} — will rely on discovery pages.`,
+      );
+    } else {
+      console.warn(`[${stage}] Could not read ${sourcePage}:`, err);
+    }
+  }
+  await sleep(800);
+
+  // --- Hop 1b: scan discovery pages for article links matching this stage ---
+  const discoveryUrls = [
+    ...DISCOVERY_PAGES,
+    // Also include sourceCategoryPage in case it differs from the defaults
+    ...(DISCOVERY_PAGES.includes(sourceCategoryPage) ? [] : [sourceCategoryPage]),
   ];
-  for (const page of pages) {
+
+  const linkedResultPages = new Set<string>();
+  for (const discoveryUrl of discoveryUrls) {
     try {
-      const html = await fetchText(page.url);
-      for (const pdfUrl of collectPdfUrls(html, page.url, page.strict)) {
+      const html = await fetchText(discoveryUrl);
+      // Collect direct PDF links (strict mode — must look like a results PDF)
+      for (const pdfUrl of collectPdfUrls(html, discoveryUrl, true)) {
         found.add(pdfUrl);
       }
+      // Collect article/page links that match this stage's keywords
+      for (const link of collectStagePageLinks(html, discoveryUrl, stage)) {
+        if (link !== sourcePage) {
+          linkedResultPages.add(link);
+        }
+      }
+      console.log(
+        `[${stage}] Discovery scan of ${discoveryUrl}: ${linkedResultPages.size} result page link(s) found.`,
+      );
     } catch (err) {
       const msg = err instanceof Error ? err.message : String(err);
       if (msg.includes("-> 404")) {
         console.log(
-          `[${stage}] Source page not yet available (404): ${page.url} — skipping.`,
+          `[${stage}] Discovery page not available (404): ${discoveryUrl} — skipping.`,
         );
       } else {
-        console.warn(`[${stage}] Could not read ${page.url}:`, err);
+        console.warn(`[${stage}] Could not read discovery page ${discoveryUrl}:`, err);
       }
     }
     await sleep(800);
   }
+
+  // --- Hop 2: follow discovered result-page links to find PDFs ---
+  for (const resultPage of linkedResultPages) {
+    try {
+      const html = await fetchText(resultPage);
+      const before = found.size;
+      for (const pdfUrl of collectPdfUrls(html, resultPage, false)) {
+        found.add(pdfUrl);
+      }
+      console.log(
+        `[${stage}] Followed ${resultPage}: +${found.size - before} PDF(s).`,
+      );
+    } catch (err) {
+      console.warn(`[${stage}] Could not read discovered result page ${resultPage}:`, err);
+    }
+    await sleep(800);
+  }
+
   return found;
 }
 
