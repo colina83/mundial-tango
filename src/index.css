@@ -118,13 +118,14 @@ h3 {
 
 .pulso-wordmark {
   font-family: "Bebas Neue", "Segoe UI", sans-serif;
-  font-size: 0.78rem;
+  font-size: 1.6rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   background: linear-gradient(90deg, #c026d3 0%, #9333ea 45%, #2563eb 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  line-height: 1;
 }
 
 .brand-text strong {
@@ -206,10 +207,20 @@ h3 {
   color: var(--text);
 }
 
+.event-header {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 10px 16px 0;
+  font-family: var(--display);
+  font-size: 1.15rem;
+  font-weight: 650;
+  color: var(--text);
+}
+
 .source-bar {
   max-width: 1120px;
   margin: 0 auto;
-  padding: 8px 16px 0;
+  padding: 4px 16px 0;
   display: flex;
   justify-content: space-between;
   gap: 12px;
@@ -1107,4 +1118,11 @@ select {
     align-items: end;
     min-height: 150px;
   }
+}
+
+.podium-stage-label {
+  font-family: var(--font);
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: var(--muted);
 }
