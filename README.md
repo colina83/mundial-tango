@@ -4,8 +4,6 @@ Unofficial fan companion for **Tango BA Mundial de Baile 2026** results, publish
 
 Always **Fuente: Tango BA**. Not affiliated with Tango BA or the championship.
 
-Always **Fuente: Tango BA**. Not affiliated with Tango BA or the championship.
-
 v1 tracks **Tango de pista · clasificatorias** (blocks A–D). Quarterfinals, semifinal, final, and Escenario can land later when Tango BA publishes them.
 
 Official source: [Resultados Clasificatoria Tango de Pista 2026](https://tangoba.org/resultados-clasificatoria-tango-de-pista-2026/)
@@ -88,23 +86,27 @@ This app is a **static Vite SPA**. Host it on **Vercel** as its own project so i
 
 Railway is **not** used here: there is no Node server or worker to run. A Railway service would be unused and could collide with other work.
 
-From this folder, after `vercel login`:
+On **Windows PowerShell**, `npx` may fail with `PSSecurityException` (scripts disabled). Do not change the machine ExecutionPolicy. Use `cmd` or `npx.cmd`:
 
-```bash
-npx vercel --name pulso-mundial-tango --yes --prod
+```bat
+cmd /c "npx vercel whoami"
+cmd /c "npx vercel login"
+cmd /c "npx vercel --yes --prod"
 ```
+
+Or:
+
+```bat
+"C:\Program Files\nodejs\npx.cmd" vercel whoami
+"C:\Program Files\nodejs\npx.cmd" vercel login
+"C:\Program Files\nodejs\npx.cmd" vercel --yes --prod
+```
+
+That creates/uses the isolated **pulso-mundial-tango** project. Do not `vercel link` this folder to another existing app.
 
 `vercel.json` builds with `npm run build` and serves `dist/`, with SPA rewrites so client routes (rankings, couple dossiers) do not 404.
 
 GitHub auto-deploy: in the Vercel dashboard, import **this** repo (`colina83/mundial-tango`) into the **pulso-mundial-tango** project only. Do not attach it to another existing project.
-
-If the CLI says you are logged out, the only human step is:
-
-```bash
-npx vercel login
-```
-
-Then re-run the deploy command above.
 
 ## License
 
