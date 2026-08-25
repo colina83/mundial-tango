@@ -1,6 +1,8 @@
-# Mundial Tango
+# PULSO · Mundial de Tango
 
-Unofficial fan companion for **Tango BA Mundial de Baile 2026** results.
+Unofficial fan companion for **Tango BA Mundial de Baile 2026** results, published under the **PULSO** brand.
+
+Always **Fuente: Tango BA**. Not affiliated with Tango BA or the championship.
 
 Always **Fuente: Tango BA**. Not affiliated with Tango BA or the championship.
 
@@ -77,6 +79,32 @@ $env:GITHUB_PAGES = "true"; npm run build
 ```
 
 `vite.config.ts` sets `base` to `/mundial-tango/` when `GITHUB_PAGES=true`. `public/404.html` helps client-side routes on Pages.
+
+## Deploy (Vercel)
+
+This app is a **static Vite SPA**. Host it on **Vercel** as its own project so it does not mix with other PULSO/Railway apps.
+
+**Project name:** `pulso-mundial-tango` (new, isolated — not linked to any existing Vercel or Railway service).
+
+Railway is **not** used here: there is no Node server or worker to run. A Railway service would be unused and could collide with other work.
+
+From this folder, after `vercel login`:
+
+```bash
+npx vercel --name pulso-mundial-tango --yes --prod
+```
+
+`vercel.json` builds with `npm run build` and serves `dist/`, with SPA rewrites so client routes (rankings, couple dossiers) do not 404.
+
+GitHub auto-deploy: in the Vercel dashboard, import **this** repo (`colina83/mundial-tango`) into the **pulso-mundial-tango** project only. Do not attach it to another existing project.
+
+If the CLI says you are logged out, the only human step is:
+
+```bash
+npx vercel login
+```
+
+Then re-run the deploy command above.
 
 ## License
 

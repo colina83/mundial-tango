@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fraunces:opsz,wght@9..144,500;9..144,650&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap");
 
 :root {
   --canvas: #0d1117;
@@ -86,8 +86,8 @@ h3 {
   margin: 0 auto;
   display: flex;
   align-items: center;
-  gap: 16px;
-  padding: 10px 16px;
+  gap: 12px;
+  padding: 8px 16px;
 }
 
 .brand {
@@ -102,48 +102,48 @@ h3 {
   text-decoration: none;
 }
 
-.brand-mark {
-  position: relative;
+.brand-logo {
   width: 28px;
   height: 28px;
-}
-
-.brand-mark i {
-  position: absolute;
-  width: 18px;
-  height: 18px;
-  border-radius: 999px;
-  border: 2px solid var(--pink);
-}
-
-.brand-mark i:first-child {
-  left: 0;
-  top: 5px;
-}
-
-.brand-mark i:last-child {
-  right: 0;
-  top: 0;
-  border-color: var(--link);
+  flex-shrink: 0;
+  border-radius: 7px;
 }
 
 .brand-text {
   display: flex;
   flex-direction: column;
-  line-height: 1.1;
+  line-height: 1.05;
+  min-width: 0;
+}
+
+.pulso-wordmark {
+  font-family: "Bebas Neue", "Segoe UI", sans-serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #c026d3 0%, #9333ea 45%, #2563eb 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 .brand-text strong {
   font-family: var(--display);
-  font-size: 1.05rem;
+  font-size: 1.02rem;
 }
 
 .brand-text em {
   font-style: normal;
   color: var(--muted);
-  font-size: 0.68rem;
+  font-size: 0.62rem;
   letter-spacing: 0.04em;
   text-transform: uppercase;
+}
+
+@media (max-width: 420px) {
+  .brand-text em {
+    display: none;
+  }
 }
 
 .top-nav {

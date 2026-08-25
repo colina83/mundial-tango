@@ -2,7 +2,8 @@ export type Lang = "es" | "en";
 
 export const translations = {
   es: {
-    appName: "Mundial Tango",
+    brand: "PULSO",
+    appName: "Mundial de Tango",
     tagline: "Pista · Clasificatorias 2026",
     unofficial: "Extraoficial",
     source: "Fuente: Tango BA",
@@ -92,7 +93,8 @@ export const translations = {
     navMobile: "Móvil",
   },
   en: {
-    appName: "Mundial Tango",
+    brand: "PULSO",
+    appName: "Mundial de Tango",
     tagline: "Pista · Qualifying 2026",
     unofficial: "Unofficial",
     source: "Source: Tango BA",

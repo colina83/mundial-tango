@@ -11,11 +11,15 @@ export function Layout() {
       <header className="topbar">
         <div className="topbar-inner">
           <NavLink to="/" className="brand">
-            <span className="brand-mark" aria-hidden="true">
-              <i />
-              <i />
-            </span>
+            <img
+              className="brand-logo"
+              src={`${import.meta.env.BASE_URL}pulso-logo.svg`}
+              alt=""
+              width={28}
+              height={28}
+            />
             <span className="brand-text">
+              <span className="pulso-wordmark">{t("brand")}</span>
               <strong>{t("appName")}</strong>
               <em>{t("tagline")}</em>
             </span>
