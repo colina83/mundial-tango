@@ -1,21 +1,32 @@
 import { Link, useParams } from "react-router-dom";
 import { ScoreBoxplot } from "../components/ScoreBoxplot";
 import { ScoreMarks } from "../components/ScoreMarks";
+import { SurvivalPanel } from "../components/SurvivalPanel";
 import { useData } from "../context/DataContext";
 import { useI18n } from "../context/I18nContext";
 import { useWatchlist } from "../context/WatchlistContext";
 import {
   formatAverage,
   formatDelta,
+  formatOverall,
   isDangerZone,
 } from "../lib/format";
+import { survivalGates } from "../lib/survival";
+import {
+  hasDistinctBlocks,
+  hasWatchlist,
+  isTrimmedScoring,
+  stageLabelKey,
+  yearPath,
+} from "../lib/year";
 import type { BlockId } from "../types";
 
 export function CoupleDossier() {
   const { blockId, coupleId } = useParams();
-  const { data } = useData();
+  const { data, year, survival, survivalById } = useData();
   const { t } = useI18n();
   const { isPinned, toggle } = useWatchlist();
+  const base = yearPath(year);
 
   if (!data) return null;
   const row = data.rows.find(
@@ -26,7 +37,7 @@ export function CoupleDossier() {
       <div className="page">
         <div className="empty">
           <p>{t("coupleNotFound")}</p>
-          <Link className="btn" to="/rankings">
+          <Link className="btn" to={`${base}/rankings`}>
             {t("backRankings")}
           </Link>
         </div>
@@ -38,16 +49,21 @@ export function CoupleDossier() {
   const danger = block
     ? isDangerZone(row.rankInBlock, row.classified, block.coupleCount)
     : false;
-  const pinned = isPinned(row.coupleId, row.blockId as BlockId);
+  const showPin = hasWatchlist(year);
+  const pinned = showPin && isPinned(row.coupleId, row.blockId as BlockId, year);
+  const showBlock = hasDistinctBlocks(data);
+  const trimmed = isTrimmedScoring(data);
+  const survivalRow = survivalById.get(row.coupleId);
+  const gates = survivalGates(survival, year);
 
   return (
     <div className="page dossier">
-      <Link className="text-link" to="/rankings">
+      <Link className="text-link" to={`${base}/rankings`}>
         ← {t("backRankings")}
       </Link>
       <section className="panel dossier-hero">
         <div className="dossier-id">
-          <span className="block-flag">{t("block")} {row.blockId}</span>
+          {showBlock && <span className="block-flag">{t("block")} {row.blockId}</span>}
           <h1>#{row.coupleId}</h1>
         </div>
         <p className="dossier-names">
@@ -66,18 +82,59 @@ export function CoupleDossier() {
             <span className="badge badge-danger">{t("mismatch")}</span>
           )}
         </div>
-        <button
-          type="button"
-          className={`pin-btn ${pinned ? "is-on" : ""}`}
-          onClick={() => toggle(row.coupleId, row.blockId)}
-        >
-          {pinned ? t("unpin") : t("pin")}
-        </button>
+        {showPin && (
+          <button
+            type="button"
+            className={`pin-btn ${pinned ? "is-on" : ""}`}
+            onClick={() => toggle(row.coupleId, row.blockId, year)}
+          >
+            {pinned ? t("unpin") : t("pin")}
+          </button>
+        )}
       </section>
+
+      {survivalRow && <SurvivalPanel row={survivalRow} gates={gates} />}
+
+      {row.stageStandings && row.stageStandings.length > 0 && (
+        <section className="panel overall-panel">
+          <h2>{t("overall")}</h2>
+          <p className="muted tiny">{t("overallHint")}</p>
+          <table className="overall-breakdown">
+            <thead>
+              <tr>
+                <th>{t("liveStage")}</th>
+                <th>{t("average")}</th>
+                <th>{t("percentile")}</th>
+              </tr>
+            </thead>
+            <tbody>
+              {row.stageStandings.map((s) => (
+                <tr key={s.stage}>
+                  <td>{t(stageLabelKey(s.stage))}</td>
+                  <td className="num">{formatAverage(s.average)}</td>
+                  <td className="num">{formatOverall(s.percentile)}</td>
+                </tr>
+              ))}
+            </tbody>
+            <tfoot>
+              <tr>
+                <th>{t("overall")}</th>
+                <td />
+                <th className="num">{formatOverall(row.overall)}</th>
+              </tr>
+            </tfoot>
+          </table>
+          {row.lastStageReached && (
+            <p className="muted tiny">
+              {t("lastStage")}: {t(stageLabelKey(row.lastStageReached))}
+            </p>
+          )}
+        </section>
+      )}
 
       <section className="panel">
         <h2>{t("marks")}</h2>
-        <p className="muted">{t("droppedHint")}</p>
+        <p className="muted">{trimmed ? t("droppedHint") : t("droppedHintSimple")}</p>
         <ScoreBoxplot row={row} size="hero" />
         <ScoreMarks row={row} />
         <p className="avg-xl">{formatAverage(row.average)}</p>
@@ -88,10 +145,10 @@ export function CoupleDossier() {
 
       <section className="stat-pills">
         <article className="panel">
-          <h3>{t("rankInBlock")}</h3>
+          <h3>{showBlock ? t("rankInBlock") : t("rankOverall")}</h3>
           <p className="big">
-            {row.rankInBlock}
-            <span>/{block?.coupleCount ?? "—"}</span>
+            {showBlock ? row.rankInBlock : row.rankOverall}
+            <span>/{block?.coupleCount ?? data.rows.length}</span>
           </p>
         </article>
         <article className="panel">
@@ -113,7 +170,9 @@ export function CoupleDossier() {
         </article>
         <article className="panel">
           <h3>
-            {t("round")} {row.round}
+            {row.round && row.round !== "—"
+              ? `${t("round")} ${row.round}`
+              : t("spread")}
           </h3>
           <p className="muted">
             {t("spread")} {row.spread.toFixed(2)}

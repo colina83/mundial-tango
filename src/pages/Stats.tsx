@@ -14,7 +14,9 @@ import { Link } from "react-router-dom";
 import { useData } from "../context/DataContext";
 import { useI18n } from "../context/I18nContext";
 import { formatAverage } from "../lib/format";
+import { JudgeMarkHeatmap } from "../components/JudgeMarkHeatmap";
 import { histogram, judgeStats, roundStats, topSpread } from "../lib/stats";
+import { hasDistinctBlocks, hasRealRounds, isTrimmedScoring, yearPath } from "../lib/year";
 import type { BlockId } from "../types";
 
 const PINK = "#f778ba";
@@ -23,9 +25,11 @@ const GRID = "#30363d";
 const TEXT = "#8b949e";
 
 export function Stats() {
-  const { data } = useData();
+  const { data, year } = useData();
   const { t } = useI18n();
   const [block, setBlock] = useState<BlockId | "all">("all");
+  const showBlocks = data ? hasDistinctBlocks(data) : false;
+  const base = yearPath(year);
   const rows = useMemo(() => {
     if (!data) return [];
     return block === "all" ? data.rows : data.rows.filter((r) => r.blockId === block);
@@ -41,19 +45,27 @@ export function Stats() {
 
   return (
     <div className="page stats">
-      <div className="filters">
-        <select
-          value={block}
-          onChange={(e) => setBlock(e.target.value as BlockId | "all")}
-        >
-          <option value="all">{t("allBlocks")}</option>
-          {data.blocks.map((b) => (
-            <option key={b.id} value={b.id}>
-              {t("block")} {b.id}
-            </option>
-          ))}
-        </select>
-      </div>
+      {showBlocks && (
+        <div className="filters">
+          <select
+            value={block}
+            onChange={(e) => setBlock(e.target.value as BlockId | "all")}
+          >
+            <option value="all">{t("allBlocks")}</option>
+            {data.blocks.map((b) => (
+              <option key={b.id} value={b.id}>
+                {t("block")} {b.id}
+              </option>
+            ))}
+          </select>
+        </div>
+      )}
+
+      <JudgeMarkHeatmap
+        rows={rows}
+        stage={data.stage}
+        showDropped={isTrimmedScoring(data)}
+      />
 
       <section className="panel chart-panel">
         <h2>{t("histogram")}</h2>
@@ -131,7 +143,7 @@ export function Stats() {
           <ol className="rank-ol">
             {spread.map((row) => (
               <li key={`${row.blockId}-${row.coupleId}`}>
-                <Link to={`/pareja/${row.blockId}/${row.coupleId}`}>
+                <Link to={`${base}/pareja/${row.blockId}/${row.coupleId}`}>
                   <strong>#{row.coupleId}</strong> {row.dancer1} & {row.dancer2}
                 </Link>
                 <span>{row.spread.toFixed(2)}</span>
@@ -139,6 +151,7 @@ export function Stats() {
             ))}
           </ol>
         </section>
+        {hasRealRounds(data) && (
         <section className="panel">
           <h2>{t("hotRounds")}</h2>
           <ol className="rank-ol">
@@ -156,6 +169,7 @@ export function Stats() {
             ))}
           </ol>
         </section>
+        )}
       </div>
     </div>
   );

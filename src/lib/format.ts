@@ -16,6 +16,12 @@ export function formatDelta(n: number): string {
   return `${sign}${n.toFixed(3)}`;
 }
 
+/** Within-stage / composite percentile 0–100. */
+export function formatOverall(n: number | undefined): string {
+  if (n == null || Number.isNaN(n)) return "—";
+  return n.toFixed(1);
+}
+
 export function formatIngestTime(iso: string, locale: string): string {
   const d = new Date(iso);
   return new Intl.DateTimeFormat(locale, {

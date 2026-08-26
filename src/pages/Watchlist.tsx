@@ -4,17 +4,20 @@ import { useData } from "../context/DataContext";
 import { useI18n } from "../context/I18nContext";
 import { useWatchlist } from "../context/WatchlistContext";
 import { matchesQuery } from "../lib/format";
+import { yearPath } from "../lib/year";
 import { useState } from "react";
 import type { ScoreRow } from "../types";
 
 export function WatchlistPage() {
-  const { data } = useData();
+  const { data, year } = useData();
   const { t } = useI18n();
   const { pins } = useWatchlist();
   const [query, setQuery] = useState("");
   if (!data) return null;
+  const base = yearPath(year);
 
-  const rows = pins
+  const yearPins = pins.filter((p) => p.year === year);
+  const rows = yearPins
     .map((p) =>
       data.rows.find((r) => r.coupleId === p.coupleId && r.blockId === p.blockId),
     )
@@ -31,10 +34,10 @@ export function WatchlistPage() {
         placeholder={t("searchPlaceholder")}
         type="search"
       />
-      {pins.length === 0 ? (
+      {yearPins.length === 0 ? (
         <div className="empty">
           <p>{t("emptyWatch")}</p>
-          <Link className="btn" to="/rankings">
+          <Link className="btn" to={`${base}/rankings`}>
             {t("watchCta")}
           </Link>
         </div>

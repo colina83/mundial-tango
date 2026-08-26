@@ -1,14 +1,21 @@
-import { NavLink, Outlet } from "react-router-dom";
+import { NavLink, Outlet, useLocation, useNavigate } from "react-router-dom";
 import { useI18n } from "../context/I18nContext";
 import { useData } from "../context/DataContext";
 import type { Stage } from "../types";
+import { yearPath, visibleStages, hasWatchlist, hasFullCompetition } from "../lib/year";
 
 export function Layout() {
   const { t, lang, setLang } = useI18n();
-  const { data, loading, error, reload, manifest, activeStage, setActiveStage } = useData();
+  const { data, loading, error, reload, manifest, activeStage, setActiveStage, year } =
+    useData();
+  const navigate = useNavigate();
+  const location = useLocation();
 
-  const ALL_STAGES: Stage[] = ["clasificatoria", "cuartos", "semifinal", "final"];
+  const stages = visibleStages(year);
   const availableStages = new Set(manifest?.stages.map((s) => s.stage) ?? ["clasificatoria"]);
+  const showWatchlist = hasWatchlist(year);
+  const showFull = hasFullCompetition(manifest);
+  const hideStageBar = location.pathname.includes("/full");
 
   const stageLabel: Record<Stage, string> = {
     clasificatoria: t("stageClasificatoria"),
@@ -16,6 +23,9 @@ export function Layout() {
     semifinal: t("stageSemifinal"),
     final: t("stageFinal"),
   };
+
+  const chipLabel = year === 2026 ? `${year} ${t("liveNow")}` : String(year);
+  const base = yearPath(year);
 
   return (
     <div className="app-shell">
@@ -27,14 +37,25 @@ export function Layout() {
             </span>
           </NavLink>
           <nav className="top-nav" aria-label={t("navPrimary")}>
-            <NavLink to="/" end>
+            <NavLink to={base} end>
               {t("navDashboard")}
             </NavLink>
-            <NavLink to="/rankings">{t("navRankings")}</NavLink>
-            <NavLink to="/stats">{t("navStats")}</NavLink>
-            <NavLink to="/watchlist">{t("navWatchlist")}</NavLink>
+            <NavLink to={`${base}/rankings`}>{t("navRankings")}</NavLink>
+            <NavLink to={`${base}/stats`}>{t("navStats")}</NavLink>
+            {showWatchlist && (
+              <NavLink to={`${base}/watchlist`}>{t("navWatchlist")}</NavLink>
+            )}
+            {showFull && <NavLink to={`${base}/full`}>{t("navFull")}</NavLink>}
           </nav>
           <div className="topbar-actions">
+            <button
+              type="button"
+              className="year-chip"
+              onClick={() => navigate("/")}
+              title={t("backToYears")}
+            >
+              {chipLabel}
+            </button>
             <span className="pill">{t("unofficial")}</span>
             <div className="lang-toggle" role="group" aria-label={t("language")}>
               <button
@@ -56,8 +77,9 @@ export function Layout() {
         </div>
       </header>
 
+      {!hideStageBar && (
       <div className="stage-bar" role="tablist" aria-label={t("liveStage")}>
-        {ALL_STAGES.map((stage) => {
+        {stages.map((stage) => {
           const available = availableStages.has(stage);
           return (
             <button
@@ -82,9 +104,12 @@ export function Layout() {
           );
         })}
       </div>
+      )}
 
       <div className="event-header">
-        <span>Mundial de Tango 2026 – Results</span>
+        <span>
+          {t("appName")} {year} – {t("resultsWord")}
+        </span>
       </div>
 
       <div className="source-bar">
@@ -118,22 +143,30 @@ export function Layout() {
       </main>
 
       <nav className="bottom-nav" aria-label={t("navMobile")}>
-        <NavLink to="/" end>
+        <NavLink to={base} end>
           <HomeIcon />
           {t("navDashboard")}
         </NavLink>
-        <NavLink to="/rankings">
+        <NavLink to={`${base}/rankings`}>
           <ListIcon />
           {t("navRankings")}
         </NavLink>
-        <NavLink to="/stats">
+        <NavLink to={`${base}/stats`}>
           <ChartIcon />
           {t("navStats")}
         </NavLink>
-        <NavLink to="/watchlist">
-          <PinIcon />
-          {t("navWatchlist")}
-        </NavLink>
+        {showWatchlist && (
+          <NavLink to={`${base}/watchlist`}>
+            <PinIcon />
+            {t("navWatchlist")}
+          </NavLink>
+        )}
+        {showFull && (
+          <NavLink to={`${base}/full`}>
+            <GridIcon />
+            {t("navFull")}
+          </NavLink>
+        )}
       </nav>
     </div>
   );
@@ -150,6 +183,16 @@ function ListIcon() {
   return (
     <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="1.8">
       <path d="M8 7h12M8 12h12M8 17h12M4 7h.01M4 12h.01M4 17h.01" />
+    </svg>
+  );
+}
+function GridIcon() {
+  return (
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="1.8">
+      <rect x="4" y="4" width="6" height="6" rx="1" />
+      <rect x="14" y="4" width="6" height="6" rx="1" />
+      <rect x="4" y="14" width="6" height="6" rx="1" />
+      <rect x="14" y="14" width="6" height="6" rx="1" />
     </svg>
   );
 }

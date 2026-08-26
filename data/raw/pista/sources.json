@@ -1,0 +1,134 @@
+{
+  "harvestedAt": "2026-08-25",
+  "userAgent": "mundial-tango-unofficial/0.1",
+  "category": "https://tangoba.org/category/resultados/",
+  "categoryPages": [
+    "https://tangoba.org/category/resultados/",
+    "https://tangoba.org/category/resultados/page/2/",
+    "https://tangoba.org/category/resultados/page/3/",
+    "https://tangoba.org/category/resultados/page/4/",
+    "https://tangoba.org/category/resultados/page/5/"
+  ],
+  "years": {
+    "2023": {
+      "posts": [],
+      "pdfs": [],
+      "notes": "No Mundial Pista result posts or PDFs in tangoba.org resultados (45 posts, May 2024–present). Guessed 2023 URLs 404. WP media after=2023-01-01 before=2024-01-01 returned 0 items."
+    },
+    "2024": {
+      "posts": [
+        {
+          "stage": "clasificatoria",
+          "date": "2024-08-20",
+          "url": "https://tangoba.org/resultados-clasificatoria-tango-de-pista/"
+        },
+        {
+          "stage": "semifinal",
+          "date": "2024-08-24",
+          "url": "https://tangoba.org/resultados-semifinal-tango-de-pista/"
+        },
+        {
+          "stage": "final",
+          "date": "2024-08-28",
+          "url": "https://tangoba.org/resultados-finales-tango-escenario-y-tango-pista/"
+        }
+      ],
+      "pdfs": [
+        {
+          "stage": "clasificatoria",
+          "file": "2024/clasificatoria.pdf",
+          "url": "https://tangoba.org/wp-content/uploads/2024/08/Jurados-_-Pista-Clasificatorias-2024.pdf"
+        },
+        {
+          "stage": "semifinal",
+          "file": "2024/semifinal.pdf",
+          "url": "https://tangoba.org/wp-content/uploads/2024/08/Resultados-semifinal-pista-2024.pdf"
+        },
+        {
+          "stage": "final",
+          "file": "2024/final.pdf",
+          "url": "https://tangoba.org/wp-content/uploads/2024/08/Final-Tango-Pista.pdf"
+        },
+        {
+          "stage": "final-senior",
+          "file": "2024/final-senior.pdf",
+          "url": "https://tangoba.org/wp-content/uploads/2024/08/Ranking-Final-Senior.pdf"
+        }
+      ],
+      "skippedEscenario": [
+        "https://tangoba.org/wp-content/uploads/2024/08/Final-Tango-Escenario.pdf"
+      ]
+    },
+    "2025": {
+      "posts": [
+        {
+          "stage": "clasificatoria",
+          "date": "2025-08-23",
+          "url": "https://tangoba.org/resultados-clasificatoria-tango-de-pista-2025/"
+        },
+        {
+          "stage": "cuartos",
+          "date": "2025-08-27",
+          "url": "https://tangoba.org/resultados-cuartos-tango-de-pista/"
+        },
+        {
+          "stage": "semifinal",
+          "date": "2025-08-29",
+          "url": "https://tangoba.org/resultados-semifinal-tango-de-pista-2025/"
+        },
+        {
+          "stage": "final",
+          "date": "2025-09-01",
+          "url": "https://tangoba.org/resultados-finales-tango-pista-2025/"
+        }
+      ],
+      "pdfs": [
+        {
+          "stage": "clasificatoria-A",
+          "file": "2025/clasificatoria-A.pdf",
+          "url": "https://tangoba.org/wp-content/uploads/2025/08/Resultados-Pista-Clasificatorias-2025-23_8-A.pdf"
+        },
+        {
+          "stage": "clasificatoria-B",
+          "file": "2025/clasificatoria-B.pdf",
+          "url": "https://tangoba.org/wp-content/uploads/2025/08/Resultados-Pista-Clasificatorias-2025-23_8-B.pdf"
+        },
+        {
+          "stage": "clasificatoria-C",
+          "file": "2025/clasificatoria-C.pdf",
+          "url": "https://tangoba.org/wp-content/uploads/2025/08/Pista-Clasificatorias-2025-24_8-C-resultados.pdf"
+        },
+        {
+          "stage": "clasificatoria-D",
+          "file": "2025/clasificatoria-D.pdf",
+          "url": "https://tangoba.org/wp-content/uploads/2025/08/Pista-Clasificatorias-2025-24_8-D-resultados.pdf"
+        },
+        {
+          "stage": "cuartos-A",
+          "file": "2025/cuartos-A.pdf",
+          "url": "https://tangoba.org/wp-content/uploads/2025/08/Jurados-_-Pista-Cuartos-2025-27_8-A-resultados.pdf"
+        },
+        {
+          "stage": "cuartos-B",
+          "file": "2025/cuartos-B.pdf",
+          "url": "https://tangoba.org/wp-content/uploads/2025/08/Jurados-_-Pista-Cuartos-2025-27_8-B-resultados.pdf"
+        },
+        {
+          "stage": "semifinal",
+          "file": "2025/semifinal.pdf",
+          "url": "https://tangoba.org/wp-content/uploads/2025/08/Jurados-_-Pista-Semis-2025-29_8-JURADOS-_-RONDAS-TODAS-29_8-1.pdf"
+        },
+        {
+          "stage": "final",
+          "file": "2025/final.pdf",
+          "url": "https://tangoba.org/wp-content/uploads/2025/09/Jurados-_-Pista-FINAL-2025-JURADOS-_-RONDAS-TODAS.pdf"
+        },
+        {
+          "stage": "final-senior",
+          "file": "2025/final-senior.pdf",
+          "url": "https://tangoba.org/wp-content/uploads/2025/09/Jurados-_-Pista-FINAL-2025-Ranking-Senior-1.pdf"
+        }
+      ]
+    }
+  }
+}

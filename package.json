@@ -9,14 +9,17 @@
     "node": ">=20.11.0"
   },
   "scripts": {
-    "setup": "npm install && npm run ingest:offline",
+    "setup": "npm install && npm run ingest:offline && npm run ingest:historic",
     "start": "vite preview",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "lint": "oxlint",
     "ingest": "tsx scripts/ingest.ts",
-    "ingest:offline": "tsx scripts/ingest.ts --offline"
+    "ingest:offline": "tsx scripts/ingest.ts --offline",
+    "ingest:historic": "tsx scripts/ingest-historic.ts",
+    "ingest:overall": "tsx scripts/overall.ts",
+    "survival": "tsx scripts/survival.ts"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",

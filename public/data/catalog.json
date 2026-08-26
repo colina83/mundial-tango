@@ -1,0 +1,54 @@
+{
+  "updatedAt": "2026-08-25T22:24:33.731Z",
+  "years": [
+    {
+      "year": 2026,
+      "status": "live",
+      "scoring": "trimmed",
+      "complete": false,
+      "hasBlocks": true,
+      "stages": [
+        "clasificatoria"
+      ],
+      "rowCounts": {
+        "clasificatoria": 545
+      }
+    },
+    {
+      "year": 2025,
+      "status": "archive",
+      "scoring": "simple",
+      "complete": true,
+      "hasBlocks": true,
+      "stages": [
+        "clasificatoria",
+        "cuartos",
+        "semifinal",
+        "final"
+      ],
+      "rowCounts": {
+        "clasificatoria": 538,
+        "cuartos": 287,
+        "semifinal": 155,
+        "final": 41
+      }
+    },
+    {
+      "year": 2024,
+      "status": "archive",
+      "scoring": "simple",
+      "complete": true,
+      "hasBlocks": false,
+      "stages": [
+        "clasificatoria",
+        "semifinal",
+        "final"
+      ],
+      "rowCounts": {
+        "clasificatoria": 518,
+        "semifinal": 173,
+        "final": 40
+      }
+    }
+  ]
+}

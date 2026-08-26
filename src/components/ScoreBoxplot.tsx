@@ -23,6 +23,7 @@ export function ScoreBoxplot({
 }) {
   const { t } = useI18n();
   const stats = boxplotFromRow(row);
+  const trimmed = row.judges.some((j) => j.dropped);
   const btnRef = useRef<HTMLButtonElement>(null);
   const tipRef = useRef<HTMLDivElement>(null);
   const leaveTimer = useRef<number>(0);
@@ -138,14 +139,14 @@ export function ScoreBoxplot({
             x2={xMin}
             y1={midY - boxH / 2}
             y2={midY + boxH / 2}
-            className="boxplot-cap dropped"
+            className={`boxplot-cap ${trimmed ? "dropped" : ""}`}
           />
           <line
             x1={xMax}
             x2={xMax}
             y1={midY - boxH / 2}
             y2={midY + boxH / 2}
-            className="boxplot-cap dropped"
+            className={`boxplot-cap ${trimmed ? "dropped" : ""}`}
           />
           <rect
             x={Math.min(xLo, xHi)}
@@ -205,12 +206,12 @@ export function ScoreBoxplot({
                   <span className="tip-name">{j.name}</span>
                   <span className="tip-score">{j.score.toFixed(2)}</span>
                   <span className="tip-flag">
-                    {j.dropped ? t("dropped") : t("kept")}
+                    {trimmed ? (j.dropped ? t("dropped") : t("kept")) : ""}
                   </span>
                 </li>
               ))}
             </ul>
-            <p className="boxplot-tip-legend">{t("droppedHint")}</p>
+            <p className="boxplot-tip-legend">{trimmed ? t("droppedHint") : t("droppedHintSimple")}</p>
           </div>,
           document.body,
         )}

@@ -43,6 +43,7 @@ npm run setup
 | `npm run preview` or `npm start` | Serve the production build locally |
 | `npm run ingest:offline` | Parse PDFs already in `data/raw/` (no network) |
 | `npm run ingest` | Fetch [tangoba.org](https://tangoba.org/resultados-clasificatoria-tango-de-pista-2026/), download new **2026** PDFs by hash, then parse |
+| `npm run survival` | Fit stage-survival odds from 2024–2025 clasificatoria JSON into `public/data/survival.json` |
 | `npm run lint` | oxlint |
 
 ## Ingest

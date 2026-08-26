@@ -10,10 +10,11 @@ import {
   formatIngestTime,
 } from "../lib/format";
 import { classifiedTotal } from "../lib/stats";
+import { hasDistinctBlocks, hasWatchlist, isTrimmedScoring, yearPath } from "../lib/year";
 import type { ScoreRow } from "../types";
 
 export function Dashboard() {
-  const { data, activeStage } = useData();
+  const { data, activeStage, year } = useData();
   const { t, lang } = useI18n();
   const { pins } = useWatchlist();
   if (!data) return null;
@@ -26,7 +27,13 @@ export function Dashboard() {
   };
 
   const locale = lang === "es" ? "es-AR" : "en-GB";
+  const showBlocks = hasDistinctBlocks(data);
+  const trimmed = isTrimmedScoring(data);
+  const showWatchlist = hasWatchlist(year);
+  const base = yearPath(year);
+
   const watchRows = pins
+    .filter((p) => p.year === year)
     .map((p) =>
       data.rows.find((r) => r.coupleId === p.coupleId && r.blockId === p.blockId),
     )
@@ -39,6 +46,9 @@ export function Dashboard() {
     .sort((a, b) => b.average - a.average)
     .slice(0, 5);
 
+  const howTo =
+    year === 2024 ? t("howToScore2024") : year === 2025 ? t("howToScore2025") : t("howToScore");
+
   return (
     <div className="page dashboard">
       <section className="hero-panel">
@@ -47,7 +57,7 @@ export function Dashboard() {
           {stageLabel[activeStage] ?? t("stageClasificatoria")}
           <span> · {t("categoryPista")}</span>
         </h1>
-        <p className="lede">{t("howToScore")}</p>
+        <p className="lede">{howTo}</p>
         <dl className="hero-meta">
           <div>
             <dt>{t("lastIngest")}</dt>
@@ -66,63 +76,66 @@ export function Dashboard() {
         rows={data.rows}
         blocks={data.blocks.map((b) => ({ id: b.id, date: b.date }))}
         stageLabel={stageLabel[activeStage] ?? t("stageClasificatoria")}
+        overall={!showBlocks}
       />
 
-      <section className="block-grid">
-        {data.blocks.map((block) => (
-          <article key={block.id} className="panel block-card">
-            <header>
-              <h2>
-                {t("block")} {block.id}
-              </h2>
-              <a
-                href={block.sourcePdf.url ?? data.sourcePage}
-                target="_blank"
-                rel="noreferrer"
-              >
-                {t("officialPdf")}
-              </a>
-            </header>
-            <p className="date-label">{formatBlockDate(block.date, locale)}</p>
-            <p className="cutoff-big">
-              <span>{t("cutoff")}</span>
-              {formatAverage(block.cutoff)}
-            </p>
-            <p className="classified-line">
-              <strong>{block.classifiedCount}</strong> {t("classified")} {t("of")}{" "}
-              {block.coupleCount}
-            </p>
-            <dl className="block-stats">
-              {(() => {
-                const blockRows = data.rows.filter((r) => r.blockId === block.id);
-                const topScore = blockRows.length
-                  ? Math.max(...blockRows.map((r) => r.average))
-                  : null;
-                const lowestScore = blockRows.length
-                  ? Math.min(...blockRows.map((r) => r.average))
-                  : null;
-                return (
-                  <>
-                    <div>
-                      <dt>{t("topScoreCutoff")}</dt>
-                      <dd>{topScore !== null ? formatAverage(topScore) : "—"}</dd>
-                    </div>
-                    <div>
-                      <dt>{t("lowestScore")}</dt>
-                      <dd>{lowestScore !== null ? formatAverage(lowestScore) : "—"}</dd>
-                    </div>
-                  </>
-                );
-              })()}
-            </dl>
-            <Link className="text-link" to={`/rankings?block=${block.id}`}>
-              {t("navRankings")} {block.id} →
-            </Link>
-          </article>
-        ))}
-      </section>
+      {showBlocks && (
+        <section className="block-grid">
+          {data.blocks.map((block) => (
+            <article key={block.id} className="panel block-card">
+              <header>
+                <h2>
+                  {t("block")} {block.id}
+                </h2>
+                <a
+                  href={block.sourcePdf.url ?? data.sourcePage}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {t("officialPdf")}
+                </a>
+              </header>
+              <p className="date-label">{formatBlockDate(block.date, locale)}</p>
+              <p className="cutoff-big">
+                <span>{t("cutoff")}</span>
+                {formatAverage(block.cutoff)}
+              </p>
+              <p className="classified-line">
+                <strong>{block.classifiedCount}</strong> {t("classified")} {t("of")}{" "}
+                {block.coupleCount}
+              </p>
+              <dl className="block-stats">
+                {(() => {
+                  const blockRows = data.rows.filter((r) => r.blockId === block.id);
+                  const topScore = blockRows.length
+                    ? Math.max(...blockRows.map((r) => r.average))
+                    : null;
+                  const lowestScore = blockRows.length
+                    ? Math.min(...blockRows.map((r) => r.average))
+                    : null;
+                  return (
+                    <>
+                      <div>
+                        <dt>{t("topScoreCutoff")}</dt>
+                        <dd>{topScore !== null ? formatAverage(topScore) : "—"}</dd>
+                      </div>
+                      <div>
+                        <dt>{t("lowestScore")}</dt>
+                        <dd>{lowestScore !== null ? formatAverage(lowestScore) : "—"}</dd>
+                      </div>
+                    </>
+                  );
+                })()}
+              </dl>
+              <Link className="text-link" to={`${base}/rankings?block=${block.id}`}>
+                {t("navRankings")} {block.id} →
+              </Link>
+            </article>
+          ))}
+        </section>
+      )}
 
-      <section className="two-col">
+      <section className={showWatchlist ? "two-col" : undefined}>
         <article className="panel">
           <h2>{t("top5AllRounds")}</h2>
           <p className="muted">{t("top5Hint")}</p>
@@ -141,37 +154,39 @@ export function Dashboard() {
             })}
           </div>
         </article>
-        <article className="panel">
-          <h2>{t("watchPreview")}</h2>
-          {watchRows.length === 0 ? (
-            <div className="empty">
-              <p>{t("watchEmpty")}</p>
-              <Link className="btn" to="/rankings">
-                {t("watchCta")}
-              </Link>
-            </div>
-          ) : (
-            <div className="card-list">
-              {watchRows.map((row) => {
-                const count =
-                  data.blocks.find((b) => b.id === row.blockId)?.coupleCount ?? 0;
-                return (
-                  <CoupleCard
-                    key={`${row.blockId}-${row.coupleId}`}
-                    row={row}
-                    coupleCount={count}
-                  />
-                );
-              })}
-              <Link className="text-link" to="/watchlist">
-                {t("navWatchlist")} →
-              </Link>
-            </div>
-          )}
-        </article>
+        {showWatchlist && (
+          <article className="panel">
+            <h2>{t("watchPreview")}</h2>
+            {watchRows.length === 0 ? (
+              <div className="empty">
+                <p>{t("watchEmpty")}</p>
+                <Link className="btn" to={`${base}/rankings`}>
+                  {t("watchCta")}
+                </Link>
+              </div>
+            ) : (
+              <div className="card-list">
+                {watchRows.map((row) => {
+                  const count =
+                    data.blocks.find((b) => b.id === row.blockId)?.coupleCount ?? 0;
+                  return (
+                    <CoupleCard
+                      key={`${row.blockId}-${row.coupleId}`}
+                      row={row}
+                      coupleCount={count}
+                    />
+                  );
+                })}
+                <Link className="text-link" to={`${base}/watchlist`}>
+                  {t("navWatchlist")} →
+                </Link>
+              </div>
+            )}
+          </article>
+        )}
       </section>
-      <p className="footer-note">{t("footerNote")}</p>
-      <p className="footer-note muted">{t("laterStages")}</p>
+      <p className="footer-note">{trimmed ? t("footerNote") : t("footerNoteSimple")}</p>
+      {year === 2026 && <p className="footer-note muted">{t("laterStages2026")}</p>}
     </div>
   );
 }

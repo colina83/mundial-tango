@@ -2,17 +2,16 @@ import { createHash } from "node:crypto";
 import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import { basename, dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import type {
-  AverageMismatch,
-  BlockSummary,
-  Dataset,
-  ScoreRow,
-  Stage,
-  StageEntry,
-  StageManifest,
-} from "../src/types.ts";
+import type { Dataset, Stage } from "../src/types.ts";
 import { parsePdfFile } from "./parse-pdf.ts";
-import { attachOverallRanks, qualifyBlock } from "./qualify.ts";
+import {
+  buildDataset,
+  catalogEntryFrom,
+  mergeCatalog,
+  writeYearOutputs,
+} from "./year-io.ts";
+import { attachOverallScores } from "./overall.ts";
+import { generateSurvival } from "./survival.ts";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const RAW_DIR = join(ROOT, "data", "raw");
@@ -369,85 +368,6 @@ async function syncStagePdfs(
   return { downloaded, stageRawDir };
 }
 
-function buildDataset(
-  stage: Stage,
-  sourcePage: string,
-  sourceCategoryPage: string,
-  blocks: Awaited<ReturnType<typeof parsePdfFile>>[],
-): Dataset {
-  const rows: ScoreRow[] = [];
-  const mismatches: AverageMismatch[] = [];
-  const summaries: BlockSummary[] = [];
-
-  const ordered = [...blocks].sort((a, b) => a.id.localeCompare(b.id));
-
-  for (const block of ordered) {
-    const qualified = qualifyBlock(block.couples);
-    for (const couple of block.couples) {
-      const mismatch =
-        Math.abs(couple.average - couple.officialAverage) > 0.002;
-      if (mismatch) {
-        mismatches.push({
-          coupleId: couple.coupleId,
-          blockId: block.id,
-          computed: couple.average,
-          official: couple.officialAverage,
-        });
-      }
-      const rankInBlock = qualified.ranks.get(couple.coupleId) ?? 0;
-      const classified = couple.average >= qualified.cutoff;
-      rows.push({
-        coupleId: couple.coupleId,
-        round: couple.round,
-        dancer1: couple.dancer1,
-        dancer2: couple.dancer2,
-        judges: couple.judges,
-        average: couple.average,
-        officialAverage: couple.officialAverage,
-        rankInBlock,
-        rankOverall: 0,
-        classified,
-        cutoffDelta: Math.round((couple.average - qualified.cutoff) * 1000) / 1000,
-        spread: couple.spread,
-        blockId: block.id,
-        averageMismatch: mismatch,
-        originStage: stage,
-      });
-    }
-    summaries.push({
-      id: block.id,
-      date: block.date,
-      dateLabel: block.dateLabel,
-      judges: block.judges,
-      sourcePdf: {
-        filename: block.filename,
-        url: block.url,
-        sha256: block.sha256,
-      },
-      cutoff: qualified.cutoff,
-      classifiedCount: qualified.classifiedCount,
-      coupleCount: block.couples.length,
-    });
-  }
-
-  attachOverallRanks(rows);
-
-  return {
-    generatedAt: new Date().toISOString(),
-    year: 2026,
-    stage,
-    category: "pista",
-    sourcePage,
-    sourceCategoryPage,
-    sourceLabel: "Tango BA",
-    disclaimer:
-      "Compañero extraoficial de fans. No afiliado a Tango BA ni al Mundial de Baile. Fuente: Tango BA.",
-    blocks: summaries,
-    rows,
-    mismatches,
-  };
-}
-
 async function ingestStage(
   stageConf: (typeof STAGE_SOURCES)[number],
   fetchRemote: boolean,
@@ -526,11 +446,8 @@ async function ingestStage(
     parsed.push(block);
   }
 
-  const dataset = buildDataset(stage, sourcePage, sourceCategoryPage, parsed);
-  const json = `${JSON.stringify(dataset, null, 2)}\n`;
-  await writeFile(join(PROCESSED_DIR, `results-${stage}.json`), json);
-  await writeFile(join(PUBLIC_DATA_DIR, `results-${stage}.json`), json);
-  console.log(`[${stage}] Written results-${stage}.json`);
+  const dataset = buildDataset(stage, sourcePage, sourceCategoryPage, parsed, 2026, "trimmed");
+  console.log(`[${stage}] Parsed ${dataset.rows.length} couples.`);
 
   // Update source index with parsed PDF hashes
   for (const block of parsed) {
@@ -550,10 +467,7 @@ async function main(): Promise<void> {
   await mkdir(PUBLIC_DATA_DIR, { recursive: true });
 
   const index = await readSourceIndex();
-  const manifest: StageManifest = {
-    updatedAt: new Date().toISOString(),
-    stages: [],
-  };
+  const datasets: Dataset[] = [];
 
   // Summary for logging
   const stageResults: Record<string, "new" | "unchanged" | "unavailable"> = {};
@@ -561,12 +475,7 @@ async function main(): Promise<void> {
   for (const stageConf of STAGE_SOURCES) {
     const dataset = await ingestStage(stageConf, fetchRemote, index);
     if (dataset) {
-      const entry: StageEntry = {
-        stage: dataset.stage,
-        generatedAt: dataset.generatedAt,
-        rowCount: dataset.rows.length,
-      };
-      manifest.stages.push(entry);
+      datasets.push(dataset);
       stageResults[stageConf.stage] = "new";
     } else {
       stageResults[stageConf.stage] = "unavailable";
@@ -575,24 +484,20 @@ async function main(): Promise<void> {
 
   await writeSourceIndex(index);
 
-  // Write manifest
-  await writeFile(
-    join(PUBLIC_DATA_DIR, "manifest.json"),
-    `${JSON.stringify(manifest, null, 2)}\n`,
+  attachOverallScores(datasets);
+  const manifest = await writeYearOutputs(
+    PROCESSED_DIR,
+    PUBLIC_DATA_DIR,
+    2026,
+    "trimmed",
+    datasets,
+    true,
+  );
+  await mergeCatalog(
+    PUBLIC_DATA_DIR,
+    catalogEntryFrom(2026, "live", "trimmed", false, datasets),
   );
   console.log(`\nManifest written with ${manifest.stages.length} stage(s): ${manifest.stages.map((s) => s.stage).join(", ")}`);
-
-  // Also keep backwards-compatible results.json pointing to clasificatoria
-  const clasifDataset = manifest.stages.find((s) => s.stage === "clasificatoria");
-  if (clasifDataset) {
-    const clasifJson = await readFile(
-      join(PROCESSED_DIR, "results-clasificatoria.json"),
-      "utf8",
-    );
-    await writeFile(join(PROCESSED_DIR, "results.json"), clasifJson);
-    await writeFile(join(PUBLIC_DATA_DIR, "results.json"), clasifJson);
-    console.log("Backwards-compatible results.json updated from clasificatoria dataset.");
-  }
 
   // Summary log
   console.log("\n=== Ingest summary ===");
@@ -616,6 +521,12 @@ async function main(): Promise<void> {
     console.log(
       `\nCouple 139 check: avg=${couple139.average} official=${couple139.officialAverage} classified=${couple139.classified} block=${couple139.blockId}`,
     );
+  }
+
+  try {
+    await generateSurvival();
+  } catch (err) {
+    console.warn("Survival odds not updated:", err);
   }
 }
 

@@ -1,0 +1,22 @@
+{
+  "updatedAt": "2026-08-25T23:47:11.832Z",
+  "year": 2024,
+  "scoring": "simple",
+  "stages": [
+    {
+      "stage": "clasificatoria",
+      "generatedAt": "2026-08-25T22:24:33.668Z",
+      "rowCount": 518
+    },
+    {
+      "stage": "semifinal",
+      "generatedAt": "2026-08-25T22:24:33.705Z",
+      "rowCount": 173
+    },
+    {
+      "stage": "final",
+      "generatedAt": "2026-08-25T22:24:33.717Z",
+      "rowCount": 40
+    }
+  ]
+}

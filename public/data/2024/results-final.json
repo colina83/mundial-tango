@@ -1,0 +1,2883 @@
+{
+  "generatedAt": "2026-08-25T22:24:33.717Z",
+  "year": 2024,
+  "stage": "final",
+  "category": "pista",
+  "scoring": "simple",
+  "sourcePage": "https://tangoba.org/resultados-finales-tango-escenario-y-tango-pista/",
+  "sourceCategoryPage": "https://tangoba.org/category/resultados/",
+  "sourceLabel": "Tango BA",
+  "disclaimer": "Compañero extraoficial de fans. No afiliado a Tango BA ni al Mundial de Baile. Fuente: Tango BA.",
+  "blocks": [
+    {
+      "id": "_",
+      "date": "2024-08-28",
+      "dateLabel": "28 de agosto",
+      "judges": [
+        "Moira Castellano",
+        "Daniel Nacucchio",
+        "Fernando Carrasco",
+        "Pancho Martinez Pey",
+        "Claudia Códega",
+        "Alejandra Mantiñan",
+        "Corina de la Rosa"
+      ],
+      "sourcePdf": {
+        "filename": "final.pdf",
+        "url": "https://tangoba.org/wp-content/uploads/2024/08/Final-Tango-Pista.pdf",
+        "sha256": "dfbb7aa7fad13c655ba80978f244fd77e1fe7a4e298472aad968e8eb1cd14c8e"
+      },
+      "cutoff": 8.956,
+      "classifiedCount": 40,
+      "coupleCount": 40
+    }
+  ],
+  "rows": [
+    {
+      "coupleId": 691,
+      "round": "—",
+      "dancer1": "Fatima Caracoch",
+      "dancer2": "Brenno Marques",
+      "judges": [
+        {
+          "name": "Moira Castellano",
+          "score": 10,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.81,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 10,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.53,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.48,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Mantiñan",
+          "score": 9.8,
+          "dropped": false
+        },
+        {
+          "name": "Corina de la Rosa",
+          "score": 9.5,
+          "dropped": false
+        }
+      ],
+      "average": 9.731,
+      "officialAverage": 9.731,
+      "rankInBlock": 1,
+      "rankOverall": 1,
+      "classified": true,
+      "cutoffDelta": 0.775,
+      "spread": 0.52,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 100,
+      "stageStandings": [
+        {
+          "stage": "final",
+          "average": 9.731,
+          "percentile": 100
+        }
+      ],
+      "overall": 100,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 477,
+      "round": "—",
+      "dancer1": "Diego Ortega",
+      "dancer2": "Aldana Silveyra",
+      "judges": [
+        {
+          "name": "Moira Castellano",
+          "score": 9.99,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.85,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.86,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.48,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.8,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Mantiñan",
+          "score": 10,
+          "dropped": false
+        },
+        {
+          "name": "Corina de la Rosa",
+          "score": 9,
+          "dropped": false
+        }
+      ],
+      "average": 9.711,
+      "officialAverage": 9.711,
+      "rankInBlock": 2,
+      "rankOverall": 2,
+      "classified": true,
+      "cutoffDelta": 0.755,
+      "spread": 1,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 97.4,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.4,
+          "percentile": 95.4
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.673,
+          "percentile": 98.8
+        },
+        {
+          "stage": "final",
+          "average": 9.711,
+          "percentile": 97.4
+        }
+      ],
+      "overall": 97.2,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 585,
+      "round": "—",
+      "dancer1": "Juan David Vargas",
+      "dancer2": "Ornella Simonetto",
+      "judges": [
+        {
+          "name": "Moira Castellano",
+          "score": 9.93,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.71,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.88,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.65,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.5,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Mantiñan",
+          "score": 9.98,
+          "dropped": false
+        },
+        {
+          "name": "Corina de la Rosa",
+          "score": 9,
+          "dropped": false
+        }
+      ],
+      "average": 9.664,
+      "officialAverage": 9.664,
+      "rankInBlock": 3,
+      "rankOverall": 3,
+      "classified": true,
+      "cutoffDelta": 0.708,
+      "spread": 0.98,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 94.9,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.438,
+          "percentile": 96.1
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.633,
+          "percentile": 98.3
+        },
+        {
+          "stage": "final",
+          "average": 9.664,
+          "percentile": 94.9
+        }
+      ],
+      "overall": 96.4,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 424,
+      "round": "—",
+      "dancer1": "Lucas Gauto",
+      "dancer2": "Naima Gerasopoulou",
+      "judges": [
+        {
+          "name": "Moira Castellano",
+          "score": 9.98,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.91,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.9,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.05,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.64,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Mantiñan",
+          "score": 9.75,
+          "dropped": false
+        },
+        {
+          "name": "Corina de la Rosa",
+          "score": 9.1,
+          "dropped": false
+        }
+      ],
+      "average": 9.619,
+      "officialAverage": 9.619,
+      "rankInBlock": 4,
+      "rankOverall": 4,
+      "classified": true,
+      "cutoffDelta": 0.663,
+      "spread": 0.93,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 92.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.524,
+          "percentile": 98.1
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.58,
+          "percentile": 97.7
+        },
+        {
+          "stage": "final",
+          "average": 9.619,
+          "percentile": 92.3
+        }
+      ],
+      "overall": 96,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 708,
+      "round": "—",
+      "dancer1": "Naoko Tsutsumisaky",
+      "dancer2": "Cristian Lopez",
+      "judges": [
+        {
+          "name": "Moira Castellano",
+          "score": 9.4,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.8,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.83,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.55,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.43,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Mantiñan",
+          "score": 9.96,
+          "dropped": false
+        },
+        {
+          "name": "Corina de la Rosa",
+          "score": 9.35,
+          "dropped": false
+        }
+      ],
+      "average": 9.617,
+      "officialAverage": 9.617,
+      "rankInBlock": 5,
+      "rankOverall": 5,
+      "classified": true,
+      "cutoffDelta": 0.661,
+      "spread": 0.61,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 89.7,
+      "stageStandings": [
+        {
+          "stage": "semifinal",
+          "average": 8.49,
+          "percentile": 92.4
+        },
+        {
+          "stage": "final",
+          "average": 9.617,
+          "percentile": 89.7
+        }
+      ],
+      "overall": 91.1,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 119,
+      "round": "—",
+      "dancer1": "Ezequiel Núñez",
+      "dancer2": "Haruna Ashizawa",
+      "judges": [
+        {
+          "name": "Moira Castellano",
+          "score": 9.97,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.8,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.8,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.4,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.38,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Mantiñan",
+          "score": 9.9,
+          "dropped": false
+        },
+        {
+          "name": "Corina de la Rosa",
+          "score": 9,
+          "dropped": false
+        }
+      ],
+      "average": 9.607,
+      "officialAverage": 9.607,
+      "rankInBlock": 6,
+      "rankOverall": 6,
+      "classified": true,
+      "cutoffDelta": 0.651,
+      "spread": 0.97,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 87.2,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.282,
+          "percentile": 88.8
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.492,
+          "percentile": 93
+        },
+        {
+          "stage": "final",
+          "average": 9.607,
+          "percentile": 87.2
+        }
+      ],
+      "overall": 89.7,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 67,
+      "round": "—",
+      "dancer1": "Dmitrii Liferov",
+      "dancer2": "Dana Son",
+      "judges": [
+        {
+          "name": "Moira Castellano",
+          "score": 9.99,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.48,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.89,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.6,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.3,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Mantiñan",
+          "score": 10,
+          "dropped": false
+        },
+        {
+          "name": "Corina de la Rosa",
+          "score": 8.7,
+          "dropped": false
+        }
+      ],
+      "average": 9.566,
+      "officialAverage": 9.566,
+      "rankInBlock": 7,
+      "rankOverall": 7,
+      "classified": true,
+      "cutoffDelta": 0.61,
+      "spread": 1.3,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 84.6,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.82,
+          "percentile": 100
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.73,
+          "percentile": 100
+        },
+        {
+          "stage": "final",
+          "average": 9.566,
+          "percentile": 84.6
+        }
+      ],
+      "overall": 94.9,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 688,
+      "round": "—",
+      "dancer1": "Valentina Massari",
+      "dancer2": "Leonardo Pankow",
+      "judges": [
+        {
+          "name": "Moira Castellano",
+          "score": 10,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.51,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.84,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.1,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.49,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Mantiñan",
+          "score": 10,
+          "dropped": false
+        },
+        {
+          "name": "Corina de la Rosa",
+          "score": 9,
+          "dropped": false
+        }
+      ],
+      "average": 9.563,
+      "officialAverage": 9.563,
+      "rankInBlock": 8,
+      "rankOverall": 8,
+      "classified": true,
+      "cutoffDelta": 0.607,
+      "spread": 1,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 82.1,
+      "stageStandings": [
+        {
+          "stage": "semifinal",
+          "average": 8.498,
+          "percentile": 94.2
+        },
+        {
+          "stage": "final",
+          "average": 9.563,
+          "percentile": 82.1
+        }
+      ],
+      "overall": 88.2,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 466,
+      "round": "—",
+      "dancer1": "Ariel Taritolay",
+      "dancer2": "Laura Casco Zorzón",
+      "judges": [
+        {
+          "name": "Moira Castellano",
+          "score": 9.99,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.48,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.89,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.45,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.66,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Mantiñan",
+          "score": 9.2,
+          "dropped": false
+        },
+        {
+          "name": "Corina de la Rosa",
+          "score": 9,
+          "dropped": false
+        }
+      ],
+      "average": 9.524,
+      "officialAverage": 9.524,
+      "rankInBlock": 9,
+      "rankOverall": 9,
+      "classified": true,
+      "cutoffDelta": 0.568,
+      "spread": 0.99,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 79.5,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.63,
+          "percentile": 99.8
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.687,
+          "percentile": 99.4
+        },
+        {
+          "stage": "final",
+          "average": 9.524,
+          "percentile": 79.5
+        }
+      ],
+      "overall": 92.9,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 373,
+      "round": "—",
+      "dancer1": "Miguel Angel Quintero",
+      "dancer2": "Yanel Pedraza",
+      "judges": [
+        {
+          "name": "Moira Castellano",
+          "score": 9.78,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.07,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.83,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.65,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.48,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Mantiñan",
+          "score": 9.88,
+          "dropped": false
+        },
+        {
+          "name": "Corina de la Rosa",
+          "score": 8.95,
+          "dropped": false
+        }
+      ],
+      "average": 9.52,
+      "officialAverage": 9.52,
+      "rankInBlock": 10,
+      "rankOverall": 10,
+      "classified": true,
+      "cutoffDelta": 0.564,
+      "spread": 0.93,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 76.9,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.309,
+          "percentile": 90.5
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.438,
+          "percentile": 90.1
+        },
+        {
+          "stage": "final",
+          "average": 9.52,
+          "percentile": 76.9
+        }
+      ],
+      "overall": 85.8,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 8,
+      "round": "—",
+      "dancer1": "Erik Deslarmes",
+      "dancer2": "Nadia Aguilar",
+      "judges": [
+        {
+          "name": "Moira Castellano",
+          "score": 9.8,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.67,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.87,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.38,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.7,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Mantiñan",
+          "score": 8.9,
+          "dropped": false
+        },
+        {
+          "name": "Corina de la Rosa",
+          "score": 9.15,
+          "dropped": false
+        }
+      ],
+      "average": 9.496,
+      "officialAverage": 9.496,
+      "rankInBlock": 11,
+      "rankOverall": 11,
+      "classified": true,
+      "cutoffDelta": 0.54,
+      "spread": 0.97,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 74.4,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.59,
+          "percentile": 99.4
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.565,
+          "percentile": 96.5
+        },
+        {
+          "stage": "final",
+          "average": 9.496,
+          "percentile": 74.4
+        }
+      ],
+      "overall": 90.1,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 672,
+      "round": "—",
+      "dancer1": "Lucio Agustin Galvan",
+      "dancer2": "Morena Marquez",
+      "judges": [
+        {
+          "name": "Moira Castellano",
+          "score": 10,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.84,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.84,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.5,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.45,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Mantiñan",
+          "score": 9.35,
+          "dropped": false
+        },
+        {
+          "name": "Corina de la Rosa",
+          "score": 8.45,
+          "dropped": false
+        }
+      ],
+      "average": 9.49,
+      "officialAverage": 9.49,
+      "rankInBlock": 12,
+      "rankOverall": 12,
+      "classified": true,
+      "cutoffDelta": 0.534,
+      "spread": 1.55,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 71.8,
+      "stageStandings": [
+        {
+          "stage": "semifinal",
+          "average": 8.575,
+          "percentile": 97.1
+        },
+        {
+          "stage": "final",
+          "average": 9.49,
+          "percentile": 71.8
+        }
+      ],
+      "overall": 84.4,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 669,
+      "round": "—",
+      "dancer1": "Miryung Kim",
+      "dancer2": "Hojong Cho",
+      "judges": [
+        {
+          "name": "Moira Castellano",
+          "score": 9.49,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.05,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.75,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.45,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.49,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Mantiñan",
+          "score": 9.98,
+          "dropped": false
+        },
+        {
+          "name": "Corina de la Rosa",
+          "score": 9.2,
+          "dropped": false
+        }
+      ],
+      "average": 9.487,
+      "officialAverage": 9.487,
+      "rankInBlock": 13,
+      "rankOverall": 13,
+      "classified": true,
+      "cutoffDelta": 0.531,
+      "spread": 0.93,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 69.2,
+      "stageStandings": [
+        {
+          "stage": "final",
+          "average": 9.487,
+          "percentile": 69.2
+        }
+      ],
+      "overall": 69.2,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 683,
+      "round": "—",
+      "dancer1": "Maria Florencia Borgnia",
+      "dancer2": "Marcos Pereira",
+      "judges": [
+        {
+          "name": "Moira Castellano",
+          "score": 9.77,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.25,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.79,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.38,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.63,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Mantiñan",
+          "score": 9.5,
+          "dropped": false
+        },
+        {
+          "name": "Corina de la Rosa",
+          "score": 9,
+          "dropped": false
+        }
+      ],
+      "average": 9.474,
+      "officialAverage": 9.474,
+      "rankInBlock": 14,
+      "rankOverall": 14,
+      "classified": true,
+      "cutoffDelta": 0.518,
+      "spread": 0.79,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 66.7,
+      "stageStandings": [
+        {
+          "stage": "semifinal",
+          "average": 8.343,
+          "percentile": 82
+        },
+        {
+          "stage": "final",
+          "average": 9.474,
+          "percentile": 66.7
+        }
+      ],
+      "overall": 74.4,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 563,
+      "round": "—",
+      "dancer1": "Carlos Estigarribia",
+      "dancer2": "Marina Alcalde Sainz",
+      "judges": [
+        {
+          "name": "Moira Castellano",
+          "score": 9.6,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.51,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.81,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.4,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.39,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Mantiñan",
+          "score": 9.6,
+          "dropped": false
+        },
+        {
+          "name": "Corina de la Rosa",
+          "score": 9,
+          "dropped": false
+        }
+      ],
+      "average": 9.473,
+      "officialAverage": 9.473,
+      "rankInBlock": 15,
+      "rankOverall": 15,
+      "classified": true,
+      "cutoffDelta": 0.517,
+      "spread": 0.81,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 64.1,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.286,
+          "percentile": 89.2
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.408,
+          "percentile": 89
+        },
+        {
+          "stage": "final",
+          "average": 9.473,
+          "percentile": 64.1
+        }
+      ],
+      "overall": 80.8,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 60,
+      "round": "—",
+      "dancer1": "Ariel Manzanares",
+      "dancer2": "Aldana Belen Figueroa",
+      "judges": [
+        {
+          "name": "Moira Castellano",
+          "score": 9.88,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.15,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.82,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.05,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.43,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Mantiñan",
+          "score": 9.95,
+          "dropped": false
+        },
+        {
+          "name": "Corina de la Rosa",
+          "score": 9,
+          "dropped": false
+        }
+      ],
+      "average": 9.469,
+      "officialAverage": 9.469,
+      "rankInBlock": 16,
+      "rankOverall": 16,
+      "classified": true,
+      "cutoffDelta": 0.513,
+      "spread": 0.95,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 61.5,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.378,
+          "percentile": 94.2
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.45,
+          "percentile": 90.7
+        },
+        {
+          "stage": "final",
+          "average": 9.469,
+          "percentile": 61.5
+        }
+      ],
+      "overall": 82.1,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 706,
+      "round": "—",
+      "dancer1": "Seung-Jun Hong",
+      "dancer2": "Eunkyoung Jung",
+      "judges": [
+        {
+          "name": "Moira Castellano",
+          "score": 9.2,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.01,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.79,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.52,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.46,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Mantiñan",
+          "score": 9.7,
+          "dropped": false
+        },
+        {
+          "name": "Corina de la Rosa",
+          "score": 9.5,
+          "dropped": false
+        }
+      ],
+      "average": 9.454,
+      "officialAverage": 9.454,
+      "rankInBlock": 17,
+      "rankOverall": 17,
+      "classified": true,
+      "cutoffDelta": 0.498,
+      "spread": 0.78,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 59,
+      "stageStandings": [
+        {
+          "stage": "semifinal",
+          "average": 8.393,
+          "percentile": 88.4
+        },
+        {
+          "stage": "final",
+          "average": 9.454,
+          "percentile": 59
+        }
+      ],
+      "overall": 73.7,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 256,
+      "round": "—",
+      "dancer1": "Joaquin Besga",
+      "dancer2": "Katherine Laitón",
+      "judges": [
+        {
+          "name": "Moira Castellano",
+          "score": 9.77,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.51,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.79,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.7,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.39,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Mantiñan",
+          "score": 8.9,
+          "dropped": false
+        },
+        {
+          "name": "Corina de la Rosa",
+          "score": 8.95,
+          "dropped": false
+        }
+      ],
+      "average": 9.43,
+      "officialAverage": 9.43,
+      "rankInBlock": 18,
+      "rankOverall": 18,
+      "classified": true,
+      "cutoffDelta": 0.474,
+      "spread": 0.89,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 56.4,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.33,
+          "percentile": 92.1
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.493,
+          "percentile": 93.6
+        },
+        {
+          "stage": "final",
+          "average": 9.43,
+          "percentile": 56.4
+        }
+      ],
+      "overall": 80.7,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 586,
+      "round": "—",
+      "dancer1": "Cristian Rubén Zalazar",
+      "dancer2": "Carla Daniela Espinoza",
+      "judges": [
+        {
+          "name": "Moira Castellano",
+          "score": 9.93,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.16,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.83,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.08,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.4,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Mantiñan",
+          "score": 9.75,
+          "dropped": false
+        },
+        {
+          "name": "Corina de la Rosa",
+          "score": 8.85,
+          "dropped": false
+        }
+      ],
+      "average": 9.429,
+      "officialAverage": 9.429,
+      "rankInBlock": 19,
+      "rankOverall": 19,
+      "classified": true,
+      "cutoffDelta": 0.473,
+      "spread": 1.08,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 53.8,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.41,
+          "percentile": 95.9
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.49,
+          "percentile": 92.4
+        },
+        {
+          "stage": "final",
+          "average": 9.429,
+          "percentile": 53.8
+        }
+      ],
+      "overall": 80.7,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 153,
+      "round": "—",
+      "dancer1": "Juan Braida",
+      "dancer2": "Natasha Kaliszuk Lee",
+      "judges": [
+        {
+          "name": "Moira Castellano",
+          "score": 9.9,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.2,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.8,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.43,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.4,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Mantiñan",
+          "score": 9.2,
+          "dropped": false
+        },
+        {
+          "name": "Corina de la Rosa",
+          "score": 9,
+          "dropped": false
+        }
+      ],
+      "average": 9.419,
+      "officialAverage": 9.419,
+      "rankInBlock": 20,
+      "rankOverall": 20,
+      "classified": true,
+      "cutoffDelta": 0.463,
+      "spread": 0.9,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 51.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.072,
+          "percentile": 75.4
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.338,
+          "percentile": 80.8
+        },
+        {
+          "stage": "final",
+          "average": 9.419,
+          "percentile": 51.3
+        }
+      ],
+      "overall": 69.2,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 390,
+      "round": "—",
+      "dancer1": "Stiwar Calle",
+      "dancer2": "Luisa Calle",
+      "judges": [
+        {
+          "name": "Moira Castellano",
+          "score": 9.45,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 8.75,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.78,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.8,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.38,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Mantiñan",
+          "score": 9.8,
+          "dropped": false
+        },
+        {
+          "name": "Corina de la Rosa",
+          "score": 8.95,
+          "dropped": false
+        }
+      ],
+      "average": 9.416,
+      "officialAverage": 9.416,
+      "rankInBlock": 21,
+      "rankOverall": 21,
+      "classified": true,
+      "cutoffDelta": 0.46,
+      "spread": 1.05,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 48.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.356,
+          "percentile": 93
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.36,
+          "percentile": 83.7
+        },
+        {
+          "stage": "final",
+          "average": 9.416,
+          "percentile": 48.7
+        }
+      ],
+      "overall": 75.1,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 263,
+      "round": "—",
+      "dancer1": "Emanuel Ledesma",
+      "dancer2": "Carolina Couto",
+      "judges": [
+        {
+          "name": "Moira Castellano",
+          "score": 9.82,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.27,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.82,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.4,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.49,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Mantiñan",
+          "score": 9.1,
+          "dropped": false
+        },
+        {
+          "name": "Corina de la Rosa",
+          "score": 8.99,
+          "dropped": false
+        }
+      ],
+      "average": 9.413,
+      "officialAverage": 9.413,
+      "rankInBlock": 22,
+      "rankOverall": 22,
+      "classified": true,
+      "cutoffDelta": 0.457,
+      "spread": 0.83,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 46.2,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.252,
+          "percentile": 88.2
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.452,
+          "percentile": 91.3
+        },
+        {
+          "stage": "final",
+          "average": 9.413,
+          "percentile": 46.2
+        }
+      ],
+      "overall": 75.2,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 699,
+      "round": "—",
+      "dancer1": "Sofia Seminskaya",
+      "dancer2": "Norair Arakelian",
+      "judges": [
+        {
+          "name": "Moira Castellano",
+          "score": 9.83,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.05,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.8,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.1,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.31,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Mantiñan",
+          "score": 9.98,
+          "dropped": false
+        },
+        {
+          "name": "Corina de la Rosa",
+          "score": 8.7,
+          "dropped": false
+        }
+      ],
+      "average": 9.396,
+      "officialAverage": 9.396,
+      "rankInBlock": 23,
+      "rankOverall": 23,
+      "classified": true,
+      "cutoffDelta": 0.44,
+      "spread": 1.28,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 43.6,
+      "stageStandings": [
+        {
+          "stage": "final",
+          "average": 9.396,
+          "percentile": 43.6
+        }
+      ],
+      "overall": 43.6,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 452,
+      "round": "—",
+      "dancer1": "Ezequiel Mendoza",
+      "dancer2": "Magdalena Myszka",
+      "judges": [
+        {
+          "name": "Moira Castellano",
+          "score": 9.65,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 8.85,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.81,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.25,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.41,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Mantiñan",
+          "score": 9.98,
+          "dropped": false
+        },
+        {
+          "name": "Corina de la Rosa",
+          "score": 8.75,
+          "dropped": false
+        }
+      ],
+      "average": 9.386,
+      "officialAverage": 9.386,
+      "rankInBlock": 24,
+      "rankOverall": 24,
+      "classified": true,
+      "cutoffDelta": 0.43,
+      "spread": 1.23,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 41,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.176,
+          "percentile": 83.6
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.39,
+          "percentile": 87.8
+        },
+        {
+          "stage": "final",
+          "average": 9.386,
+          "percentile": 41
+        }
+      ],
+      "overall": 70.8,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 431,
+      "round": "—",
+      "dancer1": "Agustin Rojas",
+      "dancer2": "Victoria Olivella",
+      "judges": [
+        {
+          "name": "Moira Castellano",
+          "score": 9.89,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 8.52,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.85,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.55,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.7,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Mantiñan",
+          "score": 9.45,
+          "dropped": false
+        },
+        {
+          "name": "Corina de la Rosa",
+          "score": 8.6,
+          "dropped": false
+        }
+      ],
+      "average": 9.366,
+      "officialAverage": 9.366,
+      "rankInBlock": 25,
+      "rankOverall": 25,
+      "classified": true,
+      "cutoffDelta": 0.41,
+      "spread": 1.37,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 38.5,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.33,
+          "percentile": 92.1
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.51,
+          "percentile": 94.8
+        },
+        {
+          "stage": "final",
+          "average": 9.366,
+          "percentile": 38.5
+        }
+      ],
+      "overall": 75.1,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 281,
+      "round": "—",
+      "dancer1": "Sebastián Fernandez",
+      "dancer2": "Mara Oviedo",
+      "judges": [
+        {
+          "name": "Moira Castellano",
+          "score": 9.82,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.02,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.83,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 8.99,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.42,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Mantiñan",
+          "score": 9.3,
+          "dropped": false
+        },
+        {
+          "name": "Corina de la Rosa",
+          "score": 9,
+          "dropped": false
+        }
+      ],
+      "average": 9.34,
+      "officialAverage": 9.34,
+      "rankInBlock": 26,
+      "rankOverall": 26,
+      "classified": true,
+      "cutoffDelta": 0.384,
+      "spread": 0.84,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 35.9,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.372,
+          "percentile": 93.6
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.56,
+          "percentile": 95.9
+        },
+        {
+          "stage": "final",
+          "average": 9.34,
+          "percentile": 35.9
+        }
+      ],
+      "overall": 75.1,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 385,
+      "round": "—",
+      "dancer1": "Wonjun Seol",
+      "dancer2": "Hyemi Seo",
+      "judges": [
+        {
+          "name": "Moira Castellano",
+          "score": 9.3,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.18,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.83,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.42,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Mantiñan",
+          "score": 9.65,
+          "dropped": false
+        },
+        {
+          "name": "Corina de la Rosa",
+          "score": 8.99,
+          "dropped": false
+        }
+      ],
+      "average": 9.339,
+      "officialAverage": 9.339,
+      "rankInBlock": 27,
+      "rankOverall": 27,
+      "classified": true,
+      "cutoffDelta": 0.383,
+      "spread": 0.84,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 33.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.455,
+          "percentile": 96.5
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.343,
+          "percentile": 82
+        },
+        {
+          "stage": "final",
+          "average": 9.339,
+          "percentile": 33.3
+        }
+      ],
+      "overall": 70.6,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 442,
+      "round": "—",
+      "dancer1": "Alexander Sossa Benitez",
+      "dancer2": "Karina Daluda",
+      "judges": [
+        {
+          "name": "Moira Castellano",
+          "score": 9.25,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.15,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.8,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.15,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.36,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Mantiñan",
+          "score": 9.6,
+          "dropped": false
+        },
+        {
+          "name": "Corina de la Rosa",
+          "score": 8.9,
+          "dropped": false
+        }
+      ],
+      "average": 9.316,
+      "officialAverage": 9.316,
+      "rankInBlock": 28,
+      "rankOverall": 28,
+      "classified": true,
+      "cutoffDelta": 0.36,
+      "spread": 0.9,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 30.8,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.116,
+          "percentile": 79.5
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.358,
+          "percentile": 82.6
+        },
+        {
+          "stage": "final",
+          "average": 9.316,
+          "percentile": 30.8
+        }
+      ],
+      "overall": 64.3,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 541,
+      "round": "—",
+      "dancer1": "Juliano Andrade",
+      "dancer2": "Paula Emerick",
+      "judges": [
+        {
+          "name": "Moira Castellano",
+          "score": 9.6,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.16,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.7,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.15,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.33,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Mantiñan",
+          "score": 9.5,
+          "dropped": false
+        },
+        {
+          "name": "Corina de la Rosa",
+          "score": 8.75,
+          "dropped": false
+        }
+      ],
+      "average": 9.313,
+      "officialAverage": 9.313,
+      "rankInBlock": 29,
+      "rankOverall": 29,
+      "classified": true,
+      "cutoffDelta": 0.357,
+      "spread": 0.95,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 28.2,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.19,
+          "percentile": 84.5
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.375,
+          "percentile": 86
+        },
+        {
+          "stage": "final",
+          "average": 9.313,
+          "percentile": 28.2
+        }
+      ],
+      "overall": 66.2,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 265,
+      "round": "—",
+      "dancer1": "Rodrigo Ivan Videla",
+      "dancer2": "Marina Teves",
+      "judges": [
+        {
+          "name": "Moira Castellano",
+          "score": 9.75,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.19,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.8,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.07,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.47,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Mantiñan",
+          "score": 9.4,
+          "dropped": false
+        },
+        {
+          "name": "Corina de la Rosa",
+          "score": 8.3,
+          "dropped": false
+        }
+      ],
+      "average": 9.283,
+      "officialAverage": 9.283,
+      "rankInBlock": 30,
+      "rankOverall": 30,
+      "classified": true,
+      "cutoffDelta": 0.327,
+      "spread": 1.5,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 25.6,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.088,
+          "percentile": 77.4
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.385,
+          "percentile": 86.6
+        },
+        {
+          "stage": "final",
+          "average": 9.283,
+          "percentile": 25.6
+        }
+      ],
+      "overall": 63.2,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 440,
+      "round": "—",
+      "dancer1": "Alejandro Paul Lencina",
+      "dancer2": "Merlo",
+      "judges": [
+        {
+          "name": "Moira Castellano",
+          "score": 9.55,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.07,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.79,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 8.9,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.41,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Mantiñan",
+          "score": 9.4,
+          "dropped": false
+        },
+        {
+          "name": "Corina de la Rosa",
+          "score": 8.67,
+          "dropped": false
+        }
+      ],
+      "average": 9.256,
+      "officialAverage": 9.256,
+      "rankInBlock": 31,
+      "rankOverall": 31,
+      "classified": true,
+      "cutoffDelta": 0.3,
+      "spread": 1.12,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 23.1,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.137,
+          "percentile": 80.3
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.39,
+          "percentile": 87.8
+        },
+        {
+          "stage": "final",
+          "average": 9.256,
+          "percentile": 23.1
+        }
+      ],
+      "overall": 63.7,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 144,
+      "round": "—",
+      "dancer1": "Alejandro Quaglia",
+      "dancer2": "Lucia Barrios",
+      "judges": [
+        {
+          "name": "Moira Castellano",
+          "score": 9.45,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.12,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.83,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 8.9,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.44,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Mantiñan",
+          "score": 9.4,
+          "dropped": false
+        },
+        {
+          "name": "Corina de la Rosa",
+          "score": 8.36,
+          "dropped": false
+        }
+      ],
+      "average": 9.214,
+      "officialAverage": 9.214,
+      "rankInBlock": 32,
+      "rankOverall": 32,
+      "classified": true,
+      "cutoffDelta": 0.258,
+      "spread": 1.47,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 20.5,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.375,
+          "percentile": 94
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.37,
+          "percentile": 84.9
+        },
+        {
+          "stage": "final",
+          "average": 9.214,
+          "percentile": 20.5
+        }
+      ],
+      "overall": 66.5,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 438,
+      "round": "—",
+      "dancer1": "Guerra",
+      "dancer2": "Noelia Romina Andino",
+      "judges": [
+        {
+          "name": "Moira Castellano",
+          "score": 9.8,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 8.59,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.81,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 8.65,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.46,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Mantiñan",
+          "score": 9.9,
+          "dropped": false
+        },
+        {
+          "name": "Corina de la Rosa",
+          "score": 8.1,
+          "dropped": false
+        }
+      ],
+      "average": 9.187,
+      "officialAverage": 9.187,
+      "rankInBlock": 33,
+      "rankOverall": 33,
+      "classified": true,
+      "cutoffDelta": 0.231,
+      "spread": 1.8,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 17.9,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.615,
+          "percentile": 99.6
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.367,
+          "percentile": 84.3
+        },
+        {
+          "stage": "final",
+          "average": 9.187,
+          "percentile": 17.9
+        }
+      ],
+      "overall": 67.3,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 377,
+      "round": "—",
+      "dancer1": "Raúl Choque",
+      "dancer2": "Jorgelina Cohen",
+      "judges": [
+        {
+          "name": "Moira Castellano",
+          "score": 9.68,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.21,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.77,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.25,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.38,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Mantiñan",
+          "score": 9,
+          "dropped": false
+        },
+        {
+          "name": "Corina de la Rosa",
+          "score": 8,
+          "dropped": false
+        }
+      ],
+      "average": 9.184,
+      "officialAverage": 9.184,
+      "rankInBlock": 34,
+      "rankOverall": 34,
+      "classified": true,
+      "cutoffDelta": 0.228,
+      "spread": 1.77,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 15.4,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.147,
+          "percentile": 81.4
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.335,
+          "percentile": 80.2
+        },
+        {
+          "stage": "final",
+          "average": 9.184,
+          "percentile": 15.4
+        }
+      ],
+      "overall": 59,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 697,
+      "round": "—",
+      "dancer1": "Ana Carolina Di Monaco",
+      "dancer2": "Simone Raucci",
+      "judges": [
+        {
+          "name": "Moira Castellano",
+          "score": 9.45,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 8.52,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.81,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 8.5,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Mantiñan",
+          "score": 9.85,
+          "dropped": false
+        },
+        {
+          "name": "Corina de la Rosa",
+          "score": 8.95,
+          "dropped": false
+        }
+      ],
+      "average": 9.154,
+      "officialAverage": 9.154,
+      "rankInBlock": 35,
+      "rankOverall": 35,
+      "classified": true,
+      "cutoffDelta": 0.198,
+      "spread": 1.35,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 12.8,
+      "stageStandings": [
+        {
+          "stage": "semifinal",
+          "average": 8.523,
+          "percentile": 95.3
+        },
+        {
+          "stage": "final",
+          "average": 9.154,
+          "percentile": 12.8
+        }
+      ],
+      "overall": 54.1,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 205,
+      "round": "—",
+      "dancer1": "Mariano Vazquez",
+      "dancer2": "Lulu Qin",
+      "judges": [
+        {
+          "name": "Moira Castellano",
+          "score": 9.6,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.02,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.78,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 8.4,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.38,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Mantiñan",
+          "score": 9.5,
+          "dropped": false
+        },
+        {
+          "name": "Corina de la Rosa",
+          "score": 8.2,
+          "dropped": false
+        }
+      ],
+      "average": 9.126,
+      "officialAverage": 9.126,
+      "rankInBlock": 36,
+      "rankOverall": 36,
+      "classified": true,
+      "cutoffDelta": 0.17,
+      "spread": 1.58,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 10.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.16,
+          "percentile": 82.6
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.412,
+          "percentile": 89.5
+        },
+        {
+          "stage": "final",
+          "average": 9.126,
+          "percentile": 10.3
+        }
+      ],
+      "overall": 60.8,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 568,
+      "round": "—",
+      "dancer1": "Raul Pardo",
+      "dancer2": "Lucía Curín",
+      "judges": [
+        {
+          "name": "Moira Castellano",
+          "score": 9.5,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 8.82,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.77,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 8.3,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.48,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Mantiñan",
+          "score": 9.35,
+          "dropped": false
+        },
+        {
+          "name": "Corina de la Rosa",
+          "score": 8.65,
+          "dropped": false
+        }
+      ],
+      "average": 9.124,
+      "officialAverage": 9.124,
+      "rankInBlock": 37,
+      "rankOverall": 37,
+      "classified": true,
+      "cutoffDelta": 0.168,
+      "spread": 1.47,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 7.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.38,
+          "percentile": 94.6
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.373,
+          "percentile": 85.5
+        },
+        {
+          "stage": "final",
+          "average": 9.124,
+          "percentile": 7.7
+        }
+      ],
+      "overall": 62.6,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 693,
+      "round": "—",
+      "dancer1": "Deysi Aguilera",
+      "dancer2": "Matias Goyeneche",
+      "judges": [
+        {
+          "name": "Moira Castellano",
+          "score": 9.5,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.03,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.76,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 8.75,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.37,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Mantiñan",
+          "score": 9.1,
+          "dropped": false
+        },
+        {
+          "name": "Corina de la Rosa",
+          "score": 8.15,
+          "dropped": false
+        }
+      ],
+      "average": 9.094,
+      "officialAverage": 9.094,
+      "rankInBlock": 38,
+      "rankOverall": 38,
+      "classified": true,
+      "cutoffDelta": 0.138,
+      "spread": 1.61,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 5.1,
+      "stageStandings": [
+        {
+          "stage": "semifinal",
+          "average": 8.33,
+          "percentile": 79.7
+        },
+        {
+          "stage": "final",
+          "average": 9.094,
+          "percentile": 5.1
+        }
+      ],
+      "overall": 42.4,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 130,
+      "round": "—",
+      "dancer1": "Maxi Copello",
+      "dancer2": "Karu Terenzio",
+      "judges": [
+        {
+          "name": "Moira Castellano",
+          "score": 8.9,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.09,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.4,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 8.95,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 8.7,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Mantiñan",
+          "score": 9.4,
+          "dropped": false
+        },
+        {
+          "name": "Corina de la Rosa",
+          "score": 8.95,
+          "dropped": false
+        }
+      ],
+      "average": 9.056,
+      "officialAverage": 9.056,
+      "rankInBlock": 39,
+      "rankOverall": 39,
+      "classified": true,
+      "cutoffDelta": 0.1,
+      "spread": 0.7,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 2.6,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.086,
+          "percentile": 77.2
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.36,
+          "percentile": 83.7
+        },
+        {
+          "stage": "final",
+          "average": 9.056,
+          "percentile": 2.6
+        }
+      ],
+      "overall": 54.5,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 679,
+      "round": "—",
+      "dancer1": "Veronica Alvarenga",
+      "dancer2": "Eduardo Arias",
+      "judges": [
+        {
+          "name": "Moira Castellano",
+          "score": 9.4,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.03,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.3,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 8.55,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.31,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Mantiñan",
+          "score": 9,
+          "dropped": false
+        },
+        {
+          "name": "Corina de la Rosa",
+          "score": 8.1,
+          "dropped": false
+        }
+      ],
+      "average": 8.956,
+      "officialAverage": 8.956,
+      "rankInBlock": 40,
+      "rankOverall": 40,
+      "classified": true,
+      "cutoffDelta": 0,
+      "spread": 1.3,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 0,
+      "stageStandings": [
+        {
+          "stage": "final",
+          "average": 8.956,
+          "percentile": 0
+        }
+      ],
+      "overall": 0,
+      "lastStageReached": "final"
+    }
+  ],
+  "mismatches": []
+}

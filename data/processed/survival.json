@@ -1,0 +1,642 @@
+{
+  "generatedAt": "2026-08-25T22:56:25.338Z",
+  "model": "lookup",
+  "disclaimer": "Based on 2024–2025 couples with similar clasificatoria standing. Not a prediction of the champion.",
+  "trainingYears": [
+    2024,
+    2025
+  ],
+  "deciles2025": [
+    {
+      "decile": 0,
+      "label": "bottom 10%",
+      "n": 54,
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "spreadMedian": 1.195,
+      "low": {
+        "n": 27,
+        "pCuartos": 0,
+        "pSemi": 0,
+        "pFinal": 0
+      },
+      "high": {
+        "n": 27,
+        "pCuartos": 0,
+        "pSemi": 0,
+        "pFinal": 0
+      }
+    },
+    {
+      "decile": 1,
+      "label": "10–20%",
+      "n": 55,
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "spreadMedian": 1.13,
+      "low": {
+        "n": 27,
+        "pCuartos": 0,
+        "pSemi": 0,
+        "pFinal": 0
+      },
+      "high": {
+        "n": 28,
+        "pCuartos": 0,
+        "pSemi": 0,
+        "pFinal": 0
+      }
+    },
+    {
+      "decile": 2,
+      "label": "20–30%",
+      "n": 53,
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "spreadMedian": 1.15,
+      "low": {
+        "n": 26,
+        "pCuartos": 0,
+        "pSemi": 0,
+        "pFinal": 0
+      },
+      "high": {
+        "n": 27,
+        "pCuartos": 0,
+        "pSemi": 0,
+        "pFinal": 0
+      }
+    },
+    {
+      "decile": 3,
+      "label": "30–40%",
+      "n": 52,
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "spreadMedian": 1.085,
+      "low": {
+        "n": 26,
+        "pCuartos": 0,
+        "pSemi": 0,
+        "pFinal": 0
+      },
+      "high": {
+        "n": 26,
+        "pCuartos": 0,
+        "pSemi": 0,
+        "pFinal": 0
+      }
+    },
+    {
+      "decile": 4,
+      "label": "40–50%",
+      "n": 54,
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "spreadMedian": 1.125,
+      "low": {
+        "n": 27,
+        "pCuartos": 0,
+        "pSemi": 0,
+        "pFinal": 0
+      },
+      "high": {
+        "n": 27,
+        "pCuartos": 0,
+        "pSemi": 0,
+        "pFinal": 0
+      }
+    },
+    {
+      "decile": 5,
+      "label": "50–60%",
+      "n": 52,
+      "pCuartos": 0.981,
+      "pSemi": 0.154,
+      "pFinal": 0.019,
+      "spreadMedian": 1.18,
+      "low": {
+        "n": 26,
+        "pCuartos": 1,
+        "pSemi": 0.077,
+        "pFinal": 0.038
+      },
+      "high": {
+        "n": 26,
+        "pCuartos": 0.962,
+        "pSemi": 0.231,
+        "pFinal": 0
+      }
+    },
+    {
+      "decile": 6,
+      "label": "60–70%",
+      "n": 53,
+      "pCuartos": 1,
+      "pSemi": 0.245,
+      "pFinal": 0,
+      "spreadMedian": 0.96,
+      "low": {
+        "n": 26,
+        "pCuartos": 1,
+        "pSemi": 0.192,
+        "pFinal": 0
+      },
+      "high": {
+        "n": 27,
+        "pCuartos": 1,
+        "pSemi": 0.296,
+        "pFinal": 0
+      }
+    },
+    {
+      "decile": 7,
+      "label": "70–80%",
+      "n": 56,
+      "pCuartos": 0.982,
+      "pSemi": 0.429,
+      "pFinal": 0.071,
+      "spreadMedian": 0.9,
+      "low": {
+        "n": 27,
+        "pCuartos": 0.963,
+        "pSemi": 0.37,
+        "pFinal": 0.074
+      },
+      "high": {
+        "n": 29,
+        "pCuartos": 1,
+        "pSemi": 0.483,
+        "pFinal": 0.069
+      }
+    },
+    {
+      "decile": 8,
+      "label": "80–90%",
+      "n": 54,
+      "pCuartos": 1,
+      "pSemi": 0.722,
+      "pFinal": 0.13,
+      "spreadMedian": 0.89,
+      "low": {
+        "n": 27,
+        "pCuartos": 1,
+        "pSemi": 0.778,
+        "pFinal": 0.074
+      },
+      "high": {
+        "n": 27,
+        "pCuartos": 1,
+        "pSemi": 0.667,
+        "pFinal": 0.185
+      }
+    },
+    {
+      "decile": 9,
+      "label": "top 10%",
+      "n": 55,
+      "pCuartos": 1,
+      "pSemi": 0.873,
+      "pFinal": 0.364,
+      "spreadMedian": 0.7,
+      "low": {
+        "n": 27,
+        "pCuartos": 1,
+        "pSemi": 0.889,
+        "pFinal": 0.296
+      },
+      "high": {
+        "n": 28,
+        "pCuartos": 1,
+        "pSemi": 0.857,
+        "pFinal": 0.429
+      }
+    }
+  ],
+  "deciles2024": [
+    {
+      "decile": 0,
+      "label": "bottom 10%",
+      "n": 52,
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "spreadMedian": 1.4,
+      "low": {
+        "n": 24,
+        "pCuartos": null,
+        "pSemi": 0,
+        "pFinal": 0
+      },
+      "high": {
+        "n": 28,
+        "pCuartos": null,
+        "pSemi": 0,
+        "pFinal": 0
+      }
+    },
+    {
+      "decile": 1,
+      "label": "10–20%",
+      "n": 52,
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "spreadMedian": 1.52,
+      "low": {
+        "n": 25,
+        "pCuartos": null,
+        "pSemi": 0,
+        "pFinal": 0
+      },
+      "high": {
+        "n": 27,
+        "pCuartos": null,
+        "pSemi": 0,
+        "pFinal": 0
+      }
+    },
+    {
+      "decile": 2,
+      "label": "20–30%",
+      "n": 51,
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "spreadMedian": 1.6,
+      "low": {
+        "n": 25,
+        "pCuartos": null,
+        "pSemi": 0,
+        "pFinal": 0
+      },
+      "high": {
+        "n": 26,
+        "pCuartos": null,
+        "pSemi": 0,
+        "pFinal": 0
+      }
+    },
+    {
+      "decile": 3,
+      "label": "30–40%",
+      "n": 51,
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "spreadMedian": 1.5,
+      "low": {
+        "n": 21,
+        "pCuartos": null,
+        "pSemi": 0,
+        "pFinal": 0
+      },
+      "high": {
+        "n": 30,
+        "pCuartos": null,
+        "pSemi": 0,
+        "pFinal": 0
+      }
+    },
+    {
+      "decile": 4,
+      "label": "40–50%",
+      "n": 53,
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "spreadMedian": 1.5,
+      "low": {
+        "n": 23,
+        "pCuartos": null,
+        "pSemi": 0,
+        "pFinal": 0
+      },
+      "high": {
+        "n": 30,
+        "pCuartos": null,
+        "pSemi": 0,
+        "pFinal": 0
+      }
+    },
+    {
+      "decile": 5,
+      "label": "50–60%",
+      "n": 51,
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "spreadMedian": 1.55,
+      "low": {
+        "n": 24,
+        "pCuartos": null,
+        "pSemi": 0,
+        "pFinal": 0
+      },
+      "high": {
+        "n": 27,
+        "pCuartos": null,
+        "pSemi": 0,
+        "pFinal": 0
+      }
+    },
+    {
+      "decile": 6,
+      "label": "60–70%",
+      "n": 52,
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "spreadMedian": 1.54,
+      "low": {
+        "n": 26,
+        "pCuartos": null,
+        "pSemi": 0,
+        "pFinal": 0
+      },
+      "high": {
+        "n": 26,
+        "pCuartos": null,
+        "pSemi": 0,
+        "pFinal": 0
+      }
+    },
+    {
+      "decile": 7,
+      "label": "70–80%",
+      "n": 52,
+      "pCuartos": null,
+      "pSemi": 0.75,
+      "pFinal": 0.077,
+      "spreadMedian": 1.525,
+      "low": {
+        "n": 26,
+        "pCuartos": null,
+        "pSemi": 0.731,
+        "pFinal": 0.038
+      },
+      "high": {
+        "n": 26,
+        "pCuartos": null,
+        "pSemi": 0.769,
+        "pFinal": 0.115
+      }
+    },
+    {
+      "decile": 8,
+      "label": "80–90%",
+      "n": 52,
+      "pCuartos": null,
+      "pSemi": 1,
+      "pFinal": 0.154,
+      "spreadMedian": 1.425,
+      "low": {
+        "n": 26,
+        "pCuartos": null,
+        "pSemi": 1,
+        "pFinal": 0.038
+      },
+      "high": {
+        "n": 26,
+        "pCuartos": null,
+        "pSemi": 1,
+        "pFinal": 0.269
+      }
+    },
+    {
+      "decile": 9,
+      "label": "top 10%",
+      "n": 52,
+      "pCuartos": null,
+      "pSemi": 1,
+      "pFinal": 0.327,
+      "spreadMedian": 1.175,
+      "low": {
+        "n": 26,
+        "pCuartos": null,
+        "pSemi": 1,
+        "pFinal": 0.231
+      },
+      "high": {
+        "n": 26,
+        "pCuartos": null,
+        "pSemi": 1,
+        "pFinal": 0.423
+      }
+    }
+  ],
+  "logistic": {
+    "shipped": false,
+    "features": [
+      "standingPct",
+      "overallPct",
+      "spread",
+      "iqr",
+      "classified",
+      "samePair",
+      "onePartner",
+      "priorSemi",
+      "priorFinal"
+    ],
+    "gates": {
+      "cuartos": {
+        "intercept": -0.0069,
+        "coefficients": {
+          "standingPct": 1.5173,
+          "overallPct": 0.6687,
+          "spread": 0.0462,
+          "iqr": -0.0285,
+          "classified": 4.2715,
+          "samePair": 0.1001,
+          "onePartner": 0.0527,
+          "priorSemi": 0.2221,
+          "priorFinal": -0.0102
+        },
+        "mean": {
+          "standingPct": 0.5009,
+          "overallPct": 0.5006,
+          "spread": 1.0593,
+          "iqr": 0.4584,
+          "classified": 0.4981,
+          "samePair": 0.2472,
+          "onePartner": 0.2416,
+          "priorSemi": 0.1747,
+          "priorFinal": 0.0353
+        },
+        "sd": {
+          "standingPct": 0.2909,
+          "overallPct": 0.2894,
+          "spread": 0.4056,
+          "iqr": 0.2572,
+          "classified": 0.5,
+          "samePair": 0.4314,
+          "onePartner": 0.4281,
+          "priorSemi": 0.3797,
+          "priorFinal": 0.1846
+        }
+      },
+      "semifinal": {
+        "intercept": -3.9584,
+        "coefficients": {
+          "standingPct": 3.2533,
+          "overallPct": -0.581,
+          "spread": 0.3203,
+          "iqr": -0.3362,
+          "classified": 1.5599,
+          "samePair": -0.1551,
+          "onePartner": -0.2588,
+          "priorSemi": 0.2725,
+          "priorFinal": 0.7125
+        },
+        "mean": {
+          "standingPct": 0.5009,
+          "overallPct": 0.5006,
+          "spread": 1.0593,
+          "iqr": 0.4584,
+          "classified": 0.4981,
+          "samePair": 0.2472,
+          "onePartner": 0.2416,
+          "priorSemi": 0.1747,
+          "priorFinal": 0.0353
+        },
+        "sd": {
+          "standingPct": 0.2909,
+          "overallPct": 0.2894,
+          "spread": 0.4056,
+          "iqr": 0.2572,
+          "classified": 0.5,
+          "samePair": 0.4314,
+          "onePartner": 0.4281,
+          "priorSemi": 0.3797,
+          "priorFinal": 0.1846
+        }
+      },
+      "final": {
+        "intercept": -5.7691,
+        "coefficients": {
+          "standingPct": 2.4923,
+          "overallPct": 0.2956,
+          "spread": 0.3108,
+          "iqr": 0.1295,
+          "classified": 0.5488,
+          "samePair": -0.3143,
+          "onePartner": -0.4255,
+          "priorSemi": 0.4054,
+          "priorFinal": 0.1888
+        },
+        "mean": {
+          "standingPct": 0.5009,
+          "overallPct": 0.5006,
+          "spread": 1.0593,
+          "iqr": 0.4584,
+          "classified": 0.4981,
+          "samePair": 0.2472,
+          "onePartner": 0.2416,
+          "priorSemi": 0.1747,
+          "priorFinal": 0.0353
+        },
+        "sd": {
+          "standingPct": 0.2909,
+          "overallPct": 0.2894,
+          "spread": 0.4056,
+          "iqr": 0.2572,
+          "classified": 0.5,
+          "samePair": 0.4314,
+          "onePartner": 0.4281,
+          "priorSemi": 0.3797,
+          "priorFinal": 0.1846
+        }
+      }
+    }
+  },
+  "backtest": {
+    "chosen": "lookup",
+    "reason": "Lookup wins on calibration (in-sample ECE semi/final 0.0001/0.0001 vs logistic 0.021/0.0188). LOBO Brier lookup 0.07225 vs logistic 0.067. Shipping 2025 block-percentile decile lookup with spread as a second axis.",
+    "inSample2025": {
+      "lookup": {
+        "semifinal": 0.0878,
+        "final": 0.0437,
+        "cuartos": 0.0036
+      },
+      "lookupSpread": {
+        "semifinal": 0.0863,
+        "final": 0.0429,
+        "cuartos": 0.0036
+      },
+      "logistic": {
+        "semifinal": 0.0779,
+        "final": 0.0394,
+        "cuartos": 0
+      },
+      "eceLookup": {
+        "semifinal": 0.0001,
+        "final": 0.0001,
+        "cuartos": 0
+      },
+      "eceLogistic": {
+        "semifinal": 0.021,
+        "final": 0.0188,
+        "cuartos": 0.004
+      }
+    },
+    "leaveOneBlockOut2025": {
+      "lookup": {
+        "cuartos": 0.0039,
+        "semifinal": 0.0991,
+        "final": 0.0454
+      },
+      "logistic": {
+        "cuartos": 0.0001,
+        "semifinal": 0.0881,
+        "final": 0.0459
+      }
+    },
+    "walkForward2024to2025": {
+      "lookup": {
+        "semifinal": 0.1601,
+        "final": 0.0502
+      },
+      "logistic": {
+        "semifinal": 0.2267,
+        "final": 0.0491
+      },
+      "note": "2024 overall-percentile model tested on 2025 overall percentile (not block). 2025 is the only structural twin of 2026 for P(cuartos)."
+    }
+  },
+  "wildcards": {
+    "2024": [
+      {
+        "stage": "semifinal",
+        "unmatched": 30,
+        "clasAdvanced": 143
+      },
+      {
+        "stage": "final",
+        "unmatched": 11,
+        "clasAdvanced": 29
+      }
+    ],
+    "2025": [
+      {
+        "stage": "cuartos",
+        "unmatched": 19,
+        "clasAdvanced": 268
+      },
+      {
+        "stage": "semifinal",
+        "unmatched": 23,
+        "clasAdvanced": 132
+      },
+      {
+        "stage": "final",
+        "unmatched": 9,
+        "clasAdvanced": 32
+      }
+    ]
+  }
+}

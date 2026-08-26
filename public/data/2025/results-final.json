@@ -1,0 +1,3131 @@
+{
+  "generatedAt": "2026-08-25T22:24:33.196Z",
+  "year": 2025,
+  "stage": "final",
+  "category": "pista",
+  "scoring": "simple",
+  "sourcePage": "https://tangoba.org/resultados-finales-tango-pista-2025/",
+  "sourceCategoryPage": "https://tangoba.org/category/resultados/",
+  "sourceLabel": "Tango BA",
+  "disclaimer": "Compañero extraoficial de fans. No afiliado a Tango BA ni al Mundial de Baile. Fuente: Tango BA.",
+  "blocks": [
+    {
+      "id": "_",
+      "date": "2025-09-01",
+      "dateLabel": "1 de septiembre",
+      "judges": [
+        "Javier Rodriguez",
+        "Aoniken Quiroga",
+        "Cristina Sosa",
+        "Paola Tacceti",
+        "Diego Gauna",
+        "Roxana Suarez",
+        "Cristian Marquez"
+      ],
+      "sourcePdf": {
+        "filename": "final.pdf",
+        "url": "https://tangoba.org/wp-content/uploads/2025/09/Jurados-_-Pista-FINAL-2025-JURADOS-_-RONDAS-TODAS.pdf",
+        "sha256": "21d9273ffc5c054ded81b9cd6b0e266d195918c4f8099c8c44163c4d1ee72b37"
+      },
+      "cutoff": 8.643,
+      "classifiedCount": 41,
+      "coupleCount": 41
+    }
+  ],
+  "rows": [
+    {
+      "coupleId": 530,
+      "round": "5",
+      "dancer1": "Diego Ortega",
+      "dancer2": "Aldana Silveyra",
+      "judges": [
+        {
+          "name": "Javier Rodriguez",
+          "score": 9.99,
+          "dropped": false
+        },
+        {
+          "name": "Aoniken Quiroga",
+          "score": 9.55,
+          "dropped": false
+        },
+        {
+          "name": "Cristina Sosa",
+          "score": 9.97,
+          "dropped": false
+        },
+        {
+          "name": "Paola Tacceti",
+          "score": 9.99,
+          "dropped": false
+        },
+        {
+          "name": "Diego Gauna",
+          "score": 9.6,
+          "dropped": false
+        },
+        {
+          "name": "Roxana Suarez",
+          "score": 9.78,
+          "dropped": false
+        },
+        {
+          "name": "Cristian Marquez",
+          "score": 9.9,
+          "dropped": false
+        }
+      ],
+      "average": 9.826,
+      "officialAverage": 9.826,
+      "rankInBlock": 1,
+      "rankOverall": 1,
+      "classified": true,
+      "cutoffDelta": 1.183,
+      "spread": 0.44,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 100,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.66,
+          "percentile": 96.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.756,
+          "percentile": 98.3
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.988,
+          "percentile": 100
+        },
+        {
+          "stage": "final",
+          "average": 9.826,
+          "percentile": 100
+        }
+      ],
+      "overall": 98.8,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 490,
+      "round": "1",
+      "dancer1": "Lucas Gauto",
+      "dancer2": "Naima Gerasopoulou",
+      "judges": [
+        {
+          "name": "Javier Rodriguez",
+          "score": 9.35,
+          "dropped": false
+        },
+        {
+          "name": "Aoniken Quiroga",
+          "score": 9.98,
+          "dropped": false
+        },
+        {
+          "name": "Cristina Sosa",
+          "score": 9.95,
+          "dropped": false
+        },
+        {
+          "name": "Paola Tacceti",
+          "score": 9.3,
+          "dropped": false
+        },
+        {
+          "name": "Diego Gauna",
+          "score": 9.5,
+          "dropped": false
+        },
+        {
+          "name": "Roxana Suarez",
+          "score": 9.65,
+          "dropped": false
+        },
+        {
+          "name": "Cristian Marquez",
+          "score": 9.5,
+          "dropped": false
+        }
+      ],
+      "average": 9.604,
+      "officialAverage": 9.604,
+      "rankInBlock": 2,
+      "rankOverall": 2,
+      "classified": true,
+      "cutoffDelta": 0.961,
+      "spread": 0.68,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 97.5,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.686,
+          "percentile": 98
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.788,
+          "percentile": 99.7
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.937,
+          "percentile": 99.4
+        },
+        {
+          "stage": "final",
+          "average": 9.604,
+          "percentile": 97.5
+        }
+      ],
+      "overall": 98.7,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 780,
+      "round": "5",
+      "dancer1": "Juan David Vargas",
+      "dancer2": "Ornella Simonetto",
+      "judges": [
+        {
+          "name": "Javier Rodriguez",
+          "score": 9.8,
+          "dropped": false
+        },
+        {
+          "name": "Aoniken Quiroga",
+          "score": 9,
+          "dropped": false
+        },
+        {
+          "name": "Cristina Sosa",
+          "score": 9.99,
+          "dropped": false
+        },
+        {
+          "name": "Paola Tacceti",
+          "score": 9.2,
+          "dropped": false
+        },
+        {
+          "name": "Diego Gauna",
+          "score": 9.2,
+          "dropped": false
+        },
+        {
+          "name": "Roxana Suarez",
+          "score": 9.9,
+          "dropped": false
+        },
+        {
+          "name": "Cristian Marquez",
+          "score": 9.7,
+          "dropped": false
+        }
+      ],
+      "average": 9.541,
+      "officialAverage": 9.541,
+      "rankInBlock": 3,
+      "rankOverall": 3,
+      "classified": true,
+      "cutoffDelta": 0.898,
+      "spread": 0.99,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 95,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.662,
+          "percentile": 97
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.611,
+          "percentile": 92
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.9,
+          "percentile": 98.7
+        },
+        {
+          "stage": "final",
+          "average": 9.541,
+          "percentile": 95
+        }
+      ],
+      "overall": 95.7,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 4,
+      "round": "2",
+      "dancer1": "Erik Deslarmes",
+      "dancer2": "Nadia Aguilar",
+      "judges": [
+        {
+          "name": "Javier Rodriguez",
+          "score": 9.35,
+          "dropped": false
+        },
+        {
+          "name": "Aoniken Quiroga",
+          "score": 9.35,
+          "dropped": false
+        },
+        {
+          "name": "Cristina Sosa",
+          "score": 9.52,
+          "dropped": false
+        },
+        {
+          "name": "Paola Tacceti",
+          "score": 9.4,
+          "dropped": false
+        },
+        {
+          "name": "Diego Gauna",
+          "score": 9.9,
+          "dropped": false
+        },
+        {
+          "name": "Roxana Suarez",
+          "score": 9.8,
+          "dropped": false
+        },
+        {
+          "name": "Cristian Marquez",
+          "score": 9.45,
+          "dropped": false
+        }
+      ],
+      "average": 9.539,
+      "officialAverage": 9.539,
+      "rankInBlock": 4,
+      "rankOverall": 4,
+      "classified": true,
+      "cutoffDelta": 0.896,
+      "spread": 0.55,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 92.5,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.75,
+          "percentile": 99.1
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.766,
+          "percentile": 98.6
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.845,
+          "percentile": 98.1
+        },
+        {
+          "stage": "final",
+          "average": 9.539,
+          "percentile": 92.5
+        }
+      ],
+      "overall": 97.1,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 1,
+      "round": "3",
+      "dancer1": "Juan Ignacio Braida",
+      "dancer2": "Natasha Kaliszuk Lee",
+      "judges": [
+        {
+          "name": "Javier Rodriguez",
+          "score": 9.55,
+          "dropped": false
+        },
+        {
+          "name": "Aoniken Quiroga",
+          "score": 9.1,
+          "dropped": false
+        },
+        {
+          "name": "Cristina Sosa",
+          "score": 9.88,
+          "dropped": false
+        },
+        {
+          "name": "Paola Tacceti",
+          "score": 9.4,
+          "dropped": false
+        },
+        {
+          "name": "Diego Gauna",
+          "score": 9.35,
+          "dropped": false
+        },
+        {
+          "name": "Roxana Suarez",
+          "score": 9.78,
+          "dropped": false
+        },
+        {
+          "name": "Cristian Marquez",
+          "score": 9.4,
+          "dropped": false
+        }
+      ],
+      "average": 9.494,
+      "officialAverage": 9.494,
+      "rankInBlock": 5,
+      "rankOverall": 5,
+      "classified": true,
+      "cutoffDelta": 0.851,
+      "spread": 0.78,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 90,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.7,
+          "percentile": 98.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.5,
+          "percentile": 85
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.707,
+          "percentile": 92.9
+        },
+        {
+          "stage": "final",
+          "average": 9.494,
+          "percentile": 90
+        }
+      ],
+      "overall": 91.6,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 152,
+      "round": "1",
+      "dancer1": "leonardo pankow",
+      "dancer2": "valentina massari",
+      "judges": [
+        {
+          "name": "Javier Rodriguez",
+          "score": 9.45,
+          "dropped": false
+        },
+        {
+          "name": "Aoniken Quiroga",
+          "score": 9.95,
+          "dropped": false
+        },
+        {
+          "name": "Cristina Sosa",
+          "score": 9.85,
+          "dropped": false
+        },
+        {
+          "name": "Paola Tacceti",
+          "score": 9.15,
+          "dropped": false
+        },
+        {
+          "name": "Diego Gauna",
+          "score": 9.15,
+          "dropped": false
+        },
+        {
+          "name": "Roxana Suarez",
+          "score": 9.3,
+          "dropped": false
+        },
+        {
+          "name": "Cristian Marquez",
+          "score": 9.4,
+          "dropped": false
+        }
+      ],
+      "average": 9.464,
+      "officialAverage": 9.464,
+      "rankInBlock": 6,
+      "rankOverall": 6,
+      "classified": true,
+      "cutoffDelta": 0.821,
+      "spread": 0.8,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 87.5,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.826,
+          "percentile": 99.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.772,
+          "percentile": 99
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.723,
+          "percentile": 94.2
+        },
+        {
+          "stage": "final",
+          "average": 9.464,
+          "percentile": 87.5
+        }
+      ],
+      "overall": 95.1,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 747,
+      "round": "5",
+      "dancer1": "Sebastian Fernandez",
+      "dancer2": "Mara Oviedo",
+      "judges": [
+        {
+          "name": "Javier Rodriguez",
+          "score": 9.5,
+          "dropped": false
+        },
+        {
+          "name": "Aoniken Quiroga",
+          "score": 9.5,
+          "dropped": false
+        },
+        {
+          "name": "Cristina Sosa",
+          "score": 9.29,
+          "dropped": false
+        },
+        {
+          "name": "Paola Tacceti",
+          "score": 9.15,
+          "dropped": false
+        },
+        {
+          "name": "Diego Gauna",
+          "score": 9.45,
+          "dropped": false
+        },
+        {
+          "name": "Roxana Suarez",
+          "score": 9.73,
+          "dropped": false
+        },
+        {
+          "name": "Cristian Marquez",
+          "score": 9.38,
+          "dropped": false
+        }
+      ],
+      "average": 9.429,
+      "officialAverage": 9.429,
+      "rankInBlock": 7,
+      "rankOverall": 7,
+      "classified": true,
+      "cutoffDelta": 0.786,
+      "spread": 0.58,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 85,
+      "stageStandings": [
+        {
+          "stage": "semifinal",
+          "average": 8.765,
+          "percentile": 94.8
+        },
+        {
+          "stage": "final",
+          "average": 9.429,
+          "percentile": 85
+        }
+      ],
+      "overall": 89.9,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 725,
+      "round": "2",
+      "dancer1": "Haruna Izutani",
+      "dancer2": "Ezequiel Nuñez",
+      "judges": [
+        {
+          "name": "Javier Rodriguez",
+          "score": 9.45,
+          "dropped": false
+        },
+        {
+          "name": "Aoniken Quiroga",
+          "score": 9.4,
+          "dropped": false
+        },
+        {
+          "name": "Cristina Sosa",
+          "score": 9.9,
+          "dropped": false
+        },
+        {
+          "name": "Paola Tacceti",
+          "score": 8.99,
+          "dropped": false
+        },
+        {
+          "name": "Diego Gauna",
+          "score": 9.23,
+          "dropped": false
+        },
+        {
+          "name": "Roxana Suarez",
+          "score": 9.5,
+          "dropped": false
+        },
+        {
+          "name": "Cristian Marquez",
+          "score": 9.35,
+          "dropped": false
+        }
+      ],
+      "average": 9.403,
+      "officialAverage": 9.403,
+      "rankInBlock": 8,
+      "rankOverall": 8,
+      "classified": true,
+      "cutoffDelta": 0.76,
+      "spread": 0.91,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 82.5,
+      "stageStandings": [
+        {
+          "stage": "final",
+          "average": 9.403,
+          "percentile": 82.5
+        }
+      ],
+      "overall": 82.5,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 143,
+      "round": "1",
+      "dancer1": "Gustavo Chaile",
+      "dancer2": "Mayela Aponte",
+      "judges": [
+        {
+          "name": "Javier Rodriguez",
+          "score": 9.5,
+          "dropped": false
+        },
+        {
+          "name": "Aoniken Quiroga",
+          "score": 9.2,
+          "dropped": false
+        },
+        {
+          "name": "Cristina Sosa",
+          "score": 9.85,
+          "dropped": false
+        },
+        {
+          "name": "Paola Tacceti",
+          "score": 9.05,
+          "dropped": false
+        },
+        {
+          "name": "Diego Gauna",
+          "score": 9.1,
+          "dropped": false
+        },
+        {
+          "name": "Roxana Suarez",
+          "score": 9.75,
+          "dropped": false
+        },
+        {
+          "name": "Cristian Marquez",
+          "score": 9.2,
+          "dropped": false
+        }
+      ],
+      "average": 9.379,
+      "officialAverage": 9.379,
+      "rankInBlock": 9,
+      "rankOverall": 9,
+      "classified": true,
+      "cutoffDelta": 0.736,
+      "spread": 0.8,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 80,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.442,
+          "percentile": 83.2
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.79,
+          "percentile": 100
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.787,
+          "percentile": 96.8
+        },
+        {
+          "stage": "final",
+          "average": 9.379,
+          "percentile": 80
+        }
+      ],
+      "overall": 90,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 751,
+      "round": "2",
+      "dancer1": "Ariel Taritolay",
+      "dancer2": "Laura Casco Zorzon",
+      "judges": [
+        {
+          "name": "Javier Rodriguez",
+          "score": 9.3,
+          "dropped": false
+        },
+        {
+          "name": "Aoniken Quiroga",
+          "score": 8.9,
+          "dropped": false
+        },
+        {
+          "name": "Cristina Sosa",
+          "score": 9.88,
+          "dropped": false
+        },
+        {
+          "name": "Paola Tacceti",
+          "score": 9.3,
+          "dropped": false
+        },
+        {
+          "name": "Diego Gauna",
+          "score": 9.8,
+          "dropped": false
+        },
+        {
+          "name": "Roxana Suarez",
+          "score": 9.4,
+          "dropped": false
+        },
+        {
+          "name": "Cristian Marquez",
+          "score": 8.95,
+          "dropped": false
+        }
+      ],
+      "average": 9.361,
+      "officialAverage": 9.361,
+      "rankInBlock": 10,
+      "rankOverall": 10,
+      "classified": true,
+      "cutoffDelta": 0.718,
+      "spread": 0.98,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 77.5,
+      "stageStandings": [
+        {
+          "stage": "final",
+          "average": 9.361,
+          "percentile": 77.5
+        }
+      ],
+      "overall": 77.5,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 242,
+      "round": "3",
+      "dancer1": "Norair Arakelian",
+      "dancer2": "Sofiia Seminskaia",
+      "judges": [
+        {
+          "name": "Javier Rodriguez",
+          "score": 9.5,
+          "dropped": false
+        },
+        {
+          "name": "Aoniken Quiroga",
+          "score": 9.55,
+          "dropped": false
+        },
+        {
+          "name": "Cristina Sosa",
+          "score": 9.05,
+          "dropped": false
+        },
+        {
+          "name": "Paola Tacceti",
+          "score": 9.15,
+          "dropped": false
+        },
+        {
+          "name": "Diego Gauna",
+          "score": 9.2,
+          "dropped": false
+        },
+        {
+          "name": "Roxana Suarez",
+          "score": 9.48,
+          "dropped": false
+        },
+        {
+          "name": "Cristian Marquez",
+          "score": 9.02,
+          "dropped": false
+        }
+      ],
+      "average": 9.279,
+      "officialAverage": 9.279,
+      "rankInBlock": 11,
+      "rankOverall": 11,
+      "classified": true,
+      "cutoffDelta": 0.636,
+      "spread": 0.53,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 75,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.524,
+          "percentile": 89.2
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.562,
+          "percentile": 90.2
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.582,
+          "percentile": 87.7
+        },
+        {
+          "stage": "final",
+          "average": 9.279,
+          "percentile": 75
+        }
+      ],
+      "overall": 85.5,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 37,
+      "round": "2",
+      "dancer1": "Joaquin Besga",
+      "dancer2": "Katherine Laiton",
+      "judges": [
+        {
+          "name": "Javier Rodriguez",
+          "score": 9.55,
+          "dropped": false
+        },
+        {
+          "name": "Aoniken Quiroga",
+          "score": 8.7,
+          "dropped": false
+        },
+        {
+          "name": "Cristina Sosa",
+          "score": 9.92,
+          "dropped": false
+        },
+        {
+          "name": "Paola Tacceti",
+          "score": 9.5,
+          "dropped": false
+        },
+        {
+          "name": "Diego Gauna",
+          "score": 9.1,
+          "dropped": false
+        },
+        {
+          "name": "Roxana Suarez",
+          "score": 9.25,
+          "dropped": false
+        },
+        {
+          "name": "Cristian Marquez",
+          "score": 8.85,
+          "dropped": false
+        }
+      ],
+      "average": 9.267,
+      "officialAverage": 9.267,
+      "rankInBlock": 12,
+      "rankOverall": 12,
+      "classified": true,
+      "cutoffDelta": 0.624,
+      "spread": 1.22,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 72.5,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.65,
+          "percentile": 96.5
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.65,
+          "percentile": 94.8
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.52,
+          "percentile": 81.8
+        },
+        {
+          "stage": "final",
+          "average": 9.267,
+          "percentile": 72.5
+        }
+      ],
+      "overall": 86.4,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 483,
+      "round": "4",
+      "dancer1": "Dmitrii Liferov",
+      "dancer2": "Dana Son",
+      "judges": [
+        {
+          "name": "Javier Rodriguez",
+          "score": 8.95,
+          "dropped": false
+        },
+        {
+          "name": "Aoniken Quiroga",
+          "score": 9.3,
+          "dropped": false
+        },
+        {
+          "name": "Cristina Sosa",
+          "score": 9.49,
+          "dropped": false
+        },
+        {
+          "name": "Paola Tacceti",
+          "score": 9,
+          "dropped": false
+        },
+        {
+          "name": "Diego Gauna",
+          "score": 9.73,
+          "dropped": false
+        },
+        {
+          "name": "Roxana Suarez",
+          "score": 9.3,
+          "dropped": false
+        },
+        {
+          "name": "Cristian Marquez",
+          "score": 9.08,
+          "dropped": false
+        }
+      ],
+      "average": 9.264,
+      "officialAverage": 9.264,
+      "rankInBlock": 13,
+      "rankOverall": 13,
+      "classified": true,
+      "cutoffDelta": 0.621,
+      "spread": 0.78,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 70,
+      "stageStandings": [
+        {
+          "stage": "cuartos",
+          "average": 7.78,
+          "percentile": 99.3
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.845,
+          "percentile": 98.1
+        },
+        {
+          "stage": "final",
+          "average": 9.264,
+          "percentile": 70
+        }
+      ],
+      "overall": 89.1,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 391,
+      "round": "4",
+      "dancer1": "Sergei Kurkatov",
+      "dancer2": "Kseniia Rubina",
+      "judges": [
+        {
+          "name": "Javier Rodriguez",
+          "score": 9.25,
+          "dropped": false
+        },
+        {
+          "name": "Aoniken Quiroga",
+          "score": 9.1,
+          "dropped": false
+        },
+        {
+          "name": "Cristina Sosa",
+          "score": 8.62,
+          "dropped": false
+        },
+        {
+          "name": "Paola Tacceti",
+          "score": 9.3,
+          "dropped": false
+        },
+        {
+          "name": "Diego Gauna",
+          "score": 9.75,
+          "dropped": false
+        },
+        {
+          "name": "Roxana Suarez",
+          "score": 9,
+          "dropped": false
+        },
+        {
+          "name": "Cristian Marquez",
+          "score": 9.32,
+          "dropped": false
+        }
+      ],
+      "average": 9.191,
+      "officialAverage": 9.191,
+      "rankInBlock": 14,
+      "rankOverall": 14,
+      "classified": true,
+      "cutoffDelta": 0.548,
+      "spread": 1.13,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 67.5,
+      "stageStandings": [
+        {
+          "stage": "semifinal",
+          "average": 8.717,
+          "percentile": 93.5
+        },
+        {
+          "stage": "final",
+          "average": 9.191,
+          "percentile": 67.5
+        }
+      ],
+      "overall": 80.5,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 450,
+      "round": "1",
+      "dancer1": "London",
+      "dancer2": "Sol",
+      "judges": [
+        {
+          "name": "Javier Rodriguez",
+          "score": 8.45,
+          "dropped": false
+        },
+        {
+          "name": "Aoniken Quiroga",
+          "score": 9.97,
+          "dropped": false
+        },
+        {
+          "name": "Cristina Sosa",
+          "score": 8.9,
+          "dropped": false
+        },
+        {
+          "name": "Paola Tacceti",
+          "score": 9,
+          "dropped": false
+        },
+        {
+          "name": "Diego Gauna",
+          "score": 9.65,
+          "dropped": false
+        },
+        {
+          "name": "Roxana Suarez",
+          "score": 8.9,
+          "dropped": false
+        },
+        {
+          "name": "Cristian Marquez",
+          "score": 9.25,
+          "dropped": false
+        }
+      ],
+      "average": 9.16,
+      "officialAverage": 9.16,
+      "rankInBlock": 15,
+      "rankOverall": 15,
+      "classified": true,
+      "cutoffDelta": 0.517,
+      "spread": 1.52,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 65,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.83,
+          "percentile": 100
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.71,
+          "percentile": 97.2
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.577,
+          "percentile": 86.4
+        },
+        {
+          "stage": "final",
+          "average": 9.16,
+          "percentile": 65
+        }
+      ],
+      "overall": 87.2,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 728,
+      "round": "4",
+      "dancer1": "Victoria Pesci",
+      "dancer2": "Lucas Martin",
+      "judges": [
+        {
+          "name": "Javier Rodriguez",
+          "score": 9.55,
+          "dropped": false
+        },
+        {
+          "name": "Aoniken Quiroga",
+          "score": 8.75,
+          "dropped": false
+        },
+        {
+          "name": "Cristina Sosa",
+          "score": 8.95,
+          "dropped": false
+        },
+        {
+          "name": "Paola Tacceti",
+          "score": 9.05,
+          "dropped": false
+        },
+        {
+          "name": "Diego Gauna",
+          "score": 9.25,
+          "dropped": false
+        },
+        {
+          "name": "Roxana Suarez",
+          "score": 9.35,
+          "dropped": false
+        },
+        {
+          "name": "Cristian Marquez",
+          "score": 9.1,
+          "dropped": false
+        }
+      ],
+      "average": 9.143,
+      "officialAverage": 9.143,
+      "rankInBlock": 16,
+      "rankOverall": 16,
+      "classified": true,
+      "cutoffDelta": 0.5,
+      "spread": 0.8,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 62.5,
+      "stageStandings": [
+        {
+          "stage": "semifinal",
+          "average": 8.6,
+          "percentile": 89
+        },
+        {
+          "stage": "final",
+          "average": 9.143,
+          "percentile": 62.5
+        }
+      ],
+      "overall": 75.8,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 351,
+      "round": "5",
+      "dancer1": "Juan fernando Cabral",
+      "dancer2": "Laura Castiñeiras",
+      "judges": [
+        {
+          "name": "Javier Rodriguez",
+          "score": 9.45,
+          "dropped": false
+        },
+        {
+          "name": "Aoniken Quiroga",
+          "score": 9.2,
+          "dropped": false
+        },
+        {
+          "name": "Cristina Sosa",
+          "score": 9.04,
+          "dropped": false
+        },
+        {
+          "name": "Paola Tacceti",
+          "score": 8.98,
+          "dropped": false
+        },
+        {
+          "name": "Diego Gauna",
+          "score": 9.15,
+          "dropped": false
+        },
+        {
+          "name": "Roxana Suarez",
+          "score": 8.8,
+          "dropped": false
+        },
+        {
+          "name": "Cristian Marquez",
+          "score": 9.18,
+          "dropped": false
+        }
+      ],
+      "average": 9.114,
+      "officialAverage": 9.114,
+      "rankInBlock": 17,
+      "rankOverall": 17,
+      "classified": true,
+      "cutoffDelta": 0.471,
+      "spread": 0.65,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 60,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.5,
+          "percentile": 87.9
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.46,
+          "percentile": 83.6
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.515,
+          "percentile": 81.2
+        },
+        {
+          "stage": "final",
+          "average": 9.114,
+          "percentile": 60
+        }
+      ],
+      "overall": 78.2,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 609,
+      "round": "3",
+      "dancer1": "juan manuel Rosales",
+      "dancer2": "Lisa Rosales",
+      "judges": [
+        {
+          "name": "Javier Rodriguez",
+          "score": 9.25,
+          "dropped": false
+        },
+        {
+          "name": "Aoniken Quiroga",
+          "score": 8.9,
+          "dropped": false
+        },
+        {
+          "name": "Cristina Sosa",
+          "score": 8.9,
+          "dropped": false
+        },
+        {
+          "name": "Paola Tacceti",
+          "score": 9.1,
+          "dropped": false
+        },
+        {
+          "name": "Diego Gauna",
+          "score": 9.25,
+          "dropped": false
+        },
+        {
+          "name": "Roxana Suarez",
+          "score": 8.9,
+          "dropped": false
+        },
+        {
+          "name": "Cristian Marquez",
+          "score": 9.35,
+          "dropped": false
+        }
+      ],
+      "average": 9.093,
+      "officialAverage": 9.093,
+      "rankInBlock": 18,
+      "rankOverall": 18,
+      "classified": true,
+      "cutoffDelta": 0.45,
+      "spread": 0.45,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 57.5,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.646,
+          "percentile": 95.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.634,
+          "percentile": 94.1
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.603,
+          "percentile": 89.6
+        },
+        {
+          "stage": "final",
+          "average": 9.093,
+          "percentile": 57.5
+        }
+      ],
+      "overall": 84.2,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 466,
+      "round": "4",
+      "dancer1": "Carlos Estigarribia",
+      "dancer2": "Marina Alcalde",
+      "judges": [
+        {
+          "name": "Javier Rodriguez",
+          "score": 9.3,
+          "dropped": false
+        },
+        {
+          "name": "Aoniken Quiroga",
+          "score": 9,
+          "dropped": false
+        },
+        {
+          "name": "Cristina Sosa",
+          "score": 8.74,
+          "dropped": false
+        },
+        {
+          "name": "Paola Tacceti",
+          "score": 8.9,
+          "dropped": false
+        },
+        {
+          "name": "Diego Gauna",
+          "score": 9.4,
+          "dropped": false
+        },
+        {
+          "name": "Roxana Suarez",
+          "score": 8.9,
+          "dropped": false
+        },
+        {
+          "name": "Cristian Marquez",
+          "score": 9.1,
+          "dropped": false
+        }
+      ],
+      "average": 9.049,
+      "officialAverage": 9.049,
+      "rankInBlock": 19,
+      "rankOverall": 19,
+      "classified": true,
+      "cutoffDelta": 0.406,
+      "spread": 0.66,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 55,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.492,
+          "percentile": 87.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.496,
+          "percentile": 83.9
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.578,
+          "percentile": 87
+        },
+        {
+          "stage": "final",
+          "average": 9.049,
+          "percentile": 55
+        }
+      ],
+      "overall": 78.3,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 253,
+      "round": "5",
+      "dancer1": "Jesus Paez",
+      "dancer2": "Iara Duarte",
+      "judges": [
+        {
+          "name": "Javier Rodriguez",
+          "score": 8.95,
+          "dropped": false
+        },
+        {
+          "name": "Aoniken Quiroga",
+          "score": 9,
+          "dropped": false
+        },
+        {
+          "name": "Cristina Sosa",
+          "score": 9.42,
+          "dropped": false
+        },
+        {
+          "name": "Paola Tacceti",
+          "score": 8.8,
+          "dropped": false
+        },
+        {
+          "name": "Diego Gauna",
+          "score": 9.1,
+          "dropped": false
+        },
+        {
+          "name": "Roxana Suarez",
+          "score": 9.08,
+          "dropped": false
+        },
+        {
+          "name": "Cristian Marquez",
+          "score": 8.85,
+          "dropped": false
+        }
+      ],
+      "average": 9.029,
+      "officialAverage": 9.029,
+      "rankInBlock": 20,
+      "rankOverall": 20,
+      "classified": true,
+      "cutoffDelta": 0.386,
+      "spread": 0.62,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 52.5,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.204,
+          "percentile": 66.5
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.43,
+          "percentile": 80.8
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.552,
+          "percentile": 83.1
+        },
+        {
+          "stage": "final",
+          "average": 9.029,
+          "percentile": 52.5
+        }
+      ],
+      "overall": 70.7,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 97,
+      "round": "4",
+      "dancer1": "Edwin Enrique Espinosa",
+      "dancer2": "Alexa Yepes",
+      "judges": [
+        {
+          "name": "Javier Rodriguez",
+          "score": 9.45,
+          "dropped": false
+        },
+        {
+          "name": "Aoniken Quiroga",
+          "score": 8.8,
+          "dropped": false
+        },
+        {
+          "name": "Cristina Sosa",
+          "score": 9.1,
+          "dropped": false
+        },
+        {
+          "name": "Paola Tacceti",
+          "score": 8.7,
+          "dropped": false
+        },
+        {
+          "name": "Diego Gauna",
+          "score": 9.15,
+          "dropped": false
+        },
+        {
+          "name": "Roxana Suarez",
+          "score": 8.83,
+          "dropped": false
+        },
+        {
+          "name": "Cristian Marquez",
+          "score": 9.15,
+          "dropped": false
+        }
+      ],
+      "average": 9.026,
+      "officialAverage": 9.026,
+      "rankInBlock": 21,
+      "rankOverall": 21,
+      "classified": true,
+      "cutoffDelta": 0.383,
+      "spread": 0.75,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 50,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.726,
+          "percentile": 98.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.672,
+          "percentile": 96.2
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.622,
+          "percentile": 91.6
+        },
+        {
+          "stage": "final",
+          "average": 9.026,
+          "percentile": 50
+        }
+      ],
+      "overall": 84.1,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 275,
+      "round": "3",
+      "dancer1": "Marcelo Javier Torres",
+      "dancer2": "Francisca Alarcon Irrazabal",
+      "judges": [
+        {
+          "name": "Javier Rodriguez",
+          "score": 9.65,
+          "dropped": false
+        },
+        {
+          "name": "Aoniken Quiroga",
+          "score": 8.4,
+          "dropped": false
+        },
+        {
+          "name": "Cristina Sosa",
+          "score": 8.53,
+          "dropped": false
+        },
+        {
+          "name": "Paola Tacceti",
+          "score": 9.18,
+          "dropped": false
+        },
+        {
+          "name": "Diego Gauna",
+          "score": 9.6,
+          "dropped": false
+        },
+        {
+          "name": "Roxana Suarez",
+          "score": 8.89,
+          "dropped": false
+        },
+        {
+          "name": "Cristian Marquez",
+          "score": 8.85,
+          "dropped": false
+        }
+      ],
+      "average": 9.014,
+      "officialAverage": 9.014,
+      "rankInBlock": 22,
+      "rankOverall": 22,
+      "classified": true,
+      "cutoffDelta": 0.371,
+      "spread": 1.25,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 47.5,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.676,
+          "percentile": 97.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.58,
+          "percentile": 90.9
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.777,
+          "percentile": 96.1
+        },
+        {
+          "stage": "final",
+          "average": 9.014,
+          "percentile": 47.5
+        }
+      ],
+      "overall": 83,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 149,
+      "round": "1",
+      "dancer1": "Alexander Moncada Rojas",
+      "dancer2": "Martina Waldman",
+      "judges": [
+        {
+          "name": "Javier Rodriguez",
+          "score": 9.55,
+          "dropped": false
+        },
+        {
+          "name": "Aoniken Quiroga",
+          "score": 9.25,
+          "dropped": false
+        },
+        {
+          "name": "Cristina Sosa",
+          "score": 9.05,
+          "dropped": false
+        },
+        {
+          "name": "Paola Tacceti",
+          "score": 8.5,
+          "dropped": false
+        },
+        {
+          "name": "Diego Gauna",
+          "score": 9,
+          "dropped": false
+        },
+        {
+          "name": "Roxana Suarez",
+          "score": 8.55,
+          "dropped": false
+        },
+        {
+          "name": "Cristian Marquez",
+          "score": 9.1,
+          "dropped": false
+        }
+      ],
+      "average": 9,
+      "officialAverage": 9,
+      "rankInBlock": 23,
+      "rankOverall": 23,
+      "classified": true,
+      "cutoffDelta": 0.357,
+      "spread": 1.05,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 45,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.47,
+          "percentile": 85.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.554,
+          "percentile": 89.2
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.575,
+          "percentile": 85.7
+        },
+        {
+          "stage": "final",
+          "average": 9,
+          "percentile": 45
+        }
+      ],
+      "overall": 76.4,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 748,
+      "round": "3",
+      "dancer1": "Matias Gutierrez",
+      "dancer2": "Aldana Belen Figueroa",
+      "judges": [
+        {
+          "name": "Javier Rodriguez",
+          "score": 8.75,
+          "dropped": false
+        },
+        {
+          "name": "Aoniken Quiroga",
+          "score": 9.05,
+          "dropped": false
+        },
+        {
+          "name": "Cristina Sosa",
+          "score": 9,
+          "dropped": false
+        },
+        {
+          "name": "Paola Tacceti",
+          "score": 9.05,
+          "dropped": false
+        },
+        {
+          "name": "Diego Gauna",
+          "score": 9.19,
+          "dropped": false
+        },
+        {
+          "name": "Roxana Suarez",
+          "score": 8.7,
+          "dropped": false
+        },
+        {
+          "name": "Cristian Marquez",
+          "score": 9.18,
+          "dropped": false
+        }
+      ],
+      "average": 8.989,
+      "officialAverage": 8.989,
+      "rankInBlock": 24,
+      "rankOverall": 24,
+      "classified": true,
+      "cutoffDelta": 0.346,
+      "spread": 0.49,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 42.5,
+      "stageStandings": [
+        {
+          "stage": "semifinal",
+          "average": 8.575,
+          "percentile": 85.7
+        },
+        {
+          "stage": "final",
+          "average": 8.989,
+          "percentile": 42.5
+        }
+      ],
+      "overall": 64.1,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 44,
+      "round": "3",
+      "dancer1": "Luciano Paulino",
+      "dancer2": "Dana Zampieri",
+      "judges": [
+        {
+          "name": "Javier Rodriguez",
+          "score": 9.15,
+          "dropped": false
+        },
+        {
+          "name": "Aoniken Quiroga",
+          "score": 8.5,
+          "dropped": false
+        },
+        {
+          "name": "Cristina Sosa",
+          "score": 8.9,
+          "dropped": false
+        },
+        {
+          "name": "Paola Tacceti",
+          "score": 8.8,
+          "dropped": false
+        },
+        {
+          "name": "Diego Gauna",
+          "score": 9.3,
+          "dropped": false
+        },
+        {
+          "name": "Roxana Suarez",
+          "score": 8.7,
+          "dropped": false
+        },
+        {
+          "name": "Cristian Marquez",
+          "score": 9.32,
+          "dropped": false
+        }
+      ],
+      "average": 8.953,
+      "officialAverage": 8.953,
+      "rankInBlock": 25,
+      "rankOverall": 25,
+      "classified": true,
+      "cutoffDelta": 0.31,
+      "spread": 0.82,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 40,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.584,
+          "percentile": 92.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.654,
+          "percentile": 95.1
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.677,
+          "percentile": 92.2
+        },
+        {
+          "stage": "final",
+          "average": 8.953,
+          "percentile": 40
+        }
+      ],
+      "overall": 80,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 116,
+      "round": "2",
+      "dancer1": "Alejandro Lázzaro",
+      "dancer2": "Gabriela Gallese",
+      "judges": [
+        {
+          "name": "Javier Rodriguez",
+          "score": 8.1,
+          "dropped": false
+        },
+        {
+          "name": "Aoniken Quiroga",
+          "score": 8.75,
+          "dropped": false
+        },
+        {
+          "name": "Cristina Sosa",
+          "score": 9.84,
+          "dropped": false
+        },
+        {
+          "name": "Paola Tacceti",
+          "score": 8.78,
+          "dropped": false
+        },
+        {
+          "name": "Diego Gauna",
+          "score": 9.5,
+          "dropped": false
+        },
+        {
+          "name": "Roxana Suarez",
+          "score": 8.53,
+          "dropped": false
+        },
+        {
+          "name": "Cristian Marquez",
+          "score": 9.12,
+          "dropped": false
+        }
+      ],
+      "average": 8.946,
+      "officialAverage": 8.946,
+      "rankInBlock": 26,
+      "rankOverall": 26,
+      "classified": true,
+      "cutoffDelta": 0.303,
+      "spread": 1.74,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 37.5,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.76,
+          "percentile": 99.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.452,
+          "percentile": 82.2
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.618,
+          "percentile": 90.9
+        },
+        {
+          "stage": "final",
+          "average": 8.946,
+          "percentile": 37.5
+        }
+      ],
+      "overall": 77.5,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 125,
+      "round": "1",
+      "dancer1": "Alexander Sossa",
+      "dancer2": "Ana Thomas",
+      "judges": [
+        {
+          "name": "Javier Rodriguez",
+          "score": 8.5,
+          "dropped": false
+        },
+        {
+          "name": "Aoniken Quiroga",
+          "score": 9.1,
+          "dropped": false
+        },
+        {
+          "name": "Cristina Sosa",
+          "score": 8.5,
+          "dropped": false
+        },
+        {
+          "name": "Paola Tacceti",
+          "score": 8.75,
+          "dropped": false
+        },
+        {
+          "name": "Diego Gauna",
+          "score": 9.3,
+          "dropped": false
+        },
+        {
+          "name": "Roxana Suarez",
+          "score": 9.4,
+          "dropped": false
+        },
+        {
+          "name": "Cristian Marquez",
+          "score": 9.05,
+          "dropped": false
+        }
+      ],
+      "average": 8.943,
+      "officialAverage": 8.943,
+      "rankInBlock": 27,
+      "rankOverall": 27,
+      "classified": true,
+      "cutoffDelta": 0.3,
+      "spread": 0.9,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 35,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.374,
+          "percentile": 78.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.696,
+          "percentile": 96.9
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.532,
+          "percentile": 82.5
+        },
+        {
+          "stage": "final",
+          "average": 8.943,
+          "percentile": 35
+        }
+      ],
+      "overall": 73.3,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 20,
+      "round": "4",
+      "dancer1": "Matteo Antonietti",
+      "dancer2": "Añes Rosario Arredondo Maiztegui",
+      "judges": [
+        {
+          "name": "Javier Rodriguez",
+          "score": 8.9,
+          "dropped": false
+        },
+        {
+          "name": "Aoniken Quiroga",
+          "score": 8.7,
+          "dropped": false
+        },
+        {
+          "name": "Cristina Sosa",
+          "score": 8.58,
+          "dropped": false
+        },
+        {
+          "name": "Paola Tacceti",
+          "score": 9.1,
+          "dropped": false
+        },
+        {
+          "name": "Diego Gauna",
+          "score": 9.35,
+          "dropped": false
+        },
+        {
+          "name": "Roxana Suarez",
+          "score": 8.42,
+          "dropped": false
+        },
+        {
+          "name": "Cristian Marquez",
+          "score": 9.36,
+          "dropped": false
+        }
+      ],
+      "average": 8.916,
+      "officialAverage": 8.916,
+      "rankInBlock": 28,
+      "rankOverall": 28,
+      "classified": true,
+      "cutoffDelta": 0.273,
+      "spread": 0.94,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 32.5,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.668,
+          "percentile": 97.2
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.57,
+          "percentile": 90.6
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.615,
+          "percentile": 90.3
+        },
+        {
+          "stage": "final",
+          "average": 8.916,
+          "percentile": 32.5
+        }
+      ],
+      "overall": 77.7,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 731,
+      "round": "3",
+      "dancer1": "Ekaterina Simonova",
+      "dancer2": "Stanislav Fursov",
+      "judges": [
+        {
+          "name": "Javier Rodriguez",
+          "score": 8.3,
+          "dropped": false
+        },
+        {
+          "name": "Aoniken Quiroga",
+          "score": 8.85,
+          "dropped": false
+        },
+        {
+          "name": "Cristina Sosa",
+          "score": 9,
+          "dropped": false
+        },
+        {
+          "name": "Paola Tacceti",
+          "score": 8.7,
+          "dropped": false
+        },
+        {
+          "name": "Diego Gauna",
+          "score": 9.75,
+          "dropped": false
+        },
+        {
+          "name": "Roxana Suarez",
+          "score": 8.65,
+          "dropped": false
+        },
+        {
+          "name": "Cristian Marquez",
+          "score": 9.12,
+          "dropped": false
+        }
+      ],
+      "average": 8.91,
+      "officialAverage": 8.91,
+      "rankInBlock": 29,
+      "rankOverall": 29,
+      "classified": true,
+      "cutoffDelta": 0.267,
+      "spread": 1.45,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 30,
+      "stageStandings": [
+        {
+          "stage": "final",
+          "average": 8.91,
+          "percentile": 30
+        }
+      ],
+      "overall": 30,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 230,
+      "round": "4",
+      "dancer1": "Ferrol Matthew Poluan",
+      "dancer2": "Muliany Rambe",
+      "judges": [
+        {
+          "name": "Javier Rodriguez",
+          "score": 9.5,
+          "dropped": false
+        },
+        {
+          "name": "Aoniken Quiroga",
+          "score": 9,
+          "dropped": false
+        },
+        {
+          "name": "Cristina Sosa",
+          "score": 8.5,
+          "dropped": false
+        },
+        {
+          "name": "Paola Tacceti",
+          "score": 8.8,
+          "dropped": false
+        },
+        {
+          "name": "Diego Gauna",
+          "score": 9.05,
+          "dropped": false
+        },
+        {
+          "name": "Roxana Suarez",
+          "score": 8.52,
+          "dropped": false
+        },
+        {
+          "name": "Cristian Marquez",
+          "score": 8.97,
+          "dropped": false
+        }
+      ],
+      "average": 8.906,
+      "officialAverage": 8.906,
+      "rankInBlock": 30,
+      "rankOverall": 30,
+      "classified": true,
+      "cutoffDelta": 0.263,
+      "spread": 1,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 27.5,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.684,
+          "percentile": 97.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.36,
+          "percentile": 71
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.767,
+          "percentile": 95.5
+        },
+        {
+          "stage": "final",
+          "average": 8.906,
+          "percentile": 27.5
+        }
+      ],
+      "overall": 72.9,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 245,
+      "round": "4",
+      "dancer1": "Artem Luchin",
+      "dancer2": "Polina Luchina",
+      "judges": [
+        {
+          "name": "Javier Rodriguez",
+          "score": 8.75,
+          "dropped": false
+        },
+        {
+          "name": "Aoniken Quiroga",
+          "score": 9.03,
+          "dropped": false
+        },
+        {
+          "name": "Cristina Sosa",
+          "score": 8.59,
+          "dropped": false
+        },
+        {
+          "name": "Paola Tacceti",
+          "score": 8.99,
+          "dropped": false
+        },
+        {
+          "name": "Diego Gauna",
+          "score": 9,
+          "dropped": false
+        },
+        {
+          "name": "Roxana Suarez",
+          "score": 9.2,
+          "dropped": false
+        },
+        {
+          "name": "Cristian Marquez",
+          "score": 8.7,
+          "dropped": false
+        }
+      ],
+      "average": 8.894,
+      "officialAverage": 8.894,
+      "rankInBlock": 31,
+      "rankOverall": 31,
+      "classified": true,
+      "cutoffDelta": 0.251,
+      "spread": 0.61,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 25,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.438,
+          "percentile": 82.9
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.666,
+          "percentile": 95.8
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.493,
+          "percentile": 76.6
+        },
+        {
+          "stage": "final",
+          "average": 8.894,
+          "percentile": 25
+        }
+      ],
+      "overall": 70.1,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 762,
+      "round": "2",
+      "dancer1": "juan cupini",
+      "dancer2": "Erica Rossi",
+      "judges": [
+        {
+          "name": "Javier Rodriguez",
+          "score": 8.8,
+          "dropped": false
+        },
+        {
+          "name": "Aoniken Quiroga",
+          "score": 8.8,
+          "dropped": false
+        },
+        {
+          "name": "Cristina Sosa",
+          "score": 8.49,
+          "dropped": false
+        },
+        {
+          "name": "Paola Tacceti",
+          "score": 8.99,
+          "dropped": false
+        },
+        {
+          "name": "Diego Gauna",
+          "score": 9.15,
+          "dropped": false
+        },
+        {
+          "name": "Roxana Suarez",
+          "score": 9.05,
+          "dropped": false
+        },
+        {
+          "name": "Cristian Marquez",
+          "score": 8.9,
+          "dropped": false
+        }
+      ],
+      "average": 8.883,
+      "officialAverage": 8.883,
+      "rankInBlock": 32,
+      "rankOverall": 32,
+      "classified": true,
+      "cutoffDelta": 0.24,
+      "spread": 0.66,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 22.5,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 6.83,
+          "percentile": 41.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.626,
+          "percentile": 93.7
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.51,
+          "percentile": 79.9
+        },
+        {
+          "stage": "final",
+          "average": 8.883,
+          "percentile": 22.5
+        }
+      ],
+      "overall": 59.5,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 53,
+      "round": "1",
+      "dancer1": "Ariel Manzanares",
+      "dancer2": "Laisa Souza",
+      "judges": [
+        {
+          "name": "Javier Rodriguez",
+          "score": 8.75,
+          "dropped": false
+        },
+        {
+          "name": "Aoniken Quiroga",
+          "score": 9,
+          "dropped": false
+        },
+        {
+          "name": "Cristina Sosa",
+          "score": 8.52,
+          "dropped": false
+        },
+        {
+          "name": "Paola Tacceti",
+          "score": 9.2,
+          "dropped": false
+        },
+        {
+          "name": "Diego Gauna",
+          "score": 9.05,
+          "dropped": false
+        },
+        {
+          "name": "Roxana Suarez",
+          "score": 8.5,
+          "dropped": false
+        },
+        {
+          "name": "Cristian Marquez",
+          "score": 9.15,
+          "dropped": false
+        }
+      ],
+      "average": 8.881,
+      "officialAverage": 8.881,
+      "rankInBlock": 33,
+      "rankOverall": 33,
+      "classified": true,
+      "cutoffDelta": 0.238,
+      "spread": 0.7,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 20,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.298,
+          "percentile": 72.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.546,
+          "percentile": 88.1
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.513,
+          "percentile": 80.5
+        },
+        {
+          "stage": "final",
+          "average": 8.881,
+          "percentile": 20
+        }
+      ],
+      "overall": 65.3,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 417,
+      "round": "2",
+      "dancer1": "Max Piero Vera Ramirez",
+      "dancer2": "Anastasiia Rudiak",
+      "judges": [
+        {
+          "name": "Javier Rodriguez",
+          "score": 8.2,
+          "dropped": false
+        },
+        {
+          "name": "Aoniken Quiroga",
+          "score": 9.5,
+          "dropped": false
+        },
+        {
+          "name": "Cristina Sosa",
+          "score": 8.5,
+          "dropped": false
+        },
+        {
+          "name": "Paola Tacceti",
+          "score": 8.8,
+          "dropped": false
+        },
+        {
+          "name": "Diego Gauna",
+          "score": 9.2,
+          "dropped": false
+        },
+        {
+          "name": "Roxana Suarez",
+          "score": 8.8,
+          "dropped": false
+        },
+        {
+          "name": "Cristian Marquez",
+          "score": 9.15,
+          "dropped": false
+        }
+      ],
+      "average": 8.879,
+      "officialAverage": 8.879,
+      "rankInBlock": 34,
+      "rankOverall": 34,
+      "classified": true,
+      "cutoffDelta": 0.236,
+      "spread": 1.3,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 17.5,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.154,
+          "percentile": 62.2
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.62,
+          "percentile": 93
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.495,
+          "percentile": 77.3
+        },
+        {
+          "stage": "final",
+          "average": 8.879,
+          "percentile": 17.5
+        }
+      ],
+      "overall": 62.5,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 189,
+      "round": "3",
+      "dancer1": "Jorge Benvenutti",
+      "dancer2": "Sol IrupéGabis Gómez",
+      "judges": [
+        {
+          "name": "Javier Rodriguez",
+          "score": 8.8,
+          "dropped": false
+        },
+        {
+          "name": "Aoniken Quiroga",
+          "score": 8.6,
+          "dropped": false
+        },
+        {
+          "name": "Cristina Sosa",
+          "score": 8.49,
+          "dropped": false
+        },
+        {
+          "name": "Paola Tacceti",
+          "score": 8.95,
+          "dropped": false
+        },
+        {
+          "name": "Diego Gauna",
+          "score": 9.1,
+          "dropped": false
+        },
+        {
+          "name": "Roxana Suarez",
+          "score": 9.35,
+          "dropped": false
+        },
+        {
+          "name": "Cristian Marquez",
+          "score": 8.82,
+          "dropped": false
+        }
+      ],
+      "average": 8.873,
+      "officialAverage": 8.873,
+      "rankInBlock": 35,
+      "rankOverall": 35,
+      "classified": true,
+      "cutoffDelta": 0.23,
+      "spread": 0.86,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 15,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.53,
+          "percentile": 89.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.442,
+          "percentile": 81.5
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.503,
+          "percentile": 79.2
+        },
+        {
+          "stage": "final",
+          "average": 8.873,
+          "percentile": 15
+        }
+      ],
+      "overall": 66.4,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 184,
+      "round": "1",
+      "dancer1": "Gonzalo Angeles de Soto",
+      "dancer2": "Nathalia Peña Muñoz",
+      "judges": [
+        {
+          "name": "Javier Rodriguez",
+          "score": 8.3,
+          "dropped": false
+        },
+        {
+          "name": "Aoniken Quiroga",
+          "score": 8.97,
+          "dropped": false
+        },
+        {
+          "name": "Cristina Sosa",
+          "score": 8.99,
+          "dropped": false
+        },
+        {
+          "name": "Paola Tacceti",
+          "score": 8.9,
+          "dropped": false
+        },
+        {
+          "name": "Diego Gauna",
+          "score": 8.95,
+          "dropped": false
+        },
+        {
+          "name": "Roxana Suarez",
+          "score": 9.1,
+          "dropped": false
+        },
+        {
+          "name": "Cristian Marquez",
+          "score": 8.8,
+          "dropped": false
+        }
+      ],
+      "average": 8.859,
+      "officialAverage": 8.859,
+      "rankInBlock": 36,
+      "rankOverall": 36,
+      "classified": true,
+      "cutoffDelta": 0.216,
+      "spread": 0.8,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 12.5,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.4,
+          "percentile": 80.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.338,
+          "percentile": 68.2
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.498,
+          "percentile": 77.9
+        },
+        {
+          "stage": "final",
+          "average": 8.859,
+          "percentile": 12.5
+        }
+      ],
+      "overall": 59.8,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 262,
+      "round": "5",
+      "dancer1": "Valentin Bobkov",
+      "dancer2": "Katerina Tsybrova",
+      "judges": [
+        {
+          "name": "Javier Rodriguez",
+          "score": 8.3,
+          "dropped": false
+        },
+        {
+          "name": "Aoniken Quiroga",
+          "score": 9.2,
+          "dropped": false
+        },
+        {
+          "name": "Cristina Sosa",
+          "score": 8.6,
+          "dropped": false
+        },
+        {
+          "name": "Paola Tacceti",
+          "score": 9,
+          "dropped": false
+        },
+        {
+          "name": "Diego Gauna",
+          "score": 9.13,
+          "dropped": false
+        },
+        {
+          "name": "Roxana Suarez",
+          "score": 8.9,
+          "dropped": false
+        },
+        {
+          "name": "Cristian Marquez",
+          "score": 8.6,
+          "dropped": false
+        }
+      ],
+      "average": 8.819,
+      "officialAverage": 8.819,
+      "rankInBlock": 37,
+      "rankOverall": 37,
+      "classified": true,
+      "cutoffDelta": 0.176,
+      "spread": 0.9,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 10,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.202,
+          "percentile": 66.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.75,
+          "percentile": 97.9
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.567,
+          "percentile": 84.4
+        },
+        {
+          "stage": "final",
+          "average": 8.819,
+          "percentile": 10
+        }
+      ],
+      "overall": 64.7,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 166,
+      "round": "2",
+      "dancer1": "Leandro Capparelli",
+      "dancer2": "Jeannette Erazú",
+      "judges": [
+        {
+          "name": "Javier Rodriguez",
+          "score": 8.05,
+          "dropped": false
+        },
+        {
+          "name": "Aoniken Quiroga",
+          "score": 8.85,
+          "dropped": false
+        },
+        {
+          "name": "Cristina Sosa",
+          "score": 8.6,
+          "dropped": false
+        },
+        {
+          "name": "Paola Tacceti",
+          "score": 8.85,
+          "dropped": false
+        },
+        {
+          "name": "Diego Gauna",
+          "score": 9.18,
+          "dropped": false
+        },
+        {
+          "name": "Roxana Suarez",
+          "score": 8.7,
+          "dropped": false
+        },
+        {
+          "name": "Cristian Marquez",
+          "score": 9.05,
+          "dropped": false
+        }
+      ],
+      "average": 8.754,
+      "officialAverage": 8.754,
+      "rankInBlock": 38,
+      "rankOverall": 38,
+      "classified": true,
+      "cutoffDelta": 0.111,
+      "spread": 1.13,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 7.5,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.46,
+          "percentile": 84.2
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.646,
+          "percentile": 94.4
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.567,
+          "percentile": 84.4
+        },
+        {
+          "stage": "final",
+          "average": 8.754,
+          "percentile": 7.5
+        }
+      ],
+      "overall": 67.6,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 178,
+      "round": "5",
+      "dancer1": "Alfredo Ricardo Encina",
+      "dancer2": "Ana Luisa Di Francisco",
+      "judges": [
+        {
+          "name": "Javier Rodriguez",
+          "score": 8.55,
+          "dropped": false
+        },
+        {
+          "name": "Aoniken Quiroga",
+          "score": 8.3,
+          "dropped": false
+        },
+        {
+          "name": "Cristina Sosa",
+          "score": 8.2,
+          "dropped": false
+        },
+        {
+          "name": "Paola Tacceti",
+          "score": 9.6,
+          "dropped": false
+        },
+        {
+          "name": "Diego Gauna",
+          "score": 8.93,
+          "dropped": false
+        },
+        {
+          "name": "Roxana Suarez",
+          "score": 8.5,
+          "dropped": false
+        },
+        {
+          "name": "Cristian Marquez",
+          "score": 8.95,
+          "dropped": false
+        }
+      ],
+      "average": 8.719,
+      "officialAverage": 8.719,
+      "rankInBlock": 39,
+      "rankOverall": 39,
+      "classified": true,
+      "cutoffDelta": 0.076,
+      "spread": 1.4,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 5,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.456,
+          "percentile": 83.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.532,
+          "percentile": 87.8
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.583,
+          "percentile": 88.3
+        },
+        {
+          "stage": "final",
+          "average": 8.719,
+          "percentile": 5
+        }
+      ],
+      "overall": 66.2,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 752,
+      "round": "5",
+      "dancer1": "Javier Omar Santillan",
+      "dancer2": "Gladys Noemi Rivero",
+      "judges": [
+        {
+          "name": "Javier Rodriguez",
+          "score": 8.7,
+          "dropped": false
+        },
+        {
+          "name": "Aoniken Quiroga",
+          "score": 8.1,
+          "dropped": false
+        },
+        {
+          "name": "Cristina Sosa",
+          "score": 8.18,
+          "dropped": false
+        },
+        {
+          "name": "Paola Tacceti",
+          "score": 8.99,
+          "dropped": false
+        },
+        {
+          "name": "Diego Gauna",
+          "score": 8.95,
+          "dropped": false
+        },
+        {
+          "name": "Roxana Suarez",
+          "score": 8.9,
+          "dropped": false
+        },
+        {
+          "name": "Cristian Marquez",
+          "score": 8.8,
+          "dropped": false
+        }
+      ],
+      "average": 8.66,
+      "officialAverage": 8.66,
+      "rankInBlock": 40,
+      "rankOverall": 40,
+      "classified": true,
+      "cutoffDelta": 0.017,
+      "spread": 0.89,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 2.5,
+      "stageStandings": [
+        {
+          "stage": "final",
+          "average": 8.66,
+          "percentile": 2.5
+        }
+      ],
+      "overall": 2.5,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 355,
+      "round": "5",
+      "dancer1": "Luis Mario Saihueque",
+      "dancer2": "Marcela Patricia Jara",
+      "judges": [
+        {
+          "name": "Javier Rodriguez",
+          "score": 9.15,
+          "dropped": false
+        },
+        {
+          "name": "Aoniken Quiroga",
+          "score": 8.2,
+          "dropped": false
+        },
+        {
+          "name": "Cristina Sosa",
+          "score": 8.3,
+          "dropped": false
+        },
+        {
+          "name": "Paola Tacceti",
+          "score": 8.7,
+          "dropped": false
+        },
+        {
+          "name": "Diego Gauna",
+          "score": 8.8,
+          "dropped": false
+        },
+        {
+          "name": "Roxana Suarez",
+          "score": 8.6,
+          "dropped": false
+        },
+        {
+          "name": "Cristian Marquez",
+          "score": 8.75,
+          "dropped": false
+        }
+      ],
+      "average": 8.643,
+      "officialAverage": 8.643,
+      "rankInBlock": 41,
+      "rankOverall": 41,
+      "classified": true,
+      "cutoffDelta": 0,
+      "spread": 0.95,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 0,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.254,
+          "percentile": 69.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.356,
+          "percentile": 70.3
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.5,
+          "percentile": 78.6
+        },
+        {
+          "stage": "final",
+          "average": 8.643,
+          "percentile": 0
+        }
+      ],
+      "overall": 54.6,
+      "lastStageReached": "final"
+    }
+  ],
+  "mismatches": []
+}
