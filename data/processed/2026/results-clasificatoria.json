@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T18:44:11.263Z",
+  "generatedAt": "2026-08-26T22:12:56.795Z",
   "year": 2026,
   "stage": "clasificatoria",
   "category": "pista",
@@ -9,6 +9,66 @@
   "sourceLabel": "Tango BA",
   "disclaimer": "Compañero extraoficial de fans. No afiliado a Tango BA ni al Mundial de Baile. Fuente: Tango BA.",
   "blocks": [
+    {
+      "id": "A",
+      "date": "2026-08-23",
+      "dateLabel": "23 de agosto",
+      "judges": [
+        "Demián García",
+        "Carla Marano",
+        "Pablo Inza",
+        "Silvina Valz",
+        "Hernán Alvarez Prieto"
+      ],
+      "sourcePdf": {
+        "filename": "Catalogo-Tango-2026-8.pdf",
+        "url": null,
+        "sha256": "b9d864b52011a3b6af0ce019cb723f910b5c86bac65a2438631ee8c9c929a80b"
+      },
+      "cutoff": 0,
+      "classifiedCount": 0,
+      "coupleCount": 0
+    },
+    {
+      "id": "A",
+      "date": "2026-08-23",
+      "dateLabel": "23 de agosto",
+      "judges": [
+        "Demián García",
+        "Carla Marano",
+        "Pablo Inza",
+        "Silvina Valz",
+        "Hernán Alvarez Prieto"
+      ],
+      "sourcePdf": {
+        "filename": "Reglamento-Mundial-de-Tango-2026.docx-1.pdf",
+        "url": null,
+        "sha256": "5367578420d88875ce1c434f376e9cf828e660c1b353afaa88b566f5ac768548"
+      },
+      "cutoff": 0,
+      "classifiedCount": 0,
+      "coupleCount": 0
+    },
+    {
+      "id": "A",
+      "date": "2026-08-23",
+      "dateLabel": "23 de agosto",
+      "judges": [
+        "Demián García",
+        "Carla Marano",
+        "Pablo Inza",
+        "Silvina Valz",
+        "Hernán Alvarez Prieto"
+      ],
+      "sourcePdf": {
+        "filename": "TANGO-BUENOS-AIRES-WORLD-DANCE-CHAMPIONSHIP-2026-RULES-AND-REGULATIONS.docx-1.pdf",
+        "url": null,
+        "sha256": "0fe0d57dbf2d8952e214572250060cb0f796345b7359e6e6910570d192c38c30"
+      },
+      "cutoff": 0,
+      "classifiedCount": 0,
+      "coupleCount": 0
+    },
     {
       "id": "A",
       "date": "2026-08-23",
@@ -2162,7 +2222,7 @@
       "coupleId": 592,
       "round": "8",
       "dancer1": "Pedro Robelto López",
-      "dancer2": "María José Torres",
+      "dancer2": "María JoséTorres",
       "judges": [
         {
           "name": "Demián García",
@@ -21559,7 +21619,7 @@
     {
       "coupleId": 65,
       "round": "14",
-      "dancer1": "André Ramos Vieira",
+      "dancer1": "AndréRamos Vieira",
       "dancer2": "Yamila Alejandra Ramirez",
       "judges": [
         {
@@ -28396,7 +28456,7 @@
     {
       "coupleId": 286,
       "round": "3",
-      "dancer1": "Andrés Enoé Cortez",
+      "dancer1": "Andrés EnoéCortez",
       "dancer2": "Brenda Costela",
       "judges": [
         {
@@ -28608,7 +28668,7 @@
     {
       "coupleId": 472,
       "round": "13",
-      "dancer1": "José Carlos Caprara",
+      "dancer1": "JoséCarlos Caprara",
       "dancer2": "Agostina Román Velázquez",
       "judges": [
         {

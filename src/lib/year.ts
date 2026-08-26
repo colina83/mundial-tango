@@ -11,8 +11,12 @@ export function hasWatchlist(year: number): boolean {
   return year === 2026;
 }
 
-/** Cross-stage table is useful once more than one round exists. */
-export function hasFullCompetition(manifest: StageManifest | null | undefined): boolean {
+/** Cross-stage table is useful once more than one round exists, or always for the live year. */
+export function hasFullCompetition(
+  manifest: StageManifest | null | undefined,
+  year?: number,
+): boolean {
+  if (year === 2026) return true;
   return (manifest?.stages.length ?? 0) > 1;
 }
 

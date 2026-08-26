@@ -1,0 +1,75 @@
+{
+  "generatedAt": "2026-08-26T22:13:03.123Z",
+  "year": 2026,
+  "stage": "cuartos",
+  "category": "pista",
+  "scoring": "trimmed",
+  "sourcePage": "https://tangoba.org/resultados-cuartos-final-tango-de-pista-2026/",
+  "sourceCategoryPage": "https://tangoba.org/category/resultados/",
+  "sourceLabel": "Tango BA",
+  "disclaimer": "Compañero extraoficial de fans. No afiliado a Tango BA ni al Mundial de Baile. Fuente: Tango BA.",
+  "blocks": [
+    {
+      "id": "A",
+      "date": "2026-08-23",
+      "dateLabel": "23 de agosto",
+      "judges": [
+        "Demián García",
+        "Carla Marano",
+        "Pablo Inza",
+        "Silvina Valz",
+        "Hernán Alvarez Prieto"
+      ],
+      "sourcePdf": {
+        "filename": "Catalogo-Tango-2026-8.pdf",
+        "url": null,
+        "sha256": "b9d864b52011a3b6af0ce019cb723f910b5c86bac65a2438631ee8c9c929a80b"
+      },
+      "cutoff": 0,
+      "classifiedCount": 0,
+      "coupleCount": 0
+    },
+    {
+      "id": "A",
+      "date": "2026-08-23",
+      "dateLabel": "23 de agosto",
+      "judges": [
+        "Demián García",
+        "Carla Marano",
+        "Pablo Inza",
+        "Silvina Valz",
+        "Hernán Alvarez Prieto"
+      ],
+      "sourcePdf": {
+        "filename": "Reglamento-Mundial-de-Tango-2026.docx-1.pdf",
+        "url": null,
+        "sha256": "5367578420d88875ce1c434f376e9cf828e660c1b353afaa88b566f5ac768548"
+      },
+      "cutoff": 0,
+      "classifiedCount": 0,
+      "coupleCount": 0
+    },
+    {
+      "id": "A",
+      "date": "2026-08-23",
+      "dateLabel": "23 de agosto",
+      "judges": [
+        "Demián García",
+        "Carla Marano",
+        "Pablo Inza",
+        "Silvina Valz",
+        "Hernán Alvarez Prieto"
+      ],
+      "sourcePdf": {
+        "filename": "TANGO-BUENOS-AIRES-WORLD-DANCE-CHAMPIONSHIP-2026-RULES-AND-REGULATIONS.docx-1.pdf",
+        "url": null,
+        "sha256": "0fe0d57dbf2d8952e214572250060cb0f796345b7359e6e6910570d192c38c30"
+      },
+      "cutoff": 0,
+      "classifiedCount": 0,
+      "coupleCount": 0
+    }
+  ],
+  "rows": [],
+  "mismatches": []
+}

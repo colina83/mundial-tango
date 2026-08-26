@@ -112,7 +112,7 @@ function YearCard({ entry, featured }: { entry: CatalogYear; featured: boolean }
       </p>
       <ul className="year-ticks">
         {expected.map((stage) => {
-          const on = present.has(stage);
+          const on = present.has(stage) && (entry.rowCounts?.[stage] ?? 0) > 0;
           const count = entry.rowCounts?.[stage];
           return (
             <li key={stage} className={on ? "is-on" : "is-off"}>

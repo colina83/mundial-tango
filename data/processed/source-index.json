@@ -30,5 +30,53 @@
   "clasificatoria::https://tangoba.org/wp-content/uploads/2026/08/Jurados-_-Pista-Clasificatorias-2026-24_8-D-Copia-de-JURADOS-_-RONDAS-TODAS-248-D.pdf": {
     "sha256": "c2172779f8214be1f4a41a557764ad0d0afc68aac416c193c6f6a7718c923290",
     "filename": "pista-clasificatorias-2026-24-08-D.pdf"
+  },
+  "clasificatoria::https://tangoba.org/wp-content/uploads/2026/07/Reglamento-Mundial-de-Tango-2026.docx-1.pdf": {
+    "sha256": "5367578420d88875ce1c434f376e9cf828e660c1b353afaa88b566f5ac768548",
+    "filename": "Reglamento-Mundial-de-Tango-2026.docx-1.pdf"
+  },
+  "clasificatoria::https://tangoba.org/wp-content/uploads/2026/07/TANGO-BUENOS-AIRES-WORLD-DANCE-CHAMPIONSHIP-2026-RULES-AND-REGULATIONS.docx-1.pdf": {
+    "sha256": "0fe0d57dbf2d8952e214572250060cb0f796345b7359e6e6910570d192c38c30",
+    "filename": "TANGO-BUENOS-AIRES-WORLD-DANCE-CHAMPIONSHIP-2026-RULES-AND-REGULATIONS.docx-1.pdf"
+  },
+  "clasificatoria::https://tangoba.org/wp-content/uploads/2026/08/Catalogo-Tango-2026-8.pdf": {
+    "sha256": "b9d864b52011a3b6af0ce019cb723f910b5c86bac65a2438631ee8c9c929a80b",
+    "filename": "Catalogo-Tango-2026-8.pdf"
+  },
+  "cuartos::https://tangoba.org/wp-content/uploads/2026/07/Reglamento-Mundial-de-Tango-2026.docx-1.pdf": {
+    "sha256": "5367578420d88875ce1c434f376e9cf828e660c1b353afaa88b566f5ac768548",
+    "filename": "Reglamento-Mundial-de-Tango-2026.docx-1.pdf"
+  },
+  "cuartos::https://tangoba.org/wp-content/uploads/2026/07/TANGO-BUENOS-AIRES-WORLD-DANCE-CHAMPIONSHIP-2026-RULES-AND-REGULATIONS.docx-1.pdf": {
+    "sha256": "0fe0d57dbf2d8952e214572250060cb0f796345b7359e6e6910570d192c38c30",
+    "filename": "TANGO-BUENOS-AIRES-WORLD-DANCE-CHAMPIONSHIP-2026-RULES-AND-REGULATIONS.docx-1.pdf"
+  },
+  "cuartos::https://tangoba.org/wp-content/uploads/2026/08/Catalogo-Tango-2026-8.pdf": {
+    "sha256": "b9d864b52011a3b6af0ce019cb723f910b5c86bac65a2438631ee8c9c929a80b",
+    "filename": "Catalogo-Tango-2026-8.pdf"
+  },
+  "semifinal::https://tangoba.org/wp-content/uploads/2026/07/Reglamento-Mundial-de-Tango-2026.docx-1.pdf": {
+    "sha256": "5367578420d88875ce1c434f376e9cf828e660c1b353afaa88b566f5ac768548",
+    "filename": "Reglamento-Mundial-de-Tango-2026.docx-1.pdf"
+  },
+  "semifinal::https://tangoba.org/wp-content/uploads/2026/07/TANGO-BUENOS-AIRES-WORLD-DANCE-CHAMPIONSHIP-2026-RULES-AND-REGULATIONS.docx-1.pdf": {
+    "sha256": "0fe0d57dbf2d8952e214572250060cb0f796345b7359e6e6910570d192c38c30",
+    "filename": "TANGO-BUENOS-AIRES-WORLD-DANCE-CHAMPIONSHIP-2026-RULES-AND-REGULATIONS.docx-1.pdf"
+  },
+  "semifinal::https://tangoba.org/wp-content/uploads/2026/08/Catalogo-Tango-2026-8.pdf": {
+    "sha256": "b9d864b52011a3b6af0ce019cb723f910b5c86bac65a2438631ee8c9c929a80b",
+    "filename": "Catalogo-Tango-2026-8.pdf"
+  },
+  "final::https://tangoba.org/wp-content/uploads/2026/07/Reglamento-Mundial-de-Tango-2026.docx-1.pdf": {
+    "sha256": "5367578420d88875ce1c434f376e9cf828e660c1b353afaa88b566f5ac768548",
+    "filename": "Reglamento-Mundial-de-Tango-2026.docx-1.pdf"
+  },
+  "final::https://tangoba.org/wp-content/uploads/2026/07/TANGO-BUENOS-AIRES-WORLD-DANCE-CHAMPIONSHIP-2026-RULES-AND-REGULATIONS.docx-1.pdf": {
+    "sha256": "0fe0d57dbf2d8952e214572250060cb0f796345b7359e6e6910570d192c38c30",
+    "filename": "TANGO-BUENOS-AIRES-WORLD-DANCE-CHAMPIONSHIP-2026-RULES-AND-REGULATIONS.docx-1.pdf"
+  },
+  "final::https://tangoba.org/wp-content/uploads/2026/08/Catalogo-Tango-2026-8.pdf": {
+    "sha256": "b9d864b52011a3b6af0ce019cb723f910b5c86bac65a2438631ee8c9c929a80b",
+    "filename": "Catalogo-Tango-2026-8.pdf"
   }
 }
