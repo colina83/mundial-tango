@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T16:27:11.682Z",
+  "generatedAt": "2026-08-26T16:47:42.489Z",
   "year": 2026,
   "stage": "clasificatoria",
   "category": "pista",
@@ -28,6 +28,26 @@
       "cutoff": 0,
       "classifiedCount": 0,
       "coupleCount": 0
+    },
+    {
+      "id": "A",
+      "date": "2026-08-25",
+      "dateLabel": "25 de agosto",
+      "judges": [
+        "Demián García",
+        "Carla Marano",
+        "Pablo Inza",
+        "Silvina Valz",
+        "Hernán Alvarez Prieto"
+      ],
+      "sourcePdf": {
+        "filename": "Jurados-_-Escenario-Clasificatorias-2026-25_8-A-Copia-de-JURADOS-_-RONDAS-TODAS-258-A.pdf",
+        "url": null,
+        "sha256": "a48f8e8332691031bc30ffd7d48cc5e68903f188e453d074d3a2b8d78d31d19a"
+      },
+      "cutoff": 7.05,
+      "classifiedCount": 19,
+      "coupleCount": 37
     },
     {
       "id": "A",
@@ -88,6 +108,26 @@
       "cutoff": 7.033,
       "classifiedCount": 74,
       "coupleCount": 146
+    },
+    {
+      "id": "B",
+      "date": "2026-08-25",
+      "dateLabel": "25 de agosto",
+      "judges": [
+        "Verónica Alvarenga",
+        "Roberto Zuccarino",
+        "Sandra Messina",
+        "Bárbara Ferreyra",
+        "Aoniken Quiroga"
+      ],
+      "sourcePdf": {
+        "filename": "Jurados-_-Escenario-Clasificatorias-2026-25_8-B-Copia-de-JURADOS-_-RONDAS-TODAS-258-B.pdf",
+        "url": null,
+        "sha256": "f55bcbd6b1003682ff3089b024c16dcb168520e63cfaf67862c924f48023ffb1"
+      },
+      "cutoff": 7.193,
+      "classifiedCount": 16,
+      "coupleCount": 31
     },
     {
       "id": "B",
