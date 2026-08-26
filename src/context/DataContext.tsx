@@ -121,7 +121,7 @@ export function DataProvider({
       .then((m) => {
         if (cancelled) return;
         setManifest(m);
-        const stages = m?.stages.map((s) => s.stage) ?? [];
+        const stages = (m?.stages ?? []).filter((s) => s.rowCount > 0).map((s) => s.stage);
         const allowed = visibleStages(year).filter((s) => stages.includes(s));
         const requested = params.get("stage");
         const fromUrl = isStage(requested) && allowed.includes(requested) ? requested : null;
