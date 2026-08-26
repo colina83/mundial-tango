@@ -14,7 +14,7 @@ export function Layout() {
   const stages = visibleStages(year);
   const availableStages = new Set(manifest?.stages.map((s) => s.stage) ?? ["clasificatoria"]);
   const showWatchlist = hasWatchlist(year);
-  const showFull = hasFullCompetition(manifest);
+  const showFull = hasFullCompetition(manifest, year);
   const hideStageBar = location.pathname.includes("/full");
 
   const stageLabel: Record<Stage, string> = {
