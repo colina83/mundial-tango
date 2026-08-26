@@ -100,15 +100,18 @@ function absUrl(href: string, base: string): string {
   return new URL(href, base).toString();
 }
 
-function isSkippablePdf(url: string): boolean {
-  const u = url.toLowerCase();
+export function isSkippablePdf(urlOrFilename: string): boolean {
+  const u = urlOrFilename.toLowerCase();
+  if (u.includes("escenario")) {
+    return true;
+  }
   if (u.includes("/2025/") || u.includes("2025") || u.includes("cbc25")) {
     return true;
   }
   return false;
 }
 
-function isLikelyResultsPdf(url: string): boolean {
+export function isLikelyResultsPdf(url: string): boolean {
   const u = url.toLowerCase();
   if (isSkippablePdf(url)) return false;
   return (
@@ -119,9 +122,12 @@ function isLikelyResultsPdf(url: string): boolean {
       u.includes("final") ||
       u.includes("jurados") ||
       u.includes("pista") ||
-      u.includes("escenario") ||
       u.includes("resultado"))
   );
+}
+
+export function isStagePdfFilename(name: string): boolean {
+  return name.toLowerCase().endsWith(".pdf") && !isSkippablePdf(name);
 }
 
 async function fetchText(url: string): Promise<string> {
@@ -324,7 +330,7 @@ async function syncStagePdfs(
 
   const existing = await readdir(stageRawDir);
   const existingHashes = new Set<string>();
-  for (const name of existing.filter((n) => n.toLowerCase().endsWith(".pdf"))) {
+  for (const name of existing.filter(isStagePdfFilename)) {
     const buf = new Uint8Array(await readFile(join(stageRawDir, name)));
     existingHashes.add(sha256(buf));
   }
@@ -333,6 +339,10 @@ async function syncStagePdfs(
 
   for (const pdfUrl of pdfUrls) {
     const filename = decodeURIComponent(basename(new URL(pdfUrl).pathname));
+    if (isSkippablePdf(pdfUrl) || isSkippablePdf(filename)) {
+      console.log(`[${stage}] Skipping excluded PDF ${filename}`);
+      continue;
+    }
     const dest = join(stageRawDir, filename);
     const key = indexKey(stage, pdfUrl);
     const known = index[key];
@@ -388,7 +398,7 @@ async function ingestStage(
       // Check if we already have local PDFs for this stage from a prior run
       try {
         const existing = await readdir(stageRawDir);
-        const localPdfs = existing.filter((n) => n.toLowerCase().endsWith(".pdf"));
+        const localPdfs = existing.filter(isStagePdfFilename);
         if (localPdfs.length === 0) return null;
         console.log(
           `[${stage}] Using ${localPdfs.length} cached local PDF(s) from prior ingest.`,
@@ -424,9 +434,7 @@ async function ingestStage(
 
   let pdfs: string[];
   try {
-    pdfs = (await readdir(stageRawDir)).filter((n) =>
-      n.toLowerCase().endsWith(".pdf"),
-    );
+    pdfs = (await readdir(stageRawDir)).filter(isStagePdfFilename);
   } catch {
     // Dir doesn't exist yet for this stage
     pdfs = [];
@@ -530,7 +538,9 @@ async function main(): Promise<void> {
   }
 }
 
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+if (process.argv[1] === fileURLToPath(import.meta.url)) {
+  main().catch((err) => {
+    console.error(err);
+    process.exit(1);
+  });
+}
