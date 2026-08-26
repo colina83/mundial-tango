@@ -16,7 +16,7 @@ import { useI18n } from "../context/I18nContext";
 import { formatAverage } from "../lib/format";
 import { JudgeMarkHeatmap } from "../components/JudgeMarkHeatmap";
 import { histogram, judgeStats, roundStats, topSpread } from "../lib/stats";
-import { hasDistinctBlocks, hasRealRounds, isTrimmedScoring, yearPath } from "../lib/year";
+import { hasDistinctBlocks, hasRealRounds, isTrimmedScoring, usableBlocks, yearPath } from "../lib/year";
 import type { BlockId } from "../types";
 
 const PINK = "#f778ba";
@@ -40,8 +40,9 @@ export function Stats() {
   const spread = useMemo(() => topSpread(rows, 10), [rows]);
 
   if (!data) return null;
+  const blocks = usableBlocks(data);
   const cutoffs =
-    block === "all" ? data.blocks : data.blocks.filter((b) => b.id === block);
+    block === "all" ? blocks : blocks.filter((b) => b.id === block);
 
   return (
     <div className="page stats">
@@ -52,7 +53,7 @@ export function Stats() {
             onChange={(e) => setBlock(e.target.value as BlockId | "all")}
           >
             <option value="all">{t("allBlocks")}</option>
-            {data.blocks.map((b) => (
+            {blocks.map((b) => (
               <option key={b.id} value={b.id}>
                 {t("block")} {b.id}
               </option>

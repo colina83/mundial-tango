@@ -116,9 +116,20 @@ export function buildDataset(
   const mismatches: AverageMismatch[] = [];
   const summaries: BlockSummary[] = [];
 
-  const ordered = [...blocks].sort((a, b) => a.id.localeCompare(b.id));
+  const ordered = [...blocks]
+    .filter((b) => b.couples.length > 0)
+    .sort((a, b) => a.id.localeCompare(b.id));
 
-  for (const block of ordered) {
+  const unique: ParsedBlock[] = [];
+  const seenIds = new Set<string>();
+  for (const block of ordered.sort((a, b) => b.couples.length - a.couples.length)) {
+    if (seenIds.has(block.id)) continue;
+    seenIds.add(block.id);
+    unique.push(block);
+  }
+  unique.sort((a, b) => a.id.localeCompare(b.id));
+
+  for (const block of unique) {
     const qualified = qualifyBlock(block.couples);
     for (const couple of block.couples) {
       const mismatch =

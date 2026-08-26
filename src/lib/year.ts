@@ -22,7 +22,18 @@ export function yearPath(year: number, rest = ""): string {
 }
 
 export function hasDistinctBlocks(data: Dataset): boolean {
-  return data.blocks.some((b) => b.id !== "_");
+  return usableBlocks(data).some((b) => b.id !== "_");
+}
+
+/** Drop empty leftover blocks (catalog/rules/escenario PDFs parsed as Block A). */
+export function usableBlocks(data: Dataset) {
+  const byId = new Map<string, (typeof data.blocks)[number]>();
+  for (const block of data.blocks) {
+    if (block.coupleCount <= 0) continue;
+    const prev = byId.get(block.id);
+    if (!prev || block.coupleCount > prev.coupleCount) byId.set(block.id, block);
+  }
+  return [...byId.values()].sort((a, b) => a.id.localeCompare(b.id));
 }
 
 export const STAGE_ORDER: Stage[] = ["clasificatoria", "cuartos", "semifinal", "final"];

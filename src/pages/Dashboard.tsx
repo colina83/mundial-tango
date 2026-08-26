@@ -10,7 +10,7 @@ import {
   formatIngestTime,
 } from "../lib/format";
 import { classifiedTotal } from "../lib/stats";
-import { hasDistinctBlocks, hasWatchlist, isTrimmedScoring, yearPath } from "../lib/year";
+import { hasDistinctBlocks, hasWatchlist, isTrimmedScoring, usableBlocks, yearPath } from "../lib/year";
 import type { ScoreRow } from "../types";
 
 export function Dashboard() {
@@ -31,6 +31,7 @@ export function Dashboard() {
   const trimmed = isTrimmedScoring(data);
   const showWatchlist = hasWatchlist(year);
   const base = yearPath(year);
+  const blocks = usableBlocks(data);
 
   const watchRows = pins
     .filter((p) => p.year === year)
@@ -74,14 +75,14 @@ export function Dashboard() {
 
       <PodiumGrid
         rows={data.rows}
-        blocks={data.blocks.map((b) => ({ id: b.id, date: b.date }))}
+        blocks={blocks.map((b) => ({ id: b.id, date: b.date }))}
         stageLabel={stageLabel[activeStage] ?? t("stageClasificatoria")}
         overall={!showBlocks}
       />
 
       {showBlocks && (
         <section className="block-grid">
-          {data.blocks.map((block) => (
+          {blocks.map((block) => (
             <article key={block.id} className="panel block-card">
               <header>
                 <h2>
