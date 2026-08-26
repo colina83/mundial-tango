@@ -23,7 +23,7 @@ import {
   sortRows,
   type SortKey,
 } from "../lib/rank-sort";
-import { hasDistinctBlocks, hasRealRounds, hasWatchlist, yearPath } from "../lib/year";
+import { hasDistinctBlocks, hasRealRounds, hasWatchlist, usableBlocks, yearPath } from "../lib/year";
 import { survivalGates } from "../lib/survival";
 import type { BlockId, ScoreRow } from "../types";
 
@@ -79,6 +79,7 @@ export function Rankings() {
   const showRounds = data ? hasRealRounds(data) : false;
   const showSurvival = year === 2026 && !!survival;
   const showWatchlist = hasWatchlist(year);
+  const blocks = data ? usableBlocks(data) : [];
   const showOverall = data?.rows.some((r) => r.overall != null) ?? false;
   const survivalStageGates = survivalGates(survival, year);
   const block = (params.get("block") ?? "all") as BlockId | "all";
@@ -149,7 +150,7 @@ export function Rankings() {
     block === "all" ? data.rows : data.rows.filter((r) => r.blockId === block),
   );
   const countFor = (row: ScoreRow) =>
-    data.blocks.find((b) => b.id === row.blockId)?.coupleCount ?? 0;
+    blocks.find((b) => b.id === row.blockId)?.coupleCount ?? 0;
 
   return (
     <div className="page rankings">
@@ -157,8 +158,8 @@ export function Rankings() {
         rows={data.rows}
         blocks={
           !showBlocks || block === "all"
-            ? data.blocks.map((b) => ({ id: b.id, date: b.date }))
-            : data.blocks
+            ? blocks.map((b) => ({ id: b.id, date: b.date }))
+            : blocks
                 .filter((b) => b.id === block)
                 .map((b) => ({ id: b.id, date: b.date }))
         }
@@ -180,7 +181,7 @@ export function Rankings() {
               aria-label={t("block")}
             >
               <option value="all">{t("allBlocks")}</option>
-              {data.blocks.map((b) => (
+              {blocks.map((b) => (
                 <option key={b.id} value={b.id}>
                   {t("block")} {b.id}
                 </option>

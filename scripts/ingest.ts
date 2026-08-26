@@ -100,30 +100,39 @@ function absUrl(href: string, base: string): string {
   return new URL(href, base).toString();
 }
 
+function isJunkPdf(url: string): boolean {
+  const u = url.toLowerCase();
+  return (
+    u.includes("escenario") ||
+    u.includes("catalogo") ||
+    u.includes("catálogo") ||
+    u.includes("reglamento") ||
+    u.includes("regulations") ||
+    u.includes("rules-and") ||
+    u.includes("rules_and") ||
+    (u.includes("rules") && !u.includes("jurados"))
+  );
+}
+
 export function isSkippablePdf(urlOrFilename: string): boolean {
   const u = urlOrFilename.toLowerCase();
-  if (u.includes("escenario")) {
-    return true;
-  }
   if (u.includes("/2025/") || u.includes("2025") || u.includes("cbc25")) {
     return true;
   }
-  return false;
+  return isJunkPdf(u);
 }
 
 export function isLikelyResultsPdf(url: string): boolean {
   const u = url.toLowerCase();
   if (isSkippablePdf(url)) return false;
-  return (
-    u.includes("2026") &&
-    (u.includes("clasificator") ||
-      u.includes("cuartos") ||
-      u.includes("semifinal") ||
-      u.includes("final") ||
-      u.includes("jurados") ||
-      u.includes("pista") ||
-      u.includes("resultado"))
-  );
+  const looksLikeSheet =
+    u.includes("jurados") ||
+    u.includes("clasificator") ||
+    u.includes("cuartos") ||
+    u.includes("semifinal") ||
+    (u.includes("final") && (u.includes("pista") || u.includes("jurados"))) ||
+    (u.includes("pista") && (u.includes("resultado") || u.includes("ronda")));
+  return u.includes("2026") && looksLikeSheet;
 }
 
 export function isStagePdfFilename(name: string): boolean {
@@ -177,7 +186,7 @@ function collectStagePageLinks(html: string, pageUrl: string, stage: Stage): str
     // Same domain only
     if (url.hostname !== base.hostname) continue;
     const path = url.pathname.toLowerCase();
-    // For the "final" stage, exclude paths that actually refer to "semifinal"
+    if (path.includes("escenario")) continue;
     if (stage === "final" && path.includes("semifinal")) continue;
     if (keywords.some((kw) => path.includes(kw))) {
       links.add(url.toString());
@@ -243,7 +252,7 @@ async function discoverStagePdfs(
   // --- Hop 1a: try the hardcoded sourcePage directly ---
   try {
     const html = await fetchText(sourcePage);
-    for (const pdfUrl of collectPdfUrls(html, sourcePage, false)) {
+    for (const pdfUrl of collectPdfUrls(html, sourcePage, true)) {
       found.add(pdfUrl);
     }
     console.log(`[${stage}] sourcePage OK — found ${found.size} PDF(s) so far.`);
@@ -301,7 +310,7 @@ async function discoverStagePdfs(
     try {
       const html = await fetchText(resultPage);
       const before = found.size;
-      for (const pdfUrl of collectPdfUrls(html, resultPage, false)) {
+      for (const pdfUrl of collectPdfUrls(html, resultPage, true)) {
         found.add(pdfUrl);
       }
       console.log(
@@ -436,7 +445,6 @@ async function ingestStage(
   try {
     pdfs = (await readdir(stageRawDir)).filter(isStagePdfFilename);
   } catch {
-    // Dir doesn't exist yet for this stage
     pdfs = [];
   }
 
@@ -448,10 +456,19 @@ async function ingestStage(
   const parsed = [];
   for (const name of pdfs) {
     const block = await parsePdfFile(join(stageRawDir, name));
+    if (block.couples.length === 0) {
+      console.log(`[${stage}] Skip empty PDF (not a score sheet): ${name}`);
+      continue;
+    }
     console.log(
       `[${stage}] Block ${block.id}: ${block.couples.length} couples, ${block.judges.length} judges (${name})`,
     );
     parsed.push(block);
+  }
+
+  if (!parsed.length) {
+    console.log(`[${stage}] No usable score-sheet PDFs — skipping.`);
+    return null;
   }
 
   const dataset = buildDataset(stage, sourcePage, sourceCategoryPage, parsed, 2026, "trimmed");
