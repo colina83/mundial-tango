@@ -29,6 +29,12 @@ test("Escenario PDF candidates are excluded from URLs and raw stage filenames", 
     true,
   );
   assert.equal(
+    isSkippablePdf(
+      "https://tangoba.org/wp-content/uploads/2026/08/Jurados-_-Pista-Clasificatorias-2026-24_8-D.pdf",
+    ),
+    false,
+  );
+  assert.equal(
     isStagePdfFilename(
       "Jurados-_-Escenario-Clasificatorias-2026-25_8-B-Copia-de-JURADOS-_-RONDAS-TODAS-258-B.pdf",
     ),
