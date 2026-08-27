@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T20:23:55.052Z",
+  "generatedAt": "2026-08-27T23:42:38.124Z",
   "year": 2026,
   "stage": "clasificatoria",
   "category": "pista",
@@ -139,10 +139,20 @@
           "stage": "clasificatoria",
           "average": 7.727,
           "percentile": 99.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.437,
+          "percentile": 90.7
+        },
+        {
+          "stage": "final",
+          "average": 7.437,
+          "percentile": 90.7
         }
       ],
-      "overall": 99.4,
-      "lastStageReached": "clasificatoria"
+      "overall": 93.6,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 208,
@@ -192,10 +202,20 @@
           "stage": "clasificatoria",
           "average": 7.64,
           "percentile": 98.2
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.363,
+          "percentile": 83.5
+        },
+        {
+          "stage": "final",
+          "average": 7.363,
+          "percentile": 83.5
         }
       ],
-      "overall": 98.2,
-      "lastStageReached": "clasificatoria"
+      "overall": 88.4,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 522,
@@ -245,10 +265,20 @@
           "stage": "clasificatoria",
           "average": 7.617,
           "percentile": 98
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.19,
+          "percentile": 56
+        },
+        {
+          "stage": "final",
+          "average": 7.19,
+          "percentile": 56
         }
       ],
-      "overall": 98,
-      "lastStageReached": "clasificatoria"
+      "overall": 70,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 386,
@@ -298,10 +328,20 @@
           "stage": "clasificatoria",
           "average": 7.587,
           "percentile": 97.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.477,
+          "percentile": 92.1
+        },
+        {
+          "stage": "final",
+          "average": 7.477,
+          "percentile": 92.1
         }
       ],
-      "overall": 97.6,
-      "lastStageReached": "clasificatoria"
+      "overall": 93.9,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 238,
@@ -351,10 +391,20 @@
           "stage": "clasificatoria",
           "average": 7.547,
           "percentile": 96.5
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.983,
+          "percentile": 18.2
+        },
+        {
+          "stage": "final",
+          "average": 6.983,
+          "percentile": 18.2
         }
       ],
-      "overall": 96.5,
-      "lastStageReached": "clasificatoria"
+      "overall": 44.3,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 552,
@@ -404,10 +454,20 @@
           "stage": "clasificatoria",
           "average": 7.507,
           "percentile": 94.9
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.323,
+          "percentile": 77
+        },
+        {
+          "stage": "final",
+          "average": 7.323,
+          "percentile": 77
         }
       ],
-      "overall": 94.9,
-      "lastStageReached": "clasificatoria"
+      "overall": 83,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 425,
@@ -457,10 +517,20 @@
           "stage": "clasificatoria",
           "average": 7.483,
           "percentile": 94.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.097,
+          "percentile": 37.5
+        },
+        {
+          "stage": "final",
+          "average": 7.097,
+          "percentile": 37.5
         }
       ],
-      "overall": 94.7,
-      "lastStageReached": "clasificatoria"
+      "overall": 56.6,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 315,
@@ -510,10 +580,20 @@
           "stage": "clasificatoria",
           "average": 7.47,
           "percentile": 94.1
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.3,
+          "percentile": 72.9
+        },
+        {
+          "stage": "final",
+          "average": 7.3,
+          "percentile": 72.9
         }
       ],
-      "overall": 94.1,
-      "lastStageReached": "clasificatoria"
+      "overall": 80,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 215,
@@ -563,10 +643,20 @@
           "stage": "clasificatoria",
           "average": 7.457,
           "percentile": 93.9
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.11,
+          "percentile": 39.2
+        },
+        {
+          "stage": "final",
+          "average": 7.11,
+          "percentile": 39.2
         }
       ],
-      "overall": 93.9,
-      "lastStageReached": "clasificatoria"
+      "overall": 57.4,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 342,
@@ -616,10 +706,20 @@
           "stage": "clasificatoria",
           "average": 7.453,
           "percentile": 93.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.317,
+          "percentile": 75.3
+        },
+        {
+          "stage": "final",
+          "average": 7.317,
+          "percentile": 75.3
         }
       ],
-      "overall": 93.8,
-      "lastStageReached": "clasificatoria"
+      "overall": 81.5,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 701,
@@ -669,10 +769,20 @@
           "stage": "clasificatoria",
           "average": 7.44,
           "percentile": 93
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.257,
+          "percentile": 67.4
+        },
+        {
+          "stage": "final",
+          "average": 7.257,
+          "percentile": 67.4
         }
       ],
-      "overall": 93,
-      "lastStageReached": "clasificatoria"
+      "overall": 75.9,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 542,
@@ -722,10 +832,20 @@
           "stage": "clasificatoria",
           "average": 7.44,
           "percentile": 93
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.34,
+          "percentile": 80.1
+        },
+        {
+          "stage": "final",
+          "average": 7.34,
+          "percentile": 80.1
         }
       ],
-      "overall": 93,
-      "lastStageReached": "clasificatoria"
+      "overall": 84.4,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 377,
@@ -775,10 +895,20 @@
           "stage": "clasificatoria",
           "average": 7.41,
           "percentile": 91.2
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.05,
+          "percentile": 26.8
+        },
+        {
+          "stage": "final",
+          "average": 7.05,
+          "percentile": 26.8
         }
       ],
-      "overall": 91.2,
-      "lastStageReached": "clasificatoria"
+      "overall": 48.3,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 504,
@@ -828,10 +958,20 @@
           "stage": "clasificatoria",
           "average": 7.41,
           "percentile": 91.2
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.067,
+          "percentile": 29.2
+        },
+        {
+          "stage": "final",
+          "average": 7.067,
+          "percentile": 29.2
         }
       ],
-      "overall": 91.2,
-      "lastStageReached": "clasificatoria"
+      "overall": 49.9,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 370,
@@ -881,10 +1021,20 @@
           "stage": "clasificatoria",
           "average": 7.393,
           "percentile": 90.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.42,
+          "percentile": 88.7
+        },
+        {
+          "stage": "final",
+          "average": 7.42,
+          "percentile": 88.7
         }
       ],
-      "overall": 90.6,
-      "lastStageReached": "clasificatoria"
+      "overall": 89.3,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 257,
@@ -934,10 +1084,20 @@
           "stage": "clasificatoria",
           "average": 7.383,
           "percentile": 90.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.493,
+          "percentile": 93.8
+        },
+        {
+          "stage": "final",
+          "average": 7.493,
+          "percentile": 93.8
         }
       ],
-      "overall": 90.3,
-      "lastStageReached": "clasificatoria"
+      "overall": 92.6,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 647,
@@ -987,10 +1147,20 @@
           "stage": "clasificatoria",
           "average": 7.377,
           "percentile": 89.9
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.21,
+          "percentile": 59.5
+        },
+        {
+          "stage": "final",
+          "average": 7.21,
+          "percentile": 59.5
         }
       ],
-      "overall": 89.9,
-      "lastStageReached": "clasificatoria"
+      "overall": 69.6,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 79,
@@ -1040,10 +1210,20 @@
           "stage": "clasificatoria",
           "average": 7.377,
           "percentile": 89.9
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.373,
+          "percentile": 84.2
+        },
+        {
+          "stage": "final",
+          "average": 7.373,
+          "percentile": 84.2
         }
       ],
-      "overall": 89.9,
-      "lastStageReached": "clasificatoria"
+      "overall": 86.1,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 209,
@@ -1093,10 +1273,20 @@
           "stage": "clasificatoria",
           "average": 7.373,
           "percentile": 89.5
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.07,
+          "percentile": 31.3
+        },
+        {
+          "stage": "final",
+          "average": 7.07,
+          "percentile": 31.3
         }
       ],
-      "overall": 89.5,
-      "lastStageReached": "clasificatoria"
+      "overall": 50.7,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 365,
@@ -1146,10 +1336,20 @@
           "stage": "clasificatoria",
           "average": 7.37,
           "percentile": 89
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.08,
+          "percentile": 33.7
+        },
+        {
+          "stage": "final",
+          "average": 7.08,
+          "percentile": 33.7
         }
       ],
-      "overall": 89,
-      "lastStageReached": "clasificatoria"
+      "overall": 52.1,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 339,
@@ -1199,10 +1399,20 @@
           "stage": "clasificatoria",
           "average": 7.357,
           "percentile": 88.1
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.097,
+          "percentile": 37.5
+        },
+        {
+          "stage": "final",
+          "average": 7.097,
+          "percentile": 37.5
         }
       ],
-      "overall": 88.1,
-      "lastStageReached": "clasificatoria"
+      "overall": 54.4,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 75,
@@ -1252,10 +1462,20 @@
           "stage": "clasificatoria",
           "average": 7.347,
           "percentile": 87.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.323,
+          "percentile": 77
+        },
+        {
+          "stage": "final",
+          "average": 7.323,
+          "percentile": 77
         }
       ],
-      "overall": 87.7,
-      "lastStageReached": "clasificatoria"
+      "overall": 80.6,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 356,
@@ -1305,10 +1525,20 @@
           "stage": "clasificatoria",
           "average": 7.343,
           "percentile": 87.5
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.017,
+          "percentile": 23
+        },
+        {
+          "stage": "final",
+          "average": 7.017,
+          "percentile": 23
         }
       ],
-      "overall": 87.5,
-      "lastStageReached": "clasificatoria"
+      "overall": 44.5,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 285,
@@ -1358,10 +1588,20 @@
           "stage": "clasificatoria",
           "average": 7.34,
           "percentile": 87.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.97,
+          "percentile": 14.4
+        },
+        {
+          "stage": "final",
+          "average": 6.97,
+          "percentile": 14.4
         }
       ],
-      "overall": 87.3,
-      "lastStageReached": "clasificatoria"
+      "overall": 38.7,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 169,
@@ -1411,10 +1651,20 @@
           "stage": "clasificatoria",
           "average": 7.337,
           "percentile": 86.9
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.24,
+          "percentile": 64.6
+        },
+        {
+          "stage": "final",
+          "average": 7.24,
+          "percentile": 64.6
         }
       ],
-      "overall": 86.9,
-      "lastStageReached": "clasificatoria"
+      "overall": 72,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 100,
@@ -1464,10 +1714,20 @@
           "stage": "clasificatoria",
           "average": 7.333,
           "percentile": 86.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.183,
+          "percentile": 55.3
+        },
+        {
+          "stage": "final",
+          "average": 7.183,
+          "percentile": 55.3
         }
       ],
-      "overall": 86.8,
-      "lastStageReached": "clasificatoria"
+      "overall": 65.8,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 656,
@@ -1517,10 +1777,20 @@
           "stage": "clasificatoria",
           "average": 7.323,
           "percentile": 86.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.107,
+          "percentile": 38.8
+        },
+        {
+          "stage": "final",
+          "average": 7.107,
+          "percentile": 38.8
         }
       ],
-      "overall": 86.4,
-      "lastStageReached": "clasificatoria"
+      "overall": 54.7,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 608,
@@ -1570,10 +1840,20 @@
           "stage": "clasificatoria",
           "average": 7.303,
           "percentile": 85.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.017,
+          "percentile": 23
+        },
+        {
+          "stage": "final",
+          "average": 7.017,
+          "percentile": 23
         }
       ],
-      "overall": 85.7,
-      "lastStageReached": "clasificatoria"
+      "overall": 43.9,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 223,
@@ -1623,10 +1903,20 @@
           "stage": "clasificatoria",
           "average": 7.3,
           "percentile": 85.5
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.033,
+          "percentile": 24.7
+        },
+        {
+          "stage": "final",
+          "average": 7.033,
+          "percentile": 24.7
         }
       ],
-      "overall": 85.5,
-      "lastStageReached": "clasificatoria"
+      "overall": 45,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 524,
@@ -1676,10 +1966,20 @@
           "stage": "clasificatoria",
           "average": 7.277,
           "percentile": 83.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.17,
+          "percentile": 52.6
+        },
+        {
+          "stage": "final",
+          "average": 7.17,
+          "percentile": 52.6
         }
       ],
-      "overall": 83.8,
-      "lastStageReached": "clasificatoria"
+      "overall": 63,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 368,
@@ -1729,10 +2029,20 @@
           "stage": "clasificatoria",
           "average": 7.27,
           "percentile": 83.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.207,
+          "percentile": 58.1
+        },
+        {
+          "stage": "final",
+          "average": 7.207,
+          "percentile": 58.1
         }
       ],
-      "overall": 83.3,
-      "lastStageReached": "clasificatoria"
+      "overall": 66.5,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 175,
@@ -1782,10 +2092,20 @@
           "stage": "clasificatoria",
           "average": 7.267,
           "percentile": 82.9
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.01,
+          "percentile": 21.3
+        },
+        {
+          "stage": "final",
+          "average": 7.01,
+          "percentile": 21.3
         }
       ],
-      "overall": 82.9,
-      "lastStageReached": "clasificatoria"
+      "overall": 41.8,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 164,
@@ -1835,10 +2155,20 @@
           "stage": "clasificatoria",
           "average": 7.253,
           "percentile": 81.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.917,
+          "percentile": 8.6
+        },
+        {
+          "stage": "final",
+          "average": 6.917,
+          "percentile": 8.6
         }
       ],
-      "overall": 81.6,
-      "lastStageReached": "clasificatoria"
+      "overall": 32.9,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 397,
@@ -1888,10 +2218,20 @@
           "stage": "clasificatoria",
           "average": 7.25,
           "percentile": 81.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.977,
+          "percentile": 15.5
+        },
+        {
+          "stage": "final",
+          "average": 6.977,
+          "percentile": 15.5
         }
       ],
-      "overall": 81.3,
-      "lastStageReached": "clasificatoria"
+      "overall": 37.4,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 645,
@@ -1941,10 +2281,20 @@
           "stage": "clasificatoria",
           "average": 7.247,
           "percentile": 80.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.073,
+          "percentile": 32.3
+        },
+        {
+          "stage": "final",
+          "average": 7.073,
+          "percentile": 32.3
         }
       ],
-      "overall": 80.7,
-      "lastStageReached": "clasificatoria"
+      "overall": 48.4,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 130,
@@ -1994,10 +2344,20 @@
           "stage": "clasificatoria",
           "average": 7.247,
           "percentile": 80.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.047,
+          "percentile": 26.5
+        },
+        {
+          "stage": "final",
+          "average": 7.047,
+          "percentile": 26.5
         }
       ],
-      "overall": 80.7,
-      "lastStageReached": "clasificatoria"
+      "overall": 44.6,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 427,
@@ -2047,10 +2407,20 @@
           "stage": "clasificatoria",
           "average": 7.24,
           "percentile": 80.1
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.277,
+          "percentile": 71.5
+        },
+        {
+          "stage": "final",
+          "average": 7.277,
+          "percentile": 71.5
         }
       ],
-      "overall": 80.1,
-      "lastStageReached": "clasificatoria"
+      "overall": 74.4,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 308,
@@ -2100,10 +2470,20 @@
           "stage": "clasificatoria",
           "average": 7.233,
           "percentile": 79.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.203,
+          "percentile": 57
+        },
+        {
+          "stage": "final",
+          "average": 7.203,
+          "percentile": 57
         }
       ],
-      "overall": 79.8,
-      "lastStageReached": "clasificatoria"
+      "overall": 64.6,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 581,
@@ -2153,10 +2533,20 @@
           "stage": "clasificatoria",
           "average": 7.223,
           "percentile": 78.9
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.92,
+          "percentile": 9.3
+        },
+        {
+          "stage": "final",
+          "average": 6.92,
+          "percentile": 9.3
         }
       ],
-      "overall": 78.9,
-      "lastStageReached": "clasificatoria"
+      "overall": 32.5,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 592,
@@ -2206,10 +2596,20 @@
           "stage": "clasificatoria",
           "average": 7.217,
           "percentile": 78.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.827,
+          "percentile": 4.5
+        },
+        {
+          "stage": "final",
+          "average": 6.827,
+          "percentile": 4.5
         }
       ],
-      "overall": 78.7,
-      "lastStageReached": "clasificatoria"
+      "overall": 29.2,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 181,
@@ -2259,10 +2659,20 @@
           "stage": "clasificatoria",
           "average": 7.21,
           "percentile": 77.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.933,
+          "percentile": 11.7
+        },
+        {
+          "stage": "final",
+          "average": 6.933,
+          "percentile": 11.7
         }
       ],
-      "overall": 77.6,
-      "lastStageReached": "clasificatoria"
+      "overall": 33.7,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 644,
@@ -2312,10 +2722,20 @@
           "stage": "clasificatoria",
           "average": 7.21,
           "percentile": 77.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.9,
+          "percentile": 7.9
+        },
+        {
+          "stage": "final",
+          "average": 6.9,
+          "percentile": 7.9
         }
       ],
-      "overall": 77.6,
-      "lastStageReached": "clasificatoria"
+      "overall": 31.1,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 480,
@@ -2365,10 +2785,20 @@
           "stage": "clasificatoria",
           "average": 7.207,
           "percentile": 77
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.087,
+          "percentile": 35.4
+        },
+        {
+          "stage": "final",
+          "average": 7.087,
+          "percentile": 35.4
         }
       ],
-      "overall": 77,
-      "lastStageReached": "clasificatoria"
+      "overall": 49.3,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 255,
@@ -2418,10 +2848,20 @@
           "stage": "clasificatoria",
           "average": 7.203,
           "percentile": 76.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.813,
+          "percentile": 3.8
+        },
+        {
+          "stage": "final",
+          "average": 6.813,
+          "percentile": 3.8
         }
       ],
-      "overall": 76.8,
-      "lastStageReached": "clasificatoria"
+      "overall": 28.1,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 21,
@@ -2471,10 +2911,20 @@
           "stage": "clasificatoria",
           "average": 7.2,
           "percentile": 76.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.88,
+          "percentile": 6.5
+        },
+        {
+          "stage": "final",
+          "average": 6.88,
+          "percentile": 6.5
         }
       ],
-      "overall": 76.7,
-      "lastStageReached": "clasificatoria"
+      "overall": 29.9,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 256,
@@ -2524,10 +2974,20 @@
           "stage": "clasificatoria",
           "average": 7.19,
           "percentile": 75
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.937,
+          "percentile": 12.4
+        },
+        {
+          "stage": "final",
+          "average": 6.937,
+          "percentile": 12.4
         }
       ],
-      "overall": 75,
-      "lastStageReached": "clasificatoria"
+      "overall": 33.3,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 82,
@@ -2577,10 +3037,20 @@
           "stage": "clasificatoria",
           "average": 7.19,
           "percentile": 75
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.15,
+          "percentile": 49.8
+        },
+        {
+          "stage": "final",
+          "average": 7.15,
+          "percentile": 49.8
         }
       ],
-      "overall": 75,
-      "lastStageReached": "clasificatoria"
+      "overall": 58.2,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 448,
@@ -2630,10 +3100,20 @@
           "stage": "clasificatoria",
           "average": 7.187,
           "percentile": 74.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.057,
+          "percentile": 27.5
+        },
+        {
+          "stage": "final",
+          "average": 7.057,
+          "percentile": 27.5
         }
       ],
-      "overall": 74.6,
-      "lastStageReached": "clasificatoria"
+      "overall": 43.2,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 132,
@@ -2683,10 +3163,20 @@
           "stage": "clasificatoria",
           "average": 7.177,
           "percentile": 73.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.837,
+          "percentile": 5.2
+        },
+        {
+          "stage": "final",
+          "average": 6.837,
+          "percentile": 5.2
         }
       ],
-      "overall": 73.7,
-      "lastStageReached": "clasificatoria"
+      "overall": 28,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 30,
@@ -2736,10 +3226,20 @@
           "stage": "clasificatoria",
           "average": 7.177,
           "percentile": 73.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.983,
+          "percentile": 18.2
+        },
+        {
+          "stage": "final",
+          "average": 6.983,
+          "percentile": 18.2
         }
       ],
-      "overall": 73.7,
-      "lastStageReached": "clasificatoria"
+      "overall": 36.7,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 198,
@@ -2789,10 +3289,20 @@
           "stage": "clasificatoria",
           "average": 7.15,
           "percentile": 72.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.907,
+          "percentile": 8.2
+        },
+        {
+          "stage": "final",
+          "average": 6.907,
+          "percentile": 8.2
         }
       ],
-      "overall": 72.4,
-      "lastStageReached": "clasificatoria"
+      "overall": 29.6,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 376,
@@ -2842,10 +3352,20 @@
           "stage": "clasificatoria",
           "average": 7.137,
           "percentile": 71
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.133,
+          "percentile": 46
+        },
+        {
+          "stage": "final",
+          "average": 7.133,
+          "percentile": 46
         }
       ],
-      "overall": 71,
-      "lastStageReached": "clasificatoria"
+      "overall": 54.3,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 120,
@@ -2895,10 +3415,20 @@
           "stage": "clasificatoria",
           "average": 7.133,
           "percentile": 70.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.493,
+          "percentile": 93.8
+        },
+        {
+          "stage": "final",
+          "average": 7.493,
+          "percentile": 93.8
         }
       ],
-      "overall": 70.4,
-      "lastStageReached": "clasificatoria"
+      "overall": 86,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 487,
@@ -2948,10 +3478,20 @@
           "stage": "clasificatoria",
           "average": 7.13,
           "percentile": 70
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.95,
+          "percentile": 13.4
+        },
+        {
+          "stage": "final",
+          "average": 6.95,
+          "percentile": 13.4
         }
       ],
-      "overall": 70,
-      "lastStageReached": "clasificatoria"
+      "overall": 32.3,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 404,
@@ -3001,10 +3541,20 @@
           "stage": "clasificatoria",
           "average": 7.127,
           "percentile": 69.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.983,
+          "percentile": 18.2
+        },
+        {
+          "stage": "final",
+          "average": 6.983,
+          "percentile": 18.2
         }
       ],
-      "overall": 69.7,
-      "lastStageReached": "clasificatoria"
+      "overall": 35.4,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 490,
@@ -3054,10 +3604,20 @@
           "stage": "clasificatoria",
           "average": 7.12,
           "percentile": 68.9
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.09,
+          "percentile": 36.4
+        },
+        {
+          "stage": "final",
+          "average": 7.09,
+          "percentile": 36.4
         }
       ],
-      "overall": 68.9,
-      "lastStageReached": "clasificatoria"
+      "overall": 47.2,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 302,
@@ -3107,10 +3667,20 @@
           "stage": "clasificatoria",
           "average": 7.117,
           "percentile": 68.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.927,
+          "percentile": 10
+        },
+        {
+          "stage": "final",
+          "average": 6.927,
+          "percentile": 10
         }
       ],
-      "overall": 68.6,
-      "lastStageReached": "clasificatoria"
+      "overall": 29.5,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 417,
@@ -3160,10 +3730,20 @@
           "stage": "clasificatoria",
           "average": 7.113,
           "percentile": 67.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.127,
+          "percentile": 43.6
+        },
+        {
+          "stage": "final",
+          "average": 7.127,
+          "percentile": 43.6
         }
       ],
-      "overall": 67.3,
-      "lastStageReached": "clasificatoria"
+      "overall": 51.5,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 410,
@@ -3213,10 +3793,20 @@
           "stage": "clasificatoria",
           "average": 7.113,
           "percentile": 67.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.067,
+          "percentile": 29.2
+        },
+        {
+          "stage": "final",
+          "average": 7.067,
+          "percentile": 29.2
         }
       ],
-      "overall": 67.3,
-      "lastStageReached": "clasificatoria"
+      "overall": 41.9,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 575,
@@ -3266,10 +3856,20 @@
           "stage": "clasificatoria",
           "average": 7.11,
           "percentile": 66.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.143,
+          "percentile": 48.5
+        },
+        {
+          "stage": "final",
+          "average": 7.143,
+          "percentile": 48.5
         }
       ],
-      "overall": 66.7,
-      "lastStageReached": "clasificatoria"
+      "overall": 54.6,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 550,
@@ -3319,10 +3919,20 @@
           "stage": "clasificatoria",
           "average": 7.1,
           "percentile": 65.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.037,
+          "percentile": 25.1
+        },
+        {
+          "stage": "final",
+          "average": 7.037,
+          "percentile": 25.1
         }
       ],
-      "overall": 65.8,
-      "lastStageReached": "clasificatoria"
+      "overall": 38.7,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 464,
@@ -3372,10 +3982,20 @@
           "stage": "clasificatoria",
           "average": 7.087,
           "percentile": 64.5
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.033,
+          "percentile": 24.7
+        },
+        {
+          "stage": "final",
+          "average": 7.033,
+          "percentile": 24.7
         }
       ],
-      "overall": 64.5,
-      "lastStageReached": "clasificatoria"
+      "overall": 38,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 102,
@@ -3425,10 +4045,20 @@
           "stage": "clasificatoria",
           "average": 7.087,
           "percentile": 64.5
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.207,
+          "percentile": 58.1
+        },
+        {
+          "stage": "final",
+          "average": 7.207,
+          "percentile": 58.1
         }
       ],
-      "overall": 64.5,
-      "lastStageReached": "clasificatoria"
+      "overall": 60.2,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 282,
@@ -3478,10 +4108,20 @@
           "stage": "clasificatoria",
           "average": 7.073,
           "percentile": 63.1
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.667,
+          "percentile": 1.4
+        },
+        {
+          "stage": "final",
+          "average": 6.667,
+          "percentile": 1.4
         }
       ],
-      "overall": 63.1,
-      "lastStageReached": "clasificatoria"
+      "overall": 22,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 559,
@@ -3531,10 +4171,20 @@
           "stage": "clasificatoria",
           "average": 7.073,
           "percentile": 63.1
+        },
+        {
+          "stage": "cuartos",
+          "average": 7,
+          "percentile": 20.6
+        },
+        {
+          "stage": "final",
+          "average": 7,
+          "percentile": 20.6
         }
       ],
-      "overall": 63.1,
-      "lastStageReached": "clasificatoria"
+      "overall": 34.8,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 222,
@@ -3584,10 +4234,20 @@
           "stage": "clasificatoria",
           "average": 7.07,
           "percentile": 62.5
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.983,
+          "percentile": 18.2
+        },
+        {
+          "stage": "final",
+          "average": 6.983,
+          "percentile": 18.2
         }
       ],
-      "overall": 62.5,
-      "lastStageReached": "clasificatoria"
+      "overall": 33,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 17,
@@ -3637,10 +4297,20 @@
           "stage": "clasificatoria",
           "average": 7.063,
           "percentile": 61.9
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.6,
+          "percentile": 0.7
+        },
+        {
+          "stage": "final",
+          "average": 6.6,
+          "percentile": 0.7
         }
       ],
-      "overall": 61.9,
-      "lastStageReached": "clasificatoria"
+      "overall": 21.1,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 227,
@@ -3690,10 +4360,20 @@
           "stage": "clasificatoria",
           "average": 7.05,
           "percentile": 61.2
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.407,
+          "percentile": 88
+        },
+        {
+          "stage": "final",
+          "average": 7.407,
+          "percentile": 88
         }
       ],
-      "overall": 61.2,
-      "lastStageReached": "clasificatoria"
+      "overall": 79.1,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 41,
@@ -3743,10 +4423,20 @@
           "stage": "clasificatoria",
           "average": 7.043,
           "percentile": 59.9
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.02,
+          "percentile": 23.7
+        },
+        {
+          "stage": "final",
+          "average": 7.02,
+          "percentile": 23.7
         }
       ],
-      "overall": 59.9,
-      "lastStageReached": "clasificatoria"
+      "overall": 35.8,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 220,
@@ -3796,10 +4486,20 @@
           "stage": "clasificatoria",
           "average": 7.04,
           "percentile": 59.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.667,
+          "percentile": 1.4
+        },
+        {
+          "stage": "final",
+          "average": 6.667,
+          "percentile": 1.4
         }
       ],
-      "overall": 59.7,
-      "lastStageReached": "clasificatoria"
+      "overall": 20.8,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 58,
@@ -3849,10 +4549,20 @@
           "stage": "clasificatoria",
           "average": 7.04,
           "percentile": 59.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.677,
+          "percentile": 1.7
+        },
+        {
+          "stage": "final",
+          "average": 6.677,
+          "percentile": 1.7
         }
       ],
-      "overall": 59.7,
-      "lastStageReached": "clasificatoria"
+      "overall": 21,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 118,
@@ -3902,10 +4612,20 @@
           "stage": "clasificatoria",
           "average": 7.04,
           "percentile": 59.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.357,
+          "percentile": 81.8
+        },
+        {
+          "stage": "final",
+          "average": 7.357,
+          "percentile": 81.8
         }
       ],
-      "overall": 59.7,
-      "lastStageReached": "clasificatoria"
+      "overall": 74.4,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 212,
@@ -3955,10 +4675,20 @@
           "stage": "clasificatoria",
           "average": 7.033,
           "percentile": 59
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.557,
+          "percentile": 0
+        },
+        {
+          "stage": "final",
+          "average": 6.557,
+          "percentile": 0
         }
       ],
-      "overall": 59,
-      "lastStageReached": "clasificatoria"
+      "overall": 19.7,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 303,
@@ -4008,10 +4738,20 @@
           "stage": "clasificatoria",
           "average": 7.033,
           "percentile": 59
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.88,
+          "percentile": 6.5
+        },
+        {
+          "stage": "final",
+          "average": 6.88,
+          "percentile": 6.5
         }
       ],
-      "overall": 59,
-      "lastStageReached": "clasificatoria"
+      "overall": 24,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 173,
@@ -4061,10 +4801,20 @@
           "stage": "clasificatoria",
           "average": 7.02,
           "percentile": 58.1
+        },
+        {
+          "stage": "cuartos",
+          "average": 7,
+          "percentile": 20.6
+        },
+        {
+          "stage": "final",
+          "average": 7,
+          "percentile": 20.6
         }
       ],
-      "overall": 58.1,
-      "lastStageReached": "clasificatoria"
+      "overall": 33.1,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 318,
@@ -7877,10 +8627,20 @@
           "stage": "clasificatoria",
           "average": 7.883,
           "percentile": 100
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.6,
+          "percentile": 97.9
+        },
+        {
+          "stage": "final",
+          "average": 7.6,
+          "percentile": 97.9
         }
       ],
-      "overall": 100,
-      "lastStageReached": "clasificatoria"
+      "overall": 98.6,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 335,
@@ -7930,10 +8690,20 @@
           "stage": "clasificatoria",
           "average": 7.767,
           "percentile": 99.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.617,
+          "percentile": 98.3
+        },
+        {
+          "stage": "final",
+          "average": 7.617,
+          "percentile": 98.3
         }
       ],
-      "overall": 99.6,
-      "lastStageReached": "clasificatoria"
+      "overall": 98.7,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 424,
@@ -7983,10 +8753,20 @@
           "stage": "clasificatoria",
           "average": 7.717,
           "percentile": 99.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.557,
+          "percentile": 97.3
+        },
+        {
+          "stage": "final",
+          "average": 7.557,
+          "percentile": 97.3
         }
       ],
-      "overall": 99.3,
-      "lastStageReached": "clasificatoria"
+      "overall": 98,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 166,
@@ -8036,10 +8816,20 @@
           "stage": "clasificatoria",
           "average": 7.717,
           "percentile": 99.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.48,
+          "percentile": 92.4
+        },
+        {
+          "stage": "final",
+          "average": 7.48,
+          "percentile": 92.4
         }
       ],
-      "overall": 99.3,
-      "lastStageReached": "clasificatoria"
+      "overall": 94.7,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 1,
@@ -8089,10 +8879,20 @@
           "stage": "clasificatoria",
           "average": 7.717,
           "percentile": 99.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.677,
+          "percentile": 99.7
+        },
+        {
+          "stage": "final",
+          "average": 7.677,
+          "percentile": 99.7
         }
       ],
-      "overall": 99.3,
-      "lastStageReached": "clasificatoria"
+      "overall": 99.6,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 545,
@@ -8142,10 +8942,20 @@
           "stage": "clasificatoria",
           "average": 7.667,
           "percentile": 98.5
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.54,
+          "percentile": 96.6
+        },
+        {
+          "stage": "final",
+          "average": 7.54,
+          "percentile": 96.6
         }
       ],
-      "overall": 98.5,
-      "lastStageReached": "clasificatoria"
+      "overall": 97.2,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 141,
@@ -8195,10 +9005,20 @@
           "stage": "clasificatoria",
           "average": 7.65,
           "percentile": 98.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.5,
+          "percentile": 94.2
+        },
+        {
+          "stage": "final",
+          "average": 7.5,
+          "percentile": 94.2
         }
       ],
-      "overall": 98.3,
-      "lastStageReached": "clasificatoria"
+      "overall": 95.6,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 259,
@@ -8248,10 +9068,20 @@
           "stage": "clasificatoria",
           "average": 7.583,
           "percentile": 97.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.473,
+          "percentile": 91.8
+        },
+        {
+          "stage": "final",
+          "average": 7.473,
+          "percentile": 91.8
         }
       ],
-      "overall": 97.4,
-      "lastStageReached": "clasificatoria"
+      "overall": 93.7,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 254,
@@ -8301,10 +9131,20 @@
           "stage": "clasificatoria",
           "average": 7.567,
           "percentile": 97.1
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.307,
+          "percentile": 73.5
+        },
+        {
+          "stage": "final",
+          "average": 7.307,
+          "percentile": 73.5
         }
       ],
-      "overall": 97.1,
-      "lastStageReached": "clasificatoria"
+      "overall": 81.4,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 236,
@@ -8354,10 +9194,20 @@
           "stage": "clasificatoria",
           "average": 7.517,
           "percentile": 95
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.273,
+          "percentile": 70.8
+        },
+        {
+          "stage": "final",
+          "average": 7.273,
+          "percentile": 70.8
         }
       ],
-      "overall": 95,
-      "lastStageReached": "clasificatoria"
+      "overall": 78.9,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 720,
@@ -8407,10 +9257,20 @@
           "stage": "clasificatoria",
           "average": 7.417,
           "percentile": 91.9
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.32,
+          "percentile": 75.9
+        },
+        {
+          "stage": "final",
+          "average": 7.32,
+          "percentile": 75.9
         }
       ],
-      "overall": 91.9,
-      "lastStageReached": "clasificatoria"
+      "overall": 81.2,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 104,
@@ -8460,10 +9320,20 @@
           "stage": "clasificatoria",
           "average": 7.417,
           "percentile": 91.9
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.65,
+          "percentile": 99.3
+        },
+        {
+          "stage": "final",
+          "average": 7.65,
+          "percentile": 99.3
         }
       ],
-      "overall": 91.9,
-      "lastStageReached": "clasificatoria"
+      "overall": 96.8,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 95,
@@ -8513,10 +9383,20 @@
           "stage": "clasificatoria",
           "average": 7.367,
           "percentile": 88.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.423,
+          "percentile": 89
+        },
+        {
+          "stage": "final",
+          "average": 7.423,
+          "percentile": 89
         }
       ],
-      "overall": 88.8,
-      "lastStageReached": "clasificatoria"
+      "overall": 88.9,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 35,
@@ -8566,10 +9446,20 @@
           "stage": "clasificatoria",
           "average": 7.3,
           "percentile": 85.5
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.243,
+          "percentile": 64.9
+        },
+        {
+          "stage": "final",
+          "average": 7.243,
+          "percentile": 64.9
         }
       ],
-      "overall": 85.5,
-      "lastStageReached": "clasificatoria"
+      "overall": 71.8,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 431,
@@ -8619,10 +9509,20 @@
           "stage": "clasificatoria",
           "average": 7.267,
           "percentile": 82.9
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.333,
+          "percentile": 78.4
+        },
+        {
+          "stage": "final",
+          "average": 7.333,
+          "percentile": 78.4
         }
       ],
-      "overall": 82.9,
-      "lastStageReached": "clasificatoria"
+      "overall": 79.9,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 133,
@@ -8672,10 +9572,20 @@
           "stage": "clasificatoria",
           "average": 7.267,
           "percentile": 82.9
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.383,
+          "percentile": 85.6
+        },
+        {
+          "stage": "final",
+          "average": 7.383,
+          "percentile": 85.6
         }
       ],
-      "overall": 82.9,
-      "lastStageReached": "clasificatoria"
+      "overall": 84.7,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 107,
@@ -8725,10 +9635,20 @@
           "stage": "clasificatoria",
           "average": 7.25,
           "percentile": 81.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.233,
+          "percentile": 63.6
+        },
+        {
+          "stage": "final",
+          "average": 7.233,
+          "percentile": 63.6
         }
       ],
-      "overall": 81.3,
-      "lastStageReached": "clasificatoria"
+      "overall": 69.5,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 161,
@@ -8778,10 +9698,20 @@
           "stage": "clasificatoria",
           "average": 7.233,
           "percentile": 79.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.117,
+          "percentile": 40.9
+        },
+        {
+          "stage": "final",
+          "average": 7.117,
+          "percentile": 40.9
         }
       ],
-      "overall": 79.8,
-      "lastStageReached": "clasificatoria"
+      "overall": 53.9,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 116,
@@ -8831,10 +9761,20 @@
           "stage": "clasificatoria",
           "average": 7.233,
           "percentile": 79.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.273,
+          "percentile": 70.8
+        },
+        {
+          "stage": "final",
+          "average": 7.273,
+          "percentile": 70.8
         }
       ],
-      "overall": 79.8,
-      "lastStageReached": "clasificatoria"
+      "overall": 73.8,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 329,
@@ -8884,10 +9824,20 @@
           "stage": "clasificatoria",
           "average": 7.217,
           "percentile": 78.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.233,
+          "percentile": 63.6
+        },
+        {
+          "stage": "final",
+          "average": 7.233,
+          "percentile": 63.6
         }
       ],
-      "overall": 78.7,
-      "lastStageReached": "clasificatoria"
+      "overall": 68.6,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 564,
@@ -8937,10 +9887,20 @@
           "stage": "clasificatoria",
           "average": 7.217,
           "percentile": 78.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.083,
+          "percentile": 35.1
+        },
+        {
+          "stage": "final",
+          "average": 7.083,
+          "percentile": 35.1
         }
       ],
-      "overall": 78.7,
-      "lastStageReached": "clasificatoria"
+      "overall": 49.6,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 196,
@@ -8990,10 +9950,20 @@
           "stage": "clasificatoria",
           "average": 7.217,
           "percentile": 78.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.143,
+          "percentile": 48.5
+        },
+        {
+          "stage": "final",
+          "average": 7.143,
+          "percentile": 48.5
         }
       ],
-      "overall": 78.7,
-      "lastStageReached": "clasificatoria"
+      "overall": 58.6,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 483,
@@ -9043,10 +10013,20 @@
           "stage": "clasificatoria",
           "average": 7.217,
           "percentile": 78.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.983,
+          "percentile": 18.2
+        },
+        {
+          "stage": "final",
+          "average": 6.983,
+          "percentile": 18.2
         }
       ],
-      "overall": 78.7,
-      "lastStageReached": "clasificatoria"
+      "overall": 38.4,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 149,
@@ -9096,10 +10076,20 @@
           "stage": "clasificatoria",
           "average": 7.2,
           "percentile": 76.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.323,
+          "percentile": 77
+        },
+        {
+          "stage": "final",
+          "average": 7.323,
+          "percentile": 77
         }
       ],
-      "overall": 76.7,
-      "lastStageReached": "clasificatoria"
+      "overall": 76.9,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 429,
@@ -9149,10 +10139,20 @@
           "stage": "clasificatoria",
           "average": 7.2,
           "percentile": 76.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.123,
+          "percentile": 42.6
+        },
+        {
+          "stage": "final",
+          "average": 7.123,
+          "percentile": 42.6
         }
       ],
-      "overall": 76.7,
-      "lastStageReached": "clasificatoria"
+      "overall": 54,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 420,
@@ -9202,10 +10202,20 @@
           "stage": "clasificatoria",
           "average": 7.2,
           "percentile": 76.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.177,
+          "percentile": 54
+        },
+        {
+          "stage": "final",
+          "average": 7.177,
+          "percentile": 54
         }
       ],
-      "overall": 76.7,
-      "lastStageReached": "clasificatoria"
+      "overall": 61.6,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 157,
@@ -9255,10 +10265,20 @@
           "stage": "clasificatoria",
           "average": 7.2,
           "percentile": 76.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.26,
+          "percentile": 67.7
+        },
+        {
+          "stage": "final",
+          "average": 7.26,
+          "percentile": 67.7
         }
       ],
-      "overall": 76.7,
-      "lastStageReached": "clasificatoria"
+      "overall": 70.7,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 103,
@@ -9308,10 +10328,20 @@
           "stage": "clasificatoria",
           "average": 7.167,
           "percentile": 73
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.25,
+          "percentile": 66.7
+        },
+        {
+          "stage": "final",
+          "average": 7.25,
+          "percentile": 66.7
         }
       ],
-      "overall": 73,
-      "lastStageReached": "clasificatoria"
+      "overall": 68.8,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 451,
@@ -9361,10 +10391,20 @@
           "stage": "clasificatoria",
           "average": 7.167,
           "percentile": 73
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.347,
+          "percentile": 80.4
+        },
+        {
+          "stage": "final",
+          "average": 7.347,
+          "percentile": 80.4
         }
       ],
-      "overall": 73,
-      "lastStageReached": "clasificatoria"
+      "overall": 77.9,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 134,
@@ -9414,10 +10454,20 @@
           "stage": "clasificatoria",
           "average": 7.117,
           "percentile": 68.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.987,
+          "percentile": 18.6
+        },
+        {
+          "stage": "final",
+          "average": 6.987,
+          "percentile": 18.6
         }
       ],
-      "overall": 68.6,
-      "lastStageReached": "clasificatoria"
+      "overall": 35.3,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 327,
@@ -9467,10 +10517,20 @@
           "stage": "clasificatoria",
           "average": 7.1,
           "percentile": 65.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.083,
+          "percentile": 35.1
+        },
+        {
+          "stage": "final",
+          "average": 7.083,
+          "percentile": 35.1
         }
       ],
-      "overall": 65.8,
-      "lastStageReached": "clasificatoria"
+      "overall": 45.3,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 237,
@@ -9520,10 +10580,20 @@
           "stage": "clasificatoria",
           "average": 7.1,
           "percentile": 65.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.1,
+          "percentile": 38.1
+        },
+        {
+          "stage": "final",
+          "average": 7.1,
+          "percentile": 38.1
         }
       ],
-      "overall": 65.8,
-      "lastStageReached": "clasificatoria"
+      "overall": 47.3,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 188,
@@ -9573,10 +10643,20 @@
           "stage": "clasificatoria",
           "average": 7.05,
           "percentile": 61.2
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.067,
+          "percentile": 29.2
+        },
+        {
+          "stage": "final",
+          "average": 7.067,
+          "percentile": 29.2
         }
       ],
-      "overall": 61.2,
-      "lastStageReached": "clasificatoria"
+      "overall": 39.9,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 163,
@@ -9626,10 +10706,20 @@
           "stage": "clasificatoria",
           "average": 7.05,
           "percentile": 61.2
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.117,
+          "percentile": 40.9
+        },
+        {
+          "stage": "final",
+          "average": 7.117,
+          "percentile": 40.9
         }
       ],
-      "overall": 61.2,
-      "lastStageReached": "clasificatoria"
+      "overall": 47.7,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 264,
@@ -9679,10 +10769,20 @@
           "stage": "clasificatoria",
           "average": 7.05,
           "percentile": 61.2
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.23,
+          "percentile": 62.9
+        },
+        {
+          "stage": "final",
+          "average": 7.23,
+          "percentile": 62.9
         }
       ],
-      "overall": 61.2,
-      "lastStageReached": "clasificatoria"
+      "overall": 62.3,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 260,
@@ -9732,10 +10832,20 @@
           "stage": "clasificatoria",
           "average": 7.033,
           "percentile": 59
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.163,
+          "percentile": 51.2
+        },
+        {
+          "stage": "final",
+          "average": 7.163,
+          "percentile": 51.2
         }
       ],
-      "overall": 59,
-      "lastStageReached": "clasificatoria"
+      "overall": 53.8,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 659,
@@ -9785,10 +10895,20 @@
           "stage": "clasificatoria",
           "average": 7.017,
           "percentile": 57.9
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.08,
+          "percentile": 33.7
+        },
+        {
+          "stage": "final",
+          "average": 7.08,
+          "percentile": 33.7
         }
       ],
-      "overall": 57.9,
-      "lastStageReached": "clasificatoria"
+      "overall": 41.8,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 541,
@@ -9838,10 +10958,20 @@
           "stage": "clasificatoria",
           "average": 7,
           "percentile": 56.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.367,
+          "percentile": 83.8
+        },
+        {
+          "stage": "final",
+          "average": 7.367,
+          "percentile": 83.8
         }
       ],
-      "overall": 56.8,
-      "lastStageReached": "clasificatoria"
+      "overall": 74.8,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 233,
@@ -9891,10 +11021,20 @@
           "stage": "clasificatoria",
           "average": 6.983,
           "percentile": 55.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.177,
+          "percentile": 54
+        },
+        {
+          "stage": "final",
+          "average": 7.177,
+          "percentile": 54
         }
       ],
-      "overall": 55.7,
-      "lastStageReached": "clasificatoria"
+      "overall": 54.6,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 488,
@@ -9944,10 +11084,20 @@
           "stage": "clasificatoria",
           "average": 6.95,
           "percentile": 53.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7,
+          "percentile": 20.6
+        },
+        {
+          "stage": "final",
+          "average": 7,
+          "percentile": 20.6
         }
       ],
-      "overall": 53.7,
-      "lastStageReached": "clasificatoria"
+      "overall": 31.6,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 228,
@@ -9997,10 +11147,20 @@
           "stage": "clasificatoria",
           "average": 6.95,
           "percentile": 53.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.22,
+          "percentile": 61.2
+        },
+        {
+          "stage": "final",
+          "average": 7.22,
+          "percentile": 61.2
         }
       ],
-      "overall": 53.7,
-      "lastStageReached": "clasificatoria"
+      "overall": 58.7,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 274,
@@ -10050,10 +11210,20 @@
           "stage": "clasificatoria",
           "average": 6.933,
           "percentile": 52.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.167,
+          "percentile": 51.5
+        },
+        {
+          "stage": "final",
+          "average": 7.167,
+          "percentile": 51.5
         }
       ],
-      "overall": 52.4,
-      "lastStageReached": "clasificatoria"
+      "overall": 51.8,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 485,
@@ -10103,10 +11273,20 @@
           "stage": "clasificatoria",
           "average": 6.933,
           "percentile": 52.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.07,
+          "percentile": 31.3
+        },
+        {
+          "stage": "final",
+          "average": 7.07,
+          "percentile": 31.3
         }
       ],
-      "overall": 52.4,
-      "lastStageReached": "clasificatoria"
+      "overall": 38.3,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 344,
@@ -10156,10 +11336,20 @@
           "stage": "clasificatoria",
           "average": 6.933,
           "percentile": 52.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.13,
+          "percentile": 44.3
+        },
+        {
+          "stage": "final",
+          "average": 7.13,
+          "percentile": 44.3
         }
       ],
-      "overall": 52.4,
-      "lastStageReached": "clasificatoria"
+      "overall": 47,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 128,
@@ -10209,10 +11399,20 @@
           "stage": "clasificatoria",
           "average": 6.917,
           "percentile": 49.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7,
+          "percentile": 20.6
+        },
+        {
+          "stage": "final",
+          "average": 7,
+          "percentile": 20.6
         }
       ],
-      "overall": 49.8,
-      "lastStageReached": "clasificatoria"
+      "overall": 30.3,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 125,
@@ -10262,10 +11462,20 @@
           "stage": "clasificatoria",
           "average": 6.917,
           "percentile": 49.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.35,
+          "percentile": 81.4
+        },
+        {
+          "stage": "final",
+          "average": 7.35,
+          "percentile": 81.4
         }
       ],
-      "overall": 49.8,
-      "lastStageReached": "clasificatoria"
+      "overall": 70.9,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 512,
@@ -10315,10 +11525,20 @@
           "stage": "clasificatoria",
           "average": 6.9,
           "percentile": 47.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.717,
+          "percentile": 2.1
+        },
+        {
+          "stage": "final",
+          "average": 6.717,
+          "percentile": 2.1
         }
       ],
-      "overall": 47.6,
-      "lastStageReached": "clasificatoria"
+      "overall": 17.3,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 473,
@@ -10368,10 +11588,20 @@
           "stage": "clasificatoria",
           "average": 6.867,
           "percentile": 45
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.95,
+          "percentile": 13.4
+        },
+        {
+          "stage": "final",
+          "average": 6.95,
+          "percentile": 13.4
         }
       ],
-      "overall": 45,
-      "lastStageReached": "clasificatoria"
+      "overall": 23.9,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 83,
@@ -10421,10 +11651,20 @@
           "stage": "clasificatoria",
           "average": 6.867,
           "percentile": 45
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.967,
+          "percentile": 14.1
+        },
+        {
+          "stage": "final",
+          "average": 6.967,
+          "percentile": 14.1
         }
       ],
-      "overall": 45,
-      "lastStageReached": "clasificatoria"
+      "overall": 24.4,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 313,
@@ -10474,10 +11714,20 @@
           "stage": "clasificatoria",
           "average": 6.85,
           "percentile": 43
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.937,
+          "percentile": 12.4
+        },
+        {
+          "stage": "final",
+          "average": 6.937,
+          "percentile": 12.4
         }
       ],
-      "overall": 43,
-      "lastStageReached": "clasificatoria"
+      "overall": 22.6,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 229,
@@ -10527,10 +11777,20 @@
           "stage": "clasificatoria",
           "average": 6.833,
           "percentile": 41.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.433,
+          "percentile": 90.4
+        },
+        {
+          "stage": "final",
+          "average": 7.433,
+          "percentile": 90.4
         }
       ],
-      "overall": 41.7,
-      "lastStageReached": "clasificatoria"
+      "overall": 74.2,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 565,
@@ -10580,10 +11840,20 @@
           "stage": "clasificatoria",
           "average": 6.817,
           "percentile": 39.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.337,
+          "percentile": 78.7
+        },
+        {
+          "stage": "final",
+          "average": 7.337,
+          "percentile": 78.7
         }
       ],
-      "overall": 39.7,
-      "lastStageReached": "clasificatoria"
+      "overall": 65.7,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 153,
@@ -10633,10 +11903,20 @@
           "stage": "clasificatoria",
           "average": 6.817,
           "percentile": 39.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.223,
+          "percentile": 61.5
+        },
+        {
+          "stage": "final",
+          "average": 7.223,
+          "percentile": 61.5
         }
       ],
-      "overall": 39.7,
-      "lastStageReached": "clasificatoria"
+      "overall": 54.2,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 687,
@@ -10686,10 +11966,20 @@
           "stage": "clasificatoria",
           "average": 6.8,
           "percentile": 38.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.017,
+          "percentile": 23
+        },
+        {
+          "stage": "final",
+          "average": 7.017,
+          "percentile": 23
         }
       ],
-      "overall": 38.6,
-      "lastStageReached": "clasificatoria"
+      "overall": 28.2,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 418,
@@ -10739,10 +12029,20 @@
           "stage": "clasificatoria",
           "average": 6.8,
           "percentile": 38.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.267,
+          "percentile": 70.1
+        },
+        {
+          "stage": "final",
+          "average": 7.267,
+          "percentile": 70.1
         }
       ],
-      "overall": 38.6,
-      "lastStageReached": "clasificatoria"
+      "overall": 59.6,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 115,
@@ -10792,10 +12092,20 @@
           "stage": "clasificatoria",
           "average": 6.8,
           "percentile": 38.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.793,
+          "percentile": 3.4
+        },
+        {
+          "stage": "final",
+          "average": 6.793,
+          "percentile": 3.4
         }
       ],
-      "overall": 38.6,
-      "lastStageReached": "clasificatoria"
+      "overall": 15.1,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 61,
@@ -10845,10 +12155,20 @@
           "stage": "clasificatoria",
           "average": 6.8,
           "percentile": 38.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.08,
+          "percentile": 33.7
+        },
+        {
+          "stage": "final",
+          "average": 7.08,
+          "percentile": 33.7
         }
       ],
-      "overall": 38.6,
-      "lastStageReached": "clasificatoria"
+      "overall": 35.3,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 10,
@@ -10898,10 +12218,20 @@
           "stage": "clasificatoria",
           "average": 6.783,
           "percentile": 36.9
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.15,
+          "percentile": 49.8
+        },
+        {
+          "stage": "final",
+          "average": 7.15,
+          "percentile": 49.8
         }
       ],
-      "overall": 36.9,
-      "lastStageReached": "clasificatoria"
+      "overall": 45.5,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 428,
@@ -10951,10 +12281,20 @@
           "stage": "clasificatoria",
           "average": 6.75,
           "percentile": 35.5
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.023,
+          "percentile": 24.1
+        },
+        {
+          "stage": "final",
+          "average": 7.023,
+          "percentile": 24.1
         }
       ],
-      "overall": 35.5,
-      "lastStageReached": "clasificatoria"
+      "overall": 27.9,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 148,
@@ -11004,10 +12344,20 @@
           "stage": "clasificatoria",
           "average": 6.733,
           "percentile": 34.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.267,
+          "percentile": 70.1
+        },
+        {
+          "stage": "final",
+          "average": 7.267,
+          "percentile": 70.1
         }
       ],
-      "overall": 34.7,
-      "lastStageReached": "clasificatoria"
+      "overall": 58.3,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 484,
@@ -11057,10 +12407,20 @@
           "stage": "clasificatoria",
           "average": 6.733,
           "percentile": 34.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.973,
+          "percentile": 14.8
+        },
+        {
+          "stage": "final",
+          "average": 6.973,
+          "percentile": 14.8
         }
       ],
-      "overall": 34.7,
-      "lastStageReached": "clasificatoria"
+      "overall": 21.4,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 454,
@@ -11110,10 +12470,20 @@
           "stage": "clasificatoria",
           "average": 6.733,
           "percentile": 34.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.933,
+          "percentile": 11.7
+        },
+        {
+          "stage": "final",
+          "average": 6.933,
+          "percentile": 11.7
         }
       ],
-      "overall": 34.7,
-      "lastStageReached": "clasificatoria"
+      "overall": 19.4,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 350,
@@ -11163,10 +12533,20 @@
           "stage": "clasificatoria",
           "average": 6.733,
           "percentile": 34.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.133,
+          "percentile": 46
+        },
+        {
+          "stage": "final",
+          "average": 7.133,
+          "percentile": 46
         }
       ],
-      "overall": 34.7,
-      "lastStageReached": "clasificatoria"
+      "overall": 42.2,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 515,
@@ -11216,10 +12596,20 @@
           "stage": "clasificatoria",
           "average": 6.733,
           "percentile": 34.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.9,
+          "percentile": 7.9
+        },
+        {
+          "stage": "final",
+          "average": 6.9,
+          "percentile": 7.9
         }
       ],
-      "overall": 34.7,
-      "lastStageReached": "clasificatoria"
+      "overall": 16.8,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 210,
@@ -14608,10 +15998,20 @@
           "stage": "clasificatoria",
           "average": 7.55,
           "percentile": 96.9
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.3,
+          "percentile": 72.9
+        },
+        {
+          "stage": "final",
+          "average": 7.3,
+          "percentile": 72.9
         }
       ],
-      "overall": 96.9,
-      "lastStageReached": "clasificatoria"
+      "overall": 80.9,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 347,
@@ -14661,10 +16061,20 @@
           "stage": "clasificatoria",
           "average": 7.527,
           "percentile": 95.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.547,
+          "percentile": 96.9
+        },
+        {
+          "stage": "final",
+          "average": 7.547,
+          "percentile": 96.9
         }
       ],
-      "overall": 95.4,
-      "lastStageReached": "clasificatoria"
+      "overall": 96.4,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 665,
@@ -14714,10 +16124,20 @@
           "stage": "clasificatoria",
           "average": 7.473,
           "percentile": 94.5
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.58,
+          "percentile": 97.6
+        },
+        {
+          "stage": "final",
+          "average": 7.58,
+          "percentile": 97.6
         }
       ],
-      "overall": 94.5,
-      "lastStageReached": "clasificatoria"
+      "overall": 96.6,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 293,
@@ -14767,10 +16187,20 @@
           "stage": "clasificatoria",
           "average": 7.44,
           "percentile": 93
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.24,
+          "percentile": 64.6
+        },
+        {
+          "stage": "final",
+          "average": 7.24,
+          "percentile": 64.6
         }
       ],
-      "overall": 93,
-      "lastStageReached": "clasificatoria"
+      "overall": 74.1,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 678,
@@ -14820,10 +16250,20 @@
           "stage": "clasificatoria",
           "average": 7.423,
           "percentile": 92.1
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.4,
+          "percentile": 87.3
+        },
+        {
+          "stage": "final",
+          "average": 7.4,
+          "percentile": 87.3
         }
       ],
-      "overall": 92.1,
-      "lastStageReached": "clasificatoria"
+      "overall": 88.9,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 151,
@@ -14873,10 +16313,20 @@
           "stage": "clasificatoria",
           "average": 7.417,
           "percentile": 91.9
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.35,
+          "percentile": 81.4
+        },
+        {
+          "stage": "final",
+          "average": 7.35,
+          "percentile": 81.4
         }
       ],
-      "overall": 91.9,
-      "lastStageReached": "clasificatoria"
+      "overall": 84.9,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 29,
@@ -14926,10 +16376,20 @@
           "stage": "clasificatoria",
           "average": 7.383,
           "percentile": 90.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.38,
+          "percentile": 84.9
+        },
+        {
+          "stage": "final",
+          "average": 7.38,
+          "percentile": 84.9
         }
       ],
-      "overall": 90.3,
-      "lastStageReached": "clasificatoria"
+      "overall": 86.7,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 31,
@@ -14979,10 +16439,20 @@
           "stage": "clasificatoria",
           "average": 7.373,
           "percentile": 89.5
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.4,
+          "percentile": 87.3
+        },
+        {
+          "stage": "final",
+          "average": 7.4,
+          "percentile": 87.3
         }
       ],
-      "overall": 89.5,
-      "lastStageReached": "clasificatoria"
+      "overall": 88,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 518,
@@ -15032,10 +16502,20 @@
           "stage": "clasificatoria",
           "average": 7.373,
           "percentile": 89.5
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.513,
+          "percentile": 94.8
+        },
+        {
+          "stage": "final",
+          "average": 7.513,
+          "percentile": 94.8
         }
       ],
-      "overall": 89.5,
-      "lastStageReached": "clasificatoria"
+      "overall": 93,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 301,
@@ -15085,10 +16565,20 @@
           "stage": "clasificatoria",
           "average": 7.35,
           "percentile": 87.9
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.18,
+          "percentile": 54.3
+        },
+        {
+          "stage": "final",
+          "average": 7.18,
+          "percentile": 54.3
         }
       ],
-      "overall": 87.9,
-      "lastStageReached": "clasificatoria"
+      "overall": 65.5,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 337,
@@ -15138,10 +16628,20 @@
           "stage": "clasificatoria",
           "average": 7.34,
           "percentile": 87.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.127,
+          "percentile": 43.6
+        },
+        {
+          "stage": "final",
+          "average": 7.127,
+          "percentile": 43.6
         }
       ],
-      "overall": 87.3,
-      "lastStageReached": "clasificatoria"
+      "overall": 58.2,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 461,
@@ -15191,10 +16691,20 @@
           "stage": "clasificatoria",
           "average": 7.323,
           "percentile": 86.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.12,
+          "percentile": 41.9
+        },
+        {
+          "stage": "final",
+          "average": 7.12,
+          "percentile": 41.9
         }
       ],
-      "overall": 86.4,
-      "lastStageReached": "clasificatoria"
+      "overall": 56.7,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 462,
@@ -15244,10 +16754,20 @@
           "stage": "clasificatoria",
           "average": 7.32,
           "percentile": 86
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.17,
+          "percentile": 52.6
+        },
+        {
+          "stage": "final",
+          "average": 7.17,
+          "percentile": 52.6
         }
       ],
-      "overall": 86,
-      "lastStageReached": "clasificatoria"
+      "overall": 63.7,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 469,
@@ -15297,10 +16817,20 @@
           "stage": "clasificatoria",
           "average": 7.3,
           "percentile": 85.5
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.36,
+          "percentile": 83.2
+        },
+        {
+          "stage": "final",
+          "average": 7.36,
+          "percentile": 83.2
         }
       ],
-      "overall": 85.5,
-      "lastStageReached": "clasificatoria"
+      "overall": 84,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 5,
@@ -15350,10 +16880,20 @@
           "stage": "clasificatoria",
           "average": 7.3,
           "percentile": 85.5
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.427,
+          "percentile": 89.3
+        },
+        {
+          "stage": "final",
+          "average": 7.427,
+          "percentile": 89.3
         }
       ],
-      "overall": 85.5,
-      "lastStageReached": "clasificatoria"
+      "overall": 88,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 300,
@@ -15403,10 +16943,20 @@
           "stage": "clasificatoria",
           "average": 7.297,
           "percentile": 84.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.21,
+          "percentile": 59.5
+        },
+        {
+          "stage": "final",
+          "average": 7.21,
+          "percentile": 59.5
         }
       ],
-      "overall": 84.6,
-      "lastStageReached": "clasificatoria"
+      "overall": 67.9,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 66,
@@ -15456,10 +17006,20 @@
           "stage": "clasificatoria",
           "average": 7.28,
           "percentile": 84
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.383,
+          "percentile": 85.6
+        },
+        {
+          "stage": "final",
+          "average": 7.383,
+          "percentile": 85.6
         }
       ],
-      "overall": 84,
-      "lastStageReached": "clasificatoria"
+      "overall": 85.1,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 423,
@@ -15509,10 +17069,20 @@
           "stage": "clasificatoria",
           "average": 7.277,
           "percentile": 83.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.193,
+          "percentile": 56.4
+        },
+        {
+          "stage": "final",
+          "average": 7.193,
+          "percentile": 56.4
         }
       ],
-      "overall": 83.8,
-      "lastStageReached": "clasificatoria"
+      "overall": 65.5,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 330,
@@ -15562,10 +17132,20 @@
           "stage": "clasificatoria",
           "average": 7.273,
           "percentile": 83.5
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.25,
+          "percentile": 66.7
+        },
+        {
+          "stage": "final",
+          "average": 7.25,
+          "percentile": 66.7
         }
       ],
-      "overall": 83.5,
-      "lastStageReached": "clasificatoria"
+      "overall": 72.3,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 517,
@@ -15615,10 +17195,20 @@
           "stage": "clasificatoria",
           "average": 7.26,
           "percentile": 82.2
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.187,
+          "percentile": 55.7
+        },
+        {
+          "stage": "final",
+          "average": 7.187,
+          "percentile": 55.7
         }
       ],
-      "overall": 82.2,
-      "lastStageReached": "clasificatoria"
+      "overall": 64.5,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 244,
@@ -15668,10 +17258,20 @@
           "stage": "clasificatoria",
           "average": 7.257,
           "percentile": 82
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.51,
+          "percentile": 94.5
+        },
+        {
+          "stage": "final",
+          "average": 7.51,
+          "percentile": 94.5
         }
       ],
-      "overall": 82,
-      "lastStageReached": "clasificatoria"
+      "overall": 90.3,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 348,
@@ -15721,10 +17321,20 @@
           "stage": "clasificatoria",
           "average": 7.253,
           "percentile": 81.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.25,
+          "percentile": 66.7
+        },
+        {
+          "stage": "final",
+          "average": 7.25,
+          "percentile": 66.7
         }
       ],
-      "overall": 81.6,
-      "lastStageReached": "clasificatoria"
+      "overall": 71.7,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 311,
@@ -15774,10 +17384,20 @@
           "stage": "clasificatoria",
           "average": 7.243,
           "percentile": 80.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.263,
+          "percentile": 68.7
+        },
+        {
+          "stage": "final",
+          "average": 7.263,
+          "percentile": 68.7
         }
       ],
-      "overall": 80.3,
-      "lastStageReached": "clasificatoria"
+      "overall": 72.6,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 600,
@@ -15827,10 +17447,20 @@
           "stage": "clasificatoria",
           "average": 7.24,
           "percentile": 80.1
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.267,
+          "percentile": 70.1
+        },
+        {
+          "stage": "final",
+          "average": 7.267,
+          "percentile": 70.1
         }
       ],
-      "overall": 80.1,
-      "lastStageReached": "clasificatoria"
+      "overall": 73.4,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 267,
@@ -15880,10 +17510,20 @@
           "stage": "clasificatoria",
           "average": 7.233,
           "percentile": 79.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.09,
+          "percentile": 36.4
+        },
+        {
+          "stage": "final",
+          "average": 7.09,
+          "percentile": 36.4
         }
       ],
-      "overall": 79.8,
-      "lastStageReached": "clasificatoria"
+      "overall": 50.9,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 187,
@@ -15933,10 +17573,20 @@
           "stage": "clasificatoria",
           "average": 7.23,
           "percentile": 79
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.397,
+          "percentile": 86.3
+        },
+        {
+          "stage": "final",
+          "average": 7.397,
+          "percentile": 86.3
         }
       ],
-      "overall": 79,
-      "lastStageReached": "clasificatoria"
+      "overall": 83.9,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 192,
@@ -15986,10 +17636,20 @@
           "stage": "clasificatoria",
           "average": 7.21,
           "percentile": 77.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.217,
+          "percentile": 60.5
+        },
+        {
+          "stage": "final",
+          "average": 7.217,
+          "percentile": 60.5
         }
       ],
-      "overall": 77.6,
-      "lastStageReached": "clasificatoria"
+      "overall": 66.2,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 162,
@@ -16039,10 +17699,20 @@
           "stage": "clasificatoria",
           "average": 7.2,
           "percentile": 76.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.41,
+          "percentile": 88.3
+        },
+        {
+          "stage": "final",
+          "average": 7.41,
+          "percentile": 88.3
         }
       ],
-      "overall": 76.7,
-      "lastStageReached": "clasificatoria"
+      "overall": 84.4,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 48,
@@ -16092,10 +17762,20 @@
           "stage": "clasificatoria",
           "average": 7.193,
           "percentile": 75.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.047,
+          "percentile": 26.5
+        },
+        {
+          "stage": "final",
+          "average": 7.047,
+          "percentile": 26.5
         }
       ],
-      "overall": 75.4,
-      "lastStageReached": "clasificatoria"
+      "overall": 42.8,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 389,
@@ -16145,10 +17825,20 @@
           "stage": "clasificatoria",
           "average": 7.193,
           "percentile": 75.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.267,
+          "percentile": 70.1
+        },
+        {
+          "stage": "final",
+          "average": 7.267,
+          "percentile": 70.1
         }
       ],
-      "overall": 75.4,
-      "lastStageReached": "clasificatoria"
+      "overall": 71.9,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 276,
@@ -16198,10 +17888,20 @@
           "stage": "clasificatoria",
           "average": 7.187,
           "percentile": 74.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.257,
+          "percentile": 67.4
+        },
+        {
+          "stage": "final",
+          "average": 7.257,
+          "percentile": 67.4
         }
       ],
-      "overall": 74.6,
-      "lastStageReached": "clasificatoria"
+      "overall": 69.8,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 553,
@@ -16251,10 +17951,20 @@
           "stage": "clasificatoria",
           "average": 7.187,
           "percentile": 74.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.103,
+          "percentile": 38.5
+        },
+        {
+          "stage": "final",
+          "average": 7.103,
+          "percentile": 38.5
         }
       ],
-      "overall": 74.6,
-      "lastStageReached": "clasificatoria"
+      "overall": 50.5,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 441,
@@ -16304,10 +18014,20 @@
           "stage": "clasificatoria",
           "average": 7.173,
           "percentile": 73.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.303,
+          "percentile": 73.2
+        },
+        {
+          "stage": "final",
+          "average": 7.303,
+          "percentile": 73.2
         }
       ],
-      "overall": 73.3,
-      "lastStageReached": "clasificatoria"
+      "overall": 73.2,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 247,
@@ -16357,10 +18077,20 @@
           "stage": "clasificatoria",
           "average": 7.173,
           "percentile": 73.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.09,
+          "percentile": 36.4
+        },
+        {
+          "stage": "final",
+          "average": 7.09,
+          "percentile": 36.4
         }
       ],
-      "overall": 73.3,
-      "lastStageReached": "clasificatoria"
+      "overall": 48.7,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 226,
@@ -16410,10 +18140,20 @@
           "stage": "clasificatoria",
           "average": 7.167,
           "percentile": 73
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.147,
+          "percentile": 48.8
+        },
+        {
+          "stage": "final",
+          "average": 7.147,
+          "percentile": 48.8
         }
       ],
-      "overall": 73,
-      "lastStageReached": "clasificatoria"
+      "overall": 56.9,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 23,
@@ -16463,10 +18203,20 @@
           "stage": "clasificatoria",
           "average": 7.15,
           "percentile": 72.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.527,
+          "percentile": 95.5
+        },
+        {
+          "stage": "final",
+          "average": 7.527,
+          "percentile": 95.5
         }
       ],
-      "overall": 72.4,
-      "lastStageReached": "clasificatoria"
+      "overall": 87.8,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 357,
@@ -16569,10 +18319,20 @@
           "stage": "clasificatoria",
           "average": 7.143,
           "percentile": 71.5
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.02,
+          "percentile": 23.7
+        },
+        {
+          "stage": "final",
+          "average": 7.02,
+          "percentile": 23.7
         }
       ],
-      "overall": 71.5,
-      "lastStageReached": "clasificatoria"
+      "overall": 39.6,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 246,
@@ -16622,10 +18382,20 @@
           "stage": "clasificatoria",
           "average": 7.143,
           "percentile": 71.5
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.207,
+          "percentile": 58.1
+        },
+        {
+          "stage": "final",
+          "average": 7.207,
+          "percentile": 58.1
         }
       ],
-      "overall": 71.5,
-      "lastStageReached": "clasificatoria"
+      "overall": 62.6,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 476,
@@ -16675,10 +18445,20 @@
           "stage": "clasificatoria",
           "average": 7.14,
           "percentile": 71.1
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.827,
+          "percentile": 4.5
+        },
+        {
+          "stage": "final",
+          "average": 6.827,
+          "percentile": 4.5
         }
       ],
-      "overall": 71.1,
-      "lastStageReached": "clasificatoria"
+      "overall": 26.7,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 500,
@@ -16728,10 +18508,20 @@
           "stage": "clasificatoria",
           "average": 7.137,
           "percentile": 71
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.59,
+          "percentile": 0.3
+        },
+        {
+          "stage": "final",
+          "average": 6.59,
+          "percentile": 0.3
         }
       ],
-      "overall": 71,
-      "lastStageReached": "clasificatoria"
+      "overall": 23.9,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 156,
@@ -16781,10 +18571,20 @@
           "stage": "clasificatoria",
           "average": 7.137,
           "percentile": 71
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.083,
+          "percentile": 35.1
+        },
+        {
+          "stage": "final",
+          "average": 7.083,
+          "percentile": 35.1
         }
       ],
-      "overall": 71,
-      "lastStageReached": "clasificatoria"
+      "overall": 47.1,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 580,
@@ -16834,10 +18634,20 @@
           "stage": "clasificatoria",
           "average": 7.13,
           "percentile": 70
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.34,
+          "percentile": 80.1
+        },
+        {
+          "stage": "final",
+          "average": 7.34,
+          "percentile": 80.1
         }
       ],
-      "overall": 70,
-      "lastStageReached": "clasificatoria"
+      "overall": 76.7,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 725,
@@ -16887,10 +18697,20 @@
           "stage": "clasificatoria",
           "average": 7.127,
           "percentile": 69.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.993,
+          "percentile": 19.2
+        },
+        {
+          "stage": "final",
+          "average": 6.993,
+          "percentile": 19.2
         }
       ],
-      "overall": 69.7,
-      "lastStageReached": "clasificatoria"
+      "overall": 36,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 36,
@@ -16940,10 +18760,20 @@
           "stage": "clasificatoria",
           "average": 7.127,
           "percentile": 69.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.077,
+          "percentile": 32.6
+        },
+        {
+          "stage": "final",
+          "average": 7.077,
+          "percentile": 32.6
         }
       ],
-      "overall": 69.7,
-      "lastStageReached": "clasificatoria"
+      "overall": 45,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 373,
@@ -16993,10 +18823,20 @@
           "stage": "clasificatoria",
           "average": 7.123,
           "percentile": 69.1
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.12,
+          "percentile": 41.9
+        },
+        {
+          "stage": "final",
+          "average": 7.12,
+          "percentile": 41.9
         }
       ],
-      "overall": 69.1,
-      "lastStageReached": "clasificatoria"
+      "overall": 51,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 155,
@@ -17046,10 +18886,20 @@
           "stage": "clasificatoria",
           "average": 7.12,
           "percentile": 68.9
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.14,
+          "percentile": 47.1
+        },
+        {
+          "stage": "final",
+          "average": 7.14,
+          "percentile": 47.1
         }
       ],
-      "overall": 68.9,
-      "lastStageReached": "clasificatoria"
+      "overall": 54.4,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 585,
@@ -17099,10 +18949,20 @@
           "stage": "clasificatoria",
           "average": 7.117,
           "percentile": 68.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.317,
+          "percentile": 75.3
+        },
+        {
+          "stage": "final",
+          "average": 7.317,
+          "percentile": 75.3
         }
       ],
-      "overall": 68.6,
-      "lastStageReached": "clasificatoria"
+      "overall": 73.1,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 412,
@@ -17152,10 +19012,20 @@
           "stage": "clasificatoria",
           "average": 7.117,
           "percentile": 68.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.117,
+          "percentile": 40.9
+        },
+        {
+          "stage": "final",
+          "average": 7.117,
+          "percentile": 40.9
         }
       ],
-      "overall": 68.6,
-      "lastStageReached": "clasificatoria"
+      "overall": 50.1,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 363,
@@ -17205,10 +19075,20 @@
           "stage": "clasificatoria",
           "average": 7.113,
           "percentile": 67.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.833,
+          "percentile": 4.8
+        },
+        {
+          "stage": "final",
+          "average": 6.833,
+          "percentile": 4.8
         }
       ],
-      "overall": 67.3,
-      "lastStageReached": "clasificatoria"
+      "overall": 25.6,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 568,
@@ -17258,10 +19138,20 @@
           "stage": "clasificatoria",
           "average": 7.11,
           "percentile": 66.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.13,
+          "percentile": 44.3
+        },
+        {
+          "stage": "final",
+          "average": 7.13,
+          "percentile": 44.3
         }
       ],
-      "overall": 66.7,
-      "lastStageReached": "clasificatoria"
+      "overall": 51.8,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 138,
@@ -17311,10 +19201,20 @@
           "stage": "clasificatoria",
           "average": 7.11,
           "percentile": 66.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.117,
+          "percentile": 40.9
+        },
+        {
+          "stage": "final",
+          "average": 7.117,
+          "percentile": 40.9
         }
       ],
-      "overall": 66.7,
-      "lastStageReached": "clasificatoria"
+      "overall": 49.5,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 40,
@@ -17364,10 +19264,20 @@
           "stage": "clasificatoria",
           "average": 7.103,
           "percentile": 66.2
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.043,
+          "percentile": 25.4
+        },
+        {
+          "stage": "final",
+          "average": 7.043,
+          "percentile": 25.4
         }
       ],
-      "overall": 66.2,
-      "lastStageReached": "clasificatoria"
+      "overall": 39,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 529,
@@ -17417,10 +19327,20 @@
           "stage": "clasificatoria",
           "average": 7.103,
           "percentile": 66.2
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.34,
+          "percentile": 80.1
+        },
+        {
+          "stage": "final",
+          "average": 7.34,
+          "percentile": 80.1
         }
       ],
-      "overall": 66.2,
-      "lastStageReached": "clasificatoria"
+      "overall": 75.5,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 25,
@@ -17470,10 +19390,20 @@
           "stage": "clasificatoria",
           "average": 7.097,
           "percentile": 65.1
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.16,
+          "percentile": 50.5
+        },
+        {
+          "stage": "final",
+          "average": 7.16,
+          "percentile": 50.5
         }
       ],
-      "overall": 65.1,
-      "lastStageReached": "clasificatoria"
+      "overall": 55.4,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 392,
@@ -17523,10 +19453,20 @@
           "stage": "clasificatoria",
           "average": 7.093,
           "percentile": 64.9
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.96,
+          "percentile": 13.7
+        },
+        {
+          "stage": "final",
+          "average": 6.96,
+          "percentile": 13.7
         }
       ],
-      "overall": 64.9,
-      "lastStageReached": "clasificatoria"
+      "overall": 30.8,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 407,
@@ -17576,10 +19516,20 @@
           "stage": "clasificatoria",
           "average": 7.087,
           "percentile": 64.5
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.98,
+          "percentile": 16.5
+        },
+        {
+          "stage": "final",
+          "average": 6.98,
+          "percentile": 16.5
         }
       ],
-      "overall": 64.5,
-      "lastStageReached": "clasificatoria"
+      "overall": 32.5,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 399,
@@ -17629,10 +19579,20 @@
           "stage": "clasificatoria",
           "average": 7.087,
           "percentile": 64.5
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.98,
+          "percentile": 16.5
+        },
+        {
+          "stage": "final",
+          "average": 6.98,
+          "percentile": 16.5
         }
       ],
-      "overall": 64.5,
-      "lastStageReached": "clasificatoria"
+      "overall": 32.5,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 60,
@@ -17682,10 +19642,20 @@
           "stage": "clasificatoria",
           "average": 7.077,
           "percentile": 63.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.123,
+          "percentile": 42.6
+        },
+        {
+          "stage": "final",
+          "average": 7.123,
+          "percentile": 42.6
         }
       ],
-      "overall": 63.4,
-      "lastStageReached": "clasificatoria"
+      "overall": 49.5,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 351,
@@ -17735,10 +19705,20 @@
           "stage": "clasificatoria",
           "average": 7.073,
           "percentile": 63.1
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.98,
+          "percentile": 16.5
+        },
+        {
+          "stage": "final",
+          "average": 6.98,
+          "percentile": 16.5
         }
       ],
-      "overall": 63.1,
-      "lastStageReached": "clasificatoria"
+      "overall": 32,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 4,
@@ -17788,10 +19768,20 @@
           "stage": "clasificatoria",
           "average": 7.067,
           "percentile": 62.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.9,
+          "percentile": 7.9
+        },
+        {
+          "stage": "final",
+          "average": 6.9,
+          "percentile": 7.9
         }
       ],
-      "overall": 62.3,
-      "lastStageReached": "clasificatoria"
+      "overall": 26,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 400,
@@ -17841,10 +19831,20 @@
           "stage": "clasificatoria",
           "average": 7.063,
           "percentile": 61.9
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.21,
+          "percentile": 59.5
+        },
+        {
+          "stage": "final",
+          "average": 7.21,
+          "percentile": 59.5
         }
       ],
-      "overall": 61.9,
-      "lastStageReached": "clasificatoria"
+      "overall": 60.3,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 234,
@@ -17894,10 +19894,20 @@
           "stage": "clasificatoria",
           "average": 7.06,
           "percentile": 61.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.95,
+          "percentile": 13.4
+        },
+        {
+          "stage": "final",
+          "average": 6.95,
+          "percentile": 13.4
         }
       ],
-      "overall": 61.6,
-      "lastStageReached": "clasificatoria"
+      "overall": 29.5,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 402,
@@ -17947,10 +19957,20 @@
           "stage": "clasificatoria",
           "average": 7.057,
           "percentile": 61.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.92,
+          "percentile": 9.3
+        },
+        {
+          "stage": "final",
+          "average": 6.92,
+          "percentile": 9.3
         }
       ],
-      "overall": 61.4,
-      "lastStageReached": "clasificatoria"
+      "overall": 26.7,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 124,
@@ -18000,10 +20020,20 @@
           "stage": "clasificatoria",
           "average": 7.05,
           "percentile": 61.2
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.2,
+          "percentile": 56.7
+        },
+        {
+          "stage": "final",
+          "average": 7.2,
+          "percentile": 56.7
         }
       ],
-      "overall": 61.2,
-      "lastStageReached": "clasificatoria"
+      "overall": 58.2,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 9,
@@ -18053,10 +20083,20 @@
           "stage": "clasificatoria",
           "average": 7.04,
           "percentile": 59.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.093,
+          "percentile": 36.8
+        },
+        {
+          "stage": "final",
+          "average": 7.093,
+          "percentile": 36.8
         }
       ],
-      "overall": 59.7,
-      "lastStageReached": "clasificatoria"
+      "overall": 44.4,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 587,
@@ -18106,10 +20146,20 @@
           "stage": "clasificatoria",
           "average": 7.027,
           "percentile": 58.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.93,
+          "percentile": 10.3
+        },
+        {
+          "stage": "final",
+          "average": 6.93,
+          "percentile": 10.3
         }
       ],
-      "overall": 58.3,
-      "lastStageReached": "clasificatoria"
+      "overall": 26.3,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 113,
@@ -18159,10 +20209,20 @@
           "stage": "clasificatoria",
           "average": 7.017,
           "percentile": 57.9
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.047,
+          "percentile": 26.5
+        },
+        {
+          "stage": "final",
+          "average": 7.047,
+          "percentile": 26.5
         }
       ],
-      "overall": 57.9,
-      "lastStageReached": "clasificatoria"
+      "overall": 37,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 534,
@@ -18212,10 +20272,20 @@
           "stage": "clasificatoria",
           "average": 7.007,
           "percentile": 57.2
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.213,
+          "percentile": 60.1
+        },
+        {
+          "stage": "final",
+          "average": 7.213,
+          "percentile": 60.1
         }
       ],
-      "overall": 57.2,
-      "lastStageReached": "clasificatoria"
+      "overall": 59.1,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 290,
@@ -18265,10 +20335,20 @@
           "stage": "clasificatoria",
           "average": 6.997,
           "percentile": 56.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.06,
+          "percentile": 27.8
+        },
+        {
+          "stage": "final",
+          "average": 7.06,
+          "percentile": 27.8
         }
       ],
-      "overall": 56.4,
-      "lastStageReached": "clasificatoria"
+      "overall": 37.3,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 479,
@@ -18318,10 +20398,20 @@
           "stage": "clasificatoria",
           "average": 6.977,
           "percentile": 55.1
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.773,
+          "percentile": 3.1
+        },
+        {
+          "stage": "final",
+          "average": 6.773,
+          "percentile": 3.1
         }
       ],
-      "overall": 55.1,
-      "lastStageReached": "clasificatoria"
+      "overall": 20.4,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 328,
@@ -18371,10 +20461,20 @@
           "stage": "clasificatoria",
           "average": 6.97,
           "percentile": 54.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.927,
+          "percentile": 10
+        },
+        {
+          "stage": "final",
+          "average": 6.927,
+          "percentile": 10
         }
       ],
-      "overall": 54.8,
-      "lastStageReached": "clasificatoria"
+      "overall": 24.9,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 666,
@@ -18424,10 +20524,20 @@
           "stage": "clasificatoria",
           "average": 6.96,
           "percentile": 54.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.933,
+          "percentile": 11.7
+        },
+        {
+          "stage": "final",
+          "average": 6.933,
+          "percentile": 11.7
         }
       ],
-      "overall": 54.6,
-      "lastStageReached": "clasificatoria"
+      "overall": 26,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 174,
@@ -18477,10 +20587,20 @@
           "stage": "clasificatoria",
           "average": 6.96,
           "percentile": 54.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.86,
+          "percentile": 5.5
+        },
+        {
+          "stage": "final",
+          "average": 6.86,
+          "percentile": 5.5
         }
       ],
-      "overall": 54.6,
-      "lastStageReached": "clasificatoria"
+      "overall": 21.9,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 498,
@@ -18530,10 +20650,20 @@
           "stage": "clasificatoria",
           "average": 6.96,
           "percentile": 54.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.29,
+          "percentile": 71.8
+        },
+        {
+          "stage": "final",
+          "average": 7.29,
+          "percentile": 71.8
         }
       ],
-      "overall": 54.6,
-      "lastStageReached": "clasificatoria"
+      "overall": 66.1,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 655,
@@ -22399,10 +24529,20 @@
           "stage": "clasificatoria",
           "average": 7.78,
           "percentile": 99.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.523,
+          "percentile": 95.2
+        },
+        {
+          "stage": "final",
+          "average": 7.523,
+          "percentile": 95.2
         }
       ],
-      "overall": 99.8,
-      "lastStageReached": "clasificatoria"
+      "overall": 96.7,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 91,
@@ -22452,10 +24592,20 @@
           "stage": "clasificatoria",
           "average": 7.697,
           "percentile": 98.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.723,
+          "percentile": 100
+        },
+        {
+          "stage": "final",
+          "average": 7.723,
+          "percentile": 100
         }
       ],
-      "overall": 98.7,
-      "lastStageReached": "clasificatoria"
+      "overall": 99.6,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 440,
@@ -22505,10 +24655,20 @@
           "stage": "clasificatoria",
           "average": 7.6,
           "percentile": 97.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.457,
+          "percentile": 91.1
+        },
+        {
+          "stage": "final",
+          "average": 7.457,
+          "percentile": 91.1
         }
       ],
-      "overall": 97.8,
-      "lastStageReached": "clasificatoria"
+      "overall": 93.3,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 447,
@@ -22558,10 +24718,20 @@
           "stage": "clasificatoria",
           "average": 7.583,
           "percentile": 97.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.393,
+          "percentile": 85.9
+        },
+        {
+          "stage": "final",
+          "average": 7.393,
+          "percentile": 85.9
         }
       ],
-      "overall": 97.4,
-      "lastStageReached": "clasificatoria"
+      "overall": 89.7,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 263,
@@ -22611,10 +24781,20 @@
           "stage": "clasificatoria",
           "average": 7.55,
           "percentile": 96.9
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.333,
+          "percentile": 78.4
+        },
+        {
+          "stage": "final",
+          "average": 7.333,
+          "percentile": 78.4
         }
       ],
-      "overall": 96.9,
-      "lastStageReached": "clasificatoria"
+      "overall": 84.6,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 159,
@@ -22664,10 +24844,20 @@
           "stage": "clasificatoria",
           "average": 7.543,
           "percentile": 96.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.633,
+          "percentile": 99
+        },
+        {
+          "stage": "final",
+          "average": 7.633,
+          "percentile": 99
         }
       ],
-      "overall": 96.3,
-      "lastStageReached": "clasificatoria"
+      "overall": 98.1,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 390,
@@ -22717,10 +24907,20 @@
           "stage": "clasificatoria",
           "average": 7.54,
           "percentile": 96.1
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.237,
+          "percentile": 63.9
+        },
+        {
+          "stage": "final",
+          "average": 7.237,
+          "percentile": 63.9
         }
       ],
-      "overall": 96.1,
-      "lastStageReached": "clasificatoria"
+      "overall": 74.6,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 572,
@@ -22770,10 +24970,20 @@
           "stage": "clasificatoria",
           "average": 7.533,
           "percentile": 96
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.21,
+          "percentile": 59.5
+        },
+        {
+          "stage": "final",
+          "average": 7.21,
+          "percentile": 59.5
         }
       ],
-      "overall": 96,
-      "lastStageReached": "clasificatoria"
+      "overall": 71.7,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 273,
@@ -22823,10 +25033,20 @@
           "stage": "clasificatoria",
           "average": 7.533,
           "percentile": 96
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.633,
+          "percentile": 99
+        },
+        {
+          "stage": "final",
+          "average": 7.633,
+          "percentile": 99
         }
       ],
-      "overall": 96,
-      "lastStageReached": "clasificatoria"
+      "overall": 98,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 145,
@@ -22876,10 +25096,20 @@
           "stage": "clasificatoria",
           "average": 7.533,
           "percentile": 96
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.433,
+          "percentile": 90.4
+        },
+        {
+          "stage": "final",
+          "average": 7.433,
+          "percentile": 90.4
         }
       ],
-      "overall": 96,
-      "lastStageReached": "clasificatoria"
+      "overall": 92.3,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 322,
@@ -22929,10 +25159,20 @@
           "stage": "clasificatoria",
           "average": 7.52,
           "percentile": 95.2
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.073,
+          "percentile": 32.3
+        },
+        {
+          "stage": "final",
+          "average": 7.073,
+          "percentile": 32.3
         }
       ],
-      "overall": 95.2,
-      "lastStageReached": "clasificatoria"
+      "overall": 53.3,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 277,
@@ -22982,10 +25222,20 @@
           "stage": "clasificatoria",
           "average": 7.473,
           "percentile": 94.5
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.263,
+          "percentile": 68.7
+        },
+        {
+          "stage": "final",
+          "average": 7.263,
+          "percentile": 68.7
         }
       ],
-      "overall": 94.5,
-      "lastStageReached": "clasificatoria"
+      "overall": 77.3,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 393,
@@ -23035,10 +25285,20 @@
           "stage": "clasificatoria",
           "average": 7.453,
           "percentile": 93.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.333,
+          "percentile": 78.4
+        },
+        {
+          "stage": "final",
+          "average": 7.333,
+          "percentile": 78.4
         }
       ],
-      "overall": 93.8,
-      "lastStageReached": "clasificatoria"
+      "overall": 83.5,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 26,
@@ -23088,10 +25348,20 @@
           "stage": "clasificatoria",
           "average": 7.45,
           "percentile": 93.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.483,
+          "percentile": 92.8
+        },
+        {
+          "stage": "final",
+          "average": 7.483,
+          "percentile": 92.8
         }
       ],
-      "overall": 93.4,
-      "lastStageReached": "clasificatoria"
+      "overall": 93,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 250,
@@ -23141,10 +25411,20 @@
           "stage": "clasificatoria",
           "average": 7.45,
           "percentile": 93.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.36,
+          "percentile": 83.2
+        },
+        {
+          "stage": "final",
+          "average": 7.36,
+          "percentile": 83.2
         }
       ],
-      "overall": 93.4,
-      "lastStageReached": "clasificatoria"
+      "overall": 86.6,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 176,
@@ -23194,10 +25474,20 @@
           "stage": "clasificatoria",
           "average": 7.433,
           "percentile": 92.5
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.23,
+          "percentile": 62.9
+        },
+        {
+          "stage": "final",
+          "average": 7.23,
+          "percentile": 62.9
         }
       ],
-      "overall": 92.5,
-      "lastStageReached": "clasificatoria"
+      "overall": 72.8,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 405,
@@ -23247,10 +25537,20 @@
           "stage": "clasificatoria",
           "average": 7.427,
           "percentile": 92.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.317,
+          "percentile": 75.3
+        },
+        {
+          "stage": "final",
+          "average": 7.317,
+          "percentile": 75.3
         }
       ],
-      "overall": 92.3,
-      "lastStageReached": "clasificatoria"
+      "overall": 81,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 533,
@@ -23300,10 +25600,20 @@
           "stage": "clasificatoria",
           "average": 7.417,
           "percentile": 91.9
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.327,
+          "percentile": 77.3
+        },
+        {
+          "stage": "final",
+          "average": 7.327,
+          "percentile": 77.3
         }
       ],
-      "overall": 91.9,
-      "lastStageReached": "clasificatoria"
+      "overall": 82.2,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 573,
@@ -23353,10 +25663,20 @@
           "stage": "clasificatoria",
           "average": 7.4,
           "percentile": 90.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.46,
+          "percentile": 91.4
+        },
+        {
+          "stage": "final",
+          "average": 7.46,
+          "percentile": 91.4
         }
       ],
-      "overall": 90.8,
-      "lastStageReached": "clasificatoria"
+      "overall": 91.2,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 54,
@@ -23406,10 +25726,20 @@
           "stage": "clasificatoria",
           "average": 7.393,
           "percentile": 90.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.34,
+          "percentile": 80.1
+        },
+        {
+          "stage": "final",
+          "average": 7.34,
+          "percentile": 80.1
         }
       ],
-      "overall": 90.6,
-      "lastStageReached": "clasificatoria"
+      "overall": 83.6,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 211,
@@ -23459,10 +25789,20 @@
           "stage": "clasificatoria",
           "average": 7.367,
           "percentile": 88.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.38,
+          "percentile": 84.9
+        },
+        {
+          "stage": "final",
+          "average": 7.38,
+          "percentile": 84.9
         }
       ],
-      "overall": 88.8,
-      "lastStageReached": "clasificatoria"
+      "overall": 86.2,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 177,
@@ -23512,10 +25852,20 @@
           "stage": "clasificatoria",
           "average": 7.367,
           "percentile": 88.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.263,
+          "percentile": 68.7
+        },
+        {
+          "stage": "final",
+          "average": 7.263,
+          "percentile": 68.7
         }
       ],
-      "overall": 88.8,
-      "lastStageReached": "clasificatoria"
+      "overall": 75.4,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 452,
@@ -23565,10 +25915,20 @@
           "stage": "clasificatoria",
           "average": 7.367,
           "percentile": 88.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.36,
+          "percentile": 83.2
+        },
+        {
+          "stage": "final",
+          "average": 7.36,
+          "percentile": 83.2
         }
       ],
-      "overall": 88.8,
-      "lastStageReached": "clasificatoria"
+      "overall": 85.1,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 278,
@@ -23618,10 +25978,20 @@
           "stage": "clasificatoria",
           "average": 7.333,
           "percentile": 86.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.133,
+          "percentile": 46
+        },
+        {
+          "stage": "final",
+          "average": 7.133,
+          "percentile": 46
         }
       ],
-      "overall": 86.8,
-      "lastStageReached": "clasificatoria"
+      "overall": 59.6,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 332,
@@ -23671,10 +26041,20 @@
           "stage": "clasificatoria",
           "average": 7.317,
           "percentile": 85.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.143,
+          "percentile": 48.5
+        },
+        {
+          "stage": "final",
+          "average": 7.143,
+          "percentile": 48.5
         }
       ],
-      "overall": 85.8,
-      "lastStageReached": "clasificatoria"
+      "overall": 60.9,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 70,
@@ -23724,10 +26104,20 @@
           "stage": "clasificatoria",
           "average": 7.3,
           "percentile": 85.5
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.293,
+          "percentile": 72.2
+        },
+        {
+          "stage": "final",
+          "average": 7.293,
+          "percentile": 72.2
         }
       ],
-      "overall": 85.5,
-      "lastStageReached": "clasificatoria"
+      "overall": 76.6,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 69,
@@ -23777,10 +26167,20 @@
           "stage": "clasificatoria",
           "average": 7.29,
           "percentile": 84.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.403,
+          "percentile": 87.6
+        },
+        {
+          "stage": "final",
+          "average": 7.403,
+          "percentile": 87.6
         }
       ],
-      "overall": 84.4,
-      "lastStageReached": "clasificatoria"
+      "overall": 86.5,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 217,
@@ -23830,10 +26230,20 @@
           "stage": "clasificatoria",
           "average": 7.283,
           "percentile": 84.2
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.057,
+          "percentile": 27.5
+        },
+        {
+          "stage": "final",
+          "average": 7.057,
+          "percentile": 27.5
         }
       ],
-      "overall": 84.2,
-      "lastStageReached": "clasificatoria"
+      "overall": 46.4,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 567,
@@ -23883,10 +26293,20 @@
           "stage": "clasificatoria",
           "average": 7.27,
           "percentile": 83.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.07,
+          "percentile": 31.3
+        },
+        {
+          "stage": "final",
+          "average": 7.07,
+          "percentile": 31.3
         }
       ],
-      "overall": 83.3,
-      "lastStageReached": "clasificatoria"
+      "overall": 48.6,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 204,
@@ -23936,10 +26356,20 @@
           "stage": "clasificatoria",
           "average": 7.263,
           "percentile": 82.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.32,
+          "percentile": 75.9
+        },
+        {
+          "stage": "final",
+          "average": 7.32,
+          "percentile": 75.9
         }
       ],
-      "overall": 82.4,
-      "lastStageReached": "clasificatoria"
+      "overall": 78.1,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 51,
@@ -23989,10 +26419,20 @@
           "stage": "clasificatoria",
           "average": 7.257,
           "percentile": 82
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.227,
+          "percentile": 61.9
+        },
+        {
+          "stage": "final",
+          "average": 7.227,
+          "percentile": 61.9
         }
       ],
-      "overall": 82,
-      "lastStageReached": "clasificatoria"
+      "overall": 68.6,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 660,
@@ -24042,10 +26482,20 @@
           "stage": "clasificatoria",
           "average": 7.25,
           "percentile": 81.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.15,
+          "percentile": 49.8
+        },
+        {
+          "stage": "final",
+          "average": 7.15,
+          "percentile": 49.8
         }
       ],
-      "overall": 81.3,
-      "lastStageReached": "clasificatoria"
+      "overall": 60.3,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 406,
@@ -24095,10 +26545,20 @@
           "stage": "clasificatoria",
           "average": 7.217,
           "percentile": 78.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.14,
+          "percentile": 47.1
+        },
+        {
+          "stage": "final",
+          "average": 7.14,
+          "percentile": 47.1
         }
       ],
-      "overall": 78.7,
-      "lastStageReached": "clasificatoria"
+      "overall": 57.6,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 379,
@@ -24148,10 +26608,20 @@
           "stage": "clasificatoria",
           "average": 7.2,
           "percentile": 76.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.183,
+          "percentile": 55.3
+        },
+        {
+          "stage": "final",
+          "average": 7.183,
+          "percentile": 55.3
         }
       ],
-      "overall": 76.7,
-      "lastStageReached": "clasificatoria"
+      "overall": 62.4,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 388,
@@ -24201,10 +26671,20 @@
           "stage": "clasificatoria",
           "average": 7.183,
           "percentile": 74.1
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.01,
+          "percentile": 21.3
+        },
+        {
+          "stage": "final",
+          "average": 7.01,
+          "percentile": 21.3
         }
       ],
-      "overall": 74.1,
-      "lastStageReached": "clasificatoria"
+      "overall": 38.9,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 242,
@@ -24254,10 +26734,20 @@
           "stage": "clasificatoria",
           "average": 7.183,
           "percentile": 74.1
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.12,
+          "percentile": 41.9
+        },
+        {
+          "stage": "final",
+          "average": 7.12,
+          "percentile": 41.9
         }
       ],
-      "overall": 74.1,
-      "lastStageReached": "clasificatoria"
+      "overall": 52.6,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 443,
@@ -24307,10 +26797,20 @@
           "stage": "clasificatoria",
           "average": 7.15,
           "percentile": 72.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.177,
+          "percentile": 54
+        },
+        {
+          "stage": "final",
+          "average": 7.177,
+          "percentile": 54
         }
       ],
-      "overall": 72.4,
-      "lastStageReached": "clasificatoria"
+      "overall": 60.1,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 657,
@@ -24360,10 +26860,20 @@
           "stage": "clasificatoria",
           "average": 7.15,
           "percentile": 72.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.22,
+          "percentile": 61.2
+        },
+        {
+          "stage": "final",
+          "average": 7.22,
+          "percentile": 61.2
         }
       ],
-      "overall": 72.4,
-      "lastStageReached": "clasificatoria"
+      "overall": 64.9,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 129,
@@ -24413,10 +26923,20 @@
           "stage": "clasificatoria",
           "average": 7.133,
           "percentile": 70.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.07,
+          "percentile": 31.3
+        },
+        {
+          "stage": "final",
+          "average": 7.07,
+          "percentile": 31.3
         }
       ],
-      "overall": 70.4,
-      "lastStageReached": "clasificatoria"
+      "overall": 44.3,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 372,
@@ -24466,10 +26986,20 @@
           "stage": "clasificatoria",
           "average": 7.117,
           "percentile": 68.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.163,
+          "percentile": 51.2
+        },
+        {
+          "stage": "final",
+          "average": 7.163,
+          "percentile": 51.2
         }
       ],
-      "overall": 68.6,
-      "lastStageReached": "clasificatoria"
+      "overall": 57,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 422,
@@ -24519,10 +27049,20 @@
           "stage": "clasificatoria",
           "average": 7.117,
           "percentile": 68.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.31,
+          "percentile": 74.2
+        },
+        {
+          "stage": "final",
+          "average": 7.31,
+          "percentile": 74.2
         }
       ],
-      "overall": 68.6,
-      "lastStageReached": "clasificatoria"
+      "overall": 72.3,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 489,
@@ -24572,10 +27112,20 @@
           "stage": "clasificatoria",
           "average": 7.117,
           "percentile": 68.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.247,
+          "percentile": 65.3
+        },
+        {
+          "stage": "final",
+          "average": 7.247,
+          "percentile": 65.3
         }
       ],
-      "overall": 68.6,
-      "lastStageReached": "clasificatoria"
+      "overall": 66.4,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 142,
@@ -24625,10 +27175,20 @@
           "stage": "clasificatoria",
           "average": 7.1,
           "percentile": 65.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.17,
+          "percentile": 52.6
+        },
+        {
+          "stage": "final",
+          "average": 7.17,
+          "percentile": 52.6
         }
       ],
-      "overall": 65.8,
-      "lastStageReached": "clasificatoria"
+      "overall": 57,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 538,
@@ -24678,10 +27238,20 @@
           "stage": "clasificatoria",
           "average": 7.093,
           "percentile": 64.9
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.99,
+          "percentile": 18.9
+        },
+        {
+          "stage": "final",
+          "average": 6.99,
+          "percentile": 18.9
         }
       ],
-      "overall": 64.9,
-      "lastStageReached": "clasificatoria"
+      "overall": 34.2,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 185,
@@ -24731,10 +27301,20 @@
           "stage": "clasificatoria",
           "average": 7.087,
           "percentile": 64.5
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.127,
+          "percentile": 43.6
+        },
+        {
+          "stage": "final",
+          "average": 7.127,
+          "percentile": 43.6
         }
       ],
-      "overall": 64.5,
-      "lastStageReached": "clasificatoria"
+      "overall": 50.6,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 634,
@@ -24784,10 +27364,20 @@
           "stage": "clasificatoria",
           "average": 7.083,
           "percentile": 63.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.073,
+          "percentile": 32.3
+        },
+        {
+          "stage": "final",
+          "average": 7.073,
+          "percentile": 32.3
         }
       ],
-      "overall": 63.6,
-      "lastStageReached": "clasificatoria"
+      "overall": 42.7,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 421,
@@ -24837,10 +27427,20 @@
           "stage": "clasificatoria",
           "average": 7.077,
           "percentile": 63.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.733,
+          "percentile": 2.4
+        },
+        {
+          "stage": "final",
+          "average": 6.733,
+          "percentile": 2.4
         }
       ],
-      "overall": 63.4,
-      "lastStageReached": "clasificatoria"
+      "overall": 22.7,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 693,
@@ -24890,10 +27490,20 @@
           "stage": "clasificatoria",
           "average": 7.067,
           "percentile": 62.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.213,
+          "percentile": 60.1
+        },
+        {
+          "stage": "final",
+          "average": 7.213,
+          "percentile": 60.1
         }
       ],
-      "overall": 62.3,
-      "lastStageReached": "clasificatoria"
+      "overall": 60.8,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 68,
@@ -24943,10 +27553,20 @@
           "stage": "clasificatoria",
           "average": 7.05,
           "percentile": 61.2
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.9,
+          "percentile": 7.9
+        },
+        {
+          "stage": "final",
+          "average": 6.9,
+          "percentile": 7.9
         }
       ],
-      "overall": 61.2,
-      "lastStageReached": "clasificatoria"
+      "overall": 25.7,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 71,
@@ -24996,10 +27616,20 @@
           "stage": "clasificatoria",
           "average": 7.05,
           "percentile": 61.2
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.017,
+          "percentile": 23
+        },
+        {
+          "stage": "final",
+          "average": 7.017,
+          "percentile": 23
         }
       ],
-      "overall": 61.2,
-      "lastStageReached": "clasificatoria"
+      "overall": 35.7,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 57,
@@ -25049,10 +27679,20 @@
           "stage": "clasificatoria",
           "average": 7.033,
           "percentile": 59
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.133,
+          "percentile": 46
+        },
+        {
+          "stage": "final",
+          "average": 7.133,
+          "percentile": 46
         }
       ],
-      "overall": 59,
-      "lastStageReached": "clasificatoria"
+      "overall": 50.3,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 381,
@@ -25102,10 +27742,20 @@
           "stage": "clasificatoria",
           "average": 6.997,
           "percentile": 56.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.4,
+          "percentile": 87.3
+        },
+        {
+          "stage": "final",
+          "average": 7.4,
+          "percentile": 87.3
         }
       ],
-      "overall": 56.4,
-      "lastStageReached": "clasificatoria"
+      "overall": 77,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 160,
@@ -25155,10 +27805,20 @@
           "stage": "clasificatoria",
           "average": 6.993,
           "percentile": 56.1
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.07,
+          "percentile": 31.3
+        },
+        {
+          "stage": "final",
+          "average": 7.07,
+          "percentile": 31.3
         }
       ],
-      "overall": 56.1,
-      "lastStageReached": "clasificatoria"
+      "overall": 39.6,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 408,
@@ -25208,10 +27868,20 @@
           "stage": "clasificatoria",
           "average": 6.983,
           "percentile": 55.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.183,
+          "percentile": 55.3
+        },
+        {
+          "stage": "final",
+          "average": 7.183,
+          "percentile": 55.3
         }
       ],
-      "overall": 55.7,
-      "lastStageReached": "clasificatoria"
+      "overall": 55.4,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 292,
@@ -25261,10 +27931,20 @@
           "stage": "clasificatoria",
           "average": 6.98,
           "percentile": 55.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.143,
+          "percentile": 48.5
+        },
+        {
+          "stage": "final",
+          "average": 7.143,
+          "percentile": 48.5
         }
       ],
-      "overall": 55.3,
-      "lastStageReached": "clasificatoria"
+      "overall": 50.8,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 33,
@@ -25314,10 +27994,20 @@
           "stage": "clasificatoria",
           "average": 6.95,
           "percentile": 53.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.083,
+          "percentile": 35.1
+        },
+        {
+          "stage": "final",
+          "average": 7.083,
+          "percentile": 35.1
         }
       ],
-      "overall": 53.7,
-      "lastStageReached": "clasificatoria"
+      "overall": 41.3,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 549,
@@ -25367,10 +28057,20 @@
           "stage": "clasificatoria",
           "average": 6.933,
           "percentile": 52.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.873,
+          "percentile": 5.8
+        },
+        {
+          "stage": "final",
+          "average": 6.873,
+          "percentile": 5.8
         }
       ],
-      "overall": 52.4,
-      "lastStageReached": "clasificatoria"
+      "overall": 21.3,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 309,
@@ -25420,10 +28120,20 @@
           "stage": "clasificatoria",
           "average": 6.923,
           "percentile": 50.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.977,
+          "percentile": 15.5
+        },
+        {
+          "stage": "final",
+          "average": 6.977,
+          "percentile": 15.5
         }
       ],
-      "overall": 50.6,
-      "lastStageReached": "clasificatoria"
+      "overall": 27.2,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 314,
@@ -25526,10 +28236,20 @@
           "stage": "clasificatoria",
           "average": 6.917,
           "percentile": 49.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.1,
+          "percentile": 38.1
+        },
+        {
+          "stage": "final",
+          "average": 7.1,
+          "percentile": 38.1
         }
       ],
-      "overall": 49.8,
-      "lastStageReached": "clasificatoria"
+      "overall": 42,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 218,
@@ -25579,10 +28299,20 @@
           "stage": "clasificatoria",
           "average": 6.917,
           "percentile": 49.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.74,
+          "percentile": 2.7
+        },
+        {
+          "stage": "final",
+          "average": 6.74,
+          "percentile": 2.7
         }
       ],
-      "overall": 49.8,
-      "lastStageReached": "clasificatoria"
+      "overall": 18.4,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 496,
@@ -25632,10 +28362,20 @@
           "stage": "clasificatoria",
           "average": 6.917,
           "percentile": 49.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.07,
+          "percentile": 31.3
+        },
+        {
+          "stage": "final",
+          "average": 7.07,
+          "percentile": 31.3
         }
       ],
-      "overall": 49.8,
-      "lastStageReached": "clasificatoria"
+      "overall": 37.5,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 458,
