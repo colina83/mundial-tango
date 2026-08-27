@@ -102,6 +102,8 @@ export interface StageManifest {
 
 export interface CatalogYear {
   year: number;
+  /** Missing in older catalogs — treat as pista. */
+  category?: Category;
   status: YearStatus;
   scoring: Scoring;
   complete: boolean;

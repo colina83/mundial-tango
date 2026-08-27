@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { useI18n } from "../context/I18nContext";
 import { yearPath } from "../lib/year";
-import type { CatalogYear, Stage, YearCatalog } from "../types";
+import type { CatalogYear, Category, Stage, YearCatalog } from "../types";
 
 const STAGE_ORDER: Stage[] = ["clasificatoria", "cuartos", "semifinal", "final"];
 
@@ -30,6 +30,8 @@ export function YearLanding() {
   }, []);
 
   const years = mergeYears(catalog?.years ?? []);
+  const pista = years.filter((y) => (y.category ?? "pista") === "pista");
+  const escenario = years.filter((y) => y.category === "escenario");
 
   return (
     <div className="app-shell is-gate">
@@ -62,15 +64,33 @@ export function YearLanding() {
         </div>
       </header>
       <main className="main year-gate">
-        <p className="year-gate-kicker">{t("categoryPista")}</p>
         <h1 className="year-gate-title">{t("pickEdition")}</h1>
         <p className="lede">{t("source")} · {t("notAffiliated")}</p>
         {error && <p className="muted">{t("loadError")}</p>}
-        <div className="year-cards">
-          {years.map((entry) => (
-            <YearCard key={entry.year} entry={entry} featured={entry.year === 2026} />
-          ))}
-        </div>
+        <section className="year-section">
+          <p className="year-gate-kicker">{t("categoryPista")}</p>
+          <div className="year-cards">
+            {pista.map((entry) => (
+              <YearCard
+                key={`pista-${entry.year}`}
+                entry={entry}
+                featured={entry.year === 2026}
+              />
+            ))}
+          </div>
+        </section>
+        <section className="year-section">
+          <p className="year-gate-kicker">{t("categoryEscenario")}</p>
+          <div className="year-cards">
+            {escenario.map((entry) => (
+              <YearCard
+                key={`escenario-${entry.year}`}
+                entry={entry}
+                featured={entry.year === 2026}
+              />
+            ))}
+          </div>
+        </section>
       </main>
     </div>
   );
@@ -78,6 +98,7 @@ export function YearLanding() {
 
 function YearCard({ entry, featured }: { entry: CatalogYear; featured: boolean }) {
   const { t } = useI18n();
+  const category: Category = entry.category ?? "pista";
   const stageLabel: Record<Stage, string> = {
     clasificatoria: t("stageClasificatoria"),
     cuartos: t("stageCuartos"),
@@ -91,7 +112,7 @@ function YearCard({ entry, featured }: { entry: CatalogYear; featured: boolean }
 
   return (
     <Link
-      to={yearPath(entry.year)}
+      to={yearPath(entry.year, "", category)}
       className={`year-card ${featured ? "is-featured" : "is-archive"}`}
     >
       <div className="year-card-top">
@@ -131,36 +152,67 @@ function YearCard({ entry, featured }: { entry: CatalogYear; featured: boolean }
   );
 }
 
+function fallbackEntry(
+  year: number,
+  category: Category,
+  extra: Omit<CatalogYear, "year" | "category">,
+): CatalogYear {
+  return { year, category, ...extra };
+}
+
 function mergeYears(fromCatalog: CatalogYear[]): CatalogYear[] {
-  const byYear = new Map(fromCatalog.map((y) => [y.year, y]));
+  const byKey = new Map(
+    fromCatalog.map((y) => [`${y.year}:${y.category ?? "pista"}`, y]),
+  );
   const fallback: CatalogYear[] = [
-    {
-      year: 2026,
+    fallbackEntry(2026, "pista", {
       status: "live",
       scoring: "trimmed",
       complete: false,
       hasBlocks: true,
       stages: ["clasificatoria"],
       rowCounts: {},
-    },
-    {
-      year: 2025,
+    }),
+    fallbackEntry(2025, "pista", {
       status: "archive",
       scoring: "simple",
       complete: true,
       hasBlocks: true,
       stages: ["clasificatoria", "cuartos", "semifinal", "final"],
       rowCounts: {},
-    },
-    {
-      year: 2024,
+    }),
+    fallbackEntry(2024, "pista", {
       status: "archive",
       scoring: "simple",
       complete: true,
       hasBlocks: false,
       stages: ["clasificatoria", "semifinal", "final"],
       rowCounts: {},
-    },
+    }),
+    fallbackEntry(2026, "escenario", {
+      status: "live",
+      scoring: "trimmed",
+      complete: false,
+      hasBlocks: true,
+      stages: ["clasificatoria"],
+      rowCounts: {},
+    }),
+    fallbackEntry(2025, "escenario", {
+      status: "archive",
+      scoring: "simple",
+      complete: true,
+      hasBlocks: true,
+      stages: ["clasificatoria", "cuartos", "semifinal", "final"],
+      rowCounts: {},
+    }),
+    fallbackEntry(2024, "escenario", {
+      status: "archive",
+      scoring: "simple",
+      complete: true,
+      hasBlocks: false,
+      stages: ["clasificatoria", "semifinal", "final"],
+      rowCounts: {},
+    }),
   ];
-  return fallback.map((f) => byYear.get(f.year) ?? f);
+  return fallback.map((f) => byKey.get(`${f.year}:${f.category}`) ?? f);
 }

@@ -7,8 +7,8 @@
 import { readFile } from "node:fs/promises";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
-import type { Dataset, Stage, StageStanding } from "../src/types.ts";
-import { writeYearOutputs } from "./year-io.ts";
+import type { Category, Dataset, Stage, StageStanding } from "../src/types.ts";
+import { writeYearOutputs, yearOutputDir } from "./year-io.ts";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const PROCESSED_DIR = join(ROOT, "data", "processed");
@@ -68,8 +68,11 @@ export function attachOverallScores(datasets: Dataset[]): void {
   }
 }
 
-async function loadYearDatasets(year: number): Promise<Dataset[] | null> {
-  const manifestPath = join(PUBLIC_DATA_DIR, String(year), "manifest.json");
+async function loadYearDatasets(
+  year: number,
+  category: Category = "pista",
+): Promise<Dataset[] | null> {
+  const manifestPath = join(yearOutputDir(PUBLIC_DATA_DIR, year, category), "manifest.json");
   let raw: string;
   try {
     raw = await readFile(manifestPath, "utf8");
@@ -79,17 +82,20 @@ async function loadYearDatasets(year: number): Promise<Dataset[] | null> {
   const manifest = JSON.parse(raw) as { stages: { stage: Stage }[] };
   const datasets: Dataset[] = [];
   for (const entry of manifest.stages) {
-    const file = join(PUBLIC_DATA_DIR, String(year), `results-${entry.stage}.json`);
+    const file = join(
+      yearOutputDir(PUBLIC_DATA_DIR, year, category),
+      `results-${entry.stage}.json`,
+    );
     const ds = JSON.parse(await readFile(file, "utf8")) as Dataset;
     datasets.push(ds);
   }
   return datasets.length ? datasets : null;
 }
 
-async function patchYear(year: number): Promise<void> {
-  const datasets = await loadYearDatasets(year);
+async function patchYear(year: number, category: Category = "pista"): Promise<void> {
+  const datasets = await loadYearDatasets(year, category);
   if (!datasets) {
-    console.log(`[overall] ${year}: no manifest — skip.`);
+    console.log(`[overall] ${year} ${category}: no manifest — skip.`);
     return;
   }
   attachOverallScores(datasets);
@@ -100,17 +106,19 @@ async function patchYear(year: number): Promise<void> {
     year,
     scoring,
     datasets,
-    year === 2026,
+    year === 2026 && category === "pista",
+    category,
   );
   const n = new Set(datasets.flatMap((d) => d.rows.map((r) => r.coupleId))).size;
   console.log(
-    `[overall] ${year}: ${n} couples across ${datasets.map((d) => d.stage).join(", ")}`,
+    `[overall] ${year} ${category}: ${n} couples across ${datasets.map((d) => d.stage).join(", ")}`,
   );
 }
 
 async function main(): Promise<void> {
   for (const year of [2026, 2025, 2024]) {
-    await patchYear(year);
+    await patchYear(year, "pista");
+    await patchYear(year, "escenario");
   }
   console.log("Overall scores written (survival files untouched).");
 }

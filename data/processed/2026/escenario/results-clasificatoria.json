@@ -1,0 +1,7304 @@
+{
+  "generatedAt": "2026-08-27T18:59:51.488Z",
+  "year": 2026,
+  "stage": "clasificatoria",
+  "category": "escenario",
+  "scoring": "trimmed",
+  "sourcePage": "https://tangoba.org/resultados-clasificatoria-tango-escenario-2026/",
+  "sourceCategoryPage": "https://tangoba.org/category/resultados/",
+  "sourceLabel": "Tango BA",
+  "disclaimer": "Compañero extraoficial de fans. No afiliado a Tango BA ni al Mundial de Baile. Fuente: Tango BA.",
+  "blocks": [
+    {
+      "id": "A",
+      "date": "2026-08-25",
+      "dateLabel": "25 de agosto",
+      "judges": [
+        "Soledad Buss",
+        "Fernando Rodriguez",
+        "Martín Ojeda",
+        "Agustina Vignau",
+        "Gabriel Ortega"
+      ],
+      "sourcePdf": {
+        "filename": "Jurados-_-Escenario-Clasificatorias-2026-25_8-A-Copia-de-JURADOS-_-RONDAS-TODAS-258-A.pdf",
+        "url": "https://tangoba.org/wp-content/uploads/2026/08/Jurados-_-Escenario-Clasificatorias-2026-25_8-A-Copia-de-JURADOS-_-RONDAS-TODAS-258-A.pdf",
+        "sha256": "a48f8e8332691031bc30ffd7d48cc5e68903f188e453d074d3a2b8d78d31d19a"
+      },
+      "cutoff": 7.05,
+      "classifiedCount": 19,
+      "coupleCount": 37
+    },
+    {
+      "id": "B",
+      "date": "2026-08-25",
+      "dateLabel": "25 de agosto",
+      "judges": [
+        "Debora Agudo",
+        "Ezequiel Lopez",
+        "Graciela García",
+        "Sol Cerquides",
+        "Guido Placios"
+      ],
+      "sourcePdf": {
+        "filename": "Jurados-_-Escenario-Clasificatorias-2026-25_8-B-Copia-de-JURADOS-_-RONDAS-TODAS-258-B.pdf",
+        "url": "https://tangoba.org/wp-content/uploads/2026/08/Jurados-_-Escenario-Clasificatorias-2026-25_8-B-Copia-de-JURADOS-_-RONDAS-TODAS-258-B.pdf",
+        "sha256": "f55bcbd6b1003682ff3089b024c16dcb168520e63cfaf67862c924f48023ffb1"
+      },
+      "cutoff": 7.193,
+      "classifiedCount": 16,
+      "coupleCount": 31
+    },
+    {
+      "id": "C",
+      "date": "2026-08-26",
+      "dateLabel": "26 de agosto",
+      "judges": [
+        "Soledad Buss",
+        "Fernando Rodriguez",
+        "Martín Ojeda",
+        "Agustina Vignau",
+        "Gabriel Ortega"
+      ],
+      "sourcePdf": {
+        "filename": "Jurados-_-Escenario-Clasificatorias-2026-26_8-C-Copia-de-JURADOS-_-RONDAS-TODAS-268-C.pdf",
+        "url": "https://tangoba.org/wp-content/uploads/2026/08/Jurados-_-Escenario-Clasificatorias-2026-26_8-C-Copia-de-JURADOS-_-RONDAS-TODAS-268-C.pdf",
+        "sha256": "0e79f4e3987f7c3cb9d5bf4d6be37d820bf3cc8e0a4f6c916587dba0df9a32e4"
+      },
+      "cutoff": 7.067,
+      "classifiedCount": 17,
+      "coupleCount": 34
+    },
+    {
+      "id": "D",
+      "date": "2026-08-26",
+      "dateLabel": "26 de agosto",
+      "judges": [
+        "Debora Agudo",
+        "Ezequiel Lopez",
+        "Graciela García",
+        "Sol Cerquides",
+        "Guido Placios"
+      ],
+      "sourcePdf": {
+        "filename": "Jurados-_-Escenario-Clasificatorias-2026-26_8-D-Copia-de-JURADOS-_-RONDAS-TODAS-268-D-1.pdf",
+        "url": "https://tangoba.org/wp-content/uploads/2026/08/Jurados-_-Escenario-Clasificatorias-2026-26_8-D-Copia-de-JURADOS-_-RONDAS-TODAS-268-D-1.pdf",
+        "sha256": "c126cb3636edb4a601ca049039b3637f681098ad359a4a31fc783c2580ce1c35"
+      },
+      "cutoff": 7.403,
+      "classifiedCount": 17,
+      "coupleCount": 34
+    }
+  ],
+  "rows": [
+    {
+      "coupleId": 471,
+      "round": "3",
+      "dancer1": "Franco Rubén Sosa",
+      "dancer2": "Romina Moreno Guzmán",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 7.7,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 7.85,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 7.18,
+          "dropped": true
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 7.98,
+          "dropped": true
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.95,
+          "dropped": false
+        }
+      ],
+      "average": 7.833,
+      "officialAverage": 7.833,
+      "rankInBlock": 1,
+      "rankOverall": 4,
+      "classified": true,
+      "cutoffDelta": 0.783,
+      "spread": 0.8,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 97.8,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.833,
+          "percentile": 97.8
+        }
+      ],
+      "overall": 97.8,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 462,
+      "round": "1",
+      "dancer1": "Lautaro Levato",
+      "dancer2": "Milagros Quintana",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 7.8,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 7.9,
+          "dropped": true
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 6.89,
+          "dropped": true
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 7.2,
+          "dropped": false
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.7,
+          "dropped": false
+        }
+      ],
+      "average": 7.567,
+      "officialAverage": 7.567,
+      "rankInBlock": 2,
+      "rankOverall": 27,
+      "classified": true,
+      "cutoffDelta": 0.517,
+      "spread": 1.01,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 80.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.567,
+          "percentile": 80.7
+        }
+      ],
+      "overall": 80.7,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 403,
+      "round": "3",
+      "dancer1": "Franco Emanuel Palleiro",
+      "dancer2": "Oriana Abril Herenu",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 7.4,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 7.74,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 7.21,
+          "dropped": true
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 7.55,
+          "dropped": false
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.85,
+          "dropped": true
+        }
+      ],
+      "average": 7.563,
+      "officialAverage": 7.563,
+      "rankInBlock": 3,
+      "rankOverall": 29,
+      "classified": true,
+      "cutoffDelta": 0.513,
+      "spread": 0.64,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 79.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.563,
+          "percentile": 79.3
+        }
+      ],
+      "overall": 79.3,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 79,
+      "round": "2",
+      "dancer1": "Juan Cupini",
+      "dancer2": "Erica Rossi",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 7.5,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 7.7,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 7.48,
+          "dropped": false
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 7.3,
+          "dropped": true
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.88,
+          "dropped": true
+        }
+      ],
+      "average": 7.56,
+      "officialAverage": 7.56,
+      "rankInBlock": 4,
+      "rankOverall": 30,
+      "classified": true,
+      "cutoffDelta": 0.51,
+      "spread": 0.58,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 78.5,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.56,
+          "percentile": 78.5
+        }
+      ],
+      "overall": 78.5,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 453,
+      "round": "1",
+      "dancer1": "Fabrizio Muñoz Lopez",
+      "dancer2": "Federica Tobares",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 7.6,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 7.55,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 6.83,
+          "dropped": true
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 7.96,
+          "dropped": true
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.5,
+          "dropped": false
+        }
+      ],
+      "average": 7.55,
+      "officialAverage": 7.55,
+      "rankInBlock": 5,
+      "rankOverall": 31,
+      "classified": true,
+      "cutoffDelta": 0.5,
+      "spread": 1.13,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 77.8,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.55,
+          "percentile": 77.8
+        }
+      ],
+      "overall": 77.8,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 594,
+      "round": "3",
+      "dancer1": "Sebastian Acosta",
+      "dancer2": "Kathia Cabral",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 7.2,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 7.75,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 7.1,
+          "dropped": true
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 7.5,
+          "dropped": false
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.92,
+          "dropped": true
+        }
+      ],
+      "average": 7.483,
+      "officialAverage": 7.483,
+      "rankInBlock": 6,
+      "rankOverall": 36,
+      "classified": true,
+      "cutoffDelta": 0.433,
+      "spread": 0.82,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 74.1,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.483,
+          "percentile": 74.1
+        }
+      ],
+      "overall": 74.1,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 301,
+      "round": "1",
+      "dancer1": "Juan Pablo Valdebenito",
+      "dancer2": "Rosario Belén Gimenez",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 7,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 7.6,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 7.05,
+          "dropped": false
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 7.85,
+          "dropped": true
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.75,
+          "dropped": false
+        }
+      ],
+      "average": 7.467,
+      "officialAverage": 7.467,
+      "rankInBlock": 7,
+      "rankOverall": 39,
+      "classified": true,
+      "cutoffDelta": 0.417,
+      "spread": 0.85,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 71.9,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.467,
+          "percentile": 71.9
+        }
+      ],
+      "overall": 71.9,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 87,
+      "round": "1",
+      "dancer1": "Pablo Nahuel Conde",
+      "dancer2": "Constanza Cenzano",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 7.2,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 7.8,
+          "dropped": true
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 7.3,
+          "dropped": false
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 7.5,
+          "dropped": false
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.59,
+          "dropped": false
+        }
+      ],
+      "average": 7.463,
+      "officialAverage": 7.463,
+      "rankInBlock": 8,
+      "rankOverall": 41,
+      "classified": true,
+      "cutoffDelta": 0.413,
+      "spread": 0.6,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 70.4,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.463,
+          "percentile": 70.4
+        }
+      ],
+      "overall": 70.4,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 647,
+      "round": "2",
+      "dancer1": "Andres Gonzalez Ballesteros",
+      "dancer2": "Sara Gòmez Quiroz",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 7.4,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 7.4,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 7.09,
+          "dropped": true
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 7.55,
+          "dropped": false
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.7,
+          "dropped": true
+        }
+      ],
+      "average": 7.45,
+      "officialAverage": 7.45,
+      "rankInBlock": 9,
+      "rankOverall": 42,
+      "classified": true,
+      "cutoffDelta": 0.4,
+      "spread": 0.61,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 69.6,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.45,
+          "percentile": 69.6
+        }
+      ],
+      "overall": 69.6,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 44,
+      "round": "2",
+      "dancer1": "Leonel Herrera",
+      "dancer2": "Maira Sanchez",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 7.3,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 7.4,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 6.99,
+          "dropped": true
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 7.5,
+          "dropped": false
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.68,
+          "dropped": true
+        }
+      ],
+      "average": 7.4,
+      "officialAverage": 7.4,
+      "rankInBlock": 10,
+      "rankOverall": 48,
+      "classified": true,
+      "cutoffDelta": 0.35,
+      "spread": 0.69,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 65.2,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.4,
+          "percentile": 65.2
+        }
+      ],
+      "overall": 65.2,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 675,
+      "round": "1",
+      "dancer1": "Artem Luchin",
+      "dancer2": "Polina Luchina",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 7.2,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 7.5,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 7.2,
+          "dropped": false
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 6.95,
+          "dropped": true
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.79,
+          "dropped": true
+        }
+      ],
+      "average": 7.3,
+      "officialAverage": 7.3,
+      "rankInBlock": 11,
+      "rankOverall": 56,
+      "classified": true,
+      "cutoffDelta": 0.25,
+      "spread": 0.84,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 59.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.3,
+          "percentile": 59.3
+        }
+      ],
+      "overall": 59.3,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 480,
+      "round": "3",
+      "dancer1": "Sebastian Motter",
+      "dancer2": "Valentina Cipollone",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 7.3,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 7.2,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 6.85,
+          "dropped": true
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 7.4,
+          "dropped": false
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.75,
+          "dropped": true
+        }
+      ],
+      "average": 7.3,
+      "officialAverage": 7.3,
+      "rankInBlock": 11,
+      "rankOverall": 56,
+      "classified": true,
+      "cutoffDelta": 0.25,
+      "spread": 0.9,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 59.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.3,
+          "percentile": 59.3
+        }
+      ],
+      "overall": 59.3,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 605,
+      "round": "2",
+      "dancer1": "Brayan Castañeda",
+      "dancer2": "Valentina Valencia Gómez",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 7,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 7.3,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 7.09,
+          "dropped": false
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 7.46,
+          "dropped": false
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.51,
+          "dropped": true
+        }
+      ],
+      "average": 7.283,
+      "officialAverage": 7.283,
+      "rankInBlock": 13,
+      "rankOverall": 59,
+      "classified": true,
+      "cutoffDelta": 0.233,
+      "spread": 0.51,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 57,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.283,
+          "percentile": 57
+        }
+      ],
+      "overall": 57,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 598,
+      "round": "3",
+      "dancer1": "Iván Cristoff Veleff",
+      "dancer2": "Paulina Aguinalde",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 7.1,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 7.35,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 7.08,
+          "dropped": true
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 7.35,
+          "dropped": false
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.69,
+          "dropped": true
+        }
+      ],
+      "average": 7.267,
+      "officialAverage": 7.267,
+      "rankInBlock": 14,
+      "rankOverall": 60,
+      "classified": true,
+      "cutoffDelta": 0.217,
+      "spread": 0.61,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 56.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.267,
+          "percentile": 56.3
+        }
+      ],
+      "overall": 56.3,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 386,
+      "round": "3",
+      "dancer1": "Matteo Antonietti",
+      "dancer2": "Añes Arredondo",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 7,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 7.65,
+          "dropped": true
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 6.88,
+          "dropped": true
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 7.2,
+          "dropped": false
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.51,
+          "dropped": false
+        }
+      ],
+      "average": 7.237,
+      "officialAverage": 7.237,
+      "rankInBlock": 15,
+      "rankOverall": 63,
+      "classified": true,
+      "cutoffDelta": 0.187,
+      "spread": 0.77,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 54.1,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.237,
+          "percentile": 54.1
+        }
+      ],
+      "overall": 54.1,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 27,
+      "round": "2",
+      "dancer1": "Alexander Latorre Valero",
+      "dancer2": "Paulina Posadas Dagio",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 6.5,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 7.25,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 6.9,
+          "dropped": false
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 7.3,
+          "dropped": false
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.59,
+          "dropped": true
+        }
+      ],
+      "average": 7.15,
+      "officialAverage": 7.15,
+      "rankInBlock": 16,
+      "rankOverall": 72,
+      "classified": true,
+      "cutoffDelta": 0.1,
+      "spread": 1.09,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 47.4,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.15,
+          "percentile": 47.4
+        }
+      ],
+      "overall": 47.4,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 446,
+      "round": "3",
+      "dancer1": "Jhonathan Pachon",
+      "dancer2": "Suly Pachon",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 6.7,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 7.05,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 6.87,
+          "dropped": false
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 7.46,
+          "dropped": false
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.78,
+          "dropped": true
+        }
+      ],
+      "average": 7.127,
+      "officialAverage": 7.127,
+      "rankInBlock": 17,
+      "rankOverall": 74,
+      "classified": true,
+      "cutoffDelta": 0.077,
+      "spread": 1.08,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 45.9,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.127,
+          "percentile": 45.9
+        }
+      ],
+      "overall": 45.9,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 531,
+      "round": "2",
+      "dancer1": "Franco Ivan Martínez",
+      "dancer2": "Vanessa Vega",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 6.9,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 7,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 6.89,
+          "dropped": true
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 7.45,
+          "dropped": false
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.48,
+          "dropped": true
+        }
+      ],
+      "average": 7.117,
+      "officialAverage": 7.117,
+      "rankInBlock": 18,
+      "rankOverall": 75,
+      "classified": true,
+      "cutoffDelta": 0.067,
+      "spread": 0.59,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 45.2,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.117,
+          "percentile": 45.2
+        }
+      ],
+      "overall": 45.2,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 437,
+      "round": "3",
+      "dancer1": "Rodrigo Barrionuevo",
+      "dancer2": "Pilar Corbalan",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 7,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 7.1,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 6.89,
+          "dropped": true
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 7.05,
+          "dropped": false
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.49,
+          "dropped": true
+        }
+      ],
+      "average": 7.05,
+      "officialAverage": 7.05,
+      "rankInBlock": 19,
+      "rankOverall": 81,
+      "classified": true,
+      "cutoffDelta": 0,
+      "spread": 0.6,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 40.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.05,
+          "percentile": 40.7
+        }
+      ],
+      "overall": 40.7,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 207,
+      "round": "1",
+      "dancer1": "Bautista Herrera",
+      "dancer2": "Victoria Adami",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 7,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 7.1,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 6.38,
+          "dropped": true
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 6.9,
+          "dropped": false
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.48,
+          "dropped": true
+        }
+      ],
+      "average": 7,
+      "officialAverage": 7,
+      "rankInBlock": 20,
+      "rankOverall": 87,
+      "classified": false,
+      "cutoffDelta": -0.05,
+      "spread": 1.1,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 36.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7,
+          "percentile": 36.3
+        }
+      ],
+      "overall": 36.3,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 463,
+      "round": "2",
+      "dancer1": "Angeles Carrion",
+      "dancer2": "Aldana Mileva",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 6.5,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 7.15,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 6.89,
+          "dropped": false
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 6.9,
+          "dropped": false
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.38,
+          "dropped": true
+        }
+      ],
+      "average": 6.98,
+      "officialAverage": 6.98,
+      "rankInBlock": 21,
+      "rankOverall": 89,
+      "classified": false,
+      "cutoffDelta": -0.07,
+      "spread": 0.88,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 34.8,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 6.98,
+          "percentile": 34.8
+        }
+      ],
+      "overall": 34.8,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 86,
+      "round": "3",
+      "dancer1": "Ilyas Baiguzhin",
+      "dancer2": "Svetlana Vyrypayeva",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 6.7,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 7,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 7,
+          "dropped": false
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 6.4,
+          "dropped": true
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.66,
+          "dropped": true
+        }
+      ],
+      "average": 6.9,
+      "officialAverage": 6.9,
+      "rankInBlock": 22,
+      "rankOverall": 97,
+      "classified": false,
+      "cutoffDelta": -0.15,
+      "spread": 1.26,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 28.9,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 6.9,
+          "percentile": 28.9
+        }
+      ],
+      "overall": 28.9,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 305,
+      "round": "2",
+      "dancer1": "Lucas Adrián Blanco",
+      "dancer2": "Clara Puig Fiorillo",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 5.9,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 6.7,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 6.77,
+          "dropped": false
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 7.2,
+          "dropped": false
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.52,
+          "dropped": true
+        }
+      ],
+      "average": 6.89,
+      "officialAverage": 6.89,
+      "rankInBlock": 23,
+      "rankOverall": 101,
+      "classified": false,
+      "cutoffDelta": -0.16,
+      "spread": 1.62,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 25.9,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 6.89,
+          "percentile": 25.9
+        }
+      ],
+      "overall": 25.9,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 494,
+      "round": "3",
+      "dancer1": "Juan Pablo López",
+      "dancer2": "Anisa Julieta Acuña",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 7,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 6.95,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 6.72,
+          "dropped": false
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 6.65,
+          "dropped": true
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.25,
+          "dropped": true
+        }
+      ],
+      "average": 6.89,
+      "officialAverage": 6.89,
+      "rankInBlock": 23,
+      "rankOverall": 101,
+      "classified": false,
+      "cutoffDelta": -0.16,
+      "spread": 0.6,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 25.9,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 6.89,
+          "percentile": 25.9
+        }
+      ],
+      "overall": 25.9,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 455,
+      "round": "3",
+      "dancer1": "Franco Fleitas",
+      "dancer2": "Rocio Tapia",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 5.9,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 6.95,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 6.69,
+          "dropped": false
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 6.9,
+          "dropped": false
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.16,
+          "dropped": true
+        }
+      ],
+      "average": 6.847,
+      "officialAverage": 6.847,
+      "rankInBlock": 25,
+      "rankOverall": 104,
+      "classified": false,
+      "cutoffDelta": -0.203,
+      "spread": 1.26,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 23.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 6.847,
+          "percentile": 23.7
+        }
+      ],
+      "overall": 23.7,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 270,
+      "round": "1",
+      "dancer1": "Pablo Fernández",
+      "dancer2": "Pilar Castro",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 6.4,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 7,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 6.2,
+          "dropped": true
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 7,
+          "dropped": false
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.45,
+          "dropped": true
+        }
+      ],
+      "average": 6.8,
+      "officialAverage": 6.8,
+      "rankInBlock": 26,
+      "rankOverall": 105,
+      "classified": false,
+      "cutoffDelta": -0.25,
+      "spread": 1.25,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 23,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 6.8,
+          "percentile": 23
+        }
+      ],
+      "overall": 23,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 88,
+      "round": "2",
+      "dancer1": "Emiliano Vega",
+      "dancer2": "Casandra Estéfano",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 6,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 7.05,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 6.95,
+          "dropped": false
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 6.4,
+          "dropped": false
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.28,
+          "dropped": true
+        }
+      ],
+      "average": 6.8,
+      "officialAverage": 6.8,
+      "rankInBlock": 26,
+      "rankOverall": 105,
+      "classified": false,
+      "cutoffDelta": -0.25,
+      "spread": 1.28,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 23,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 6.8,
+          "percentile": 23
+        }
+      ],
+      "overall": 23,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 20,
+      "round": "3",
+      "dancer1": "Valentin Rodrigo Perez",
+      "dancer2": "Sofia Carbajal Santos",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 6.2,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 6.9,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 6.71,
+          "dropped": false
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 6.7,
+          "dropped": false
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.19,
+          "dropped": true
+        }
+      ],
+      "average": 6.77,
+      "officialAverage": 6.77,
+      "rankInBlock": 28,
+      "rankOverall": 108,
+      "classified": false,
+      "cutoffDelta": -0.28,
+      "spread": 0.99,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 20.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 6.77,
+          "percentile": 20.7
+        }
+      ],
+      "overall": 20.7,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 534,
+      "round": "2",
+      "dancer1": "Jacek Binkowski",
+      "dancer2": "Teresa Binkowska",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 6.8,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 6.5,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 6.08,
+          "dropped": true
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 6.9,
+          "dropped": false
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.49,
+          "dropped": true
+        }
+      ],
+      "average": 6.733,
+      "officialAverage": 6.733,
+      "rankInBlock": 29,
+      "rankOverall": 110,
+      "classified": false,
+      "cutoffDelta": -0.317,
+      "spread": 1.41,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 19.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 6.733,
+          "percentile": 19.3
+        }
+      ],
+      "overall": 19.3,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 423,
+      "round": "2",
+      "dancer1": "Francisco Coria",
+      "dancer2": "Yael Nahir",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 6.1,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 7.1,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 6.6,
+          "dropped": false
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 6.5,
+          "dropped": false
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.28,
+          "dropped": true
+        }
+      ],
+      "average": 6.733,
+      "officialAverage": 6.733,
+      "rankInBlock": 29,
+      "rankOverall": 110,
+      "classified": false,
+      "cutoffDelta": -0.317,
+      "spread": 1.18,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 19.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 6.733,
+          "percentile": 19.3
+        }
+      ],
+      "overall": 19.3,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 522,
+      "round": "3",
+      "dancer1": "Joel De La O Arredondo",
+      "dancer2": "Veronica Peinado Flores",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 6,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 6.8,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 7.2,
+          "dropped": true
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 6.3,
+          "dropped": false
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.08,
+          "dropped": false
+        }
+      ],
+      "average": 6.727,
+      "officialAverage": 6.727,
+      "rankInBlock": 31,
+      "rankOverall": 112,
+      "classified": false,
+      "cutoffDelta": -0.323,
+      "spread": 1.2,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 17.8,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 6.727,
+          "percentile": 17.8
+        }
+      ],
+      "overall": 17.8,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 606,
+      "round": "1",
+      "dancer1": "Leonel Iuri",
+      "dancer2": "Valentina Garrido",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 6.5,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 6.5,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 6.18,
+          "dropped": true
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 7.85,
+          "dropped": true
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.05,
+          "dropped": false
+        }
+      ],
+      "average": 6.683,
+      "officialAverage": 6.683,
+      "rankInBlock": 32,
+      "rankOverall": 114,
+      "classified": false,
+      "cutoffDelta": -0.367,
+      "spread": 1.67,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 16.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 6.683,
+          "percentile": 16.3
+        }
+      ],
+      "overall": 16.3,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 184,
+      "round": "1",
+      "dancer1": "Diego Tevez",
+      "dancer2": "Sandra Sanchez",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 6,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 6.4,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 6.3,
+          "dropped": false
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 7,
+          "dropped": true
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 6.99,
+          "dropped": false
+        }
+      ],
+      "average": 6.563,
+      "officialAverage": 6.563,
+      "rankInBlock": 33,
+      "rankOverall": 119,
+      "classified": false,
+      "cutoffDelta": -0.487,
+      "spread": 1,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 12.6,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 6.563,
+          "percentile": 12.6
+        }
+      ],
+      "overall": 12.6,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 505,
+      "round": "2",
+      "dancer1": "Jonathan Márquez Faccio",
+      "dancer2": "Ana Paula Paredes Santín",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 6.2,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 6,
+          "dropped": true
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 6.2,
+          "dropped": false
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 6.7,
+          "dropped": false
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.32,
+          "dropped": true
+        }
+      ],
+      "average": 6.367,
+      "officialAverage": 6.367,
+      "rankInBlock": 34,
+      "rankOverall": 126,
+      "classified": false,
+      "cutoffDelta": -0.683,
+      "spread": 1.32,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 7.4,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 6.367,
+          "percentile": 7.4
+        }
+      ],
+      "overall": 7.4,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 433,
+      "round": "1",
+      "dancer1": "Matteo Faricciotti",
+      "dancer2": "Michela Toro",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 5.8,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 5.1,
+          "dropped": true
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 6.1,
+          "dropped": false
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 6.8,
+          "dropped": true
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 6.45,
+          "dropped": false
+        }
+      ],
+      "average": 6.117,
+      "officialAverage": 6.117,
+      "rankInBlock": 35,
+      "rankOverall": 129,
+      "classified": false,
+      "cutoffDelta": -0.933,
+      "spread": 1.7,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 5.2,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 6.117,
+          "percentile": 5.2
+        }
+      ],
+      "overall": 5.2,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 621,
+      "round": "1",
+      "dancer1": "Cristian Alvarez",
+      "dancer2": "Paula Isaurralde",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 5.5,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 5.2,
+          "dropped": true
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 6.7,
+          "dropped": false
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 5.9,
+          "dropped": false
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 6.79,
+          "dropped": true
+        }
+      ],
+      "average": 6.033,
+      "officialAverage": 6.033,
+      "rankInBlock": 36,
+      "rankOverall": 131,
+      "classified": false,
+      "cutoffDelta": -1.017,
+      "spread": 1.59,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 3.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 6.033,
+          "percentile": 3.7
+        }
+      ],
+      "overall": 3.7,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 175,
+      "round": "2",
+      "dancer1": "Vitalii Balan",
+      "dancer2": "Irina Martynova",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 5.5,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 5.5,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 6.15,
+          "dropped": false
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 6.2,
+          "dropped": false
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 6.95,
+          "dropped": true
+        }
+      ],
+      "average": 5.95,
+      "officialAverage": 5.95,
+      "rankInBlock": 37,
+      "rankOverall": 132,
+      "classified": false,
+      "cutoffDelta": -1.1,
+      "spread": 1.45,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 5.95,
+          "percentile": 3
+        }
+      ],
+      "overall": 3,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 547,
+      "round": "3",
+      "dancer1": "Nicolas Schell",
+      "dancer2": "Nair Schinca",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 7.98,
+          "dropped": false
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 8,
+          "dropped": true
+        },
+        {
+          "name": "Graciela García",
+          "score": 7.99,
+          "dropped": false
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7.55,
+          "dropped": true
+        },
+        {
+          "name": "Guido Placios",
+          "score": 7.9,
+          "dropped": false
+        }
+      ],
+      "average": 7.957,
+      "officialAverage": 7.957,
+      "rankInBlock": 1,
+      "rankOverall": 1,
+      "classified": true,
+      "cutoffDelta": 0.764,
+      "spread": 0.45,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 100,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.957,
+          "percentile": 100
+        }
+      ],
+      "overall": 100,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 365,
+      "round": "1B",
+      "dancer1": "Facundo Cabral",
+      "dancer2": "Mara Navarro",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 7.97,
+          "dropped": false
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.85,
+          "dropped": false
+        },
+        {
+          "name": "Graciela García",
+          "score": 7.99,
+          "dropped": true
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7.6,
+          "dropped": false
+        },
+        {
+          "name": "Guido Placios",
+          "score": 7.4,
+          "dropped": true
+        }
+      ],
+      "average": 7.807,
+      "officialAverage": 7.807,
+      "rankInBlock": 2,
+      "rankOverall": 7,
+      "classified": true,
+      "cutoffDelta": 0.614,
+      "spread": 0.59,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 95.6,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.807,
+          "percentile": 95.6
+        }
+      ],
+      "overall": 95.6,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 586,
+      "round": "2",
+      "dancer1": "Diego Ortega",
+      "dancer2": "Aldana Silveyra",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 7.8,
+          "dropped": false
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 8,
+          "dropped": true
+        },
+        {
+          "name": "Graciela García",
+          "score": 7.26,
+          "dropped": true
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7.6,
+          "dropped": false
+        },
+        {
+          "name": "Guido Placios",
+          "score": 8,
+          "dropped": false
+        }
+      ],
+      "average": 7.8,
+      "officialAverage": 7.8,
+      "rankInBlock": 3,
+      "rankOverall": 9,
+      "classified": true,
+      "cutoffDelta": 0.607,
+      "spread": 0.74,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 94.1,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.8,
+          "percentile": 94.1
+        }
+      ],
+      "overall": 94.1,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 516,
+      "round": "1B",
+      "dancer1": "Federico Paleo",
+      "dancer2": "Luciana Francheli",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 7.95,
+          "dropped": false
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.7,
+          "dropped": false
+        },
+        {
+          "name": "Graciela García",
+          "score": 7.98,
+          "dropped": true
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7.45,
+          "dropped": false
+        },
+        {
+          "name": "Guido Placios",
+          "score": 6.9,
+          "dropped": true
+        }
+      ],
+      "average": 7.7,
+      "officialAverage": 7.7,
+      "rankInBlock": 4,
+      "rankOverall": 21,
+      "classified": true,
+      "cutoffDelta": 0.507,
+      "spread": 1.08,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 85.2,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.7,
+          "percentile": 85.2
+        }
+      ],
+      "overall": 85.2,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 509,
+      "round": "1B",
+      "dancer1": "Lucas Guevara",
+      "dancer2": "Daniela Bravo",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 7.94,
+          "dropped": true
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.68,
+          "dropped": false
+        },
+        {
+          "name": "Graciela García",
+          "score": 7.15,
+          "dropped": true
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7.5,
+          "dropped": false
+        },
+        {
+          "name": "Guido Placios",
+          "score": 7.7,
+          "dropped": false
+        }
+      ],
+      "average": 7.627,
+      "officialAverage": 7.627,
+      "rankInBlock": 5,
+      "rankOverall": 24,
+      "classified": true,
+      "cutoffDelta": 0.434,
+      "spread": 0.79,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 83,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.627,
+          "percentile": 83
+        }
+      ],
+      "overall": 83,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 49,
+      "round": "1B",
+      "dancer1": "Hernan David Lopez",
+      "dancer2": "Camila Ayelen Luna",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 7.6,
+          "dropped": true
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.5,
+          "dropped": false
+        },
+        {
+          "name": "Graciela García",
+          "score": 7.4,
+          "dropped": true
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7.6,
+          "dropped": false
+        },
+        {
+          "name": "Guido Placios",
+          "score": 7.4,
+          "dropped": false
+        }
+      ],
+      "average": 7.5,
+      "officialAverage": 7.5,
+      "rankInBlock": 6,
+      "rankOverall": 35,
+      "classified": true,
+      "cutoffDelta": 0.307,
+      "spread": 0.2,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 74.8,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.5,
+          "percentile": 74.8
+        }
+      ],
+      "overall": 74.8,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 542,
+      "round": "1B",
+      "dancer1": "Andrea Vighi",
+      "dancer2": "Chiara Benati",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 7.4,
+          "dropped": false
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.55,
+          "dropped": false
+        },
+        {
+          "name": "Graciela García",
+          "score": 7.5,
+          "dropped": false
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7.65,
+          "dropped": true
+        },
+        {
+          "name": "Guido Placios",
+          "score": 7,
+          "dropped": true
+        }
+      ],
+      "average": 7.483,
+      "officialAverage": 7.483,
+      "rankInBlock": 7,
+      "rankOverall": 36,
+      "classified": true,
+      "cutoffDelta": 0.29,
+      "spread": 0.65,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 74.1,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.483,
+          "percentile": 74.1
+        }
+      ],
+      "overall": 74.1,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 133,
+      "round": "3",
+      "dancer1": "Alexander Moncada Rojas",
+      "dancer2": "Martina Waldman",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 7.83,
+          "dropped": true
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.8,
+          "dropped": false
+        },
+        {
+          "name": "Graciela García",
+          "score": 6.63,
+          "dropped": true
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7.35,
+          "dropped": false
+        },
+        {
+          "name": "Guido Placios",
+          "score": 7.3,
+          "dropped": false
+        }
+      ],
+      "average": 7.483,
+      "officialAverage": 7.483,
+      "rankInBlock": 7,
+      "rankOverall": 36,
+      "classified": true,
+      "cutoffDelta": 0.29,
+      "spread": 1.2,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 74.1,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.483,
+          "percentile": 74.1
+        }
+      ],
+      "overall": 74.1,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 69,
+      "round": "1B",
+      "dancer1": "Dmitrii Kuznetsov",
+      "dancer2": "Olga Nikolaeva",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 7.93,
+          "dropped": true
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.8,
+          "dropped": false
+        },
+        {
+          "name": "Graciela García",
+          "score": 7.25,
+          "dropped": false
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7.35,
+          "dropped": false
+        },
+        {
+          "name": "Guido Placios",
+          "score": 7,
+          "dropped": true
+        }
+      ],
+      "average": 7.467,
+      "officialAverage": 7.467,
+      "rankInBlock": 9,
+      "rankOverall": 39,
+      "classified": true,
+      "cutoffDelta": 0.274,
+      "spread": 0.93,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 71.9,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.467,
+          "percentile": 71.9
+        }
+      ],
+      "overall": 71.9,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 95,
+      "round": "2",
+      "dancer1": "Jesus Luis Paez",
+      "dancer2": "Iara Duarte",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 7.6,
+          "dropped": true
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.55,
+          "dropped": false
+        },
+        {
+          "name": "Graciela García",
+          "score": 7.31,
+          "dropped": false
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7.45,
+          "dropped": false
+        },
+        {
+          "name": "Guido Placios",
+          "score": 6.9,
+          "dropped": true
+        }
+      ],
+      "average": 7.437,
+      "officialAverage": 7.437,
+      "rankInBlock": 10,
+      "rankOverall": 43,
+      "classified": true,
+      "cutoffDelta": 0.244,
+      "spread": 0.7,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 68.9,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.437,
+          "percentile": 68.9
+        }
+      ],
+      "overall": 68.9,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 107,
+      "round": "1B",
+      "dancer1": "Valentín Arias Delgado",
+      "dancer2": "Diana Paola Franco Durango",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 7.45,
+          "dropped": false
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.65,
+          "dropped": true
+        },
+        {
+          "name": "Graciela García",
+          "score": 7,
+          "dropped": true
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7.55,
+          "dropped": false
+        },
+        {
+          "name": "Guido Placios",
+          "score": 7.3,
+          "dropped": false
+        }
+      ],
+      "average": 7.433,
+      "officialAverage": 7.433,
+      "rankInBlock": 11,
+      "rankOverall": 44,
+      "classified": true,
+      "cutoffDelta": 0.24,
+      "spread": 0.65,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 68.1,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.433,
+          "percentile": 68.1
+        }
+      ],
+      "overall": 68.1,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 438,
+      "round": "2",
+      "dancer1": "Fabian Francisco Rodriguez",
+      "dancer2": "Eliana Gisela Mola",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 7.49,
+          "dropped": false
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.5,
+          "dropped": true
+        },
+        {
+          "name": "Graciela García",
+          "score": 7.41,
+          "dropped": false
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7.3,
+          "dropped": false
+        },
+        {
+          "name": "Guido Placios",
+          "score": 6.7,
+          "dropped": true
+        }
+      ],
+      "average": 7.4,
+      "officialAverage": 7.4,
+      "rankInBlock": 12,
+      "rankOverall": 48,
+      "classified": true,
+      "cutoffDelta": 0.207,
+      "spread": 0.8,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 65.2,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.4,
+          "percentile": 65.2
+        }
+      ],
+      "overall": 65.2,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 481,
+      "round": "2",
+      "dancer1": "Ulises García",
+      "dancer2": "Florencia Campo",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 7.52,
+          "dropped": false
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.75,
+          "dropped": true
+        },
+        {
+          "name": "Graciela García",
+          "score": 6.5,
+          "dropped": true
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7.5,
+          "dropped": false
+        },
+        {
+          "name": "Guido Placios",
+          "score": 7.1,
+          "dropped": false
+        }
+      ],
+      "average": 7.373,
+      "officialAverage": 7.373,
+      "rankInBlock": 13,
+      "rankOverall": 50,
+      "classified": true,
+      "cutoffDelta": 0.18,
+      "spread": 1.25,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 63.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.373,
+          "percentile": 63.7
+        }
+      ],
+      "overall": 63.7,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 277,
+      "round": "2",
+      "dancer1": "Eduardo Roman",
+      "dancer2": "Tamara Borda",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 7.53,
+          "dropped": true
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.35,
+          "dropped": false
+        },
+        {
+          "name": "Graciela García",
+          "score": 7.28,
+          "dropped": false
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7.4,
+          "dropped": false
+        },
+        {
+          "name": "Guido Placios",
+          "score": 6.8,
+          "dropped": true
+        }
+      ],
+      "average": 7.343,
+      "officialAverage": 7.343,
+      "rankInBlock": 14,
+      "rankOverall": 53,
+      "classified": true,
+      "cutoffDelta": 0.15,
+      "spread": 0.73,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 61.5,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.343,
+          "percentile": 61.5
+        }
+      ],
+      "overall": 61.5,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 177,
+      "round": "2",
+      "dancer1": "Alexander Komogortsev",
+      "dancer2": "Kristina Komogortseva",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 7.2,
+          "dropped": true
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.6,
+          "dropped": true
+        },
+        {
+          "name": "Graciela García",
+          "score": 7.38,
+          "dropped": false
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7.2,
+          "dropped": false
+        },
+        {
+          "name": "Guido Placios",
+          "score": 7.4,
+          "dropped": false
+        }
+      ],
+      "average": 7.327,
+      "officialAverage": 7.327,
+      "rankInBlock": 15,
+      "rankOverall": 55,
+      "classified": true,
+      "cutoffDelta": 0.134,
+      "spread": 0.4,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 60,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.327,
+          "percentile": 60
+        }
+      ],
+      "overall": 60,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 237,
+      "round": "3",
+      "dancer1": "Bubis Mikhail",
+      "dancer2": "Sofia Titova",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 6.98,
+          "dropped": true
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.6,
+          "dropped": true
+        },
+        {
+          "name": "Graciela García",
+          "score": 7.18,
+          "dropped": false
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7.4,
+          "dropped": false
+        },
+        {
+          "name": "Guido Placios",
+          "score": 7,
+          "dropped": false
+        }
+      ],
+      "average": 7.193,
+      "officialAverage": 7.193,
+      "rankInBlock": 16,
+      "rankOverall": 68,
+      "classified": true,
+      "cutoffDelta": 0,
+      "spread": 0.62,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 50.4,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.193,
+          "percentile": 50.4
+        }
+      ],
+      "overall": 50.4,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 341,
+      "round": "1B",
+      "dancer1": "Maximiliano Astorga",
+      "dancer2": "Marilyn Monguí",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 7.15,
+          "dropped": false
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.15,
+          "dropped": false
+        },
+        {
+          "name": "Graciela García",
+          "score": 7.2,
+          "dropped": false
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7.3,
+          "dropped": true
+        },
+        {
+          "name": "Guido Placios",
+          "score": 6.6,
+          "dropped": true
+        }
+      ],
+      "average": 7.167,
+      "officialAverage": 7.167,
+      "rankInBlock": 17,
+      "rankOverall": 71,
+      "classified": false,
+      "cutoffDelta": -0.026,
+      "spread": 0.7,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 48.1,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.167,
+          "percentile": 48.1
+        }
+      ],
+      "overall": 48.1,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 227,
+      "round": "1B",
+      "dancer1": "Fernando de Campos",
+      "dancer2": "Debora Ambrosano",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 7.45,
+          "dropped": false
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.6,
+          "dropped": true
+        },
+        {
+          "name": "Graciela García",
+          "score": 7.3,
+          "dropped": false
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 6.7,
+          "dropped": true
+        },
+        {
+          "name": "Guido Placios",
+          "score": 6.7,
+          "dropped": false
+        }
+      ],
+      "average": 7.15,
+      "officialAverage": 7.15,
+      "rankInBlock": 18,
+      "rankOverall": 72,
+      "classified": false,
+      "cutoffDelta": -0.043,
+      "spread": 0.9,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 47.4,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.15,
+          "percentile": 47.4
+        }
+      ],
+      "overall": 47.4,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 454,
+      "round": "2",
+      "dancer1": "Gonzalo Sanchez",
+      "dancer2": "Maria Emilia Hauron",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 6.8,
+          "dropped": false
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.45,
+          "dropped": true
+        },
+        {
+          "name": "Graciela García",
+          "score": 7.17,
+          "dropped": false
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7.25,
+          "dropped": false
+        },
+        {
+          "name": "Guido Placios",
+          "score": 6.5,
+          "dropped": true
+        }
+      ],
+      "average": 7.073,
+      "officialAverage": 7.073,
+      "rankInBlock": 19,
+      "rankOverall": 78,
+      "classified": false,
+      "cutoffDelta": -0.12,
+      "spread": 0.95,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 43,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.073,
+          "percentile": 43
+        }
+      ],
+      "overall": 43,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 490,
+      "round": "2",
+      "dancer1": "Deiber Velasquez Mejia",
+      "dancer2": "Estefania Arenas Castrillon",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 6.88,
+          "dropped": false
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.35,
+          "dropped": true
+        },
+        {
+          "name": "Graciela García",
+          "score": 6.95,
+          "dropped": false
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7.3,
+          "dropped": false
+        },
+        {
+          "name": "Guido Placios",
+          "score": 6.8,
+          "dropped": true
+        }
+      ],
+      "average": 7.043,
+      "officialAverage": 7.043,
+      "rankInBlock": 20,
+      "rankOverall": 82,
+      "classified": false,
+      "cutoffDelta": -0.15,
+      "spread": 0.55,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 40,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.043,
+          "percentile": 40
+        }
+      ],
+      "overall": 40,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 465,
+      "round": "2",
+      "dancer1": "Ezequiel Posse",
+      "dancer2": "Facundo Posse",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 6.9,
+          "dropped": false
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 6.8,
+          "dropped": true
+        },
+        {
+          "name": "Graciela García",
+          "score": 7.37,
+          "dropped": true
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7,
+          "dropped": false
+        },
+        {
+          "name": "Guido Placios",
+          "score": 7,
+          "dropped": false
+        }
+      ],
+      "average": 6.967,
+      "officialAverage": 6.967,
+      "rankInBlock": 21,
+      "rankOverall": 90,
+      "classified": false,
+      "cutoffDelta": -0.226,
+      "spread": 0.57,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 34.1,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 6.967,
+          "percentile": 34.1
+        }
+      ],
+      "overall": 34.1,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 640,
+      "round": "3",
+      "dancer1": "Froyamel Corro",
+      "dancer2": "Eliana Magali Lombardelli",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 7.15,
+          "dropped": false
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 6.8,
+          "dropped": true
+        },
+        {
+          "name": "Graciela García",
+          "score": 6.8,
+          "dropped": false
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7.2,
+          "dropped": true
+        },
+        {
+          "name": "Guido Placios",
+          "score": 6.9,
+          "dropped": false
+        }
+      ],
+      "average": 6.95,
+      "officialAverage": 6.95,
+      "rankInBlock": 22,
+      "rankOverall": 93,
+      "classified": false,
+      "cutoffDelta": -0.243,
+      "spread": 0.4,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 31.9,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 6.95,
+          "percentile": 31.9
+        }
+      ],
+      "overall": 31.9,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 260,
+      "round": "1B",
+      "dancer1": "Nahuel Esteban Mansilla",
+      "dancer2": "Maria Tatiana Bernacki",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 6.6,
+          "dropped": true
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.2,
+          "dropped": false
+        },
+        {
+          "name": "Graciela García",
+          "score": 6.9,
+          "dropped": false
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7.65,
+          "dropped": true
+        },
+        {
+          "name": "Guido Placios",
+          "score": 6.7,
+          "dropped": false
+        }
+      ],
+      "average": 6.933,
+      "officialAverage": 6.933,
+      "rankInBlock": 23,
+      "rankOverall": 95,
+      "classified": false,
+      "cutoffDelta": -0.26,
+      "spread": 1.05,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 30.4,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 6.933,
+          "percentile": 30.4
+        }
+      ],
+      "overall": 30.4,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 579,
+      "round": "3",
+      "dancer1": "Cristian Correa",
+      "dancer2": "Fiamma Clozza",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 6.98,
+          "dropped": false
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.5,
+          "dropped": true
+        },
+        {
+          "name": "Graciela García",
+          "score": 6.75,
+          "dropped": false
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7,
+          "dropped": false
+        },
+        {
+          "name": "Guido Placios",
+          "score": 6.5,
+          "dropped": true
+        }
+      ],
+      "average": 6.91,
+      "officialAverage": 6.91,
+      "rankInBlock": 24,
+      "rankOverall": 96,
+      "classified": false,
+      "cutoffDelta": -0.283,
+      "spread": 1,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 29.6,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 6.91,
+          "percentile": 29.6
+        }
+      ],
+      "overall": 29.6,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 486,
+      "round": "3",
+      "dancer1": "Francisco Jesus Zeni",
+      "dancer2": "Gabriela Garcia Ramirez",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 6.52,
+          "dropped": false
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.45,
+          "dropped": true
+        },
+        {
+          "name": "Graciela García",
+          "score": 6.65,
+          "dropped": false
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7.1,
+          "dropped": false
+        },
+        {
+          "name": "Guido Placios",
+          "score": 6.5,
+          "dropped": true
+        }
+      ],
+      "average": 6.757,
+      "officialAverage": 6.757,
+      "rankInBlock": 25,
+      "rankOverall": 109,
+      "classified": false,
+      "cutoffDelta": -0.436,
+      "spread": 0.95,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 20,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 6.757,
+          "percentile": 20
+        }
+      ],
+      "overall": 20,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 195,
+      "round": "3",
+      "dancer1": "Walter Schefer",
+      "dancer2": "Yanel AluminéLazo",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 6.76,
+          "dropped": false
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.35,
+          "dropped": true
+        },
+        {
+          "name": "Graciela García",
+          "score": 6.2,
+          "dropped": false
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 6.8,
+          "dropped": false
+        },
+        {
+          "name": "Guido Placios",
+          "score": 6,
+          "dropped": true
+        }
+      ],
+      "average": 6.587,
+      "officialAverage": 6.587,
+      "rankInBlock": 26,
+      "rankOverall": 116,
+      "classified": false,
+      "cutoffDelta": -0.606,
+      "spread": 1.35,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 14.8,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 6.587,
+          "percentile": 14.8
+        }
+      ],
+      "overall": 14.8,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 274,
+      "round": "1B",
+      "dancer1": "Sebastián Pérez González",
+      "dancer2": "Angela Fuentes Rivera",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 6.35,
+          "dropped": false
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 6.7,
+          "dropped": false
+        },
+        {
+          "name": "Graciela García",
+          "score": 6.25,
+          "dropped": true
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7,
+          "dropped": true
+        },
+        {
+          "name": "Guido Placios",
+          "score": 6.7,
+          "dropped": false
+        }
+      ],
+      "average": 6.583,
+      "officialAverage": 6.583,
+      "rankInBlock": 27,
+      "rankOverall": 117,
+      "classified": false,
+      "cutoffDelta": -0.61,
+      "spread": 0.75,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 14.1,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 6.583,
+          "percentile": 14.1
+        }
+      ],
+      "overall": 14.1,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 530,
+      "round": "3",
+      "dancer1": "Diana Cortés",
+      "dancer2": "Anabel Saldaña Martinez",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 6.34,
+          "dropped": false
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 6.5,
+          "dropped": false
+        },
+        {
+          "name": "Graciela García",
+          "score": 6.6,
+          "dropped": false
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7,
+          "dropped": true
+        },
+        {
+          "name": "Guido Placios",
+          "score": 6,
+          "dropped": true
+        }
+      ],
+      "average": 6.48,
+      "officialAverage": 6.48,
+      "rankInBlock": 28,
+      "rankOverall": 122,
+      "classified": false,
+      "cutoffDelta": -0.713,
+      "spread": 1,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 10.4,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 6.48,
+          "percentile": 10.4
+        }
+      ],
+      "overall": 10.4,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 410,
+      "round": "1B",
+      "dancer1": "Marcos Carabajal",
+      "dancer2": "Ana Neil",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 6.4,
+          "dropped": false
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 6.65,
+          "dropped": false
+        },
+        {
+          "name": "Graciela García",
+          "score": 6.3,
+          "dropped": false
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 6.8,
+          "dropped": true
+        },
+        {
+          "name": "Guido Placios",
+          "score": 6.1,
+          "dropped": true
+        }
+      ],
+      "average": 6.45,
+      "officialAverage": 6.45,
+      "rankInBlock": 29,
+      "rankOverall": 123,
+      "classified": false,
+      "cutoffDelta": -0.743,
+      "spread": 0.7,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 9.6,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 6.45,
+          "percentile": 9.6
+        }
+      ],
+      "overall": 9.6,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 398,
+      "round": "1B",
+      "dancer1": "Hisasi Tani",
+      "dancer2": "Hazuki Arai",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 6,
+          "dropped": true
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 6.5,
+          "dropped": false
+        },
+        {
+          "name": "Graciela García",
+          "score": 6.7,
+          "dropped": true
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 6.7,
+          "dropped": false
+        },
+        {
+          "name": "Guido Placios",
+          "score": 6,
+          "dropped": false
+        }
+      ],
+      "average": 6.4,
+      "officialAverage": 6.4,
+      "rankInBlock": 30,
+      "rankOverall": 124,
+      "classified": false,
+      "cutoffDelta": -0.793,
+      "spread": 0.7,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 8.9,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 6.4,
+          "percentile": 8.9
+        }
+      ],
+      "overall": 8.9,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 45,
+      "round": "1B",
+      "dancer1": "Luis Gioffreda",
+      "dancer2": "Lidia Cardozo",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 5.8,
+          "dropped": false
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 5.3,
+          "dropped": true
+        },
+        {
+          "name": "Graciela García",
+          "score": 6,
+          "dropped": false
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 6.2,
+          "dropped": true
+        },
+        {
+          "name": "Guido Placios",
+          "score": 5.3,
+          "dropped": false
+        }
+      ],
+      "average": 5.7,
+      "officialAverage": 5.7,
+      "rankInBlock": 31,
+      "rankOverall": 134,
+      "classified": false,
+      "cutoffDelta": -1.493,
+      "spread": 0.9,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 1.5,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 5.7,
+          "percentile": 1.5
+        }
+      ],
+      "overall": 1.5,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 448,
+      "round": "2",
+      "dancer1": "Jorge Calabrigo",
+      "dancer2": "Tiziana Silva",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 7.9,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 7.75,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 7.55,
+          "dropped": true
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 7.75,
+          "dropped": false
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.88,
+          "dropped": false
+        }
+      ],
+      "average": 7.793,
+      "officialAverage": 7.793,
+      "rankInBlock": 1,
+      "rankOverall": 10,
+      "classified": true,
+      "cutoffDelta": 0.726,
+      "spread": 0.35,
+      "blockId": "C",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 93.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.793,
+          "percentile": 93.3
+        }
+      ],
+      "overall": 93.3,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 521,
+      "round": "2",
+      "dancer1": "Sebastian Fernandez",
+      "dancer2": "Mariia Marinova",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 7.92,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 7.7,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 7.6,
+          "dropped": true
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 7.7,
+          "dropped": false
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.95,
+          "dropped": true
+        }
+      ],
+      "average": 7.773,
+      "officialAverage": 7.773,
+      "rankInBlock": 2,
+      "rankOverall": 13,
+      "classified": true,
+      "cutoffDelta": 0.706,
+      "spread": 0.35,
+      "blockId": "C",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 91.1,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.773,
+          "percentile": 91.1
+        }
+      ],
+      "overall": 91.1,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 117,
+      "round": "3",
+      "dancer1": "Lisandro Eberle",
+      "dancer2": "Guadalupe Ponzelli",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 7.91,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 7.89,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 7.49,
+          "dropped": false
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 7.4,
+          "dropped": true
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.95,
+          "dropped": true
+        }
+      ],
+      "average": 7.763,
+      "officialAverage": 7.763,
+      "rankInBlock": 3,
+      "rankOverall": 15,
+      "classified": true,
+      "cutoffDelta": 0.696,
+      "spread": 0.55,
+      "blockId": "C",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 89.6,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.763,
+          "percentile": 89.6
+        }
+      ],
+      "overall": 89.6,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 590,
+      "round": "2",
+      "dancer1": "Federico Leonardo Luna",
+      "dancer2": "Aldana Jimenez",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 7.8,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 7.6,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 7.48,
+          "dropped": true
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 7.8,
+          "dropped": false
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.9,
+          "dropped": true
+        }
+      ],
+      "average": 7.733,
+      "officialAverage": 7.733,
+      "rankInBlock": 4,
+      "rankOverall": 18,
+      "classified": true,
+      "cutoffDelta": 0.666,
+      "spread": 0.42,
+      "blockId": "C",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 87.4,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.733,
+          "percentile": 87.4
+        }
+      ],
+      "overall": 87.4,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 440,
+      "round": "2",
+      "dancer1": "Stanislav Fursov",
+      "dancer2": "Ekaterina Simonova",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 7.35,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 7.95,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 7.49,
+          "dropped": false
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 7.7,
+          "dropped": false
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.99,
+          "dropped": true
+        }
+      ],
+      "average": 7.713,
+      "officialAverage": 7.713,
+      "rankInBlock": 5,
+      "rankOverall": 20,
+      "classified": true,
+      "cutoffDelta": 0.646,
+      "spread": 0.64,
+      "blockId": "C",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 85.9,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.713,
+          "percentile": 85.9
+        }
+      ],
+      "overall": 85.9,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 406,
+      "round": "3",
+      "dancer1": "Adriel Cristhian Bournissen",
+      "dancer2": "María Soledad Mallo",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 7.7,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 7.7,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 7.59,
+          "dropped": false
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 7.45,
+          "dropped": true
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.82,
+          "dropped": true
+        }
+      ],
+      "average": 7.663,
+      "officialAverage": 7.663,
+      "rankInBlock": 6,
+      "rankOverall": 22,
+      "classified": true,
+      "cutoffDelta": 0.596,
+      "spread": 0.37,
+      "blockId": "C",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 84.4,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.663,
+          "percentile": 84.4
+        }
+      ],
+      "overall": 84.4,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 665,
+      "round": "1",
+      "dancer1": "Sebastian Acosta",
+      "dancer2": "Laura DAnna",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 7.6,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 7.5,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 7.4,
+          "dropped": true
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 7.8,
+          "dropped": true
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.75,
+          "dropped": false
+        }
+      ],
+      "average": 7.617,
+      "officialAverage": 7.617,
+      "rankInBlock": 7,
+      "rankOverall": 25,
+      "classified": true,
+      "cutoffDelta": 0.55,
+      "spread": 0.4,
+      "blockId": "C",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 82.2,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.617,
+          "percentile": 82.2
+        }
+      ],
+      "overall": 82.2,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 342,
+      "round": "2",
+      "dancer1": "Ramiro Nicolas Almiron",
+      "dancer2": "Laly Torres",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 7.6,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 7.65,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 7.45,
+          "dropped": false
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 7,
+          "dropped": true
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.92,
+          "dropped": true
+        }
+      ],
+      "average": 7.567,
+      "officialAverage": 7.567,
+      "rankInBlock": 8,
+      "rankOverall": 27,
+      "classified": true,
+      "cutoffDelta": 0.5,
+      "spread": 0.92,
+      "blockId": "C",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 80.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.567,
+          "percentile": 80.7
+        }
+      ],
+      "overall": 80.7,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 495,
+      "round": "3",
+      "dancer1": "Cristian Rubén Zalazar",
+      "dancer2": "Carla Daniela Espinoza",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 7.75,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 7.4,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 7.53,
+          "dropped": false
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 7.35,
+          "dropped": true
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.64,
+          "dropped": false
+        }
+      ],
+      "average": 7.523,
+      "officialAverage": 7.523,
+      "rankInBlock": 9,
+      "rankOverall": 33,
+      "classified": true,
+      "cutoffDelta": 0.456,
+      "spread": 0.4,
+      "blockId": "C",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 76.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.523,
+          "percentile": 76.3
+        }
+      ],
+      "overall": 76.3,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 249,
+      "round": "2",
+      "dancer1": "Matías Gabriel Casali",
+      "dancer2": "María Sol Menescardi",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 7.5,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 7.55,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 7.47,
+          "dropped": false
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 7.1,
+          "dropped": true
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.85,
+          "dropped": true
+        }
+      ],
+      "average": 7.507,
+      "officialAverage": 7.507,
+      "rankInBlock": 10,
+      "rankOverall": 34,
+      "classified": true,
+      "cutoffDelta": 0.44,
+      "spread": 0.75,
+      "blockId": "C",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 75.6,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.507,
+          "percentile": 75.6
+        }
+      ],
+      "overall": 75.6,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 373,
+      "round": "3",
+      "dancer1": "Luis Emilio Cappelletti",
+      "dancer2": "Vittoria Franchina",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 7.4,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 7.45,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 7.04,
+          "dropped": true
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 7.2,
+          "dropped": false
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.62,
+          "dropped": true
+        }
+      ],
+      "average": 7.35,
+      "officialAverage": 7.35,
+      "rankInBlock": 11,
+      "rankOverall": 51,
+      "classified": true,
+      "cutoffDelta": 0.283,
+      "spread": 0.58,
+      "blockId": "C",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 63,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.35,
+          "percentile": 63
+        }
+      ],
+      "overall": 63,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 491,
+      "round": "2",
+      "dancer1": "Luciano Castro",
+      "dancer2": "Eliana Villarruel",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 7.43,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 7.3,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 6.9,
+          "dropped": true
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 7.2,
+          "dropped": false
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.39,
+          "dropped": false
+        }
+      ],
+      "average": 7.297,
+      "officialAverage": 7.297,
+      "rankInBlock": 12,
+      "rankOverall": 58,
+      "classified": true,
+      "cutoffDelta": 0.23,
+      "spread": 0.53,
+      "blockId": "C",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 57.8,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.297,
+          "percentile": 57.8
+        }
+      ],
+      "overall": 57.8,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 290,
+      "round": "1",
+      "dancer1": "Ivan Loaiza",
+      "dancer2": "Yurani Arboleda Parra",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 7.45,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 7.1,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 7.2,
+          "dropped": false
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 6.9,
+          "dropped": true
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.55,
+          "dropped": true
+        }
+      ],
+      "average": 7.25,
+      "officialAverage": 7.25,
+      "rankInBlock": 13,
+      "rankOverall": 62,
+      "classified": true,
+      "cutoffDelta": 0.183,
+      "spread": 0.65,
+      "blockId": "C",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 54.8,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.25,
+          "percentile": 54.8
+        }
+      ],
+      "overall": 54.8,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 330,
+      "round": "1",
+      "dancer1": "Carlos Flores",
+      "dancer2": "Marcia Martinucci",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 7.35,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 7.15,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 7.15,
+          "dropped": false
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 6.95,
+          "dropped": true
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.52,
+          "dropped": true
+        }
+      ],
+      "average": 7.217,
+      "officialAverage": 7.217,
+      "rankInBlock": 14,
+      "rankOverall": 66,
+      "classified": true,
+      "cutoffDelta": 0.15,
+      "spread": 0.57,
+      "blockId": "C",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 51.9,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.217,
+          "percentile": 51.9
+        }
+      ],
+      "overall": 51.9,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 439,
+      "round": "3",
+      "dancer1": "Ramiro Perez Caricchio",
+      "dancer2": "Sofia Ferre",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 7.2,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 7.15,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 6.9,
+          "dropped": true
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 7.2,
+          "dropped": false
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.55,
+          "dropped": true
+        }
+      ],
+      "average": 7.183,
+      "officialAverage": 7.183,
+      "rankInBlock": 15,
+      "rankOverall": 69,
+      "classified": true,
+      "cutoffDelta": 0.116,
+      "spread": 0.65,
+      "blockId": "C",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 49.6,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.183,
+          "percentile": 49.6
+        }
+      ],
+      "overall": 49.6,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 602,
+      "round": "1",
+      "dancer1": "Luis Rodriguez Garcia",
+      "dancer2": "Ana Belen Ortiz",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 7.05,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 7,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 6.3,
+          "dropped": true
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 7.2,
+          "dropped": false
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.22,
+          "dropped": true
+        }
+      ],
+      "average": 7.083,
+      "officialAverage": 7.083,
+      "rankInBlock": 16,
+      "rankOverall": 77,
+      "classified": true,
+      "cutoffDelta": 0.016,
+      "spread": 0.92,
+      "blockId": "C",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 43.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.083,
+          "percentile": 43.7
+        }
+      ],
+      "overall": 43.7,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 558,
+      "round": "1",
+      "dancer1": "Dylan Fragoli",
+      "dancer2": "Joselyn Porcel",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 7.48,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 7.05,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 6.9,
+          "dropped": false
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 6.6,
+          "dropped": true
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.25,
+          "dropped": false
+        }
+      ],
+      "average": 7.067,
+      "officialAverage": 7.067,
+      "rankInBlock": 17,
+      "rankOverall": 80,
+      "classified": true,
+      "cutoffDelta": 0,
+      "spread": 0.88,
+      "blockId": "C",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 41.5,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.067,
+          "percentile": 41.5
+        }
+      ],
+      "overall": 41.5,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 489,
+      "round": "1",
+      "dancer1": "Jhony Blandón",
+      "dancer2": "Viviana Salazar Loaiza",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 6.1,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 6.9,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 7,
+          "dropped": false
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 7.15,
+          "dropped": false
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.28,
+          "dropped": true
+        }
+      ],
+      "average": 7.017,
+      "officialAverage": 7.017,
+      "rankInBlock": 18,
+      "rankOverall": 84,
+      "classified": false,
+      "cutoffDelta": -0.05,
+      "spread": 1.18,
+      "blockId": "C",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 38.5,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.017,
+          "percentile": 38.5
+        }
+      ],
+      "overall": 38.5,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 560,
+      "round": "2",
+      "dancer1": "Santiago Nicolás Maidana",
+      "dancer2": "Vanina De Paoli",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 6.7,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 7.2,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 6.94,
+          "dropped": false
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 6.9,
+          "dropped": false
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.45,
+          "dropped": true
+        }
+      ],
+      "average": 7.013,
+      "officialAverage": 7.013,
+      "rankInBlock": 19,
+      "rankOverall": 85,
+      "classified": false,
+      "cutoffDelta": -0.054,
+      "spread": 0.75,
+      "blockId": "C",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 37.8,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.013,
+          "percentile": 37.8
+        }
+      ],
+      "overall": 37.8,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 568,
+      "round": "3",
+      "dancer1": "Wamber Sarazola",
+      "dancer2": "Julia Cayo",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 6.95,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 6.9,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 7.16,
+          "dropped": false
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 6.8,
+          "dropped": true
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.43,
+          "dropped": true
+        }
+      ],
+      "average": 7.003,
+      "officialAverage": 7.003,
+      "rankInBlock": 20,
+      "rankOverall": 86,
+      "classified": false,
+      "cutoffDelta": -0.064,
+      "spread": 0.63,
+      "blockId": "C",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 37,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.003,
+          "percentile": 37
+        }
+      ],
+      "overall": 37,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 293,
+      "round": "1",
+      "dancer1": "Hernan Rodriguez",
+      "dancer2": "Maria Florencia Labiano",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 6.95,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 7.05,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 6.81,
+          "dropped": true
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 7,
+          "dropped": false
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.32,
+          "dropped": true
+        }
+      ],
+      "average": 7,
+      "officialAverage": 7,
+      "rankInBlock": 21,
+      "rankOverall": 87,
+      "classified": false,
+      "cutoffDelta": -0.067,
+      "spread": 0.51,
+      "blockId": "C",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 36.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7,
+          "percentile": 36.3
+        }
+      ],
+      "overall": 36.3,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 352,
+      "round": "1",
+      "dancer1": "Victor Ocampo Labarthe",
+      "dancer2": "Maria Eugenia Vaz González",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 7.3,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 6,
+          "dropped": true
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 6.61,
+          "dropped": false
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 6.95,
+          "dropped": false
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.34,
+          "dropped": true
+        }
+      ],
+      "average": 6.953,
+      "officialAverage": 6.953,
+      "rankInBlock": 22,
+      "rankOverall": 92,
+      "classified": false,
+      "cutoffDelta": -0.114,
+      "spread": 1.34,
+      "blockId": "C",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 32.6,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 6.953,
+          "percentile": 32.6
+        }
+      ],
+      "overall": 32.6,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 377,
+      "round": "3",
+      "dancer1": "Diego Amado",
+      "dancer2": "Tatiana Lopez",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 6.7,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 6.5,
+          "dropped": true
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 6.91,
+          "dropped": false
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 7.2,
+          "dropped": false
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.54,
+          "dropped": true
+        }
+      ],
+      "average": 6.937,
+      "officialAverage": 6.937,
+      "rankInBlock": 23,
+      "rankOverall": 94,
+      "classified": false,
+      "cutoffDelta": -0.13,
+      "spread": 1.04,
+      "blockId": "C",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 31.1,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 6.937,
+          "percentile": 31.1
+        }
+      ],
+      "overall": 31.1,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 396,
+      "round": "3",
+      "dancer1": "Rika Noda",
+      "dancer2": "Lucas Aaron Martin",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 7,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 6.8,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 6.9,
+          "dropped": false
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 6.2,
+          "dropped": true
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.29,
+          "dropped": true
+        }
+      ],
+      "average": 6.9,
+      "officialAverage": 6.9,
+      "rankInBlock": 24,
+      "rankOverall": 97,
+      "classified": false,
+      "cutoffDelta": -0.167,
+      "spread": 1.09,
+      "blockId": "C",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 28.9,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 6.9,
+          "percentile": 28.9
+        }
+      ],
+      "overall": 28.9,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 555,
+      "round": "3",
+      "dancer1": "Joaquin Sosa",
+      "dancer2": "Maya Gorosito",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 6.95,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 6.85,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 6.88,
+          "dropped": false
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 6.7,
+          "dropped": true
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.38,
+          "dropped": true
+        }
+      ],
+      "average": 6.893,
+      "officialAverage": 6.893,
+      "rankInBlock": 25,
+      "rankOverall": 100,
+      "classified": false,
+      "cutoffDelta": -0.174,
+      "spread": 0.68,
+      "blockId": "C",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 26.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 6.893,
+          "percentile": 26.7
+        }
+      ],
+      "overall": 26.7,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 171,
+      "round": "2",
+      "dancer1": "Fernando Nahuel Tortosa",
+      "dancer2": "Sinta Karolina Koesnadi",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 6.5,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 6.95,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 6.65,
+          "dropped": false
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 5.6,
+          "dropped": true
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.2,
+          "dropped": true
+        }
+      ],
+      "average": 6.7,
+      "officialAverage": 6.7,
+      "rankInBlock": 26,
+      "rankOverall": 113,
+      "classified": false,
+      "cutoffDelta": -0.367,
+      "spread": 1.6,
+      "blockId": "C",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 17,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 6.7,
+          "percentile": 17
+        }
+      ],
+      "overall": 17,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 174,
+      "round": "2",
+      "dancer1": "Alexander Skarlato",
+      "dancer2": "Carolina Oria",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 7.4,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 6,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 6.7,
+          "dropped": false
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 5.9,
+          "dropped": true
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.26,
+          "dropped": false
+        }
+      ],
+      "average": 6.653,
+      "officialAverage": 6.653,
+      "rankInBlock": 27,
+      "rankOverall": 115,
+      "classified": false,
+      "cutoffDelta": -0.414,
+      "spread": 1.5,
+      "blockId": "C",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 15.6,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 6.653,
+          "percentile": 15.6
+        }
+      ],
+      "overall": 15.6,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 265,
+      "round": "2",
+      "dancer1": "Masakazu Kobayashi",
+      "dancer2": "Tomomi Kobayashi",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 6.6,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 6.9,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 6.2,
+          "dropped": true
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 6.2,
+          "dropped": false
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.29,
+          "dropped": true
+        }
+      ],
+      "average": 6.567,
+      "officialAverage": 6.567,
+      "rankInBlock": 28,
+      "rankOverall": 118,
+      "classified": false,
+      "cutoffDelta": -0.5,
+      "spread": 1.09,
+      "blockId": "C",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 13.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 6.567,
+          "percentile": 13.3
+        }
+      ],
+      "overall": 13.3,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 98,
+      "round": "2",
+      "dancer1": "Rafael D'Amici",
+      "dancer2": "Glenda Ghetti",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 7.1,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 5.95,
+          "dropped": true
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 6.4,
+          "dropped": false
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 6.2,
+          "dropped": false
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 6.99,
+          "dropped": false
+        }
+      ],
+      "average": 6.53,
+      "officialAverage": 6.53,
+      "rankInBlock": 29,
+      "rankOverall": 120,
+      "classified": false,
+      "cutoffDelta": -0.537,
+      "spread": 1.15,
+      "blockId": "C",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 11.9,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 6.53,
+          "percentile": 11.9
+        }
+      ],
+      "overall": 11.9,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 492,
+      "round": "1",
+      "dancer1": "Federico Heredia",
+      "dancer2": "Nadia Caparrós",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 6.75,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 5.7,
+          "dropped": true
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 6.4,
+          "dropped": false
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 6.3,
+          "dropped": false
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.19,
+          "dropped": true
+        }
+      ],
+      "average": 6.483,
+      "officialAverage": 6.483,
+      "rankInBlock": 30,
+      "rankOverall": 121,
+      "classified": false,
+      "cutoffDelta": -0.584,
+      "spread": 1.49,
+      "blockId": "C",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 11.1,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 6.483,
+          "percentile": 11.1
+        }
+      ],
+      "overall": 11.1,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 19,
+      "round": "1",
+      "dancer1": "Andreino Possenti",
+      "dancer2": "Stefania Sonzogni",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 5.85,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 6.95,
+          "dropped": true
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 6,
+          "dropped": false
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 6.2,
+          "dropped": false
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 6.95,
+          "dropped": false
+        }
+      ],
+      "average": 6.383,
+      "officialAverage": 6.383,
+      "rankInBlock": 31,
+      "rankOverall": 125,
+      "classified": false,
+      "cutoffDelta": -0.684,
+      "spread": 1.1,
+      "blockId": "C",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 8.1,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 6.383,
+          "percentile": 8.1
+        }
+      ],
+      "overall": 8.1,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 72,
+      "round": "3",
+      "dancer1": "Gaston Rodriguez",
+      "dancer2": "Hilen Itati Lastiri",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 6.1,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 6,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 6.75,
+          "dropped": false
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 5.9,
+          "dropped": true
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 7.09,
+          "dropped": true
+        }
+      ],
+      "average": 6.283,
+      "officialAverage": 6.283,
+      "rankInBlock": 32,
+      "rankOverall": 128,
+      "classified": false,
+      "cutoffDelta": -0.784,
+      "spread": 1.19,
+      "blockId": "C",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 5.9,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 6.283,
+          "percentile": 5.9
+        }
+      ],
+      "overall": 5.9,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 67,
+      "round": "1",
+      "dancer1": "Vladimir Altamirano",
+      "dancer2": "Malaika Kobler",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 5.8,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 5.5,
+          "dropped": true
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 5.7,
+          "dropped": false
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 6.4,
+          "dropped": true
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 6.09,
+          "dropped": false
+        }
+      ],
+      "average": 5.863,
+      "officialAverage": 5.863,
+      "rankInBlock": 33,
+      "rankOverall": 133,
+      "classified": false,
+      "cutoffDelta": -1.204,
+      "spread": 0.9,
+      "blockId": "C",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 2.2,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 5.863,
+          "percentile": 2.2
+        }
+      ],
+      "overall": 2.2,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 96,
+      "round": "2",
+      "dancer1": "Aharon Weiner",
+      "dancer2": "Maria Stepanova",
+      "judges": [
+        {
+          "name": "Soledad Buss",
+          "score": 5.7,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Rodriguez",
+          "score": 5.5,
+          "dropped": false
+        },
+        {
+          "name": "Martín Ojeda",
+          "score": 5.3,
+          "dropped": true
+        },
+        {
+          "name": "Agustina Vignau",
+          "score": 5.5,
+          "dropped": false
+        },
+        {
+          "name": "Gabriel Ortega",
+          "score": 6.75,
+          "dropped": true
+        }
+      ],
+      "average": 5.567,
+      "officialAverage": 5.567,
+      "rankInBlock": 34,
+      "rankOverall": 136,
+      "classified": false,
+      "cutoffDelta": -1.5,
+      "spread": 1.45,
+      "blockId": "C",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 0,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 5.567,
+          "percentile": 0
+        }
+      ],
+      "overall": 0,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 554,
+      "round": "2",
+      "dancer1": "Ariel Leguizamon",
+      "dancer2": "Yesica Esquivel",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 7.91,
+          "dropped": false
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.95,
+          "dropped": true
+        },
+        {
+          "name": "Graciela García",
+          "score": 7.78,
+          "dropped": true
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7.85,
+          "dropped": false
+        },
+        {
+          "name": "Guido Placios",
+          "score": 7.89,
+          "dropped": false
+        }
+      ],
+      "average": 7.883,
+      "officialAverage": 7.883,
+      "rankInBlock": 1,
+      "rankOverall": 2,
+      "classified": true,
+      "cutoffDelta": 0.48,
+      "spread": 0.17,
+      "blockId": "D",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 99.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.883,
+          "percentile": 99.3
+        }
+      ],
+      "overall": 99.3,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 92,
+      "round": "3",
+      "dancer1": "Carlos Cisneros",
+      "dancer2": "Juan Segui",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 7.9,
+          "dropped": true
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.85,
+          "dropped": false
+        },
+        {
+          "name": "Graciela García",
+          "score": 7.9,
+          "dropped": false
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7.8,
+          "dropped": false
+        },
+        {
+          "name": "Guido Placios",
+          "score": 7.73,
+          "dropped": true
+        }
+      ],
+      "average": 7.85,
+      "officialAverage": 7.85,
+      "rankInBlock": 2,
+      "rankOverall": 3,
+      "classified": true,
+      "cutoffDelta": 0.447,
+      "spread": 0.17,
+      "blockId": "D",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 98.5,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.85,
+          "percentile": 98.5
+        }
+      ],
+      "overall": 98.5,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 284,
+      "round": "2",
+      "dancer1": "Julio JoséSeffino",
+      "dancer2": "Aldana Belén Tade",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 7.89,
+          "dropped": false
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.9,
+          "dropped": true
+        },
+        {
+          "name": "Graciela García",
+          "score": 7.8,
+          "dropped": false
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7.8,
+          "dropped": false
+        },
+        {
+          "name": "Guido Placios",
+          "score": 7.56,
+          "dropped": true
+        }
+      ],
+      "average": 7.83,
+      "officialAverage": 7.83,
+      "rankInBlock": 3,
+      "rankOverall": 5,
+      "classified": true,
+      "cutoffDelta": 0.427,
+      "spread": 0.34,
+      "blockId": "D",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 97,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.83,
+          "percentile": 97
+        }
+      ],
+      "overall": 97,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 513,
+      "round": "1B",
+      "dancer1": "Facundo Vilches",
+      "dancer2": "Irina Cristoff Veleff",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 7.95,
+          "dropped": true
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.9,
+          "dropped": false
+        },
+        {
+          "name": "Graciela García",
+          "score": 7.68,
+          "dropped": false
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7.35,
+          "dropped": true
+        },
+        {
+          "name": "Guido Placios",
+          "score": 7.85,
+          "dropped": false
+        }
+      ],
+      "average": 7.81,
+      "officialAverage": 7.81,
+      "rankInBlock": 4,
+      "rankOverall": 6,
+      "classified": true,
+      "cutoffDelta": 0.407,
+      "spread": 0.6,
+      "blockId": "D",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 96.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.81,
+          "percentile": 96.3
+        }
+      ],
+      "overall": 96.3,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 2,
+      "round": "1B",
+      "dancer1": "Diego Churquina",
+      "dancer2": "Rocio Sanchez",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 7.84,
+          "dropped": false
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.78,
+          "dropped": false
+        },
+        {
+          "name": "Graciela García",
+          "score": 7.85,
+          "dropped": true
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7.8,
+          "dropped": false
+        },
+        {
+          "name": "Guido Placios",
+          "score": 7.48,
+          "dropped": true
+        }
+      ],
+      "average": 7.807,
+      "officialAverage": 7.807,
+      "rankInBlock": 5,
+      "rankOverall": 7,
+      "classified": true,
+      "cutoffDelta": 0.404,
+      "spread": 0.37,
+      "blockId": "D",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 95.6,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.807,
+          "percentile": 95.6
+        }
+      ],
+      "overall": 95.6,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 3,
+      "round": "3",
+      "dancer1": "Jesus Taborda",
+      "dancer2": "Carla Dominguez",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 7.92,
+          "dropped": true
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.9,
+          "dropped": false
+        },
+        {
+          "name": "Graciela García",
+          "score": 7.73,
+          "dropped": false
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7.75,
+          "dropped": false
+        },
+        {
+          "name": "Guido Placios",
+          "score": 7.69,
+          "dropped": true
+        }
+      ],
+      "average": 7.793,
+      "officialAverage": 7.793,
+      "rankInBlock": 6,
+      "rankOverall": 10,
+      "classified": true,
+      "cutoffDelta": 0.39,
+      "spread": 0.23,
+      "blockId": "D",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 93.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.793,
+          "percentile": 93.3
+        }
+      ],
+      "overall": 93.3,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 493,
+      "round": "1B",
+      "dancer1": "Ivan Vivas",
+      "dancer2": "Camila Pina",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 7.85,
+          "dropped": false
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.75,
+          "dropped": false
+        },
+        {
+          "name": "Graciela García",
+          "score": 7.74,
+          "dropped": false
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7.9,
+          "dropped": true
+        },
+        {
+          "name": "Guido Placios",
+          "score": 7.7,
+          "dropped": true
+        }
+      ],
+      "average": 7.78,
+      "officialAverage": 7.78,
+      "rankInBlock": 7,
+      "rankOverall": 12,
+      "classified": true,
+      "cutoffDelta": 0.377,
+      "spread": 0.2,
+      "blockId": "D",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 91.9,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.78,
+          "percentile": 91.9
+        }
+      ],
+      "overall": 91.9,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 436,
+      "round": "1B",
+      "dancer1": "Nelson Nahuel Leiva",
+      "dancer2": "Evangelina Soledad Martinez",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 7.89,
+          "dropped": true
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.8,
+          "dropped": false
+        },
+        {
+          "name": "Graciela García",
+          "score": 7.75,
+          "dropped": false
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7.55,
+          "dropped": true
+        },
+        {
+          "name": "Guido Placios",
+          "score": 7.75,
+          "dropped": false
+        }
+      ],
+      "average": 7.767,
+      "officialAverage": 7.767,
+      "rankInBlock": 8,
+      "rankOverall": 14,
+      "classified": true,
+      "cutoffDelta": 0.364,
+      "spread": 0.34,
+      "blockId": "D",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 90.4,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.767,
+          "percentile": 90.4
+        }
+      ],
+      "overall": 90.4,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 291,
+      "round": "1B",
+      "dancer1": "Octavio Gil",
+      "dancer2": "Ligeia Moya Bravo",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 7.86,
+          "dropped": false
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.95,
+          "dropped": true
+        },
+        {
+          "name": "Graciela García",
+          "score": 7.72,
+          "dropped": false
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7.4,
+          "dropped": true
+        },
+        {
+          "name": "Guido Placios",
+          "score": 7.69,
+          "dropped": false
+        }
+      ],
+      "average": 7.757,
+      "officialAverage": 7.757,
+      "rankInBlock": 9,
+      "rankOverall": 16,
+      "classified": true,
+      "cutoffDelta": 0.354,
+      "spread": 0.55,
+      "blockId": "D",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 88.9,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.757,
+          "percentile": 88.9
+        }
+      ],
+      "overall": 88.9,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 477,
+      "round": "2",
+      "dancer1": "Franco Cocheret",
+      "dancer2": "Juliana Mansilla",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 7.96,
+          "dropped": true
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.85,
+          "dropped": false
+        },
+        {
+          "name": "Graciela García",
+          "score": 7.4,
+          "dropped": true
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7.7,
+          "dropped": false
+        },
+        {
+          "name": "Guido Placios",
+          "score": 7.69,
+          "dropped": false
+        }
+      ],
+      "average": 7.747,
+      "officialAverage": 7.747,
+      "rankInBlock": 10,
+      "rankOverall": 17,
+      "classified": true,
+      "cutoffDelta": 0.344,
+      "spread": 0.56,
+      "blockId": "D",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 88.1,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.747,
+          "percentile": 88.1
+        }
+      ],
+      "overall": 88.1,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 141,
+      "round": "3",
+      "dancer1": "Cristian Lopez",
+      "dancer2": "Naoko Tsutsumizaki",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 7.79,
+          "dropped": true
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.75,
+          "dropped": false
+        },
+        {
+          "name": "Graciela García",
+          "score": 7.7,
+          "dropped": true
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7.7,
+          "dropped": false
+        },
+        {
+          "name": "Guido Placios",
+          "score": 7.75,
+          "dropped": false
+        }
+      ],
+      "average": 7.733,
+      "officialAverage": 7.733,
+      "rankInBlock": 11,
+      "rankOverall": 18,
+      "classified": true,
+      "cutoffDelta": 0.33,
+      "spread": 0.09,
+      "blockId": "D",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 87.4,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.733,
+          "percentile": 87.4
+        }
+      ],
+      "overall": 87.4,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 149,
+      "round": "1B",
+      "dancer1": "Gabriel Salvi",
+      "dancer2": "Carolina Leonardelli",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 7.9,
+          "dropped": true
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.5,
+          "dropped": false
+        },
+        {
+          "name": "Graciela García",
+          "score": 7.73,
+          "dropped": false
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7.3,
+          "dropped": true
+        },
+        {
+          "name": "Guido Placios",
+          "score": 7.69,
+          "dropped": false
+        }
+      ],
+      "average": 7.64,
+      "officialAverage": 7.64,
+      "rankInBlock": 12,
+      "rankOverall": 23,
+      "classified": true,
+      "cutoffDelta": 0.237,
+      "spread": 0.6,
+      "blockId": "D",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 83.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.64,
+          "percentile": 83.7
+        }
+      ],
+      "overall": 83.7,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 62,
+      "round": "3",
+      "dancer1": "Daniel Moscoso Cañas",
+      "dancer2": "Darlyn Herrera Alvarez",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 7.68,
+          "dropped": false
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.6,
+          "dropped": false
+        },
+        {
+          "name": "Graciela García",
+          "score": 7.3,
+          "dropped": true
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7.45,
+          "dropped": false
+        },
+        {
+          "name": "Guido Placios",
+          "score": 7.71,
+          "dropped": true
+        }
+      ],
+      "average": 7.577,
+      "officialAverage": 7.577,
+      "rankInBlock": 13,
+      "rankOverall": 26,
+      "classified": true,
+      "cutoffDelta": 0.174,
+      "spread": 0.41,
+      "blockId": "D",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 81.5,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.577,
+          "percentile": 81.5
+        }
+      ],
+      "overall": 81.5,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 128,
+      "round": "2",
+      "dancer1": "Valentin Mayores",
+      "dancer2": "Constanza Cano Morel",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 7.78,
+          "dropped": true
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.6,
+          "dropped": false
+        },
+        {
+          "name": "Graciela García",
+          "score": 7.25,
+          "dropped": false
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7.15,
+          "dropped": true
+        },
+        {
+          "name": "Guido Placios",
+          "score": 7.75,
+          "dropped": false
+        }
+      ],
+      "average": 7.533,
+      "officialAverage": 7.533,
+      "rankInBlock": 14,
+      "rankOverall": 32,
+      "classified": true,
+      "cutoffDelta": 0.13,
+      "spread": 0.63,
+      "blockId": "D",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 77,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.533,
+          "percentile": 77
+        }
+      ],
+      "overall": 77,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 329,
+      "round": "3",
+      "dancer1": "Giuliano Calvimonte",
+      "dancer2": "Roxane Camargo",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 7.54,
+          "dropped": true
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.5,
+          "dropped": false
+        },
+        {
+          "name": "Graciela García",
+          "score": 7.39,
+          "dropped": false
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7,
+          "dropped": true
+        },
+        {
+          "name": "Guido Placios",
+          "score": 7.41,
+          "dropped": false
+        }
+      ],
+      "average": 7.433,
+      "officialAverage": 7.433,
+      "rankInBlock": 15,
+      "rankOverall": 44,
+      "classified": true,
+      "cutoffDelta": 0.03,
+      "spread": 0.54,
+      "blockId": "D",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 68.1,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.433,
+          "percentile": 68.1
+        }
+      ],
+      "overall": 68.1,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 430,
+      "round": "2",
+      "dancer1": "Ilia Senatorov",
+      "dancer2": "Maria Korsakova",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 7.5,
+          "dropped": false
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.65,
+          "dropped": true
+        },
+        {
+          "name": "Graciela García",
+          "score": 7.18,
+          "dropped": true
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7.2,
+          "dropped": false
+        },
+        {
+          "name": "Guido Placios",
+          "score": 7.51,
+          "dropped": false
+        }
+      ],
+      "average": 7.403,
+      "officialAverage": 7.403,
+      "rankInBlock": 16,
+      "rankOverall": 46,
+      "classified": true,
+      "cutoffDelta": 0,
+      "spread": 0.47,
+      "blockId": "D",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 66.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.403,
+          "percentile": 66.7
+        }
+      ],
+      "overall": 66.7,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 217,
+      "round": "3",
+      "dancer1": "Federico Borquez",
+      "dancer2": "Agostina Cala",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 7.53,
+          "dropped": true
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.5,
+          "dropped": false
+        },
+        {
+          "name": "Graciela García",
+          "score": 7.36,
+          "dropped": false
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7.35,
+          "dropped": false
+        },
+        {
+          "name": "Guido Placios",
+          "score": 7,
+          "dropped": true
+        }
+      ],
+      "average": 7.403,
+      "officialAverage": 7.403,
+      "rankInBlock": 16,
+      "rankOverall": 46,
+      "classified": true,
+      "cutoffDelta": 0,
+      "spread": 0.53,
+      "blockId": "D",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 66.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.403,
+          "percentile": 66.7
+        }
+      ],
+      "overall": 66.7,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 297,
+      "round": "3",
+      "dancer1": "Rodrigo Gonzalez",
+      "dancer2": "Giselle Tacon",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 7.39,
+          "dropped": false
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.45,
+          "dropped": true
+        },
+        {
+          "name": "Graciela García",
+          "score": 7.45,
+          "dropped": false
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7.2,
+          "dropped": false
+        },
+        {
+          "name": "Guido Placios",
+          "score": 7,
+          "dropped": true
+        }
+      ],
+      "average": 7.347,
+      "officialAverage": 7.347,
+      "rankInBlock": 18,
+      "rankOverall": 52,
+      "classified": false,
+      "cutoffDelta": -0.056,
+      "spread": 0.45,
+      "blockId": "D",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 62.2,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.347,
+          "percentile": 62.2
+        }
+      ],
+      "overall": 62.2,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 447,
+      "round": "1B",
+      "dancer1": "Valentin Bobkov",
+      "dancer2": "Katerina Tsybrova",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 7.35,
+          "dropped": false
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.6,
+          "dropped": true
+        },
+        {
+          "name": "Graciela García",
+          "score": 6.93,
+          "dropped": true
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7.25,
+          "dropped": false
+        },
+        {
+          "name": "Guido Placios",
+          "score": 7.4,
+          "dropped": false
+        }
+      ],
+      "average": 7.333,
+      "officialAverage": 7.333,
+      "rankInBlock": 19,
+      "rankOverall": 54,
+      "classified": false,
+      "cutoffDelta": -0.07,
+      "spread": 0.67,
+      "blockId": "D",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 60.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.333,
+          "percentile": 60.7
+        }
+      ],
+      "overall": 60.7,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 485,
+      "round": "3",
+      "dancer1": "Cristian Trinidad",
+      "dancer2": "Marianella Gaytán",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 7.11,
+          "dropped": false
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.4,
+          "dropped": true
+        },
+        {
+          "name": "Graciela García",
+          "score": 7.38,
+          "dropped": false
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7.3,
+          "dropped": false
+        },
+        {
+          "name": "Guido Placios",
+          "score": 6.95,
+          "dropped": true
+        }
+      ],
+      "average": 7.263,
+      "officialAverage": 7.263,
+      "rankInBlock": 20,
+      "rankOverall": 61,
+      "classified": false,
+      "cutoffDelta": -0.14,
+      "spread": 0.45,
+      "blockId": "D",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 55.6,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.263,
+          "percentile": 55.6
+        }
+      ],
+      "overall": 55.6,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 176,
+      "round": "2",
+      "dancer1": "Ricardo Albornoz",
+      "dancer2": "Daniela Inglese",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 7.78,
+          "dropped": true
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.4,
+          "dropped": false
+        },
+        {
+          "name": "Graciela García",
+          "score": 7.3,
+          "dropped": false
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7,
+          "dropped": false
+        },
+        {
+          "name": "Guido Placios",
+          "score": 6.5,
+          "dropped": true
+        }
+      ],
+      "average": 7.233,
+      "officialAverage": 7.233,
+      "rankInBlock": 21,
+      "rankOverall": 64,
+      "classified": false,
+      "cutoffDelta": -0.17,
+      "spread": 1.28,
+      "blockId": "D",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 53.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.233,
+          "percentile": 53.3
+        }
+      ],
+      "overall": 53.3,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 609,
+      "round": "3",
+      "dancer1": "Claudio Antonio Obregón",
+      "dancer2": "Natalia Teresita Boni",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 7.52,
+          "dropped": true
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.3,
+          "dropped": false
+        },
+        {
+          "name": "Graciela García",
+          "score": 7.25,
+          "dropped": false
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7.1,
+          "dropped": true
+        },
+        {
+          "name": "Guido Placios",
+          "score": 7.15,
+          "dropped": false
+        }
+      ],
+      "average": 7.233,
+      "officialAverage": 7.233,
+      "rankInBlock": 21,
+      "rankOverall": 64,
+      "classified": false,
+      "cutoffDelta": -0.17,
+      "spread": 0.42,
+      "blockId": "D",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 53.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.233,
+          "percentile": 53.3
+        }
+      ],
+      "overall": 53.3,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 201,
+      "round": "2",
+      "dancer1": "Ilya Skripkin",
+      "dancer2": "Kristina Soboleva",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 7.1,
+          "dropped": false
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.35,
+          "dropped": false
+        },
+        {
+          "name": "Graciela García",
+          "score": 7.15,
+          "dropped": false
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7,
+          "dropped": true
+        },
+        {
+          "name": "Guido Placios",
+          "score": 7.5,
+          "dropped": true
+        }
+      ],
+      "average": 7.2,
+      "officialAverage": 7.2,
+      "rankInBlock": 23,
+      "rankOverall": 67,
+      "classified": false,
+      "cutoffDelta": -0.203,
+      "spread": 0.5,
+      "blockId": "D",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 51.1,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.2,
+          "percentile": 51.1
+        }
+      ],
+      "overall": 51.1,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 722,
+      "round": "1B",
+      "dancer1": "Ruben Roman",
+      "dancer2": "Natalia Celeste Grossi",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 7.15,
+          "dropped": true
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.15,
+          "dropped": false
+        },
+        {
+          "name": "Graciela García",
+          "score": 7.2,
+          "dropped": false
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7.2,
+          "dropped": false
+        },
+        {
+          "name": "Guido Placios",
+          "score": 7.41,
+          "dropped": true
+        }
+      ],
+      "average": 7.183,
+      "officialAverage": 7.183,
+      "rankInBlock": 24,
+      "rankOverall": 69,
+      "classified": false,
+      "cutoffDelta": -0.22,
+      "spread": 0.26,
+      "blockId": "D",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 49.6,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.183,
+          "percentile": 49.6
+        }
+      ],
+      "overall": 49.6,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 243,
+      "round": "2",
+      "dancer1": "Yamil Sajama",
+      "dancer2": "Micaela Lotitto",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 7.2,
+          "dropped": false
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.1,
+          "dropped": false
+        },
+        {
+          "name": "Graciela García",
+          "score": 6.8,
+          "dropped": true
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7.3,
+          "dropped": true
+        },
+        {
+          "name": "Guido Placios",
+          "score": 6.99,
+          "dropped": false
+        }
+      ],
+      "average": 7.097,
+      "officialAverage": 7.097,
+      "rankInBlock": 25,
+      "rankOverall": 76,
+      "classified": false,
+      "cutoffDelta": -0.306,
+      "spread": 0.5,
+      "blockId": "D",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 44.4,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.097,
+          "percentile": 44.4
+        }
+      ],
+      "overall": 44.4,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 421,
+      "round": "2",
+      "dancer1": "Mirko Giordani",
+      "dancer2": "Roberta Ilaria Scala",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 7,
+          "dropped": false
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.3,
+          "dropped": true
+        },
+        {
+          "name": "Graciela García",
+          "score": 7.17,
+          "dropped": false
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 7.05,
+          "dropped": false
+        },
+        {
+          "name": "Guido Placios",
+          "score": 6.9,
+          "dropped": true
+        }
+      ],
+      "average": 7.073,
+      "officialAverage": 7.073,
+      "rankInBlock": 26,
+      "rankOverall": 78,
+      "classified": false,
+      "cutoffDelta": -0.33,
+      "spread": 0.4,
+      "blockId": "D",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 43,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.073,
+          "percentile": 43
+        }
+      ],
+      "overall": 43,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 520,
+      "round": "3",
+      "dancer1": "Augusto Magnaghi",
+      "dancer2": "Nadia Lucero",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 7.26,
+          "dropped": false
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.1,
+          "dropped": false
+        },
+        {
+          "name": "Graciela García",
+          "score": 7.3,
+          "dropped": true
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 6.5,
+          "dropped": true
+        },
+        {
+          "name": "Guido Placios",
+          "score": 6.75,
+          "dropped": false
+        }
+      ],
+      "average": 7.037,
+      "officialAverage": 7.037,
+      "rankInBlock": 27,
+      "rankOverall": 83,
+      "classified": false,
+      "cutoffDelta": -0.366,
+      "spread": 0.8,
+      "blockId": "D",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 39.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.037,
+          "percentile": 39.3
+        }
+      ],
+      "overall": 39.3,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 415,
+      "round": "1B",
+      "dancer1": "Joshua Benítez",
+      "dancer2": "Naomi Gonzalez",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 7,
+          "dropped": false
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.35,
+          "dropped": true
+        },
+        {
+          "name": "Graciela García",
+          "score": 6.9,
+          "dropped": false
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 6.8,
+          "dropped": true
+        },
+        {
+          "name": "Guido Placios",
+          "score": 7,
+          "dropped": false
+        }
+      ],
+      "average": 6.967,
+      "officialAverage": 6.967,
+      "rankInBlock": 28,
+      "rankOverall": 90,
+      "classified": false,
+      "cutoffDelta": -0.436,
+      "spread": 0.55,
+      "blockId": "D",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 34.1,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 6.967,
+          "percentile": 34.1
+        }
+      ],
+      "overall": 34.1,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 557,
+      "round": "3",
+      "dancer1": "Hector Nuñez Cortez",
+      "dancer2": "Daniela Berberian",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 6.9,
+          "dropped": false
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7.2,
+          "dropped": true
+        },
+        {
+          "name": "Graciela García",
+          "score": 6.5,
+          "dropped": true
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 6.7,
+          "dropped": false
+        },
+        {
+          "name": "Guido Placios",
+          "score": 7.1,
+          "dropped": false
+        }
+      ],
+      "average": 6.9,
+      "officialAverage": 6.9,
+      "rankInBlock": 29,
+      "rankOverall": 97,
+      "classified": false,
+      "cutoffDelta": -0.503,
+      "spread": 0.7,
+      "blockId": "D",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 28.9,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 6.9,
+          "percentile": 28.9
+        }
+      ],
+      "overall": 28.9,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 52,
+      "round": "3",
+      "dancer1": "Horacio Tolosa",
+      "dancer2": "Brenda Holtz",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 7.01,
+          "dropped": false
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7,
+          "dropped": false
+        },
+        {
+          "name": "Graciela García",
+          "score": 7.1,
+          "dropped": true
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 6.2,
+          "dropped": true
+        },
+        {
+          "name": "Guido Placios",
+          "score": 6.65,
+          "dropped": false
+        }
+      ],
+      "average": 6.887,
+      "officialAverage": 6.887,
+      "rankInBlock": 30,
+      "rankOverall": 103,
+      "classified": false,
+      "cutoffDelta": -0.516,
+      "spread": 0.9,
+      "blockId": "D",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 24.4,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 6.887,
+          "percentile": 24.4
+        }
+      ],
+      "overall": 24.4,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 660,
+      "round": "1B",
+      "dancer1": "Sandson Júnior",
+      "dancer2": "Mariane Ribeiro",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 6.93,
+          "dropped": false
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 7,
+          "dropped": true
+        },
+        {
+          "name": "Graciela García",
+          "score": 6.91,
+          "dropped": false
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 6.5,
+          "dropped": false
+        },
+        {
+          "name": "Guido Placios",
+          "score": 6,
+          "dropped": true
+        }
+      ],
+      "average": 6.78,
+      "officialAverage": 6.78,
+      "rankInBlock": 31,
+      "rankOverall": 107,
+      "classified": false,
+      "cutoffDelta": -0.623,
+      "spread": 1,
+      "blockId": "D",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 21.5,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 6.78,
+          "percentile": 21.5
+        }
+      ],
+      "overall": 21.5,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 152,
+      "round": "2",
+      "dancer1": "Claudemir Pires de Sousa",
+      "dancer2": "Nilza Pires de Sousa",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 6.78,
+          "dropped": true
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 6.5,
+          "dropped": false
+        },
+        {
+          "name": "Graciela García",
+          "score": 6.4,
+          "dropped": false
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 6.2,
+          "dropped": false
+        },
+        {
+          "name": "Guido Placios",
+          "score": 5.8,
+          "dropped": true
+        }
+      ],
+      "average": 6.367,
+      "officialAverage": 6.367,
+      "rankInBlock": 32,
+      "rankOverall": 126,
+      "classified": false,
+      "cutoffDelta": -1.036,
+      "spread": 0.98,
+      "blockId": "D",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 7.4,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 6.367,
+          "percentile": 7.4
+        }
+      ],
+      "overall": 7.4,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 639,
+      "round": "2",
+      "dancer1": "Cynthia Arroyo",
+      "dancer2": "Brenda Salinas",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 6.25,
+          "dropped": false
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 5.1,
+          "dropped": true
+        },
+        {
+          "name": "Graciela García",
+          "score": 6.3,
+          "dropped": false
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 6.4,
+          "dropped": true
+        },
+        {
+          "name": "Guido Placios",
+          "score": 5.69,
+          "dropped": false
+        }
+      ],
+      "average": 6.08,
+      "officialAverage": 6.08,
+      "rankInBlock": 33,
+      "rankOverall": 130,
+      "classified": false,
+      "cutoffDelta": -1.323,
+      "spread": 1.3,
+      "blockId": "D",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 4.4,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 6.08,
+          "percentile": 4.4
+        }
+      ],
+      "overall": 4.4,
+      "lastStageReached": "clasificatoria"
+    },
+    {
+      "coupleId": 599,
+      "round": "1B",
+      "dancer1": "Roberto Pankow",
+      "dancer2": "Alicia Romero",
+      "judges": [
+        {
+          "name": "Debora Agudo",
+          "score": 5.6,
+          "dropped": false
+        },
+        {
+          "name": "Ezequiel Lopez",
+          "score": 5.3,
+          "dropped": true
+        },
+        {
+          "name": "Graciela García",
+          "score": 6,
+          "dropped": true
+        },
+        {
+          "name": "Sol Cerquides",
+          "score": 6,
+          "dropped": false
+        },
+        {
+          "name": "Guido Placios",
+          "score": 5.5,
+          "dropped": false
+        }
+      ],
+      "average": 5.7,
+      "officialAverage": 5.7,
+      "rankInBlock": 34,
+      "rankOverall": 134,
+      "classified": false,
+      "cutoffDelta": -1.703,
+      "spread": 0.7,
+      "blockId": "D",
+      "averageMismatch": false,
+      "originStage": "clasificatoria",
+      "stagePercentile": 1.5,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 5.7,
+          "percentile": 1.5
+        }
+      ],
+      "overall": 1.5,
+      "lastStageReached": "clasificatoria"
+    }
+  ],
+  "mismatches": []
+}

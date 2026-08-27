@@ -86,7 +86,7 @@ function TrajectorySpark({
 }
 
 export function FullCompetition() {
-  const { year, manifest } = useData();
+  const { year, category, manifest } = useData();
   const { t } = useI18n();
   const [rows, setRows] = useState<JourneyRow[] | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -103,7 +103,7 @@ export function FullCompetition() {
     let cancelled = false;
     setRows(null);
     setError(null);
-    loadYearDatasets(year, stages)
+    loadYearDatasets(year, stages, category)
       .then((datasets) => {
         if (!cancelled) setRows(buildJourneys(datasets));
       })
@@ -113,7 +113,7 @@ export function FullCompetition() {
     return () => {
       cancelled = true;
     };
-  }, [year, stages.join("|")]);
+  }, [year, category, stages.join("|")]);
 
   const champion = rows?.find((r) => r.champion);
 
@@ -166,7 +166,7 @@ export function FullCompetition() {
         <section className="panel champion-panel">
           <p className="champ-kicker">{t("fullChampion")}</p>
           <div className="champ-head">
-            <Link className="couple-num" to={dossierPath(year, champion)}>
+            <Link className="couple-num" to={dossierPath(year, champion, category)}>
               #{champion.coupleId}
             </Link>
             <h2>
@@ -261,12 +261,12 @@ export function FullCompetition() {
               {visible.map((row) => (
                 <tr key={row.coupleId} className={row.champion ? "is-champion" : ""}>
                   <td>
-                    <Link className="couple-num" to={dossierPath(year, row)}>
+                    <Link className="couple-num" to={dossierPath(year, row, category)}>
                       {row.coupleId}
                     </Link>
                   </td>
                   <td>
-                    <Link to={dossierPath(year, row)}>
+                    <Link to={dossierPath(year, row, category)}>
                       {row.dancer1}
                       <span className="amp"> & </span>
                       {row.dancer2}

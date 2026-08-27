@@ -69,7 +69,7 @@ function SortHeader({
 }
 
 export function Rankings() {
-  const { data, year, survival, survivalById } = useData();
+  const { data, year, category, survival, survivalById } = useData();
   const { t } = useI18n();
   const { isPinned, toggle } = useWatchlist();
   const [params, setParams] = useSearchParams();
@@ -88,7 +88,7 @@ export function Rankings() {
   const rawSort = params.get("sort");
   const sort: SortKey = isSortKey(rawSort) ? rawSort : defaultSortKey(year, showOverall);
   const dir = parseSortDir(params.get("dir"), sort);
-  const base = yearPath(year);
+  const base = yearPath(year, "", category);
 
   const setFilter = (key: string, value: string) => {
     const next = new URLSearchParams(params);
@@ -339,7 +339,7 @@ export function Rankings() {
               </thead>
               <tbody>
                 {rows.map((row) => {
-                  const pinned = showWatchlist && isPinned(row.coupleId, row.blockId, year);
+                  const pinned = showWatchlist && isPinned(row.coupleId, row.blockId, year, category);
                   const surv = survivalById.get(row.coupleId);
                   return (
                     <tr
@@ -399,7 +399,7 @@ export function Rankings() {
                           <button
                             type="button"
                             className={`pin-btn tiny ${pinned ? "is-on" : ""}`}
-                            onClick={() => toggle(row.coupleId, row.blockId, year)}
+                            onClick={() => toggle(row.coupleId, row.blockId, year, category)}
                           >
                             {pinned ? "★" : "☆"}
                           </button>

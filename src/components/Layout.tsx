@@ -1,12 +1,12 @@
 import { NavLink, Outlet, useLocation, useNavigate } from "react-router-dom";
 import { useI18n } from "../context/I18nContext";
 import { useData } from "../context/DataContext";
-import type { Stage } from "../types";
-import { yearPath, visibleStages, hasWatchlist, hasFullCompetition } from "../lib/year";
+import type { Category, Stage } from "../types";
+import { yearPath, visibleStages, hasWatchlist, hasFullCompetition, CATEGORIES } from "../lib/year";
 
 export function Layout() {
   const { t, lang, setLang } = useI18n();
-  const { data, loading, error, reload, manifest, activeStage, setActiveStage, year } =
+  const { data, loading, error, reload, manifest, activeStage, setActiveStage, year, category } =
     useData();
   const navigate = useNavigate();
   const location = useLocation();
@@ -27,7 +27,17 @@ export function Layout() {
   };
 
   const chipLabel = year === 2026 ? `${year} ${t("liveNow")}` : String(year);
-  const base = yearPath(year);
+  const base = yearPath(year, "", category);
+
+  function switchCategory(next: Category) {
+    if (next === category) return;
+    const from = `/${year}/${category}`;
+    const to = `/${year}/${next}`;
+    const nextPath = location.pathname.startsWith(from)
+      ? `${to}${location.pathname.slice(from.length)}`
+      : to;
+    navigate(`${nextPath}${location.search}`);
+  }
 
   return (
     <div className="app-shell">
@@ -50,6 +60,18 @@ export function Layout() {
             {showFull && <NavLink to={`${base}/full`}>{t("navFull")}</NavLink>}
           </nav>
           <div className="topbar-actions">
+            <div className="cat-toggle" role="group" aria-label={t("categorySwitch")}>
+              {CATEGORIES.map((cat) => (
+                <button
+                  key={cat}
+                  type="button"
+                  className={category === cat ? "is-active" : ""}
+                  onClick={() => switchCategory(cat)}
+                >
+                  {cat === "pista" ? t("categoryPistaShort") : t("categoryEscenarioShort")}
+                </button>
+              ))}
+            </div>
             <button
               type="button"
               className="year-chip"

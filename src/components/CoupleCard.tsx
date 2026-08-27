@@ -19,13 +19,13 @@ export function CoupleCard({
   showBoxplot?: boolean;
 }) {
   const { t } = useI18n();
-  const { year, data } = useData();
+  const { year, data, category } = useData();
   const { isPinned, toggle } = useWatchlist();
   const showPin = hasWatchlist(year);
-  const pinned = showPin && isPinned(row.coupleId, row.blockId, year);
+  const pinned = showPin && isPinned(row.coupleId, row.blockId, year, category);
   const danger = isDangerZone(row.rankInBlock, row.classified, coupleCount);
   const withBlock = showBlock ?? (data ? hasDistinctBlocks(data) : true);
-  const href = `${yearPath(year)}/pareja/${row.blockId}/${row.coupleId}`;
+  const href = `${yearPath(year, "", category)}/pareja/${row.blockId}/${row.coupleId}`;
 
   return (
     <article className={`couple-card ${row.classified ? "is-in" : "is-out"}`}>
@@ -70,7 +70,7 @@ export function CoupleCard({
         <button
           type="button"
           className={`pin-btn ${pinned ? "is-on" : ""}`}
-          onClick={() => toggle(row.coupleId, row.blockId, year)}
+          onClick={() => toggle(row.coupleId, row.blockId, year, category)}
         >
           {pinned ? t("unpin") : t("pin")}
         </button>

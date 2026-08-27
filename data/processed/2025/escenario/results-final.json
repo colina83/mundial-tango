@@ -1,0 +1,1568 @@
+{
+  "generatedAt": "2026-08-27T18:59:36.522Z",
+  "year": 2025,
+  "stage": "final",
+  "category": "escenario",
+  "scoring": "simple",
+  "sourcePage": "https://tangoba.org/resultados-final-tango-escenario-2025/",
+  "sourceCategoryPage": "https://tangoba.org/category/resultados/",
+  "sourceLabel": "Tango BA",
+  "disclaimer": "Compañero extraoficial de fans. No afiliado a Tango BA ni al Mundial de Baile. Fuente: Tango BA.",
+  "blocks": [
+    {
+      "id": "_",
+      "date": "2025-09-03",
+      "dateLabel": "3 de septiembre",
+      "judges": [
+        "Milena Plebs",
+        "Guillermina Quiroga",
+        "Hugo Mastrolorenzo",
+        "Mariana Bojanich",
+        "Nicolas Cobos",
+        "Vanesa Villalba",
+        "Pancho Martinez Pey"
+      ],
+      "sourcePdf": {
+        "filename": "final.pdf",
+        "url": "https://tangoba.org/wp-content/uploads/2025/09/Jurados-_-ESCENARIO-FINAL-2025-JURADOS-_-RONDAS-TODAS.pdf",
+        "sha256": "5ac781cdc5691b095e384a01d042422c7be0cffbdf839ec47751af2781913f4e"
+      },
+      "cutoff": 8.607,
+      "classifiedCount": 20,
+      "coupleCount": 20
+    }
+  ],
+  "rows": [
+    {
+      "coupleId": 130,
+      "round": "2",
+      "dancer1": "Leandro Bojko",
+      "dancer2": "Micaela Garcia",
+      "judges": [
+        {
+          "name": "Milena Plebs",
+          "score": 9.7,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 10,
+          "dropped": false
+        },
+        {
+          "name": "Hugo Mastrolorenzo",
+          "score": 9.9,
+          "dropped": false
+        },
+        {
+          "name": "Mariana Bojanich",
+          "score": 9.65,
+          "dropped": false
+        },
+        {
+          "name": "Nicolas Cobos",
+          "score": 9.65,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 9.65,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.8,
+          "dropped": false
+        }
+      ],
+      "average": 9.764,
+      "officialAverage": 9.764,
+      "rankInBlock": 1,
+      "rankOverall": 1,
+      "classified": true,
+      "cutoffDelta": 1.157,
+      "spread": 0.35,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 100,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.676,
+          "percentile": 80.9
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.836,
+          "percentile": 90.3
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.96,
+          "percentile": 100
+        },
+        {
+          "stage": "final",
+          "average": 9.764,
+          "percentile": 100
+        }
+      ],
+      "overall": 92.8,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 454,
+      "round": "1",
+      "dancer1": "Fede Ibañez",
+      "dancer2": "Nuria Lazo",
+      "judges": [
+        {
+          "name": "Milena Plebs",
+          "score": 9.9,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 9.98,
+          "dropped": false
+        },
+        {
+          "name": "Hugo Mastrolorenzo",
+          "score": 9.7,
+          "dropped": false
+        },
+        {
+          "name": "Mariana Bojanich",
+          "score": 9.43,
+          "dropped": false
+        },
+        {
+          "name": "Nicolas Cobos",
+          "score": 9.5,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 9.7,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.75,
+          "dropped": false
+        }
+      ],
+      "average": 9.709,
+      "officialAverage": 9.709,
+      "rankInBlock": 2,
+      "rankOverall": 2,
+      "classified": true,
+      "cutoffDelta": 1.102,
+      "spread": 0.55,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 94.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.678,
+          "percentile": 81.5
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.648,
+          "percentile": 80.6
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.883,
+          "percentile": 97.9
+        },
+        {
+          "stage": "final",
+          "average": 9.709,
+          "percentile": 94.7
+        }
+      ],
+      "overall": 88.7,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 350,
+      "round": "3",
+      "dancer1": "Facundo Cabral",
+      "dancer2": "Mara Navarro",
+      "judges": [
+        {
+          "name": "Milena Plebs",
+          "score": 9.35,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 9.15,
+          "dropped": false
+        },
+        {
+          "name": "Hugo Mastrolorenzo",
+          "score": 9.57,
+          "dropped": false
+        },
+        {
+          "name": "Mariana Bojanich",
+          "score": 9.6,
+          "dropped": false
+        },
+        {
+          "name": "Nicolas Cobos",
+          "score": 9.7,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 9.15,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.81,
+          "dropped": false
+        }
+      ],
+      "average": 9.476,
+      "officialAverage": 9.476,
+      "rankInBlock": 3,
+      "rankOverall": 3,
+      "classified": true,
+      "cutoffDelta": 0.869,
+      "spread": 0.66,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 89.5,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.75,
+          "percentile": 84
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.95,
+          "percentile": 100
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.725,
+          "percentile": 93.8
+        },
+        {
+          "stage": "final",
+          "average": 9.476,
+          "percentile": 89.5
+        }
+      ],
+      "overall": 91.8,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 628,
+      "round": "3",
+      "dancer1": "Sebastian Fernandez",
+      "dancer2": "Mariia Marinova",
+      "judges": [
+        {
+          "name": "Milena Plebs",
+          "score": 9.4,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 9,
+          "dropped": false
+        },
+        {
+          "name": "Hugo Mastrolorenzo",
+          "score": 9.55,
+          "dropped": false
+        },
+        {
+          "name": "Mariana Bojanich",
+          "score": 9.33,
+          "dropped": false
+        },
+        {
+          "name": "Nicolas Cobos",
+          "score": 9.25,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 9.6,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.6,
+          "dropped": false
+        }
+      ],
+      "average": 9.39,
+      "officialAverage": 9.39,
+      "rankInBlock": 4,
+      "rankOverall": 4,
+      "classified": true,
+      "cutoffDelta": 0.783,
+      "spread": 0.6,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 84.2,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.816,
+          "percentile": 90.1
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.91,
+          "percentile": 94.6
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.712,
+          "percentile": 91.7
+        },
+        {
+          "stage": "final",
+          "average": 9.39,
+          "percentile": 84.2
+        }
+      ],
+      "overall": 90.1,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 522,
+      "round": "3",
+      "dancer1": "Jorge Calabrigo",
+      "dancer2": "Tiziana Silva",
+      "judges": [
+        {
+          "name": "Milena Plebs",
+          "score": 9.45,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 8.6,
+          "dropped": false
+        },
+        {
+          "name": "Hugo Mastrolorenzo",
+          "score": 9.48,
+          "dropped": false
+        },
+        {
+          "name": "Mariana Bojanich",
+          "score": 9.26,
+          "dropped": false
+        },
+        {
+          "name": "Nicolas Cobos",
+          "score": 9.38,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 9.85,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.65,
+          "dropped": false
+        }
+      ],
+      "average": 9.381,
+      "officialAverage": 9.381,
+      "rankInBlock": 5,
+      "rankOverall": 5,
+      "classified": true,
+      "cutoffDelta": 0.774,
+      "spread": 1.25,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 78.9,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.888,
+          "percentile": 94.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.93,
+          "percentile": 96.8
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.483,
+          "percentile": 72.9
+        },
+        {
+          "stage": "final",
+          "average": 9.381,
+          "percentile": 78.9
+        }
+      ],
+      "overall": 85.8,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 537,
+      "round": "4",
+      "dancer1": "Lautaro Levato",
+      "dancer2": "Milagros Quintana",
+      "judges": [
+        {
+          "name": "Milena Plebs",
+          "score": 8.9,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 9.2,
+          "dropped": false
+        },
+        {
+          "name": "Hugo Mastrolorenzo",
+          "score": 9.3,
+          "dropped": false
+        },
+        {
+          "name": "Mariana Bojanich",
+          "score": 9.44,
+          "dropped": false
+        },
+        {
+          "name": "Nicolas Cobos",
+          "score": 9.4,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 9.55,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.79,
+          "dropped": false
+        }
+      ],
+      "average": 9.369,
+      "officialAverage": 9.369,
+      "rankInBlock": 6,
+      "rankOverall": 6,
+      "classified": true,
+      "cutoffDelta": 0.762,
+      "spread": 0.89,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 73.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.586,
+          "percentile": 72.2
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.71,
+          "percentile": 83.9
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.675,
+          "percentile": 89.6
+        },
+        {
+          "stage": "final",
+          "average": 9.369,
+          "percentile": 73.7
+        }
+      ],
+      "overall": 79.9,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 444,
+      "round": "3",
+      "dancer1": "Julio Jose Seffino",
+      "dancer2": "Aldana Belen Tade",
+      "judges": [
+        {
+          "name": "Milena Plebs",
+          "score": 9.68,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 8.8,
+          "dropped": false
+        },
+        {
+          "name": "Hugo Mastrolorenzo",
+          "score": 9.46,
+          "dropped": false
+        },
+        {
+          "name": "Mariana Bojanich",
+          "score": 9.05,
+          "dropped": false
+        },
+        {
+          "name": "Nicolas Cobos",
+          "score": 9.5,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 9.45,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.51,
+          "dropped": false
+        }
+      ],
+      "average": 9.35,
+      "officialAverage": 9.35,
+      "rankInBlock": 7,
+      "rankOverall": 7,
+      "classified": true,
+      "cutoffDelta": 0.743,
+      "spread": 0.88,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 68.4,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.794,
+          "percentile": 86.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.91,
+          "percentile": 94.6
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.647,
+          "percentile": 87.5
+        },
+        {
+          "stage": "final",
+          "average": 9.35,
+          "percentile": 68.4
+        }
+      ],
+      "overall": 84.2,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 24,
+      "round": "4",
+      "dancer1": "Federico Paleo",
+      "dancer2": "Luciana Francheli",
+      "judges": [
+        {
+          "name": "Milena Plebs",
+          "score": 9,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 8.95,
+          "dropped": false
+        },
+        {
+          "name": "Hugo Mastrolorenzo",
+          "score": 9.25,
+          "dropped": false
+        },
+        {
+          "name": "Mariana Bojanich",
+          "score": 9.19,
+          "dropped": false
+        },
+        {
+          "name": "Nicolas Cobos",
+          "score": 9.53,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 9.58,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.63,
+          "dropped": false
+        }
+      ],
+      "average": 9.304,
+      "officialAverage": 9.304,
+      "rankInBlock": 8,
+      "rankOverall": 8,
+      "classified": true,
+      "cutoffDelta": 0.697,
+      "spread": 0.68,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 63.2,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.908,
+          "percentile": 96.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.316,
+          "percentile": 51.6
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.527,
+          "percentile": 79.2
+        },
+        {
+          "stage": "final",
+          "average": 9.304,
+          "percentile": 63.2
+        }
+      ],
+      "overall": 72.6,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 59,
+      "round": "2",
+      "dancer1": "Eber Alejandro Burger",
+      "dancer2": "Sabrina Noelia Nogueira",
+      "judges": [
+        {
+          "name": "Milena Plebs",
+          "score": 9.7,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 8.25,
+          "dropped": false
+        },
+        {
+          "name": "Hugo Mastrolorenzo",
+          "score": 9.55,
+          "dropped": false
+        },
+        {
+          "name": "Mariana Bojanich",
+          "score": 9.55,
+          "dropped": false
+        },
+        {
+          "name": "Nicolas Cobos",
+          "score": 9.55,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 9,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.5,
+          "dropped": false
+        }
+      ],
+      "average": 9.3,
+      "officialAverage": 9.3,
+      "rankInBlock": 9,
+      "rankOverall": 9,
+      "classified": true,
+      "cutoffDelta": 0.693,
+      "spread": 1.45,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 57.9,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.86,
+          "percentile": 93.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.93,
+          "percentile": 96.8
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.525,
+          "percentile": 77.1
+        },
+        {
+          "stage": "final",
+          "average": 9.3,
+          "percentile": 57.9
+        }
+      ],
+      "overall": 81.4,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 8,
+      "round": "4",
+      "dancer1": "Nelson Leiva",
+      "dancer2": "Evangelina Martínez",
+      "judges": [
+        {
+          "name": "Milena Plebs",
+          "score": 9.2,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 8.75,
+          "dropped": false
+        },
+        {
+          "name": "Hugo Mastrolorenzo",
+          "score": 9,
+          "dropped": false
+        },
+        {
+          "name": "Mariana Bojanich",
+          "score": 9.57,
+          "dropped": false
+        },
+        {
+          "name": "Nicolas Cobos",
+          "score": 9.48,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 9.5,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.58,
+          "dropped": false
+        }
+      ],
+      "average": 9.297,
+      "officialAverage": 9.297,
+      "rankInBlock": 10,
+      "rankOverall": 10,
+      "classified": true,
+      "cutoffDelta": 0.69,
+      "spread": 0.83,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 52.6,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.78,
+          "percentile": 85.2
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.23,
+          "percentile": 47.3
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.44,
+          "percentile": 66.7
+        },
+        {
+          "stage": "final",
+          "average": 9.297,
+          "percentile": 52.6
+        }
+      ],
+      "overall": 63,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 596,
+      "round": "3",
+      "dancer1": "Franco Ruben Sosa",
+      "dancer2": "Romina Ayelén Moreno Guzmán",
+      "judges": [
+        {
+          "name": "Milena Plebs",
+          "score": 8.3,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 9.1,
+          "dropped": false
+        },
+        {
+          "name": "Hugo Mastrolorenzo",
+          "score": 9.6,
+          "dropped": false
+        },
+        {
+          "name": "Mariana Bojanich",
+          "score": 9.65,
+          "dropped": false
+        },
+        {
+          "name": "Nicolas Cobos",
+          "score": 9.35,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 9.15,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.78,
+          "dropped": false
+        }
+      ],
+      "average": 9.276,
+      "officialAverage": 9.276,
+      "rankInBlock": 11,
+      "rankOverall": 11,
+      "classified": true,
+      "cutoffDelta": 0.669,
+      "spread": 1.48,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 47.4,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.944,
+          "percentile": 99.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.504,
+          "percentile": 63.4
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.575,
+          "percentile": 85.4
+        },
+        {
+          "stage": "final",
+          "average": 9.276,
+          "percentile": 47.4
+        }
+      ],
+      "overall": 73.9,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 119,
+      "round": "1",
+      "dancer1": "Nicolás Schell",
+      "dancer2": "Nair Schinca",
+      "judges": [
+        {
+          "name": "Milena Plebs",
+          "score": 9.72,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 8.5,
+          "dropped": false
+        },
+        {
+          "name": "Hugo Mastrolorenzo",
+          "score": 9.5,
+          "dropped": false
+        },
+        {
+          "name": "Mariana Bojanich",
+          "score": 9,
+          "dropped": false
+        },
+        {
+          "name": "Nicolas Cobos",
+          "score": 9.45,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 9.25,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.45,
+          "dropped": false
+        }
+      ],
+      "average": 9.267,
+      "officialAverage": 9.267,
+      "rankInBlock": 12,
+      "rankOverall": 12,
+      "classified": true,
+      "cutoffDelta": 0.66,
+      "spread": 1.22,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 42.1,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.918,
+          "percentile": 98.1
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.94,
+          "percentile": 97.8
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.733,
+          "percentile": 95.8
+        },
+        {
+          "stage": "final",
+          "average": 9.267,
+          "percentile": 42.1
+        }
+      ],
+      "overall": 83.5,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 551,
+      "round": "4",
+      "dancer1": "Franco Cocheret",
+      "dancer2": "Juliana Mansilla",
+      "judges": [
+        {
+          "name": "Milena Plebs",
+          "score": 9.2,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 9.08,
+          "dropped": false
+        },
+        {
+          "name": "Hugo Mastrolorenzo",
+          "score": 9.05,
+          "dropped": false
+        },
+        {
+          "name": "Mariana Bojanich",
+          "score": 8.98,
+          "dropped": false
+        },
+        {
+          "name": "Nicolas Cobos",
+          "score": 9.43,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 9.42,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.7,
+          "dropped": false
+        }
+      ],
+      "average": 9.266,
+      "officialAverage": 9.266,
+      "rankInBlock": 13,
+      "rankOverall": 13,
+      "classified": true,
+      "cutoffDelta": 0.659,
+      "spread": 0.72,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 36.8,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.856,
+          "percentile": 92.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.496,
+          "percentile": 62.4
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.557,
+          "percentile": 83.3
+        },
+        {
+          "stage": "final",
+          "average": 9.266,
+          "percentile": 36.8
+        }
+      ],
+      "overall": 68.8,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 149,
+      "round": "2",
+      "dancer1": "Alexander Moncada Rojas",
+      "dancer2": "Martina Waldman",
+      "judges": [
+        {
+          "name": "Milena Plebs",
+          "score": 8.8,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 8.35,
+          "dropped": false
+        },
+        {
+          "name": "Hugo Mastrolorenzo",
+          "score": 9.45,
+          "dropped": false
+        },
+        {
+          "name": "Mariana Bojanich",
+          "score": 9.57,
+          "dropped": false
+        },
+        {
+          "name": "Nicolas Cobos",
+          "score": 9.47,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 9.45,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.55,
+          "dropped": false
+        }
+      ],
+      "average": 9.234,
+      "officialAverage": 9.234,
+      "rankInBlock": 14,
+      "rankOverall": 14,
+      "classified": true,
+      "cutoffDelta": 0.627,
+      "spread": 1.22,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 31.6,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.844,
+          "percentile": 92
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.436,
+          "percentile": 57
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.447,
+          "percentile": 68.8
+        },
+        {
+          "stage": "final",
+          "average": 9.234,
+          "percentile": 31.6
+        }
+      ],
+      "overall": 62.4,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 192,
+      "round": "1",
+      "dancer1": "Ariel Leguizamón",
+      "dancer2": "Yesica Esquivel",
+      "judges": [
+        {
+          "name": "Milena Plebs",
+          "score": 9.2,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 8.25,
+          "dropped": false
+        },
+        {
+          "name": "Hugo Mastrolorenzo",
+          "score": 9.2,
+          "dropped": false
+        },
+        {
+          "name": "Mariana Bojanich",
+          "score": 9.22,
+          "dropped": false
+        },
+        {
+          "name": "Nicolas Cobos",
+          "score": 9.4,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 9.35,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.4,
+          "dropped": false
+        }
+      ],
+      "average": 9.146,
+      "officialAverage": 9.146,
+      "rankInBlock": 15,
+      "rankOverall": 15,
+      "classified": true,
+      "cutoffDelta": 0.539,
+      "spread": 1.15,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 26.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.9,
+          "percentile": 95.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.381,
+          "percentile": 54.8
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.52,
+          "percentile": 75
+        },
+        {
+          "stage": "final",
+          "average": 9.146,
+          "percentile": 26.3
+        }
+      ],
+      "overall": 63,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 549,
+      "round": "1",
+      "dancer1": "Lucas Guevara",
+      "dancer2": "Daniela Bravo",
+      "judges": [
+        {
+          "name": "Milena Plebs",
+          "score": 8.6,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 8.3,
+          "dropped": false
+        },
+        {
+          "name": "Hugo Mastrolorenzo",
+          "score": 9.4,
+          "dropped": false
+        },
+        {
+          "name": "Mariana Bojanich",
+          "score": 8.85,
+          "dropped": false
+        },
+        {
+          "name": "Nicolas Cobos",
+          "score": 9.3,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 9.1,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.7,
+          "dropped": false
+        }
+      ],
+      "average": 9.036,
+      "officialAverage": 9.036,
+      "rankInBlock": 16,
+      "rankOverall": 16,
+      "classified": true,
+      "cutoffDelta": 0.429,
+      "spread": 1.4,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 21.1,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.716,
+          "percentile": 82.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.95,
+          "percentile": 100
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.55,
+          "percentile": 81.3
+        },
+        {
+          "stage": "final",
+          "average": 9.036,
+          "percentile": 21.1
+        }
+      ],
+      "overall": 71.3,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 305,
+      "round": "2",
+      "dancer1": "Ariel Adrian Almiron",
+      "dancer2": "AluminéDeluchi",
+      "judges": [
+        {
+          "name": "Milena Plebs",
+          "score": 8.33,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 8.1,
+          "dropped": false
+        },
+        {
+          "name": "Hugo Mastrolorenzo",
+          "score": 8.75,
+          "dropped": false
+        },
+        {
+          "name": "Mariana Bojanich",
+          "score": 9.11,
+          "dropped": false
+        },
+        {
+          "name": "Nicolas Cobos",
+          "score": 9.43,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 9.35,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.53,
+          "dropped": false
+        }
+      ],
+      "average": 8.943,
+      "officialAverage": 8.943,
+      "rankInBlock": 17,
+      "rankOverall": 17,
+      "classified": true,
+      "cutoffDelta": 0.336,
+      "spread": 1.43,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 15.8,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.796,
+          "percentile": 87
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.782,
+          "percentile": 86
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.438,
+          "percentile": 64.6
+        },
+        {
+          "stage": "final",
+          "average": 8.943,
+          "percentile": 15.8
+        }
+      ],
+      "overall": 63.4,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 157,
+      "round": "2",
+      "dancer1": "Carlos Santos David",
+      "dancer2": "Mirella Santos David",
+      "judges": [
+        {
+          "name": "Milena Plebs",
+          "score": 8.65,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 8,
+          "dropped": false
+        },
+        {
+          "name": "Hugo Mastrolorenzo",
+          "score": 8.5,
+          "dropped": false
+        },
+        {
+          "name": "Mariana Bojanich",
+          "score": 9.03,
+          "dropped": false
+        },
+        {
+          "name": "Nicolas Cobos",
+          "score": 9.2,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 9.3,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.47,
+          "dropped": false
+        }
+      ],
+      "average": 8.879,
+      "officialAverage": 8.879,
+      "rankInBlock": 18,
+      "rankOverall": 18,
+      "classified": true,
+      "cutoffDelta": 0.272,
+      "spread": 1.47,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 10.5,
+      "stageStandings": [
+        {
+          "stage": "final",
+          "average": 8.879,
+          "percentile": 10.5
+        }
+      ],
+      "overall": 10.5,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 195,
+      "round": "4",
+      "dancer1": "Daniel Boujon",
+      "dancer2": "Yuki Misaki",
+      "judges": [
+        {
+          "name": "Milena Plebs",
+          "score": 8.65,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 8,
+          "dropped": false
+        },
+        {
+          "name": "Hugo Mastrolorenzo",
+          "score": 8.75,
+          "dropped": false
+        },
+        {
+          "name": "Mariana Bojanich",
+          "score": 9.2,
+          "dropped": false
+        },
+        {
+          "name": "Nicolas Cobos",
+          "score": 9,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 9.1,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 9.2,
+          "dropped": false
+        }
+      ],
+      "average": 8.843,
+      "officialAverage": 8.843,
+      "rankInBlock": 19,
+      "rankOverall": 19,
+      "classified": true,
+      "cutoffDelta": 0.236,
+      "spread": 1.2,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 5.3,
+      "stageStandings": [
+        {
+          "stage": "final",
+          "average": 8.843,
+          "percentile": 5.3
+        }
+      ],
+      "overall": 5.3,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 397,
+      "round": "1",
+      "dancer1": "Mateo Blandón",
+      "dancer2": "Valeria Villa",
+      "judges": [
+        {
+          "name": "Milena Plebs",
+          "score": 8.35,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 8,
+          "dropped": false
+        },
+        {
+          "name": "Hugo Mastrolorenzo",
+          "score": 8.8,
+          "dropped": false
+        },
+        {
+          "name": "Mariana Bojanich",
+          "score": 8.55,
+          "dropped": false
+        },
+        {
+          "name": "Nicolas Cobos",
+          "score": 8.9,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 8.75,
+          "dropped": false
+        },
+        {
+          "name": "Pancho Martinez Pey",
+          "score": 8.9,
+          "dropped": false
+        }
+      ],
+      "average": 8.607,
+      "officialAverage": 8.607,
+      "rankInBlock": 20,
+      "rankOverall": 20,
+      "classified": true,
+      "cutoffDelta": 0,
+      "spread": 0.9,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 0,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.484,
+          "percentile": 66
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.174,
+          "percentile": 40.9
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.46,
+          "percentile": 70.8
+        },
+        {
+          "stage": "final",
+          "average": 8.607,
+          "percentile": 0
+        }
+      ],
+      "overall": 44.4,
+      "lastStageReached": "final"
+    }
+  ],
+  "mismatches": []
+}

@@ -19,11 +19,11 @@ export function BlockPodium({
   title?: string;
 }) {
   const { t } = useI18n();
-  const { year } = useData();
+  const { year, category } = useData();
   const top = topThree(rows, blockId);
   const ordered = [top[1], top[0], top[2]];
   const places = [2, 1, 3];
-  const base = yearPath(year);
+  const base = yearPath(year, "", category);
 
   return (
     <article className="podium-block">

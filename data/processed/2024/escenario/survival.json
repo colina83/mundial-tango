@@ -1,0 +1,4332 @@
+{
+  "year": 2024,
+  "generatedAt": "2026-08-27T18:59:51.644Z",
+  "model": "lookup",
+  "disclaimer": "Based on 2024–2025 couples with similar clasificatoria standing. Not a prediction of the champion.",
+  "gates": [
+    "semifinal",
+    "final"
+  ],
+  "couples": [
+    {
+      "coupleId": 395,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0.933,
+      "pFinal": 0.733,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.702,
+        0.988
+      ],
+      "ciFinal": [
+        0.48,
+        0.891
+      ],
+      "cohortN": 15,
+      "decile": 9,
+      "standingKind": "overall",
+      "percentile": 1,
+      "spread": 0.5,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field top 10% · spread 0.50",
+      "realized": {
+        "semifinal": true,
+        "final": true
+      }
+    },
+    {
+      "coupleId": 66,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0.933,
+      "pFinal": 0.733,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.702,
+        0.988
+      ],
+      "ciFinal": [
+        0.48,
+        0.891
+      ],
+      "cohortN": 15,
+      "decile": 9,
+      "standingKind": "overall",
+      "percentile": 0.993,
+      "spread": 0.45,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field top 10% · spread 0.45",
+      "realized": {
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 279,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0.933,
+      "pFinal": 0.733,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.702,
+        0.988
+      ],
+      "ciFinal": [
+        0.48,
+        0.891
+      ],
+      "cohortN": 15,
+      "decile": 9,
+      "standingKind": "overall",
+      "percentile": 0.986,
+      "spread": 0.6,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field top 10% · spread 0.60",
+      "realized": {
+        "semifinal": true,
+        "final": true
+      }
+    },
+    {
+      "coupleId": 228,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0.933,
+      "pFinal": 0.733,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.702,
+        0.988
+      ],
+      "ciFinal": [
+        0.48,
+        0.891
+      ],
+      "cohortN": 15,
+      "decile": 9,
+      "standingKind": "overall",
+      "percentile": 0.979,
+      "spread": 0.5,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field top 10% · spread 0.50",
+      "realized": {
+        "semifinal": true,
+        "final": true
+      }
+    },
+    {
+      "coupleId": 485,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0.875,
+      "pFinal": 0.625,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.529,
+        0.978
+      ],
+      "ciFinal": [
+        0.306,
+        0.863
+      ],
+      "cohortN": 8,
+      "decile": 9,
+      "standingKind": "overall",
+      "percentile": 0.972,
+      "spread": 0.7,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field top 10% · spread 0.70 · high-spread",
+      "realized": {
+        "semifinal": true,
+        "final": true
+      }
+    },
+    {
+      "coupleId": 72,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0.875,
+      "pFinal": 0.625,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.529,
+        0.978
+      ],
+      "ciFinal": [
+        0.306,
+        0.863
+      ],
+      "cohortN": 8,
+      "decile": 9,
+      "standingKind": "overall",
+      "percentile": 0.965,
+      "spread": 0.65,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field top 10% · spread 0.65 · high-spread",
+      "realized": {
+        "semifinal": true,
+        "final": true
+      }
+    },
+    {
+      "coupleId": 532,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0.875,
+      "pFinal": 0.625,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.529,
+        0.978
+      ],
+      "ciFinal": [
+        0.306,
+        0.863
+      ],
+      "cohortN": 8,
+      "decile": 9,
+      "standingKind": "overall",
+      "percentile": 0.958,
+      "spread": 0.7,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field top 10% · spread 0.70 · high-spread",
+      "realized": {
+        "semifinal": true,
+        "final": true
+      }
+    },
+    {
+      "coupleId": 201,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0.933,
+      "pFinal": 0.733,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.702,
+        0.988
+      ],
+      "ciFinal": [
+        0.48,
+        0.891
+      ],
+      "cohortN": 15,
+      "decile": 9,
+      "standingKind": "overall",
+      "percentile": 0.951,
+      "spread": 0.6,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field top 10% · spread 0.60",
+      "realized": {
+        "semifinal": true,
+        "final": true
+      }
+    },
+    {
+      "coupleId": 398,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0.933,
+      "pFinal": 0.733,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.702,
+        0.988
+      ],
+      "ciFinal": [
+        0.48,
+        0.891
+      ],
+      "cohortN": 15,
+      "decile": 9,
+      "standingKind": "overall",
+      "percentile": 0.951,
+      "spread": 0.55,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field top 10% · spread 0.55",
+      "realized": {
+        "semifinal": true,
+        "final": true
+      }
+    },
+    {
+      "coupleId": 590,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0.875,
+      "pFinal": 0.625,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.529,
+        0.978
+      ],
+      "ciFinal": [
+        0.306,
+        0.863
+      ],
+      "cohortN": 8,
+      "decile": 9,
+      "standingKind": "overall",
+      "percentile": 0.937,
+      "spread": 0.7,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field top 10% · spread 0.70 · high-spread",
+      "realized": {
+        "semifinal": true,
+        "final": true
+      }
+    },
+    {
+      "coupleId": 403,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0.933,
+      "pFinal": 0.733,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.702,
+        0.988
+      ],
+      "ciFinal": [
+        0.48,
+        0.891
+      ],
+      "cohortN": 15,
+      "decile": 9,
+      "standingKind": "overall",
+      "percentile": 0.93,
+      "spread": 0.5,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field top 10% · spread 0.50",
+      "realized": {
+        "semifinal": true,
+        "final": true
+      }
+    },
+    {
+      "coupleId": 376,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0.875,
+      "pFinal": 0.625,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.529,
+        0.978
+      ],
+      "ciFinal": [
+        0.306,
+        0.863
+      ],
+      "cohortN": 8,
+      "decile": 9,
+      "standingKind": "overall",
+      "percentile": 0.923,
+      "spread": 0.65,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field top 10% · spread 0.65 · high-spread",
+      "realized": {
+        "semifinal": true,
+        "final": true
+      }
+    },
+    {
+      "coupleId": 412,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0.875,
+      "pFinal": 0.625,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.529,
+        0.978
+      ],
+      "ciFinal": [
+        0.306,
+        0.863
+      ],
+      "cohortN": 8,
+      "decile": 9,
+      "standingKind": "overall",
+      "percentile": 0.916,
+      "spread": 0.75,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field top 10% · spread 0.75 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 344,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0.875,
+      "pFinal": 0.625,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.529,
+        0.978
+      ],
+      "ciFinal": [
+        0.306,
+        0.863
+      ],
+      "cohortN": 8,
+      "decile": 9,
+      "standingKind": "overall",
+      "percentile": 0.909,
+      "spread": 0.9,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field top 10% · spread 0.90 · high-spread",
+      "realized": {
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 203,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0.875,
+      "pFinal": 0.625,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.529,
+        0.978
+      ],
+      "ciFinal": [
+        0.306,
+        0.863
+      ],
+      "cohortN": 8,
+      "decile": 9,
+      "standingKind": "overall",
+      "percentile": 0.902,
+      "spread": 0.8,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field top 10% · spread 0.80 · high-spread",
+      "realized": {
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 626,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 1,
+      "pFinal": 0.143,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.785,
+        1
+      ],
+      "ciFinal": [
+        0.04,
+        0.399
+      ],
+      "cohortN": 14,
+      "decile": 8,
+      "standingKind": "overall",
+      "percentile": 0.895,
+      "spread": 0.9,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 80–90% · spread 0.90",
+      "realized": {
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 176,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 1,
+      "pFinal": 0.143,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.785,
+        1
+      ],
+      "ciFinal": [
+        0.04,
+        0.399
+      ],
+      "cohortN": 14,
+      "decile": 8,
+      "standingKind": "overall",
+      "percentile": 0.888,
+      "spread": 0.72,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 80–90% · spread 0.72",
+      "realized": {
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 39,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 1,
+      "pFinal": 0.143,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.785,
+        1
+      ],
+      "ciFinal": [
+        0.04,
+        0.399
+      ],
+      "cohortN": 14,
+      "decile": 8,
+      "standingKind": "overall",
+      "percentile": 0.881,
+      "spread": 0.7,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 80–90% · spread 0.70",
+      "realized": {
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 384,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 1,
+      "pFinal": 0.143,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.785,
+        1
+      ],
+      "ciFinal": [
+        0.04,
+        0.399
+      ],
+      "cohortN": 14,
+      "decile": 8,
+      "standingKind": "overall",
+      "percentile": 0.874,
+      "spread": 1,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 80–90% · spread 1.00",
+      "realized": {
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 373,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 1,
+      "pFinal": 0.143,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.785,
+        1
+      ],
+      "ciFinal": [
+        0.04,
+        0.399
+      ],
+      "cohortN": 14,
+      "decile": 8,
+      "standingKind": "overall",
+      "percentile": 0.867,
+      "spread": 0.7,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 80–90% · spread 0.70",
+      "realized": {
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 208,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 1,
+      "pFinal": 0.143,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.785,
+        1
+      ],
+      "ciFinal": [
+        0.04,
+        0.399
+      ],
+      "cohortN": 14,
+      "decile": 8,
+      "standingKind": "overall",
+      "percentile": 0.86,
+      "spread": 0.75,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 80–90% · spread 0.75",
+      "realized": {
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 459,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 1,
+      "pFinal": 0.143,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.785,
+        1
+      ],
+      "ciFinal": [
+        0.04,
+        0.399
+      ],
+      "cohortN": 14,
+      "decile": 8,
+      "standingKind": "overall",
+      "percentile": 0.853,
+      "spread": 1.1,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 80–90% · spread 1.10",
+      "realized": {
+        "semifinal": true,
+        "final": true
+      }
+    },
+    {
+      "coupleId": 369,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 1,
+      "pFinal": 0.143,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.785,
+        1
+      ],
+      "ciFinal": [
+        0.04,
+        0.399
+      ],
+      "cohortN": 14,
+      "decile": 8,
+      "standingKind": "overall",
+      "percentile": 0.846,
+      "spread": 0.68,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 80–90% · spread 0.68",
+      "realized": {
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 304,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 1,
+      "pFinal": 0.143,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.785,
+        1
+      ],
+      "ciFinal": [
+        0.04,
+        0.399
+      ],
+      "cohortN": 14,
+      "decile": 8,
+      "standingKind": "overall",
+      "percentile": 0.839,
+      "spread": 0.6,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 80–90% · spread 0.60",
+      "realized": {
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 342,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 1,
+      "pFinal": 0.143,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.785,
+        1
+      ],
+      "ciFinal": [
+        0.04,
+        0.399
+      ],
+      "cohortN": 14,
+      "decile": 8,
+      "standingKind": "overall",
+      "percentile": 0.839,
+      "spread": 0.95,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 80–90% · spread 0.95",
+      "realized": {
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 604,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 1,
+      "pFinal": 0.143,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.785,
+        1
+      ],
+      "ciFinal": [
+        0.04,
+        0.399
+      ],
+      "cohortN": 14,
+      "decile": 8,
+      "standingKind": "overall",
+      "percentile": 0.825,
+      "spread": 0.85,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 80–90% · spread 0.85",
+      "realized": {
+        "semifinal": true,
+        "final": true
+      }
+    },
+    {
+      "coupleId": 503,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 1,
+      "pFinal": 0.143,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.785,
+        1
+      ],
+      "ciFinal": [
+        0.04,
+        0.399
+      ],
+      "cohortN": 14,
+      "decile": 8,
+      "standingKind": "overall",
+      "percentile": 0.818,
+      "spread": 1.25,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 80–90% · spread 1.25",
+      "realized": {
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 364,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 1,
+      "pFinal": 0.143,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.785,
+        1
+      ],
+      "ciFinal": [
+        0.04,
+        0.399
+      ],
+      "cohortN": 14,
+      "decile": 8,
+      "standingKind": "overall",
+      "percentile": 0.811,
+      "spread": 0.91,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 80–90% · spread 0.91",
+      "realized": {
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 57,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 1,
+      "pFinal": 0.143,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.785,
+        1
+      ],
+      "ciFinal": [
+        0.04,
+        0.399
+      ],
+      "cohortN": 14,
+      "decile": 8,
+      "standingKind": "overall",
+      "percentile": 0.804,
+      "spread": 1.05,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 80–90% · spread 1.05",
+      "realized": {
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 443,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 1,
+      "pFinal": 0.214,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.785,
+        1
+      ],
+      "ciFinal": [
+        0.076,
+        0.476
+      ],
+      "cohortN": 14,
+      "decile": 7,
+      "standingKind": "overall",
+      "percentile": 0.797,
+      "spread": 0.95,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 70–80% · spread 0.95",
+      "realized": {
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 254,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 1,
+      "pFinal": 0.25,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.676,
+        1
+      ],
+      "ciFinal": [
+        0.071,
+        0.591
+      ],
+      "cohortN": 8,
+      "decile": 7,
+      "standingKind": "overall",
+      "percentile": 0.79,
+      "spread": 1,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 70–80% · spread 1.00 · high-spread",
+      "realized": {
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 530,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 1,
+      "pFinal": 0.25,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.676,
+        1
+      ],
+      "ciFinal": [
+        0.071,
+        0.591
+      ],
+      "cohortN": 8,
+      "decile": 7,
+      "standingKind": "overall",
+      "percentile": 0.783,
+      "spread": 1.2,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 70–80% · spread 1.20 · high-spread",
+      "realized": {
+        "semifinal": true,
+        "final": true
+      }
+    },
+    {
+      "coupleId": 501,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 1,
+      "pFinal": 0.25,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.676,
+        1
+      ],
+      "ciFinal": [
+        0.071,
+        0.591
+      ],
+      "cohortN": 8,
+      "decile": 7,
+      "standingKind": "overall",
+      "percentile": 0.776,
+      "spread": 1.25,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 70–80% · spread 1.25 · high-spread",
+      "realized": {
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 137,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 1,
+      "pFinal": 0.25,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.676,
+        1
+      ],
+      "ciFinal": [
+        0.071,
+        0.591
+      ],
+      "cohortN": 8,
+      "decile": 7,
+      "standingKind": "overall",
+      "percentile": 0.769,
+      "spread": 1.02,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 70–80% · spread 1.02 · high-spread",
+      "realized": {
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 256,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 1,
+      "pFinal": 0.214,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.785,
+        1
+      ],
+      "ciFinal": [
+        0.076,
+        0.476
+      ],
+      "cohortN": 14,
+      "decile": 7,
+      "standingKind": "overall",
+      "percentile": 0.769,
+      "spread": 0.75,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 70–80% · spread 0.75",
+      "realized": {
+        "semifinal": true,
+        "final": true
+      }
+    },
+    {
+      "coupleId": 315,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 1,
+      "pFinal": 0.25,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.676,
+        1
+      ],
+      "ciFinal": [
+        0.071,
+        0.591
+      ],
+      "cohortN": 8,
+      "decile": 7,
+      "standingKind": "overall",
+      "percentile": 0.755,
+      "spread": 1.45,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 70–80% · spread 1.45 · high-spread",
+      "realized": {
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 509,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 1,
+      "pFinal": 0.214,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.785,
+        1
+      ],
+      "ciFinal": [
+        0.076,
+        0.476
+      ],
+      "cohortN": 14,
+      "decile": 7,
+      "standingKind": "overall",
+      "percentile": 0.748,
+      "spread": 0.95,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 70–80% · spread 0.95",
+      "realized": {
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 132,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 1,
+      "pFinal": 0.25,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.676,
+        1
+      ],
+      "ciFinal": [
+        0.071,
+        0.591
+      ],
+      "cohortN": 8,
+      "decile": 7,
+      "standingKind": "overall",
+      "percentile": 0.741,
+      "spread": 1.1,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 70–80% · spread 1.10 · high-spread",
+      "realized": {
+        "semifinal": true,
+        "final": true
+      }
+    },
+    {
+      "coupleId": 192,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 1,
+      "pFinal": 0.214,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.785,
+        1
+      ],
+      "ciFinal": [
+        0.076,
+        0.476
+      ],
+      "cohortN": 14,
+      "decile": 7,
+      "standingKind": "overall",
+      "percentile": 0.734,
+      "spread": 0.75,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 70–80% · spread 0.75",
+      "realized": {
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 128,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 1,
+      "pFinal": 0.214,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.785,
+        1
+      ],
+      "ciFinal": [
+        0.076,
+        0.476
+      ],
+      "cohortN": 14,
+      "decile": 7,
+      "standingKind": "overall",
+      "percentile": 0.727,
+      "spread": 0.96,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 70–80% · spread 0.96",
+      "realized": {
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 634,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 1,
+      "pFinal": 0.214,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.785,
+        1
+      ],
+      "ciFinal": [
+        0.076,
+        0.476
+      ],
+      "cohortN": 14,
+      "decile": 7,
+      "standingKind": "overall",
+      "percentile": 0.72,
+      "spread": 0.9,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 70–80% · spread 0.90",
+      "realized": {
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 514,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 1,
+      "pFinal": 0.25,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.676,
+        1
+      ],
+      "ciFinal": [
+        0.071,
+        0.591
+      ],
+      "cohortN": 8,
+      "decile": 7,
+      "standingKind": "overall",
+      "percentile": 0.713,
+      "spread": 1,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 70–80% · spread 1.00 · high-spread",
+      "realized": {
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 540,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 1,
+      "pFinal": 0.25,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.676,
+        1
+      ],
+      "ciFinal": [
+        0.071,
+        0.591
+      ],
+      "cohortN": 8,
+      "decile": 7,
+      "standingKind": "overall",
+      "percentile": 0.706,
+      "spread": 1.25,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 70–80% · spread 1.25 · high-spread",
+      "realized": {
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 251,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0.375,
+      "pFinal": 0.125,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.137,
+        0.694
+      ],
+      "ciFinal": [
+        0.022,
+        0.471
+      ],
+      "cohortN": 8,
+      "decile": 6,
+      "standingKind": "overall",
+      "percentile": 0.699,
+      "spread": 1,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 60–70% · spread 1.00 · high-spread",
+      "realized": {
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 46,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0.4,
+      "pFinal": 0.133,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.198,
+        0.643
+      ],
+      "ciFinal": [
+        0.037,
+        0.379
+      ],
+      "cohortN": 15,
+      "decile": 6,
+      "standingKind": "overall",
+      "percentile": 0.692,
+      "spread": 0.68,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 60–70% · spread 0.68",
+      "realized": {
+        "semifinal": true,
+        "final": true
+      }
+    },
+    {
+      "coupleId": 351,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0.375,
+      "pFinal": 0.125,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.137,
+        0.694
+      ],
+      "ciFinal": [
+        0.022,
+        0.471
+      ],
+      "cohortN": 8,
+      "decile": 6,
+      "standingKind": "overall",
+      "percentile": 0.685,
+      "spread": 0.95,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 60–70% · spread 0.95 · high-spread",
+      "realized": {
+        "semifinal": true,
+        "final": true
+      }
+    },
+    {
+      "coupleId": 277,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0.4,
+      "pFinal": 0.133,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.198,
+        0.643
+      ],
+      "ciFinal": [
+        0.037,
+        0.379
+      ],
+      "cohortN": 15,
+      "decile": 6,
+      "standingKind": "overall",
+      "percentile": 0.678,
+      "spread": 0.6,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 60–70% · spread 0.60",
+      "realized": {
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 554,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0.375,
+      "pFinal": 0.125,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.137,
+        0.694
+      ],
+      "ciFinal": [
+        0.022,
+        0.471
+      ],
+      "cohortN": 8,
+      "decile": 6,
+      "standingKind": "overall",
+      "percentile": 0.678,
+      "spread": 0.9,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 60–70% · spread 0.90 · high-spread",
+      "realized": {
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 629,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0.4,
+      "pFinal": 0.133,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.198,
+        0.643
+      ],
+      "ciFinal": [
+        0.037,
+        0.379
+      ],
+      "cohortN": 15,
+      "decile": 6,
+      "standingKind": "overall",
+      "percentile": 0.678,
+      "spread": 0.6,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 60–70% · spread 0.60",
+      "realized": {
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 318,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0.375,
+      "pFinal": 0.125,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.137,
+        0.694
+      ],
+      "ciFinal": [
+        0.022,
+        0.471
+      ],
+      "cohortN": 8,
+      "decile": 6,
+      "standingKind": "overall",
+      "percentile": 0.657,
+      "spread": 1,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 60–70% · spread 1.00 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 529,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0.375,
+      "pFinal": 0.125,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.137,
+        0.694
+      ],
+      "ciFinal": [
+        0.022,
+        0.471
+      ],
+      "cohortN": 8,
+      "decile": 6,
+      "standingKind": "overall",
+      "percentile": 0.65,
+      "spread": 1.3,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 60–70% · spread 1.30 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 417,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0.4,
+      "pFinal": 0.133,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.198,
+        0.643
+      ],
+      "ciFinal": [
+        0.037,
+        0.379
+      ],
+      "cohortN": 15,
+      "decile": 6,
+      "standingKind": "overall",
+      "percentile": 0.643,
+      "spread": 0.8,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 60–70% · spread 0.80",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 24,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0.4,
+      "pFinal": 0.133,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.198,
+        0.643
+      ],
+      "ciFinal": [
+        0.037,
+        0.379
+      ],
+      "cohortN": 15,
+      "decile": 6,
+      "standingKind": "overall",
+      "percentile": 0.636,
+      "spread": 0.8,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 60–70% · spread 0.80",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 33,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0.375,
+      "pFinal": 0.125,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.137,
+        0.694
+      ],
+      "ciFinal": [
+        0.022,
+        0.471
+      ],
+      "cohortN": 8,
+      "decile": 6,
+      "standingKind": "overall",
+      "percentile": 0.629,
+      "spread": 1.3,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 60–70% · spread 1.30 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 421,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0.375,
+      "pFinal": 0.125,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.137,
+        0.694
+      ],
+      "ciFinal": [
+        0.022,
+        0.471
+      ],
+      "cohortN": 8,
+      "decile": 6,
+      "standingKind": "overall",
+      "percentile": 0.622,
+      "spread": 0.95,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 60–70% · spread 0.95 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 463,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0.4,
+      "pFinal": 0.133,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.198,
+        0.643
+      ],
+      "ciFinal": [
+        0.037,
+        0.379
+      ],
+      "cohortN": 15,
+      "decile": 6,
+      "standingKind": "overall",
+      "percentile": 0.615,
+      "spread": 0.65,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 60–70% · spread 0.65",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 246,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0.375,
+      "pFinal": 0.125,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.137,
+        0.694
+      ],
+      "ciFinal": [
+        0.022,
+        0.471
+      ],
+      "cohortN": 8,
+      "decile": 6,
+      "standingKind": "overall",
+      "percentile": 0.608,
+      "spread": 1.8,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 60–70% · spread 1.80 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 95,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0.4,
+      "pFinal": 0.133,
+      "ciCuartos": null,
+      "ciSemi": [
+        0.198,
+        0.643
+      ],
+      "ciFinal": [
+        0.037,
+        0.379
+      ],
+      "cohortN": 15,
+      "decile": 6,
+      "standingKind": "overall",
+      "percentile": 0.601,
+      "spread": 0.86,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 60–70% · spread 0.86",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 303,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 5,
+      "standingKind": "overall",
+      "percentile": 0.594,
+      "spread": 1.2,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 50–60% · spread 1.20 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 12,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.215
+      ],
+      "ciFinal": [
+        0,
+        0.215
+      ],
+      "cohortN": 14,
+      "decile": 5,
+      "standingKind": "overall",
+      "percentile": 0.594,
+      "spread": 0.7,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 50–60% · spread 0.70",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 191,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.215
+      ],
+      "ciFinal": [
+        0,
+        0.215
+      ],
+      "cohortN": 14,
+      "decile": 5,
+      "standingKind": "overall",
+      "percentile": 0.58,
+      "spread": 1.1,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 50–60% · spread 1.10",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 576,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 5,
+      "standingKind": "overall",
+      "percentile": 0.573,
+      "spread": 1.5,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 50–60% · spread 1.50 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 50,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.215
+      ],
+      "ciFinal": [
+        0,
+        0.215
+      ],
+      "cohortN": 14,
+      "decile": 5,
+      "standingKind": "overall",
+      "percentile": 0.566,
+      "spread": 0.8,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 50–60% · spread 0.80",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 593,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 5,
+      "standingKind": "overall",
+      "percentile": 0.559,
+      "spread": 1.4,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 50–60% · spread 1.40 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 429,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 5,
+      "standingKind": "overall",
+      "percentile": 0.552,
+      "spread": 1.2,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 50–60% · spread 1.20 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 363,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.215
+      ],
+      "ciFinal": [
+        0,
+        0.215
+      ],
+      "cohortN": 14,
+      "decile": 5,
+      "standingKind": "overall",
+      "percentile": 0.545,
+      "spread": 1,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 50–60% · spread 1.00",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 327,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 5,
+      "standingKind": "overall",
+      "percentile": 0.538,
+      "spread": 1.3,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 50–60% · spread 1.30 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 589,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.215
+      ],
+      "ciFinal": [
+        0,
+        0.215
+      ],
+      "cohortN": 14,
+      "decile": 5,
+      "standingKind": "overall",
+      "percentile": 0.531,
+      "spread": 0.9,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 50–60% · spread 0.90",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 444,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 5,
+      "standingKind": "overall",
+      "percentile": 0.524,
+      "spread": 1.55,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 50–60% · spread 1.55 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 671,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 5,
+      "standingKind": "overall",
+      "percentile": 0.517,
+      "spread": 2,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 50–60% · spread 2.00 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 358,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 5,
+      "standingKind": "overall",
+      "percentile": 0.51,
+      "spread": 1.53,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 50–60% · spread 1.53 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 239,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.215
+      ],
+      "ciFinal": [
+        0,
+        0.215
+      ],
+      "cohortN": 14,
+      "decile": 5,
+      "standingKind": "overall",
+      "percentile": 0.503,
+      "spread": 1.05,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 50–60% · spread 1.05",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 90,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 4,
+      "standingKind": "overall",
+      "percentile": 0.497,
+      "spread": 1.35,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 40–50% · spread 1.35 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 562,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 4,
+      "standingKind": "overall",
+      "percentile": 0.49,
+      "spread": 1.4,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 40–50% · spread 1.40 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 620,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 4,
+      "standingKind": "overall",
+      "percentile": 0.49,
+      "spread": 1.6,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 40–50% · spread 1.60 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 427,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.215
+      ],
+      "ciFinal": [
+        0,
+        0.215
+      ],
+      "cohortN": 14,
+      "decile": 4,
+      "standingKind": "overall",
+      "percentile": 0.476,
+      "spread": 1.03,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 40–50% · spread 1.03",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 541,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.215
+      ],
+      "ciFinal": [
+        0,
+        0.215
+      ],
+      "cohortN": 14,
+      "decile": 4,
+      "standingKind": "overall",
+      "percentile": 0.469,
+      "spread": 0.4,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 40–50% · spread 0.40",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 21,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.215
+      ],
+      "ciFinal": [
+        0,
+        0.215
+      ],
+      "cohortN": 14,
+      "decile": 4,
+      "standingKind": "overall",
+      "percentile": 0.462,
+      "spread": 1.2,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 40–50% · spread 1.20",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 134,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 4,
+      "standingKind": "overall",
+      "percentile": 0.455,
+      "spread": 1.43,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 40–50% · spread 1.43 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 426,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.215
+      ],
+      "ciFinal": [
+        0,
+        0.215
+      ],
+      "cohortN": 14,
+      "decile": 4,
+      "standingKind": "overall",
+      "percentile": 0.455,
+      "spread": 0.9,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 40–50% · spread 0.90",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 612,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.215
+      ],
+      "ciFinal": [
+        0,
+        0.215
+      ],
+      "cohortN": 14,
+      "decile": 4,
+      "standingKind": "overall",
+      "percentile": 0.441,
+      "spread": 1.2,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 40–50% · spread 1.20",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 78,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 4,
+      "standingKind": "overall",
+      "percentile": 0.434,
+      "spread": 1.4,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 40–50% · spread 1.40 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 575,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 4,
+      "standingKind": "overall",
+      "percentile": 0.427,
+      "spread": 1.35,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 40–50% · spread 1.35 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 556,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.215
+      ],
+      "ciFinal": [
+        0,
+        0.215
+      ],
+      "cohortN": 14,
+      "decile": 4,
+      "standingKind": "overall",
+      "percentile": 0.42,
+      "spread": 0.8,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 40–50% · spread 0.80",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 241,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 4,
+      "standingKind": "overall",
+      "percentile": 0.413,
+      "spread": 1.51,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 40–50% · spread 1.51 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 715,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 4,
+      "standingKind": "overall",
+      "percentile": 0.413,
+      "spread": 1.35,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 40–50% · spread 1.35 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 602,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.204
+      ],
+      "ciFinal": [
+        0,
+        0.204
+      ],
+      "cohortN": 15,
+      "decile": 3,
+      "standingKind": "overall",
+      "percentile": 0.399,
+      "spread": 1.1,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 30–40% · spread 1.10",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 587,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 3,
+      "standingKind": "overall",
+      "percentile": 0.392,
+      "spread": 1.5,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 30–40% · spread 1.50 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 91,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.204
+      ],
+      "ciFinal": [
+        0,
+        0.204
+      ],
+      "cohortN": 15,
+      "decile": 3,
+      "standingKind": "overall",
+      "percentile": 0.385,
+      "spread": 1.2,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 30–40% · spread 1.20",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 243,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.204
+      ],
+      "ciFinal": [
+        0,
+        0.204
+      ],
+      "cohortN": 15,
+      "decile": 3,
+      "standingKind": "overall",
+      "percentile": 0.378,
+      "spread": 0.93,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 30–40% · spread 0.93",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 458,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 3,
+      "standingKind": "overall",
+      "percentile": 0.371,
+      "spread": 1.3,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 30–40% · spread 1.30 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 548,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 3,
+      "standingKind": "overall",
+      "percentile": 0.364,
+      "spread": 1.3,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 30–40% · spread 1.30 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 507,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 3,
+      "standingKind": "overall",
+      "percentile": 0.357,
+      "spread": 1.4,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 30–40% · spread 1.40 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 291,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.204
+      ],
+      "ciFinal": [
+        0,
+        0.204
+      ],
+      "cohortN": 15,
+      "decile": 3,
+      "standingKind": "overall",
+      "percentile": 0.35,
+      "spread": 1.02,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 30–40% · spread 1.02",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 308,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.204
+      ],
+      "ciFinal": [
+        0,
+        0.204
+      ],
+      "cohortN": 15,
+      "decile": 3,
+      "standingKind": "overall",
+      "percentile": 0.343,
+      "spread": 1.15,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 30–40% · spread 1.15",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 5,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.204
+      ],
+      "ciFinal": [
+        0,
+        0.204
+      ],
+      "cohortN": 15,
+      "decile": 3,
+      "standingKind": "overall",
+      "percentile": 0.336,
+      "spread": 0.66,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 30–40% · spread 0.66",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 475,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 3,
+      "standingKind": "overall",
+      "percentile": 0.329,
+      "spread": 1.39,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 30–40% · spread 1.39 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 361,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 3,
+      "standingKind": "overall",
+      "percentile": 0.322,
+      "spread": 1.35,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 30–40% · spread 1.35 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 269,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.204
+      ],
+      "ciFinal": [
+        0,
+        0.204
+      ],
+      "cohortN": 15,
+      "decile": 3,
+      "standingKind": "overall",
+      "percentile": 0.315,
+      "spread": 0.85,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 30–40% · spread 0.85",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 434,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 3,
+      "standingKind": "overall",
+      "percentile": 0.315,
+      "spread": 1.7,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 30–40% · spread 1.70 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 596,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 3,
+      "standingKind": "overall",
+      "percentile": 0.315,
+      "spread": 1.6,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 30–40% · spread 1.60 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 4,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 2,
+      "standingKind": "overall",
+      "percentile": 0.294,
+      "spread": 1.6,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 20–30% · spread 1.60 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 502,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 2,
+      "standingKind": "overall",
+      "percentile": 0.287,
+      "spread": 1.55,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 20–30% · spread 1.55 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 144,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 2,
+      "standingKind": "overall",
+      "percentile": 0.28,
+      "spread": 1.3,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 20–30% · spread 1.30 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 628,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 2,
+      "standingKind": "overall",
+      "percentile": 0.273,
+      "spread": 1.67,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 20–30% · spread 1.67 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 345,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 2,
+      "standingKind": "overall",
+      "percentile": 0.266,
+      "spread": 1.7,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 20–30% · spread 1.70 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 409,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.215
+      ],
+      "ciFinal": [
+        0,
+        0.215
+      ],
+      "cohortN": 14,
+      "decile": 2,
+      "standingKind": "overall",
+      "percentile": 0.259,
+      "spread": 1,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 20–30% · spread 1.00",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 551,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.215
+      ],
+      "ciFinal": [
+        0,
+        0.215
+      ],
+      "cohortN": 14,
+      "decile": 2,
+      "standingKind": "overall",
+      "percentile": 0.252,
+      "spread": 0.9,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 20–30% · spread 0.90",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 102,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 2,
+      "standingKind": "overall",
+      "percentile": 0.245,
+      "spread": 1.3,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 20–30% · spread 1.30 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 455,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.215
+      ],
+      "ciFinal": [
+        0,
+        0.215
+      ],
+      "cohortN": 14,
+      "decile": 2,
+      "standingKind": "overall",
+      "percentile": 0.238,
+      "spread": 1.1,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 20–30% · spread 1.10",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 346,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 2,
+      "standingKind": "overall",
+      "percentile": 0.231,
+      "spread": 1.8,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 20–30% · spread 1.80 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 299,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 2,
+      "standingKind": "overall",
+      "percentile": 0.224,
+      "spread": 1.37,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 20–30% · spread 1.37 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 469,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.215
+      ],
+      "ciFinal": [
+        0,
+        0.215
+      ],
+      "cohortN": 14,
+      "decile": 2,
+      "standingKind": "overall",
+      "percentile": 0.217,
+      "spread": 1.05,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 20–30% · spread 1.05",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 525,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.215
+      ],
+      "ciFinal": [
+        0,
+        0.215
+      ],
+      "cohortN": 14,
+      "decile": 2,
+      "standingKind": "overall",
+      "percentile": 0.21,
+      "spread": 1.05,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 20–30% · spread 1.05",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 184,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.215
+      ],
+      "ciFinal": [
+        0,
+        0.215
+      ],
+      "cohortN": 14,
+      "decile": 2,
+      "standingKind": "overall",
+      "percentile": 0.203,
+      "spread": 1.12,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 20–30% · spread 1.12",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 523,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.215
+      ],
+      "ciFinal": [
+        0,
+        0.215
+      ],
+      "cohortN": 14,
+      "decile": 1,
+      "standingKind": "overall",
+      "percentile": 0.196,
+      "spread": 1.25,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 10–20% · spread 1.25",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 180,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.278
+      ],
+      "ciFinal": [
+        0,
+        0.278
+      ],
+      "cohortN": 10,
+      "decile": 1,
+      "standingKind": "overall",
+      "percentile": 0.189,
+      "spread": 1.3,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 10–20% · spread 1.30 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 194,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.278
+      ],
+      "ciFinal": [
+        0,
+        0.278
+      ],
+      "cohortN": 10,
+      "decile": 1,
+      "standingKind": "overall",
+      "percentile": 0.182,
+      "spread": 1.6,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 10–20% · spread 1.60 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 460,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.278
+      ],
+      "ciFinal": [
+        0,
+        0.278
+      ],
+      "cohortN": 10,
+      "decile": 1,
+      "standingKind": "overall",
+      "percentile": 0.175,
+      "spread": 1.4,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 10–20% · spread 1.40 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 577,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.278
+      ],
+      "ciFinal": [
+        0,
+        0.278
+      ],
+      "cohortN": 10,
+      "decile": 1,
+      "standingKind": "overall",
+      "percentile": 0.168,
+      "spread": 1.3,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 10–20% · spread 1.30 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 218,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.278
+      ],
+      "ciFinal": [
+        0,
+        0.278
+      ],
+      "cohortN": 10,
+      "decile": 1,
+      "standingKind": "overall",
+      "percentile": 0.161,
+      "spread": 1.3,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 10–20% · spread 1.30 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 280,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.215
+      ],
+      "ciFinal": [
+        0,
+        0.215
+      ],
+      "cohortN": 14,
+      "decile": 1,
+      "standingKind": "overall",
+      "percentile": 0.154,
+      "spread": 0.8,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 10–20% · spread 0.80",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 55,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.278
+      ],
+      "ciFinal": [
+        0,
+        0.278
+      ],
+      "cohortN": 10,
+      "decile": 1,
+      "standingKind": "overall",
+      "percentile": 0.147,
+      "spread": 1.6,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 10–20% · spread 1.60 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 306,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.278
+      ],
+      "ciFinal": [
+        0,
+        0.278
+      ],
+      "cohortN": 10,
+      "decile": 1,
+      "standingKind": "overall",
+      "percentile": 0.14,
+      "spread": 1.3,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 10–20% · spread 1.30 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 582,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.215
+      ],
+      "ciFinal": [
+        0,
+        0.215
+      ],
+      "cohortN": 14,
+      "decile": 1,
+      "standingKind": "overall",
+      "percentile": 0.133,
+      "spread": 0.9,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 10–20% · spread 0.90",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 142,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.278
+      ],
+      "ciFinal": [
+        0,
+        0.278
+      ],
+      "cohortN": 10,
+      "decile": 1,
+      "standingKind": "overall",
+      "percentile": 0.126,
+      "spread": 2.1,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 10–20% · spread 2.10 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 85,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.278
+      ],
+      "ciFinal": [
+        0,
+        0.278
+      ],
+      "cohortN": 10,
+      "decile": 1,
+      "standingKind": "overall",
+      "percentile": 0.119,
+      "spread": 1.65,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 10–20% · spread 1.65 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 319,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.215
+      ],
+      "ciFinal": [
+        0,
+        0.215
+      ],
+      "cohortN": 14,
+      "decile": 1,
+      "standingKind": "overall",
+      "percentile": 0.112,
+      "spread": 0.8,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 10–20% · spread 0.80",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 96,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.278
+      ],
+      "ciFinal": [
+        0,
+        0.278
+      ],
+      "cohortN": 10,
+      "decile": 1,
+      "standingKind": "overall",
+      "percentile": 0.105,
+      "spread": 1.6,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field 10–20% · spread 1.60 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 478,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.299
+      ],
+      "ciFinal": [
+        0,
+        0.299
+      ],
+      "cohortN": 9,
+      "decile": 0,
+      "standingKind": "overall",
+      "percentile": 0.098,
+      "spread": 1.3,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field bottom 10% · spread 1.30 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 196,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.299
+      ],
+      "ciFinal": [
+        0,
+        0.299
+      ],
+      "cohortN": 9,
+      "decile": 0,
+      "standingKind": "overall",
+      "percentile": 0.091,
+      "spread": 1.3,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field bottom 10% · spread 1.30 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 472,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.299
+      ],
+      "ciFinal": [
+        0,
+        0.299
+      ],
+      "cohortN": 9,
+      "decile": 0,
+      "standingKind": "overall",
+      "percentile": 0.084,
+      "spread": 1.6,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field bottom 10% · spread 1.60 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 486,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.204
+      ],
+      "ciFinal": [
+        0,
+        0.204
+      ],
+      "cohortN": 15,
+      "decile": 0,
+      "standingKind": "overall",
+      "percentile": 0.077,
+      "spread": 1,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field bottom 10% · spread 1.00",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 392,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.299
+      ],
+      "ciFinal": [
+        0,
+        0.299
+      ],
+      "cohortN": 9,
+      "decile": 0,
+      "standingKind": "overall",
+      "percentile": 0.07,
+      "spread": 1.85,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field bottom 10% · spread 1.85 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 553,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.299
+      ],
+      "ciFinal": [
+        0,
+        0.299
+      ],
+      "cohortN": 9,
+      "decile": 0,
+      "standingKind": "overall",
+      "percentile": 0.063,
+      "spread": 1.5,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field bottom 10% · spread 1.50 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 627,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.299
+      ],
+      "ciFinal": [
+        0,
+        0.299
+      ],
+      "cohortN": 9,
+      "decile": 0,
+      "standingKind": "overall",
+      "percentile": 0.056,
+      "spread": 1.95,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field bottom 10% · spread 1.95 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 88,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.299
+      ],
+      "ciFinal": [
+        0,
+        0.299
+      ],
+      "cohortN": 9,
+      "decile": 0,
+      "standingKind": "overall",
+      "percentile": 0.049,
+      "spread": 1.3,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field bottom 10% · spread 1.30 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 108,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.204
+      ],
+      "ciFinal": [
+        0,
+        0.204
+      ],
+      "cohortN": 15,
+      "decile": 0,
+      "standingKind": "overall",
+      "percentile": 0.042,
+      "spread": 1,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field bottom 10% · spread 1.00",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 491,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.299
+      ],
+      "ciFinal": [
+        0,
+        0.299
+      ],
+      "cohortN": 9,
+      "decile": 0,
+      "standingKind": "overall",
+      "percentile": 0.035,
+      "spread": 2.35,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field bottom 10% · spread 2.35 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 74,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.299
+      ],
+      "ciFinal": [
+        0,
+        0.299
+      ],
+      "cohortN": 9,
+      "decile": 0,
+      "standingKind": "overall",
+      "percentile": 0.028,
+      "spread": 1.65,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field bottom 10% · spread 1.65 · high-spread",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 238,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.204
+      ],
+      "ciFinal": [
+        0,
+        0.204
+      ],
+      "cohortN": 15,
+      "decile": 0,
+      "standingKind": "overall",
+      "percentile": 0.021,
+      "spread": 1.05,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field bottom 10% · spread 1.05",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 448,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.204
+      ],
+      "ciFinal": [
+        0,
+        0.204
+      ],
+      "cohortN": 15,
+      "decile": 0,
+      "standingKind": "overall",
+      "percentile": 0.014,
+      "spread": 1.2,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field bottom 10% · spread 1.20",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 387,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.204
+      ],
+      "ciFinal": [
+        0,
+        0.204
+      ],
+      "cohortN": 15,
+      "decile": 0,
+      "standingKind": "overall",
+      "percentile": 0.007,
+      "spread": 0.9,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field bottom 10% · spread 0.90",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 721,
+      "blockId": "_",
+      "pCuartos": null,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": null,
+      "ciSemi": [
+        0,
+        0.204
+      ],
+      "ciFinal": [
+        0,
+        0.204
+      ],
+      "cohortN": 15,
+      "decile": 0,
+      "standingKind": "overall",
+      "percentile": 0,
+      "spread": 0.8,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Field bottom 10% · spread 0.80",
+      "realized": {
+        "semifinal": false,
+        "final": false
+      }
+    }
+  ]
+}

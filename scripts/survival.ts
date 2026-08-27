@@ -10,6 +10,7 @@ import { dirname, join, resolve } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import type {
   BlockId,
+  Category,
   CoupleSurvival,
   Dataset,
   GateScores,
@@ -27,6 +28,8 @@ import type {
   SurvivalPrior,
   YearSurvivalFile,
 } from "../src/types.ts";
+
+import { yearOutputDir } from "./year-io.ts";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const PUBLIC_DATA = join(ROOT, "public", "data");
@@ -99,8 +102,14 @@ async function loadJson<T>(path: string): Promise<T | null> {
   }
 }
 
-async function loadDataset(year: number, stage: Stage): Promise<Dataset | null> {
-  return loadJson<Dataset>(join(PUBLIC_DATA, String(year), `results-${stage}.json`));
+async function loadDataset(
+  year: number,
+  stage: Stage,
+  category: Category = "pista",
+): Promise<Dataset | null> {
+  return loadJson<Dataset>(
+    join(yearOutputDir(PUBLIC_DATA, year, category), `results-${stage}.json`),
+  );
 }
 
 function idSet(rows: ScoreRow[]): Set<number> {
@@ -754,22 +763,26 @@ function remapOverallDecile(c: LabeledCouple): number {
   return decileOf(c.overallPct);
 }
 
-export async function generateSurvival(): Promise<SurvivalModelFile> {
-  const clas25 = await loadDataset(2025, "clasificatoria");
-  const clas24 = await loadDataset(2024, "clasificatoria");
-  const clas26 = await loadDataset(2026, "clasificatoria");
+export async function generateSurvival(
+  category: Category = "pista",
+): Promise<SurvivalModelFile> {
+  const clas25 = await loadDataset(2025, "clasificatoria", category);
+  const clas24 = await loadDataset(2024, "clasificatoria", category);
+  const clas26 = await loadDataset(2026, "clasificatoria", category);
   if (!clas25 || !clas24) {
-    throw new Error("Need public/data/2024 and 2025 clasificatoria JSON to build survival odds.");
+    throw new Error(
+      `Need ${category} 2024 and 2025 clasificatoria JSON to build survival odds.`,
+    );
   }
 
   const later25: Partial<Record<Stage, Set<number>>> = {
-    cuartos: idSet((await loadDataset(2025, "cuartos"))?.rows ?? []),
-    semifinal: idSet((await loadDataset(2025, "semifinal"))?.rows ?? []),
-    final: idSet((await loadDataset(2025, "final"))?.rows ?? []),
+    cuartos: idSet((await loadDataset(2025, "cuartos", category))?.rows ?? []),
+    semifinal: idSet((await loadDataset(2025, "semifinal", category))?.rows ?? []),
+    final: idSet((await loadDataset(2025, "final", category))?.rows ?? []),
   };
   const later24: Partial<Record<Stage, Set<number>>> = {
-    semifinal: idSet((await loadDataset(2024, "semifinal"))?.rows ?? []),
-    final: idSet((await loadDataset(2024, "final"))?.rows ?? []),
+    semifinal: idSet((await loadDataset(2024, "semifinal", category))?.rows ?? []),
+    final: idSet((await loadDataset(2024, "final", category))?.rows ?? []),
   };
 
   const idx24 = indexYear(2024, clas24, later24);
@@ -917,14 +930,18 @@ export async function generateSurvival(): Promise<SurvivalModelFile> {
     });
   }
 
-  await writeJson(join(PUBLIC_DATA, "survival.json"), model);
-  await writeJson(join(PROCESSED_DATA, "survival.json"), model);
+  if (category === "pista") {
+    await writeJson(join(PUBLIC_DATA, "survival.json"), model);
+    await writeJson(join(PROCESSED_DATA, "survival.json"), model);
+  }
   for (const file of yearFiles) {
-    await writeJson(join(PUBLIC_DATA, String(file.year), "survival.json"), file);
-    await writeJson(join(PROCESSED_DATA, String(file.year), "survival.json"), file);
+    const pub = yearOutputDir(PUBLIC_DATA, file.year, category);
+    const proc = yearOutputDir(PROCESSED_DATA, file.year, category);
+    await writeJson(join(pub, "survival.json"), file);
+    await writeJson(join(proc, "survival.json"), file);
   }
 
-  console.log("\n=== Stage-survival odds ===");
+  console.log(`\n=== Stage-survival odds (${category}) ===`);
   console.log(`Model shipped: ${chosen}`);
   console.log(reason);
   console.log("\n2025 block-percentile deciles (lookup):");
@@ -990,7 +1007,8 @@ function invokedDirectly(): boolean {
 }
 
 if (invokedDirectly()) {
-  generateSurvival().catch((err) => {
+  const category = process.argv.includes("--escenario") ? "escenario" : "pista";
+  generateSurvival(category).catch((err) => {
     console.error(err);
     process.exit(1);
   });

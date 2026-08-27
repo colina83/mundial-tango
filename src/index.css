@@ -192,7 +192,15 @@ h3 {
   overflow: hidden;
 }
 
-.lang-toggle button {
+.cat-toggle {
+  display: flex;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.lang-toggle button,
+.cat-toggle button {
   background: transparent;
   color: var(--muted);
   border: 0;
@@ -202,7 +210,8 @@ h3 {
   font-size: 0.75rem;
 }
 
-.lang-toggle button.is-active {
+.lang-toggle button.is-active,
+.cat-toggle button.is-active {
   background: var(--panel);
   color: var(--text);
 }
@@ -1448,6 +1457,14 @@ select {
 .year-gate-title {
   font-size: 2rem;
   margin: 4px 0 8px;
+}
+
+.year-section {
+  margin-top: 22px;
+}
+
+.year-section .year-gate-kicker {
+  margin-bottom: 8px;
 }
 
 .year-cards {

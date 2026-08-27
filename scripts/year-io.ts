@@ -4,6 +4,7 @@ import type {
   AverageMismatch,
   BlockSummary,
   CatalogYear,
+  Category,
   Dataset,
   ScoreRow,
   Scoring,
@@ -13,6 +14,15 @@ import type {
 } from "../src/types.ts";
 import type { ParsedBlock } from "./parse-pdf.ts";
 import { attachOverallRanks, qualifyBlock } from "./qualify.ts";
+
+function catalogKey(entry: { year: number; category?: Category }): string {
+  return `${entry.year}:${entry.category ?? "pista"}`;
+}
+
+export function yearOutputDir(baseDir: string, year: number, category: Category = "pista"): string {
+  const yearDir = join(baseDir, String(year));
+  return category === "escenario" ? join(yearDir, "escenario") : yearDir;
+}
 
 export async function mergeCatalog(
   publicDataDir: string,
@@ -26,8 +36,15 @@ export async function mergeCatalog(
   } catch {
     /* first write */
   }
-  const years = [...(catalog.years ?? []).filter((y) => y.year !== entry.year), entry];
-  years.sort((a, b) => b.year - a.year);
+  const key = catalogKey(entry);
+  const years = [
+    ...(catalog.years ?? []).filter((y) => catalogKey(y) !== key),
+    { ...entry, category: entry.category ?? "pista" },
+  ];
+  years.sort((a, b) => {
+    if (b.year !== a.year) return b.year - a.year;
+    return (a.category ?? "pista").localeCompare(b.category ?? "pista");
+  });
   const next: YearCatalog = { updatedAt: new Date().toISOString(), years };
   await mkdir(publicDataDir, { recursive: true });
   await writeFile(join(publicDataDir, "catalog.json"), `${JSON.stringify(next, null, 2)}\n`);
@@ -40,12 +57,13 @@ export function catalogEntryFrom(
   scoring: Scoring,
   complete: boolean,
   datasets: Dataset[],
+  category: Category = "pista",
 ): CatalogYear {
   const stages = datasets.map((d) => d.stage);
   const rowCounts: CatalogYear["rowCounts"] = {};
   for (const d of datasets) rowCounts[d.stage] = d.rows.length;
   const hasBlocks = datasets.some((d) => d.blocks.some((b) => b.id !== "_"));
-  return { year, status, scoring, complete, hasBlocks, stages, rowCounts };
+  return { year, category, status, scoring, complete, hasBlocks, stages, rowCounts };
 }
 
 export async function writeYearOutputs(
@@ -55,9 +73,10 @@ export async function writeYearOutputs(
   scoring: Scoring,
   datasets: Dataset[],
   alsoLegacy: boolean,
+  category: Category = "pista",
 ): Promise<StageManifest> {
-  const yearPublic = join(publicDataDir, String(year));
-  const yearProcessed = join(processedDir, String(year));
+  const yearPublic = yearOutputDir(publicDataDir, year, category);
+  const yearProcessed = yearOutputDir(processedDir, year, category);
   await mkdir(yearPublic, { recursive: true });
   await mkdir(yearProcessed, { recursive: true });
 
@@ -77,7 +96,7 @@ export async function writeYearOutputs(
     const name = `results-${dataset.stage}.json`;
     await writeFile(join(yearProcessed, name), json);
     await writeFile(join(yearPublic, name), json);
-    if (alsoLegacy) {
+    if (alsoLegacy && category === "pista") {
       await writeFile(join(processedDir, name), json);
       await writeFile(join(publicDataDir, name), json);
       if (dataset.stage === "clasificatoria") {
@@ -90,7 +109,7 @@ export async function writeYearOutputs(
   const man = `${JSON.stringify(manifest, null, 2)}\n`;
   await writeFile(join(yearPublic, "manifest.json"), man);
   await writeFile(join(yearProcessed, "manifest.json"), man);
-  if (alsoLegacy) {
+  if (alsoLegacy && category === "pista") {
     await writeFile(
       join(publicDataDir, "manifest.json"),
       `${JSON.stringify({ updatedAt: manifest.updatedAt, stages: manifest.stages }, null, 2)}\n`,
@@ -111,6 +130,7 @@ export function buildDataset(
   blocks: ParsedBlock[],
   year: number,
   scoring: Scoring,
+  category: Category = "pista",
 ): Dataset {
   const rows: ScoreRow[] = [];
   const mismatches: AverageMismatch[] = [];
@@ -184,7 +204,7 @@ export function buildDataset(
     generatedAt: new Date().toISOString(),
     year,
     stage,
-    category: "pista",
+    category,
     scoring,
     sourcePage,
     sourceCategoryPage,
@@ -196,22 +216,46 @@ export function buildDataset(
   };
 }
 
-export function sourcePageFor(year: number, stage: Stage): string {
+export function sourcePageFor(
+  year: number,
+  stage: Stage,
+  category: Category = "pista",
+): string {
   const pages: Record<string, string> = {
-    "2026-clasificatoria":
+    "pista-2026-clasificatoria":
       "https://tangoba.org/resultados-clasificatoria-tango-de-pista-2026/",
-    "2026-cuartos": "https://tangoba.org/resultados-cuartos-final-tango-de-pista-2026/",
-    "2026-semifinal": "https://tangoba.org/resultados-semifinal-tango-de-pista-2026/",
-    "2026-final": "https://tangoba.org/resultados-final-tango-de-pista-2026/",
-    "2025-clasificatoria":
+    "pista-2026-cuartos": "https://tangoba.org/resultados-cuartos-final-tango-de-pista-2026/",
+    "pista-2026-semifinal": "https://tangoba.org/resultados-semifinal-tango-de-pista-2026/",
+    "pista-2026-final": "https://tangoba.org/resultados-final-tango-de-pista-2026/",
+    "pista-2025-clasificatoria":
       "https://tangoba.org/resultados-clasificatoria-tango-de-pista-2025/",
-    "2025-cuartos": "https://tangoba.org/resultados-cuartos-tango-de-pista/",
-    "2025-semifinal": "https://tangoba.org/resultados-semifinal-tango-de-pista-2025/",
-    "2025-final": "https://tangoba.org/resultados-finales-tango-pista-2025/",
-    "2024-clasificatoria": "https://tangoba.org/resultados-clasificatoria-tango-de-pista/",
-    "2024-semifinal": "https://tangoba.org/resultados-semifinal-tango-de-pista/",
-    "2024-final":
+    "pista-2025-cuartos": "https://tangoba.org/resultados-cuartos-tango-de-pista/",
+    "pista-2025-semifinal": "https://tangoba.org/resultados-semifinal-tango-de-pista-2025/",
+    "pista-2025-final": "https://tangoba.org/resultados-finales-tango-pista-2025/",
+    "pista-2024-clasificatoria": "https://tangoba.org/resultados-clasificatoria-tango-de-pista/",
+    "pista-2024-semifinal": "https://tangoba.org/resultados-semifinal-tango-de-pista/",
+    "pista-2024-final":
+      "https://tangoba.org/resultados-finales-tango-escenario-y-tango-pista/",
+    "escenario-2026-clasificatoria":
+      "https://tangoba.org/resultados-clasificatoria-tango-escenario-2026/",
+    "escenario-2026-cuartos":
+      "https://tangoba.org/resultados-cuartos-tango-escenario-2026/",
+    "escenario-2026-semifinal":
+      "https://tangoba.org/resultados-semifinal-tango-escenario-2026/",
+    "escenario-2026-final": "https://tangoba.org/resultados-final-tango-escenario-2026/",
+    "escenario-2025-clasificatoria":
+      "https://tangoba.org/resultados-clasificatoria-tango-escenario-2025/",
+    "escenario-2025-cuartos":
+      "https://tangoba.org/resultados-clasificatoria-tango-escenario-copy/",
+    "escenario-2025-semifinal":
+      "https://tangoba.org/resultados-semifinal-tango-escenario-2025/",
+    "escenario-2025-final": "https://tangoba.org/resultados-final-tango-escenario-2025/",
+    "escenario-2024-clasificatoria":
+      "https://tangoba.org/resultados-clasificatoria-tango-escenario/",
+    "escenario-2024-semifinal":
+      "https://tangoba.org/resultados-semifinal-tango-escenario/",
+    "escenario-2024-final":
       "https://tangoba.org/resultados-finales-tango-escenario-y-tango-pista/",
   };
-  return pages[`${year}-${stage}`] ?? "https://tangoba.org/category/resultados/";
+  return pages[`${category}-${year}-${stage}`] ?? "https://tangoba.org/category/resultados/";
 }

@@ -1,0 +1,1478 @@
+{
+  "generatedAt": "2026-08-27T18:59:37.117Z",
+  "year": 2024,
+  "stage": "final",
+  "category": "escenario",
+  "scoring": "simple",
+  "sourcePage": "https://tangoba.org/resultados-finales-tango-escenario-y-tango-pista/",
+  "sourceCategoryPage": "https://tangoba.org/category/resultados/",
+  "sourceLabel": "Tango BA",
+  "disclaimer": "Compañero extraoficial de fans. No afiliado a Tango BA ni al Mundial de Baile. Fuente: Tango BA.",
+  "blocks": [
+    {
+      "id": "_",
+      "date": "2024-08-28",
+      "dateLabel": "28 de agosto",
+      "judges": [
+        "Laura Roatta",
+        "Carlos Rivarola",
+        "Gisela Galeasi",
+        "Ignacio Gonzalez Cano",
+        "Melina Brufman",
+        "Julio Zurita",
+        "Nelida Rodriguez"
+      ],
+      "sourcePdf": {
+        "filename": "final.pdf",
+        "url": "https://tangoba.org/wp-content/uploads/2024/08/Final-Tango-Escenario.pdf",
+        "sha256": "f314d24fcd8130ca36d005edad47b4b0827b317f42addc84942a55a9001ec7c9"
+      },
+      "cutoff": 8.661,
+      "classifiedCount": 20,
+      "coupleCount": 20
+    }
+  ],
+  "rows": [
+    {
+      "coupleId": 395,
+      "round": "—",
+      "dancer1": "Sebastián Martinez",
+      "dancer2": "Ayelen Morando",
+      "judges": [
+        {
+          "name": "Laura Roatta",
+          "score": 9.85,
+          "dropped": false
+        },
+        {
+          "name": "Carlos Rivarola",
+          "score": 9.15,
+          "dropped": false
+        },
+        {
+          "name": "Gisela Galeasi",
+          "score": 9.99,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 9.85,
+          "dropped": false
+        },
+        {
+          "name": "Melina Brufman",
+          "score": 9.9,
+          "dropped": false
+        },
+        {
+          "name": "Julio Zurita",
+          "score": 8.89,
+          "dropped": false
+        },
+        {
+          "name": "Nelida Rodriguez",
+          "score": 9.27,
+          "dropped": false
+        }
+      ],
+      "average": 9.557,
+      "officialAverage": 9.557,
+      "rankInBlock": 1,
+      "rankOverall": 1,
+      "classified": true,
+      "cutoffDelta": 0.896,
+      "spread": 1.1,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 100,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.86,
+          "percentile": 100
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.677,
+          "percentile": 100
+        },
+        {
+          "stage": "final",
+          "average": 9.557,
+          "percentile": 100
+        }
+      ],
+      "overall": 100,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 398,
+      "round": "—",
+      "dancer1": "Nelson Leiva",
+      "dancer2": "Evangelina Martinez",
+      "judges": [
+        {
+          "name": "Laura Roatta",
+          "score": 9.82,
+          "dropped": false
+        },
+        {
+          "name": "Carlos Rivarola",
+          "score": 9.06,
+          "dropped": false
+        },
+        {
+          "name": "Gisela Galeasi",
+          "score": 9.55,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 9.69,
+          "dropped": false
+        },
+        {
+          "name": "Melina Brufman",
+          "score": 10,
+          "dropped": false
+        },
+        {
+          "name": "Julio Zurita",
+          "score": 8.99,
+          "dropped": false
+        },
+        {
+          "name": "Nelida Rodriguez",
+          "score": 9.4,
+          "dropped": false
+        }
+      ],
+      "average": 9.501,
+      "officialAverage": 9.501,
+      "rankInBlock": 2,
+      "rankOverall": 2,
+      "classified": true,
+      "cutoffDelta": 0.84,
+      "spread": 1.01,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 94.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.76,
+          "percentile": 95.1
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.633,
+          "percentile": 98.3
+        },
+        {
+          "stage": "final",
+          "average": 9.501,
+          "percentile": 94.7
+        }
+      ],
+      "overall": 96,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 228,
+      "round": "—",
+      "dancer1": "Jesus Taborda",
+      "dancer2": "Carla Domínguez",
+      "judges": [
+        {
+          "name": "Laura Roatta",
+          "score": 9.5,
+          "dropped": false
+        },
+        {
+          "name": "Carlos Rivarola",
+          "score": 8.9,
+          "dropped": false
+        },
+        {
+          "name": "Gisela Galeasi",
+          "score": 9.4,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 9.4,
+          "dropped": false
+        },
+        {
+          "name": "Melina Brufman",
+          "score": 9.85,
+          "dropped": false
+        },
+        {
+          "name": "Julio Zurita",
+          "score": 8.98,
+          "dropped": false
+        },
+        {
+          "name": "Nelida Rodriguez",
+          "score": 9.55,
+          "dropped": false
+        }
+      ],
+      "average": 9.369,
+      "officialAverage": 9.369,
+      "rankInBlock": 3,
+      "rankOverall": 3,
+      "classified": true,
+      "cutoffDelta": 0.708,
+      "spread": 0.95,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 89.5,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.782,
+          "percentile": 97.9
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.523,
+          "percentile": 95
+        },
+        {
+          "stage": "final",
+          "average": 9.369,
+          "percentile": 89.5
+        }
+      ],
+      "overall": 94.1,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 72,
+      "round": "—",
+      "dancer1": "Adriel Bournissen",
+      "dancer2": "María Soledad Mallo",
+      "judges": [
+        {
+          "name": "Laura Roatta",
+          "score": 9.1,
+          "dropped": false
+        },
+        {
+          "name": "Carlos Rivarola",
+          "score": 9,
+          "dropped": false
+        },
+        {
+          "name": "Gisela Galeasi",
+          "score": 9.6,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 9.95,
+          "dropped": false
+        },
+        {
+          "name": "Melina Brufman",
+          "score": 9.35,
+          "dropped": false
+        },
+        {
+          "name": "Julio Zurita",
+          "score": 9,
+          "dropped": false
+        },
+        {
+          "name": "Nelida Rodriguez",
+          "score": 9.5,
+          "dropped": false
+        }
+      ],
+      "average": 9.357,
+      "officialAverage": 9.357,
+      "rankInBlock": 4,
+      "rankOverall": 4,
+      "classified": true,
+      "cutoffDelta": 0.696,
+      "spread": 0.95,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 84.2,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.776,
+          "percentile": 96.5
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.292,
+          "percentile": 78.3
+        },
+        {
+          "stage": "final",
+          "average": 9.357,
+          "percentile": 84.2
+        }
+      ],
+      "overall": 86.3,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 604,
+      "round": "—",
+      "dancer1": "Lautaro Levato",
+      "dancer2": "Milagros Quintana",
+      "judges": [
+        {
+          "name": "Laura Roatta",
+          "score": 9.78,
+          "dropped": false
+        },
+        {
+          "name": "Carlos Rivarola",
+          "score": 8.95,
+          "dropped": false
+        },
+        {
+          "name": "Gisela Galeasi",
+          "score": 9.63,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 9.9,
+          "dropped": false
+        },
+        {
+          "name": "Melina Brufman",
+          "score": 9.55,
+          "dropped": false
+        },
+        {
+          "name": "Julio Zurita",
+          "score": 8.92,
+          "dropped": false
+        },
+        {
+          "name": "Nelida Rodriguez",
+          "score": 8.66,
+          "dropped": false
+        }
+      ],
+      "average": 9.341,
+      "officialAverage": 9.341,
+      "rankInBlock": 5,
+      "rankOverall": 5,
+      "classified": true,
+      "cutoffDelta": 0.68,
+      "spread": 1.24,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 78.9,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.53,
+          "percentile": 82.5
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.35,
+          "percentile": 85
+        },
+        {
+          "stage": "final",
+          "average": 9.341,
+          "percentile": 78.9
+        }
+      ],
+      "overall": 82.1,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 590,
+      "round": "—",
+      "dancer1": "Lucas Guevara",
+      "dancer2": "Daniela Bravo",
+      "judges": [
+        {
+          "name": "Laura Roatta",
+          "score": 9.8,
+          "dropped": false
+        },
+        {
+          "name": "Carlos Rivarola",
+          "score": 8.8,
+          "dropped": false
+        },
+        {
+          "name": "Gisela Galeasi",
+          "score": 9.96,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 9.35,
+          "dropped": false
+        },
+        {
+          "name": "Melina Brufman",
+          "score": 9,
+          "dropped": false
+        },
+        {
+          "name": "Julio Zurita",
+          "score": 8.91,
+          "dropped": false
+        },
+        {
+          "name": "Nelida Rodriguez",
+          "score": 9.1,
+          "dropped": false
+        }
+      ],
+      "average": 9.274,
+      "officialAverage": 9.274,
+      "rankInBlock": 6,
+      "rankOverall": 6,
+      "classified": true,
+      "cutoffDelta": 0.613,
+      "spread": 1.16,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 73.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.748,
+          "percentile": 93.7
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.558,
+          "percentile": 96.7
+        },
+        {
+          "stage": "final",
+          "average": 9.274,
+          "percentile": 73.7
+        }
+      ],
+      "overall": 88,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 201,
+      "round": "—",
+      "dancer1": "Franco Cocheret",
+      "dancer2": "Juliana Mansilla",
+      "judges": [
+        {
+          "name": "Laura Roatta",
+          "score": 9.65,
+          "dropped": false
+        },
+        {
+          "name": "Carlos Rivarola",
+          "score": 8.5,
+          "dropped": false
+        },
+        {
+          "name": "Gisela Galeasi",
+          "score": 9.6,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 9.1,
+          "dropped": false
+        },
+        {
+          "name": "Melina Brufman",
+          "score": 10,
+          "dropped": false
+        },
+        {
+          "name": "Julio Zurita",
+          "score": 8.95,
+          "dropped": false
+        },
+        {
+          "name": "Nelida Rodriguez",
+          "score": 9.1,
+          "dropped": false
+        }
+      ],
+      "average": 9.271,
+      "officialAverage": 9.271,
+      "rankInBlock": 7,
+      "rankOverall": 7,
+      "classified": true,
+      "cutoffDelta": 0.61,
+      "spread": 1.5,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 68.4,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.76,
+          "percentile": 95.1
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.358,
+          "percentile": 86.7
+        },
+        {
+          "stage": "final",
+          "average": 9.271,
+          "percentile": 68.4
+        }
+      ],
+      "overall": 83.4,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 530,
+      "round": "—",
+      "dancer1": "Dmitrii Astafev",
+      "dancer2": "Sabrina Amuchastegui",
+      "judges": [
+        {
+          "name": "Laura Roatta",
+          "score": 9.7,
+          "dropped": false
+        },
+        {
+          "name": "Carlos Rivarola",
+          "score": 9.1,
+          "dropped": false
+        },
+        {
+          "name": "Gisela Galeasi",
+          "score": 9.3,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 9.2,
+          "dropped": false
+        },
+        {
+          "name": "Melina Brufman",
+          "score": 9.25,
+          "dropped": false
+        },
+        {
+          "name": "Julio Zurita",
+          "score": 8.85,
+          "dropped": false
+        },
+        {
+          "name": "Nelida Rodriguez",
+          "score": 9.34,
+          "dropped": false
+        }
+      ],
+      "average": 9.249,
+      "officialAverage": 9.249,
+      "rankInBlock": 8,
+      "rankOverall": 8,
+      "classified": true,
+      "cutoffDelta": 0.588,
+      "spread": 0.85,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 63.2,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.485,
+          "percentile": 78.3
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.45,
+          "percentile": 91.7
+        },
+        {
+          "stage": "final",
+          "average": 9.249,
+          "percentile": 63.2
+        }
+      ],
+      "overall": 77.7,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 279,
+      "round": "—",
+      "dancer1": "Fede Ibañez",
+      "dancer2": "Nuria Lazo",
+      "judges": [
+        {
+          "name": "Laura Roatta",
+          "score": 9.6,
+          "dropped": false
+        },
+        {
+          "name": "Carlos Rivarola",
+          "score": 8.05,
+          "dropped": false
+        },
+        {
+          "name": "Gisela Galeasi",
+          "score": 9.75,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 9.8,
+          "dropped": false
+        },
+        {
+          "name": "Melina Brufman",
+          "score": 8.9,
+          "dropped": false
+        },
+        {
+          "name": "Julio Zurita",
+          "score": 8.88,
+          "dropped": false
+        },
+        {
+          "name": "Nelida Rodriguez",
+          "score": 9.2,
+          "dropped": false
+        }
+      ],
+      "average": 9.169,
+      "officialAverage": 9.169,
+      "rankInBlock": 9,
+      "rankOverall": 9,
+      "classified": true,
+      "cutoffDelta": 0.508,
+      "spread": 1.75,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 57.9,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.795,
+          "percentile": 98.6
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.322,
+          "percentile": 81.7
+        },
+        {
+          "stage": "final",
+          "average": 9.169,
+          "percentile": 57.9
+        }
+      ],
+      "overall": 79.4,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 485,
+      "round": "—",
+      "dancer1": "Sebastian Fernandez",
+      "dancer2": "Ayelen Barral",
+      "judges": [
+        {
+          "name": "Laura Roatta",
+          "score": 9.5,
+          "dropped": false
+        },
+        {
+          "name": "Carlos Rivarola",
+          "score": 8.3,
+          "dropped": false
+        },
+        {
+          "name": "Gisela Galeasi",
+          "score": 9.45,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 9.79,
+          "dropped": false
+        },
+        {
+          "name": "Melina Brufman",
+          "score": 8.9,
+          "dropped": false
+        },
+        {
+          "name": "Julio Zurita",
+          "score": 8.95,
+          "dropped": false
+        },
+        {
+          "name": "Nelida Rodriguez",
+          "score": 8.57,
+          "dropped": false
+        }
+      ],
+      "average": 9.066,
+      "officialAverage": 9.066,
+      "rankInBlock": 10,
+      "rankOverall": 10,
+      "classified": true,
+      "cutoffDelta": 0.405,
+      "spread": 1.49,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 52.6,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.78,
+          "percentile": 97.2
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.256,
+          "percentile": 73.3
+        },
+        {
+          "stage": "final",
+          "average": 9.066,
+          "percentile": 52.6
+        }
+      ],
+      "overall": 74.4,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 403,
+      "round": "—",
+      "dancer1": "Julio JoséSeffino",
+      "dancer2": "Aldana Belén Tade",
+      "judges": [
+        {
+          "name": "Laura Roatta",
+          "score": 9.58,
+          "dropped": false
+        },
+        {
+          "name": "Carlos Rivarola",
+          "score": 9.08,
+          "dropped": false
+        },
+        {
+          "name": "Gisela Galeasi",
+          "score": 9.35,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 9.5,
+          "dropped": false
+        },
+        {
+          "name": "Melina Brufman",
+          "score": 8.6,
+          "dropped": false
+        },
+        {
+          "name": "Julio Zurita",
+          "score": 9,
+          "dropped": false
+        },
+        {
+          "name": "Nelida Rodriguez",
+          "score": 8.2,
+          "dropped": false
+        }
+      ],
+      "average": 9.044,
+      "officialAverage": 9.044,
+      "rankInBlock": 11,
+      "rankOverall": 11,
+      "classified": true,
+      "cutoffDelta": 0.383,
+      "spread": 1.38,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 47.4,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.723,
+          "percentile": 93
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.345,
+          "percentile": 83.3
+        },
+        {
+          "stage": "final",
+          "average": 9.044,
+          "percentile": 47.4
+        }
+      ],
+      "overall": 74.6,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 256,
+      "round": "—",
+      "dancer1": "Joaquin Besga",
+      "dancer2": "Katherine Laitón",
+      "judges": [
+        {
+          "name": "Laura Roatta",
+          "score": 9.2,
+          "dropped": false
+        },
+        {
+          "name": "Carlos Rivarola",
+          "score": 9.1,
+          "dropped": false
+        },
+        {
+          "name": "Gisela Galeasi",
+          "score": 9.44,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8.85,
+          "dropped": false
+        },
+        {
+          "name": "Melina Brufman",
+          "score": 9.3,
+          "dropped": false
+        },
+        {
+          "name": "Julio Zurita",
+          "score": 8.82,
+          "dropped": false
+        },
+        {
+          "name": "Nelida Rodriguez",
+          "score": 8.37,
+          "dropped": false
+        }
+      ],
+      "average": 9.011,
+      "officialAverage": 9.011,
+      "rankInBlock": 12,
+      "rankOverall": 12,
+      "classified": true,
+      "cutoffDelta": 0.35,
+      "spread": 1.07,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 42.1,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.473,
+          "percentile": 76.9
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.318,
+          "percentile": 80
+        },
+        {
+          "stage": "final",
+          "average": 9.011,
+          "percentile": 42.1
+        }
+      ],
+      "overall": 66.3,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 459,
+      "round": "—",
+      "dancer1": "Facundo Cabral",
+      "dancer2": "Mara Navarro",
+      "judges": [
+        {
+          "name": "Laura Roatta",
+          "score": 8.9,
+          "dropped": false
+        },
+        {
+          "name": "Carlos Rivarola",
+          "score": 8.5,
+          "dropped": false
+        },
+        {
+          "name": "Gisela Galeasi",
+          "score": 9.8,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 9.7,
+          "dropped": false
+        },
+        {
+          "name": "Melina Brufman",
+          "score": 8,
+          "dropped": false
+        },
+        {
+          "name": "Julio Zurita",
+          "score": 8.9,
+          "dropped": false
+        },
+        {
+          "name": "Nelida Rodriguez",
+          "score": 9,
+          "dropped": false
+        }
+      ],
+      "average": 8.971,
+      "officialAverage": 8.971,
+      "rankInBlock": 13,
+      "rankOverall": 13,
+      "classified": true,
+      "cutoffDelta": 0.31,
+      "spread": 1.8,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 36.8,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.575,
+          "percentile": 85.3
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.275,
+          "percentile": 76.7
+        },
+        {
+          "stage": "final",
+          "average": 8.971,
+          "percentile": 36.8
+        }
+      ],
+      "overall": 66.3,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 665,
+      "round": "—",
+      "dancer1": "Stanislav Fursov",
+      "dancer2": "Ekaterina Simonova",
+      "judges": [
+        {
+          "name": "Laura Roatta",
+          "score": 8.95,
+          "dropped": false
+        },
+        {
+          "name": "Carlos Rivarola",
+          "score": 9.17,
+          "dropped": false
+        },
+        {
+          "name": "Gisela Galeasi",
+          "score": 8.96,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8.55,
+          "dropped": false
+        },
+        {
+          "name": "Melina Brufman",
+          "score": 9.65,
+          "dropped": false
+        },
+        {
+          "name": "Julio Zurita",
+          "score": 8.81,
+          "dropped": false
+        },
+        {
+          "name": "Nelida Rodriguez",
+          "score": 8.26,
+          "dropped": false
+        }
+      ],
+      "average": 8.907,
+      "officialAverage": 8.907,
+      "rankInBlock": 14,
+      "rankOverall": 14,
+      "classified": true,
+      "cutoffDelta": 0.246,
+      "spread": 1.39,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 31.6,
+      "stageStandings": [
+        {
+          "stage": "final",
+          "average": 8.907,
+          "percentile": 31.6
+        }
+      ],
+      "overall": 31.6,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 532,
+      "round": "—",
+      "dancer1": "Facundo Vilches",
+      "dancer2": "Irina Cristoff Veleff",
+      "judges": [
+        {
+          "name": "Laura Roatta",
+          "score": 8.5,
+          "dropped": false
+        },
+        {
+          "name": "Carlos Rivarola",
+          "score": 9,
+          "dropped": false
+        },
+        {
+          "name": "Gisela Galeasi",
+          "score": 8.92,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 9.3,
+          "dropped": false
+        },
+        {
+          "name": "Melina Brufman",
+          "score": 8.8,
+          "dropped": false
+        },
+        {
+          "name": "Julio Zurita",
+          "score": 8.85,
+          "dropped": false
+        },
+        {
+          "name": "Nelida Rodriguez",
+          "score": 8.9,
+          "dropped": false
+        }
+      ],
+      "average": 8.896,
+      "officialAverage": 8.896,
+      "rankInBlock": 15,
+      "rankOverall": 15,
+      "classified": true,
+      "cutoffDelta": 0.235,
+      "spread": 0.8,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 26.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.768,
+          "percentile": 95.8
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.458,
+          "percentile": 93.3
+        },
+        {
+          "stage": "final",
+          "average": 8.896,
+          "percentile": 26.3
+        }
+      ],
+      "overall": 71.8,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 351,
+      "round": "—",
+      "dancer1": "Valentin Bobkov",
+      "dancer2": "Ekaterina Tsybrova",
+      "judges": [
+        {
+          "name": "Laura Roatta",
+          "score": 9.2,
+          "dropped": false
+        },
+        {
+          "name": "Carlos Rivarola",
+          "score": 9.05,
+          "dropped": false
+        },
+        {
+          "name": "Gisela Galeasi",
+          "score": 9.22,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8.6,
+          "dropped": false
+        },
+        {
+          "name": "Melina Brufman",
+          "score": 8.7,
+          "dropped": false
+        },
+        {
+          "name": "Julio Zurita",
+          "score": 8.8,
+          "dropped": false
+        },
+        {
+          "name": "Nelida Rodriguez",
+          "score": 8.17,
+          "dropped": false
+        }
+      ],
+      "average": 8.82,
+      "officialAverage": 8.82,
+      "rankInBlock": 16,
+      "rankOverall": 16,
+      "classified": true,
+      "cutoffDelta": 0.159,
+      "spread": 1.05,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 21.1,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.357,
+          "percentile": 68.5
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.25,
+          "percentile": 71.7
+        },
+        {
+          "stage": "final",
+          "average": 8.82,
+          "percentile": 21.1
+        }
+      ],
+      "overall": 53.8,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 376,
+      "round": "—",
+      "dancer1": "Juan Manuel Rosales",
+      "dancer2": "Lisa Rosales",
+      "judges": [
+        {
+          "name": "Laura Roatta",
+          "score": 8.95,
+          "dropped": false
+        },
+        {
+          "name": "Carlos Rivarola",
+          "score": 8,
+          "dropped": false
+        },
+        {
+          "name": "Gisela Galeasi",
+          "score": 9.3,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8.8,
+          "dropped": false
+        },
+        {
+          "name": "Melina Brufman",
+          "score": 8.75,
+          "dropped": false
+        },
+        {
+          "name": "Julio Zurita",
+          "score": 8.95,
+          "dropped": false
+        },
+        {
+          "name": "Nelida Rodriguez",
+          "score": 8.65,
+          "dropped": false
+        }
+      ],
+      "average": 8.771,
+      "officialAverage": 8.771,
+      "rankInBlock": 17,
+      "rankOverall": 17,
+      "classified": true,
+      "cutoffDelta": 0.11,
+      "spread": 1.3,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 15.8,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.688,
+          "percentile": 92.3
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.38,
+          "percentile": 88.3
+        },
+        {
+          "stage": "final",
+          "average": 8.771,
+          "percentile": 15.8
+        }
+      ],
+      "overall": 65.5,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 46,
+      "round": "—",
+      "dancer1": "Jesus Paez",
+      "dancer2": "Iara Duarte",
+      "judges": [
+        {
+          "name": "Laura Roatta",
+          "score": 8.95,
+          "dropped": false
+        },
+        {
+          "name": "Carlos Rivarola",
+          "score": 8.6,
+          "dropped": false
+        },
+        {
+          "name": "Gisela Galeasi",
+          "score": 8.98,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8.9,
+          "dropped": false
+        },
+        {
+          "name": "Melina Brufman",
+          "score": 8.65,
+          "dropped": false
+        },
+        {
+          "name": "Julio Zurita",
+          "score": 8.81,
+          "dropped": false
+        },
+        {
+          "name": "Nelida Rodriguez",
+          "score": 8.49,
+          "dropped": false
+        }
+      ],
+      "average": 8.769,
+      "officialAverage": 8.769,
+      "rankInBlock": 18,
+      "rankOverall": 18,
+      "classified": true,
+      "cutoffDelta": 0.108,
+      "spread": 0.49,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 10.5,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.372,
+          "percentile": 69.2
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.258,
+          "percentile": 75
+        },
+        {
+          "stage": "final",
+          "average": 8.769,
+          "percentile": 10.5
+        }
+      ],
+      "overall": 51.6,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 709,
+      "round": "—",
+      "dancer1": "Nana Takano",
+      "dancer2": "Kaito Toyoshima",
+      "judges": [
+        {
+          "name": "Laura Roatta",
+          "score": 9.68,
+          "dropped": false
+        },
+        {
+          "name": "Carlos Rivarola",
+          "score": 8.82,
+          "dropped": false
+        },
+        {
+          "name": "Gisela Galeasi",
+          "score": 8.59,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8.5,
+          "dropped": false
+        },
+        {
+          "name": "Melina Brufman",
+          "score": 8.2,
+          "dropped": false
+        },
+        {
+          "name": "Julio Zurita",
+          "score": 8.8,
+          "dropped": false
+        },
+        {
+          "name": "Nelida Rodriguez",
+          "score": 8.34,
+          "dropped": false
+        }
+      ],
+      "average": 8.704,
+      "officialAverage": 8.704,
+      "rankInBlock": 19,
+      "rankOverall": 19,
+      "classified": true,
+      "cutoffDelta": 0.043,
+      "spread": 1.48,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 5.3,
+      "stageStandings": [
+        {
+          "stage": "final",
+          "average": 8.704,
+          "percentile": 5.3
+        }
+      ],
+      "overall": 5.3,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 132,
+      "round": "—",
+      "dancer1": "Gabriel Esteban Salvi",
+      "dancer2": "Carolina Leonardelli",
+      "judges": [
+        {
+          "name": "Laura Roatta",
+          "score": 9,
+          "dropped": false
+        },
+        {
+          "name": "Carlos Rivarola",
+          "score": 8.15,
+          "dropped": false
+        },
+        {
+          "name": "Gisela Galeasi",
+          "score": 9.25,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 9,
+          "dropped": false
+        },
+        {
+          "name": "Melina Brufman",
+          "score": 8.1,
+          "dropped": false
+        },
+        {
+          "name": "Julio Zurita",
+          "score": 8.87,
+          "dropped": false
+        },
+        {
+          "name": "Nelida Rodriguez",
+          "score": 8.26,
+          "dropped": false
+        }
+      ],
+      "average": 8.661,
+      "officialAverage": 8.661,
+      "rankInBlock": 20,
+      "rankOverall": 20,
+      "classified": true,
+      "cutoffDelta": 0,
+      "spread": 1.15,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 0,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.438,
+          "percentile": 74.1
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.445,
+          "percentile": 90
+        },
+        {
+          "stage": "final",
+          "average": 8.661,
+          "percentile": 0
+        }
+      ],
+      "overall": 54.7,
+      "lastStageReached": "final"
+    }
+  ],
+  "mismatches": []
+}

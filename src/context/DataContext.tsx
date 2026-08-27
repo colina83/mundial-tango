@@ -9,6 +9,7 @@ import {
 } from "react";
 import { useSearchParams } from "react-router-dom";
 import type {
+  Category,
   CoupleSurvival,
   Dataset,
   Stage,
@@ -21,6 +22,7 @@ import { isStage, visibleStages } from "../lib/year";
 
 type DataValue = {
   year: number;
+  category: Category;
   data: Dataset | null;
   loading: boolean;
   error: string | null;
@@ -45,12 +47,17 @@ async function loadCatalog(): Promise<YearCatalog | null> {
   }
 }
 
-async function loadManifest(year: number): Promise<StageManifest | null> {
+function yearDataPrefix(year: number, category: Category): string {
+  const base = `${import.meta.env.BASE_URL}data/${year}`;
+  return category === "escenario" ? `${base}/escenario` : base;
+}
+
+async function loadManifest(year: number, category: Category): Promise<StageManifest | null> {
   try {
-    const url = `${import.meta.env.BASE_URL}data/${year}/manifest.json`;
+    const url = `${yearDataPrefix(year, category)}/manifest.json`;
     const res = await fetch(url);
     if (!res.ok) {
-      if (year === 2026) {
+      if (year === 2026 && category === "pista") {
         const fallback = await fetch(`${import.meta.env.BASE_URL}data/manifest.json`);
         if (!fallback.ok) return null;
         const legacy = (await fallback.json()) as StageManifest;
@@ -64,9 +71,9 @@ async function loadManifest(year: number): Promise<StageManifest | null> {
   }
 }
 
-async function loadSurvival(year: number): Promise<YearSurvivalFile | null> {
+async function loadSurvival(year: number, category: Category): Promise<YearSurvivalFile | null> {
   try {
-    const res = await fetch(`${import.meta.env.BASE_URL}data/${year}/survival.json`);
+    const res = await fetch(`${yearDataPrefix(year, category)}/survival.json`);
     if (!res.ok) return null;
     return res.json() as Promise<YearSurvivalFile>;
   } catch {
@@ -74,11 +81,11 @@ async function loadSurvival(year: number): Promise<YearSurvivalFile | null> {
   }
 }
 
-async function loadDataset(year: number, stage: Stage): Promise<Dataset> {
-  const yearUrl = `${import.meta.env.BASE_URL}data/${year}/results-${stage}.json`;
+async function loadDataset(year: number, category: Category, stage: Stage): Promise<Dataset> {
+  const yearUrl = `${yearDataPrefix(year, category)}/results-${stage}.json`;
   const res = await fetch(yearUrl);
   if (res.ok) return res.json() as Promise<Dataset>;
-  if (year === 2026) {
+  if (year === 2026 && category === "pista") {
     const legacy = await fetch(`${import.meta.env.BASE_URL}data/results-${stage}.json`);
     if (legacy.ok) return legacy.json() as Promise<Dataset>;
     if (stage === "clasificatoria") {
@@ -92,9 +99,11 @@ async function loadDataset(year: number, stage: Stage): Promise<Dataset> {
 
 export function DataProvider({
   year,
+  category,
   children,
 }: {
   year: number;
+  category: Category;
   children: ReactNode;
 }) {
   const [data, setData] = useState<Dataset | null>(null);
@@ -117,7 +126,7 @@ export function DataProvider({
   useEffect(() => {
     let cancelled = false;
     setSurvival(null);
-    loadManifest(year)
+    loadManifest(year, category)
       .then((m) => {
         if (cancelled) return;
         setManifest(m);
@@ -132,7 +141,7 @@ export function DataProvider({
       .catch(() => {
         if (!cancelled) setManifest(null);
       });
-    loadSurvival(year)
+    loadSurvival(year, category)
       .then((s) => {
         if (!cancelled) setSurvival(s);
       })
@@ -142,13 +151,13 @@ export function DataProvider({
     return () => {
       cancelled = true;
     };
-  }, [year]);
+  }, [year, category]);
 
   useEffect(() => {
     let cancelled = false;
     setLoading(true);
     setError(null);
-    loadDataset(year, activeStage)
+    loadDataset(year, category, activeStage)
       .then((json) => {
         if (!cancelled) {
           if (!json.scoring) {
@@ -166,7 +175,7 @@ export function DataProvider({
     return () => {
       cancelled = true;
     };
-  }, [tick, activeStage, year]);
+  }, [tick, activeStage, year, category]);
 
   const reload = useCallback(() => setTick((n) => n + 1), []);
 
@@ -190,6 +199,7 @@ export function DataProvider({
   const value = useMemo(
     () => ({
       year,
+      category,
       data,
       loading,
       error,
@@ -203,6 +213,7 @@ export function DataProvider({
     }),
     [
       year,
+      category,
       data,
       loading,
       error,
