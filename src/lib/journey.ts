@@ -84,8 +84,16 @@ export function buildJourneys(datasets: Dataset[]): JourneyRow[] {
     }
   }
 
-  const finalDs = ordered.find((d) => d.stage === "final");
-  const champId = finalDs?.rows.find((r) => r.rankOverall === 1)?.coupleId;
+  // Highest average in the latest published stage — not "champion" until
+  // Tango BA posts a final, and never a global percentile crown.
+  const latest = ordered[ordered.length - 1];
+  const champId = latest
+    ? [...latest.rows].reduce<(typeof latest.rows)[number] | undefined>((best, row) => {
+        if (!best) return row;
+        if (row.average !== best.average) return row.average > best.average ? row : best;
+        return row.rankOverall < best.rankOverall ? row : best;
+      }, undefined)?.coupleId
+    : undefined;
 
   for (const journey of byId.values()) {
     if (champId != null && journey.coupleId === champId) journey.champion = true;

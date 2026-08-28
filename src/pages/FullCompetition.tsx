@@ -116,6 +116,8 @@ export function FullCompetition() {
   }, [year, category, stages.join("|")]);
 
   const champion = rows?.find((r) => r.champion);
+  const hasFinal = stages.includes("final");
+  const leaderKicker = hasFinal ? t("fullLeader") : t("fullLeaderSoFar");
 
   const visible = useMemo(() => {
     if (!rows) return [];
@@ -164,7 +166,8 @@ export function FullCompetition() {
 
       {champion && (
         <section className="panel champion-panel">
-          <p className="champ-kicker">{t("fullChampion")}</p>
+          <p className="champ-kicker">{leaderKicker}</p>
+          <p className="muted tiny">{t("fullLeaderByAverage")}</p>
           <div className="champ-head">
             <Link className="couple-num" to={dossierPath(year, champion, category)}>
               #{champion.coupleId}
@@ -194,10 +197,6 @@ export function FullCompetition() {
                 </div>
               );
             })}
-            <div className="champ-stage has">
-              <span className="champ-stage-label">{t("overall")}</span>
-              <strong>{formatOverall(champion.overall)}</strong>
-            </div>
           </div>
         </section>
       )}

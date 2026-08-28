@@ -64,7 +64,10 @@ export const translations = {
     fullHint:
       "Todas las parejas y su recorrido por cada instancia. Las notas no se promedian entre rondas (escalas distintas); Overall es el percentil medio.",
     fullChampion: "Campeones",
-    fullChampionPath: "Trayectoria del campeón",
+    fullLeader: "Pareja mejor ranqueada",
+    fullLeaderSoFar: "Pareja mejor ranqueada hasta ahora",
+    fullLeaderByAverage: "Según promedio",
+    fullChampionPath: "Recorrido",
     fullDidNotDance: "—",
     fullRank: "#{n}",
     fullCount: "{n} parejas",
@@ -229,7 +232,10 @@ export const translations = {
     fullHint:
       "Every couple and how they fared in each round. Marks are not averaged across stages (different scales); Overall is the mean percentile.",
     fullChampion: "Champions",
-    fullChampionPath: "Winning trajectory",
+    fullLeader: "Highest ranking couple",
+    fullLeaderSoFar: "Highest ranking couple so far",
+    fullLeaderByAverage: "By average",
+    fullChampionPath: "Trajectory",
     fullDidNotDance: "—",
     fullRank: "#{n}",
     fullCount: "{n} couples",
