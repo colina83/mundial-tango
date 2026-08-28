@@ -94,5 +94,21 @@
   "escenario::clasificatoria::https://tangoba.org/wp-content/uploads/2026/08/Jurados-_-Escenario-Clasificatorias-2026-26_8-D-Copia-de-JURADOS-_-RONDAS-TODAS-268-D-1.pdf": {
     "sha256": "c126cb3636edb4a601ca049039b3637f681098ad359a4a31fc783c2580ce1c35",
     "filename": "Jurados-_-Escenario-Clasificatorias-2026-26_8-D-Copia-de-JURADOS-_-RONDAS-TODAS-268-D-1.pdf"
+  },
+  "cuartos::https://tangoba.org/wp-content/uploads/2026/08/Jurados-_-Pista-Cuartos-2026-27_8-A-Copia-de-JURADOS-_-RONDAS-TODAS-278-A.pdf": {
+    "sha256": "f89bb5a749967c3b65cc1d794e37449fc333f89b6232c08db021b4abd61d4498",
+    "filename": "Jurados-_-Pista-Cuartos-2026-27_8-A-Copia-de-JURADOS-_-RONDAS-TODAS-278-A.pdf"
+  },
+  "cuartos::https://tangoba.org/wp-content/uploads/2026/08/Jurados-_-Pista-Cuartos-2026-27_8-B-Copia-de-JURADOS-_-RONDAS-TODAS-278-B.pdf": {
+    "sha256": "b8c36c9b23374b1aba539a7caa3210fdbdc46bedcbc201ea874d3057dd609616",
+    "filename": "Jurados-_-Pista-Cuartos-2026-27_8-B-Copia-de-JURADOS-_-RONDAS-TODAS-278-B.pdf"
+  },
+  "final::https://tangoba.org/wp-content/uploads/2026/08/Jurados-_-Pista-Cuartos-2026-27_8-A-Copia-de-JURADOS-_-RONDAS-TODAS-278-A.pdf": {
+    "sha256": "f89bb5a749967c3b65cc1d794e37449fc333f89b6232c08db021b4abd61d4498",
+    "filename": "Jurados-_-Pista-Cuartos-2026-27_8-A-Copia-de-JURADOS-_-RONDAS-TODAS-278-A.pdf"
+  },
+  "final::https://tangoba.org/wp-content/uploads/2026/08/Jurados-_-Pista-Cuartos-2026-27_8-B-Copia-de-JURADOS-_-RONDAS-TODAS-278-B.pdf": {
+    "sha256": "b8c36c9b23374b1aba539a7caa3210fdbdc46bedcbc201ea874d3057dd609616",
+    "filename": "Jurados-_-Pista-Cuartos-2026-27_8-B-Copia-de-JURADOS-_-RONDAS-TODAS-278-B.pdf"
   }
 }
