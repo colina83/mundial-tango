@@ -1,7 +1,6 @@
 import { useMemo, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import { CoupleCard } from "../components/CoupleCard";
-import { PodiumGrid } from "../components/Podium";
 import { ScoreBoxplot } from "../components/ScoreBoxplot";
 import { SurvivalTicks } from "../components/SurvivalPanel";
 import { useData } from "../context/DataContext";
@@ -154,17 +153,6 @@ export function Rankings() {
 
   return (
     <div className="page rankings">
-      <PodiumGrid
-        rows={data.rows}
-        blocks={
-          !showBlocks || block === "all"
-            ? blocks.map((b) => ({ id: b.id, date: b.date }))
-            : blocks
-                .filter((b) => b.id === block)
-                .map((b) => ({ id: b.id, date: b.date }))
-        }
-        overall={!showBlocks}
-      />
       <div className="sticky-search">
         <input
           className="search-input"

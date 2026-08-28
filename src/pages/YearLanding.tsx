@@ -1,8 +1,20 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { useI18n } from "../context/I18nContext";
-import { yearPath, publishedStagesFromCatalog } from "../lib/year";
+import { CATEGORIES, isCategory, yearPath, publishedStagesFromCatalog } from "../lib/year";
 import type { CatalogYear, Category, Stage, YearCatalog } from "../types";
+
+const LANDING_CAT_KEY = "pulso-landing-category";
+
+function readLandingCategory(): Category {
+  try {
+    const stored = localStorage.getItem(LANDING_CAT_KEY);
+    if (isCategory(stored)) return stored;
+  } catch {
+    /* private mode / blocked storage */
+  }
+  return "pista";
+}
 
 const STAGE_ORDER: Stage[] = ["clasificatoria", "cuartos", "semifinal", "final"];
 
@@ -10,6 +22,16 @@ export function YearLanding() {
   const { t, lang, setLang } = useI18n();
   const [catalog, setCatalog] = useState<YearCatalog | null>(null);
   const [error, setError] = useState(false);
+  const [category, setCategory] = useState<Category>(readLandingCategory);
+
+  function selectCategory(next: Category) {
+    setCategory(next);
+    try {
+      localStorage.setItem(LANDING_CAT_KEY, next);
+    } catch {
+      /* ignore */
+    }
+  }
 
   useEffect(() => {
     let cancelled = false;
@@ -29,9 +51,9 @@ export function YearLanding() {
     };
   }, []);
 
-  const years = mergeYears(catalog?.years ?? []);
-  const pista = years.filter((y) => (y.category ?? "pista") === "pista");
-  const escenario = years.filter((y) => y.category === "escenario");
+  const years = mergeYears(catalog?.years ?? []).filter(
+    (y) => (y.category ?? "pista") === category,
+  );
 
   return (
     <div className="app-shell is-gate">
@@ -67,30 +89,29 @@ export function YearLanding() {
         <h1 className="year-gate-title">{t("pickEdition")}</h1>
         <p className="lede">{t("source")} · {t("notAffiliated")}</p>
         {error && <p className="muted">{t("loadError")}</p>}
-        <section className="year-section">
-          <p className="year-gate-kicker">{t("categoryPista")}</p>
-          <div className="year-cards">
-            {pista.map((entry) => (
-              <YearCard
-                key={`pista-${entry.year}`}
-                entry={entry}
-                featured={entry.year === 2026}
-              />
-            ))}
-          </div>
-        </section>
-        <section className="year-section">
-          <p className="year-gate-kicker">{t("categoryEscenario")}</p>
-          <div className="year-cards">
-            {escenario.map((entry) => (
-              <YearCard
-                key={`escenario-${entry.year}`}
-                entry={entry}
-                featured={entry.year === 2026}
-              />
-            ))}
-          </div>
-        </section>
+        <div className="year-cat-toggle" role="tablist" aria-label={t("categorySwitch")}>
+          {CATEGORIES.map((cat) => (
+            <button
+              key={cat}
+              type="button"
+              role="tab"
+              aria-selected={category === cat}
+              className={category === cat ? "is-active" : ""}
+              onClick={() => selectCategory(cat)}
+            >
+              {cat === "pista" ? t("categoryPistaShort") : t("categoryEscenarioShort")}
+            </button>
+          ))}
+        </div>
+        <div className="year-cards">
+          {years.map((entry) => (
+            <YearCard
+              key={`${category}-${entry.year}`}
+              entry={entry}
+              featured={entry.year === 2026}
+            />
+          ))}
+        </div>
       </main>
     </div>
   );
