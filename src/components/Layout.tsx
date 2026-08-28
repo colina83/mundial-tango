@@ -11,10 +11,14 @@ export function Layout() {
   const navigate = useNavigate();
   const location = useLocation();
 
-  const stages = visibleStages(year);
   const availableStages = new Set(
     manifest?.stages.filter((s) => s.rowCount > 0).map((s) => s.stage) ?? ["clasificatoria"],
   );
+  const allStages = visibleStages(year);
+  // For the live year, only show stage tabs that already have data; for archive years show all.
+  const stages = year === 2026
+    ? allStages.filter((s) => availableStages.has(s))
+    : allStages;
   const showWatchlist = hasWatchlist(year);
   const showFull = hasFullCompetition(manifest, year);
   const hideStageBar = location.pathname.includes("/full");
