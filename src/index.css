@@ -199,6 +199,30 @@ h3 {
   overflow: hidden;
 }
 
+.cat-toggle-desk {
+  display: none;
+}
+
+.cat-bar-mobile {
+  display: block;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 12px 10px;
+}
+
+.cat-bar-mobile .cat-toggle {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.cat-bar-mobile .cat-toggle button {
+  flex: 1;
+  min-height: 44px;
+  padding: 10px 12px;
+  font-size: 1rem;
+  font-weight: 650;
+}
+
 .lang-toggle button,
 .cat-toggle button {
   background: transparent;
@@ -240,20 +264,24 @@ h3 {
 .stage-bar {
   max-width: 1120px;
   margin: 0 auto;
-  padding: 8px 16px 0;
+  padding: 14px 16px 6px;
   display: flex;
-  gap: 4px;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .stage-tab {
-  padding: 4px 14px;
-  border-radius: 20px;
+  padding: 12px 22px;
+  border-radius: 999px;
   border: 1px solid var(--border);
   background: transparent;
   color: var(--text);
-  font-size: 0.82rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.2;
+  min-height: 48px;
   cursor: pointer;
-  transition: background 0.15s, color 0.15s;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
 }
 
 .stage-tab.is-active {
@@ -1076,6 +1104,14 @@ select {
 
   .topbar-actions {
     margin-left: 0;
+  }
+
+  .cat-toggle-desk {
+    display: block;
+  }
+
+  .cat-bar-mobile {
+    display: none;
   }
 
   .bottom-nav {

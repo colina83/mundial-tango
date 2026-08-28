@@ -2,7 +2,7 @@ import { NavLink, Outlet, useLocation, useNavigate } from "react-router-dom";
 import { useI18n } from "../context/I18nContext";
 import { useData } from "../context/DataContext";
 import type { Category, Stage } from "../types";
-import { yearPath, visibleStages, hasWatchlist, hasFullCompetition, CATEGORIES } from "../lib/year";
+import { yearPath, visibleStages, hasWatchlist, hasFullCompetition, CATEGORIES, publishedStages } from "../lib/year";
 
 export function Layout() {
   const { t, lang, setLang } = useI18n();
@@ -12,9 +12,8 @@ export function Layout() {
   const location = useLocation();
 
   const stages = visibleStages(year);
-  const availableStages = new Set(
-    manifest?.stages.filter((s) => s.rowCount > 0).map((s) => s.stage) ?? ["clasificatoria"],
-  );
+  const published = publishedStages(manifest?.stages);
+  const availableStages = new Set(published.length ? published : ["clasificatoria"]);
   const showWatchlist = hasWatchlist(year);
   const showFull = hasFullCompetition(manifest, year);
   const hideStageBar = location.pathname.includes("/full");
@@ -39,6 +38,23 @@ export function Layout() {
     navigate(`${nextPath}${location.search}`);
   }
 
+  function categoryToggle(id: string) {
+    return (
+      <div className="cat-toggle" role="group" aria-label={t("categorySwitch")}>
+        {CATEGORIES.map((cat) => (
+          <button
+            key={`${id}-${cat}`}
+            type="button"
+            className={category === cat ? "is-active" : ""}
+            onClick={() => switchCategory(cat)}
+          >
+            {cat === "pista" ? t("categoryPistaShort") : t("categoryEscenarioShort")}
+          </button>
+        ))}
+      </div>
+    );
+  }
+
   return (
     <div className="app-shell">
       <header className="topbar">
@@ -60,18 +76,7 @@ export function Layout() {
             {showFull && <NavLink to={`${base}/full`}>{t("navFull")}</NavLink>}
           </nav>
           <div className="topbar-actions">
-            <div className="cat-toggle" role="group" aria-label={t("categorySwitch")}>
-              {CATEGORIES.map((cat) => (
-                <button
-                  key={cat}
-                  type="button"
-                  className={category === cat ? "is-active" : ""}
-                  onClick={() => switchCategory(cat)}
-                >
-                  {cat === "pista" ? t("categoryPistaShort") : t("categoryEscenarioShort")}
-                </button>
-              ))}
-            </div>
+            <div className="cat-toggle-desk">{categoryToggle("desk")}</div>
             <button
               type="button"
               className="year-chip"
@@ -99,6 +104,7 @@ export function Layout() {
             </div>
           </div>
         </div>
+        <div className="cat-bar-mobile">{categoryToggle("mobile")}</div>
       </header>
 
       {!hideStageBar && (

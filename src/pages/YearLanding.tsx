@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { useI18n } from "../context/I18nContext";
-import { yearPath } from "../lib/year";
+import { yearPath, publishedStagesFromCatalog } from "../lib/year";
 import type { CatalogYear, Category, Stage, YearCatalog } from "../types";
 
 const STAGE_ORDER: Stage[] = ["clasificatoria", "cuartos", "semifinal", "final"];
@@ -108,7 +108,7 @@ function YearCard({ entry, featured }: { entry: CatalogYear; featured: boolean }
   const expected = entry.year === 2024
     ? (["clasificatoria", "semifinal", "final"] as Stage[])
     : STAGE_ORDER;
-  const present = new Set(entry.stages);
+  const present = new Set(publishedStagesFromCatalog(entry));
 
   return (
     <Link

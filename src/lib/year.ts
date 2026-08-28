@@ -57,6 +57,47 @@ export function visibleStages(year: number): Stage[] {
   return ["clasificatoria", "cuartos", "semifinal", "final"];
 }
 
+/**
+ * Stages that actually have results. A later stage with the same couple
+ * count as an earlier one is leftover ingest (cuartos PDFs saved as final).
+ */
+export function publishedStages(
+  entries: { stage: Stage; rowCount: number }[] | null | undefined,
+): Stage[] {
+  const byStage = new Map((entries ?? []).map((s) => [s.stage, s.rowCount]));
+  const out: Stage[] = [];
+  const usedCounts = new Set<number>();
+  for (const stage of STAGE_ORDER) {
+    const n = byStage.get(stage) ?? 0;
+    if (n <= 0) continue;
+    if (usedCounts.has(n)) continue;
+    usedCounts.add(n);
+    out.push(stage);
+  }
+  return out;
+}
+
+export function publishedStagesFromCatalog(entry: {
+  stages: Stage[];
+  rowCounts?: Partial<Record<Stage, number>>;
+}): Stage[] {
+  return publishedStages(
+    entry.stages.map((stage) => ({
+      stage,
+      rowCount: entry.rowCounts?.[stage] ?? 0,
+    })),
+  );
+}
+
+export function latestPublishedStage(
+  year: number,
+  entries: { stage: Stage; rowCount: number }[] | null | undefined,
+): Stage {
+  const allowed = new Set(visibleStages(year));
+  const pub = publishedStages(entries).filter((s) => allowed.has(s));
+  return pub[pub.length - 1] ?? "clasificatoria";
+}
+
 export function stageLabelKey(
   stage: Stage,
 ): "stageClasificatoria" | "stageCuartos" | "stageSemifinal" | "stageFinal" {

@@ -9,7 +9,7 @@ import {
   loadYearDatasets,
   type JourneyRow,
 } from "../lib/journey";
-import { STAGE_ORDER, stageLabelKey, visibleStages } from "../lib/year";
+import { STAGE_ORDER, stageLabelKey, visibleStages, publishedStages } from "../lib/year";
 import type { Stage } from "../types";
 
 type SortKey = "couple" | "dancers" | "overall" | "last" | Stage;
@@ -95,7 +95,7 @@ export function FullCompetition() {
   const [dir, setDir] = useState<SortDir>("desc");
 
   const stages = useMemo(() => {
-    const available = new Set(manifest?.stages.map((s) => s.stage) ?? []);
+    const available = new Set(publishedStages(manifest?.stages));
     return visibleStages(year).filter((s) => available.has(s));
   }, [manifest, year]);
 
