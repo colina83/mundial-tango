@@ -200,6 +200,15 @@ export function isStagePdfFilename(
   return name.toLowerCase().endsWith(".pdf") && !isSkippablePdf(name, category);
 }
 
+/** Keep each live ingest from swallowing another stage’s sheets (cuartos-final URLs, etc.). */
+export function pdfMatchesStage(urlOrFilename: string, stage: Stage): boolean {
+  const u = urlOrFilename.toLowerCase();
+  if (stage === "clasificatoria") return u.includes("clasificator");
+  if (stage === "cuartos") return u.includes("cuartos") && !u.includes("semifinal");
+  if (stage === "semifinal") return u.includes("semifinal");
+  return u.includes("final") && !u.includes("cuartos") && !u.includes("semifinal") && !u.includes("clasificator");
+}
+
 function rawDirFor(category: Category, stage: Stage): string {
   return category === "escenario"
     ? join(RAW_DIR, "escenario", stage)
@@ -265,7 +274,8 @@ function collectStagePageLinks(
     const hasEscenario = path.includes("escenario");
     if (category === "pista" && hasEscenario) continue;
     if (category === "escenario" && !hasEscenario) continue;
-    if (stage === "final" && path.includes("semifinal")) continue;
+    if (stage === "final" && (path.includes("semifinal") || path.includes("cuartos"))) continue;
+    if (stage === "semifinal" && path.includes("cuartos")) continue;
     if (keywords.some((kw) => path.includes(kw))) {
       links.add(url.toString());
     }
@@ -337,7 +347,7 @@ async function discoverStagePdfs(
   try {
     const html = await fetchText(sourcePage);
     for (const pdfUrl of collectPdfUrls(html, sourcePage, true, category)) {
-      found.add(pdfUrl);
+      if (pdfMatchesStage(pdfUrl, stage)) found.add(pdfUrl);
     }
     console.log(`[${tag}] sourcePage OK — found ${found.size} PDF(s) so far.`);
   } catch (err) {
@@ -362,7 +372,7 @@ async function discoverStagePdfs(
     try {
       const html = await fetchText(discoveryUrl);
       for (const pdfUrl of collectPdfUrls(html, discoveryUrl, true, category)) {
-        found.add(pdfUrl);
+        if (pdfMatchesStage(pdfUrl, stage)) found.add(pdfUrl);
       }
       for (const link of collectStagePageLinks(html, discoveryUrl, stage, category)) {
         if (link !== sourcePage) {
@@ -390,7 +400,7 @@ async function discoverStagePdfs(
       const html = await fetchText(resultPage);
       const before = found.size;
       for (const pdfUrl of collectPdfUrls(html, resultPage, true, category)) {
-        found.add(pdfUrl);
+        if (pdfMatchesStage(pdfUrl, stage)) found.add(pdfUrl);
       }
       console.log(
         `[${tag}] Followed ${resultPage}: +${found.size - before} PDF(s).`,
@@ -425,7 +435,7 @@ async function syncStagePdfs(
 
   for (const pdfUrl of pdfUrls) {
     const filename = decodeURIComponent(basename(new URL(pdfUrl).pathname));
-    if (isSkippablePdf(pdfUrl, category) || isSkippablePdf(filename, category)) {
+    if (isSkippablePdf(pdfUrl, category) || isSkippablePdf(filename, category) || !pdfMatchesStage(pdfUrl, stage)) {
       console.log(`[${tag}] Skipping excluded PDF ${filename}`);
       continue;
     }
@@ -530,8 +540,8 @@ async function ingestStage(
 
   let pdfs: string[];
   try {
-    pdfs = (await readdir(stageRawDir)).filter((n) =>
-      isStagePdfFilename(n, category),
+    pdfs = (await readdir(stageRawDir)).filter(
+      (n) => isStagePdfFilename(n, category) && pdfMatchesStage(n, stage),
     );
   } catch {
     pdfs = [];

@@ -18,7 +18,7 @@ import type {
   YearSurvivalFile,
 } from "../types";
 import { survivalByCoupleId } from "../lib/survival";
-import { isStage, visibleStages } from "../lib/year";
+import { isStage, latestPublishedStage, publishedStages } from "../lib/year";
 
 type DataValue = {
   year: number;
@@ -118,6 +118,7 @@ export function DataProvider({
     const requested = params.get("stage");
     return isStage(requested) ? requested : "clasificatoria";
   });
+  const [stageReady, setStageReady] = useState(() => isStage(params.get("stage")));
 
   useEffect(() => {
     loadCatalog().then(setCatalog).catch(() => setCatalog(null));
@@ -126,20 +127,22 @@ export function DataProvider({
   useEffect(() => {
     let cancelled = false;
     setSurvival(null);
+    setStageReady(isStage(params.get("stage")));
     loadManifest(year, category)
       .then((m) => {
         if (cancelled) return;
         setManifest(m);
-        const stages = (m?.stages ?? []).filter((s) => s.rowCount > 0).map((s) => s.stage);
-        const allowed = visibleStages(year).filter((s) => stages.includes(s));
+        const allowed = publishedStages(m?.stages);
         const requested = params.get("stage");
         const fromUrl = isStage(requested) && allowed.includes(requested) ? requested : null;
-        setActiveStageState((current) =>
-          fromUrl ?? (allowed.includes(current) ? current : (allowed[0] ?? "clasificatoria")),
-        );
+        setActiveStageState(fromUrl ?? latestPublishedStage(year, m?.stages));
+        setStageReady(true);
       })
       .catch(() => {
-        if (!cancelled) setManifest(null);
+        if (!cancelled) {
+          setManifest(null);
+          setStageReady(true);
+        }
       });
     loadSurvival(year, category)
       .then((s) => {
@@ -154,6 +157,7 @@ export function DataProvider({
   }, [year, category]);
 
   useEffect(() => {
+    if (!stageReady) return;
     let cancelled = false;
     setLoading(true);
     setError(null);
@@ -175,7 +179,7 @@ export function DataProvider({
     return () => {
       cancelled = true;
     };
-  }, [tick, activeStage, year, category]);
+  }, [tick, activeStage, year, category, stageReady]);
 
   const reload = useCallback(() => setTick((n) => n + 1), []);
 
