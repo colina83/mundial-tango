@@ -23,10 +23,10 @@ import type { BlockId } from "../types";
 
 export function CoupleDossier() {
   const { blockId, coupleId } = useParams();
-  const { data, year, survival, survivalById } = useData();
+  const { data, year, category, survival, survivalById } = useData();
   const { t } = useI18n();
   const { isPinned, toggle } = useWatchlist();
-  const base = yearPath(year);
+  const base = yearPath(year, "", category);
 
   if (!data) return null;
   const row = data.rows.find(
@@ -50,7 +50,7 @@ export function CoupleDossier() {
     ? isDangerZone(row.rankInBlock, row.classified, block.coupleCount)
     : false;
   const showPin = hasWatchlist(year);
-  const pinned = showPin && isPinned(row.coupleId, row.blockId as BlockId, year);
+  const pinned = showPin && isPinned(row.coupleId, row.blockId as BlockId, year, category);
   const showBlock = hasDistinctBlocks(data);
   const trimmed = isTrimmedScoring(data);
   const survivalRow = survivalById.get(row.coupleId);
@@ -86,7 +86,7 @@ export function CoupleDossier() {
           <button
             type="button"
             className={`pin-btn ${pinned ? "is-on" : ""}`}
-            onClick={() => toggle(row.coupleId, row.blockId, year)}
+            onClick={() => toggle(row.coupleId, row.blockId, year, category)}
           >
             {pinned ? t("unpin") : t("pin")}
           </button>

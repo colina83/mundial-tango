@@ -2,7 +2,7 @@ import { createHash } from "node:crypto";
 import { readFile } from "node:fs/promises";
 import { basename } from "node:path";
 import { getDocumentProxy } from "unpdf";
-import type { BlockId, Scoring, Stage } from "../src/types.ts";
+import type { BlockId, Category, Scoring, Stage } from "../src/types.ts";
 import { scoreAverage } from "./qualify.ts";
 
 export const KNOWN_JURIES: Record<Exclude<BlockId, "_">, string[]> = {
@@ -45,6 +45,14 @@ export const OFFICIAL_PDF_URLS: Record<string, string> = {
     "https://tangoba.org/wp-content/uploads/2026/08/Jurados-_-Pista-Clasificatorias-2026-24_8-C-Copia-de-JURADOS-_-RONDAS-TODAS-248-C.pdf",
   "pista-clasificatorias-2026-24-08-D.pdf":
     "https://tangoba.org/wp-content/uploads/2026/08/Jurados-_-Pista-Clasificatorias-2026-24_8-D-Copia-de-JURADOS-_-RONDAS-TODAS-248-D.pdf",
+  "Jurados-_-Escenario-Clasificatorias-2026-25_8-A-Copia-de-JURADOS-_-RONDAS-TODAS-258-A.pdf":
+    "https://tangoba.org/wp-content/uploads/2026/08/Jurados-_-Escenario-Clasificatorias-2026-25_8-A-Copia-de-JURADOS-_-RONDAS-TODAS-258-A.pdf",
+  "Jurados-_-Escenario-Clasificatorias-2026-25_8-B-Copia-de-JURADOS-_-RONDAS-TODAS-258-B.pdf":
+    "https://tangoba.org/wp-content/uploads/2026/08/Jurados-_-Escenario-Clasificatorias-2026-25_8-B-Copia-de-JURADOS-_-RONDAS-TODAS-258-B.pdf",
+  "Jurados-_-Escenario-Clasificatorias-2026-26_8-C-Copia-de-JURADOS-_-RONDAS-TODAS-268-C.pdf":
+    "https://tangoba.org/wp-content/uploads/2026/08/Jurados-_-Escenario-Clasificatorias-2026-26_8-C-Copia-de-JURADOS-_-RONDAS-TODAS-268-C.pdf",
+  "Jurados-_-Escenario-Clasificatorias-2026-26_8-D-Copia-de-JURADOS-_-RONDAS-TODAS-268-D-1.pdf":
+    "https://tangoba.org/wp-content/uploads/2026/08/Jurados-_-Escenario-Clasificatorias-2026-26_8-D-Copia-de-JURADOS-_-RONDAS-TODAS-268-D-1.pdf",
 };
 
 const MONTHS: Record<string, number> = {
@@ -72,6 +80,7 @@ export interface ParsePdfOptions {
   year: number;
   stage: Stage;
   scoring: Scoring;
+  category?: Category;
   officialUrl?: string | null;
   defaultDate?: string;
 }
@@ -321,7 +330,7 @@ function parseDataRow(
   if (hasRoundColumn) {
     roundTok = tokens.find((t) => t.x < 92 && isRoundToken(t.str));
     coupleTok = tokens.find(
-      (t) => t.x >= 88 && t.x < 160 && /^\d+$/.test(t.str.trim()),
+      (t) => t.x >= 78 && t.x < 160 && /^\d+$/.test(t.str.trim()),
     );
     if (!roundTok || !coupleTok || roundTok === coupleTok) return null;
     round = roundTok.str.trim();
@@ -407,18 +416,32 @@ function blockFromFilename(filename: string): BlockId | null {
   return null;
 }
 
-function defaultDateFor(year: number, stage: Stage): { date: string; dateLabel: string } {
+function defaultDateFor(
+  year: number,
+  stage: Stage,
+  category: Category,
+): { date: string; dateLabel: string } {
   const map: Record<string, { date: string; dateLabel: string }> = {
-    "2026-clasificatoria": { date: "2026-08-23", dateLabel: "23 de agosto" },
-    "2025-clasificatoria": { date: "2025-08-23", dateLabel: "23 de agosto" },
-    "2025-cuartos": { date: "2025-08-27", dateLabel: "27 de agosto" },
-    "2025-semifinal": { date: "2025-08-29", dateLabel: "29 de agosto" },
-    "2025-final": { date: "2025-09-01", dateLabel: "1 de septiembre" },
-    "2024-clasificatoria": { date: "2024-08-20", dateLabel: "20 de agosto" },
-    "2024-semifinal": { date: "2024-08-24", dateLabel: "24 de agosto" },
-    "2024-final": { date: "2024-08-28", dateLabel: "28 de agosto" },
+    "pista-2026-clasificatoria": { date: "2026-08-23", dateLabel: "23 de agosto" },
+    "escenario-2026-clasificatoria": { date: "2026-08-25", dateLabel: "25 de agosto" },
+    "pista-2025-clasificatoria": { date: "2025-08-23", dateLabel: "23 de agosto" },
+    "escenario-2025-clasificatoria": { date: "2025-08-25", dateLabel: "25 de agosto" },
+    "pista-2025-cuartos": { date: "2025-08-27", dateLabel: "27 de agosto" },
+    "escenario-2025-cuartos": { date: "2025-08-28", dateLabel: "28 de agosto" },
+    "pista-2025-semifinal": { date: "2025-08-29", dateLabel: "29 de agosto" },
+    "escenario-2025-semifinal": { date: "2025-08-30", dateLabel: "30 de agosto" },
+    "pista-2025-final": { date: "2025-09-01", dateLabel: "1 de septiembre" },
+    "escenario-2025-final": { date: "2025-09-03", dateLabel: "3 de septiembre" },
+    "pista-2024-clasificatoria": { date: "2024-08-20", dateLabel: "20 de agosto" },
+    "escenario-2024-clasificatoria": { date: "2024-08-22", dateLabel: "22 de agosto" },
+    "pista-2024-semifinal": { date: "2024-08-24", dateLabel: "24 de agosto" },
+    "pista-2024-final": { date: "2024-08-28", dateLabel: "28 de agosto" },
+    "escenario-2024-final": { date: "2024-08-28", dateLabel: "28 de agosto" },
   };
-  return map[`${year}-${stage}`] ?? { date: `${year}-08-01`, dateLabel: String(year) };
+  return (
+    map[`${category}-${year}-${stage}`] ??
+    map[`pista-${year}-${stage}`] ?? { date: `${year}-08-01`, dateLabel: String(year) }
+  );
 }
 
 export async function parsePdfFile(
@@ -427,7 +450,9 @@ export async function parsePdfFile(
 ): Promise<ParsedBlock> {
   const year = options?.year ?? 2026;
   const stage = options?.stage ?? "clasificatoria";
+  const category: Category = options?.category ?? "pista";
   const scoring: Scoring = options?.scoring ?? (year === 2026 ? "trimmed" : "simple");
+  const useKnownJuries = category === "pista" && year === 2026;
 
   const buf = await readFile(filePath);
   const bytes = new Uint8Array(buf);
@@ -435,7 +460,7 @@ export async function parsePdfFile(
   const doc = await getDocumentProxy(bytes);
   const filename = basename(filePath);
 
-  const fallback = defaultDateFor(year, stage);
+  const fallback = defaultDateFor(year, stage, category);
   let blockId: BlockId | null = blockFromFilename(filename);
   let date = options?.defaultDate ?? fallback.date;
   let dateLabel = fallback.dateLabel;
@@ -446,7 +471,7 @@ export async function parsePdfFile(
   const seen = new Set<number>();
 
   const known =
-    year === 2026 && blockId && blockId !== "_"
+    useKnownJuries && blockId && blockId !== "_"
       ? KNOWN_JURIES[blockId]
       : undefined;
   if (known) fallbackJudges = known;
@@ -481,7 +506,7 @@ export async function parsePdfFile(
         if (title[4]) blockId = title[4]!.toUpperCase() as BlockId;
         date = `${year}-${String(month).padStart(2, "0")}-${day}`;
         dateLabel = `${Number(day)} de ${title[3]!.toLowerCase()}`;
-        if (year === 2026 && blockId && blockId !== "_") {
+        if (useKnownJuries && blockId && blockId !== "_") {
           fallbackJudges = KNOWN_JURIES[blockId] ?? fallbackJudges;
         }
       }
@@ -505,7 +530,7 @@ export async function parsePdfFile(
           fallbackJudges,
           scoring,
           hasRoundColumn,
-          year === 2026,
+          useKnownJuries,
         );
         if (probe) {
           firstDataY = row[0]!.y;
@@ -516,7 +541,7 @@ export async function parsePdfFile(
       if (!judgeColumns.length) {
         judgeColumns = extractJudgeColumns(headerRow, headerRow, null);
       }
-      if (year === 2026 && blockId && blockId !== "_" && KNOWN_JURIES[blockId]) {
+      if (useKnownJuries && blockId && blockId !== "_" && KNOWN_JURIES[blockId]) {
         fallbackJudges = KNOWN_JURIES[blockId];
       } else if (judgeColumns.length) {
         fallbackJudges = judgeColumns.map((c) => c.name);
@@ -528,12 +553,12 @@ export async function parsePdfFile(
       const parsed = parseDataRow(
         row,
         judgeColumns,
-        year === 2026 && blockId && blockId !== "_"
+        useKnownJuries && blockId && blockId !== "_"
           ? (KNOWN_JURIES[blockId] ?? fallbackJudges)
           : fallbackJudges,
         scoring,
         hasRoundColumn,
-        year === 2026,
+        useKnownJuries,
       );
       if (!parsed) continue;
       if (seen.has(parsed.coupleId)) continue;
@@ -581,7 +606,7 @@ export async function parsePdfFile(
     .map((j) => j.name)
     .filter((n) => !n.startsWith("Jurado"));
   const judges =
-    year === 2026 && blockId !== "_"
+    useKnownJuries && blockId !== "_"
       ? (KNOWN_JURIES[blockId] ?? fallbackJudges)
       : fromRow?.length
         ? fromRow

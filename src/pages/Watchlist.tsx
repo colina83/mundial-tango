@@ -9,14 +9,14 @@ import { useState } from "react";
 import type { ScoreRow } from "../types";
 
 export function WatchlistPage() {
-  const { data, year } = useData();
+  const { data, year, category } = useData();
   const { t } = useI18n();
   const { pins } = useWatchlist();
   const [query, setQuery] = useState("");
   if (!data) return null;
-  const base = yearPath(year);
+  const base = yearPath(year, "", category);
 
-  const yearPins = pins.filter((p) => p.year === year);
+  const yearPins = pins.filter((p) => p.year === year && p.category === category);
   const rows = yearPins
     .map((p) =>
       data.rows.find((r) => r.coupleId === p.coupleId && r.blockId === p.blockId),

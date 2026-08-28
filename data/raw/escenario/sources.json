@@ -1,0 +1,132 @@
+{
+  "harvestedAt": "2026-08-27",
+  "userAgent": "mundial-tango-unofficial/0.1",
+  "category": "https://tangoba.org/category/resultados/",
+  "years": {
+    "2024": {
+      "posts": [
+        {
+          "stage": "clasificatoria",
+          "url": "https://tangoba.org/resultados-clasificatoria-tango-escenario/"
+        },
+        {
+          "stage": "semifinal",
+          "url": "https://tangoba.org/resultados-semifinal-tango-escenario/"
+        },
+        {
+          "stage": "final",
+          "url": "https://tangoba.org/resultados-finales-tango-escenario-y-tango-pista/"
+        }
+      ],
+      "pdfs": [
+        {
+          "stage": "clasificatoria",
+          "file": "2024/clasificatoria.pdf",
+          "url": "https://tangoba.org/wp-content/uploads/2024/08/Jurados-_-ESCENARIO-Clasificatorias-2024-Ranking-Escenario.pdf"
+        },
+        {
+          "stage": "semifinal",
+          "file": "2024/semifinal.pdf",
+          "url": "https://tangoba.org/wp-content/uploads/2024/08/Ranking-semifinal-ESCENARIO.pdf"
+        },
+        {
+          "stage": "final",
+          "file": "2024/final.pdf",
+          "url": "https://tangoba.org/wp-content/uploads/2024/08/Final-Tango-Escenario.pdf"
+        }
+      ]
+    },
+    "2025": {
+      "posts": [
+        {
+          "stage": "clasificatoria",
+          "url": "https://tangoba.org/resultados-clasificatoria-tango-escenario-2025/"
+        },
+        {
+          "stage": "cuartos",
+          "url": "https://tangoba.org/resultados-clasificatoria-tango-escenario-copy/"
+        },
+        {
+          "stage": "semifinal",
+          "url": "https://tangoba.org/resultados-semifinal-tango-escenario-2025/"
+        },
+        {
+          "stage": "final",
+          "url": "https://tangoba.org/resultados-final-tango-escenario-2025/"
+        }
+      ],
+      "pdfs": [
+        {
+          "stage": "clasificatoria-A",
+          "file": "2025/clasificatoria-A.pdf",
+          "url": "https://tangoba.org/wp-content/uploads/2025/08/Jurados-_-EE2025-25_8-A-resultados.pdf"
+        },
+        {
+          "stage": "clasificatoria-B",
+          "file": "2025/clasificatoria-B.pdf",
+          "url": "https://tangoba.org/wp-content/uploads/2025/08/Escenario-Clasificatorias-2025-25_8-B-RESULTADOS.pdf"
+        },
+        {
+          "stage": "clasificatoria-C",
+          "file": "2025/clasificatoria-C.pdf",
+          "url": "https://tangoba.org/wp-content/uploads/2025/08/resultados-Escenario-Clasificatorias-2025-26_8-C.pdf"
+        },
+        {
+          "stage": "clasificatoria-D",
+          "file": "2025/clasificatoria-D.pdf",
+          "url": "https://tangoba.org/wp-content/uploads/2025/08/Escenario-Clasificatorias-2025-26_8-D-RESULTADOS.pdf"
+        },
+        {
+          "stage": "cuartos-A",
+          "file": "2025/cuartos-A.pdf",
+          "url": "https://tangoba.org/wp-content/uploads/2025/08/Jurados-_-Escenario-Cuartos-2025-28_8-A-JURADOS-_-RONDAS-TODAS-28_8-A.pdf"
+        },
+        {
+          "stage": "cuartos-B",
+          "file": "2025/cuartos-B.pdf",
+          "url": "https://tangoba.org/wp-content/uploads/2025/08/Jurados-_-Escenario-cuartos-2025-28_8-B-JURADOS-_-RONDAS-TODAS-28_8-B.pdf"
+        },
+        {
+          "stage": "semifinal",
+          "file": "2025/semifinal.pdf",
+          "url": "https://tangoba.org/wp-content/uploads/2025/08/Jurados-_-Escenario-SEMIS-2025-30_8-JURADOS-_-RONDAS-TODAS-30_8.pdf"
+        },
+        {
+          "stage": "final",
+          "file": "2025/final.pdf",
+          "url": "https://tangoba.org/wp-content/uploads/2025/09/Jurados-_-ESCENARIO-FINAL-2025-JURADOS-_-RONDAS-TODAS.pdf"
+        }
+      ]
+    },
+    "2026": {
+      "posts": [
+        {
+          "stage": "clasificatoria",
+          "url": "https://tangoba.org/resultados-clasificatoria-tango-escenario-2026/"
+        }
+      ],
+      "pdfs": [
+        {
+          "stage": "clasificatoria-A",
+          "file": "clasificatoria/Jurados-_-Escenario-Clasificatorias-2026-25_8-A-Copia-de-JURADOS-_-RONDAS-TODAS-258-A.pdf",
+          "url": "https://tangoba.org/wp-content/uploads/2026/08/Jurados-_-Escenario-Clasificatorias-2026-25_8-A-Copia-de-JURADOS-_-RONDAS-TODAS-258-A.pdf"
+        },
+        {
+          "stage": "clasificatoria-B",
+          "file": "clasificatoria/Jurados-_-Escenario-Clasificatorias-2026-25_8-B-Copia-de-JURADOS-_-RONDAS-TODAS-258-B.pdf",
+          "url": "https://tangoba.org/wp-content/uploads/2026/08/Jurados-_-Escenario-Clasificatorias-2026-25_8-B-Copia-de-JURADOS-_-RONDAS-TODAS-258-B.pdf"
+        },
+        {
+          "stage": "clasificatoria-C",
+          "file": "clasificatoria/Jurados-_-Escenario-Clasificatorias-2026-26_8-C-Copia-de-JURADOS-_-RONDAS-TODAS-268-C.pdf",
+          "url": "https://tangoba.org/wp-content/uploads/2026/08/Jurados-_-Escenario-Clasificatorias-2026-26_8-C-Copia-de-JURADOS-_-RONDAS-TODAS-268-C.pdf"
+        },
+        {
+          "stage": "clasificatoria-D",
+          "file": "clasificatoria/Jurados-_-Escenario-Clasificatorias-2026-26_8-D-Copia-de-JURADOS-_-RONDAS-TODAS-268-D-1.pdf",
+          "url": "https://tangoba.org/wp-content/uploads/2026/08/Jurados-_-Escenario-Clasificatorias-2026-26_8-D-Copia-de-JURADOS-_-RONDAS-TODAS-268-D-1.pdf"
+        }
+      ]
+    }
+  }
+}

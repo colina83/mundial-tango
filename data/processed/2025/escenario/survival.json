@@ -1,0 +1,5707 @@
+{
+  "year": 2025,
+  "generatedAt": "2026-08-27T18:59:51.644Z",
+  "model": "lookup",
+  "disclaimer": "Based on 2024–2025 couples with similar clasificatoria standing. Not a prediction of the champion.",
+  "gates": [
+    "cuartos",
+    "semifinal",
+    "final"
+  ],
+  "couples": [
+    {
+      "coupleId": 596,
+      "blockId": "A",
+      "pCuartos": 1,
+      "pSemi": 0.889,
+      "pFinal": 0.444,
+      "ciCuartos": [
+        0.701,
+        1
+      ],
+      "ciSemi": [
+        0.565,
+        0.98
+      ],
+      "ciFinal": [
+        0.189,
+        0.733
+      ],
+      "cohortN": 9,
+      "decile": 9,
+      "standingKind": "block",
+      "percentile": 1,
+      "spread": 0.18,
+      "spreadBand": "low",
+      "prior": {
+        "match": "samePair",
+        "year": 2024,
+        "best": "clasificatoria"
+      },
+      "why": "Block top 10% · spread 0.18 · low-spread · same pair was 2024 clasificatoria only",
+      "realized": {
+        "cuartos": true,
+        "semifinal": true,
+        "final": true
+      }
+    },
+    {
+      "coupleId": 532,
+      "blockId": "A",
+      "pCuartos": 1,
+      "pSemi": 0.889,
+      "pFinal": 0.444,
+      "ciCuartos": [
+        0.701,
+        1
+      ],
+      "ciSemi": [
+        0.565,
+        0.98
+      ],
+      "ciFinal": [
+        0.189,
+        0.733
+      ],
+      "cohortN": 9,
+      "decile": 9,
+      "standingKind": "block",
+      "percentile": 0.98,
+      "spread": 0.3,
+      "spreadBand": "low",
+      "prior": {
+        "match": "samePair",
+        "year": 2024,
+        "best": "semifinal"
+      },
+      "why": "Block top 10% · spread 0.30 · low-spread · same pair was 2024 semi",
+      "realized": {
+        "cuartos": true,
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 24,
+      "blockId": "A",
+      "pCuartos": 1,
+      "pSemi": 0.889,
+      "pFinal": 0.444,
+      "ciCuartos": [
+        0.701,
+        1
+      ],
+      "ciSemi": [
+        0.565,
+        0.98
+      ],
+      "ciFinal": [
+        0.189,
+        0.733
+      ],
+      "cohortN": 9,
+      "decile": 9,
+      "standingKind": "block",
+      "percentile": 0.96,
+      "spread": 0.35,
+      "spreadBand": "low",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block top 10% · spread 0.35 · low-spread",
+      "realized": {
+        "cuartos": true,
+        "semifinal": true,
+        "final": true
+      }
+    },
+    {
+      "coupleId": 192,
+      "blockId": "A",
+      "pCuartos": 1,
+      "pSemi": 0.889,
+      "pFinal": 0.444,
+      "ciCuartos": [
+        0.701,
+        1
+      ],
+      "ciSemi": [
+        0.565,
+        0.98
+      ],
+      "ciFinal": [
+        0.189,
+        0.733
+      ],
+      "cohortN": 9,
+      "decile": 9,
+      "standingKind": "block",
+      "percentile": 0.94,
+      "spread": 0.2,
+      "spreadBand": "low",
+      "prior": {
+        "match": "samePair",
+        "year": 2024,
+        "best": "semifinal"
+      },
+      "why": "Block top 10% · spread 0.20 · low-spread · same pair was 2024 semi",
+      "realized": {
+        "cuartos": true,
+        "semifinal": true,
+        "final": true
+      }
+    },
+    {
+      "coupleId": 551,
+      "blockId": "A",
+      "pCuartos": 1,
+      "pSemi": 0.889,
+      "pFinal": 0.444,
+      "ciCuartos": [
+        0.701,
+        1
+      ],
+      "ciSemi": [
+        0.565,
+        0.98
+      ],
+      "ciFinal": [
+        0.189,
+        0.733
+      ],
+      "cohortN": 9,
+      "decile": 9,
+      "standingKind": "block",
+      "percentile": 0.92,
+      "spread": 0.17,
+      "spreadBand": "low",
+      "prior": {
+        "match": "samePair",
+        "year": 2024,
+        "best": "final"
+      },
+      "why": "Block top 10% · spread 0.17 · low-spread · same pair was 2024 finalist",
+      "realized": {
+        "cuartos": true,
+        "semifinal": true,
+        "final": true
+      }
+    },
+    {
+      "coupleId": 149,
+      "blockId": "A",
+      "pCuartos": 1,
+      "pSemi": 0.667,
+      "pFinal": 0.444,
+      "ciCuartos": [
+        0.701,
+        1
+      ],
+      "ciSemi": [
+        0.354,
+        0.879
+      ],
+      "ciFinal": [
+        0.189,
+        0.733
+      ],
+      "cohortN": 9,
+      "decile": 9,
+      "standingKind": "block",
+      "percentile": 0.9,
+      "spread": 0.37,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block top 10% · spread 0.37 · high-spread",
+      "realized": {
+        "cuartos": true,
+        "semifinal": true,
+        "final": true
+      }
+    },
+    {
+      "coupleId": 92,
+      "blockId": "A",
+      "pCuartos": 1,
+      "pSemi": 0.667,
+      "pFinal": 0.333,
+      "ciCuartos": [
+        0.701,
+        1
+      ],
+      "ciSemi": [
+        0.354,
+        0.879
+      ],
+      "ciFinal": [
+        0.121,
+        0.646
+      ],
+      "cohortN": 9,
+      "decile": 8,
+      "standingKind": "block",
+      "percentile": 0.88,
+      "spread": 0.43,
+      "spreadBand": "low",
+      "prior": {
+        "match": "samePair",
+        "year": 2024,
+        "best": "semifinal"
+      },
+      "why": "Block 80–90% · spread 0.43 · low-spread · same pair was 2024 semi",
+      "realized": {
+        "cuartos": true,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 8,
+      "blockId": "A",
+      "pCuartos": 1,
+      "pSemi": 0.667,
+      "pFinal": 0.333,
+      "ciCuartos": [
+        0.701,
+        1
+      ],
+      "ciSemi": [
+        0.354,
+        0.879
+      ],
+      "ciFinal": [
+        0.121,
+        0.646
+      ],
+      "cohortN": 9,
+      "decile": 8,
+      "standingKind": "block",
+      "percentile": 0.86,
+      "spread": 0.5,
+      "spreadBand": "low",
+      "prior": {
+        "match": "samePair",
+        "year": 2024,
+        "best": "final"
+      },
+      "why": "Block 80–90% · spread 0.50 · low-spread · same pair was 2024 finalist",
+      "realized": {
+        "cuartos": true,
+        "semifinal": true,
+        "final": true
+      }
+    },
+    {
+      "coupleId": 767,
+      "blockId": "A",
+      "pCuartos": 1,
+      "pSemi": 1,
+      "pFinal": 0.556,
+      "ciCuartos": [
+        0.701,
+        1
+      ],
+      "ciSemi": [
+        0.701,
+        1
+      ],
+      "ciFinal": [
+        0.267,
+        0.811
+      ],
+      "cohortN": 9,
+      "decile": 8,
+      "standingKind": "block",
+      "percentile": 0.84,
+      "spread": 0.7,
+      "spreadBand": "high",
+      "prior": {
+        "match": "onePartner",
+        "year": 2024,
+        "best": "final"
+      },
+      "why": "Block 80–90% · spread 0.70 · high-spread · one partner was 2024 finalist",
+      "realized": {
+        "cuartos": true,
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 130,
+      "blockId": "A",
+      "pCuartos": 1,
+      "pSemi": 1,
+      "pFinal": 0.556,
+      "ciCuartos": [
+        0.701,
+        1
+      ],
+      "ciSemi": [
+        0.701,
+        1
+      ],
+      "ciFinal": [
+        0.267,
+        0.811
+      ],
+      "cohortN": 9,
+      "decile": 8,
+      "standingKind": "block",
+      "percentile": 0.82,
+      "spread": 1,
+      "spreadBand": "high",
+      "prior": {
+        "match": "samePair",
+        "year": 2024,
+        "best": "clasificatoria"
+      },
+      "why": "Block 80–90% · spread 1.00 · high-spread · same pair was 2024 clasificatoria only",
+      "realized": {
+        "cuartos": true,
+        "semifinal": true,
+        "final": true
+      }
+    },
+    {
+      "coupleId": 185,
+      "blockId": "A",
+      "pCuartos": 1,
+      "pSemi": 0.667,
+      "pFinal": 0.333,
+      "ciCuartos": [
+        0.701,
+        1
+      ],
+      "ciSemi": [
+        0.354,
+        0.879
+      ],
+      "ciFinal": [
+        0.121,
+        0.646
+      ],
+      "cohortN": 9,
+      "decile": 8,
+      "standingKind": "block",
+      "percentile": 0.8,
+      "spread": 0.5,
+      "spreadBand": "low",
+      "prior": {
+        "match": "onePartner",
+        "year": 2024,
+        "best": "semifinal"
+      },
+      "why": "Block 80–90% · spread 0.50 · low-spread · one partner was 2024 semi",
+      "realized": {
+        "cuartos": true,
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 717,
+      "blockId": "A",
+      "pCuartos": 1,
+      "pSemi": 0.667,
+      "pFinal": 0.333,
+      "ciCuartos": [
+        0.701,
+        1
+      ],
+      "ciSemi": [
+        0.354,
+        0.879
+      ],
+      "ciFinal": [
+        0.121,
+        0.646
+      ],
+      "cohortN": 9,
+      "decile": 8,
+      "standingKind": "block",
+      "percentile": 0.8,
+      "spread": 0.25,
+      "spreadBand": "low",
+      "prior": {
+        "match": "samePair",
+        "year": 2024,
+        "best": "semifinal"
+      },
+      "why": "Block 80–90% · spread 0.25 · low-spread · same pair was 2024 semi",
+      "realized": {
+        "cuartos": true,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 274,
+      "blockId": "A",
+      "pCuartos": 1,
+      "pSemi": 0.643,
+      "pFinal": 0.071,
+      "ciCuartos": [
+        0.785,
+        1
+      ],
+      "ciSemi": [
+        0.388,
+        0.837
+      ],
+      "ciFinal": [
+        0.013,
+        0.315
+      ],
+      "cohortN": 14,
+      "decile": 7,
+      "standingKind": "block",
+      "percentile": 0.76,
+      "spread": 0.8,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 70–80% · spread 0.80",
+      "realized": {
+        "cuartos": true,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 537,
+      "blockId": "A",
+      "pCuartos": 1,
+      "pSemi": 0.643,
+      "pFinal": 0.071,
+      "ciCuartos": [
+        0.785,
+        1
+      ],
+      "ciSemi": [
+        0.388,
+        0.837
+      ],
+      "ciFinal": [
+        0.013,
+        0.315
+      ],
+      "cohortN": 14,
+      "decile": 7,
+      "standingKind": "block",
+      "percentile": 0.74,
+      "spread": 0.8,
+      "spreadBand": null,
+      "prior": {
+        "match": "samePair",
+        "year": 2024,
+        "best": "final"
+      },
+      "why": "Block 70–80% · spread 0.80 · same pair was 2024 finalist",
+      "realized": {
+        "cuartos": true,
+        "semifinal": true,
+        "final": true
+      }
+    },
+    {
+      "coupleId": 361,
+      "blockId": "A",
+      "pCuartos": 1,
+      "pSemi": 0.643,
+      "pFinal": 0.071,
+      "ciCuartos": [
+        0.785,
+        1
+      ],
+      "ciSemi": [
+        0.388,
+        0.837
+      ],
+      "ciFinal": [
+        0.013,
+        0.315
+      ],
+      "cohortN": 14,
+      "decile": 7,
+      "standingKind": "block",
+      "percentile": 0.72,
+      "spread": 0.4,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 70–80% · spread 0.40",
+      "realized": {
+        "cuartos": true,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 64,
+      "blockId": "A",
+      "pCuartos": 1,
+      "pSemi": 0.643,
+      "pFinal": 0.071,
+      "ciCuartos": [
+        0.785,
+        1
+      ],
+      "ciSemi": [
+        0.388,
+        0.837
+      ],
+      "ciFinal": [
+        0.013,
+        0.315
+      ],
+      "cohortN": 14,
+      "decile": 7,
+      "standingKind": "block",
+      "percentile": 0.7,
+      "spread": 0.45,
+      "spreadBand": null,
+      "prior": {
+        "match": "samePair",
+        "year": 2024,
+        "best": "semifinal"
+      },
+      "why": "Block 70–80% · spread 0.45 · same pair was 2024 semi",
+      "realized": {
+        "cuartos": true,
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 414,
+      "blockId": "A",
+      "pCuartos": 1,
+      "pSemi": 0.444,
+      "pFinal": 0.111,
+      "ciCuartos": [
+        0.701,
+        1
+      ],
+      "ciSemi": [
+        0.189,
+        0.733
+      ],
+      "ciFinal": [
+        0.02,
+        0.435
+      ],
+      "cohortN": 9,
+      "decile": 6,
+      "standingKind": "block",
+      "percentile": 0.68,
+      "spread": 0.9,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 60–70% · spread 0.90 · high-spread",
+      "realized": {
+        "cuartos": true,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 343,
+      "blockId": "A",
+      "pCuartos": 1,
+      "pSemi": 0.375,
+      "pFinal": 0,
+      "ciCuartos": [
+        0.676,
+        1
+      ],
+      "ciSemi": [
+        0.137,
+        0.694
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 6,
+      "standingKind": "block",
+      "percentile": 0.66,
+      "spread": 0.52,
+      "spreadBand": "low",
+      "prior": {
+        "match": "samePair",
+        "year": 2024,
+        "best": "clasificatoria"
+      },
+      "why": "Block 60–70% · spread 0.52 · low-spread · same pair was 2024 clasificatoria only",
+      "realized": {
+        "cuartos": true,
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 217,
+      "blockId": "A",
+      "pCuartos": 1,
+      "pSemi": 0.375,
+      "pFinal": 0,
+      "ciCuartos": [
+        0.676,
+        1
+      ],
+      "ciSemi": [
+        0.137,
+        0.694
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 6,
+      "standingKind": "block",
+      "percentile": 0.64,
+      "spread": 0.55,
+      "spreadBand": "low",
+      "prior": {
+        "match": "onePartner",
+        "year": 2024,
+        "best": "clasificatoria"
+      },
+      "why": "Block 60–70% · spread 0.55 · low-spread · one partner was 2024 clasificatoria only",
+      "realized": {
+        "cuartos": true,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 517,
+      "blockId": "A",
+      "pCuartos": 1,
+      "pSemi": 0.375,
+      "pFinal": 0,
+      "ciCuartos": [
+        0.676,
+        1
+      ],
+      "ciSemi": [
+        0.137,
+        0.694
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 6,
+      "standingKind": "block",
+      "percentile": 0.62,
+      "spread": 0.17,
+      "spreadBand": "low",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 60–70% · spread 0.17 · low-spread",
+      "realized": {
+        "cuartos": true,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 701,
+      "blockId": "A",
+      "pCuartos": 1,
+      "pSemi": 0.444,
+      "pFinal": 0.111,
+      "ciCuartos": [
+        0.701,
+        1
+      ],
+      "ciSemi": [
+        0.189,
+        0.733
+      ],
+      "ciFinal": [
+        0.02,
+        0.435
+      ],
+      "cohortN": 9,
+      "decile": 6,
+      "standingKind": "block",
+      "percentile": 0.6,
+      "spread": 1,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 60–70% · spread 1.00 · high-spread",
+      "realized": {
+        "cuartos": true,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 547,
+      "blockId": "A",
+      "pCuartos": 1,
+      "pSemi": 0.125,
+      "pFinal": 0,
+      "ciCuartos": [
+        0.676,
+        1
+      ],
+      "ciSemi": [
+        0.022,
+        0.471
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 5,
+      "standingKind": "block",
+      "percentile": 0.58,
+      "spread": 0.65,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 50–60% · spread 0.65 · high-spread",
+      "realized": {
+        "cuartos": true,
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 116,
+      "blockId": "A",
+      "pCuartos": 1,
+      "pSemi": 0.125,
+      "pFinal": 0,
+      "ciCuartos": [
+        0.676,
+        1
+      ],
+      "ciSemi": [
+        0.022,
+        0.471
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 5,
+      "standingKind": "block",
+      "percentile": 0.56,
+      "spread": 1,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 50–60% · spread 1.00 · high-spread",
+      "realized": {
+        "cuartos": true,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 550,
+      "blockId": "A",
+      "pCuartos": 1,
+      "pSemi": 0.125,
+      "pFinal": 0,
+      "ciCuartos": [
+        0.676,
+        1
+      ],
+      "ciSemi": [
+        0.022,
+        0.471
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 5,
+      "standingKind": "block",
+      "percentile": 0.54,
+      "spread": 0.61,
+      "spreadBand": "low",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 50–60% · spread 0.61 · low-spread",
+      "realized": {
+        "cuartos": true,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 435,
+      "blockId": "A",
+      "pCuartos": 1,
+      "pSemi": 0.125,
+      "pFinal": 0,
+      "ciCuartos": [
+        0.676,
+        1
+      ],
+      "ciSemi": [
+        0.022,
+        0.471
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 5,
+      "standingKind": "block",
+      "percentile": 0.52,
+      "spread": 0.5,
+      "spreadBand": "low",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 50–60% · spread 0.50 · low-spread",
+      "realized": {
+        "cuartos": true,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 588,
+      "blockId": "A",
+      "pCuartos": 1,
+      "pSemi": 0.125,
+      "pFinal": 0,
+      "ciCuartos": [
+        0.676,
+        1
+      ],
+      "ciSemi": [
+        0.022,
+        0.471
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 5,
+      "standingKind": "block",
+      "percentile": 0.5,
+      "spread": 0.5,
+      "spreadBand": "low",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 50–60% · spread 0.50 · low-spread",
+      "realized": {
+        "cuartos": true,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 527,
+      "blockId": "A",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.204
+      ],
+      "ciSemi": [
+        0,
+        0.204
+      ],
+      "ciFinal": [
+        0,
+        0.204
+      ],
+      "cohortN": 15,
+      "decile": 4,
+      "standingKind": "block",
+      "percentile": 0.48,
+      "spread": 0.42,
+      "spreadBand": null,
+      "prior": {
+        "match": "samePair",
+        "year": 2024,
+        "best": "clasificatoria"
+      },
+      "why": "Block 40–50% · spread 0.42 · same pair was 2024 clasificatoria only",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 86,
+      "blockId": "A",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.299
+      ],
+      "ciSemi": [
+        0,
+        0.299
+      ],
+      "ciFinal": [
+        0,
+        0.299
+      ],
+      "cohortN": 9,
+      "decile": 4,
+      "standingKind": "block",
+      "percentile": 0.46,
+      "spread": 0.75,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 40–50% · spread 0.75 · high-spread",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 28,
+      "blockId": "A",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.299
+      ],
+      "ciSemi": [
+        0,
+        0.299
+      ],
+      "ciFinal": [
+        0,
+        0.299
+      ],
+      "cohortN": 9,
+      "decile": 4,
+      "standingKind": "block",
+      "percentile": 0.44,
+      "spread": 0.95,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 40–50% · spread 0.95 · high-spread",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 292,
+      "blockId": "A",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.299
+      ],
+      "ciSemi": [
+        0,
+        0.299
+      ],
+      "ciFinal": [
+        0,
+        0.299
+      ],
+      "cohortN": 9,
+      "decile": 4,
+      "standingKind": "block",
+      "percentile": 0.42,
+      "spread": 0.75,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 40–50% · spread 0.75 · high-spread",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 755,
+      "blockId": "A",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.299
+      ],
+      "ciSemi": [
+        0,
+        0.299
+      ],
+      "ciFinal": [
+        0,
+        0.299
+      ],
+      "cohortN": 9,
+      "decile": 4,
+      "standingKind": "block",
+      "percentile": 0.4,
+      "spread": 0.87,
+      "spreadBand": "high",
+      "prior": {
+        "match": "onePartner",
+        "year": 2024,
+        "best": "clasificatoria"
+      },
+      "why": "Block 40–50% · spread 0.87 · high-spread · one partner was 2024 clasificatoria only",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 363,
+      "blockId": "A",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.324
+      ],
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 3,
+      "standingKind": "block",
+      "percentile": 0.38,
+      "spread": 0.7,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 30–40% · spread 0.70 · high-spread",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 429,
+      "blockId": "A",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.324
+      ],
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 3,
+      "standingKind": "block",
+      "percentile": 0.36,
+      "spread": 1.09,
+      "spreadBand": "high",
+      "prior": {
+        "match": "samePair",
+        "year": 2024,
+        "best": "clasificatoria"
+      },
+      "why": "Block 30–40% · spread 1.09 · high-spread · same pair was 2024 clasificatoria only",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 300,
+      "blockId": "A",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.324
+      ],
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 3,
+      "standingKind": "block",
+      "percentile": 0.34,
+      "spread": 0.55,
+      "spreadBand": "low",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 30–40% · spread 0.55 · low-spread",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 393,
+      "blockId": "A",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.324
+      ],
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 3,
+      "standingKind": "block",
+      "percentile": 0.32,
+      "spread": 0.9,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 30–40% · spread 0.90 · high-spread",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 626,
+      "blockId": "A",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.324
+      ],
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 3,
+      "standingKind": "block",
+      "percentile": 0.3,
+      "spread": 0.85,
+      "spreadBand": "high",
+      "prior": {
+        "match": "onePartner",
+        "year": 2024,
+        "best": "clasificatoria"
+      },
+      "why": "Block 30–40% · spread 0.85 · high-spread · one partner was 2024 clasificatoria only",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 541,
+      "blockId": "A",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.215
+      ],
+      "ciSemi": [
+        0,
+        0.215
+      ],
+      "ciFinal": [
+        0,
+        0.215
+      ],
+      "cohortN": 14,
+      "decile": 2,
+      "standingKind": "block",
+      "percentile": 0.28,
+      "spread": 0.7,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 20–30% · spread 0.70",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 443,
+      "blockId": "A",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.215
+      ],
+      "ciSemi": [
+        0,
+        0.215
+      ],
+      "ciFinal": [
+        0,
+        0.215
+      ],
+      "cohortN": 14,
+      "decile": 2,
+      "standingKind": "block",
+      "percentile": 0.26,
+      "spread": 0.9,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 20–30% · spread 0.90",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 586,
+      "blockId": "A",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.215
+      ],
+      "ciSemi": [
+        0,
+        0.215
+      ],
+      "ciFinal": [
+        0,
+        0.215
+      ],
+      "cohortN": 14,
+      "decile": 2,
+      "standingKind": "block",
+      "percentile": 0.24,
+      "spread": 1.05,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 20–30% · spread 1.05",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 447,
+      "blockId": "A",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.215
+      ],
+      "ciSemi": [
+        0,
+        0.215
+      ],
+      "ciFinal": [
+        0,
+        0.215
+      ],
+      "cohortN": 14,
+      "decile": 2,
+      "standingKind": "block",
+      "percentile": 0.22,
+      "spread": 0.93,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 20–30% · spread 0.93",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 197,
+      "blockId": "A",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.259
+      ],
+      "ciSemi": [
+        0,
+        0.259
+      ],
+      "ciFinal": [
+        0,
+        0.259
+      ],
+      "cohortN": 11,
+      "decile": 1,
+      "standingKind": "block",
+      "percentile": 0.2,
+      "spread": 0.95,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 10–20% · spread 0.95 · high-spread",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 323,
+      "blockId": "A",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.259
+      ],
+      "ciSemi": [
+        0,
+        0.259
+      ],
+      "ciFinal": [
+        0,
+        0.259
+      ],
+      "cohortN": 11,
+      "decile": 1,
+      "standingKind": "block",
+      "percentile": 0.18,
+      "spread": 0.8,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 10–20% · spread 0.80 · high-spread",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 563,
+      "blockId": "A",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.259
+      ],
+      "ciSemi": [
+        0,
+        0.259
+      ],
+      "ciFinal": [
+        0,
+        0.259
+      ],
+      "cohortN": 11,
+      "decile": 1,
+      "standingKind": "block",
+      "percentile": 0.16,
+      "spread": 0.8,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 10–20% · spread 0.80 · high-spread",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 500,
+      "blockId": "A",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.259
+      ],
+      "ciSemi": [
+        0,
+        0.259
+      ],
+      "ciFinal": [
+        0,
+        0.259
+      ],
+      "cohortN": 11,
+      "decile": 1,
+      "standingKind": "block",
+      "percentile": 0.14,
+      "spread": 1.1,
+      "spreadBand": "high",
+      "prior": {
+        "match": "onePartner",
+        "year": 2024,
+        "best": "clasificatoria"
+      },
+      "why": "Block 10–20% · spread 1.10 · high-spread · one partner was 2024 clasificatoria only",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 93,
+      "blockId": "A",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.259
+      ],
+      "ciSemi": [
+        0,
+        0.259
+      ],
+      "ciFinal": [
+        0,
+        0.259
+      ],
+      "cohortN": 11,
+      "decile": 1,
+      "standingKind": "block",
+      "percentile": 0.12,
+      "spread": 1.04,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 10–20% · spread 1.04 · high-spread",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 213,
+      "blockId": "A",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.278
+      ],
+      "ciSemi": [
+        0,
+        0.278
+      ],
+      "ciFinal": [
+        0,
+        0.278
+      ],
+      "cohortN": 10,
+      "decile": 0,
+      "standingKind": "block",
+      "percentile": 0.1,
+      "spread": 1.04,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block bottom 10% · spread 1.04 · high-spread",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 602,
+      "blockId": "A",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.324
+      ],
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 0,
+      "standingKind": "block",
+      "percentile": 0.08,
+      "spread": 0.8,
+      "spreadBand": "low",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block bottom 10% · spread 0.80 · low-spread",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 552,
+      "blockId": "A",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.324
+      ],
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 0,
+      "standingKind": "block",
+      "percentile": 0.06,
+      "spread": 0.75,
+      "spreadBand": "low",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block bottom 10% · spread 0.75 · low-spread",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 570,
+      "blockId": "A",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.278
+      ],
+      "ciSemi": [
+        0,
+        0.278
+      ],
+      "ciFinal": [
+        0,
+        0.278
+      ],
+      "cohortN": 10,
+      "decile": 0,
+      "standingKind": "block",
+      "percentile": 0.04,
+      "spread": 1,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block bottom 10% · spread 1.00 · high-spread",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 155,
+      "blockId": "A",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.324
+      ],
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 0,
+      "standingKind": "block",
+      "percentile": 0.02,
+      "spread": 0.65,
+      "spreadBand": "low",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block bottom 10% · spread 0.65 · low-spread",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 512,
+      "blockId": "A",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.324
+      ],
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 0,
+      "standingKind": "block",
+      "percentile": 0,
+      "spread": 0.75,
+      "spreadBand": "low",
+      "prior": {
+        "match": "onePartner",
+        "year": 2024,
+        "best": "clasificatoria"
+      },
+      "why": "Block bottom 10% · spread 0.75 · low-spread · one partner was 2024 clasificatoria only",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 590,
+      "blockId": "B",
+      "pCuartos": 1,
+      "pSemi": 0.889,
+      "pFinal": 0.444,
+      "ciCuartos": [
+        0.701,
+        1
+      ],
+      "ciSemi": [
+        0.565,
+        0.98
+      ],
+      "ciFinal": [
+        0.189,
+        0.733
+      ],
+      "cohortN": 9,
+      "decile": 9,
+      "standingKind": "block",
+      "percentile": 1,
+      "spread": 0.25,
+      "spreadBand": "low",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block top 10% · spread 0.25 · low-spread",
+      "realized": {
+        "cuartos": true,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 59,
+      "blockId": "B",
+      "pCuartos": 1,
+      "pSemi": 0.667,
+      "pFinal": 0.444,
+      "ciCuartos": [
+        0.701,
+        1
+      ],
+      "ciSemi": [
+        0.354,
+        0.879
+      ],
+      "ciFinal": [
+        0.189,
+        0.733
+      ],
+      "cohortN": 9,
+      "decile": 9,
+      "standingKind": "block",
+      "percentile": 0.962,
+      "spread": 0.5,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block top 10% · spread 0.50 · high-spread",
+      "realized": {
+        "cuartos": true,
+        "semifinal": true,
+        "final": true
+      }
+    },
+    {
+      "coupleId": 479,
+      "blockId": "B",
+      "pCuartos": 1,
+      "pSemi": 0.667,
+      "pFinal": 0.444,
+      "ciCuartos": [
+        0.701,
+        1
+      ],
+      "ciSemi": [
+        0.354,
+        0.879
+      ],
+      "ciFinal": [
+        0.189,
+        0.733
+      ],
+      "cohortN": 9,
+      "decile": 9,
+      "standingKind": "block",
+      "percentile": 0.923,
+      "spread": 0.36,
+      "spreadBand": "high",
+      "prior": {
+        "match": "samePair",
+        "year": 2024,
+        "best": "final"
+      },
+      "why": "Block top 10% · spread 0.36 · high-spread · same pair was 2024 finalist",
+      "realized": {
+        "cuartos": true,
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 305,
+      "blockId": "B",
+      "pCuartos": 1,
+      "pSemi": 1,
+      "pFinal": 0.556,
+      "ciCuartos": [
+        0.701,
+        1
+      ],
+      "ciSemi": [
+        0.701,
+        1
+      ],
+      "ciFinal": [
+        0.267,
+        0.811
+      ],
+      "cohortN": 9,
+      "decile": 8,
+      "standingKind": "block",
+      "percentile": 0.885,
+      "spread": 0.53,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 80–90% · spread 0.53 · high-spread",
+      "realized": {
+        "cuartos": true,
+        "semifinal": true,
+        "final": true
+      }
+    },
+    {
+      "coupleId": 350,
+      "blockId": "B",
+      "pCuartos": 1,
+      "pSemi": 1,
+      "pFinal": 0.556,
+      "ciCuartos": [
+        0.701,
+        1
+      ],
+      "ciSemi": [
+        0.701,
+        1
+      ],
+      "ciFinal": [
+        0.267,
+        0.811
+      ],
+      "cohortN": 9,
+      "decile": 8,
+      "standingKind": "block",
+      "percentile": 0.846,
+      "spread": 0.65,
+      "spreadBand": "high",
+      "prior": {
+        "match": "samePair",
+        "year": 2024,
+        "best": "final"
+      },
+      "why": "Block 80–90% · spread 0.65 · high-spread · same pair was 2024 finalist",
+      "realized": {
+        "cuartos": true,
+        "semifinal": true,
+        "final": true
+      }
+    },
+    {
+      "coupleId": 549,
+      "blockId": "B",
+      "pCuartos": 1,
+      "pSemi": 0.667,
+      "pFinal": 0.333,
+      "ciCuartos": [
+        0.701,
+        1
+      ],
+      "ciSemi": [
+        0.354,
+        0.879
+      ],
+      "ciFinal": [
+        0.121,
+        0.646
+      ],
+      "cohortN": 9,
+      "decile": 8,
+      "standingKind": "block",
+      "percentile": 0.808,
+      "spread": 0.48,
+      "spreadBand": "low",
+      "prior": {
+        "match": "samePair",
+        "year": 2024,
+        "best": "final"
+      },
+      "why": "Block 80–90% · spread 0.48 · low-spread · same pair was 2024 finalist",
+      "realized": {
+        "cuartos": true,
+        "semifinal": true,
+        "final": true
+      }
+    },
+    {
+      "coupleId": 169,
+      "blockId": "B",
+      "pCuartos": 1,
+      "pSemi": 0.643,
+      "pFinal": 0.071,
+      "ciCuartos": [
+        0.785,
+        1
+      ],
+      "ciSemi": [
+        0.388,
+        0.837
+      ],
+      "ciFinal": [
+        0.013,
+        0.315
+      ],
+      "cohortN": 14,
+      "decile": 7,
+      "standingKind": "block",
+      "percentile": 0.769,
+      "spread": 0.46,
+      "spreadBand": null,
+      "prior": {
+        "match": "samePair",
+        "year": 2024,
+        "best": "semifinal"
+      },
+      "why": "Block 70–80% · spread 0.46 · same pair was 2024 semi",
+      "realized": {
+        "cuartos": true,
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 37,
+      "blockId": "B",
+      "pCuartos": 1,
+      "pSemi": 0.643,
+      "pFinal": 0.071,
+      "ciCuartos": [
+        0.785,
+        1
+      ],
+      "ciSemi": [
+        0.388,
+        0.837
+      ],
+      "ciFinal": [
+        0.013,
+        0.315
+      ],
+      "cohortN": 14,
+      "decile": 7,
+      "standingKind": "block",
+      "percentile": 0.731,
+      "spread": 0.92,
+      "spreadBand": null,
+      "prior": {
+        "match": "samePair",
+        "year": 2024,
+        "best": "final"
+      },
+      "why": "Block 70–80% · spread 0.92 · same pair was 2024 finalist",
+      "realized": {
+        "cuartos": true,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 525,
+      "blockId": "B",
+      "pCuartos": 1,
+      "pSemi": 0.375,
+      "pFinal": 0,
+      "ciCuartos": [
+        0.676,
+        1
+      ],
+      "ciSemi": [
+        0.137,
+        0.694
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 6,
+      "standingKind": "block",
+      "percentile": 0.692,
+      "spread": 0.4,
+      "spreadBand": "low",
+      "prior": {
+        "match": "samePair",
+        "year": 2024,
+        "best": "semifinal"
+      },
+      "why": "Block 60–70% · spread 0.40 · low-spread · same pair was 2024 semi",
+      "realized": {
+        "cuartos": true,
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 183,
+      "blockId": "B",
+      "pCuartos": 1,
+      "pSemi": 0.444,
+      "pFinal": 0.111,
+      "ciCuartos": [
+        0.701,
+        1
+      ],
+      "ciSemi": [
+        0.189,
+        0.733
+      ],
+      "ciFinal": [
+        0.02,
+        0.435
+      ],
+      "cohortN": 9,
+      "decile": 6,
+      "standingKind": "block",
+      "percentile": 0.654,
+      "spread": 0.6,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 60–70% · spread 0.60 · high-spread",
+      "realized": {
+        "cuartos": true,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 403,
+      "blockId": "B",
+      "pCuartos": 1,
+      "pSemi": 0.444,
+      "pFinal": 0.111,
+      "ciCuartos": [
+        0.701,
+        1
+      ],
+      "ciSemi": [
+        0.189,
+        0.733
+      ],
+      "ciFinal": [
+        0.02,
+        0.435
+      ],
+      "cohortN": 9,
+      "decile": 6,
+      "standingKind": "block",
+      "percentile": 0.615,
+      "spread": 1.1,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 60–70% · spread 1.10 · high-spread",
+      "realized": {
+        "cuartos": true,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 662,
+      "blockId": "B",
+      "pCuartos": 1,
+      "pSemi": 0.125,
+      "pFinal": 0,
+      "ciCuartos": [
+        0.676,
+        1
+      ],
+      "ciSemi": [
+        0.022,
+        0.471
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 5,
+      "standingKind": "block",
+      "percentile": 0.577,
+      "spread": 0.76,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 50–60% · spread 0.76 · high-spread",
+      "realized": {
+        "cuartos": true,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 220,
+      "blockId": "B",
+      "pCuartos": 1,
+      "pSemi": 0.125,
+      "pFinal": 0,
+      "ciCuartos": [
+        0.676,
+        1
+      ],
+      "ciSemi": [
+        0.022,
+        0.471
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 5,
+      "standingKind": "block",
+      "percentile": 0.538,
+      "spread": 0.6,
+      "spreadBand": "low",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 50–60% · spread 0.60 · low-spread",
+      "realized": {
+        "cuartos": true,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 280,
+      "blockId": "B",
+      "pCuartos": 1,
+      "pSemi": 0.125,
+      "pFinal": 0,
+      "ciCuartos": [
+        0.676,
+        1
+      ],
+      "ciSemi": [
+        0.022,
+        0.471
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 5,
+      "standingKind": "block",
+      "percentile": 0.5,
+      "spread": 0.5,
+      "spreadBand": "low",
+      "prior": {
+        "match": "onePartner",
+        "year": 2024,
+        "best": "clasificatoria"
+      },
+      "why": "Block 50–60% · spread 0.50 · low-spread · one partner was 2024 clasificatoria only",
+      "realized": {
+        "cuartos": true,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 314,
+      "blockId": "B",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.204
+      ],
+      "ciSemi": [
+        0,
+        0.204
+      ],
+      "ciFinal": [
+        0,
+        0.204
+      ],
+      "cohortN": 15,
+      "decile": 4,
+      "standingKind": "block",
+      "percentile": 0.462,
+      "spread": 0.39,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 40–50% · spread 0.39",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 691,
+      "blockId": "B",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.299
+      ],
+      "ciSemi": [
+        0,
+        0.299
+      ],
+      "ciFinal": [
+        0,
+        0.299
+      ],
+      "cohortN": 9,
+      "decile": 4,
+      "standingKind": "block",
+      "percentile": 0.423,
+      "spread": 0.85,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 40–50% · spread 0.85 · high-spread",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 625,
+      "blockId": "B",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.324
+      ],
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 3,
+      "standingKind": "block",
+      "percentile": 0.385,
+      "spread": 0.7,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 30–40% · spread 0.70 · high-spread",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 200,
+      "blockId": "B",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.324
+      ],
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 3,
+      "standingKind": "block",
+      "percentile": 0.346,
+      "spread": 0.55,
+      "spreadBand": "low",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 30–40% · spread 0.55 · low-spread",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 159,
+      "blockId": "B",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.324
+      ],
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 3,
+      "standingKind": "block",
+      "percentile": 0.308,
+      "spread": 0.92,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 30–40% · spread 0.92 · high-spread",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 492,
+      "blockId": "B",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.215
+      ],
+      "ciSemi": [
+        0,
+        0.215
+      ],
+      "ciFinal": [
+        0,
+        0.215
+      ],
+      "cohortN": 14,
+      "decile": 2,
+      "standingKind": "block",
+      "percentile": 0.269,
+      "spread": 0.82,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 20–30% · spread 0.82",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 96,
+      "blockId": "B",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.215
+      ],
+      "ciSemi": [
+        0,
+        0.215
+      ],
+      "ciFinal": [
+        0,
+        0.215
+      ],
+      "cohortN": 14,
+      "decile": 2,
+      "standingKind": "block",
+      "percentile": 0.231,
+      "spread": 0.75,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 20–30% · spread 0.75",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 507,
+      "blockId": "B",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.184
+      ],
+      "ciSemi": [
+        0,
+        0.184
+      ],
+      "ciFinal": [
+        0,
+        0.184
+      ],
+      "cohortN": 17,
+      "decile": 1,
+      "standingKind": "block",
+      "percentile": 0.192,
+      "spread": 0.78,
+      "spreadBand": null,
+      "prior": {
+        "match": "onePartner",
+        "year": 2024,
+        "best": "clasificatoria"
+      },
+      "why": "Block 10–20% · spread 0.78 · one partner was 2024 clasificatoria only",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 70,
+      "blockId": "B",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.184
+      ],
+      "ciSemi": [
+        0,
+        0.184
+      ],
+      "ciFinal": [
+        0,
+        0.184
+      ],
+      "cohortN": 17,
+      "decile": 1,
+      "standingKind": "block",
+      "percentile": 0.154,
+      "spread": 0.77,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 10–20% · spread 0.77",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 432,
+      "blockId": "B",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.259
+      ],
+      "ciSemi": [
+        0,
+        0.259
+      ],
+      "ciFinal": [
+        0,
+        0.259
+      ],
+      "cohortN": 11,
+      "decile": 1,
+      "standingKind": "block",
+      "percentile": 0.115,
+      "spread": 0.97,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 10–20% · spread 0.97 · high-spread",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 328,
+      "blockId": "B",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.324
+      ],
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 0,
+      "standingKind": "block",
+      "percentile": 0.077,
+      "spread": 0.68,
+      "spreadBand": "low",
+      "prior": {
+        "match": "onePartner",
+        "year": 2024,
+        "best": "clasificatoria"
+      },
+      "why": "Block bottom 10% · spread 0.68 · low-spread · one partner was 2024 clasificatoria only",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 51,
+      "blockId": "B",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.324
+      ],
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 0,
+      "standingKind": "block",
+      "percentile": 0.038,
+      "spread": 0.9,
+      "spreadBand": "low",
+      "prior": {
+        "match": "samePair",
+        "year": 2024,
+        "best": "clasificatoria"
+      },
+      "why": "Block bottom 10% · spread 0.90 · low-spread · same pair was 2024 clasificatoria only",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 144,
+      "blockId": "B",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.278
+      ],
+      "ciSemi": [
+        0,
+        0.278
+      ],
+      "ciFinal": [
+        0,
+        0.278
+      ],
+      "cohortN": 10,
+      "decile": 0,
+      "standingKind": "block",
+      "percentile": 0,
+      "spread": 1,
+      "spreadBand": "high",
+      "prior": {
+        "match": "onePartner",
+        "year": 2024,
+        "best": "clasificatoria"
+      },
+      "why": "Block bottom 10% · spread 1.00 · high-spread · one partner was 2024 clasificatoria only",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 351,
+      "blockId": "C",
+      "pCuartos": 1,
+      "pSemi": 0.889,
+      "pFinal": 0.444,
+      "ciCuartos": [
+        0.701,
+        1
+      ],
+      "ciSemi": [
+        0.565,
+        0.98
+      ],
+      "ciFinal": [
+        0.189,
+        0.733
+      ],
+      "cohortN": 9,
+      "decile": 9,
+      "standingKind": "block",
+      "percentile": 1,
+      "spread": 0.3,
+      "spreadBand": "low",
+      "prior": {
+        "match": "samePair",
+        "year": 2024,
+        "best": "semifinal"
+      },
+      "why": "Block top 10% · spread 0.30 · low-spread · same pair was 2024 semi",
+      "realized": {
+        "cuartos": true,
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 522,
+      "blockId": "C",
+      "pCuartos": 1,
+      "pSemi": 0.667,
+      "pFinal": 0.444,
+      "ciCuartos": [
+        0.701,
+        1
+      ],
+      "ciSemi": [
+        0.354,
+        0.879
+      ],
+      "ciFinal": [
+        0.189,
+        0.733
+      ],
+      "cohortN": 9,
+      "decile": 9,
+      "standingKind": "block",
+      "percentile": 0.978,
+      "spread": 0.4,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block top 10% · spread 0.40 · high-spread",
+      "realized": {
+        "cuartos": true,
+        "semifinal": true,
+        "final": true
+      }
+    },
+    {
+      "coupleId": 632,
+      "blockId": "C",
+      "pCuartos": 1,
+      "pSemi": 0.667,
+      "pFinal": 0.444,
+      "ciCuartos": [
+        0.701,
+        1
+      ],
+      "ciSemi": [
+        0.354,
+        0.879
+      ],
+      "ciFinal": [
+        0.189,
+        0.733
+      ],
+      "cohortN": 9,
+      "decile": 9,
+      "standingKind": "block",
+      "percentile": 0.956,
+      "spread": 0.66,
+      "spreadBand": "high",
+      "prior": {
+        "match": "onePartner",
+        "year": 2024,
+        "best": "clasificatoria"
+      },
+      "why": "Block top 10% · spread 0.66 · high-spread · one partner was 2024 clasificatoria only",
+      "realized": {
+        "cuartos": true,
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 465,
+      "blockId": "C",
+      "pCuartos": 1,
+      "pSemi": 0.667,
+      "pFinal": 0.444,
+      "ciCuartos": [
+        0.701,
+        1
+      ],
+      "ciSemi": [
+        0.354,
+        0.879
+      ],
+      "ciFinal": [
+        0.189,
+        0.733
+      ],
+      "cohortN": 9,
+      "decile": 9,
+      "standingKind": "block",
+      "percentile": 0.933,
+      "spread": 0.62,
+      "spreadBand": "high",
+      "prior": {
+        "match": "onePartner",
+        "year": 2024,
+        "best": "clasificatoria"
+      },
+      "why": "Block top 10% · spread 0.62 · high-spread · one partner was 2024 clasificatoria only",
+      "realized": {
+        "cuartos": true,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 129,
+      "blockId": "C",
+      "pCuartos": 1,
+      "pSemi": 0.667,
+      "pFinal": 0.444,
+      "ciCuartos": [
+        0.701,
+        1
+      ],
+      "ciSemi": [
+        0.354,
+        0.879
+      ],
+      "ciFinal": [
+        0.189,
+        0.733
+      ],
+      "cohortN": 9,
+      "decile": 9,
+      "standingKind": "block",
+      "percentile": 0.911,
+      "spread": 0.36,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block top 10% · spread 0.36 · high-spread",
+      "realized": {
+        "cuartos": true,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 454,
+      "blockId": "C",
+      "pCuartos": 1,
+      "pSemi": 1,
+      "pFinal": 0.556,
+      "ciCuartos": [
+        0.701,
+        1
+      ],
+      "ciSemi": [
+        0.701,
+        1
+      ],
+      "ciFinal": [
+        0.267,
+        0.811
+      ],
+      "cohortN": 9,
+      "decile": 8,
+      "standingKind": "block",
+      "percentile": 0.889,
+      "spread": 0.55,
+      "spreadBand": "high",
+      "prior": {
+        "match": "samePair",
+        "year": 2024,
+        "best": "final"
+      },
+      "why": "Block 80–90% · spread 0.55 · high-spread · same pair was 2024 finalist",
+      "realized": {
+        "cuartos": true,
+        "semifinal": true,
+        "final": true
+      }
+    },
+    {
+      "coupleId": 283,
+      "blockId": "C",
+      "pCuartos": 1,
+      "pSemi": 1,
+      "pFinal": 0.556,
+      "ciCuartos": [
+        0.701,
+        1
+      ],
+      "ciSemi": [
+        0.701,
+        1
+      ],
+      "ciFinal": [
+        0.267,
+        0.811
+      ],
+      "cohortN": 9,
+      "decile": 8,
+      "standingKind": "block",
+      "percentile": 0.867,
+      "spread": 0.8,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 80–90% · spread 0.80 · high-spread",
+      "realized": {
+        "cuartos": true,
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 167,
+      "blockId": "C",
+      "pCuartos": 1,
+      "pSemi": 0.667,
+      "pFinal": 0.333,
+      "ciCuartos": [
+        0.701,
+        1
+      ],
+      "ciSemi": [
+        0.354,
+        0.879
+      ],
+      "ciFinal": [
+        0.121,
+        0.646
+      ],
+      "cohortN": 9,
+      "decile": 8,
+      "standingKind": "block",
+      "percentile": 0.844,
+      "spread": 0.25,
+      "spreadBand": "low",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 80–90% · spread 0.25 · low-spread",
+      "realized": {
+        "cuartos": true,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 609,
+      "blockId": "C",
+      "pCuartos": 1,
+      "pSemi": 1,
+      "pFinal": 0.556,
+      "ciCuartos": [
+        0.701,
+        1
+      ],
+      "ciSemi": [
+        0.701,
+        1
+      ],
+      "ciFinal": [
+        0.267,
+        0.811
+      ],
+      "cohortN": 9,
+      "decile": 8,
+      "standingKind": "block",
+      "percentile": 0.822,
+      "spread": 0.7,
+      "spreadBand": "high",
+      "prior": {
+        "match": "samePair",
+        "year": 2024,
+        "best": "final"
+      },
+      "why": "Block 80–90% · spread 0.70 · high-spread · same pair was 2024 finalist",
+      "realized": {
+        "cuartos": true,
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 762,
+      "blockId": "C",
+      "pCuartos": 1,
+      "pSemi": 1,
+      "pFinal": 0.556,
+      "ciCuartos": [
+        0.701,
+        1
+      ],
+      "ciSemi": [
+        0.701,
+        1
+      ],
+      "ciFinal": [
+        0.267,
+        0.811
+      ],
+      "cohortN": 9,
+      "decile": 8,
+      "standingKind": "block",
+      "percentile": 0.8,
+      "spread": 0.99,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 80–90% · spread 0.99 · high-spread",
+      "realized": {
+        "cuartos": true,
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 20,
+      "blockId": "C",
+      "pCuartos": 1,
+      "pSemi": 0.643,
+      "pFinal": 0.071,
+      "ciCuartos": [
+        0.785,
+        1
+      ],
+      "ciSemi": [
+        0.388,
+        0.837
+      ],
+      "ciFinal": [
+        0.013,
+        0.315
+      ],
+      "cohortN": 14,
+      "decile": 7,
+      "standingKind": "block",
+      "percentile": 0.778,
+      "spread": 0.68,
+      "spreadBand": null,
+      "prior": {
+        "match": "onePartner",
+        "year": 2024,
+        "best": "semifinal"
+      },
+      "why": "Block 70–80% · spread 0.68 · one partner was 2024 semi",
+      "realized": {
+        "cuartos": true,
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 494,
+      "blockId": "C",
+      "pCuartos": 1,
+      "pSemi": 0.643,
+      "pFinal": 0.071,
+      "ciCuartos": [
+        0.785,
+        1
+      ],
+      "ciSemi": [
+        0.388,
+        0.837
+      ],
+      "ciFinal": [
+        0.013,
+        0.315
+      ],
+      "cohortN": 14,
+      "decile": 7,
+      "standingKind": "block",
+      "percentile": 0.756,
+      "spread": 0.7,
+      "spreadBand": null,
+      "prior": {
+        "match": "onePartner",
+        "year": 2024,
+        "best": "semifinal"
+      },
+      "why": "Block 70–80% · spread 0.70 · one partner was 2024 semi",
+      "realized": {
+        "cuartos": true,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 424,
+      "blockId": "C",
+      "pCuartos": 1,
+      "pSemi": 0.643,
+      "pFinal": 0.071,
+      "ciCuartos": [
+        0.785,
+        1
+      ],
+      "ciSemi": [
+        0.388,
+        0.837
+      ],
+      "ciFinal": [
+        0.013,
+        0.315
+      ],
+      "cohortN": 14,
+      "decile": 7,
+      "standingKind": "block",
+      "percentile": 0.756,
+      "spread": 0.58,
+      "spreadBand": null,
+      "prior": {
+        "match": "samePair",
+        "year": 2024,
+        "best": "clasificatoria"
+      },
+      "why": "Block 70–80% · spread 0.58 · same pair was 2024 clasificatoria only",
+      "realized": {
+        "cuartos": true,
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 47,
+      "blockId": "C",
+      "pCuartos": 1,
+      "pSemi": 0.643,
+      "pFinal": 0.071,
+      "ciCuartos": [
+        0.785,
+        1
+      ],
+      "ciSemi": [
+        0.388,
+        0.837
+      ],
+      "ciFinal": [
+        0.013,
+        0.315
+      ],
+      "cohortN": 14,
+      "decile": 7,
+      "standingKind": "block",
+      "percentile": 0.711,
+      "spread": 1.12,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 70–80% · spread 1.12",
+      "realized": {
+        "cuartos": true,
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 397,
+      "blockId": "C",
+      "pCuartos": 1,
+      "pSemi": 0.444,
+      "pFinal": 0.111,
+      "ciCuartos": [
+        0.701,
+        1
+      ],
+      "ciSemi": [
+        0.189,
+        0.733
+      ],
+      "ciFinal": [
+        0.02,
+        0.435
+      ],
+      "cohortN": 9,
+      "decile": 6,
+      "standingKind": "block",
+      "percentile": 0.689,
+      "spread": 0.63,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 60–70% · spread 0.63 · high-spread",
+      "realized": {
+        "cuartos": true,
+        "semifinal": true,
+        "final": true
+      }
+    },
+    {
+      "coupleId": 613,
+      "blockId": "C",
+      "pCuartos": 1,
+      "pSemi": 0.444,
+      "pFinal": 0.111,
+      "ciCuartos": [
+        0.701,
+        1
+      ],
+      "ciSemi": [
+        0.189,
+        0.733
+      ],
+      "ciFinal": [
+        0.02,
+        0.435
+      ],
+      "cohortN": 9,
+      "decile": 6,
+      "standingKind": "block",
+      "percentile": 0.689,
+      "spread": 0.88,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 60–70% · spread 0.88 · high-spread",
+      "realized": {
+        "cuartos": true,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 262,
+      "blockId": "C",
+      "pCuartos": 1,
+      "pSemi": 0.444,
+      "pFinal": 0.111,
+      "ciCuartos": [
+        0.701,
+        1
+      ],
+      "ciSemi": [
+        0.189,
+        0.733
+      ],
+      "ciFinal": [
+        0.02,
+        0.435
+      ],
+      "cohortN": 9,
+      "decile": 6,
+      "standingKind": "block",
+      "percentile": 0.644,
+      "spread": 0.6,
+      "spreadBand": "high",
+      "prior": {
+        "match": "onePartner",
+        "year": 2024,
+        "best": "final"
+      },
+      "why": "Block 60–70% · spread 0.60 · high-spread · one partner was 2024 finalist",
+      "realized": {
+        "cuartos": true,
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 284,
+      "blockId": "C",
+      "pCuartos": 1,
+      "pSemi": 0.444,
+      "pFinal": 0.111,
+      "ciCuartos": [
+        0.701,
+        1
+      ],
+      "ciSemi": [
+        0.189,
+        0.733
+      ],
+      "ciFinal": [
+        0.02,
+        0.435
+      ],
+      "cohortN": 9,
+      "decile": 6,
+      "standingKind": "block",
+      "percentile": 0.622,
+      "spread": 0.6,
+      "spreadBand": "high",
+      "prior": {
+        "match": "onePartner",
+        "year": 2024,
+        "best": "semifinal"
+      },
+      "why": "Block 60–70% · spread 0.60 · high-spread · one partner was 2024 semi",
+      "realized": {
+        "cuartos": true,
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 124,
+      "blockId": "C",
+      "pCuartos": 1,
+      "pSemi": 0.444,
+      "pFinal": 0.111,
+      "ciCuartos": [
+        0.701,
+        1
+      ],
+      "ciSemi": [
+        0.189,
+        0.733
+      ],
+      "ciFinal": [
+        0.02,
+        0.435
+      ],
+      "cohortN": 9,
+      "decile": 6,
+      "standingKind": "block",
+      "percentile": 0.6,
+      "spread": 0.77,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 60–70% · spread 0.77 · high-spread",
+      "realized": {
+        "cuartos": true,
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 342,
+      "blockId": "C",
+      "pCuartos": 1,
+      "pSemi": 0.125,
+      "pFinal": 0,
+      "ciCuartos": [
+        0.676,
+        1
+      ],
+      "ciSemi": [
+        0.022,
+        0.471
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 5,
+      "standingKind": "block",
+      "percentile": 0.578,
+      "spread": 0.8,
+      "spreadBand": "high",
+      "prior": {
+        "match": "onePartner",
+        "year": 2024,
+        "best": "clasificatoria"
+      },
+      "why": "Block 50–60% · spread 0.80 · high-spread · one partner was 2024 clasificatoria only",
+      "realized": {
+        "cuartos": true,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 277,
+      "blockId": "C",
+      "pCuartos": 1,
+      "pSemi": 0.125,
+      "pFinal": 0,
+      "ciCuartos": [
+        0.676,
+        1
+      ],
+      "ciSemi": [
+        0.022,
+        0.471
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 5,
+      "standingKind": "block",
+      "percentile": 0.556,
+      "spread": 0.65,
+      "spreadBand": "high",
+      "prior": {
+        "match": "onePartner",
+        "year": 2024,
+        "best": "clasificatoria"
+      },
+      "why": "Block 50–60% · spread 0.65 · high-spread · one partner was 2024 clasificatoria only",
+      "realized": {
+        "cuartos": true,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 188,
+      "blockId": "C",
+      "pCuartos": 1,
+      "pSemi": 0.125,
+      "pFinal": 0,
+      "ciCuartos": [
+        0.676,
+        1
+      ],
+      "ciSemi": [
+        0.022,
+        0.471
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 5,
+      "standingKind": "block",
+      "percentile": 0.533,
+      "spread": 0.52,
+      "spreadBand": "low",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 50–60% · spread 0.52 · low-spread",
+      "realized": {
+        "cuartos": true,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 531,
+      "blockId": "C",
+      "pCuartos": 1,
+      "pSemi": 0.125,
+      "pFinal": 0,
+      "ciCuartos": [
+        0.676,
+        1
+      ],
+      "ciSemi": [
+        0.022,
+        0.471
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 5,
+      "standingKind": "block",
+      "percentile": 0.511,
+      "spread": 0.75,
+      "spreadBand": "high",
+      "prior": {
+        "match": "samePair",
+        "year": 2024,
+        "best": "semifinal"
+      },
+      "why": "Block 50–60% · spread 0.75 · high-spread · same pair was 2024 semi",
+      "realized": {
+        "cuartos": true,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 504,
+      "blockId": "C",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.204
+      ],
+      "ciSemi": [
+        0,
+        0.204
+      ],
+      "ciFinal": [
+        0,
+        0.204
+      ],
+      "cohortN": 15,
+      "decile": 4,
+      "standingKind": "block",
+      "percentile": 0.489,
+      "spread": 0.65,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 40–50% · spread 0.65",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 604,
+      "blockId": "C",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.299
+      ],
+      "ciSemi": [
+        0,
+        0.299
+      ],
+      "ciFinal": [
+        0,
+        0.299
+      ],
+      "cohortN": 9,
+      "decile": 4,
+      "standingKind": "block",
+      "percentile": 0.467,
+      "spread": 0.8,
+      "spreadBand": "high",
+      "prior": {
+        "match": "samePair",
+        "year": 2024,
+        "best": "clasificatoria"
+      },
+      "why": "Block 40–50% · spread 0.80 · high-spread · same pair was 2024 clasificatoria only",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 469,
+      "blockId": "C",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.204
+      ],
+      "ciSemi": [
+        0,
+        0.204
+      ],
+      "ciFinal": [
+        0,
+        0.204
+      ],
+      "cohortN": 15,
+      "decile": 4,
+      "standingKind": "block",
+      "percentile": 0.444,
+      "spread": 0.66,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 40–50% · spread 0.66",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 446,
+      "blockId": "C",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.299
+      ],
+      "ciSemi": [
+        0,
+        0.299
+      ],
+      "ciFinal": [
+        0,
+        0.299
+      ],
+      "cohortN": 9,
+      "decile": 4,
+      "standingKind": "block",
+      "percentile": 0.422,
+      "spread": 0.78,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 40–50% · spread 0.78 · high-spread",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 288,
+      "blockId": "C",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.299
+      ],
+      "ciSemi": [
+        0,
+        0.299
+      ],
+      "ciFinal": [
+        0,
+        0.299
+      ],
+      "cohortN": 9,
+      "decile": 4,
+      "standingKind": "block",
+      "percentile": 0.4,
+      "spread": 0.75,
+      "spreadBand": "high",
+      "prior": {
+        "match": "samePair",
+        "year": 2024,
+        "best": "clasificatoria"
+      },
+      "why": "Block 40–50% · spread 0.75 · high-spread · same pair was 2024 clasificatoria only",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 427,
+      "blockId": "C",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.324
+      ],
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 3,
+      "standingKind": "block",
+      "percentile": 0.378,
+      "spread": 0.48,
+      "spreadBand": "low",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 30–40% · spread 0.48 · low-spread",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 448,
+      "blockId": "C",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.324
+      ],
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 3,
+      "standingKind": "block",
+      "percentile": 0.356,
+      "spread": 0.73,
+      "spreadBand": "high",
+      "prior": {
+        "match": "onePartner",
+        "year": 2024,
+        "best": "clasificatoria"
+      },
+      "why": "Block 30–40% · spread 0.73 · high-spread · one partner was 2024 clasificatoria only",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 554,
+      "blockId": "C",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.324
+      ],
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 3,
+      "standingKind": "block",
+      "percentile": 0.333,
+      "spread": 0.5,
+      "spreadBand": "low",
+      "prior": {
+        "match": "samePair",
+        "year": 2024,
+        "best": "clasificatoria"
+      },
+      "why": "Block 30–40% · spread 0.50 · low-spread · same pair was 2024 clasificatoria only",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 668,
+      "blockId": "C",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.324
+      ],
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 3,
+      "standingKind": "block",
+      "percentile": 0.311,
+      "spread": 0.66,
+      "spreadBand": "high",
+      "prior": {
+        "match": "onePartner",
+        "year": 2024,
+        "best": "clasificatoria"
+      },
+      "why": "Block 30–40% · spread 0.66 · high-spread · one partner was 2024 clasificatoria only",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 502,
+      "blockId": "C",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.215
+      ],
+      "ciSemi": [
+        0,
+        0.215
+      ],
+      "ciFinal": [
+        0,
+        0.215
+      ],
+      "cohortN": 14,
+      "decile": 2,
+      "standingKind": "block",
+      "percentile": 0.289,
+      "spread": 0.55,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 20–30% · spread 0.55",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 571,
+      "blockId": "C",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.215
+      ],
+      "ciSemi": [
+        0,
+        0.215
+      ],
+      "ciFinal": [
+        0,
+        0.215
+      ],
+      "cohortN": 14,
+      "decile": 2,
+      "standingKind": "block",
+      "percentile": 0.267,
+      "spread": 0.9,
+      "spreadBand": null,
+      "prior": {
+        "match": "onePartner",
+        "year": 2024,
+        "best": "clasificatoria"
+      },
+      "why": "Block 20–30% · spread 0.90 · one partner was 2024 clasificatoria only",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 715,
+      "blockId": "C",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.215
+      ],
+      "ciSemi": [
+        0,
+        0.215
+      ],
+      "ciFinal": [
+        0,
+        0.215
+      ],
+      "cohortN": 14,
+      "decile": 2,
+      "standingKind": "block",
+      "percentile": 0.244,
+      "spread": 0.58,
+      "spreadBand": null,
+      "prior": {
+        "match": "onePartner",
+        "year": 2024,
+        "best": "clasificatoria"
+      },
+      "why": "Block 20–30% · spread 0.58 · one partner was 2024 clasificatoria only",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 516,
+      "blockId": "C",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.215
+      ],
+      "ciSemi": [
+        0,
+        0.215
+      ],
+      "ciFinal": [
+        0,
+        0.215
+      ],
+      "cohortN": 14,
+      "decile": 2,
+      "standingKind": "block",
+      "percentile": 0.222,
+      "spread": 0.65,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 20–30% · spread 0.65",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 187,
+      "blockId": "C",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.184
+      ],
+      "ciSemi": [
+        0,
+        0.184
+      ],
+      "ciFinal": [
+        0,
+        0.184
+      ],
+      "cohortN": 17,
+      "decile": 1,
+      "standingKind": "block",
+      "percentile": 0.2,
+      "spread": 0.67,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 10–20% · spread 0.67",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 416,
+      "blockId": "C",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.184
+      ],
+      "ciSemi": [
+        0,
+        0.184
+      ],
+      "ciFinal": [
+        0,
+        0.184
+      ],
+      "cohortN": 17,
+      "decile": 1,
+      "standingKind": "block",
+      "percentile": 0.178,
+      "spread": 0.75,
+      "spreadBand": null,
+      "prior": {
+        "match": "onePartner",
+        "year": 2024,
+        "best": "semifinal"
+      },
+      "why": "Block 10–20% · spread 0.75 · one partner was 2024 semi",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 324,
+      "blockId": "C",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.259
+      ],
+      "ciSemi": [
+        0,
+        0.259
+      ],
+      "ciFinal": [
+        0,
+        0.259
+      ],
+      "cohortN": 11,
+      "decile": 1,
+      "standingKind": "block",
+      "percentile": 0.156,
+      "spread": 1.3,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 10–20% · spread 1.30 · high-spread",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 495,
+      "blockId": "C",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.259
+      ],
+      "ciSemi": [
+        0,
+        0.259
+      ],
+      "ciFinal": [
+        0,
+        0.259
+      ],
+      "cohortN": 11,
+      "decile": 1,
+      "standingKind": "block",
+      "percentile": 0.133,
+      "spread": 0.8,
+      "spreadBand": "high",
+      "prior": {
+        "match": "samePair",
+        "year": 2024,
+        "best": "clasificatoria"
+      },
+      "why": "Block 10–20% · spread 0.80 · high-spread · same pair was 2024 clasificatoria only",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 382,
+      "blockId": "C",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.259
+      ],
+      "ciSemi": [
+        0,
+        0.259
+      ],
+      "ciFinal": [
+        0,
+        0.259
+      ],
+      "cohortN": 11,
+      "decile": 1,
+      "standingKind": "block",
+      "percentile": 0.111,
+      "spread": 1.25,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 10–20% · spread 1.25 · high-spread",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 392,
+      "blockId": "C",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.324
+      ],
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 0,
+      "standingKind": "block",
+      "percentile": 0.089,
+      "spread": 0.81,
+      "spreadBand": "low",
+      "prior": {
+        "match": "samePair",
+        "year": 2024,
+        "best": "clasificatoria"
+      },
+      "why": "Block bottom 10% · spread 0.81 · low-spread · same pair was 2024 clasificatoria only",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 294,
+      "blockId": "C",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.278
+      ],
+      "ciSemi": [
+        0,
+        0.278
+      ],
+      "ciFinal": [
+        0,
+        0.278
+      ],
+      "cohortN": 10,
+      "decile": 0,
+      "standingKind": "block",
+      "percentile": 0.067,
+      "spread": 1.43,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block bottom 10% · spread 1.43 · high-spread",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 603,
+      "blockId": "C",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.278
+      ],
+      "ciSemi": [
+        0,
+        0.278
+      ],
+      "ciFinal": [
+        0,
+        0.278
+      ],
+      "cohortN": 10,
+      "decile": 0,
+      "standingKind": "block",
+      "percentile": 0.044,
+      "spread": 1.5,
+      "spreadBand": "high",
+      "prior": {
+        "match": "onePartner",
+        "year": 2024,
+        "best": "clasificatoria"
+      },
+      "why": "Block bottom 10% · spread 1.50 · high-spread · one partner was 2024 clasificatoria only",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 601,
+      "blockId": "C",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.278
+      ],
+      "ciSemi": [
+        0,
+        0.278
+      ],
+      "ciFinal": [
+        0,
+        0.278
+      ],
+      "cohortN": 10,
+      "decile": 0,
+      "standingKind": "block",
+      "percentile": 0.022,
+      "spread": 1.38,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block bottom 10% · spread 1.38 · high-spread",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 191,
+      "blockId": "C",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.324
+      ],
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 0,
+      "standingKind": "block",
+      "percentile": 0,
+      "spread": 0.8,
+      "spreadBand": "low",
+      "prior": {
+        "match": "samePair",
+        "year": 2024,
+        "best": "clasificatoria"
+      },
+      "why": "Block bottom 10% · spread 0.80 · low-spread · same pair was 2024 clasificatoria only",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 528,
+      "blockId": "D",
+      "pCuartos": 1,
+      "pSemi": 0.889,
+      "pFinal": 0.444,
+      "ciCuartos": [
+        0.701,
+        1
+      ],
+      "ciSemi": [
+        0.565,
+        0.98
+      ],
+      "ciFinal": [
+        0.189,
+        0.733
+      ],
+      "cohortN": 9,
+      "decile": 9,
+      "standingKind": "block",
+      "percentile": 1,
+      "spread": 0.1,
+      "spreadBand": "low",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block top 10% · spread 0.10 · low-spread",
+      "realized": {
+        "cuartos": true,
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 119,
+      "blockId": "D",
+      "pCuartos": 1,
+      "pSemi": 0.667,
+      "pFinal": 0.444,
+      "ciCuartos": [
+        0.701,
+        1
+      ],
+      "ciSemi": [
+        0.354,
+        0.879
+      ],
+      "ciFinal": [
+        0.189,
+        0.733
+      ],
+      "cohortN": 9,
+      "decile": 9,
+      "standingKind": "block",
+      "percentile": 0.974,
+      "spread": 0.37,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block top 10% · spread 0.37 · high-spread",
+      "realized": {
+        "cuartos": true,
+        "semifinal": true,
+        "final": true
+      }
+    },
+    {
+      "coupleId": 394,
+      "blockId": "D",
+      "pCuartos": 1,
+      "pSemi": 0.889,
+      "pFinal": 0.444,
+      "ciCuartos": [
+        0.701,
+        1
+      ],
+      "ciSemi": [
+        0.565,
+        0.98
+      ],
+      "ciFinal": [
+        0.189,
+        0.733
+      ],
+      "cohortN": 9,
+      "decile": 9,
+      "standingKind": "block",
+      "percentile": 0.947,
+      "spread": 0.23,
+      "spreadBand": "low",
+      "prior": {
+        "match": "samePair",
+        "year": 2024,
+        "best": "final"
+      },
+      "why": "Block top 10% · spread 0.23 · low-spread · same pair was 2024 finalist",
+      "realized": {
+        "cuartos": true,
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 783,
+      "blockId": "D",
+      "pCuartos": 1,
+      "pSemi": 0.667,
+      "pFinal": 0.444,
+      "ciCuartos": [
+        0.701,
+        1
+      ],
+      "ciSemi": [
+        0.354,
+        0.879
+      ],
+      "ciFinal": [
+        0.189,
+        0.733
+      ],
+      "cohortN": 9,
+      "decile": 9,
+      "standingKind": "block",
+      "percentile": 0.921,
+      "spread": 0.57,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block top 10% · spread 0.57 · high-spread",
+      "realized": {
+        "cuartos": true,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 559,
+      "blockId": "D",
+      "pCuartos": 1,
+      "pSemi": 0.667,
+      "pFinal": 0.333,
+      "ciCuartos": [
+        0.701,
+        1
+      ],
+      "ciSemi": [
+        0.354,
+        0.879
+      ],
+      "ciFinal": [
+        0.121,
+        0.646
+      ],
+      "cohortN": 9,
+      "decile": 8,
+      "standingKind": "block",
+      "percentile": 0.895,
+      "spread": 0.42,
+      "spreadBand": "low",
+      "prior": {
+        "match": "onePartner",
+        "year": 2024,
+        "best": "clasificatoria"
+      },
+      "why": "Block 80–90% · spread 0.42 · low-spread · one partner was 2024 clasificatoria only",
+      "realized": {
+        "cuartos": true,
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 505,
+      "blockId": "D",
+      "pCuartos": 1,
+      "pSemi": 0.667,
+      "pFinal": 0.333,
+      "ciCuartos": [
+        0.701,
+        1
+      ],
+      "ciSemi": [
+        0.354,
+        0.879
+      ],
+      "ciFinal": [
+        0.121,
+        0.646
+      ],
+      "cohortN": 9,
+      "decile": 8,
+      "standingKind": "block",
+      "percentile": 0.868,
+      "spread": 0.43,
+      "spreadBand": "low",
+      "prior": {
+        "match": "onePartner",
+        "year": 2024,
+        "best": "semifinal"
+      },
+      "why": "Block 80–90% · spread 0.43 · low-spread · one partner was 2024 semi",
+      "realized": {
+        "cuartos": true,
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 628,
+      "blockId": "D",
+      "pCuartos": 1,
+      "pSemi": 0.667,
+      "pFinal": 0.333,
+      "ciCuartos": [
+        0.701,
+        1
+      ],
+      "ciSemi": [
+        0.354,
+        0.879
+      ],
+      "ciFinal": [
+        0.121,
+        0.646
+      ],
+      "cohortN": 9,
+      "decile": 8,
+      "standingKind": "block",
+      "percentile": 0.842,
+      "spread": 0.5,
+      "spreadBand": "low",
+      "prior": {
+        "match": "onePartner",
+        "year": 2024,
+        "best": "final"
+      },
+      "why": "Block 80–90% · spread 0.50 · low-spread · one partner was 2024 finalist",
+      "realized": {
+        "cuartos": true,
+        "semifinal": true,
+        "final": true
+      }
+    },
+    {
+      "coupleId": 444,
+      "blockId": "D",
+      "pCuartos": 1,
+      "pSemi": 1,
+      "pFinal": 0.556,
+      "ciCuartos": [
+        0.701,
+        1
+      ],
+      "ciSemi": [
+        0.701,
+        1
+      ],
+      "ciFinal": [
+        0.267,
+        0.811
+      ],
+      "cohortN": 9,
+      "decile": 8,
+      "standingKind": "block",
+      "percentile": 0.816,
+      "spread": 0.6,
+      "spreadBand": "high",
+      "prior": {
+        "match": "onePartner",
+        "year": 2024,
+        "best": "final"
+      },
+      "why": "Block 80–90% · spread 0.60 · high-spread · one partner was 2024 finalist",
+      "realized": {
+        "cuartos": true,
+        "semifinal": true,
+        "final": true
+      }
+    },
+    {
+      "coupleId": 488,
+      "blockId": "D",
+      "pCuartos": 1,
+      "pSemi": 0.643,
+      "pFinal": 0.071,
+      "ciCuartos": [
+        0.785,
+        1
+      ],
+      "ciSemi": [
+        0.388,
+        0.837
+      ],
+      "ciFinal": [
+        0.013,
+        0.315
+      ],
+      "cohortN": 14,
+      "decile": 7,
+      "standingKind": "block",
+      "percentile": 0.789,
+      "spread": 0.5,
+      "spreadBand": null,
+      "prior": {
+        "match": "onePartner",
+        "year": 2024,
+        "best": "semifinal"
+      },
+      "why": "Block 70–80% · spread 0.50 · one partner was 2024 semi",
+      "realized": {
+        "cuartos": true,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 253,
+      "blockId": "D",
+      "pCuartos": 1,
+      "pSemi": 0.643,
+      "pFinal": 0.071,
+      "ciCuartos": [
+        0.785,
+        1
+      ],
+      "ciSemi": [
+        0.388,
+        0.837
+      ],
+      "ciFinal": [
+        0.013,
+        0.315
+      ],
+      "cohortN": 14,
+      "decile": 7,
+      "standingKind": "block",
+      "percentile": 0.763,
+      "spread": 0.37,
+      "spreadBand": null,
+      "prior": {
+        "match": "samePair",
+        "year": 2024,
+        "best": "final"
+      },
+      "why": "Block 70–80% · spread 0.37 · same pair was 2024 finalist",
+      "realized": {
+        "cuartos": true,
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 166,
+      "blockId": "D",
+      "pCuartos": 1,
+      "pSemi": 0.643,
+      "pFinal": 0.071,
+      "ciCuartos": [
+        0.785,
+        1
+      ],
+      "ciSemi": [
+        0.388,
+        0.837
+      ],
+      "ciFinal": [
+        0.013,
+        0.315
+      ],
+      "cohortN": 14,
+      "decile": 7,
+      "standingKind": "block",
+      "percentile": 0.737,
+      "spread": 0.32,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 70–80% · spread 0.32",
+      "realized": {
+        "cuartos": true,
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 548,
+      "blockId": "D",
+      "pCuartos": 1,
+      "pSemi": 0.643,
+      "pFinal": 0.071,
+      "ciCuartos": [
+        0.785,
+        1
+      ],
+      "ciSemi": [
+        0.388,
+        0.837
+      ],
+      "ciFinal": [
+        0.013,
+        0.315
+      ],
+      "cohortN": 14,
+      "decile": 7,
+      "standingKind": "block",
+      "percentile": 0.711,
+      "spread": 0.53,
+      "spreadBand": null,
+      "prior": {
+        "match": "onePartner",
+        "year": 2024,
+        "best": "semifinal"
+      },
+      "why": "Block 70–80% · spread 0.53 · one partner was 2024 semi",
+      "realized": {
+        "cuartos": true,
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 480,
+      "blockId": "D",
+      "pCuartos": 1,
+      "pSemi": 0.375,
+      "pFinal": 0,
+      "ciCuartos": [
+        0.676,
+        1
+      ],
+      "ciSemi": [
+        0.137,
+        0.694
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 6,
+      "standingKind": "block",
+      "percentile": 0.684,
+      "spread": 0.48,
+      "spreadBand": "low",
+      "prior": {
+        "match": "samePair",
+        "year": 2024,
+        "best": "final"
+      },
+      "why": "Block 60–70% · spread 0.48 · low-spread · same pair was 2024 finalist",
+      "realized": {
+        "cuartos": true,
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 371,
+      "blockId": "D",
+      "pCuartos": 1,
+      "pSemi": 0.375,
+      "pFinal": 0,
+      "ciCuartos": [
+        0.676,
+        1
+      ],
+      "ciSemi": [
+        0.137,
+        0.694
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 6,
+      "standingKind": "block",
+      "percentile": 0.658,
+      "spread": 0.44,
+      "spreadBand": "low",
+      "prior": {
+        "match": "samePair",
+        "year": 2024,
+        "best": "semifinal"
+      },
+      "why": "Block 60–70% · spread 0.44 · low-spread · same pair was 2024 semi",
+      "realized": {
+        "cuartos": true,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 482,
+      "blockId": "D",
+      "pCuartos": 1,
+      "pSemi": 0.375,
+      "pFinal": 0,
+      "ciCuartos": [
+        0.676,
+        1
+      ],
+      "ciSemi": [
+        0.137,
+        0.694
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 6,
+      "standingKind": "block",
+      "percentile": 0.632,
+      "spread": 0.4,
+      "spreadBand": "low",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 60–70% · spread 0.40 · low-spread",
+      "realized": {
+        "cuartos": true,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 320,
+      "blockId": "D",
+      "pCuartos": 1,
+      "pSemi": 0.375,
+      "pFinal": 0,
+      "ciCuartos": [
+        0.676,
+        1
+      ],
+      "ciSemi": [
+        0.137,
+        0.694
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 6,
+      "standingKind": "block",
+      "percentile": 0.605,
+      "spread": 0.48,
+      "spreadBand": "low",
+      "prior": {
+        "match": "samePair",
+        "year": 2024,
+        "best": "clasificatoria"
+      },
+      "why": "Block 60–70% · spread 0.48 · low-spread · same pair was 2024 clasificatoria only",
+      "realized": {
+        "cuartos": true,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 686,
+      "blockId": "D",
+      "pCuartos": 1,
+      "pSemi": 0.125,
+      "pFinal": 0,
+      "ciCuartos": [
+        0.676,
+        1
+      ],
+      "ciSemi": [
+        0.022,
+        0.471
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 5,
+      "standingKind": "block",
+      "percentile": 0.579,
+      "spread": 0.72,
+      "spreadBand": "high",
+      "prior": {
+        "match": "onePartner",
+        "year": 2024,
+        "best": "semifinal"
+      },
+      "why": "Block 50–60% · spread 0.72 · high-spread · one partner was 2024 semi",
+      "realized": {
+        "cuartos": true,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 285,
+      "blockId": "D",
+      "pCuartos": 1,
+      "pSemi": 0.125,
+      "pFinal": 0,
+      "ciCuartos": [
+        0.676,
+        1
+      ],
+      "ciSemi": [
+        0.022,
+        0.471
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 5,
+      "standingKind": "block",
+      "percentile": 0.553,
+      "spread": 0.57,
+      "spreadBand": "low",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 50–60% · spread 0.57 · low-spread",
+      "realized": {
+        "cuartos": true,
+        "semifinal": true,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 373,
+      "blockId": "D",
+      "pCuartos": 1,
+      "pSemi": 0.125,
+      "pFinal": 0,
+      "ciCuartos": [
+        0.676,
+        1
+      ],
+      "ciSemi": [
+        0.022,
+        0.471
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 5,
+      "standingKind": "block",
+      "percentile": 0.526,
+      "spread": 0.65,
+      "spreadBand": "high",
+      "prior": {
+        "match": "samePair",
+        "year": 2024,
+        "best": "clasificatoria"
+      },
+      "why": "Block 50–60% · spread 0.65 · high-spread · same pair was 2024 clasificatoria only",
+      "realized": {
+        "cuartos": true,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 441,
+      "blockId": "D",
+      "pCuartos": 1,
+      "pSemi": 0.125,
+      "pFinal": 0,
+      "ciCuartos": [
+        0.676,
+        1
+      ],
+      "ciSemi": [
+        0.022,
+        0.471
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 5,
+      "standingKind": "block",
+      "percentile": 0.5,
+      "spread": 0.5,
+      "spreadBand": "low",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 50–60% · spread 0.50 · low-spread",
+      "realized": {
+        "cuartos": true,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 325,
+      "blockId": "D",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.299
+      ],
+      "ciSemi": [
+        0,
+        0.299
+      ],
+      "ciFinal": [
+        0,
+        0.299
+      ],
+      "cohortN": 9,
+      "decile": 4,
+      "standingKind": "block",
+      "percentile": 0.474,
+      "spread": 0.98,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 40–50% · spread 0.98 · high-spread",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 491,
+      "blockId": "D",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.204
+      ],
+      "ciSemi": [
+        0,
+        0.204
+      ],
+      "ciFinal": [
+        0,
+        0.204
+      ],
+      "cohortN": 15,
+      "decile": 4,
+      "standingKind": "block",
+      "percentile": 0.447,
+      "spread": 0.32,
+      "spreadBand": null,
+      "prior": {
+        "match": "samePair",
+        "year": 2024,
+        "best": "clasificatoria"
+      },
+      "why": "Block 40–50% · spread 0.32 · same pair was 2024 clasificatoria only",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 279,
+      "blockId": "D",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.204
+      ],
+      "ciSemi": [
+        0,
+        0.204
+      ],
+      "ciFinal": [
+        0,
+        0.204
+      ],
+      "cohortN": 15,
+      "decile": 4,
+      "standingKind": "block",
+      "percentile": 0.421,
+      "spread": 0.45,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 40–50% · spread 0.45",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 639,
+      "blockId": "D",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.324
+      ],
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 3,
+      "standingKind": "block",
+      "percentile": 0.395,
+      "spread": 0.37,
+      "spreadBand": "low",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 30–40% · spread 0.37 · low-spread",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 339,
+      "blockId": "D",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.324
+      ],
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 3,
+      "standingKind": "block",
+      "percentile": 0.368,
+      "spread": 0.35,
+      "spreadBand": "low",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 30–40% · spread 0.35 · low-spread",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 468,
+      "blockId": "D",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.324
+      ],
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 3,
+      "standingKind": "block",
+      "percentile": 0.342,
+      "spread": 0.29,
+      "spreadBand": "low",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 30–40% · spread 0.29 · low-spread",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 687,
+      "blockId": "D",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.324
+      ],
+      "ciSemi": [
+        0,
+        0.324
+      ],
+      "ciFinal": [
+        0,
+        0.324
+      ],
+      "cohortN": 8,
+      "decile": 3,
+      "standingKind": "block",
+      "percentile": 0.316,
+      "spread": 0.6,
+      "spreadBand": "low",
+      "prior": {
+        "match": "samePair",
+        "year": 2024,
+        "best": "clasificatoria"
+      },
+      "why": "Block 30–40% · spread 0.60 · low-spread · same pair was 2024 clasificatoria only",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 133,
+      "blockId": "D",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.215
+      ],
+      "ciSemi": [
+        0,
+        0.215
+      ],
+      "ciFinal": [
+        0,
+        0.215
+      ],
+      "cohortN": 14,
+      "decile": 2,
+      "standingKind": "block",
+      "percentile": 0.289,
+      "spread": 0.65,
+      "spreadBand": null,
+      "prior": {
+        "match": "onePartner",
+        "year": 2024,
+        "best": "clasificatoria"
+      },
+      "why": "Block 20–30% · spread 0.65 · one partner was 2024 clasificatoria only",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 138,
+      "blockId": "D",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.215
+      ],
+      "ciSemi": [
+        0,
+        0.215
+      ],
+      "ciFinal": [
+        0,
+        0.215
+      ],
+      "cohortN": 14,
+      "decile": 2,
+      "standingKind": "block",
+      "percentile": 0.263,
+      "spread": 1.3,
+      "spreadBand": null,
+      "prior": {
+        "match": "samePair",
+        "year": 2024,
+        "best": "clasificatoria"
+      },
+      "why": "Block 20–30% · spread 1.30 · same pair was 2024 clasificatoria only",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 595,
+      "blockId": "D",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.215
+      ],
+      "ciSemi": [
+        0,
+        0.215
+      ],
+      "ciFinal": [
+        0,
+        0.215
+      ],
+      "cohortN": 14,
+      "decile": 2,
+      "standingKind": "block",
+      "percentile": 0.237,
+      "spread": 0.77,
+      "spreadBand": null,
+      "prior": {
+        "match": "samePair",
+        "year": 2024,
+        "best": "clasificatoria"
+      },
+      "why": "Block 20–30% · spread 0.77 · same pair was 2024 clasificatoria only",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 637,
+      "blockId": "D",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.215
+      ],
+      "ciSemi": [
+        0,
+        0.215
+      ],
+      "ciFinal": [
+        0,
+        0.215
+      ],
+      "cohortN": 14,
+      "decile": 2,
+      "standingKind": "block",
+      "percentile": 0.211,
+      "spread": 0.82,
+      "spreadBand": null,
+      "prior": {
+        "match": "onePartner",
+        "year": 2024,
+        "best": "clasificatoria"
+      },
+      "why": "Block 20–30% · spread 0.82 · one partner was 2024 clasificatoria only",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 458,
+      "blockId": "D",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.259
+      ],
+      "ciSemi": [
+        0,
+        0.259
+      ],
+      "ciFinal": [
+        0,
+        0.259
+      ],
+      "cohortN": 11,
+      "decile": 1,
+      "standingKind": "block",
+      "percentile": 0.184,
+      "spread": 1,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 10–20% · spread 1.00 · high-spread",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 327,
+      "blockId": "D",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.259
+      ],
+      "ciSemi": [
+        0,
+        0.259
+      ],
+      "ciFinal": [
+        0,
+        0.259
+      ],
+      "cohortN": 11,
+      "decile": 1,
+      "standingKind": "block",
+      "percentile": 0.158,
+      "spread": 0.95,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 10–20% · spread 0.95 · high-spread",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 643,
+      "blockId": "D",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.184
+      ],
+      "ciSemi": [
+        0,
+        0.184
+      ],
+      "ciFinal": [
+        0,
+        0.184
+      ],
+      "cohortN": 17,
+      "decile": 1,
+      "standingKind": "block",
+      "percentile": 0.132,
+      "spread": 0.65,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 10–20% · spread 0.65",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 60,
+      "blockId": "D",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.184
+      ],
+      "ciSemi": [
+        0,
+        0.184
+      ],
+      "ciFinal": [
+        0,
+        0.184
+      ],
+      "cohortN": 17,
+      "decile": 1,
+      "standingKind": "block",
+      "percentile": 0.105,
+      "spread": 0.7,
+      "spreadBand": null,
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block 10–20% · spread 0.70",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 395,
+      "blockId": "D",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.278
+      ],
+      "ciSemi": [
+        0,
+        0.278
+      ],
+      "ciFinal": [
+        0,
+        0.278
+      ],
+      "cohortN": 10,
+      "decile": 0,
+      "standingKind": "block",
+      "percentile": 0.079,
+      "spread": 2.05,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block bottom 10% · spread 2.05 · high-spread",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 437,
+      "blockId": "D",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.278
+      ],
+      "ciSemi": [
+        0,
+        0.278
+      ],
+      "ciFinal": [
+        0,
+        0.278
+      ],
+      "cohortN": 10,
+      "decile": 0,
+      "standingKind": "block",
+      "percentile": 0.053,
+      "spread": 1.28,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block bottom 10% · spread 1.28 · high-spread",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 50,
+      "blockId": "D",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.278
+      ],
+      "ciSemi": [
+        0,
+        0.278
+      ],
+      "ciFinal": [
+        0,
+        0.278
+      ],
+      "cohortN": 10,
+      "decile": 0,
+      "standingKind": "block",
+      "percentile": 0.026,
+      "spread": 1.25,
+      "spreadBand": "high",
+      "prior": {
+        "match": "none"
+      },
+      "why": "Block bottom 10% · spread 1.25 · high-spread",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    },
+    {
+      "coupleId": 126,
+      "blockId": "D",
+      "pCuartos": 0,
+      "pSemi": 0,
+      "pFinal": 0,
+      "ciCuartos": [
+        0,
+        0.278
+      ],
+      "ciSemi": [
+        0,
+        0.278
+      ],
+      "ciFinal": [
+        0,
+        0.278
+      ],
+      "cohortN": 10,
+      "decile": 0,
+      "standingKind": "block",
+      "percentile": 0,
+      "spread": 1.25,
+      "spreadBand": "high",
+      "prior": {
+        "match": "onePartner",
+        "year": 2024,
+        "best": "clasificatoria"
+      },
+      "why": "Block bottom 10% · spread 1.25 · high-spread · one partner was 2024 clasificatoria only",
+      "realized": {
+        "cuartos": false,
+        "semifinal": false,
+        "final": false
+      }
+    }
+  ]
+}

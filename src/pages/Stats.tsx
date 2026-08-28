@@ -25,11 +25,11 @@ const GRID = "#30363d";
 const TEXT = "#8b949e";
 
 export function Stats() {
-  const { data, year } = useData();
+  const { data, year, category } = useData();
   const { t } = useI18n();
   const [block, setBlock] = useState<BlockId | "all">("all");
   const showBlocks = data ? hasDistinctBlocks(data) : false;
-  const base = yearPath(year);
+  const base = yearPath(year, "", category);
   const rows = useMemo(() => {
     if (!data) return [];
     return block === "all" ? data.rows : data.rows.filter((r) => r.blockId === block);

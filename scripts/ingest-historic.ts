@@ -1,11 +1,11 @@
 /**
- * One-shot local ingest for completed 2024 and 2025 Tango de Pista archives.
- * Reads PDFs already harvested under data/raw/pista/{year}/ — no network.
+ * One-shot local ingest for completed 2024 and 2025 archives.
+ * Reads PDFs already harvested under data/raw/{category}/{year}/ — no network.
  */
 import { readdir } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import type { Dataset, Stage } from "../src/types.ts";
+import type { Category, Dataset, Stage } from "../src/types.ts";
 import { parsePdfFile } from "./parse-pdf.ts";
 import { applyAdvancement } from "./qualify.ts";
 import {
@@ -20,7 +20,7 @@ import { attachOverallScores } from "./overall.ts";
 import { generateSurvival } from "./survival.ts";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
-const RAW_PISTA = join(ROOT, "data", "raw", "pista");
+const RAW_ROOT = join(ROOT, "data", "raw");
 const PROCESSED_DIR = join(ROOT, "data", "processed");
 const PUBLIC_DATA_DIR = join(ROOT, "public", "data");
 
@@ -31,7 +31,29 @@ interface StageFiles {
   files: string[];
 }
 
-const YEAR_STAGES: Record<HistoricYear, StageFiles[]> = {
+const PISTA_STAGES: Record<HistoricYear, StageFiles[]> = {
+  2025: [
+    {
+      stage: "clasificatoria",
+      files: [
+        "clasificatoria-A.pdf",
+        "clasificatoria-B.pdf",
+        "clasificatoria-C.pdf",
+        "clasificatoria-D.pdf",
+      ],
+    },
+    { stage: "cuartos", files: ["cuartos-A.pdf", "cuartos-B.pdf"] },
+    { stage: "semifinal", files: ["semifinal.pdf"] },
+    { stage: "final", files: ["final.pdf"] },
+  ],
+  2024: [
+    { stage: "clasificatoria", files: ["clasificatoria.pdf"] },
+    { stage: "semifinal", files: ["semifinal.pdf"] },
+    { stage: "final", files: ["final.pdf"] },
+  ],
+};
+
+const ESCENARIO_STAGES: Record<HistoricYear, StageFiles[]> = {
   2025: [
     {
       stage: "clasificatoria",
@@ -62,11 +84,15 @@ interface SourcesFile {
   >;
 }
 
-async function pdfUrlMap(year: HistoricYear): Promise<Map<string, string>> {
+async function pdfUrlMap(
+  year: HistoricYear,
+  category: Category,
+): Promise<Map<string, string>> {
   const map = new Map<string, string>();
+  const sourcesPath = join(RAW_ROOT, category, "sources.json");
   try {
     const raw = await import("node:fs/promises").then((fs) =>
-      fs.readFile(join(RAW_PISTA, "sources.json"), "utf8"),
+      fs.readFile(sourcesPath, "utf8"),
     );
     const sources = JSON.parse(raw) as SourcesFile;
     for (const pdf of sources.years?.[String(year)]?.pdfs ?? []) {
@@ -79,62 +105,91 @@ async function pdfUrlMap(year: HistoricYear): Promise<Map<string, string>> {
   return map;
 }
 
-async function ingestYear(year: HistoricYear): Promise<Dataset[]> {
-  const dir = join(RAW_PISTA, String(year));
-  const existing = new Set(
-    (await readdir(dir)).filter((n) => n.toLowerCase().endsWith(".pdf")),
-  );
-  const urls = await pdfUrlMap(year);
+async function ingestYear(
+  year: HistoricYear,
+  category: Category,
+): Promise<Dataset[]> {
+  const dir = join(RAW_ROOT, category, String(year));
+  const specs = category === "escenario" ? ESCENARIO_STAGES[year] : PISTA_STAGES[year];
+  let existing: Set<string>;
+  try {
+    existing = new Set(
+      (await readdir(dir)).filter((n) => n.toLowerCase().endsWith(".pdf")),
+    );
+  } catch {
+    console.warn(`[${category} ${year}] No raw dir ${dir} — skip year.`);
+    return [];
+  }
+  const urls = await pdfUrlMap(year, category);
   const datasets: Dataset[] = [];
 
-  console.log(`\n=== ${year} historic (local PDFs only) ===`);
+  console.log(`\n=== ${year} ${category} historic (local PDFs only) ===`);
 
-  for (const spec of YEAR_STAGES[year]) {
+  for (const spec of specs) {
     const parsed = [];
     for (const name of spec.files) {
       if (!existing.has(name)) {
-        console.warn(`[${year} ${spec.stage}] Missing ${name} — skip file.`);
+        console.warn(`[${year} ${category} ${spec.stage}] Missing ${name} — skip file.`);
         continue;
       }
       const block = await parsePdfFile(join(dir, name), {
         year,
         stage: spec.stage,
         scoring: "simple",
+        category,
         officialUrl: urls.get(name) ?? null,
       });
       console.log(
-        `[${year} ${spec.stage}] Block ${block.id}: ${block.couples.length} couples, ${block.judges.length} judges (${name})`,
+        `[${year} ${category} ${spec.stage}] Block ${block.id}: ${block.couples.length} couples, ${block.judges.length} judges (${name})`,
       );
       parsed.push(block);
     }
     if (!parsed.length) {
-      console.log(`[${year} ${spec.stage}] No PDFs — skipping stage.`);
+      console.log(`[${year} ${category} ${spec.stage}] No PDFs — skipping stage.`);
       continue;
     }
     const dataset = buildDataset(
       spec.stage,
-      sourcePageFor(year, spec.stage),
+      sourcePageFor(year, spec.stage, category),
       SOURCE_CATEGORY_PAGE,
       parsed,
       year,
       "simple",
+      category,
     );
     datasets.push(dataset);
   }
 
+  if (!datasets.length) return [];
+
   applyAdvancement(datasets);
   attachOverallScores(datasets);
-  await writeYearOutputs(PROCESSED_DIR, PUBLIC_DATA_DIR, year, "simple", datasets, false);
+  await writeYearOutputs(
+    PROCESSED_DIR,
+    PUBLIC_DATA_DIR,
+    year,
+    "simple",
+    datasets,
+    false,
+    category,
+  );
   await mergeCatalog(
     PUBLIC_DATA_DIR,
-    catalogEntryFrom(year, "archive", "simple", true, datasets),
+    catalogEntryFrom(
+      year,
+      "archive",
+      "simple",
+      true,
+      datasets,
+      category,
+    ),
   );
 
   for (const d of datasets) {
     const inCount = d.rows.filter((r) => r.classified).length;
     const mismatches = d.mismatches.length;
     console.log(
-      `[${year} ${d.stage}] ${d.rows.length} couples · ${inCount} qualified · ${d.blocks.length} block(s) · ${mismatches} avg mismatch(es)`,
+      `[${year} ${category} ${d.stage}] ${d.rows.length} couples · ${inCount} qualified · ${d.blocks.length} block(s) · ${mismatches} avg mismatch(es)`,
     );
   }
   return datasets;
@@ -143,9 +198,19 @@ async function ingestYear(year: HistoricYear): Promise<Dataset[]> {
 async function main(): Promise<void> {
   const years: HistoricYear[] = [2025, 2024];
   for (const year of years) {
-    await ingestYear(year);
+    await ingestYear(year, "pista");
+    await ingestYear(year, "escenario");
   }
-  await generateSurvival();
+  try {
+    await generateSurvival("pista");
+  } catch (err) {
+    console.warn("Pista survival odds not updated:", err);
+  }
+  try {
+    await generateSurvival("escenario");
+  } catch (err) {
+    console.warn("Escenario survival odds not updated:", err);
+  }
   console.log("\nHistoric ingest complete (no remote fetch).");
 }
 

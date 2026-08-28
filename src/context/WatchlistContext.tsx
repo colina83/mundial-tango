@@ -6,48 +6,79 @@ import {
   useState,
   type ReactNode,
 } from "react";
-import type { BlockId } from "../types";
+import type { BlockId, Category } from "../types";
 
-const STORAGE_KEY = "mundial-tango.watchlist.v2";
-const LEGACY_KEY = "mundial-tango.watchlist.v1";
+const STORAGE_KEY = "mundial-tango.watchlist.v3";
+const LEGACY_V2 = "mundial-tango.watchlist.v2";
+const LEGACY_V1 = "mundial-tango.watchlist.v1";
 
-export type Pin = { coupleId: number; blockId: BlockId; year: number };
+export type Pin = {
+  coupleId: number;
+  blockId: BlockId;
+  year: number;
+  category: Category;
+};
 
 type WatchValue = {
   pins: Pin[];
-  isPinned: (coupleId: number, blockId: BlockId, year: number) => boolean;
-  toggle: (coupleId: number, blockId: BlockId, year: number) => void;
+  isPinned: (
+    coupleId: number,
+    blockId: BlockId,
+    year: number,
+    category?: Category,
+  ) => boolean;
+  toggle: (
+    coupleId: number,
+    blockId: BlockId,
+    year: number,
+    category?: Category,
+  ) => void;
 };
 
 const WatchContext = createContext<WatchValue | null>(null);
 
+function withCategory(p: Partial<Pin> & { coupleId: number; blockId: BlockId }): Pin {
+  return {
+    coupleId: p.coupleId,
+    blockId: p.blockId,
+    year: typeof p.year === "number" ? p.year : 2026,
+    category: p.category === "escenario" ? "escenario" : "pista",
+  };
+}
+
 function readPins(): Pin[] {
   try {
-    const raw = localStorage.getItem(STORAGE_KEY);
+    const raw = localStorage.getItem(STORAGE_KEY) ?? localStorage.getItem(LEGACY_V2);
     if (raw) {
-      const parsed = JSON.parse(raw) as Pin[];
+      const parsed = JSON.parse(raw) as Partial<Pin>[];
       if (!Array.isArray(parsed)) return [];
-      return parsed.filter(
-        (p) =>
-          typeof p?.coupleId === "number" &&
-          typeof p?.blockId === "string" &&
-          typeof p?.year === "number",
-      );
+      return parsed
+        .filter(
+          (p) =>
+            typeof p?.coupleId === "number" &&
+            typeof p?.blockId === "string",
+        )
+        .map((p) => withCategory(p as Pin));
     }
-    const legacy = localStorage.getItem(LEGACY_KEY);
+    const legacy = localStorage.getItem(LEGACY_V1);
     if (!legacy) return [];
     const parsed = JSON.parse(legacy) as { coupleId: number; blockId: BlockId }[];
     if (!Array.isArray(parsed)) return [];
     return parsed
       .filter((p) => typeof p?.coupleId === "number" && typeof p?.blockId === "string")
-      .map((p) => ({ ...p, year: 2026 }));
+      .map((p) => withCategory({ ...p, year: 2026, category: "pista" }));
   } catch {
     return [];
   }
 }
 
-function pinKey(coupleId: number, blockId: BlockId, year: number): string {
-  return `${year}-${blockId}-${coupleId}`;
+function pinKey(
+  coupleId: number,
+  blockId: BlockId,
+  year: number,
+  category: Category,
+): string {
+  return `${year}-${category}-${blockId}-${coupleId}`;
 }
 
 export function WatchlistProvider({ children }: { children: ReactNode }) {
@@ -65,19 +96,23 @@ export function WatchlistProvider({ children }: { children: ReactNode }) {
   const value = useMemo<WatchValue>(
     () => ({
       pins,
-      isPinned: (coupleId, blockId, year) =>
+      isPinned: (coupleId, blockId, year, category = "pista") =>
         pins.some(
-          (p) => pinKey(p.coupleId, p.blockId, p.year) === pinKey(coupleId, blockId, year),
+          (p) =>
+            pinKey(p.coupleId, p.blockId, p.year, p.category) ===
+            pinKey(coupleId, blockId, year, category),
         ),
-      toggle: (coupleId, blockId, year) => {
-        const key = pinKey(coupleId, blockId, year);
+      toggle: (coupleId, blockId, year, category = "pista") => {
+        const key = pinKey(coupleId, blockId, year, category);
         const exists = pins.some(
-          (p) => pinKey(p.coupleId, p.blockId, p.year) === key,
+          (p) => pinKey(p.coupleId, p.blockId, p.year, p.category) === key,
         );
         persist(
           exists
-            ? pins.filter((p) => pinKey(p.coupleId, p.blockId, p.year) !== key)
-            : [{ coupleId, blockId, year }, ...pins],
+            ? pins.filter(
+                (p) => pinKey(p.coupleId, p.blockId, p.year, p.category) !== key,
+              )
+            : [{ coupleId, blockId, year, category }, ...pins],
         );
       },
     }),

@@ -1,0 +1,3905 @@
+{
+  "generatedAt": "2026-08-27T18:59:37.110Z",
+  "year": 2024,
+  "stage": "semifinal",
+  "category": "escenario",
+  "scoring": "simple",
+  "sourcePage": "https://tangoba.org/resultados-semifinal-tango-escenario/",
+  "sourceCategoryPage": "https://tangoba.org/category/resultados/",
+  "sourceLabel": "Tango BA",
+  "disclaimer": "Compañero extraoficial de fans. No afiliado a Tango BA ni al Mundial de Baile. Fuente: Tango BA.",
+  "blocks": [
+    {
+      "id": "_",
+      "date": "2024-08-24",
+      "dateLabel": "24 de agosto",
+      "judges": [
+        "Leando Oliver",
+        "Johana Copes",
+        "Sandra Bootz",
+        "Sebastian Ripoll",
+        "German Cornejo",
+        "Lorena Goldestein"
+      ],
+      "sourcePdf": {
+        "filename": "semifinal.pdf",
+        "url": "https://tangoba.org/wp-content/uploads/2024/08/Ranking-semifinal-ESCENARIO.pdf",
+        "sha256": "b05a4d62f6bb3063773c4c2bcc92cdc8cfb257632977c24bb4608fbf0079e679"
+      },
+      "cutoff": 8.25,
+      "classifiedCount": 18,
+      "coupleCount": 61
+    }
+  ],
+  "rows": [
+    {
+      "coupleId": 395,
+      "round": "—",
+      "dancer1": "Sebastián Martinez",
+      "dancer2": "Ayelen Morando",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 8.9,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 8,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 9,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 9,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 8.66,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 8.5,
+          "dropped": false
+        }
+      ],
+      "average": 8.677,
+      "officialAverage": 8.677,
+      "rankInBlock": 1,
+      "rankOverall": 1,
+      "classified": true,
+      "cutoffDelta": 0.427,
+      "spread": 1,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 100,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.86,
+          "percentile": 100
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.677,
+          "percentile": 100
+        },
+        {
+          "stage": "final",
+          "average": 9.557,
+          "percentile": 100
+        }
+      ],
+      "overall": 100,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 398,
+      "round": "—",
+      "dancer1": "Nelson Leiva",
+      "dancer2": "Evangelina Martinez",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 8.2,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 8.7,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 9,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 9,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 8.32,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 8.58,
+          "dropped": false
+        }
+      ],
+      "average": 8.633,
+      "officialAverage": 8.633,
+      "rankInBlock": 2,
+      "rankOverall": 2,
+      "classified": true,
+      "cutoffDelta": 0.383,
+      "spread": 0.8,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 98.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.76,
+          "percentile": 95.1
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.633,
+          "percentile": 98.3
+        },
+        {
+          "stage": "final",
+          "average": 9.501,
+          "percentile": 94.7
+        }
+      ],
+      "overall": 96,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 590,
+      "round": "—",
+      "dancer1": "Lucas Guevara",
+      "dancer2": "Daniela Bravo",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 8.1,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 8.8,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 9,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 8.4,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 8.55,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 8.5,
+          "dropped": false
+        }
+      ],
+      "average": 8.558,
+      "officialAverage": 8.558,
+      "rankInBlock": 3,
+      "rankOverall": 3,
+      "classified": true,
+      "cutoffDelta": 0.308,
+      "spread": 0.9,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 96.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.748,
+          "percentile": 93.7
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.558,
+          "percentile": 96.7
+        },
+        {
+          "stage": "final",
+          "average": 9.274,
+          "percentile": 73.7
+        }
+      ],
+      "overall": 88,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 228,
+      "round": "—",
+      "dancer1": "Jesus Taborda",
+      "dancer2": "Carla Domínguez",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 7.9,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 8.9,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 8.75,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 8.8,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 8.29,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 8.5,
+          "dropped": false
+        }
+      ],
+      "average": 8.523,
+      "officialAverage": 8.523,
+      "rankInBlock": 4,
+      "rankOverall": 4,
+      "classified": true,
+      "cutoffDelta": 0.273,
+      "spread": 1,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 95,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.782,
+          "percentile": 97.9
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.523,
+          "percentile": 95
+        },
+        {
+          "stage": "final",
+          "average": 9.369,
+          "percentile": 89.5
+        }
+      ],
+      "overall": 94.1,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 532,
+      "round": "—",
+      "dancer1": "Facundo Vilches",
+      "dancer2": "Irina Cristoff Veleff",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 8.1,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 8.7,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 8.7,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 8.6,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 8.4,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 8.25,
+          "dropped": false
+        }
+      ],
+      "average": 8.458,
+      "officialAverage": 8.458,
+      "rankInBlock": 5,
+      "rankOverall": 5,
+      "classified": true,
+      "cutoffDelta": 0.208,
+      "spread": 0.6,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 93.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.768,
+          "percentile": 95.8
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.458,
+          "percentile": 93.3
+        },
+        {
+          "stage": "final",
+          "average": 8.896,
+          "percentile": 26.3
+        }
+      ],
+      "overall": 71.8,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 530,
+      "round": "—",
+      "dancer1": "Dmitrii Astafev",
+      "dancer2": "Sabrina Amuchastegui",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 8.2,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 8.5,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 8.4,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 8.77,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 8.48,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 8.35,
+          "dropped": false
+        }
+      ],
+      "average": 8.45,
+      "officialAverage": 8.45,
+      "rankInBlock": 6,
+      "rankOverall": 6,
+      "classified": true,
+      "cutoffDelta": 0.2,
+      "spread": 0.57,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 91.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.485,
+          "percentile": 78.3
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.45,
+          "percentile": 91.7
+        },
+        {
+          "stage": "final",
+          "average": 9.249,
+          "percentile": 63.2
+        }
+      ],
+      "overall": 77.7,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 132,
+      "round": "—",
+      "dancer1": "Gabriel Esteban Salvi",
+      "dancer2": "Carolina Leonardelli",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 8.3,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 8.5,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 8.85,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 8.4,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 8.27,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 8.35,
+          "dropped": false
+        }
+      ],
+      "average": 8.445,
+      "officialAverage": 8.445,
+      "rankInBlock": 7,
+      "rankOverall": 7,
+      "classified": true,
+      "cutoffDelta": 0.195,
+      "spread": 0.58,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 90,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.438,
+          "percentile": 74.1
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.445,
+          "percentile": 90
+        },
+        {
+          "stage": "final",
+          "average": 8.661,
+          "percentile": 0
+        }
+      ],
+      "overall": 54.7,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 376,
+      "round": "—",
+      "dancer1": "Juan Manuel Rosales",
+      "dancer2": "Lisa Rosales",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 8.4,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 8.5,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 8.35,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 8.2,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 8.38,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 8.45,
+          "dropped": false
+        }
+      ],
+      "average": 8.38,
+      "officialAverage": 8.38,
+      "rankInBlock": 8,
+      "rankOverall": 8,
+      "classified": true,
+      "cutoffDelta": 0.13,
+      "spread": 0.3,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 88.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.688,
+          "percentile": 92.3
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.38,
+          "percentile": 88.3
+        },
+        {
+          "stage": "final",
+          "average": 8.771,
+          "percentile": 15.8
+        }
+      ],
+      "overall": 65.5,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 201,
+      "round": "—",
+      "dancer1": "Franco Cocheret",
+      "dancer2": "Juliana Mansilla",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 8.7,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 8.25,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 8.3,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 8.28,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 8.27,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 8.35,
+          "dropped": false
+        }
+      ],
+      "average": 8.358,
+      "officialAverage": 8.358,
+      "rankInBlock": 9,
+      "rankOverall": 9,
+      "classified": true,
+      "cutoffDelta": 0.108,
+      "spread": 0.45,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 86.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.76,
+          "percentile": 95.1
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.358,
+          "percentile": 86.7
+        },
+        {
+          "stage": "final",
+          "average": 9.271,
+          "percentile": 68.4
+        }
+      ],
+      "overall": 83.4,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 604,
+      "round": "—",
+      "dancer1": "Lautaro Levato",
+      "dancer2": "Milagros Quintana",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 8.4,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 7.6,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 8.85,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 8.5,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 8.35,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 8.4,
+          "dropped": false
+        }
+      ],
+      "average": 8.35,
+      "officialAverage": 8.35,
+      "rankInBlock": 10,
+      "rankOverall": 10,
+      "classified": true,
+      "cutoffDelta": 0.1,
+      "spread": 1.25,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 85,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.53,
+          "percentile": 82.5
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.35,
+          "percentile": 85
+        },
+        {
+          "stage": "final",
+          "average": 9.341,
+          "percentile": 78.9
+        }
+      ],
+      "overall": 82.1,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 403,
+      "round": "—",
+      "dancer1": "Julio JoséSeffino",
+      "dancer2": "Aldana Belén Tade",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 8.2,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 8.15,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 8.8,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 8.1,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 8.47,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 8.35,
+          "dropped": false
+        }
+      ],
+      "average": 8.345,
+      "officialAverage": 8.345,
+      "rankInBlock": 11,
+      "rankOverall": 11,
+      "classified": true,
+      "cutoffDelta": 0.095,
+      "spread": 0.7,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 83.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.723,
+          "percentile": 93
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.345,
+          "percentile": 83.3
+        },
+        {
+          "stage": "final",
+          "average": 9.044,
+          "percentile": 47.4
+        }
+      ],
+      "overall": 74.6,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 279,
+      "round": "—",
+      "dancer1": "Fede Ibañez",
+      "dancer2": "Nuria Lazo",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 7.6,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 8.2,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 9,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 8.3,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 8.48,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 8.35,
+          "dropped": false
+        }
+      ],
+      "average": 8.322,
+      "officialAverage": 8.322,
+      "rankInBlock": 12,
+      "rankOverall": 12,
+      "classified": true,
+      "cutoffDelta": 0.072,
+      "spread": 1.4,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 81.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.795,
+          "percentile": 98.6
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.322,
+          "percentile": 81.7
+        },
+        {
+          "stage": "final",
+          "average": 9.169,
+          "percentile": 57.9
+        }
+      ],
+      "overall": 79.4,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 256,
+      "round": "—",
+      "dancer1": "Joaquin Besga",
+      "dancer2": "Katherine Laitón",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 8.3,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 8.5,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 8.4,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 8.08,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 8.43,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 8.2,
+          "dropped": false
+        }
+      ],
+      "average": 8.318,
+      "officialAverage": 8.318,
+      "rankInBlock": 13,
+      "rankOverall": 13,
+      "classified": true,
+      "cutoffDelta": 0.068,
+      "spread": 0.42,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 80,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.473,
+          "percentile": 76.9
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.318,
+          "percentile": 80
+        },
+        {
+          "stage": "final",
+          "average": 9.011,
+          "percentile": 42.1
+        }
+      ],
+      "overall": 66.3,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 72,
+      "round": "—",
+      "dancer1": "Adriel Bournissen",
+      "dancer2": "María Soledad Mallo",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 8,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 8.5,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 8.97,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 8,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 8.03,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 8.25,
+          "dropped": false
+        }
+      ],
+      "average": 8.292,
+      "officialAverage": 8.292,
+      "rankInBlock": 14,
+      "rankOverall": 14,
+      "classified": true,
+      "cutoffDelta": 0.042,
+      "spread": 0.97,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 78.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.776,
+          "percentile": 96.5
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.292,
+          "percentile": 78.3
+        },
+        {
+          "stage": "final",
+          "average": 9.357,
+          "percentile": 84.2
+        }
+      ],
+      "overall": 86.3,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 459,
+      "round": "—",
+      "dancer1": "Facundo Cabral",
+      "dancer2": "Mara Navarro",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 8.1,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 7.5,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 8.8,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 8.2,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 8.65,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 8.4,
+          "dropped": false
+        }
+      ],
+      "average": 8.275,
+      "officialAverage": 8.275,
+      "rankInBlock": 15,
+      "rankOverall": 15,
+      "classified": true,
+      "cutoffDelta": 0.025,
+      "spread": 1.3,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 76.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.575,
+          "percentile": 85.3
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.275,
+          "percentile": 76.7
+        },
+        {
+          "stage": "final",
+          "average": 8.971,
+          "percentile": 36.8
+        }
+      ],
+      "overall": 66.3,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 46,
+      "round": "—",
+      "dancer1": "Jesus Paez",
+      "dancer2": "Iara Duarte",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 8.6,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 7.8,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 7.95,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 8.75,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 8.15,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 8.3,
+          "dropped": false
+        }
+      ],
+      "average": 8.258,
+      "officialAverage": 8.258,
+      "rankInBlock": 16,
+      "rankOverall": 16,
+      "classified": true,
+      "cutoffDelta": 0.008,
+      "spread": 0.95,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 75,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.372,
+          "percentile": 69.2
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.258,
+          "percentile": 75
+        },
+        {
+          "stage": "final",
+          "average": 8.769,
+          "percentile": 10.5
+        }
+      ],
+      "overall": 51.6,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 485,
+      "round": "—",
+      "dancer1": "Sebastian Fernandez",
+      "dancer2": "Ayelen Barral",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 8.6,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 7.5,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 8.985,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 8.1,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 8.25,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 8.1,
+          "dropped": false
+        }
+      ],
+      "average": 8.256,
+      "officialAverage": 8.256,
+      "rankInBlock": 17,
+      "rankOverall": 17,
+      "classified": true,
+      "cutoffDelta": 0.006,
+      "spread": 1.485,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 73.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.78,
+          "percentile": 97.2
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.256,
+          "percentile": 73.3
+        },
+        {
+          "stage": "final",
+          "average": 9.066,
+          "percentile": 52.6
+        }
+      ],
+      "overall": 74.4,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 351,
+      "round": "—",
+      "dancer1": "Valentin Bobkov",
+      "dancer2": "Ekaterina Tsybrova",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 8.8,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 8.1,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 8,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 8.4,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 8.45,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 7.75,
+          "dropped": false
+        }
+      ],
+      "average": 8.25,
+      "officialAverage": 8.25,
+      "rankInBlock": 18,
+      "rankOverall": 18,
+      "classified": true,
+      "cutoffDelta": 0,
+      "spread": 1.05,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 71.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.357,
+          "percentile": 68.5
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.25,
+          "percentile": 71.7
+        },
+        {
+          "stage": "final",
+          "average": 8.82,
+          "percentile": 21.1
+        }
+      ],
+      "overall": 53.8,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 384,
+      "round": "—",
+      "dancer1": "Dmitriy Kuznetsov",
+      "dancer2": "Olga Nikolaeva",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 8,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 8.1,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 8.85,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 8.15,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 7.95,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 8.3,
+          "dropped": false
+        }
+      ],
+      "average": 8.225,
+      "officialAverage": 8.225,
+      "rankInBlock": 19,
+      "rankOverall": 19,
+      "classified": false,
+      "cutoffDelta": -0.025,
+      "spread": 0.9,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 70,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.622,
+          "percentile": 87.4
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.225,
+          "percentile": 70
+        }
+      ],
+      "overall": 78.7,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 251,
+      "round": "—",
+      "dancer1": "Hernán Lopez",
+      "dancer2": "Camila Luna",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 8.1,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 7.75,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 8.38,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 8.6,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 7.83,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 8.3,
+          "dropped": false
+        }
+      ],
+      "average": 8.16,
+      "officialAverage": 8.16,
+      "rankInBlock": 20,
+      "rankOverall": 20,
+      "classified": false,
+      "cutoffDelta": -0.09,
+      "spread": 0.85,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 68.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.397,
+          "percentile": 69.9
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.16,
+          "percentile": 68.3
+        }
+      ],
+      "overall": 69.1,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 666,
+      "round": "—",
+      "dancer1": "Artem Luchin",
+      "dancer2": "Polina Luchina",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 8.6,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 7.05,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 8.77,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 8.7,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 8.28,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 7.5,
+          "dropped": false
+        }
+      ],
+      "average": 8.15,
+      "officialAverage": 8.15,
+      "rankInBlock": 21,
+      "rankOverall": 21,
+      "classified": false,
+      "cutoffDelta": -0.1,
+      "spread": 1.72,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 66.7,
+      "stageStandings": [
+        {
+          "stage": "semifinal",
+          "average": 8.15,
+          "percentile": 66.7
+        }
+      ],
+      "overall": 66.7,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 66,
+      "round": "—",
+      "dancer1": "Ariel Leguizamón",
+      "dancer2": "Yesica Esquivel",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 8.3,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 6.9,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 8.985,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 8.1,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 8.1,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 8.5,
+          "dropped": false
+        }
+      ],
+      "average": 8.148,
+      "officialAverage": 8.148,
+      "rankInBlock": 22,
+      "rankOverall": 22,
+      "classified": false,
+      "cutoffDelta": -0.102,
+      "spread": 2.085,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 65,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.811,
+          "percentile": 99.3
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.148,
+          "percentile": 65
+        }
+      ],
+      "overall": 82.2,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 364,
+      "round": "—",
+      "dancer1": "Heber Mallorquin",
+      "dancer2": "María Sofia Orlando",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 8.3,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 7.9,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 8.15,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 8,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 8.3,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 8.15,
+          "dropped": false
+        }
+      ],
+      "average": 8.133,
+      "officialAverage": 8.133,
+      "rankInBlock": 23,
+      "rankOverall": 23,
+      "classified": false,
+      "cutoffDelta": -0.117,
+      "spread": 0.4,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 63.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.522,
+          "percentile": 81.1
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.133,
+          "percentile": 63.3
+        }
+      ],
+      "overall": 72.2,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 57,
+      "round": "—",
+      "dancer1": "Luciano Capparelli",
+      "dancer2": "Rocio De Los Santos",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 8.4,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 8,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 7.7,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 8.1,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 8,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 8.3,
+          "dropped": false
+        }
+      ],
+      "average": 8.083,
+      "officialAverage": 8.083,
+      "rankInBlock": 24,
+      "rankOverall": 24,
+      "classified": false,
+      "cutoffDelta": -0.167,
+      "spread": 0.7,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 61.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.518,
+          "percentile": 80.4
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.083,
+          "percentile": 61.7
+        }
+      ],
+      "overall": 71.1,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 501,
+      "round": "—",
+      "dancer1": "Cristian Correa",
+      "dancer2": "Amanda Marques",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 8.2,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 8,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 8.2,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 7.8,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 8.49,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 7.8,
+          "dropped": false
+        }
+      ],
+      "average": 8.082,
+      "officialAverage": 8.082,
+      "rankInBlock": 25,
+      "rankOverall": 25,
+      "classified": false,
+      "cutoffDelta": -0.168,
+      "spread": 0.69,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 60,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.483,
+          "percentile": 77.6
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.082,
+          "percentile": 60
+        }
+      ],
+      "overall": 68.8,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 176,
+      "round": "—",
+      "dancer1": "Leonardo Santiago Barri",
+      "dancer2": "Giovanna Di Vincenzo",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 7.4,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 8.5,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 8.7,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 7.4,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 8.25,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 8.2,
+          "dropped": false
+        }
+      ],
+      "average": 8.075,
+      "officialAverage": 8.075,
+      "rankInBlock": 26,
+      "rankOverall": 26,
+      "classified": false,
+      "cutoffDelta": -0.175,
+      "spread": 1.3,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 58.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.631,
+          "percentile": 88.8
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.075,
+          "percentile": 58.3
+        }
+      ],
+      "overall": 73.6,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 690,
+      "round": "—",
+      "dancer1": "Rosario Belen Gimenez",
+      "dancer2": "Juan Pablo Valdebenito",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 8.1,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 8,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 8.35,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 8,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 7.97,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 7.9,
+          "dropped": false
+        }
+      ],
+      "average": 8.053,
+      "officialAverage": 8.053,
+      "rankInBlock": 27,
+      "rankOverall": 27,
+      "classified": false,
+      "cutoffDelta": -0.197,
+      "spread": 0.45,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 56.7,
+      "stageStandings": [
+        {
+          "stage": "semifinal",
+          "average": 8.053,
+          "percentile": 56.7
+        }
+      ],
+      "overall": 56.7,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 503,
+      "round": "—",
+      "dancer1": "Santiago Salazar Botero",
+      "dancer2": "Alejandra Ospina Marin",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 7.8,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 8.4,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 8.6,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 7,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 8.7,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 7.75,
+          "dropped": false
+        }
+      ],
+      "average": 8.042,
+      "officialAverage": 8.042,
+      "rankInBlock": 28,
+      "rankOverall": 28,
+      "classified": false,
+      "cutoffDelta": -0.208,
+      "spread": 1.7,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 55,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.525,
+          "percentile": 81.8
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.042,
+          "percentile": 55
+        }
+      ],
+      "overall": 68.4,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 509,
+      "round": "—",
+      "dancer1": "Fabian Francisco Rodriguez",
+      "dancer2": "Eliana Gisela Mola",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 8.2,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 7.7,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 7.95,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 8.15,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 7.89,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 8.08,
+          "dropped": false
+        }
+      ],
+      "average": 7.995,
+      "officialAverage": 7.995,
+      "rankInBlock": 29,
+      "rankOverall": 29,
+      "classified": false,
+      "cutoffDelta": -0.255,
+      "spread": 0.5,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 53.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.45,
+          "percentile": 74.8
+        },
+        {
+          "stage": "semifinal",
+          "average": 7.995,
+          "percentile": 53.3
+        }
+      ],
+      "overall": 64.1,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 254,
+      "round": "—",
+      "dancer1": "Branndon Cardenas",
+      "dancer2": "Susana Ortiz",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 7.8,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 8,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 8.2,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 7.75,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 8.6,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 7.6,
+          "dropped": false
+        }
+      ],
+      "average": 7.992,
+      "officialAverage": 7.992,
+      "rankInBlock": 30,
+      "rankOverall": 30,
+      "classified": false,
+      "cutoffDelta": -0.258,
+      "spread": 1,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 51.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.505,
+          "percentile": 79
+        },
+        {
+          "stage": "semifinal",
+          "average": 7.992,
+          "percentile": 51.7
+        }
+      ],
+      "overall": 65.4,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 208,
+      "round": "—",
+      "dancer1": "Juan Fernando Cabral",
+      "dancer2": "Laura Castiñeiras",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 7.3,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 7,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 8.95,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 8.15,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 8.2,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 8.3,
+          "dropped": false
+        }
+      ],
+      "average": 7.983,
+      "officialAverage": 7.983,
+      "rankInBlock": 31,
+      "rankOverall": 31,
+      "classified": false,
+      "cutoffDelta": -0.267,
+      "spread": 1.95,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 50,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.577,
+          "percentile": 86
+        },
+        {
+          "stage": "semifinal",
+          "average": 7.983,
+          "percentile": 50
+        }
+      ],
+      "overall": 68,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 626,
+      "round": "—",
+      "dancer1": "Jorge Padilla",
+      "dancer2": "Ana Zoraida Gomez",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 7.7,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 8,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 8.7,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 7.8,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 7.98,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 7.7,
+          "dropped": false
+        }
+      ],
+      "average": 7.98,
+      "officialAverage": 7.98,
+      "rankInBlock": 32,
+      "rankOverall": 32,
+      "classified": false,
+      "cutoffDelta": -0.27,
+      "spread": 1,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 48.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.638,
+          "percentile": 89.5
+        },
+        {
+          "stage": "semifinal",
+          "average": 7.98,
+          "percentile": 48.3
+        }
+      ],
+      "overall": 68.9,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 670,
+      "round": "—",
+      "dancer1": "Manuel Bianchi",
+      "dancer2": "Michela Elicio",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 7.8,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 8.4,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 7.8,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 7.8,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 8.29,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 7.75,
+          "dropped": false
+        }
+      ],
+      "average": 7.973,
+      "officialAverage": 7.973,
+      "rankInBlock": 33,
+      "rankOverall": 33,
+      "classified": false,
+      "cutoffDelta": -0.277,
+      "spread": 0.65,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 46.7,
+      "stageStandings": [
+        {
+          "stage": "semifinal",
+          "average": 7.973,
+          "percentile": 46.7
+        }
+      ],
+      "overall": 46.7,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 540,
+      "round": "—",
+      "dancer1": "Carlos Santos David",
+      "dancer2": "Mirella Santos David",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 8,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 7.5,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 8.4,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 7.8,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 8.39,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 7.75,
+          "dropped": false
+        }
+      ],
+      "average": 7.973,
+      "officialAverage": 7.973,
+      "rankInBlock": 33,
+      "rankOverall": 33,
+      "classified": false,
+      "cutoffDelta": -0.277,
+      "spread": 0.9,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 46.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.398,
+          "percentile": 70.6
+        },
+        {
+          "stage": "semifinal",
+          "average": 7.973,
+          "percentile": 46.7
+        }
+      ],
+      "overall": 58.7,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 203,
+      "round": "—",
+      "dancer1": "Fernando Aranda Martinez",
+      "dancer2": "Maira Sanchez",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 7.3,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 7.9,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 8.35,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 8.3,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 8.26,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 7.7,
+          "dropped": false
+        }
+      ],
+      "average": 7.968,
+      "officialAverage": 7.968,
+      "rankInBlock": 35,
+      "rankOverall": 35,
+      "classified": false,
+      "cutoffDelta": -0.282,
+      "spread": 1.05,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 43.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.654,
+          "percentile": 90.2
+        },
+        {
+          "stage": "semifinal",
+          "average": 7.968,
+          "percentile": 43.3
+        }
+      ],
+      "overall": 66.8,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 629,
+      "round": "—",
+      "dancer1": "Ulises Garcia",
+      "dancer2": "Florencia Campo",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 8.1,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 7.9,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 8,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 8,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 7.84,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 7.8,
+          "dropped": false
+        }
+      ],
+      "average": 7.94,
+      "officialAverage": 7.94,
+      "rankInBlock": 36,
+      "rankOverall": 36,
+      "classified": false,
+      "cutoffDelta": -0.31,
+      "spread": 0.3,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 41.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.335,
+          "percentile": 67.8
+        },
+        {
+          "stage": "semifinal",
+          "average": 7.94,
+          "percentile": 41.7
+        }
+      ],
+      "overall": 54.8,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 137,
+      "round": "—",
+      "dancer1": "Miguel Santillan",
+      "dancer2": "Mailen Oucharick",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 7.9,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 8.3,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 7.95,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 7.9,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 7.73,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 7.55,
+          "dropped": false
+        }
+      ],
+      "average": 7.888,
+      "officialAverage": 7.888,
+      "rankInBlock": 37,
+      "rankOverall": 37,
+      "classified": false,
+      "cutoffDelta": -0.362,
+      "spread": 0.75,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 40,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.473,
+          "percentile": 76.9
+        },
+        {
+          "stage": "semifinal",
+          "average": 7.888,
+          "percentile": 40
+        }
+      ],
+      "overall": 58.5,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 192,
+      "round": "—",
+      "dancer1": "Daniel Octavo",
+      "dancer2": "Marianna Osorio",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 7.8,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 7.5,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 8.2,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 7.95,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 7.96,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 7.8,
+          "dropped": false
+        }
+      ],
+      "average": 7.868,
+      "officialAverage": 7.868,
+      "rankInBlock": 38,
+      "rankOverall": 38,
+      "classified": false,
+      "cutoffDelta": -0.382,
+      "spread": 0.7,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 38.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.407,
+          "percentile": 73.4
+        },
+        {
+          "stage": "semifinal",
+          "average": 7.868,
+          "percentile": 38.3
+        }
+      ],
+      "overall": 55.9,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 369,
+      "round": "—",
+      "dancer1": "Iván Franco",
+      "dancer2": "Selena Zini",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 7.2,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 7.95,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 7.75,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 8.8,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 7.7,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 7.75,
+          "dropped": false
+        }
+      ],
+      "average": 7.858,
+      "officialAverage": 7.858,
+      "rankInBlock": 39,
+      "rankOverall": 39,
+      "classified": false,
+      "cutoffDelta": -0.392,
+      "spread": 1.6,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 36.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.562,
+          "percentile": 84.6
+        },
+        {
+          "stage": "semifinal",
+          "average": 7.858,
+          "percentile": 36.7
+        }
+      ],
+      "overall": 60.7,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 514,
+      "round": "—",
+      "dancer1": "Jeyson Ravagli",
+      "dancer2": "Vanessa Giraldo",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 8,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 7.8,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 8.2,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 7.4,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 7.92,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 7.75,
+          "dropped": false
+        }
+      ],
+      "average": 7.845,
+      "officialAverage": 7.845,
+      "rankInBlock": 40,
+      "rankOverall": 40,
+      "classified": false,
+      "cutoffDelta": -0.405,
+      "spread": 0.8,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 35,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.402,
+          "percentile": 71.3
+        },
+        {
+          "stage": "semifinal",
+          "average": 7.845,
+          "percentile": 35
+        }
+      ],
+      "overall": 53.2,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 634,
+      "round": "—",
+      "dancer1": "Andres Gonzalez Ballesteros",
+      "dancer2": "Sara Gómez Quiroz",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 7.4,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 7.6,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 8.43,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 7.85,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 7.86,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 7.8,
+          "dropped": false
+        }
+      ],
+      "average": 7.823,
+      "officialAverage": 7.823,
+      "rankInBlock": 41,
+      "rankOverall": 41,
+      "classified": false,
+      "cutoffDelta": -0.427,
+      "spread": 1.03,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 33.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.405,
+          "percentile": 72
+        },
+        {
+          "stage": "semifinal",
+          "average": 7.823,
+          "percentile": 33.3
+        }
+      ],
+      "overall": 52.7,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 443,
+      "round": "—",
+      "dancer1": "Kevin Valencia",
+      "dancer2": "Valentina Villarreal",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 8,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 7,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 7.9,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 7.8,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 7.9,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 8.3,
+          "dropped": false
+        }
+      ],
+      "average": 7.817,
+      "officialAverage": 7.817,
+      "rankInBlock": 42,
+      "rankOverall": 42,
+      "classified": false,
+      "cutoffDelta": -0.433,
+      "spread": 1.3,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 31.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.516,
+          "percentile": 79.7
+        },
+        {
+          "stage": "semifinal",
+          "average": 7.817,
+          "percentile": 31.7
+        }
+      ],
+      "overall": 55.7,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 39,
+      "round": "—",
+      "dancer1": "Pablo Nahuel Conde",
+      "dancer2": "Aldana Paula Jimenez",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 8.2,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 7.8,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 7.7,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 7.85,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 7.8,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 7.5,
+          "dropped": false
+        }
+      ],
+      "average": 7.808,
+      "officialAverage": 7.808,
+      "rankInBlock": 43,
+      "rankOverall": 43,
+      "classified": false,
+      "cutoffDelta": -0.442,
+      "spread": 0.7,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 30,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.628,
+          "percentile": 88.1
+        },
+        {
+          "stage": "semifinal",
+          "average": 7.808,
+          "percentile": 30
+        }
+      ],
+      "overall": 59.1,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 277,
+      "round": "—",
+      "dancer1": "Angel Martin",
+      "dancer2": "Federica Tobares",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 7,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 7.95,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 7.985,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 8,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 8.07,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 7.75,
+          "dropped": false
+        }
+      ],
+      "average": 7.792,
+      "officialAverage": 7.793,
+      "rankInBlock": 44,
+      "rankOverall": 44,
+      "classified": false,
+      "cutoffDelta": -0.458,
+      "spread": 1.07,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 28.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.335,
+          "percentile": 67.8
+        },
+        {
+          "stage": "semifinal",
+          "average": 7.792,
+          "percentile": 28.3
+        }
+      ],
+      "overall": 48.1,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 700,
+      "round": "—",
+      "dancer1": "Irma Lesmana",
+      "dancer2": "Ezequiel Gomez",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 8.1,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 7.2,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 7.7,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 8,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 7.94,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 7.55,
+          "dropped": false
+        }
+      ],
+      "average": 7.748,
+      "officialAverage": 7.748,
+      "rankInBlock": 45,
+      "rankOverall": 45,
+      "classified": false,
+      "cutoffDelta": -0.502,
+      "spread": 0.9,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 26.7,
+      "stageStandings": [
+        {
+          "stage": "semifinal",
+          "average": 7.748,
+          "percentile": 26.7
+        }
+      ],
+      "overall": 26.7,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 373,
+      "round": "—",
+      "dancer1": "Miguel Angel Quintero",
+      "dancer2": "Yanel Pedraza",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 7.2,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 7.3,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 7.8,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 7.5,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 7.9,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 8.75,
+          "dropped": false
+        }
+      ],
+      "average": 7.742,
+      "officialAverage": 7.742,
+      "rankInBlock": 46,
+      "rankOverall": 46,
+      "classified": false,
+      "cutoffDelta": -0.508,
+      "spread": 1.55,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 25,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.586,
+          "percentile": 86.7
+        },
+        {
+          "stage": "semifinal",
+          "average": 7.742,
+          "percentile": 25
+        }
+      ],
+      "overall": 55.9,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 304,
+      "round": "—",
+      "dancer1": "Octavio Gil Rojas",
+      "dancer2": "Ligeia Moya Bravo",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 8,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 8.25,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 7,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 7.8,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 7.85,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 7.5,
+          "dropped": false
+        }
+      ],
+      "average": 7.733,
+      "officialAverage": 7.733,
+      "rankInBlock": 47,
+      "rankOverall": 47,
+      "classified": false,
+      "cutoffDelta": -0.517,
+      "spread": 1.25,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 23.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.54,
+          "percentile": 83.9
+        },
+        {
+          "stage": "semifinal",
+          "average": 7.733,
+          "percentile": 23.3
+        }
+      ],
+      "overall": 53.6,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 344,
+      "round": "—",
+      "dancer1": "Fernando Jorge Muñoz",
+      "dancer2": "Jorgelina AnahíLeotta Carbajal",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 8,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 7,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 8.35,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 7.5,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 7.84,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 7.4,
+          "dropped": false
+        }
+      ],
+      "average": 7.682,
+      "officialAverage": 7.682,
+      "rankInBlock": 48,
+      "rankOverall": 48,
+      "classified": false,
+      "cutoffDelta": -0.568,
+      "spread": 1.35,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 21.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.663,
+          "percentile": 90.9
+        },
+        {
+          "stage": "semifinal",
+          "average": 7.682,
+          "percentile": 21.7
+        }
+      ],
+      "overall": 56.3,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 695,
+      "round": "—",
+      "dancer1": "Paulina Aguinalde",
+      "dancer2": "Ivan Cristoff Veleff",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 8.1,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 8.2,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 7.95,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 7.5,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 6.9,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 7.4,
+          "dropped": false
+        }
+      ],
+      "average": 7.675,
+      "officialAverage": 7.675,
+      "rankInBlock": 49,
+      "rankOverall": 49,
+      "classified": false,
+      "cutoffDelta": -0.575,
+      "spread": 1.3,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 20,
+      "stageStandings": [
+        {
+          "stage": "semifinal",
+          "average": 7.675,
+          "percentile": 20
+        }
+      ],
+      "overall": 20,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 696,
+      "round": "—",
+      "dancer1": "Camila Rocha",
+      "dancer2": "Kelvin Cal",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 7.4,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 7.35,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 8,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 7.5,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 8.27,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 7.5,
+          "dropped": false
+        }
+      ],
+      "average": 7.67,
+      "officialAverage": 7.67,
+      "rankInBlock": 50,
+      "rankOverall": 50,
+      "classified": false,
+      "cutoffDelta": -0.58,
+      "spread": 0.92,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 18.3,
+      "stageStandings": [
+        {
+          "stage": "semifinal",
+          "average": 7.67,
+          "percentile": 18.3
+        }
+      ],
+      "overall": 18.3,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 686,
+      "round": "—",
+      "dancer1": "Eliana Villarruel",
+      "dancer2": "Luciano Castro",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 7.9,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 7.9,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 7.8,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 7.4,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 7.5,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 7.45,
+          "dropped": false
+        }
+      ],
+      "average": 7.658,
+      "officialAverage": 7.658,
+      "rankInBlock": 51,
+      "rankOverall": 51,
+      "classified": false,
+      "cutoffDelta": -0.592,
+      "spread": 0.5,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 16.7,
+      "stageStandings": [
+        {
+          "stage": "semifinal",
+          "average": 7.658,
+          "percentile": 16.7
+        }
+      ],
+      "overall": 16.7,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 701,
+      "round": "—",
+      "dancer1": "Yelena Odintsova",
+      "dancer2": "David Chartoriski",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 8,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 6.85,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 8.4,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 7.2,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 7.97,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 7.5,
+          "dropped": false
+        }
+      ],
+      "average": 7.653,
+      "officialAverage": 7.653,
+      "rankInBlock": 52,
+      "rankOverall": 52,
+      "classified": false,
+      "cutoffDelta": -0.597,
+      "spread": 1.55,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 15,
+      "stageStandings": [
+        {
+          "stage": "semifinal",
+          "average": 7.653,
+          "percentile": 15
+        }
+      ],
+      "overall": 15,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 128,
+      "round": "—",
+      "dancer1": "Matteo Antonietti",
+      "dancer2": "Ravena Abdyli",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 8.4,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 6.5,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 7.9,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 7.5,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 7.87,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 7.6,
+          "dropped": false
+        }
+      ],
+      "average": 7.628,
+      "officialAverage": 7.628,
+      "rankInBlock": 53,
+      "rankOverall": 53,
+      "classified": false,
+      "cutoffDelta": -0.622,
+      "spread": 1.9,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 13.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.406,
+          "percentile": 72.7
+        },
+        {
+          "stage": "semifinal",
+          "average": 7.628,
+          "percentile": 13.3
+        }
+      ],
+      "overall": 43,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 706,
+      "round": "—",
+      "dancer1": "Seung-Jun Hong",
+      "dancer2": "Eunkyoung Jung",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 7.8,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 7.05,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 7.9,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 7.2,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 8.17,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 7.45,
+          "dropped": false
+        }
+      ],
+      "average": 7.595,
+      "officialAverage": 7.595,
+      "rankInBlock": 54,
+      "rankOverall": 54,
+      "classified": false,
+      "cutoffDelta": -0.655,
+      "spread": 1.12,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 11.7,
+      "stageStandings": [
+        {
+          "stage": "semifinal",
+          "average": 7.595,
+          "percentile": 11.7
+        }
+      ],
+      "overall": 11.7,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 698,
+      "round": "—",
+      "dancer1": "Marina Ernandes",
+      "dancer2": "Facundo Rodriguez",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 7.6,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 7.9,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 7.1,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 7,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 8.1,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 7.45,
+          "dropped": false
+        }
+      ],
+      "average": 7.525,
+      "officialAverage": 7.525,
+      "rankInBlock": 55,
+      "rankOverall": 55,
+      "classified": false,
+      "cutoffDelta": -0.725,
+      "spread": 1.1,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 10,
+      "stageStandings": [
+        {
+          "stage": "semifinal",
+          "average": 7.525,
+          "percentile": 10
+        }
+      ],
+      "overall": 10,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 315,
+      "round": "—",
+      "dancer1": "Armando Benitez",
+      "dancer2": "Seudy Villasanti",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 7.5,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 7,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 8.5,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 7,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 8.41,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 6.5,
+          "dropped": false
+        }
+      ],
+      "average": 7.485,
+      "officialAverage": 7.485,
+      "rankInBlock": 56,
+      "rankOverall": 56,
+      "classified": false,
+      "cutoffDelta": -0.765,
+      "spread": 2,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 8.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.453,
+          "percentile": 75.5
+        },
+        {
+          "stage": "semifinal",
+          "average": 7.485,
+          "percentile": 8.3
+        }
+      ],
+      "overall": 41.9,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 689,
+      "round": "—",
+      "dancer1": "Amira Luna Zarate",
+      "dancer2": "Damian Anibal Roezgas",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 7.7,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 7.2,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 7.45,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 7.2,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 7.72,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 7.45,
+          "dropped": false
+        }
+      ],
+      "average": 7.453,
+      "officialAverage": 7.453,
+      "rankInBlock": 57,
+      "rankOverall": 57,
+      "classified": false,
+      "cutoffDelta": -0.797,
+      "spread": 0.52,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 6.7,
+      "stageStandings": [
+        {
+          "stage": "semifinal",
+          "average": 7.453,
+          "percentile": 6.7
+        }
+      ],
+      "overall": 6.7,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 554,
+      "round": "—",
+      "dancer1": "Guilherme Ferreira",
+      "dancer2": "Eliza Moritz",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 7.9,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 7,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 6.8,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 7.2,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 7.3,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 7.4,
+          "dropped": false
+        }
+      ],
+      "average": 7.267,
+      "officialAverage": 7.267,
+      "rankInBlock": 58,
+      "rankOverall": 58,
+      "classified": false,
+      "cutoffDelta": -0.983,
+      "spread": 1.1,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 5,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.335,
+          "percentile": 67.8
+        },
+        {
+          "stage": "semifinal",
+          "average": 7.267,
+          "percentile": 5
+        }
+      ],
+      "overall": 36.4,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 342,
+      "round": "—",
+      "dancer1": "Kevin Dos Santos",
+      "dancer2": "Miriam Gutierrez",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 7.7,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 6.5,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 6.9,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 7.2,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 7.15,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 7.55,
+          "dropped": false
+        }
+      ],
+      "average": 7.167,
+      "officialAverage": 7.167,
+      "rankInBlock": 59,
+      "rankOverall": 59,
+      "classified": false,
+      "cutoffDelta": -1.083,
+      "spread": 1.2,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 3.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.54,
+          "percentile": 83.9
+        },
+        {
+          "stage": "semifinal",
+          "average": 7.167,
+          "percentile": 3.3
+        }
+      ],
+      "overall": 43.6,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 703,
+      "round": "—",
+      "dancer1": "Jassoara Huerta Lagos",
+      "dancer2": "Hector Espinoza Diaz",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 7.5,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 6.5,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 6.5,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 6.9,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 7.2,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 7.3,
+          "dropped": false
+        }
+      ],
+      "average": 6.983,
+      "officialAverage": 6.983,
+      "rankInBlock": 60,
+      "rankOverall": 60,
+      "classified": false,
+      "cutoffDelta": -1.267,
+      "spread": 1,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 1.7,
+      "stageStandings": [
+        {
+          "stage": "semifinal",
+          "average": 6.983,
+          "percentile": 1.7
+        }
+      ],
+      "overall": 1.7,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 668,
+      "round": "—",
+      "dancer1": "John Flower",
+      "dancer2": "Natallia Ramanchuk",
+      "judges": [
+        {
+          "name": "Leando Oliver",
+          "score": 7.6,
+          "dropped": false
+        },
+        {
+          "name": "Johana Copes",
+          "score": 6.6,
+          "dropped": false
+        },
+        {
+          "name": "Sandra Bootz",
+          "score": 6.2,
+          "dropped": false
+        },
+        {
+          "name": "Sebastian Ripoll",
+          "score": 6.7,
+          "dropped": false
+        },
+        {
+          "name": "German Cornejo",
+          "score": 6.2,
+          "dropped": false
+        },
+        {
+          "name": "Lorena Goldestein",
+          "score": 6.4,
+          "dropped": false
+        }
+      ],
+      "average": 6.617,
+      "officialAverage": 6.617,
+      "rankInBlock": 61,
+      "rankOverall": 61,
+      "classified": false,
+      "cutoffDelta": -1.633,
+      "spread": 1.4,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 0,
+      "stageStandings": [
+        {
+          "stage": "semifinal",
+          "average": 6.617,
+          "percentile": 0
+        }
+      ],
+      "overall": 0,
+      "lastStageReached": "semifinal"
+    }
+  ],
+  "mismatches": []
+}

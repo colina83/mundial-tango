@@ -14,7 +14,7 @@ import { hasDistinctBlocks, hasWatchlist, isTrimmedScoring, usableBlocks, yearPa
 import type { ScoreRow } from "../types";
 
 export function Dashboard() {
-  const { data, activeStage, year } = useData();
+  const { data, activeStage, year, category } = useData();
   const { t, lang } = useI18n();
   const { pins } = useWatchlist();
   if (!data) return null;
@@ -30,11 +30,11 @@ export function Dashboard() {
   const showBlocks = hasDistinctBlocks(data);
   const trimmed = isTrimmedScoring(data);
   const showWatchlist = hasWatchlist(year);
-  const base = yearPath(year);
+  const base = yearPath(year, "", category);
   const blocks = usableBlocks(data);
 
   const watchRows = pins
-    .filter((p) => p.year === year)
+    .filter((p) => p.year === year && p.category === category)
     .map((p) =>
       data.rows.find((r) => r.coupleId === p.coupleId && r.blockId === p.blockId),
     )
@@ -56,7 +56,7 @@ export function Dashboard() {
         <div className="hero-kicker">{t("liveStage")}</div>
         <h1>
           {stageLabel[activeStage] ?? t("stageClasificatoria")}
-          <span> · {t("categoryPista")}</span>
+          <span> · {category === "escenario" ? t("categoryEscenario") : t("categoryPista")}</span>
         </h1>
         <p className="lede">{howTo}</p>
         <dl className="hero-meta">

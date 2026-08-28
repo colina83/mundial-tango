@@ -1,0 +1,3444 @@
+{
+  "generatedAt": "2026-08-27T18:59:36.513Z",
+  "year": 2025,
+  "stage": "semifinal",
+  "category": "escenario",
+  "scoring": "simple",
+  "sourcePage": "https://tangoba.org/resultados-semifinal-tango-escenario-2025/",
+  "sourceCategoryPage": "https://tangoba.org/category/resultados/",
+  "sourceLabel": "Tango BA",
+  "disclaimer": "Compañero extraoficial de fans. No afiliado a Tango BA ni al Mundial de Baile. Fuente: Tango BA.",
+  "blocks": [
+    {
+      "id": "_",
+      "date": "2025-08-30",
+      "dateLabel": "30 de agosto",
+      "judges": [
+        "Juan Paulo Horvart",
+        "Sabrina Veliz",
+        "Veronica Gardella",
+        "Ignacio Gonzalez Cano",
+        "Alejandra Gutty",
+        "Leonardo Cuello"
+      ],
+      "sourcePdf": {
+        "filename": "semifinal.pdf",
+        "url": "https://tangoba.org/wp-content/uploads/2025/08/Jurados-_-Escenario-SEMIS-2025-30_8-JURADOS-_-RONDAS-TODAS-30_8.pdf",
+        "sha256": "369e709d445a6270f5579b6d99bf7c9f4a9b0ef00865098c66bbea181f8d01fc"
+      },
+      "cutoff": 8.438,
+      "classifiedCount": 18,
+      "coupleCount": 49
+    }
+  ],
+  "rows": [
+    {
+      "coupleId": 130,
+      "round": "5",
+      "dancer1": "Leandro Bojko",
+      "dancer2": "Micaela Garcia",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 9,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 8.8,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 9,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8.96,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 9,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 9,
+          "dropped": false
+        }
+      ],
+      "average": 8.96,
+      "officialAverage": 8.96,
+      "rankInBlock": 1,
+      "rankOverall": 1,
+      "classified": true,
+      "cutoffDelta": 0.522,
+      "spread": 0.2,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 100,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.676,
+          "percentile": 80.9
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.836,
+          "percentile": 90.3
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.96,
+          "percentile": 100
+        },
+        {
+          "stage": "final",
+          "average": 9.764,
+          "percentile": 100
+        }
+      ],
+      "overall": 92.8,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 454,
+      "round": "3",
+      "dancer1": "Fede Ibañez",
+      "dancer2": "Nuria Lazo",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 8.75,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 8.85,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 9,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 9,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 8.7,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 9,
+          "dropped": false
+        }
+      ],
+      "average": 8.883,
+      "officialAverage": 8.883,
+      "rankInBlock": 2,
+      "rankOverall": 2,
+      "classified": true,
+      "cutoffDelta": 0.445,
+      "spread": 0.3,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 97.9,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.678,
+          "percentile": 81.5
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.648,
+          "percentile": 80.6
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.883,
+          "percentile": 97.9
+        },
+        {
+          "stage": "final",
+          "average": 9.709,
+          "percentile": 94.7
+        }
+      ],
+      "overall": 88.7,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 119,
+      "round": "5",
+      "dancer1": "Nicolás Schell",
+      "dancer2": "Nair Schinca",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 8.5,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 8.4,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 8.85,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8.95,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 8.7,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 9,
+          "dropped": false
+        }
+      ],
+      "average": 8.733,
+      "officialAverage": 8.733,
+      "rankInBlock": 3,
+      "rankOverall": 3,
+      "classified": true,
+      "cutoffDelta": 0.295,
+      "spread": 0.6,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 95.8,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.918,
+          "percentile": 98.1
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.94,
+          "percentile": 97.8
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.733,
+          "percentile": 95.8
+        },
+        {
+          "stage": "final",
+          "average": 9.267,
+          "percentile": 42.1
+        }
+      ],
+      "overall": 83.5,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 350,
+      "round": "1",
+      "dancer1": "Facundo Cabral",
+      "dancer2": "Mara Navarro",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 8.7,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 8.4,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 8.9,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 9,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 8.35,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 9,
+          "dropped": false
+        }
+      ],
+      "average": 8.725,
+      "officialAverage": 8.725,
+      "rankInBlock": 4,
+      "rankOverall": 4,
+      "classified": true,
+      "cutoffDelta": 0.287,
+      "spread": 0.65,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 93.8,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.75,
+          "percentile": 84
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.95,
+          "percentile": 100
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.725,
+          "percentile": 93.8
+        },
+        {
+          "stage": "final",
+          "average": 9.476,
+          "percentile": 89.5
+        }
+      ],
+      "overall": 91.8,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 628,
+      "round": "6",
+      "dancer1": "Sebastian FERNANDEZ",
+      "dancer2": "Mariia Marinova",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 8.5,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 8.5,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 8.85,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8.87,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 8.8,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 8.75,
+          "dropped": false
+        }
+      ],
+      "average": 8.712,
+      "officialAverage": 8.712,
+      "rankInBlock": 5,
+      "rankOverall": 5,
+      "classified": true,
+      "cutoffDelta": 0.274,
+      "spread": 0.37,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 91.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.816,
+          "percentile": 90.1
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.91,
+          "percentile": 94.6
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.712,
+          "percentile": 91.7
+        },
+        {
+          "stage": "final",
+          "average": 9.39,
+          "percentile": 84.2
+        }
+      ],
+      "overall": 90.1,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 537,
+      "round": "5",
+      "dancer1": "Lautaro Levato",
+      "dancer2": "Milagros Quintana",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 8.7,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 8.6,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 8.8,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 9,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 8.15,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 8.8,
+          "dropped": false
+        }
+      ],
+      "average": 8.675,
+      "officialAverage": 8.675,
+      "rankInBlock": 6,
+      "rankOverall": 6,
+      "classified": true,
+      "cutoffDelta": 0.237,
+      "spread": 0.85,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 89.6,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.586,
+          "percentile": 72.2
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.71,
+          "percentile": 83.9
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.675,
+          "percentile": 89.6
+        },
+        {
+          "stage": "final",
+          "average": 9.369,
+          "percentile": 73.7
+        }
+      ],
+      "overall": 79.9,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 444,
+      "round": "4",
+      "dancer1": "Julio Jose Seffino",
+      "dancer2": "Aldana Belen Tade",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 8.7,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 8.6,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 8.8,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8.98,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 8.1,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 8.7,
+          "dropped": false
+        }
+      ],
+      "average": 8.647,
+      "officialAverage": 8.647,
+      "rankInBlock": 7,
+      "rankOverall": 7,
+      "classified": true,
+      "cutoffDelta": 0.209,
+      "spread": 0.88,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 87.5,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.794,
+          "percentile": 86.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.91,
+          "percentile": 94.6
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.647,
+          "percentile": 87.5
+        },
+        {
+          "stage": "final",
+          "average": 9.35,
+          "percentile": 68.4
+        }
+      ],
+      "overall": 84.2,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 596,
+      "round": "3",
+      "dancer1": "Franco Ruben Sosa",
+      "dancer2": "Romina Ayelén Moreno Guzmán",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 8.7,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 8.05,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 8.6,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8.95,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 8.6,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 8.55,
+          "dropped": false
+        }
+      ],
+      "average": 8.575,
+      "officialAverage": 8.575,
+      "rankInBlock": 8,
+      "rankOverall": 8,
+      "classified": true,
+      "cutoffDelta": 0.137,
+      "spread": 0.9,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 85.4,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.944,
+          "percentile": 99.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.504,
+          "percentile": 63.4
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.575,
+          "percentile": 85.4
+        },
+        {
+          "stage": "final",
+          "average": 9.276,
+          "percentile": 47.4
+        }
+      ],
+      "overall": 73.9,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 551,
+      "round": "6",
+      "dancer1": "Franco Cocheret",
+      "dancer2": "Juliana Mansilla",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 8.65,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 8.2,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 8.5,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8.85,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 8.6,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 8.54,
+          "dropped": false
+        }
+      ],
+      "average": 8.557,
+      "officialAverage": 8.557,
+      "rankInBlock": 9,
+      "rankOverall": 9,
+      "classified": true,
+      "cutoffDelta": 0.119,
+      "spread": 0.65,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 83.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.856,
+          "percentile": 92.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.496,
+          "percentile": 62.4
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.557,
+          "percentile": 83.3
+        },
+        {
+          "stage": "final",
+          "average": 9.266,
+          "percentile": 36.8
+        }
+      ],
+      "overall": 68.8,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 549,
+      "round": "6",
+      "dancer1": "Lucas Guevara",
+      "dancer2": "Daniela Bravo",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 8.3,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 8.3,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 8.8,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8.55,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 8.8,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 8.55,
+          "dropped": false
+        }
+      ],
+      "average": 8.55,
+      "officialAverage": 8.55,
+      "rankInBlock": 10,
+      "rankOverall": 10,
+      "classified": true,
+      "cutoffDelta": 0.112,
+      "spread": 0.5,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 81.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.716,
+          "percentile": 82.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.95,
+          "percentile": 100
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.55,
+          "percentile": 81.3
+        },
+        {
+          "stage": "final",
+          "average": 9.036,
+          "percentile": 21.1
+        }
+      ],
+      "overall": 71.3,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 24,
+      "round": "5",
+      "dancer1": "Federico Paleo",
+      "dancer2": "Luciana Francheli",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 8.5,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 8.5,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 8.9,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8.75,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 8,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 8.51,
+          "dropped": false
+        }
+      ],
+      "average": 8.527,
+      "officialAverage": 8.527,
+      "rankInBlock": 11,
+      "rankOverall": 11,
+      "classified": true,
+      "cutoffDelta": 0.089,
+      "spread": 0.9,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 79.2,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.908,
+          "percentile": 96.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.316,
+          "percentile": 51.6
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.527,
+          "percentile": 79.2
+        },
+        {
+          "stage": "final",
+          "average": 9.304,
+          "percentile": 63.2
+        }
+      ],
+      "overall": 72.6,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 59,
+      "round": "1",
+      "dancer1": "Eber Alejandro Burger",
+      "dancer2": "Sabrina Noelia Nogueira",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 8.5,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 8.3,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 8.25,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8.95,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 8.65,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 8.5,
+          "dropped": false
+        }
+      ],
+      "average": 8.525,
+      "officialAverage": 8.525,
+      "rankInBlock": 12,
+      "rankOverall": 12,
+      "classified": true,
+      "cutoffDelta": 0.087,
+      "spread": 0.7,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 77.1,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.86,
+          "percentile": 93.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.93,
+          "percentile": 96.8
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.525,
+          "percentile": 77.1
+        },
+        {
+          "stage": "final",
+          "average": 9.3,
+          "percentile": 57.9
+        }
+      ],
+      "overall": 81.4,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 192,
+      "round": "6",
+      "dancer1": "Ariel Leguizamón",
+      "dancer2": "Yesica Esquivel",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 8.5,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 8.4,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 8.85,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8.6,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 8.8,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 7.97,
+          "dropped": false
+        }
+      ],
+      "average": 8.52,
+      "officialAverage": 8.52,
+      "rankInBlock": 13,
+      "rankOverall": 13,
+      "classified": true,
+      "cutoffDelta": 0.082,
+      "spread": 0.88,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 75,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.9,
+          "percentile": 95.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.381,
+          "percentile": 54.8
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.52,
+          "percentile": 75
+        },
+        {
+          "stage": "final",
+          "average": 9.146,
+          "percentile": 26.3
+        }
+      ],
+      "overall": 63,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 522,
+      "round": "2",
+      "dancer1": "Jorge Calabrigo",
+      "dancer2": "Tiziana Silva",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 8.7,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 8,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 8.5,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 9,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 8.7,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 8,
+          "dropped": false
+        }
+      ],
+      "average": 8.483,
+      "officialAverage": 8.483,
+      "rankInBlock": 14,
+      "rankOverall": 14,
+      "classified": true,
+      "cutoffDelta": 0.045,
+      "spread": 1,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 72.9,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.888,
+          "percentile": 94.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.93,
+          "percentile": 96.8
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.483,
+          "percentile": 72.9
+        },
+        {
+          "stage": "final",
+          "average": 9.381,
+          "percentile": 78.9
+        }
+      ],
+      "overall": 85.8,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 397,
+      "round": "6",
+      "dancer1": "Mateo Blandón",
+      "dancer2": "Valeria Villa",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 8.4,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 8.5,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 8.8,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8.4,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 8.6,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 8.06,
+          "dropped": false
+        }
+      ],
+      "average": 8.46,
+      "officialAverage": 8.46,
+      "rankInBlock": 15,
+      "rankOverall": 15,
+      "classified": true,
+      "cutoffDelta": 0.022,
+      "spread": 0.74,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 70.8,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.484,
+          "percentile": 66
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.174,
+          "percentile": 40.9
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.46,
+          "percentile": 70.8
+        },
+        {
+          "stage": "final",
+          "average": 8.607,
+          "percentile": 0
+        }
+      ],
+      "overall": 44.4,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 149,
+      "round": "3",
+      "dancer1": "Alexander Moncada Rojas",
+      "dancer2": "Martina Waldman",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 7.9,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 8.6,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 8.4,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8.78,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 8.6,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 8.4,
+          "dropped": false
+        }
+      ],
+      "average": 8.447,
+      "officialAverage": 8.447,
+      "rankInBlock": 16,
+      "rankOverall": 16,
+      "classified": true,
+      "cutoffDelta": 0.009,
+      "spread": 0.88,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 68.8,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.844,
+          "percentile": 92
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.436,
+          "percentile": 57
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.447,
+          "percentile": 68.8
+        },
+        {
+          "stage": "final",
+          "average": 9.234,
+          "percentile": 31.6
+        }
+      ],
+      "overall": 62.4,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 8,
+      "round": "5",
+      "dancer1": "Nelson Leiva",
+      "dancer2": "Evangelina Martínez",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 8.2,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 8.05,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 8.75,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8.95,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 8.2,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 8.49,
+          "dropped": false
+        }
+      ],
+      "average": 8.44,
+      "officialAverage": 8.44,
+      "rankInBlock": 17,
+      "rankOverall": 17,
+      "classified": true,
+      "cutoffDelta": 0.002,
+      "spread": 0.9,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 66.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.78,
+          "percentile": 85.2
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.23,
+          "percentile": 47.3
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.44,
+          "percentile": 66.7
+        },
+        {
+          "stage": "final",
+          "average": 9.297,
+          "percentile": 52.6
+        }
+      ],
+      "overall": 63,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 305,
+      "round": "4",
+      "dancer1": "Ariel Adrian Almiron",
+      "dancer2": "AluminéDeluchi",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 8.4,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 7.9,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 8.45,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8.95,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 8.6,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 8.33,
+          "dropped": false
+        }
+      ],
+      "average": 8.438,
+      "officialAverage": 8.438,
+      "rankInBlock": 18,
+      "rankOverall": 18,
+      "classified": true,
+      "cutoffDelta": 0,
+      "spread": 1.05,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 64.6,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.796,
+          "percentile": 87
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.782,
+          "percentile": 86
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.438,
+          "percentile": 64.6
+        },
+        {
+          "stage": "final",
+          "average": 8.943,
+          "percentile": 15.8
+        }
+      ],
+      "overall": 63.4,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 528,
+      "round": "2",
+      "dancer1": "Valentín Arias delgado",
+      "dancer2": "Diana Paola Franco Durango",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 8.2,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 8.1,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 8.85,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8.98,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 8.1,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 8.35,
+          "dropped": false
+        }
+      ],
+      "average": 8.43,
+      "officialAverage": 8.43,
+      "rankInBlock": 19,
+      "rankOverall": 19,
+      "classified": false,
+      "cutoffDelta": -0.008,
+      "spread": 0.88,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 62.5,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.98,
+          "percentile": 100
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.89,
+          "percentile": 92.5
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.43,
+          "percentile": 62.5
+        }
+      ],
+      "overall": 85,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 394,
+      "round": "1",
+      "dancer1": "Jesus Taborda",
+      "dancer2": "Carla Dominguez",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 8.1,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 8.2,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 8.75,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8.4,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 8.7,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 8.3,
+          "dropped": false
+        }
+      ],
+      "average": 8.408,
+      "officialAverage": 8.408,
+      "rankInBlock": 20,
+      "rankOverall": 20,
+      "classified": false,
+      "cutoffDelta": -0.03,
+      "spread": 0.65,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 60.4,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.914,
+          "percentile": 97.5
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.58,
+          "percentile": 74.2
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.408,
+          "percentile": 60.4
+        }
+      ],
+      "overall": 77.4,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 609,
+      "round": "6",
+      "dancer1": "juan manuel Rosales",
+      "dancer2": "Lisa Rosales",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 8.2,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 8.25,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 8.65,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8.6,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 8.3,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 8.08,
+          "dropped": false
+        }
+      ],
+      "average": 8.347,
+      "officialAverage": 8.347,
+      "rankInBlock": 21,
+      "rankOverall": 21,
+      "classified": false,
+      "cutoffDelta": -0.091,
+      "spread": 0.57,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 58.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.606,
+          "percentile": 74.1
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.814,
+          "percentile": 88.2
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.347,
+          "percentile": 58.3
+        }
+      ],
+      "overall": 73.5,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 532,
+      "round": "5",
+      "dancer1": "JORGE PADILLA",
+      "dancer2": "Ana Zoraida Gomez",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 8.2,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 8.6,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 8.7,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8.3,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 8,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 8.18,
+          "dropped": false
+        }
+      ],
+      "average": 8.33,
+      "officialAverage": 8.33,
+      "rankInBlock": 22,
+      "rankOverall": 22,
+      "classified": false,
+      "cutoffDelta": -0.108,
+      "spread": 0.7,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 56.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.93,
+          "percentile": 98.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.482,
+          "percentile": 61.3
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.33,
+          "percentile": 56.3
+        }
+      ],
+      "overall": 72.1,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 548,
+      "round": "6",
+      "dancer1": "Dmitrii Kuznetsov",
+      "dancer2": "Olga Nikolaeva",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 8.5,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 8.3,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 8.4,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8.6,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 8,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 8.12,
+          "dropped": false
+        }
+      ],
+      "average": 8.32,
+      "officialAverage": 8.32,
+      "rankInBlock": 23,
+      "rankOverall": 23,
+      "classified": false,
+      "cutoffDelta": -0.118,
+      "spread": 0.6,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 54.2,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.646,
+          "percentile": 78.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.821,
+          "percentile": 89.2
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.32,
+          "percentile": 54.2
+        }
+      ],
+      "overall": 73.9,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 284,
+      "round": "4",
+      "dancer1": "Fabrizio Fidel Muñoz Lopez",
+      "dancer2": "Federica Tobares",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 8.2,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 8,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 8.6,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8.35,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 8.7,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 7.99,
+          "dropped": false
+        }
+      ],
+      "average": 8.307,
+      "officialAverage": 8.307,
+      "rankInBlock": 24,
+      "rankOverall": 24,
+      "classified": false,
+      "cutoffDelta": -0.131,
+      "spread": 0.71,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 52.1,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.45,
+          "percentile": 63
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.57,
+          "percentile": 73.1
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.307,
+          "percentile": 52.1
+        }
+      ],
+      "overall": 62.7,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 767,
+      "round": "3",
+      "dancer1": "Mauro Caiazza",
+      "dancer2": "Sabrina Amuchastegui",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 8.2,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 8.3,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 8.65,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8.6,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 8,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 8.07,
+          "dropped": false
+        }
+      ],
+      "average": 8.303,
+      "officialAverage": 8.303,
+      "rankInBlock": 25,
+      "rankOverall": 25,
+      "classified": false,
+      "cutoffDelta": -0.135,
+      "spread": 0.65,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 50,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.72,
+          "percentile": 83.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.16,
+          "percentile": 38.7
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.303,
+          "percentile": 50
+        }
+      ],
+      "overall": 57.3,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 762,
+      "round": "2",
+      "dancer1": "juan cupini",
+      "dancer2": "Erica Rossi",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 8.2,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 7.95,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 8.7,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8.75,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 7.9,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 8.1,
+          "dropped": false
+        }
+      ],
+      "average": 8.267,
+      "officialAverage": 8.267,
+      "rankInBlock": 26,
+      "rankOverall": 26,
+      "classified": false,
+      "cutoffDelta": -0.171,
+      "spread": 0.85,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 47.9,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.588,
+          "percentile": 72.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.45,
+          "percentile": 59.1
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.267,
+          "percentile": 47.9
+        }
+      ],
+      "overall": 59.9,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 47,
+      "round": "2",
+      "dancer1": "Lisandro Eberle",
+      "dancer2": "Guadalupe Ponzelli",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 8.4,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 8.15,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 7.8,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8.97,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 8,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 8.2,
+          "dropped": false
+        }
+      ],
+      "average": 8.253,
+      "officialAverage": 8.253,
+      "rankInBlock": 27,
+      "rankOverall": 27,
+      "classified": false,
+      "cutoffDelta": -0.185,
+      "spread": 1.17,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 45.8,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.516,
+          "percentile": 67.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.54,
+          "percentile": 68.8
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.253,
+          "percentile": 45.8
+        }
+      ],
+      "overall": 60.6,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 505,
+      "round": "5",
+      "dancer1": "Juan Francisco Seguí",
+      "dancer2": "Giovanna di Vincenzo",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 7.9,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 8.2,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 8.8,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8.8,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 7.7,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 8.09,
+          "dropped": false
+        }
+      ],
+      "average": 8.248,
+      "officialAverage": 8.248,
+      "rankInBlock": 28,
+      "rankOverall": 28,
+      "classified": false,
+      "cutoffDelta": -0.19,
+      "spread": 1.1,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 43.8,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.82,
+          "percentile": 90.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.369,
+          "percentile": 53.8
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.248,
+          "percentile": 43.8
+        }
+      ],
+      "overall": 62.8,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 253,
+      "round": "6",
+      "dancer1": "Jesus Paez",
+      "dancer2": "IARA DUARTE",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 8.3,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 8.1,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 8.3,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8.75,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 7.9,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 8.01,
+          "dropped": false
+        }
+      ],
+      "average": 8.227,
+      "officialAverage": 8.227,
+      "rankInBlock": 29,
+      "rankOverall": 29,
+      "classified": false,
+      "cutoffDelta": -0.211,
+      "spread": 0.85,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 41.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.692,
+          "percentile": 82.1
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.211,
+          "percentile": 45.2
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.227,
+          "percentile": 41.7
+        }
+      ],
+      "overall": 56.3,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 480,
+      "round": "3",
+      "dancer1": "Adriel Cristhian Bournissen",
+      "dancer2": "Maria Soledad Mallo",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 7.9,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 7.4,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 8.65,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8.75,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 8.1,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 8.38,
+          "dropped": false
+        }
+      ],
+      "average": 8.197,
+      "officialAverage": 8.197,
+      "rankInBlock": 30,
+      "rankOverall": 30,
+      "classified": false,
+      "cutoffDelta": -0.241,
+      "spread": 1.35,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 39.6,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.626,
+          "percentile": 77.2
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.2,
+          "percentile": 44.1
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.197,
+          "percentile": 39.6
+        }
+      ],
+      "overall": 53.6,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 559,
+      "round": "4",
+      "dancer1": "Yeferson Orrego",
+      "dancer2": "Andres Olaya",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 8.2,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 8.25,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 8,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 7.85,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 8.45,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 8.34,
+          "dropped": false
+        }
+      ],
+      "average": 8.182,
+      "officialAverage": 8.182,
+      "rankInBlock": 31,
+      "rankOverall": 31,
+      "classified": false,
+      "cutoffDelta": -0.256,
+      "spread": 0.6,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 37.5,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.842,
+          "percentile": 91.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.19,
+          "percentile": 41.9
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.182,
+          "percentile": 37.5
+        }
+      ],
+      "overall": 56.9,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 351,
+      "round": "1",
+      "dancer1": "Juan fernando Cabral",
+      "dancer2": "Laura Castiñeiras",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 8.2,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 7.85,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 8.85,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8.4,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 7.8,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 7.95,
+          "dropped": false
+        }
+      ],
+      "average": 8.175,
+      "officialAverage": 8.175,
+      "rankInBlock": 32,
+      "rankOverall": 32,
+      "classified": false,
+      "cutoffDelta": -0.263,
+      "spread": 1.05,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 35.4,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.91,
+          "percentile": 96.9
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.84,
+          "percentile": 91.4
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.175,
+          "percentile": 35.4
+        }
+      ],
+      "overall": 74.6,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 245,
+      "round": "5",
+      "dancer1": "Artem Luchin",
+      "dancer2": "Polina Luchina",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 8.2,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 7.9,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 8.6,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8.45,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 7.6,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 8.01,
+          "dropped": false
+        }
+      ],
+      "average": 8.127,
+      "officialAverage": 8.127,
+      "rankInBlock": 33,
+      "rankOverall": 33,
+      "classified": false,
+      "cutoffDelta": -0.311,
+      "spread": 1,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 33.3,
+      "stageStandings": [
+        {
+          "stage": "cuartos",
+          "average": 7.666,
+          "percentile": 81.7
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.127,
+          "percentile": 33.3
+        }
+      ],
+      "overall": 57.5,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 632,
+      "round": "2",
+      "dancer1": "Ramiro Nicolas Almiron",
+      "dancer2": "Laly Torres",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 8.5,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 7.9,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 7.4,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8.75,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 8.1,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 8,
+          "dropped": false
+        }
+      ],
+      "average": 8.108,
+      "officialAverage": 8.108,
+      "rankInBlock": 34,
+      "rankOverall": 34,
+      "classified": false,
+      "cutoffDelta": -0.33,
+      "spread": 1.35,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 31.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.814,
+          "percentile": 88.9
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.702,
+          "percentile": 82.8
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.108,
+          "percentile": 31.3
+        }
+      ],
+      "overall": 67.7,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 166,
+      "round": "3",
+      "dancer1": "Leandro Capparelli",
+      "dancer2": "Jeannette Erazú",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 8,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 7.8,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 8.55,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 8.2,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 8.02,
+          "dropped": false
+        }
+      ],
+      "average": 8.095,
+      "officialAverage": 8.095,
+      "rankInBlock": 35,
+      "rankOverall": 35,
+      "classified": false,
+      "cutoffDelta": -0.343,
+      "spread": 0.75,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 29.2,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.67,
+          "percentile": 80.2
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.276,
+          "percentile": 49.5
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.095,
+          "percentile": 29.2
+        }
+      ],
+      "overall": 53,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 185,
+      "round": "4",
+      "dancer1": "SANTIAGO SALAZAR BOTERO",
+      "dancer2": "MARIA ALEJANDRA OSPINA MARIN",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 7.5,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 8.1,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 7.7,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8.1,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 8.65,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 8.52,
+          "dropped": false
+        }
+      ],
+      "average": 8.095,
+      "officialAverage": 8.095,
+      "rankInBlock": 35,
+      "rankOverall": 35,
+      "classified": false,
+      "cutoffDelta": -0.343,
+      "spread": 1.15,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 29.2,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.65,
+          "percentile": 79.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.33,
+          "percentile": 52.7
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.095,
+          "percentile": 29.2
+        }
+      ],
+      "overall": 53.8,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 169,
+      "round": "2",
+      "dancer1": "Luciano Capparelli",
+      "dancer2": "Rocio De los santos",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 8.2,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 8.2,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 7.95,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8.5,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 7.5,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 8.2,
+          "dropped": false
+        }
+      ],
+      "average": 8.092,
+      "officialAverage": 8.092,
+      "rankInBlock": 37,
+      "rankOverall": 37,
+      "classified": false,
+      "cutoffDelta": -0.346,
+      "spread": 1,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 25,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.61,
+          "percentile": 75.9
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.62,
+          "percentile": 77.4
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.092,
+          "percentile": 25
+        }
+      ],
+      "overall": 59.4,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 20,
+      "round": "5",
+      "dancer1": "Matteo Antonietti",
+      "dancer2": "Añes Rosario Arredondo Maiztegui",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 8.2,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 7.3,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 8.65,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8.5,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 7.7,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 7.98,
+          "dropped": false
+        }
+      ],
+      "average": 8.055,
+      "officialAverage": 8.055,
+      "rankInBlock": 38,
+      "rankOverall": 38,
+      "classified": false,
+      "cutoffDelta": -0.383,
+      "spread": 1.35,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 22.9,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.566,
+          "percentile": 71
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.636,
+          "percentile": 79.6
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.055,
+          "percentile": 22.9
+        }
+      ],
+      "overall": 57.8,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 283,
+      "round": "6",
+      "dancer1": "Maximiliano Astorga",
+      "dancer2": "Rocio Sanchez",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 7.8,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 7.4,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 8.4,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 7.9,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 8,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 7.95,
+          "dropped": false
+        }
+      ],
+      "average": 7.908,
+      "officialAverage": 7.908,
+      "rankInBlock": 39,
+      "rankOverall": 39,
+      "classified": false,
+      "cutoffDelta": -0.53,
+      "spread": 1,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 20.8,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.646,
+          "percentile": 78.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.616,
+          "percentile": 76.3
+        },
+        {
+          "stage": "semifinal",
+          "average": 7.908,
+          "percentile": 20.8
+        }
+      ],
+      "overall": 58.5,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 525,
+      "round": "3",
+      "dancer1": "Fabian Rodriguez",
+      "dancer2": "Eliana Gisela Mola",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 8.1,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 7.1,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 8,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8.7,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 7.3,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 8.05,
+          "dropped": false
+        }
+      ],
+      "average": 7.875,
+      "officialAverage": 7.875,
+      "rankInBlock": 40,
+      "rankOverall": 40,
+      "classified": false,
+      "cutoffDelta": -0.563,
+      "spread": 1.6,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 18.8,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.328,
+          "percentile": 56.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.766,
+          "percentile": 84.9
+        },
+        {
+          "stage": "semifinal",
+          "average": 7.875,
+          "percentile": 18.8
+        }
+      ],
+      "overall": 53.5,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 343,
+      "round": "5",
+      "dancer1": "LUIS EMILIO CAPPELLETTI",
+      "dancer2": "vittoria franchina",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 7.4,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 7.2,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 8.3,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8.55,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 7.9,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 7.73,
+          "dropped": false
+        }
+      ],
+      "average": 7.847,
+      "officialAverage": 7.847,
+      "rankInBlock": 41,
+      "rankOverall": 41,
+      "classified": false,
+      "cutoffDelta": -0.591,
+      "spread": 1.35,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 16.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.366,
+          "percentile": 59.9
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.6,
+          "percentile": 75.3
+        },
+        {
+          "stage": "semifinal",
+          "average": 7.847,
+          "percentile": 16.7
+        }
+      ],
+      "overall": 50.6,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 158,
+      "round": "3",
+      "dancer1": "Nahuel Esteban Mansilla",
+      "dancer2": "Maria Tatiana Bernacki",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 7.9,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 6.8,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 8.6,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8.45,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 7.35,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 7.65,
+          "dropped": false
+        }
+      ],
+      "average": 7.792,
+      "officialAverage": 7.792,
+      "rankInBlock": 42,
+      "rankOverall": 42,
+      "classified": false,
+      "cutoffDelta": -0.646,
+      "spread": 1.8,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 14.6,
+      "stageStandings": [
+        {
+          "stage": "semifinal",
+          "average": 7.792,
+          "percentile": 14.6
+        }
+      ],
+      "overall": 14.6,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 124,
+      "round": "4",
+      "dancer1": "Emmanuel Roberto Marin",
+      "dancer2": "Lola Gutierrez Rey",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 7.4,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 7.9,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 7.75,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 7.8,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 7.4,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 8.48,
+          "dropped": false
+        }
+      ],
+      "average": 7.788,
+      "officialAverage": 7.788,
+      "rankInBlock": 43,
+      "rankOverall": 43,
+      "classified": false,
+      "cutoffDelta": -0.65,
+      "spread": 1.08,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 12.5,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.422,
+          "percentile": 62.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.289,
+          "percentile": 50.5
+        },
+        {
+          "stage": "semifinal",
+          "average": 7.788,
+          "percentile": 12.5
+        }
+      ],
+      "overall": 41.8,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 547,
+      "round": "1",
+      "dancer1": "Timofei Filippov",
+      "dancer2": "Olga Domashova",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 8.1,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 7.33,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 7.8,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8.1,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 7.4,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 7.8,
+          "dropped": false
+        }
+      ],
+      "average": 7.755,
+      "officialAverage": 7.755,
+      "rankInBlock": 44,
+      "rankOverall": 44,
+      "classified": false,
+      "cutoffDelta": -0.683,
+      "spread": 0.77,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 10.4,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.246,
+          "percentile": 50.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.626,
+          "percentile": 78.5
+        },
+        {
+          "stage": "semifinal",
+          "average": 7.755,
+          "percentile": 10.4
+        }
+      ],
+      "overall": 46.5,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 479,
+      "round": "1",
+      "dancer1": "Facundo Vilches",
+      "dancer2": "Irina Cristoff Veleff",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 7.8,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 7.3,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 7.5,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 7.7,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 7.7,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 7.9,
+          "dropped": false
+        }
+      ],
+      "average": 7.65,
+      "officialAverage": 7.65,
+      "rankInBlock": 45,
+      "rankOverall": 45,
+      "classified": false,
+      "cutoffDelta": -0.788,
+      "spread": 0.6,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 8.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.816,
+          "percentile": 90.1
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.788,
+          "percentile": 87.1
+        },
+        {
+          "stage": "semifinal",
+          "average": 7.65,
+          "percentile": 8.3
+        }
+      ],
+      "overall": 61.8,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 262,
+      "round": "2",
+      "dancer1": "Valentin Bobkov",
+      "dancer2": "Katerina Tsybrova",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 7.75,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 7,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 7.9,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8.1,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 7.2,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 7.7,
+          "dropped": false
+        }
+      ],
+      "average": 7.608,
+      "officialAverage": 7.608,
+      "rankInBlock": 46,
+      "rankOverall": 46,
+      "classified": false,
+      "cutoffDelta": -0.83,
+      "spread": 1.1,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 6.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.468,
+          "percentile": 64.2
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.57,
+          "percentile": 73.1
+        },
+        {
+          "stage": "semifinal",
+          "average": 7.608,
+          "percentile": 6.3
+        }
+      ],
+      "overall": 47.9,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 285,
+      "round": "4",
+      "dancer1": "Iván Saucedo",
+      "dancer2": "Camila Alvarez",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 7.9,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 7.95,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 8.5,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 7,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 7.2,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 7,
+          "dropped": false
+        }
+      ],
+      "average": 7.592,
+      "officialAverage": 7.592,
+      "rankInBlock": 47,
+      "rankOverall": 47,
+      "classified": false,
+      "cutoffDelta": -0.846,
+      "spread": 1.5,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 4.2,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.468,
+          "percentile": 64.2
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.166,
+          "percentile": 39.8
+        },
+        {
+          "stage": "semifinal",
+          "average": 7.592,
+          "percentile": 4.2
+        }
+      ],
+      "overall": 36.1,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 424,
+      "round": "1",
+      "dancer1": "Diego ali Delgado",
+      "dancer2": "Tamara Borda",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 7.5,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 7.5,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 7,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 7.8,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 7.8,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 7.65,
+          "dropped": false
+        }
+      ],
+      "average": 7.542,
+      "officialAverage": 7.542,
+      "rankInBlock": 48,
+      "rankOverall": 48,
+      "classified": false,
+      "cutoffDelta": -0.896,
+      "spread": 0.8,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 2.1,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.558,
+          "percentile": 69.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.566,
+          "percentile": 71
+        },
+        {
+          "stage": "semifinal",
+          "average": 7.542,
+          "percentile": 2.1
+        }
+      ],
+      "overall": 47.6,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 64,
+      "round": "1",
+      "dancer1": "Pablo Nahuel Conde",
+      "dancer2": "Aldana Paula Jimenez",
+      "judges": [
+        {
+          "name": "Juan Paulo Horvart",
+          "score": 7.5,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 7.2,
+          "dropped": false
+        },
+        {
+          "name": "Veronica Gardella",
+          "score": 7.2,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 7.85,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 7.4,
+          "dropped": false
+        },
+        {
+          "name": "Leonardo Cuello",
+          "score": 7.3,
+          "dropped": false
+        }
+      ],
+      "average": 7.408,
+      "officialAverage": 7.408,
+      "rankInBlock": 49,
+      "rankOverall": 49,
+      "classified": false,
+      "cutoffDelta": -1.03,
+      "spread": 0.65,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 0,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.54,
+          "percentile": 68.5
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.556,
+          "percentile": 69.9
+        },
+        {
+          "stage": "semifinal",
+          "average": 7.408,
+          "percentile": 0
+        }
+      ],
+      "overall": 46.1,
+      "lastStageReached": "semifinal"
+    }
+  ],
+  "mismatches": []
+}

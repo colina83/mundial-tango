@@ -1,4 +1,4 @@
-import type { BlockId, Dataset, Stage } from "../types";
+import type { BlockId, Category, Dataset, Stage } from "../types";
 import { STAGE_ORDER } from "./year";
 
 export interface StageCell {
@@ -21,12 +21,20 @@ export interface JourneyRow {
 
 const STAGE_PREF: Stage[] = ["clasificatoria", "cuartos", "semifinal", "final"];
 
-export async function loadYearDatasets(year: number, stages: Stage[]): Promise<Dataset[]> {
+export async function loadYearDatasets(
+  year: number,
+  stages: Stage[],
+  category: Category = "pista",
+): Promise<Dataset[]> {
   const out: Dataset[] = [];
+  const prefix =
+    category === "escenario"
+      ? `${import.meta.env.BASE_URL}data/${year}/escenario`
+      : `${import.meta.env.BASE_URL}data/${year}`;
   for (const stage of stages) {
-    const yearUrl = `${import.meta.env.BASE_URL}data/${year}/results-${stage}.json`;
+    const yearUrl = `${prefix}/results-${stage}.json`;
     let res = await fetch(yearUrl);
-    if (!res.ok && year === 2026) {
+    if (!res.ok && year === 2026 && category === "pista") {
       res = await fetch(`${import.meta.env.BASE_URL}data/results-${stage}.json`);
       if (!res.ok && stage === "clasificatoria") {
         res = await fetch(`${import.meta.env.BASE_URL}data/results.json`);
@@ -76,8 +84,16 @@ export function buildJourneys(datasets: Dataset[]): JourneyRow[] {
     }
   }
 
-  const finalDs = ordered.find((d) => d.stage === "final");
-  const champId = finalDs?.rows.find((r) => r.rankOverall === 1)?.coupleId;
+  // Highest average in the latest published stage — not "champion" until
+  // Tango BA posts a final, and never a global percentile crown.
+  const latest = ordered[ordered.length - 1];
+  const champId = latest
+    ? [...latest.rows].reduce<(typeof latest.rows)[number] | undefined>((best, row) => {
+        if (!best) return row;
+        if (row.average !== best.average) return row.average > best.average ? row : best;
+        return row.rankOverall < best.rankOverall ? row : best;
+      }, undefined)?.coupleId
+    : undefined;
 
   for (const journey of byId.values()) {
     if (champId != null && journey.coupleId === champId) journey.champion = true;
@@ -105,8 +121,8 @@ export function buildJourneys(datasets: Dataset[]): JourneyRow[] {
   return [...byId.values()];
 }
 
-export function dossierPath(year: number, row: JourneyRow): string {
+export function dossierPath(year: number, row: JourneyRow, category: Category = "pista"): string {
   const stage = row.lastStageReached ?? "clasificatoria";
   const block = row.byStage[stage]?.blockId ?? row.blockId;
-  return `/${year}/pareja/${block}/${row.coupleId}?stage=${stage}`;
+  return `/${year}/${category}/pareja/${block}/${row.coupleId}?stage=${stage}`;
 }

@@ -4,9 +4,9 @@ Unofficial fan companion for **Tango BA Mundial de Baile 2026** results, publish
 
 Always **Fuente: Tango BA**. Not affiliated with Tango BA or the championship.
 
-v1 tracks **Tango de pista · clasificatorias** (blocks A–D). The pipeline is now multi-stage: as Tango BA publishes cuartos, semifinal, and final results, the app detects and ingests them automatically — no manual code changes required for each new stage.
+v1 tracks **Tango de pista** and **Tango escenario**, 2024–2026. Each category has the same screens (dashboard, rankings, stats, couple dossier). The pipeline is multi-stage: as Tango BA publishes cuartos, semifinal, and final results, the app detects and ingests them automatically — no manual code changes required for each new stage.
 
-Official source: [Resultados Clasificatoria Tango de Pista 2026](https://tangoba.org/resultados-clasificatoria-tango-de-pista-2026/)
+Official sources: [Pista clasificatoria 2026](https://tangoba.org/resultados-clasificatoria-tango-de-pista-2026/) · [Escenario clasificatoria 2026](https://tangoba.org/resultados-clasificatoria-tango-escenario-2026/)
 
 ## Requirements
 
@@ -57,12 +57,12 @@ The ingest pipeline supports all four stages: `clasificatoria`, `cuartos`, `semi
 1. Fetches the stage's source page to discover PDF links
 2. If the page returns 404 or has no PDFs, **skips the stage gracefully** (logs and continues)
 3. Logs **"detected for the first time"** the first time a new stage's results appear
-4. Downloads PDFs identified by SHA-256 hash into `data/raw/{stage}/` (no re-downloads of unchanged files)
+4. Downloads PDFs identified by SHA-256 hash into `data/raw/{stage}/` (pista) or `data/raw/escenario/{stage}/` (escenario)
 5. Parses PDFs and writes:
-   - `data/processed/results-{stage}.json`
-   - `public/data/results-{stage}.json`
-6. Updates `public/data/manifest.json` listing which stages have data and their timestamps
-7. Keeps `public/data/results.json` / `data/processed/results.json` as the backward-compatible clasificatoria file
+   - Pista: `public/data/{year}/results-{stage}.json` (plus legacy `public/data/results-*.json` for 2026)
+   - Escenario: `public/data/{year}/escenario/results-{stage}.json`
+6. Updates each category's `manifest.json` and `catalog.json` (year + category entries)
+7. Fits **separate** survival models — pista odds never reuse escenario data, and vice versa
 
 ### Stage-awareness in the frontend
 

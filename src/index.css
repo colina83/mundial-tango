@@ -192,7 +192,15 @@ h3 {
   overflow: hidden;
 }
 
-.lang-toggle button {
+.cat-toggle {
+  display: flex;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.lang-toggle button,
+.cat-toggle button {
   background: transparent;
   color: var(--muted);
   border: 0;
@@ -202,7 +210,8 @@ h3 {
   font-size: 0.75rem;
 }
 
-.lang-toggle button.is-active {
+.lang-toggle button.is-active,
+.cat-toggle button.is-active {
   background: var(--panel);
   color: var(--text);
 }
@@ -1450,6 +1459,14 @@ select {
   margin: 4px 0 8px;
 }
 
+.year-section {
+  margin-top: 22px;
+}
+
+.year-section .year-gate-kicker {
+  margin-bottom: 8px;
+}
+
 .year-cards {
   display: grid;
   gap: 14px;
@@ -1559,11 +1576,15 @@ select {
 }
 
 .champ-kicker {
-  margin: 0 0 4px;
+  margin: 0 0 2px;
   font-size: 0.72rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--gold);
+}
+
+.champion-panel .champ-kicker + .tiny {
+  margin: 0 0 10px;
 }
 
 .champ-head {

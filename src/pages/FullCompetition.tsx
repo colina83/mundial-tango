@@ -86,7 +86,7 @@ function TrajectorySpark({
 }
 
 export function FullCompetition() {
-  const { year, manifest } = useData();
+  const { year, category, manifest } = useData();
   const { t } = useI18n();
   const [rows, setRows] = useState<JourneyRow[] | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -103,7 +103,7 @@ export function FullCompetition() {
     let cancelled = false;
     setRows(null);
     setError(null);
-    loadYearDatasets(year, stages)
+    loadYearDatasets(year, stages, category)
       .then((datasets) => {
         if (!cancelled) setRows(buildJourneys(datasets));
       })
@@ -113,9 +113,11 @@ export function FullCompetition() {
     return () => {
       cancelled = true;
     };
-  }, [year, stages.join("|")]);
+  }, [year, category, stages.join("|")]);
 
   const champion = rows?.find((r) => r.champion);
+  const hasFinal = stages.includes("final");
+  const leaderKicker = hasFinal ? t("fullLeader") : t("fullLeaderSoFar");
 
   const visible = useMemo(() => {
     if (!rows) return [];
@@ -164,9 +166,10 @@ export function FullCompetition() {
 
       {champion && (
         <section className="panel champion-panel">
-          <p className="champ-kicker">{t("fullChampion")}</p>
+          <p className="champ-kicker">{leaderKicker}</p>
+          <p className="muted tiny">{t("fullLeaderByAverage")}</p>
           <div className="champ-head">
-            <Link className="couple-num" to={dossierPath(year, champion)}>
+            <Link className="couple-num" to={dossierPath(year, champion, category)}>
               #{champion.coupleId}
             </Link>
             <h2>
@@ -194,10 +197,6 @@ export function FullCompetition() {
                 </div>
               );
             })}
-            <div className="champ-stage has">
-              <span className="champ-stage-label">{t("overall")}</span>
-              <strong>{formatOverall(champion.overall)}</strong>
-            </div>
           </div>
         </section>
       )}
@@ -261,12 +260,12 @@ export function FullCompetition() {
               {visible.map((row) => (
                 <tr key={row.coupleId} className={row.champion ? "is-champion" : ""}>
                   <td>
-                    <Link className="couple-num" to={dossierPath(year, row)}>
+                    <Link className="couple-num" to={dossierPath(year, row, category)}>
                       {row.coupleId}
                     </Link>
                   </td>
                   <td>
-                    <Link to={dossierPath(year, row)}>
+                    <Link to={dossierPath(year, row, category)}>
                       {row.dancer1}
                       <span className="amp"> & </span>
                       {row.dancer2}

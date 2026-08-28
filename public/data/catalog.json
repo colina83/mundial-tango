@@ -3,6 +3,21 @@
   "years": [
     {
       "year": 2026,
+      "category": "escenario",
+      "status": "live",
+      "scoring": "trimmed",
+      "complete": false,
+      "hasBlocks": true,
+      "stages": [
+        "clasificatoria"
+      ],
+      "rowCounts": {
+        "clasificatoria": 136
+      }
+    },
+    {
+      "year": 2026,
+      "category": "pista",
       "status": "live",
       "scoring": "trimmed",
       "complete": false,
@@ -20,6 +35,27 @@
     },
     {
       "year": 2025,
+      "category": "escenario",
+      "status": "archive",
+      "scoring": "simple",
+      "complete": true,
+      "hasBlocks": true,
+      "stages": [
+        "clasificatoria",
+        "cuartos",
+        "semifinal",
+        "final"
+      ],
+      "rowCounts": {
+        "clasificatoria": 163,
+        "cuartos": 94,
+        "semifinal": 49,
+        "final": 20
+      }
+    },
+    {
+      "year": 2025,
+      "category": "pista",
       "status": "archive",
       "scoring": "simple",
       "complete": true,
@@ -39,6 +75,25 @@
     },
     {
       "year": 2024,
+      "category": "escenario",
+      "status": "archive",
+      "scoring": "simple",
+      "complete": true,
+      "hasBlocks": false,
+      "stages": [
+        "clasificatoria",
+        "semifinal",
+        "final"
+      ],
+      "rowCounts": {
+        "clasificatoria": 144,
+        "semifinal": 61,
+        "final": 20
+      }
+    },
+    {
+      "year": 2024,
+      "category": "pista",
       "status": "archive",
       "scoring": "simple",
       "complete": true,

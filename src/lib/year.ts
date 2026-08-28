@@ -1,4 +1,4 @@
-import type { Dataset, Stage, StageManifest, TrackedYear } from "../types";
+import type { Category, Dataset, Stage, StageManifest, TrackedYear } from "../types";
 
 export const TRACKED_YEARS: TrackedYear[] = [2026, 2025, 2024];
 
@@ -20,9 +20,15 @@ export function hasFullCompetition(
   return (manifest?.stages.length ?? 0) > 1;
 }
 
-export function yearPath(year: number, rest = ""): string {
+export const CATEGORIES: Category[] = ["pista", "escenario"];
+
+export function isCategory(value: string | null | undefined): value is Category {
+  return value === "pista" || value === "escenario";
+}
+
+export function yearPath(year: number, rest = "", category: Category = "pista"): string {
   const tail = rest.startsWith("/") ? rest : rest ? `/${rest}` : "";
-  return `/${year}${tail}`;
+  return `/${year}/${category}${tail}`;
 }
 
 export function hasDistinctBlocks(data: Dataset): boolean {
