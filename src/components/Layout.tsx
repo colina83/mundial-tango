@@ -11,9 +11,13 @@ export function Layout() {
   const navigate = useNavigate();
   const location = useLocation();
 
-  const stages = visibleStages(year);
   const published = publishedStages(manifest?.stages);
   const availableStages = new Set(published.length ? published : ["clasificatoria"]);
+  const allStages = visibleStages(year);
+  // Live year: only tabs with real results. Fake final (copied cuartos counts) stays hidden.
+  const stages = year === 2026
+    ? allStages.filter((s) => availableStages.has(s))
+    : allStages;
   const showWatchlist = hasWatchlist(year);
   const showFull = hasFullCompetition(manifest, year);
   const hideStageBar = location.pathname.includes("/full");
