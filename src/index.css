@@ -1744,3 +1744,337 @@ select {
 .traj-spark.is-large .traj-dot {
   fill: var(--gold);
 }
+
+/* ── Picks page ─────────────────────────────────────────── */
+
+.picks-page {
+  gap: 20px;
+}
+
+.picks-hero {
+  background:
+    linear-gradient(135deg, rgba(227, 179, 65, 0.14), transparent 42%),
+    var(--panel);
+}
+
+.picks-hero .hero-kicker {
+  color: var(--gold);
+}
+
+.picks-form-panel h2 {
+  margin-bottom: 14px;
+}
+
+.picks-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.picks-voter-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.picks-field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.picks-field label {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+}
+
+.picks-field--wide {
+  grid-column: 1 / -1;
+}
+
+.picks-slot-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.picks-slot {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.picks-slot-emoji {
+  font-size: 1.6rem;
+  line-height: 1;
+  margin-top: 22px;
+  flex-shrink: 0;
+}
+
+.picks-slot > .couple-picker {
+  flex: 1;
+}
+
+.picks-error {
+  color: var(--danger);
+  font-size: 0.88rem;
+  margin: 0;
+}
+
+.picks-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-primary {
+  background: var(--pink);
+  color: #fff;
+  border-color: var(--pink);
+  font-weight: 600;
+  padding: 10px 24px;
+  font-size: 0.95rem;
+}
+
+.btn-primary:hover {
+  opacity: 0.88;
+}
+
+.picks-submit {
+  min-width: 180px;
+}
+
+/* CouplePickerInput */
+.couple-picker {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.couple-picker-label {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+}
+
+.couple-picker-field {
+  position: relative;
+}
+
+.couple-picker-input {
+  width: 100%;
+}
+
+.couple-picker-dropdown {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  z-index: 30;
+  background: var(--panel-2);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  margin: 0;
+  padding: 4px 0;
+  list-style: none;
+  max-height: 260px;
+  overflow-y: auto;
+  box-shadow: var(--shadow);
+}
+
+.couple-picker-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 12px;
+  cursor: pointer;
+  transition: background 0.1s;
+}
+
+.couple-picker-option:hover {
+  background: var(--panel);
+}
+
+.couple-picker-option-id {
+  font-family: var(--display);
+  font-size: 1.1rem;
+  color: var(--pink);
+  min-width: 3rem;
+}
+
+.couple-picker-option-name {
+  color: var(--text);
+  font-size: 0.9rem;
+}
+
+.couple-picker-chosen {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--pink-dim);
+  border: 1px solid rgba(247, 120, 186, 0.4);
+  border-radius: 10px;
+  padding: 9px 12px;
+}
+
+.couple-picker-id {
+  font-family: var(--display);
+  font-size: 1.2rem;
+  color: var(--pink);
+}
+
+.couple-picker-name {
+  flex: 1;
+  font-size: 0.9rem;
+}
+
+.couple-picker-clear {
+  background: none;
+  border: none;
+  color: var(--muted);
+  font-size: 1.3rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0 2px;
+}
+
+.couple-picker-clear:hover {
+  color: var(--danger);
+}
+
+/* My picks summary */
+.picks-summary h2 {
+  margin-bottom: 4px;
+}
+
+.picks-my-list {
+  list-style: none;
+  margin: 14px 0 16px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.picks-my-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--panel-2);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 10px 14px;
+}
+
+.picks-my-id {
+  font-family: var(--display);
+  font-size: 1.2rem;
+  color: var(--pink);
+  min-width: 3.5rem;
+}
+
+.picks-my-name {
+  font-size: 0.92rem;
+}
+
+.picks-edit-btn {
+  margin-top: 4px;
+}
+
+/* Community board */
+.picks-board-count {
+  font-family: var(--font);
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--muted);
+}
+
+.picks-board-wrap {
+  overflow-x: auto;
+  margin-top: 12px;
+}
+
+.picks-board {
+  min-width: 520px;
+}
+
+.picks-board-pos {
+  color: var(--muted);
+  font-size: 0.85rem;
+  width: 2rem;
+}
+
+.picks-board-names {
+  font-size: 0.9rem;
+}
+
+.picks-board-medal {
+  text-align: center;
+  font-size: 0.95rem;
+  min-width: 2.5rem;
+}
+
+/* Voters list */
+.picks-voters-details {
+  margin-top: 18px;
+  border-top: 1px solid var(--border);
+  padding-top: 14px;
+}
+
+.picks-voters-toggle {
+  cursor: pointer;
+  font-size: 0.85rem;
+  color: var(--muted);
+  list-style: none;
+  user-select: none;
+}
+
+.picks-voters-toggle::-webkit-details-marker {
+  display: none;
+}
+
+.picks-voters-toggle::before {
+  content: "▸ ";
+}
+
+details[open] .picks-voters-toggle::before {
+  content: "▾ ";
+}
+
+.picks-voters-list {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.picks-voter-row {
+  font-size: 0.88rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+}
+
+.picks-voter-picks {
+  margin-left: auto;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+@media (min-width: 640px) {
+  .picks-voter-row {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 768px) {
+  .picks-voter-row {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}

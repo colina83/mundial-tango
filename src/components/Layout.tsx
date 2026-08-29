@@ -78,6 +78,9 @@ export function Layout() {
               <NavLink to={`${base}/watchlist`}>{t("navWatchlist")}</NavLink>
             )}
             {showFull && <NavLink to={`${base}/full`}>{t("navFull")}</NavLink>}
+            {year === 2026 && (
+              <NavLink to={`${base}/picks`}>{t("navPicks")}</NavLink>
+            )}
           </nav>
           <div className="topbar-actions">
             <div className="cat-toggle-desk">{categoryToggle("desk")}</div>
@@ -201,6 +204,12 @@ export function Layout() {
             {t("navFull")}
           </NavLink>
         )}
+        {year === 2026 && (
+          <NavLink to={`${base}/picks`}>
+            <TrophyIcon />
+            {t("navPicks")}
+          </NavLink>
+        )}
       </nav>
     </div>
   );
@@ -242,6 +251,16 @@ function PinIcon() {
     <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="1.8">
       <path d="M12 21s7-5.4 7-11a7 7 0 1 0-14 0c0 5.6 7 11 7 11z" />
       <circle cx="12" cy="10" r="2" />
+    </svg>
+  );
+}
+
+function TrophyIcon() {
+  return (
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="1.8">
+      <path d="M6 2h12v7a6 6 0 0 1-12 0V2z" />
+      <path d="M6 5H3a2 2 0 0 0 0 4h3M18 5h3a2 2 0 0 0 0 4h-3" />
+      <path d="M12 15v4M8 21h8" />
     </svg>
   );
 }

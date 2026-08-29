@@ -11,11 +11,13 @@ import { Analytics } from "@vercel/analytics/react";
 import { Layout } from "./components/Layout";
 import { DataProvider } from "./context/DataContext";
 import { I18nProvider } from "./context/I18nContext";
+import { PicksProvider } from "./context/PicksContext";
 import { WatchlistProvider } from "./context/WatchlistContext";
 import { hasWatchlist, isCategory, isTrackedYear } from "./lib/year";
 import { CoupleDossier } from "./pages/CoupleDossier";
 import { Dashboard } from "./pages/Dashboard";
 import { FullCompetition } from "./pages/FullCompetition";
+import { Picks } from "./pages/Picks";
 import { Rankings } from "./pages/Rankings";
 import { WatchlistPage } from "./pages/Watchlist";
 import { YearLanding } from "./pages/YearLanding";
@@ -68,6 +70,7 @@ export default function App() {
   return (
     <I18nProvider>
       <WatchlistProvider>
+        <PicksProvider>
         <BrowserRouter basename={basename === "/" ? undefined : basename}>
           <Routes>
             <Route path="/" element={<YearLanding />} />
@@ -89,11 +92,13 @@ export default function App() {
                 }
               />
               <Route path="watchlist" element={<WatchlistGate />} />
+              <Route path="picks" element={<Picks />} />
             </Route>
             <Route path=":year" element={<YearIndexRedirect />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </BrowserRouter>
+        </PicksProvider>
         <Analytics />
       </WatchlistProvider>
     </I18nProvider>
