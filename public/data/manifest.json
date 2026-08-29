@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-08-29T18:34:02.594Z",
+  "updatedAt": "2026-08-29T18:46:52.134Z",
   "stages": [
     {
       "stage": "clasificatoria",
-      "generatedAt": "2026-08-29T18:33:48.542Z",
+      "generatedAt": "2026-08-29T18:46:32.357Z",
       "rowCount": 545
     },
     {
       "stage": "cuartos",
-      "generatedAt": "2026-08-29T18:33:53.779Z",
+      "generatedAt": "2026-08-29T18:46:39.753Z",
       "rowCount": 292
     }
   ]
