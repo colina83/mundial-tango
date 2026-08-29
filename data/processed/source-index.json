@@ -118,5 +118,13 @@
   "escenario::cuartos::https://tangoba.org/wp-content/uploads/2026/08/Jurados-_-Escenario-Cuartos-2026-27_8-B-Copia-de-JURADOS-_-RONDAS-TODAS-288-B.pdf": {
     "sha256": "a901e584e3164fc721217cdbb9a9b17beb88fa1efe7234e4dc5126f3957ce2de",
     "filename": "Jurados-_-Escenario-Cuartos-2026-27_8-B-Copia-de-JURADOS-_-RONDAS-TODAS-288-B.pdf"
+  },
+  "semifinal::https://tangoba.org/wp-content/uploads/2026/08/Jurados-_-Pista-Semifinales-2026-29_8-Copia-de-JURADOS-_-RONDAS-TODAS-298.pdf": {
+    "sha256": "a1124a5953af7f31e5c6d48884722a5d6054013f3e695322740a847410b173c0",
+    "filename": "Jurados-_-Pista-Semifinales-2026-29_8-Copia-de-JURADOS-_-RONDAS-TODAS-298.pdf"
+  },
+  "semifinal::https://tangoba.org/wp-content/uploads/2026/08/Jurados-_-Pista-Semifinales-2026-29_8-ranking-senior.pdf": {
+    "sha256": "21a68b10ae45334ce6f01d50f9f1a93ec1524b10992eb54e92cf79d118edc21d",
+    "filename": "Jurados-_-Pista-Semifinales-2026-29_8-ranking-senior.pdf"
   }
 }
