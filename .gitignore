@@ -17,6 +17,7 @@ data/raw/.tmp-*
 .env.*
 !.env.example
 .vercel
+.private/
 
 # Editor directories and files
 .vscode/*

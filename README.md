@@ -149,7 +149,7 @@ PICKS_CLOSE_AT_ESCENARIO=2026-08-31T23:00:00-03:00
 
 Close times are optional ISO timestamps and are independent by category. Set `PICKS_ENABLED=false` and `VITE_ENABLE_TOP3=false` for an emergency rollback, then redeploy.
 
-Ballots are stored as JSON objects containing the submitted name, country, and optional tango community. Public API responses expose only aggregate couple totals; raw IP addresses are never stored. The server stores an HMAC of the IP for a 24-hour rate limit and an HMAC of the normalized identity for duplicate detection. An HttpOnly edit cookie lets the original browser update its ballot. After the event, delete the `top3:*` Redis keys according to the desired retention policy.
+Ballots are immutable JSON objects containing the submitted name, country, and optional tango community. Public API responses expose only aggregate couple totals; raw IP addresses are never stored. The server stores an HMAC of the IP for a 24-hour rate limit and an HMAC of the normalized identity for duplicate detection. An HttpOnly browser token lets the original browser see its submitted ballot, but submitted ballots cannot be changed. After the event, delete the `top3:*` Redis keys according to the desired retention policy.
 
 ## License
 

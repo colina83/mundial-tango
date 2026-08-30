@@ -27,8 +27,6 @@ const EMPTY_VOTER: VoterInput = {
 const ERROR_KEYS: Record<string, MessageKey> = {
   duplicate_ballot: "picksErrorDuplicate",
   duplicate_pick: "picksErrorThree",
-  edit_token_invalid: "picksErrorEdit",
-  edit_token_missing: "picksErrorEdit",
   ineligible_couple: "picksErrorEligibility",
   invalid_picks: "picksErrorThree",
   missing_fields: "picksErrorFields",
@@ -81,7 +79,6 @@ export function Picks() {
   const [slots, setSlots] = useState<Array<PickCandidate | null>>([null, null, null]);
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
-  const [editing, setEditing] = useState(false);
   const [error, setError] = useState<MessageKey | null>(null);
   const [turnstileToken, setTurnstileToken] = useState("");
   const [challengeKey, setChallengeKey] = useState(0);
@@ -200,9 +197,8 @@ export function Picks() {
     setSaving(true);
     setError(null);
     try {
-      const ballot = editing ? await api.update(input) : await api.submit(input);
+      const ballot = await api.submit(input);
       setSnapshot((current) => (current ? { ...current, myBallot: ballot } : current));
-      setEditing(false);
       await refresh();
     } catch (cause) {
       setError(apiErrorKey(cause));
@@ -227,7 +223,7 @@ export function Picks() {
     );
   }
 
-  const showForm = !snapshot.myBallot || editing;
+  const showForm = !snapshot.myBallot;
   const stageKey = `stage${snapshot.candidateStage[0]?.toUpperCase()}${snapshot.candidateStage.slice(1)}` as MessageKey;
 
   return (
@@ -255,7 +251,6 @@ export function Picks() {
               {snapshot.myBallot && (
                 <BallotSummary
                   ballot={snapshot.myBallot}
-                  editLabel={t("picksEdit")}
                   heading={t("picksSubmitted")}
                 />
               )}
@@ -264,7 +259,7 @@ export function Picks() {
             <>
               <div className="section-heading">
                 <div>
-                  <h2>{editing ? t("picksEditTitle") : t("picksYourTop3")}</h2>
+                  <h2>{t("picksYourTop3")}</h2>
                   <p className="muted">
                     {t("picksCandidatePool")} {t(stageKey)}
                   </p>
@@ -367,13 +362,8 @@ export function Picks() {
                   </p>
                 )}
                 <div className="picks-actions">
-                  {editing && (
-                    <button type="button" className="btn" onClick={() => setEditing(false)}>
-                      {t("picksCancel")}
-                    </button>
-                  )}
                   <button className="btn btn-primary" disabled={saving} type="submit">
-                    {saving ? t("picksSaving") : editing ? t("picksSave") : t("picksSubmit")}
+                    {saving ? t("picksSaving") : t("picksSubmit")}
                   </button>
                 </div>
               </form>
@@ -381,9 +371,7 @@ export function Picks() {
           ) : (
             <BallotSummary
               ballot={snapshot.myBallot!}
-              editLabel={t("picksEdit")}
               heading={t("picksSubmitted")}
-              onEdit={() => setEditing(true)}
             />
           )}
         </section>
@@ -501,13 +489,9 @@ export function Picks() {
 function BallotSummary({
   ballot,
   heading,
-  editLabel,
-  onEdit,
 }: {
   ballot: BallotConfirmation;
   heading: string;
-  editLabel: string;
-  onEdit?: () => void;
 }) {
   return (
     <div className="picks-summary">
@@ -522,11 +506,6 @@ function BallotSummary({
           </li>
         ))}
       </ol>
-      {onEdit && (
-        <button type="button" className="btn" onClick={onEdit}>
-          {editLabel}
-        </button>
-      )}
     </div>
   );
 }

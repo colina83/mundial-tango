@@ -79,7 +79,6 @@ function repository() {
   const ballots: BallotRow[] = [];
   const deps: PicksDependencies = {
     candidatePool: async () => ({ stage: "semifinal", candidates }),
-    findByToken: async () => ballots[0] ?? null,
     insert: async (input) => {
       const row: BallotRow = {
         id: "ballot-1",
@@ -101,18 +100,6 @@ function repository() {
     },
     list: async () => ballots,
     recentIpCount: async () => 0,
-    update: async (input) => {
-      const row = ballots[0]!;
-      row.voter_first_name = input.voter.firstName;
-      row.voter_last_name = input.voter.lastName;
-      row.voter_country = input.voter.country;
-      row.voter_community = input.voter.community;
-      row.picks = input.picks;
-      row.identity_hash = input.identityHash;
-      row.ip_hash = input.ipHash;
-      row.updated_at = "2026-08-30T01:00:00Z";
-      return row;
-    },
     verifySecurity: async () => undefined,
   };
   return { ballots, deps };
@@ -144,13 +131,14 @@ test("POST creates one ballot, sets an HttpOnly cookie, and GET aggregates it", 
   );
 });
 
-test("PATCH requires the anonymous edit cookie", async () => {
+test("PATCH is rejected because submitted ballots are immutable", async () => {
   const { deps } = repository();
   const handler = createPicksHandler(deps);
   const result = response();
   await handler(request("PATCH", validBody()) as never, result.res as never);
-  assert.equal(result.state.status, 401);
-  assert.equal((result.state.body as { code: string }).code, "edit_token_missing");
+  assert.equal(result.state.status, 405);
+  assert.equal(result.state.headers.Allow, "GET, POST");
+  assert.equal((result.state.body as { code: string }).code, "method_not_allowed");
 });
 
 test("network rate limit blocks a fourth new ballot", async () => {

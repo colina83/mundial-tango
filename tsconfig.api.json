@@ -17,6 +17,8 @@
     "api/**/*.ts",
     "server/**/*.ts",
     "tests/picks/**/*.ts",
+    "scripts/predict-top3.ts",
+    "scripts/predict-top3.test.ts",
     "src/lib/picks.ts",
     "src/types.ts"
   ]

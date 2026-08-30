@@ -4,11 +4,9 @@ import { aggregatePicks, type BallotConfirmation, type PickSelection } from "../
 import type { Category } from "../../src/types.js";
 import { getCandidatePool } from "../../server/picks/candidates.js";
 import {
-  findBallotByToken,
   insertBallot,
   listBallots,
   recentIpBallotCount,
-  updateBallot,
   type BallotRow,
 } from "../../server/picks/db.js";
 import {
@@ -33,11 +31,9 @@ interface VercelResponse extends ServerResponse {
 
 export interface PicksDependencies {
   candidatePool: typeof getCandidatePool;
-  findByToken: typeof findBallotByToken;
   insert: typeof insertBallot;
   list: typeof listBallots;
   recentIpCount: typeof recentIpBallotCount;
-  update: typeof updateBallot;
   verifySecurity: typeof verifyTurnstile;
 }
 
@@ -72,7 +68,7 @@ function cookieName(year: number, category: Category): string {
   return `${COOKIE_PREFIX}_${year}_${category}`;
 }
 
-function setEditCookie(
+function setBallotCookie(
   res: VercelResponse,
   year: number,
   category: Category,
@@ -181,7 +177,6 @@ async function getSnapshot(
 async function mutate(
   req: VercelRequest,
   res: VercelResponse,
-  editing: boolean,
   deps: PicksDependencies,
 ) {
   const raw = (typeof req.body === "string" ? JSON.parse(req.body) : req.body) as Record<
@@ -194,41 +189,11 @@ async function mutate(
   }
   const pool = await deps.candidatePool(category);
   const secret = envSecret();
-  let existing: BallotRow | null = null;
-  let candidates = pool.candidates;
-  if (editing) {
-    const token = parseCookies(req.headers.cookie)[cookieName(2026, category)];
-    if (!token) throw new BallotError("edit_token_missing", "This ballot cannot be edited.", 401);
-    existing = await deps.findByToken(2026, category, hmac(token, secret));
-    if (!existing) throw new BallotError("edit_token_invalid", "This ballot cannot be edited.", 401);
-    const byId = new Map(candidates.map((candidate) => [candidate.coupleId, candidate]));
-    for (const pick of parsePicks(existing.picks)) {
-      byId.set(pick.coupleId, {
-        coupleId: pick.coupleId,
-        dancer1: pick.dancer1,
-        dancer2: pick.dancer2,
-      });
-    }
-    candidates = [...byId.values()];
-  }
-  const input = validateBallotShape(raw, candidates);
+  const input = validateBallotShape(raw, pool.candidates);
   const ip = requestIp(req);
   await deps.verifySecurity(input.turnstileToken, ip);
   const identityHash = hmac(identityKey(input.voter), secret);
   const ipHash = hmac(ip, secret);
-
-  if (editing) {
-    const updated = await deps.update({
-      id: existing!.id,
-      year: input.year,
-      category,
-      voter: input.voter,
-      picks: input.picks,
-      identityHash,
-      ipHash,
-    });
-    return res.status(200).json({ ballot: confirmation(updated) });
-  }
 
   const limit = Math.max(1, Number(process.env.PICKS_IP_DAILY_LIMIT ?? 3));
   if ((await deps.recentIpCount(input.year, category, ipHash)) >= limit) {
@@ -238,7 +203,7 @@ async function mutate(
       429,
     );
   }
-  const editToken = randomBytes(32).toString("base64url");
+  const browserToken = randomBytes(32).toString("base64url");
   const created = await deps.insert({
     year: input.year,
     category,
@@ -246,20 +211,18 @@ async function mutate(
     picks: input.picks,
     identityHash,
     ipHash,
-    editTokenHash: hmac(editToken, secret),
+    editTokenHash: hmac(browserToken, secret),
   });
-  setEditCookie(res, input.year, category, editToken);
+  setBallotCookie(res, input.year, category, browserToken);
   return res.status(201).json({ ballot: confirmation(created) });
 }
 
 export function createPicksHandler(overrides: Partial<PicksDependencies> = {}) {
   const deps: PicksDependencies = {
     candidatePool: getCandidatePool,
-    findByToken: findBallotByToken,
     insert: insertBallot,
     list: listBallots,
     recentIpCount: recentIpBallotCount,
-    update: updateBallot,
     verifySecurity: verifyTurnstile,
     ...overrides,
   };
@@ -276,9 +239,8 @@ export function createPicksHandler(overrides: Partial<PicksDependencies> = {}) {
         const category = validateCategory(scalar(req.query.category));
         return res.status(200).json(await getSnapshot(req, category, deps));
       }
-      if (req.method === "POST") return await mutate(req, res, false, deps);
-      if (req.method === "PATCH") return await mutate(req, res, true, deps);
-      res.setHeader("Allow", "GET, POST, PATCH");
+      if (req.method === "POST") return await mutate(req, res, deps);
+      res.setHeader("Allow", "GET, POST");
       return res.status(405).json({ code: "method_not_allowed", error: "Method not allowed." });
     } catch (error) {
       if (error instanceof BallotError) {
