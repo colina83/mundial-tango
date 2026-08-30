@@ -1,7 +1,17 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { BallotError, hmac, identityKey, validateBallotShape } from "./validation.ts";
-import { closeTime, isClosed, parseCookies, verifyTurnstile } from "./index.ts";
+import {
+  BallotError,
+  hmac,
+  identityKey,
+  validateBallotShape,
+} from "../../server/picks/validation.ts";
+import {
+  closeTime,
+  isClosed,
+  parseCookies,
+  verifyTurnstile,
+} from "../../api/picks/index.ts";
 import type { PickCandidate } from "../../src/lib/picks.ts";
 
 const candidates: PickCandidate[] = [

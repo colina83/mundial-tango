@@ -1,7 +1,12 @@
 import assert from "node:assert/strict";
 import { randomUUID } from "node:crypto";
 import test from "node:test";
-import { getRedis, insertBallot, listBallots, updateBallot } from "./db.ts";
+import {
+  getRedis,
+  insertBallot,
+  listBallots,
+  updateBallot,
+} from "../../server/picks/db.ts";
 
 test(
   "creates, reads, and updates an anonymous ballot",

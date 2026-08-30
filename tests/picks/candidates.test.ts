@@ -1,6 +1,9 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { clearCandidatePoolCache, getCandidatePool } from "./candidates.ts";
+import {
+  clearCandidatePoolCache,
+  getCandidatePool,
+} from "../../server/picks/candidates.ts";
 
 test("loads separate eligible candidate pools for Pista and Escenario", async () => {
   clearCandidatePoolCache();
