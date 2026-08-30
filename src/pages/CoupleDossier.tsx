@@ -47,7 +47,7 @@ export function CoupleDossier() {
 
   const block = data.blocks.find((b) => b.id === row.blockId);
   const danger = block
-    ? isDangerZone(row.rankInBlock, row.classified, block.coupleCount)
+    ? isDangerZone(row.rankInBlock, row.classified, block.classifiedCount)
     : false;
   const showPin = hasWatchlist(year);
   const pinned = showPin && isPinned(row.coupleId, row.blockId as BlockId, year, category);
