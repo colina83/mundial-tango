@@ -13,5 +13,11 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true
   },
-  "include": ["api/**/*.ts", "src/lib/picks.ts", "src/types.ts"]
+  "include": [
+    "api/**/*.ts",
+    "server/**/*.ts",
+    "tests/picks/**/*.ts",
+    "src/lib/picks.ts",
+    "src/types.ts"
+  ]
 }

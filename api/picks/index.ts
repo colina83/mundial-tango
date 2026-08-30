@@ -1,8 +1,8 @@
 import { randomBytes } from "node:crypto";
 import type { IncomingMessage, ServerResponse } from "node:http";
-import { aggregatePicks, type BallotConfirmation, type PickSelection } from "../../src/lib/picks.ts";
-import type { Category } from "../../src/types.ts";
-import { getCandidatePool } from "./candidates.ts";
+import { aggregatePicks, type BallotConfirmation, type PickSelection } from "../../src/lib/picks.js";
+import type { Category } from "../../src/types.js";
+import { getCandidatePool } from "../../server/picks/candidates.js";
 import {
   findBallotByToken,
   insertBallot,
@@ -10,14 +10,14 @@ import {
   recentIpBallotCount,
   updateBallot,
   type BallotRow,
-} from "./db.ts";
+} from "../../server/picks/db.js";
 import {
   BallotError,
   hmac,
   identityKey,
   validateBallotShape,
   validateCategory,
-} from "./validation.ts";
+} from "../../server/picks/validation.js";
 
 const COOKIE_PREFIX = "pulso_top3";
 

@@ -1,8 +1,11 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import type { PickCandidate } from "../../src/lib/picks.ts";
-import type { BallotRow } from "./db.ts";
-import { createPicksHandler, type PicksDependencies } from "./index.ts";
+import type { BallotRow } from "../../server/picks/db.ts";
+import {
+  createPicksHandler,
+  type PicksDependencies,
+} from "../../api/picks/index.ts";
 
 process.env.PICKS_HASH_SECRET = "test-secret-that-is-definitely-long-enough";
 delete process.env.PICKS_ENABLED;
