@@ -12,10 +12,10 @@
     "setup": "npm install && npm run ingest:offline && npm run ingest:historic",
     "start": "vite preview",
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && tsc -p tsconfig.api.json && vite build",
     "preview": "vite preview",
     "lint": "oxlint",
-    "test": "tsx --test scripts/pdf-highlight.test.ts scripts/ingest.test.ts scripts/parse-highlight.test.ts",
+    "test": "tsx --test scripts/pdf-highlight.test.ts scripts/ingest.test.ts scripts/parse-highlight.test.ts api/picks/aggregate.test.ts api/picks/candidates.test.ts api/picks/handler.test.ts api/picks/validation.test.ts api/picks/db.integration.test.ts",
     "ingest": "tsx scripts/ingest.ts",
     "ingest:offline": "tsx scripts/ingest.ts --offline",
     "ingest:historic": "tsx scripts/ingest-historic.ts",
@@ -23,6 +23,7 @@
     "survival": "tsx scripts/survival.ts"
   },
   "dependencies": {
+    "@upstash/redis": "^1.38.3",
     "@vercel/analytics": "^2.0.1",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",

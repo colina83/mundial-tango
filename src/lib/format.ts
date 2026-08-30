@@ -30,7 +30,7 @@ export function formatIngestTime(iso: string, locale: string): string {
   }).format(d);
 }
 
-export function coupleName(row: ScoreRow): string {
+export function coupleName(row: Pick<ScoreRow, "dancer1" | "dancer2">): string {
   return `${row.dancer1} & ${row.dancer2}`;
 }
 

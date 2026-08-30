@@ -11,11 +11,13 @@ import { Analytics } from "@vercel/analytics/react";
 import { Layout } from "./components/Layout";
 import { DataProvider } from "./context/DataContext";
 import { I18nProvider } from "./context/I18nContext";
+import { PicksProvider } from "./context/PicksContext";
 import { WatchlistProvider } from "./context/WatchlistContext";
-import { hasWatchlist, isCategory, isTrackedYear } from "./lib/year";
+import { hasPicks, hasWatchlist, isCategory, isTrackedYear } from "./lib/year";
 import { CoupleDossier } from "./pages/CoupleDossier";
 import { Dashboard } from "./pages/Dashboard";
 import { FullCompetition } from "./pages/FullCompetition";
+import { Picks } from "./pages/Picks";
 import { Rankings } from "./pages/Rankings";
 import { WatchlistPage } from "./pages/Watchlist";
 import { YearLanding } from "./pages/YearLanding";
@@ -64,15 +66,27 @@ function WatchlistGate() {
   return <WatchlistPage />;
 }
 
+function PicksGate() {
+  const { year, category } = useParams();
+  const y = Number(year);
+  const cat: Category = isCategory(category) ? category : "pista";
+  if (!hasPicks(y)) {
+    return <Navigate to={Number.isFinite(y) ? `/${y}/${cat}` : "/"} replace />;
+  }
+  return <Picks />;
+}
+
 export default function App() {
   return (
     <I18nProvider>
-      <WatchlistProvider>
-        <BrowserRouter basename={basename === "/" ? undefined : basename}>
-          <Routes>
+      <PicksProvider>
+        <WatchlistProvider>
+          <BrowserRouter basename={basename === "/" ? undefined : basename}>
+            <Routes>
             <Route path="/" element={<YearLanding />} />
             <Route path="rankings" element={<Navigate to="/2026/pista/rankings" replace />} />
             <Route path="stats" element={<Navigate to="/2026/pista/stats" replace />} />
+            <Route path="picks" element={<Navigate to="/2026/pista/picks" replace />} />
             <Route path="watchlist" element={<Navigate to="/2026/pista/watchlist" replace />} />
             <Route path="pareja/:blockId/:coupleId" element={<LegacyParejaRedirect />} />
             <Route path=":year/:category" element={<YearShell />}>
@@ -89,13 +103,15 @@ export default function App() {
                 }
               />
               <Route path="watchlist" element={<WatchlistGate />} />
+              <Route path="picks" element={<PicksGate />} />
             </Route>
             <Route path=":year" element={<YearIndexRedirect />} />
             <Route path="*" element={<Navigate to="/" replace />} />
-          </Routes>
-        </BrowserRouter>
-        <Analytics />
-      </WatchlistProvider>
+            </Routes>
+          </BrowserRouter>
+          <Analytics />
+        </WatchlistProvider>
+      </PicksProvider>
     </I18nProvider>
   );
 }

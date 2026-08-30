@@ -45,6 +45,7 @@ npm run setup
 | `npm run ingest` | Fetch [tangoba.org](https://tangoba.org/resultados-clasificatoria-tango-de-pista-2026/), download new **2026** PDFs by hash, then parse |
 | `npm run survival` | Fit stage-survival odds from 2024–2025 clasificatoria JSON into `public/data/survival.json` |
 | `npm run lint` | oxlint |
+| `npm test` | Run ingest and anonymous Top 3 validation/aggregation tests |
 
 ## Ingest
 
@@ -126,6 +127,29 @@ That creates/uses the isolated **pulso-mundial-tango** project. Do not `vercel l
 `vercel.json` builds with `npm run build` and serves `dist/`, with SPA rewrites so client routes (rankings, couple dossiers) do not 404.
 
 GitHub auto-deploy: in the Vercel dashboard, import **this** repo (`colina83/mundial-tango`) into the **pulso-mundial-tango** project only. Do not attach it to another existing project.
+
+### Community Top 3 setup
+
+The 2026 Pista and Escenario pages include separate, anonymous community Top 3 ballots. This feature needs Vercel Functions, Upstash Redis, and Cloudflare Turnstile; the static GitHub Pages build can display the rest of the site but cannot accept ballots.
+
+1. Add an Upstash Redis integration to the Vercel project. No schema or migration is required.
+2. Create a Turnstile widget for the production domain.
+3. Configure these Vercel environment variables:
+
+```text
+UPSTASH_REDIS_REST_URL=https://...
+UPSTASH_REDIS_REST_TOKEN=...
+PICKS_HASH_SECRET=<at least 32 random characters>
+TURNSTILE_SECRET_KEY=<server-side Turnstile secret>
+VITE_TURNSTILE_SITE_KEY=<public Turnstile site key>
+PICKS_IP_DAILY_LIMIT=3
+PICKS_CLOSE_AT_PISTA=2026-08-30T23:00:00-03:00
+PICKS_CLOSE_AT_ESCENARIO=2026-08-31T23:00:00-03:00
+```
+
+Close times are optional ISO timestamps and are independent by category. Set `PICKS_ENABLED=false` and `VITE_ENABLE_TOP3=false` for an emergency rollback, then redeploy.
+
+Ballots are stored as JSON objects containing the submitted name, country, and optional tango community. Public API responses expose only aggregate couple totals; raw IP addresses are never stored. The server stores an HMAC of the IP for a 24-hour rate limit and an HMAC of the normalized identity for duplicate detection. An HttpOnly edit cookie lets the original browser update its ballot. After the event, delete the `top3:*` Redis keys according to the desired retention policy.
 
 ## License
 
