@@ -40,10 +40,6 @@ function ballotKey(year: number, category: Category, id: string): string {
   return `top3:ballot:${year}:${category}:${id}`;
 }
 
-function tokenKey(year: number, category: Category, hash: string): string {
-  return `top3:token:${year}:${category}:${hash}`;
-}
-
 function identityKey(year: number, category: Category, hash: string): string {
   return `top3:identity:${year}:${category}:${hash}`;
 }
@@ -68,16 +64,6 @@ export async function listBallots(
   return ballots
     .filter((ballot): ballot is BallotRow => ballot !== null)
     .sort((a, b) => a.created_at.localeCompare(b.created_at));
-}
-
-export async function findBallotByToken(
-  year: number,
-  category: Category,
-  tokenHash: string,
-): Promise<BallotRow | null> {
-  const redis = getRedis();
-  const id = await redis.get<string>(tokenKey(year, category, tokenHash));
-  return id ? redis.get<BallotRow>(ballotKey(year, category, id)) : null;
 }
 
 export async function recentIpBallotCount(
@@ -122,7 +108,6 @@ export async function insertBallot(input: {
   try {
     await redis.set(ballotKey(input.year, input.category, id), row);
     await redis.sadd(indexKey(input.year, input.category), id);
-    await redis.set(tokenKey(input.year, input.category, input.editTokenHash), id);
     const rateKey = ipKey(input.year, input.category, input.ipHash);
     await redis.zadd(rateKey, { score: Date.now(), member: id });
     await redis.expire(rateKey, 172800);
@@ -131,63 +116,9 @@ export async function insertBallot(input: {
     await Promise.all([
       redis.del(identity),
       redis.del(ballotKey(input.year, input.category, id)),
-      redis.del(tokenKey(input.year, input.category, input.editTokenHash)),
       redis.srem(indexKey(input.year, input.category), id),
       redis.zrem(ipKey(input.year, input.category, input.ipHash), id),
     ]);
     throw error;
   }
-}
-
-export async function updateBallot(input: {
-  id: string;
-  year: number;
-  category: Category;
-  voter: VoterInput;
-  picks: Required<PickSelection>[];
-  identityHash: string;
-  ipHash: string;
-}): Promise<BallotRow> {
-  const redis = getRedis();
-  const key = ballotKey(input.year, input.category, input.id);
-  const existing = await redis.get<BallotRow>(key);
-  if (!existing) throw new Error("Ballot not found.");
-  if (existing.identity_hash !== input.identityHash) {
-    const nextIdentity = identityKey(input.year, input.category, input.identityHash);
-    const claimed = await redis.set(nextIdentity, input.id, { nx: true });
-    if (claimed !== "OK") throw duplicateError();
-    try {
-      const row: BallotRow = {
-        ...existing,
-        voter_first_name: input.voter.firstName,
-        voter_last_name: input.voter.lastName,
-        voter_country: input.voter.country,
-        voter_community: input.voter.community,
-        picks: input.picks,
-        identity_hash: input.identityHash,
-        ip_hash: input.ipHash,
-        updated_at: new Date().toISOString(),
-      };
-      await redis.set(key, row);
-      const oldIdentity = identityKey(input.year, input.category, existing.identity_hash);
-      if ((await redis.get<string>(oldIdentity)) === input.id) await redis.del(oldIdentity);
-      return row;
-    } catch (error) {
-      await redis.del(nextIdentity);
-      throw error;
-    }
-  }
-  const row: BallotRow = {
-    ...existing,
-    voter_first_name: input.voter.firstName,
-    voter_last_name: input.voter.lastName,
-    voter_country: input.voter.country,
-    voter_community: input.voter.community,
-    picks: input.picks,
-    identity_hash: input.identityHash,
-    ip_hash: input.ipHash,
-    updated_at: new Date().toISOString(),
-  };
-  await redis.set(key, row);
-  return row;
 }

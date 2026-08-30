@@ -58,7 +58,6 @@ async function request<T>(url: string, init?: RequestInit): Promise<T> {
 type PicksContextValue = {
   getSnapshot: (year: number, category: BallotInput["category"]) => Promise<PicksSnapshot>;
   submit: (ballot: BallotInput) => Promise<BallotConfirmation>;
-  update: (ballot: BallotInput) => Promise<BallotConfirmation>;
 };
 
 const PicksContext = createContext<PicksContextValue | null>(null);
@@ -71,14 +70,6 @@ export function PicksProvider({ children }: { children: ReactNode }) {
       submit: async (ballot) => {
         const result = await request<{ ballot: BallotConfirmation }>("/api/picks", {
           method: "POST",
-          body: JSON.stringify(ballot),
-        });
-        cacheConfirmation(result.ballot);
-        return result.ballot;
-      },
-      update: async (ballot) => {
-        const result = await request<{ ballot: BallotConfirmation }>("/api/picks", {
-          method: "PATCH",
           body: JSON.stringify(ballot),
         });
         cacheConfirmation(result.ballot);

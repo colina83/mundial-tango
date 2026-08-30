@@ -15,12 +15,13 @@
     "build": "tsc -b && tsc -p tsconfig.api.json && vite build",
     "preview": "vite preview",
     "lint": "oxlint",
-    "test": "tsx --test scripts/pdf-highlight.test.ts scripts/ingest.test.ts scripts/parse-highlight.test.ts tests/picks/*.test.ts",
+    "test": "tsx --test scripts/pdf-highlight.test.ts scripts/ingest.test.ts scripts/parse-highlight.test.ts scripts/predict-top3.test.ts tests/picks/*.test.ts",
     "ingest": "tsx scripts/ingest.ts",
     "ingest:offline": "tsx scripts/ingest.ts --offline",
     "ingest:historic": "tsx scripts/ingest-historic.ts",
     "ingest:overall": "tsx scripts/overall.ts",
-    "survival": "tsx scripts/survival.ts"
+    "survival": "tsx scripts/survival.ts",
+    "predict:top3": "tsx scripts/predict-top3.ts"
   },
   "dependencies": {
     "@upstash/redis": "^1.38.3",

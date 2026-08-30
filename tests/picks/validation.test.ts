@@ -87,7 +87,7 @@ test("identity keys normalize accents, case, and whitespace", () => {
   assert.equal(hmac(a, "x".repeat(32)), hmac(b, "x".repeat(32)));
 });
 
-test("parses edit cookies without exposing unrelated values", () => {
+test("parses browser token cookies without exposing unrelated values", () => {
   assert.deepEqual(parseCookies("a=one; pulso_top3_2026_pista=token%20value"), {
     a: "one",
     pulso_top3_2026_pista: "token value",
