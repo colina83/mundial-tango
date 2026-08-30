@@ -23,7 +23,9 @@ export function CoupleCard({
   const { isPinned, toggle } = useWatchlist();
   const showPin = hasWatchlist(year);
   const pinned = showPin && isPinned(row.coupleId, row.blockId, year, category);
-  const danger = isDangerZone(row.rankInBlock, row.classified, coupleCount);
+  const classifiedCount =
+    data?.blocks.find((b) => b.id === row.blockId)?.classifiedCount ?? coupleCount;
+  const danger = isDangerZone(row.rankInBlock, row.classified, classifiedCount);
   const withBlock = showBlock ?? (data ? hasDistinctBlocks(data) : true);
   const href = `${yearPath(year, "", category)}/pareja/${row.blockId}/${row.coupleId}`;
 

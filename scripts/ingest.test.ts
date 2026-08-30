@@ -1,12 +1,20 @@
 import test from "node:test";
 import assert from "node:assert/strict";
+import { readFile } from "node:fs/promises";
+import { dirname, join } from "node:path";
+import { fileURLToPath } from "node:url";
 import {
   isLikelyResultsPdf,
   isSkippablePdf,
   isStagePdfFilename,
   pdfMatchesStage,
+  STAGE_SOURCES,
 } from "./ingest.ts";
 import { latestPublishedStage, publishedStages } from "../src/lib/year.ts";
+import { sourcePageFor } from "./year-io.ts";
+import type { Dataset } from "../src/types.ts";
+
+const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 
 const ESCENARIO_A =
   "https://tangoba.org/wp-content/uploads/2026/08/Jurados-_-Escenario-Clasificatorias-2026-25_8-A.pdf";
@@ -56,6 +64,17 @@ test("Escenario PDF candidates are accepted for escenario ingest", () => {
   );
 });
 
+test("pista senior sheets are skipped", () => {
+  const seniorPdf =
+    "https://tangoba.org/wp-content/uploads/2026/08/Jurados-_-Pista-FINAL-2026-Ranking-Senior.pdf";
+  const seniorPage = "https://tangoba.org/resultados-semifinal-tango-de-pista-senior-2026/";
+  assert.equal(isSkippablePdf(seniorPdf), true);
+  assert.equal(isLikelyResultsPdf(seniorPdf), false);
+  assert.equal(isStagePdfFilename("final-senior.pdf"), false);
+  assert.equal(pdfMatchesStage(seniorPdf, "final"), false);
+  assert.equal(pdfMatchesStage(seniorPage, "semifinal"), false);
+});
+
 test("pdfMatchesStage keeps cuartos sheets out of final ingest", () => {
   const cuartos =
     "https://tangoba.org/wp-content/uploads/2026/08/Jurados-_-Pista-Cuartos-2026-27_8-A.pdf";
@@ -65,6 +84,55 @@ test("pdfMatchesStage keeps cuartos sheets out of final ingest", () => {
   assert.equal(pdfMatchesStage(cuartos, "final"), false);
   assert.equal(pdfMatchesStage("resultados-cuartos-final-tango-de-pista-2026", "final"), false);
   assert.equal(pdfMatchesStage(finalSheet, "final"), true);
+});
+
+test("2026 cuartos source pages use the published de-final URLs", () => {
+  assert.equal(
+    sourcePageFor(2026, "cuartos", "pista"),
+    "https://tangoba.org/resultados-cuartos-de-final-tango-de-pista-2026/",
+  );
+  assert.equal(
+    sourcePageFor(2026, "cuartos", "escenario"),
+    "https://tangoba.org/resultados-cuartos-de-final-tango-escenario-2026/",
+  );
+  const pista = STAGE_SOURCES.find((s) => s.category === "pista" && s.stage === "cuartos");
+  const escenario = STAGE_SOURCES.find((s) => s.category === "escenario" && s.stage === "cuartos");
+  assert.equal(pista?.sourcePage, sourcePageFor(2026, "cuartos", "pista"));
+  assert.equal(escenario?.sourcePage, sourcePageFor(2026, "cuartos", "escenario"));
+});
+
+test("2026 published JSON classified counts come from highlights, not 50%", async () => {
+  async function load(rel: string): Promise<Dataset> {
+    return JSON.parse(await readFile(join(ROOT, rel), "utf8")) as Dataset;
+  }
+  const pistaSemi = await load("public/data/2026/results-semifinal.json");
+  assert.equal(pistaSemi.blocks[0]!.classifiedCount, 36);
+  assert.notEqual(36, Math.ceil(pistaSemi.rows.length / 2));
+  const cantarini = pistaSemi.rows.find((r) => r.coupleId === 452);
+  assert.equal(cantarini?.classified, true);
+  assert.equal(cantarini?.cutoffDelta, 0);
+
+  const pistaClas = await load("public/data/2026/results-clasificatoria.json");
+  assert.equal(pistaClas.blocks[0]!.classifiedCount, 75);
+  assert.notEqual(75, Math.ceil(pistaClas.blocks[0]!.coupleCount / 2));
+
+  const pistaCuartos = await load("public/data/2026/results-cuartos.json");
+  assert.equal(pistaCuartos.rows.find((r) => r.coupleId === 452)?.classified, true);
+  assert.equal(
+    pistaCuartos.blocks.reduce((s, b) => s + b.classifiedCount, 0),
+    146,
+  );
+
+  const escClas = await load("public/data/2026/escenario/results-clasificatoria.json");
+  const escIn = escClas.blocks.reduce((s, b) => s + b.classifiedCount, 0);
+  assert.equal(escIn, 69);
+  assert.notEqual(escIn, Math.ceil(escClas.rows.length / 2));
+
+  const escCuartos = await load("public/data/2026/escenario/results-cuartos.json");
+  assert.deepEqual(
+    escCuartos.blocks.map((b) => b.classifiedCount),
+    [20, 20],
+  );
 });
 
 test("publishedStages hides a fake final copied from cuartos", () => {

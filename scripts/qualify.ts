@@ -52,6 +52,16 @@ export function truncatedAverage(scores: number[]): {
   return { average: round3(avg), dropped };
 }
 
+export function qualifyFromHighlights<T extends { average: number; coupleId: number }>(
+  rows: T[],
+  highlighted: (row: T) => boolean,
+): { cutoff: number; classifiedCount: number; ranks: Map<number, number> } {
+  const ranks = blockRanks(rows);
+  const inRows = rows.filter(highlighted);
+  const cutoff = inRows.length ? Math.min(...inRows.map((r) => r.average)) : 0;
+  return { cutoff, classifiedCount: inRows.length, ranks };
+}
+
 export function qualifyBlock<T extends { average: number; coupleId: number }>(
   rows: T[],
 ): { cutoff: number; classifiedCount: number; ranks: Map<number, number> } {

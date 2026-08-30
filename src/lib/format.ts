@@ -48,9 +48,9 @@ export function matchesQuery(row: ScoreRow, query: string): boolean {
 export function isDangerZone(
   rankInBlock: number,
   classified: boolean,
-  coupleCount: number,
+  classifiedCount: number,
 ): boolean {
-  const cutoffRank = Math.max(1, Math.ceil(coupleCount / 2));
+  const cutoffRank = Math.max(1, classifiedCount);
   const band = Math.max(3, Math.round(cutoffRank * 0.1));
   if (classified) return rankInBlock > cutoffRank - band;
   return rankInBlock <= cutoffRank + band;
