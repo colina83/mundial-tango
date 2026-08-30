@@ -20,6 +20,7 @@ export function Layout() {
     : allStages;
   const showWatchlist = hasWatchlist(year);
   const showPicks = hasPicks(year);
+  const showPicksStageCta = showPicks && availableStages.has("semifinal");
   const showFull = hasFullCompetition(manifest, year);
   const hideStageBar = location.pathname.includes("/full") || location.pathname.includes("/picks");
 
@@ -75,11 +76,6 @@ export function Layout() {
             </NavLink>
             <NavLink to={`${base}/rankings`}>{t("navRankings")}</NavLink>
             <NavLink to={`${base}/stats`}>{t("navStats")}</NavLink>
-            {showPicks && (
-              <NavLink className="top3-nav-link" to={`${base}/picks`}>
-                {t("navPicks")}
-              </NavLink>
-            )}
             {showWatchlist && (
               <NavLink to={`${base}/watchlist`}>{t("navWatchlist")}</NavLink>
             )}
@@ -143,6 +139,18 @@ export function Layout() {
             </button>
           );
         })}
+        {showPicksStageCta && (
+          <NavLink
+            className="stage-top3-cta"
+            to={`${base}/picks`}
+            role="tab"
+            aria-selected={false}
+          >
+            <span className="stage-top3-spark" aria-hidden="true">✦</span>
+            {t("navPicks")}
+            <span className="stage-top3-spark" aria-hidden="true">✦</span>
+          </NavLink>
+        )}
       </div>
       )}
 
@@ -195,12 +203,6 @@ export function Layout() {
           <ChartIcon />
           {t("navStats")}
         </NavLink>
-        {showPicks && (
-          <NavLink to={`${base}/picks`}>
-            <PodiumIcon />
-            {t("navPicks")}
-          </NavLink>
-        )}
         {showWatchlist && (
           <NavLink to={`${base}/watchlist`}>
             <PinIcon />
@@ -258,11 +260,3 @@ function PinIcon() {
   );
 }
 
-function PodiumIcon() {
-  return (
-    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="1.8">
-      <path d="M3 20h18M4 13h5v7H4zM9 8h6v12H9zM15 11h5v9h-5z" />
-      <path d="M12 3.5 13 6h2.7l-2.1 1.6.8 2.5L12 8.6 9.6 10l.8-2.4L8.3 6H11z" />
-    </svg>
-  );
-}
