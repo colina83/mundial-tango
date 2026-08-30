@@ -1175,6 +1175,478 @@ select {
   }
 }
 
+/* Community Top 3 */
+.top-nav .top3-nav-link {
+  color: var(--pink);
+  border: 1px solid rgba(247, 120, 186, 0.35);
+}
+
+.picks-page {
+  position: relative;
+}
+
+.picks-hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.picks-hero h1 span {
+  color: var(--muted);
+  font-size: 0.65em;
+}
+
+.picks-hero-total {
+  min-width: 112px;
+  text-align: center;
+  border-left: 1px solid var(--border);
+  padding-left: 24px;
+}
+
+.picks-hero-total strong {
+  display: block;
+  color: var(--pink);
+  font-family: var(--display);
+  font-size: 2.15rem;
+  line-height: 1;
+}
+
+.picks-hero-total span {
+  color: var(--muted);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.picks-layout {
+  display: grid;
+  gap: 16px;
+}
+
+.picks-ballot-panel,
+.picks-community {
+  min-width: 0;
+}
+
+.section-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.section-heading p,
+.section-heading time {
+  margin: 0;
+}
+
+.section-heading time {
+  color: var(--muted);
+  font-size: 0.72rem;
+  white-space: nowrap;
+}
+
+.picks-fields {
+  display: grid;
+  gap: 12px;
+}
+
+.picks-fields label,
+.couple-picker > label {
+  display: grid;
+  gap: 6px;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+.picks-fields input,
+.picks-fields select {
+  width: 100%;
+  min-height: 42px;
+  border: 1px solid var(--border);
+  border-radius: 9px;
+  background: var(--canvas);
+  color: var(--text);
+  padding: 9px 11px;
+  font: inherit;
+}
+
+.picks-fields input:focus,
+.picks-fields select:focus,
+.couple-picker input:focus,
+.picks-drawer input:focus {
+  border-color: var(--pink);
+  outline: 2px solid var(--pink-dim);
+  outline-offset: 1px;
+}
+
+.picks-slots {
+  display: grid;
+  gap: 10px;
+  margin: 20px 0 16px;
+}
+
+.picks-slot {
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr) 30px;
+  align-items: end;
+  gap: 10px;
+  padding: 12px;
+  border: 1px solid var(--border);
+  border-radius: 11px;
+  background: var(--panel-2);
+}
+
+.picks-rank {
+  display: inline-grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  flex: 0 0 30px;
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  color: var(--text);
+  font-family: var(--display);
+  font-weight: 650;
+}
+
+.picks-slot:nth-child(1) .picks-rank,
+.picks-community-top article:nth-child(1) .picks-rank {
+  border-color: var(--gold);
+  color: var(--gold);
+}
+
+.picks-slot:nth-child(2) .picks-rank,
+.picks-community-top article:nth-child(2) .picks-rank {
+  border-color: var(--silver);
+  color: var(--silver);
+}
+
+.picks-slot:nth-child(3) .picks-rank,
+.picks-community-top article:nth-child(3) .picks-rank {
+  border-color: var(--bronze);
+  color: var(--bronze);
+}
+
+.picks-move {
+  display: grid;
+  gap: 3px;
+}
+
+.picks-move button,
+.couple-picker-value button {
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.picks-move button:disabled {
+  opacity: 0.25;
+  cursor: default;
+}
+
+.couple-picker {
+  min-width: 0;
+}
+
+.couple-picker-search {
+  position: relative;
+}
+
+.couple-picker-search input {
+  width: 100%;
+  min-height: 42px;
+}
+
+.couple-picker-value {
+  display: flex;
+  align-items: center;
+  min-height: 42px;
+  gap: 8px;
+  margin-top: 6px;
+  border: 1px solid var(--border);
+  border-radius: 9px;
+  padding: 7px 9px;
+  background: var(--canvas);
+  color: var(--text);
+  font-size: 0.85rem;
+}
+
+.couple-picker-value > span:nth-child(2) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.couple-picker-value button {
+  margin-left: auto;
+  font-size: 1.15rem;
+}
+
+.couple-picker-number {
+  color: var(--pink);
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.couple-picker-menu {
+  position: absolute;
+  z-index: 18;
+  left: 0;
+  right: 0;
+  top: calc(100% + 5px);
+  max-height: 260px;
+  overflow-y: auto;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--panel);
+}
+
+.couple-picker-menu button {
+  display: grid;
+  grid-template-columns: 54px minmax(0, 1fr);
+  width: 100%;
+  gap: 8px;
+  border: 0;
+  border-bottom: 1px solid var(--border);
+  background: transparent;
+  color: var(--text);
+  padding: 10px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.couple-picker-menu button.is-active,
+.couple-picker-menu button:hover {
+  background: var(--pink-dim);
+}
+
+.couple-picker-menu button strong {
+  color: var(--pink);
+}
+
+.couple-picker-menu p {
+  color: var(--muted);
+  margin: 0;
+  padding: 14px;
+}
+
+.picks-privacy {
+  max-width: 62ch;
+  color: var(--muted);
+  font-size: 0.76rem;
+}
+
+.turnstile-host {
+  min-height: 65px;
+  margin: 12px 0;
+}
+
+.picks-error {
+  color: var(--danger);
+  border-left: 3px solid var(--danger);
+  padding-left: 10px;
+}
+
+.picks-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.picks-actions .btn-primary {
+  background: var(--pink);
+  border-color: var(--pink);
+  color: var(--canvas);
+  font-weight: 700;
+}
+
+.picks-summary ol {
+  display: grid;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 18px 0;
+}
+
+.picks-summary li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 10px;
+}
+
+.picks-community-top {
+  display: grid;
+  gap: 4px;
+}
+
+.picks-community-top article {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 2px;
+  border-bottom: 1px solid var(--border);
+}
+
+.picks-community-top article strong {
+  display: block;
+}
+
+.picks-community-top article p {
+  margin: 3px 0 0;
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.picks-full-board {
+  margin-top: 16px;
+}
+
+.picks-full-board summary {
+  color: var(--link);
+  cursor: pointer;
+}
+
+.picks-board-scroll {
+  overflow-x: auto;
+  margin-top: 12px;
+}
+
+.picks-empty,
+.picks-closed {
+  color: var(--muted);
+  padding: 24px 0;
+}
+
+.picks-drawer-backdrop {
+  position: fixed;
+  z-index: 50;
+  inset: 0;
+  display: grid;
+  justify-items: stretch;
+  align-items: end;
+  background: rgba(0, 0, 0, 0.68);
+}
+
+.picks-drawer {
+  display: flex;
+  flex-direction: column;
+  max-height: 88dvh;
+  border: 1px solid var(--border);
+  border-radius: 16px 16px 0 0;
+  background: var(--panel);
+  padding: 16px;
+}
+
+.picks-drawer header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.picks-drawer header p {
+  color: var(--muted);
+  margin: 0;
+}
+
+.picks-drawer header > button {
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.picks-drawer > input {
+  margin: 14px 0 10px;
+}
+
+.picks-participant-list {
+  display: grid;
+  gap: 2px;
+  overflow-y: auto;
+}
+
+.picks-participant-list button {
+  display: grid;
+  grid-template-columns: 54px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 10px;
+  border: 0;
+  border-bottom: 1px solid var(--border);
+  background: transparent;
+  color: var(--text);
+  padding: 11px 6px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.picks-participant-list button:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+.picks-participant-list strong {
+  color: var(--pink);
+}
+
+.picks-participant-list small {
+  color: var(--muted);
+}
+
+@media (min-width: 680px) {
+  .picks-fields {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .picks-drawer-backdrop {
+    justify-items: end;
+    align-items: stretch;
+  }
+
+  .picks-drawer {
+    width: min(520px, 92vw);
+    max-height: 100dvh;
+    border-radius: 0;
+  }
+}
+
+@media (min-width: 960px) {
+  .picks-layout {
+    grid-template-columns: minmax(0, 1.35fr) minmax(320px, 0.65fr);
+    align-items: start;
+  }
+}
+
+@media (max-width: 520px) {
+  .picks-hero {
+    align-items: flex-start;
+  }
+
+  .picks-hero-total {
+    min-width: 72px;
+    padding-left: 12px;
+  }
+
+  .picks-slot {
+    grid-template-columns: 30px minmax(0, 1fr);
+  }
+
+  .picks-move {
+    grid-column: 2;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
 .podium-section-head h2 {
   margin-bottom: 0.2rem;
 }

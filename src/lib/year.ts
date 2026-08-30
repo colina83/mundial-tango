@@ -11,6 +11,13 @@ export function hasWatchlist(year: number): boolean {
   return year === 2026;
 }
 
+/** Community Top 3 is open only for the live championship. */
+export function hasPicks(year: number): boolean {
+  const enabled = (import.meta as ImportMeta & { env?: Record<string, string> }).env
+    ?.VITE_ENABLE_TOP3;
+  return year === 2026 && enabled !== "false";
+}
+
 /** Cross-stage table is useful once more than one round exists, or always for the live year. */
 export function hasFullCompetition(
   manifest: StageManifest | null | undefined,
