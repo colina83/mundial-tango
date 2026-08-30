@@ -72,7 +72,7 @@ export const STAGE_SOURCES: StageSource[] = [
     category: "pista",
     stage: "cuartos",
     sourcePage:
-      "https://tangoba.org/resultados-cuartos-final-tango-de-pista-2026/",
+      "https://tangoba.org/resultados-cuartos-de-final-tango-de-pista-2026/",
     sourceCategoryPage: SOURCE_CATEGORY_PAGE,
   },
   {
@@ -98,7 +98,8 @@ export const STAGE_SOURCES: StageSource[] = [
   {
     category: "escenario",
     stage: "cuartos",
-    sourcePage: "https://tangoba.org/resultados-cuartos-tango-escenario-2026/",
+    sourcePage:
+      "https://tangoba.org/resultados-cuartos-de-final-tango-escenario-2026/",
     sourceCategoryPage: SOURCE_CATEGORY_PAGE,
   },
   {
@@ -169,6 +170,7 @@ export function isSkippablePdf(
     return true;
   }
   if (isSharedJunkPdf(u) || isCombinedCategoryPdf(u)) return true;
+  if (u.includes("senior")) return true;
   if (category === "pista") {
     return u.includes("escenario");
   }
@@ -203,10 +205,16 @@ export function isStagePdfFilename(
 /** Keep each live ingest from swallowing another stage’s sheets (cuartos-final URLs, etc.). */
 export function pdfMatchesStage(urlOrFilename: string, stage: Stage): boolean {
   const u = urlOrFilename.toLowerCase();
-  if (stage === "clasificatoria") return u.includes("clasificator");
-  if (stage === "cuartos") return u.includes("cuartos") && !u.includes("semifinal");
-  if (stage === "semifinal") return u.includes("semifinal");
-  return u.includes("final") && !u.includes("cuartos") && !u.includes("semifinal") && !u.includes("clasificator");
+  if (stage === "clasificatoria") return u.includes("clasificator") && !u.includes("senior");
+  if (stage === "cuartos") return u.includes("cuartos") && !u.includes("semifinal") && !u.includes("senior");
+  if (stage === "semifinal") return u.includes("semifinal") && !u.includes("senior");
+  return (
+    u.includes("final") &&
+    !u.includes("cuartos") &&
+    !u.includes("semifinal") &&
+    !u.includes("clasificator") &&
+    !u.includes("senior")
+  );
 }
 
 function rawDirFor(category: Category, stage: Stage): string {
@@ -270,7 +278,7 @@ function collectStagePageLinks(
     }
     if (url.hostname !== base.hostname) continue;
     const path = url.pathname.toLowerCase();
-    if (path.includes("/campeonato/") || path.includes("cbc-")) continue;
+    if (path.includes("/campeonato/") || path.includes("cbc-") || path.includes("senior")) continue;
     const hasEscenario = path.includes("escenario");
     if (category === "pista" && hasEscenario) continue;
     if (category === "escenario" && !hasEscenario) continue;

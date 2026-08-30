@@ -1,8 +1,9 @@
 import { createHash } from "node:crypto";
 import { readFile } from "node:fs/promises";
 import { basename } from "node:path";
-import { getDocumentProxy } from "unpdf";
+import { getDocumentProxy, getResolvedPDFJS } from "unpdf";
 import type { BlockId, Category, Scoring, Stage } from "../src/types.ts";
+import { extractNameHighlights, yOverlapsHighlight } from "./pdf-highlight.ts";
 import { scoreAverage } from "./qualify.ts";
 
 export const KNOWN_JURIES: Record<Exclude<BlockId, "_">, string[]> = {
@@ -93,8 +94,9 @@ export interface ParsedCouple {
   scores: number[];
   officialAverage: number;
   judges: { name: string; score: number; dropped: boolean }[];
-  average: number;
+    average: number;
   spread: number;
+  highlighted: boolean;
 }
 
 export interface ParsedBlock {
@@ -106,6 +108,7 @@ export interface ParsedBlock {
   url: string | null;
   sha256: string;
   couples: ParsedCouple[];
+  highlightsDetected: boolean;
 }
 
 interface TextItem {
@@ -403,6 +406,7 @@ function parseDataRow(
     })),
     average,
     spread: roundSpread(scores),
+    highlighted: false,
   };
 }
 
@@ -459,6 +463,7 @@ export async function parsePdfFile(
   const digest = sha256(bytes);
   const doc = await getDocumentProxy(bytes);
   const filename = basename(filePath);
+  const skipSenior = /senior/i.test(filename);
 
   const fallback = defaultDateFor(year, stage, category);
   let blockId: BlockId | null = blockFromFilename(filename);
@@ -469,6 +474,7 @@ export async function parsePdfFile(
   let hasRoundColumn = false;
   const couples: ParsedCouple[] = [];
   const seen = new Set<number>();
+  let highlightsDetected = false;
 
   const known =
     useKnownJuries && blockId && blockId !== "_"
@@ -476,8 +482,15 @@ export async function parsePdfFile(
       : undefined;
   if (known) fallbackJudges = known;
 
+  const pdfjs = await getResolvedPDFJS();
+  const ops = pdfjs.OPS as Record<string, number>;
+
   for (let p = 1; p <= doc.numPages; p++) {
+    if (skipSenior) break;
     const page = await doc.getPage(p);
+    const opList = await page.getOperatorList();
+    const nameHighlights = extractNameHighlights(opList, ops);
+    if (nameHighlights.length) highlightsDetected = true;
     const content = await page.getTextContent();
     const items: TextItem[] = [];
     for (const raw of content.items as Array<{
@@ -563,6 +576,7 @@ export async function parsePdfFile(
       if (!parsed) continue;
       if (seen.has(parsed.coupleId)) continue;
       seen.add(parsed.coupleId);
+      parsed.highlighted = yOverlapsHighlight(row[0]!.y, nameHighlights);
       couples.push(parsed);
     }
   }
@@ -621,5 +635,6 @@ export async function parsePdfFile(
     url: options?.officialUrl ?? OFFICIAL_PDF_URLS[filename] ?? null,
     sha256: digest,
     couples,
+    highlightsDetected,
   };
 }

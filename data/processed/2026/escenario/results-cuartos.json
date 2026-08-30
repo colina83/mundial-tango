@@ -1,0 +1,4588 @@
+{
+  "generatedAt": "2026-08-30T01:44:44.175Z",
+  "year": 2026,
+  "stage": "cuartos",
+  "category": "escenario",
+  "scoring": "trimmed",
+  "sourcePage": "https://tangoba.org/resultados-cuartos-de-final-tango-escenario-2026/",
+  "sourceCategoryPage": "https://tangoba.org/category/resultados/",
+  "sourceLabel": "Tango BA",
+  "disclaimer": "Compañero extraoficial de fans. No afiliado a Tango BA ni al Mundial de Baile. Fuente: Tango BA.",
+  "blocks": [
+    {
+      "id": "A",
+      "date": "2026-08-28",
+      "dateLabel": "28 de agosto",
+      "judges": [
+        "Natalia Turelli",
+        "Facundo De la Cruz",
+        "Vanesa Villalba",
+        "Germán Cornejo",
+        "Ignacio Gonzalez Cano"
+      ],
+      "sourcePdf": {
+        "filename": "Jurados-_-Escenario-Cuartos-2026-28_8-A-Copia-de-JURADOS-_-RONDAS-TODAS-288-A.pdf",
+        "url": null,
+        "sha256": "2e3fe32dcb181676796b46fbf535a7e019c8ef9f8c8099d215ba0d3109c47954"
+      },
+      "cutoff": 7.387,
+      "classifiedCount": 20,
+      "coupleCount": 39
+    },
+    {
+      "id": "B",
+      "date": "2026-08-28",
+      "dateLabel": "28 de agosto",
+      "judges": [
+        "Cristina Fontana",
+        "Alejandra Gutty",
+        "Julián Sanchez",
+        "Guillermina Quiroga",
+        "Ricardo Astrada"
+      ],
+      "sourcePdf": {
+        "filename": "Jurados-_-Escenario-Cuartos-2026-27_8-B-Copia-de-JURADOS-_-RONDAS-TODAS-288-B.pdf",
+        "url": null,
+        "sha256": "a901e584e3164fc721217cdbb9a9b17beb88fa1efe7234e4dc5126f3957ce2de"
+      },
+      "cutoff": 7.003,
+      "classifiedCount": 20,
+      "coupleCount": 40
+    }
+  ],
+  "rows": [
+    {
+      "coupleId": 586,
+      "round": "2",
+      "dancer1": "Diego Ortega",
+      "dancer2": "Aldana Silveyra",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 7.96,
+          "dropped": false
+        },
+        {
+          "name": "Facundo De la Cruz",
+          "score": 7.98,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 8,
+          "dropped": true
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 7.95,
+          "dropped": true
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8,
+          "dropped": false
+        }
+      ],
+      "average": 7.98,
+      "officialAverage": 7.98,
+      "rankInBlock": 1,
+      "rankOverall": 1,
+      "classified": true,
+      "cutoffDelta": 0.593,
+      "spread": 0.05,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 100,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.8,
+          "percentile": 94.1
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.98,
+          "percentile": 100
+        }
+      ],
+      "overall": 97.1,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 448,
+      "round": "3",
+      "dancer1": "Jorge Calabrigo",
+      "dancer2": "Tiziana Silva",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 7.93,
+          "dropped": false
+        },
+        {
+          "name": "Facundo De la Cruz",
+          "score": 7.99,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 8,
+          "dropped": true
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 7.87,
+          "dropped": true
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8,
+          "dropped": false
+        }
+      ],
+      "average": 7.973,
+      "officialAverage": 7.973,
+      "rankInBlock": 2,
+      "rankOverall": 2,
+      "classified": true,
+      "cutoffDelta": 0.586,
+      "spread": 0.13,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 98.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.793,
+          "percentile": 93.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.973,
+          "percentile": 98.7
+        }
+      ],
+      "overall": 96,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 521,
+      "round": "2",
+      "dancer1": "Sebastian Fernandez",
+      "dancer2": "Mariia Marinova",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 7.96,
+          "dropped": false
+        },
+        {
+          "name": "Facundo De la Cruz",
+          "score": 7.93,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 7.99,
+          "dropped": true
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 7.85,
+          "dropped": true
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 7.95,
+          "dropped": false
+        }
+      ],
+      "average": 7.947,
+      "officialAverage": 7.947,
+      "rankInBlock": 3,
+      "rankOverall": 3,
+      "classified": true,
+      "cutoffDelta": 0.56,
+      "spread": 0.14,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 97.4,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.773,
+          "percentile": 91.1
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.947,
+          "percentile": 97.4
+        }
+      ],
+      "overall": 94.3,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 365,
+      "round": "3",
+      "dancer1": "Facundo Cabral",
+      "dancer2": "Mara Navarro",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 7.88,
+          "dropped": false
+        },
+        {
+          "name": "Facundo De la Cruz",
+          "score": 7.74,
+          "dropped": true
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 8,
+          "dropped": true
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 7.83,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8,
+          "dropped": false
+        }
+      ],
+      "average": 7.903,
+      "officialAverage": 7.903,
+      "rankInBlock": 4,
+      "rankOverall": 4,
+      "classified": true,
+      "cutoffDelta": 0.516,
+      "spread": 0.26,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 96.2,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.807,
+          "percentile": 95.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.903,
+          "percentile": 96.2
+        }
+      ],
+      "overall": 95.9,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 678,
+      "round": "3",
+      "dancer1": "Francis Damian Aguilar",
+      "dancer2": "Sophie Sperling",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 7.54,
+          "dropped": true
+        },
+        {
+          "name": "Facundo De la Cruz",
+          "score": 7.91,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 7.89,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 7.89,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 7.96,
+          "dropped": true
+        }
+      ],
+      "average": 7.897,
+      "officialAverage": 7.897,
+      "rankInBlock": 5,
+      "rankOverall": 5,
+      "classified": true,
+      "cutoffDelta": 0.51,
+      "spread": 0.42,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 94.9,
+      "stageStandings": [
+        {
+          "stage": "cuartos",
+          "average": 7.897,
+          "percentile": 94.9
+        }
+      ],
+      "overall": 94.9,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 462,
+      "round": "1",
+      "dancer1": "Lautaro Levato",
+      "dancer2": "Milagros Quintana",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 7.95,
+          "dropped": false
+        },
+        {
+          "name": "Facundo De la Cruz",
+          "score": 7.93,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 7.78,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 7.65,
+          "dropped": true
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 8,
+          "dropped": true
+        }
+      ],
+      "average": 7.887,
+      "officialAverage": 7.887,
+      "rankInBlock": 6,
+      "rankOverall": 6,
+      "classified": true,
+      "cutoffDelta": 0.5,
+      "spread": 0.35,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 93.6,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.567,
+          "percentile": 80.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.887,
+          "percentile": 93.6
+        }
+      ],
+      "overall": 87.2,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 471,
+      "round": "2",
+      "dancer1": "Franco Rubén Sosa",
+      "dancer2": "Romina Moreno Guzmán",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 7.75,
+          "dropped": false
+        },
+        {
+          "name": "Facundo De la Cruz",
+          "score": 7.97,
+          "dropped": true
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 7.5,
+          "dropped": true
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 7.8,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 7.65,
+          "dropped": false
+        }
+      ],
+      "average": 7.733,
+      "officialAverage": 7.733,
+      "rankInBlock": 7,
+      "rankOverall": 9,
+      "classified": true,
+      "cutoffDelta": 0.346,
+      "spread": 0.47,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 89.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.833,
+          "percentile": 97.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.733,
+          "percentile": 89.7
+        }
+      ],
+      "overall": 93.8,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 117,
+      "round": "1",
+      "dancer1": "Lisandro Eberle",
+      "dancer2": "Guadalupe Ponzelli",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 7.6,
+          "dropped": true
+        },
+        {
+          "name": "Facundo De la Cruz",
+          "score": 7.67,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 7.83,
+          "dropped": true
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 7.7,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 7.82,
+          "dropped": false
+        }
+      ],
+      "average": 7.73,
+      "officialAverage": 7.73,
+      "rankInBlock": 8,
+      "rankOverall": 10,
+      "classified": true,
+      "cutoffDelta": 0.343,
+      "spread": 0.23,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 88.5,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.763,
+          "percentile": 89.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.73,
+          "percentile": 88.5
+        }
+      ],
+      "overall": 89.1,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 342,
+      "round": "2",
+      "dancer1": "Ramiro Nicolas Almiron",
+      "dancer2": "Laly Torres",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 7.65,
+          "dropped": false
+        },
+        {
+          "name": "Facundo De la Cruz",
+          "score": 7.86,
+          "dropped": true
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 7.75,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 7.38,
+          "dropped": true
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 7.78,
+          "dropped": false
+        }
+      ],
+      "average": 7.727,
+      "officialAverage": 7.727,
+      "rankInBlock": 9,
+      "rankOverall": 11,
+      "classified": true,
+      "cutoffDelta": 0.34,
+      "spread": 0.48,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 87.2,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.567,
+          "percentile": 80.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.727,
+          "percentile": 87.2
+        }
+      ],
+      "overall": 84,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 665,
+      "round": "3",
+      "dancer1": "Sebastian Acosta",
+      "dancer2": "Laura DAnna",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 7.67,
+          "dropped": false
+        },
+        {
+          "name": "Facundo De la Cruz",
+          "score": 7.97,
+          "dropped": true
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 7.45,
+          "dropped": true
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 7.55,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 7.94,
+          "dropped": false
+        }
+      ],
+      "average": 7.72,
+      "officialAverage": 7.72,
+      "rankInBlock": 10,
+      "rankOverall": 12,
+      "classified": true,
+      "cutoffDelta": 0.333,
+      "spread": 0.52,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 85.9,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.617,
+          "percentile": 82.2
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.72,
+          "percentile": 85.9
+        }
+      ],
+      "overall": 84.1,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 133,
+      "round": "3",
+      "dancer1": "Alexander Moncada Rojas",
+      "dancer2": "Martina Waldman",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 7.63,
+          "dropped": false
+        },
+        {
+          "name": "Facundo De la Cruz",
+          "score": 7.9,
+          "dropped": true
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 7.3,
+          "dropped": true
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 7.75,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 7.59,
+          "dropped": false
+        }
+      ],
+      "average": 7.657,
+      "officialAverage": 7.657,
+      "rankInBlock": 11,
+      "rankOverall": 13,
+      "classified": true,
+      "cutoffDelta": 0.27,
+      "spread": 0.6,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 84.6,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.483,
+          "percentile": 74.1
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.657,
+          "percentile": 84.6
+        }
+      ],
+      "overall": 79.4,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 516,
+      "round": "1",
+      "dancer1": "Federico Paleo",
+      "dancer2": "Luciana Francheli",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 7.6,
+          "dropped": false
+        },
+        {
+          "name": "Facundo De la Cruz",
+          "score": 7.77,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 7.35,
+          "dropped": true
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 7.5,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 7.8,
+          "dropped": true
+        }
+      ],
+      "average": 7.623,
+      "officialAverage": 7.623,
+      "rankInBlock": 12,
+      "rankOverall": 14,
+      "classified": true,
+      "cutoffDelta": 0.236,
+      "spread": 0.45,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 83.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.7,
+          "percentile": 85.2
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.623,
+          "percentile": 83.3
+        }
+      ],
+      "overall": 84.3,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 92,
+      "round": "1",
+      "dancer1": "Carlos Cisneros",
+      "dancer2": "Juan Segui",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 7.2,
+          "dropped": true
+        },
+        {
+          "name": "Facundo De la Cruz",
+          "score": 7.58,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 7.75,
+          "dropped": true
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 7.45,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 7.75,
+          "dropped": false
+        }
+      ],
+      "average": 7.593,
+      "officialAverage": 7.593,
+      "rankInBlock": 13,
+      "rankOverall": 15,
+      "classified": true,
+      "cutoffDelta": 0.206,
+      "spread": 0.55,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 82.1,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.85,
+          "percentile": 98.5
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.593,
+          "percentile": 82.1
+        }
+      ],
+      "overall": 90.3,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 436,
+      "round": "2",
+      "dancer1": "Nelson Nahuel Leiva",
+      "dancer2": "Evangelina Soledad Martinez",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 7.4,
+          "dropped": false
+        },
+        {
+          "name": "Facundo De la Cruz",
+          "score": 7.45,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 7.8,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 7.35,
+          "dropped": true
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 7.85,
+          "dropped": true
+        }
+      ],
+      "average": 7.55,
+      "officialAverage": 7.55,
+      "rankInBlock": 14,
+      "rankOverall": 17,
+      "classified": true,
+      "cutoffDelta": 0.163,
+      "spread": 0.5,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 79.5,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.767,
+          "percentile": 90.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.55,
+          "percentile": 79.5
+        }
+      ],
+      "overall": 85,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 513,
+      "round": "2",
+      "dancer1": "Facundo Vilches",
+      "dancer2": "Irina Cristoff Veleff",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 7.45,
+          "dropped": false
+        },
+        {
+          "name": "Facundo De la Cruz",
+          "score": 7.95,
+          "dropped": true
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 7.35,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 7.15,
+          "dropped": true
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 7.82,
+          "dropped": false
+        }
+      ],
+      "average": 7.54,
+      "officialAverage": 7.54,
+      "rankInBlock": 15,
+      "rankOverall": 18,
+      "classified": true,
+      "cutoffDelta": 0.153,
+      "spread": 0.8,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 78.2,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.81,
+          "percentile": 96.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.54,
+          "percentile": 78.2
+        }
+      ],
+      "overall": 87.3,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 95,
+      "round": "2",
+      "dancer1": "Jesus Luis Paez",
+      "dancer2": "Iara Duarte",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 7.6,
+          "dropped": false
+        },
+        {
+          "name": "Facundo De la Cruz",
+          "score": 7.69,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 7.22,
+          "dropped": true
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 7.28,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 7.88,
+          "dropped": true
+        }
+      ],
+      "average": 7.523,
+      "officialAverage": 7.523,
+      "rankInBlock": 16,
+      "rankOverall": 20,
+      "classified": true,
+      "cutoffDelta": 0.136,
+      "spread": 0.66,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 75.6,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.437,
+          "percentile": 68.9
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.523,
+          "percentile": 75.6
+        }
+      ],
+      "overall": 72.3,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 277,
+      "round": "3",
+      "dancer1": "Eduardo Roman",
+      "dancer2": "Tamara Borda",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 7.55,
+          "dropped": false
+        },
+        {
+          "name": "Facundo De la Cruz",
+          "score": 7.61,
+          "dropped": true
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 6.95,
+          "dropped": true
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 7.18,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 7.6,
+          "dropped": false
+        }
+      ],
+      "average": 7.443,
+      "officialAverage": 7.443,
+      "rankInBlock": 17,
+      "rankOverall": 22,
+      "classified": true,
+      "cutoffDelta": 0.056,
+      "spread": 0.66,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 73.1,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.343,
+          "percentile": 61.5
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.443,
+          "percentile": 73.1
+        }
+      ],
+      "overall": 67.3,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 594,
+      "round": "2",
+      "dancer1": "Sebastian Acosta",
+      "dancer2": "Kathia Cabral",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 6.6,
+          "dropped": true
+        },
+        {
+          "name": "Facundo De la Cruz",
+          "score": 7.85,
+          "dropped": true
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 7.3,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 7.27,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 7.69,
+          "dropped": false
+        }
+      ],
+      "average": 7.42,
+      "officialAverage": 7.42,
+      "rankInBlock": 18,
+      "rankOverall": 23,
+      "classified": true,
+      "cutoffDelta": 0.033,
+      "spread": 1.25,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 71.8,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.483,
+          "percentile": 74.1
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.42,
+          "percentile": 71.8
+        }
+      ],
+      "overall": 72.9,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 177,
+      "round": "2",
+      "dancer1": "Alexander Komogortsev",
+      "dancer2": "Kristina Komogortseva",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 7.38,
+          "dropped": false
+        },
+        {
+          "name": "Facundo De la Cruz",
+          "score": 7.47,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 6.92,
+          "dropped": true
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 7.33,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 7.55,
+          "dropped": true
+        }
+      ],
+      "average": 7.393,
+      "officialAverage": 7.393,
+      "rankInBlock": 19,
+      "rankOverall": 27,
+      "classified": true,
+      "cutoffDelta": 0.006,
+      "spread": 0.63,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 66.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.327,
+          "percentile": 60
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.393,
+          "percentile": 66.7
+        }
+      ],
+      "overall": 63.4,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 149,
+      "round": "2",
+      "dancer1": "Gabriel Salvi",
+      "dancer2": "Carolina Leonardelli",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 7.25,
+          "dropped": false
+        },
+        {
+          "name": "Facundo De la Cruz",
+          "score": 7.61,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 7.15,
+          "dropped": true
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 7.3,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 7.8,
+          "dropped": true
+        }
+      ],
+      "average": 7.387,
+      "officialAverage": 7.387,
+      "rankInBlock": 20,
+      "rankOverall": 28,
+      "classified": true,
+      "cutoffDelta": 0,
+      "spread": 0.65,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 65.4,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.64,
+          "percentile": 83.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.387,
+          "percentile": 65.4
+        }
+      ],
+      "overall": 74.6,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 675,
+      "round": "3",
+      "dancer1": "Artem Luchin",
+      "dancer2": "Polina Luchina",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 7.4,
+          "dropped": false
+        },
+        {
+          "name": "Facundo De la Cruz",
+          "score": 7.58,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 6,
+          "dropped": true
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 7.15,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 7.68,
+          "dropped": true
+        }
+      ],
+      "average": 7.377,
+      "officialAverage": 7.377,
+      "rankInBlock": 21,
+      "rankOverall": 29,
+      "classified": false,
+      "cutoffDelta": -0.01,
+      "spread": 1.68,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 64.1,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.3,
+          "percentile": 59.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.377,
+          "percentile": 64.1
+        }
+      ],
+      "overall": 61.7,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 495,
+      "round": "1",
+      "dancer1": "Cristian Rubén Zalazar",
+      "dancer2": "Carla Daniela Espinoza",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 7.4,
+          "dropped": false
+        },
+        {
+          "name": "Facundo De la Cruz",
+          "score": 7.51,
+          "dropped": true
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 7.2,
+          "dropped": true
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 7.25,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 7.25,
+          "dropped": false
+        }
+      ],
+      "average": 7.3,
+      "officialAverage": 7.3,
+      "rankInBlock": 22,
+      "rankOverall": 32,
+      "classified": false,
+      "cutoffDelta": -0.087,
+      "spread": 0.31,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 60.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.523,
+          "percentile": 76.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.3,
+          "percentile": 60.3
+        }
+      ],
+      "overall": 68.3,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 301,
+      "round": "1",
+      "dancer1": "Juan Pablo Valdebenito",
+      "dancer2": "Rosario Belén Gimenez",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 7.2,
+          "dropped": false
+        },
+        {
+          "name": "Facundo De la Cruz",
+          "score": 7.8,
+          "dropped": true
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 7.05,
+          "dropped": true
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 7.2,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 7.5,
+          "dropped": false
+        }
+      ],
+      "average": 7.3,
+      "officialAverage": 7.3,
+      "rankInBlock": 22,
+      "rankOverall": 32,
+      "classified": false,
+      "cutoffDelta": -0.087,
+      "spread": 0.75,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 60.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.467,
+          "percentile": 71.9
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.3,
+          "percentile": 60.3
+        }
+      ],
+      "overall": 66.1,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 2,
+      "round": "1",
+      "dancer1": "Diego Churquina",
+      "dancer2": "Rocio Sanchez",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 7.35,
+          "dropped": false
+        },
+        {
+          "name": "Facundo De la Cruz",
+          "score": 7.38,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 7.08,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 6.7,
+          "dropped": true
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 7.6,
+          "dropped": true
+        }
+      ],
+      "average": 7.27,
+      "officialAverage": 7.27,
+      "rankInBlock": 24,
+      "rankOverall": 34,
+      "classified": false,
+      "cutoffDelta": -0.117,
+      "spread": 0.9,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 57.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.807,
+          "percentile": 95.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.27,
+          "percentile": 57.7
+        }
+      ],
+      "overall": 76.7,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 480,
+      "round": "2",
+      "dancer1": "Sebastian Motter",
+      "dancer2": "Valentina Cipollone",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 7.25,
+          "dropped": false
+        },
+        {
+          "name": "Facundo De la Cruz",
+          "score": 7.18,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 7.05,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 6.95,
+          "dropped": true
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 7.3,
+          "dropped": true
+        }
+      ],
+      "average": 7.16,
+      "officialAverage": 7.16,
+      "rankInBlock": 25,
+      "rankOverall": 43,
+      "classified": false,
+      "cutoffDelta": -0.227,
+      "spread": 0.35,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 46.2,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.3,
+          "percentile": 59.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.16,
+          "percentile": 46.2
+        }
+      ],
+      "overall": 52.8,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 62,
+      "round": "1",
+      "dancer1": "Daniel Moscoso Cañas",
+      "dancer2": "Darlyn Herrera Alvarez",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 7.25,
+          "dropped": false
+        },
+        {
+          "name": "Facundo De la Cruz",
+          "score": 7.18,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 6.05,
+          "dropped": true
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 7,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 7.3,
+          "dropped": true
+        }
+      ],
+      "average": 7.143,
+      "officialAverage": 7.143,
+      "rankInBlock": 26,
+      "rankOverall": 44,
+      "classified": false,
+      "cutoffDelta": -0.244,
+      "spread": 1.25,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 44.9,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.577,
+          "percentile": 81.5
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.143,
+          "percentile": 44.9
+        }
+      ],
+      "overall": 63.2,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 446,
+      "round": "3",
+      "dancer1": "Jhonathan Pachon",
+      "dancer2": "Suly Pachon",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 6.95,
+          "dropped": true
+        },
+        {
+          "name": "Facundo De la Cruz",
+          "score": 7.19,
+          "dropped": true
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 6.98,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 7.14,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 7.15,
+          "dropped": false
+        }
+      ],
+      "average": 7.09,
+      "officialAverage": 7.09,
+      "rankInBlock": 27,
+      "rankOverall": 46,
+      "classified": false,
+      "cutoffDelta": -0.297,
+      "spread": 0.24,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 42.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.127,
+          "percentile": 45.9
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.09,
+          "percentile": 42.3
+        }
+      ],
+      "overall": 44.1,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 330,
+      "round": "2",
+      "dancer1": "Carlos Flores",
+      "dancer2": "Marcia Martinucci",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 7.28,
+          "dropped": false
+        },
+        {
+          "name": "Facundo De la Cruz",
+          "score": 7.58,
+          "dropped": true
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 6.36,
+          "dropped": true
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 6.65,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 7.3,
+          "dropped": false
+        }
+      ],
+      "average": 7.077,
+      "officialAverage": 7.077,
+      "rankInBlock": 28,
+      "rankOverall": 47,
+      "classified": false,
+      "cutoffDelta": -0.31,
+      "spread": 1.22,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 41,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.217,
+          "percentile": 51.9
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.077,
+          "percentile": 41
+        }
+      ],
+      "overall": 46.5,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 674,
+      "round": "3",
+      "dancer1": "Facundo Rodriguez",
+      "dancer2": "Marina Ernandes",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 6.9,
+          "dropped": true
+        },
+        {
+          "name": "Facundo De la Cruz",
+          "score": 7.2,
+          "dropped": true
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 6.93,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 7.19,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 7.1,
+          "dropped": false
+        }
+      ],
+      "average": 7.073,
+      "officialAverage": 7.073,
+      "rankInBlock": 29,
+      "rankOverall": 48,
+      "classified": false,
+      "cutoffDelta": -0.314,
+      "spread": 0.3,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 39.7,
+      "stageStandings": [
+        {
+          "stage": "cuartos",
+          "average": 7.073,
+          "percentile": 39.7
+        }
+      ],
+      "overall": 39.7,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 290,
+      "round": "3",
+      "dancer1": "Ivan Loaiza",
+      "dancer2": "Yurani Arboleda Parra",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 7.05,
+          "dropped": false
+        },
+        {
+          "name": "Facundo De la Cruz",
+          "score": 7.8,
+          "dropped": true
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 6.45,
+          "dropped": true
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 6.85,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 7.3,
+          "dropped": false
+        }
+      ],
+      "average": 7.067,
+      "officialAverage": 7.067,
+      "rankInBlock": 30,
+      "rankOverall": 49,
+      "classified": false,
+      "cutoffDelta": -0.32,
+      "spread": 1.35,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 38.5,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.25,
+          "percentile": 54.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.067,
+          "percentile": 38.5
+        }
+      ],
+      "overall": 46.7,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 605,
+      "round": "1",
+      "dancer1": "Brayan Castañeda",
+      "dancer2": "Valentina Valencia Gómez",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 7.1,
+          "dropped": true
+        },
+        {
+          "name": "Facundo De la Cruz",
+          "score": 6.98,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 6.9,
+          "dropped": true
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 7.1,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 7.1,
+          "dropped": false
+        }
+      ],
+      "average": 7.06,
+      "officialAverage": 7.06,
+      "rankInBlock": 31,
+      "rankOverall": 50,
+      "classified": false,
+      "cutoffDelta": -0.327,
+      "spread": 0.2,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 37.2,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.283,
+          "percentile": 57
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.06,
+          "percentile": 37.2
+        }
+      ],
+      "overall": 47.1,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 291,
+      "round": "1",
+      "dancer1": "Octavio Gil Rojas",
+      "dancer2": "Ligeia Moya Bravo",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 6.9,
+          "dropped": false
+        },
+        {
+          "name": "Facundo De la Cruz",
+          "score": 7.41,
+          "dropped": true
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 6.85,
+          "dropped": true
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 6.9,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 7.3,
+          "dropped": false
+        }
+      ],
+      "average": 7.033,
+      "officialAverage": 7.033,
+      "rankInBlock": 32,
+      "rankOverall": 51,
+      "classified": false,
+      "cutoffDelta": -0.354,
+      "spread": 0.56,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 35.9,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.757,
+          "percentile": 88.9
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.033,
+          "percentile": 35.9
+        }
+      ],
+      "overall": 62.4,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 705,
+      "round": "1",
+      "dancer1": "Pablo Nicolás Neri",
+      "dancer2": "Juana Cambas",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 7.2,
+          "dropped": true
+        },
+        {
+          "name": "Facundo De la Cruz",
+          "score": 7.12,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 6.4,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 6.3,
+          "dropped": true
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 7.2,
+          "dropped": false
+        }
+      ],
+      "average": 6.907,
+      "officialAverage": 6.907,
+      "rankInBlock": 33,
+      "rankOverall": 55,
+      "classified": false,
+      "cutoffDelta": -0.48,
+      "spread": 0.9,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 30.8,
+      "stageStandings": [
+        {
+          "stage": "cuartos",
+          "average": 6.907,
+          "percentile": 30.8
+        }
+      ],
+      "overall": 30.8,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 69,
+      "round": "1",
+      "dancer1": "Dmitrii Kuznetsov",
+      "dancer2": "Olga Nikolaeva",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 6.9,
+          "dropped": false
+        },
+        {
+          "name": "Facundo De la Cruz",
+          "score": 7.69,
+          "dropped": true
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 6.38,
+          "dropped": true
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 6.38,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 7.4,
+          "dropped": false
+        }
+      ],
+      "average": 6.893,
+      "officialAverage": 6.893,
+      "rankInBlock": 34,
+      "rankOverall": 56,
+      "classified": false,
+      "cutoffDelta": -0.494,
+      "spread": 1.31,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 29.5,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.467,
+          "percentile": 71.9
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.893,
+          "percentile": 29.5
+        }
+      ],
+      "overall": 50.7,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 437,
+      "round": "1",
+      "dancer1": "Rodrigo Barrionuevo",
+      "dancer2": "Pilar Corbalan",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 7,
+          "dropped": true
+        },
+        {
+          "name": "Facundo De la Cruz",
+          "score": 7,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 6.45,
+          "dropped": true
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 6.6,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 6.8,
+          "dropped": false
+        }
+      ],
+      "average": 6.8,
+      "officialAverage": 6.8,
+      "rankInBlock": 35,
+      "rankOverall": 62,
+      "classified": false,
+      "cutoffDelta": -0.587,
+      "spread": 0.55,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 21.8,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.05,
+          "percentile": 40.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.8,
+          "percentile": 21.8
+        }
+      ],
+      "overall": 31.3,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 439,
+      "round": "1",
+      "dancer1": "Ramiro Perez Caricchio",
+      "dancer2": "Sofia Ferre",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 7.1,
+          "dropped": false
+        },
+        {
+          "name": "Facundo De la Cruz",
+          "score": 6.95,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 6.1,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 6,
+          "dropped": true
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 7.15,
+          "dropped": true
+        }
+      ],
+      "average": 6.717,
+      "officialAverage": 6.717,
+      "rankInBlock": 36,
+      "rankOverall": 64,
+      "classified": false,
+      "cutoffDelta": -0.67,
+      "spread": 1.15,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 19.2,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.183,
+          "percentile": 49.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.717,
+          "percentile": 19.2
+        }
+      ],
+      "overall": 34.4,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 531,
+      "round": "2",
+      "dancer1": "Franco Ivan Martínez",
+      "dancer2": "Vanessa Vega",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 7.15,
+          "dropped": true
+        },
+        {
+          "name": "Facundo De la Cruz",
+          "score": 6.97,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 6.05,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 5.8,
+          "dropped": true
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 7.1,
+          "dropped": false
+        }
+      ],
+      "average": 6.707,
+      "officialAverage": 6.707,
+      "rankInBlock": 37,
+      "rankOverall": 65,
+      "classified": false,
+      "cutoffDelta": -0.68,
+      "spread": 1.35,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 17.9,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.117,
+          "percentile": 45.2
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.707,
+          "percentile": 17.9
+        }
+      ],
+      "overall": 31.6,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 256,
+      "round": "1",
+      "dancer1": "Gary Etchegaray",
+      "dancer2": "Angelina Diaz",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 6.85,
+          "dropped": false
+        },
+        {
+          "name": "Facundo De la Cruz",
+          "score": 6.93,
+          "dropped": true
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 6.5,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 5.7,
+          "dropped": true
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 6.5,
+          "dropped": false
+        }
+      ],
+      "average": 6.617,
+      "officialAverage": 6.617,
+      "rankInBlock": 38,
+      "rankOverall": 68,
+      "classified": false,
+      "cutoffDelta": -0.77,
+      "spread": 1.23,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 14.1,
+      "stageStandings": [
+        {
+          "stage": "cuartos",
+          "average": 6.617,
+          "percentile": 14.1
+        }
+      ],
+      "overall": 14.1,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 695,
+      "round": "3",
+      "dancer1": "Iskandar Ahmad",
+      "dancer2": "Alyzsa Lim",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 6.8,
+          "dropped": false
+        },
+        {
+          "name": "Facundo De la Cruz",
+          "score": 6.91,
+          "dropped": true
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 5.4,
+          "dropped": true
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 6.45,
+          "dropped": false
+        },
+        {
+          "name": "Ignacio Gonzalez Cano",
+          "score": 6.2,
+          "dropped": false
+        }
+      ],
+      "average": 6.483,
+      "officialAverage": 6.483,
+      "rankInBlock": 39,
+      "rankOverall": 70,
+      "classified": false,
+      "cutoffDelta": -0.904,
+      "spread": 1.51,
+      "blockId": "A",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 11.5,
+      "stageStandings": [
+        {
+          "stage": "cuartos",
+          "average": 6.483,
+          "percentile": 11.5
+        }
+      ],
+      "overall": 11.5,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 547,
+      "round": "5",
+      "dancer1": "Nicolas Schell",
+      "dancer2": "Nair Schinca",
+      "judges": [
+        {
+          "name": "Cristina Fontana",
+          "score": 7.99,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 8,
+          "dropped": true
+        },
+        {
+          "name": "Julián Sanchez",
+          "score": 7.5,
+          "dropped": true
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7.5,
+          "dropped": false
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 8,
+          "dropped": false
+        }
+      ],
+      "average": 7.83,
+      "officialAverage": 7.83,
+      "rankInBlock": 1,
+      "rankOverall": 7,
+      "classified": true,
+      "cutoffDelta": 0.827,
+      "spread": 0.5,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 92.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.957,
+          "percentile": 100
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.83,
+          "percentile": 92.3
+        }
+      ],
+      "overall": 96.2,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 453,
+      "round": "5",
+      "dancer1": "Fabrizio Muñoz Lopez",
+      "dancer2": "Federica Tobares",
+      "judges": [
+        {
+          "name": "Cristina Fontana",
+          "score": 7.89,
+          "dropped": true
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 7.8,
+          "dropped": false
+        },
+        {
+          "name": "Julián Sanchez",
+          "score": 6.9,
+          "dropped": true
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7.85,
+          "dropped": false
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 7.75,
+          "dropped": false
+        }
+      ],
+      "average": 7.8,
+      "officialAverage": 7.8,
+      "rankInBlock": 2,
+      "rankOverall": 8,
+      "classified": true,
+      "cutoffDelta": 0.797,
+      "spread": 0.99,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 91,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.55,
+          "percentile": 77.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.8,
+          "percentile": 91
+        }
+      ],
+      "overall": 84.4,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 554,
+      "round": "6",
+      "dancer1": "Ariel Leguizamon",
+      "dancer2": "Yesica Esquivel",
+      "judges": [
+        {
+          "name": "Cristina Fontana",
+          "score": 7.92,
+          "dropped": true
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 7.05,
+          "dropped": true
+        },
+        {
+          "name": "Julián Sanchez",
+          "score": 7.29,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7.58,
+          "dropped": false
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 7.88,
+          "dropped": false
+        }
+      ],
+      "average": 7.583,
+      "officialAverage": 7.583,
+      "rankInBlock": 3,
+      "rankOverall": 16,
+      "classified": true,
+      "cutoffDelta": 0.58,
+      "spread": 0.87,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 80.8,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.883,
+          "percentile": 99.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.583,
+          "percentile": 80.8
+        }
+      ],
+      "overall": 90.1,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 3,
+      "round": "6",
+      "dancer1": "Jesus Taborda",
+      "dancer2": "Carla Dominguez",
+      "judges": [
+        {
+          "name": "Cristina Fontana",
+          "score": 7.89,
+          "dropped": true
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 7.8,
+          "dropped": false
+        },
+        {
+          "name": "Julián Sanchez",
+          "score": 7.2,
+          "dropped": true
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7.3,
+          "dropped": false
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 7.5,
+          "dropped": false
+        }
+      ],
+      "average": 7.533,
+      "officialAverage": 7.533,
+      "rankInBlock": 4,
+      "rankOverall": 19,
+      "classified": true,
+      "cutoffDelta": 0.53,
+      "spread": 0.69,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 76.9,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.793,
+          "percentile": 93.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.533,
+          "percentile": 76.9
+        }
+      ],
+      "overall": 85.1,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 284,
+      "round": "5",
+      "dancer1": "Julio JoséSeffino",
+      "dancer2": "Aldana Belén Tade",
+      "judges": [
+        {
+          "name": "Cristina Fontana",
+          "score": 7.8,
+          "dropped": true
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 7.4,
+          "dropped": false
+        },
+        {
+          "name": "Julián Sanchez",
+          "score": 7.2,
+          "dropped": true
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7.4,
+          "dropped": false
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 7.7,
+          "dropped": false
+        }
+      ],
+      "average": 7.5,
+      "officialAverage": 7.5,
+      "rankInBlock": 5,
+      "rankOverall": 21,
+      "classified": true,
+      "cutoffDelta": 0.497,
+      "spread": 0.6,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 74.4,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.83,
+          "percentile": 97
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.5,
+          "percentile": 74.4
+        }
+      ],
+      "overall": 85.7,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 481,
+      "round": "5",
+      "dancer1": "Ulises García",
+      "dancer2": "Florencia Campo",
+      "judges": [
+        {
+          "name": "Cristina Fontana",
+          "score": 7.75,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 6.9,
+          "dropped": false
+        },
+        {
+          "name": "Julián Sanchez",
+          "score": 7.61,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7.9,
+          "dropped": true
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 6,
+          "dropped": true
+        }
+      ],
+      "average": 7.42,
+      "officialAverage": 7.42,
+      "rankInBlock": 6,
+      "rankOverall": 23,
+      "classified": true,
+      "cutoffDelta": 0.417,
+      "spread": 1.9,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 71.8,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.373,
+          "percentile": 63.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.42,
+          "percentile": 71.8
+        }
+      ],
+      "overall": 67.8,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 509,
+      "round": "7",
+      "dancer1": "Lucas Guevara",
+      "dancer2": "Daniela Bravo",
+      "judges": [
+        {
+          "name": "Cristina Fontana",
+          "score": 7.7,
+          "dropped": true
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 7.3,
+          "dropped": false
+        },
+        {
+          "name": "Julián Sanchez",
+          "score": 7.27,
+          "dropped": true
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7.45,
+          "dropped": false
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 7.5,
+          "dropped": false
+        }
+      ],
+      "average": 7.417,
+      "officialAverage": 7.417,
+      "rankInBlock": 7,
+      "rankOverall": 25,
+      "classified": true,
+      "cutoffDelta": 0.414,
+      "spread": 0.43,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 69.2,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.627,
+          "percentile": 83
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.417,
+          "percentile": 69.2
+        }
+      ],
+      "overall": 76.1,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 440,
+      "round": "6",
+      "dancer1": "Stanislav Fursov",
+      "dancer2": "Ekaterina Simonova",
+      "judges": [
+        {
+          "name": "Cristina Fontana",
+          "score": 7.35,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 7.65,
+          "dropped": false
+        },
+        {
+          "name": "Julián Sanchez",
+          "score": 7.23,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 6,
+          "dropped": true
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 7.7,
+          "dropped": true
+        }
+      ],
+      "average": 7.41,
+      "officialAverage": 7.41,
+      "rankInBlock": 8,
+      "rankOverall": 26,
+      "classified": true,
+      "cutoffDelta": 0.407,
+      "spread": 1.7,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 67.9,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.713,
+          "percentile": 85.9
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.41,
+          "percentile": 67.9
+        }
+      ],
+      "overall": 76.9,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 406,
+      "round": "5",
+      "dancer1": "Adriel Cristhian Bournissen",
+      "dancer2": "María Soledad Mallo",
+      "judges": [
+        {
+          "name": "Cristina Fontana",
+          "score": 7.7,
+          "dropped": true
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 7.3,
+          "dropped": false
+        },
+        {
+          "name": "Julián Sanchez",
+          "score": 7.15,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 6.8,
+          "dropped": true
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 7.6,
+          "dropped": false
+        }
+      ],
+      "average": 7.35,
+      "officialAverage": 7.35,
+      "rankInBlock": 9,
+      "rankOverall": 30,
+      "classified": true,
+      "cutoffDelta": 0.347,
+      "spread": 0.9,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 62.8,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.663,
+          "percentile": 84.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.35,
+          "percentile": 62.8
+        }
+      ],
+      "overall": 73.6,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 141,
+      "round": "5",
+      "dancer1": "Cristian Lopez",
+      "dancer2": "Naoko Tsutsumizaki",
+      "judges": [
+        {
+          "name": "Cristina Fontana",
+          "score": 6.95,
+          "dropped": true
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 7.4,
+          "dropped": false
+        },
+        {
+          "name": "Julián Sanchez",
+          "score": 7.1,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7.6,
+          "dropped": true
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 7.5,
+          "dropped": false
+        }
+      ],
+      "average": 7.333,
+      "officialAverage": 7.333,
+      "rankInBlock": 10,
+      "rankOverall": 31,
+      "classified": true,
+      "cutoffDelta": 0.33,
+      "spread": 0.65,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 61.5,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.733,
+          "percentile": 87.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.333,
+          "percentile": 61.5
+        }
+      ],
+      "overall": 74.5,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 590,
+      "round": "7",
+      "dancer1": "Federico Leonardo Luna",
+      "dancer2": "Aldana Jimenez",
+      "judges": [
+        {
+          "name": "Cristina Fontana",
+          "score": 7.8,
+          "dropped": true
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 7.65,
+          "dropped": false
+        },
+        {
+          "name": "Julián Sanchez",
+          "score": 7.11,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7,
+          "dropped": false
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 6.1,
+          "dropped": true
+        }
+      ],
+      "average": 7.253,
+      "officialAverage": 7.253,
+      "rankInBlock": 11,
+      "rankOverall": 35,
+      "classified": true,
+      "cutoffDelta": 0.25,
+      "spread": 1.7,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 56.4,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.733,
+          "percentile": 87.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.253,
+          "percentile": 56.4
+        }
+      ],
+      "overall": 71.9,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 79,
+      "round": "6",
+      "dancer1": "Juan Cupini",
+      "dancer2": "Erica Rossi",
+      "judges": [
+        {
+          "name": "Cristina Fontana",
+          "score": 7.79,
+          "dropped": true
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 7.2,
+          "dropped": false
+        },
+        {
+          "name": "Julián Sanchez",
+          "score": 6.9,
+          "dropped": true
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7.3,
+          "dropped": false
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 7.2,
+          "dropped": false
+        }
+      ],
+      "average": 7.233,
+      "officialAverage": 7.233,
+      "rankInBlock": 12,
+      "rankOverall": 36,
+      "classified": true,
+      "cutoffDelta": 0.23,
+      "spread": 0.89,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 55.1,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.56,
+          "percentile": 78.5
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.233,
+          "percentile": 55.1
+        }
+      ],
+      "overall": 66.8,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 403,
+      "round": "7",
+      "dancer1": "Franco Emanuel Palleiro",
+      "dancer2": "Oriana Abril Herenu",
+      "judges": [
+        {
+          "name": "Cristina Fontana",
+          "score": 7.7,
+          "dropped": true
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 7.1,
+          "dropped": false
+        },
+        {
+          "name": "Julián Sanchez",
+          "score": 7.15,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7.4,
+          "dropped": false
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 5.7,
+          "dropped": true
+        }
+      ],
+      "average": 7.217,
+      "officialAverage": 7.217,
+      "rankInBlock": 13,
+      "rankOverall": 37,
+      "classified": true,
+      "cutoffDelta": 0.214,
+      "spread": 2,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 53.8,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.563,
+          "percentile": 79.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.217,
+          "percentile": 53.8
+        }
+      ],
+      "overall": 66.6,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 49,
+      "round": "6",
+      "dancer1": "Hernan David Lopez",
+      "dancer2": "Camila Ayelen Luna",
+      "judges": [
+        {
+          "name": "Cristina Fontana",
+          "score": 7.75,
+          "dropped": true
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 7.2,
+          "dropped": false
+        },
+        {
+          "name": "Julián Sanchez",
+          "score": 7.35,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7.1,
+          "dropped": false
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 5.6,
+          "dropped": true
+        }
+      ],
+      "average": 7.217,
+      "officialAverage": 7.217,
+      "rankInBlock": 13,
+      "rankOverall": 37,
+      "classified": true,
+      "cutoffDelta": 0.214,
+      "spread": 2.15,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 53.8,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.5,
+          "percentile": 74.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.217,
+          "percentile": 53.8
+        }
+      ],
+      "overall": 64.3,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 682,
+      "round": "6",
+      "dancer1": "Jorge Andres Padilla Mayo",
+      "dancer2": "Ana Zoraida Gomez Diaz",
+      "judges": [
+        {
+          "name": "Cristina Fontana",
+          "score": 7.1,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 7.8,
+          "dropped": true
+        },
+        {
+          "name": "Julián Sanchez",
+          "score": 6.85,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7.7,
+          "dropped": false
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 6.6,
+          "dropped": true
+        }
+      ],
+      "average": 7.217,
+      "officialAverage": 7.217,
+      "rankInBlock": 13,
+      "rankOverall": 37,
+      "classified": true,
+      "cutoffDelta": 0.214,
+      "spread": 1.2,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 53.8,
+      "stageStandings": [
+        {
+          "stage": "cuartos",
+          "average": 7.217,
+          "percentile": 53.8
+        }
+      ],
+      "overall": 53.8,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 477,
+      "round": "6",
+      "dancer1": "Franco Cocheret",
+      "dancer2": "Juliana Mansilla",
+      "judges": [
+        {
+          "name": "Cristina Fontana",
+          "score": 7.87,
+          "dropped": true
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 7.3,
+          "dropped": false
+        },
+        {
+          "name": "Julián Sanchez",
+          "score": 7.13,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7.2,
+          "dropped": false
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 7,
+          "dropped": true
+        }
+      ],
+      "average": 7.21,
+      "officialAverage": 7.21,
+      "rankInBlock": 16,
+      "rankOverall": 40,
+      "classified": true,
+      "cutoffDelta": 0.207,
+      "spread": 0.87,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 50,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.747,
+          "percentile": 88.1
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.21,
+          "percentile": 50
+        }
+      ],
+      "overall": 69.1,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 493,
+      "round": "5",
+      "dancer1": "Ivan Vivas",
+      "dancer2": "Camila Pina",
+      "judges": [
+        {
+          "name": "Cristina Fontana",
+          "score": 7.4,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 6.9,
+          "dropped": true
+        },
+        {
+          "name": "Julián Sanchez",
+          "score": 7.1,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7.75,
+          "dropped": true
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 7,
+          "dropped": false
+        }
+      ],
+      "average": 7.167,
+      "officialAverage": 7.167,
+      "rankInBlock": 17,
+      "rankOverall": 41,
+      "classified": true,
+      "cutoffDelta": 0.164,
+      "spread": 0.85,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 48.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.78,
+          "percentile": 91.9
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.167,
+          "percentile": 48.7
+        }
+      ],
+      "overall": 70.3,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 249,
+      "round": "7",
+      "dancer1": "Matías Gabriel Casali",
+      "dancer2": "María Sol Menescardi",
+      "judges": [
+        {
+          "name": "Cristina Fontana",
+          "score": 7.85,
+          "dropped": true
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 6.9,
+          "dropped": false
+        },
+        {
+          "name": "Julián Sanchez",
+          "score": 6.86,
+          "dropped": true
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7.5,
+          "dropped": false
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 7.1,
+          "dropped": false
+        }
+      ],
+      "average": 7.167,
+      "officialAverage": 7.167,
+      "rankInBlock": 17,
+      "rankOverall": 41,
+      "classified": true,
+      "cutoffDelta": 0.164,
+      "spread": 0.99,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 48.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.507,
+          "percentile": 75.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.167,
+          "percentile": 48.7
+        }
+      ],
+      "overall": 62.2,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 693,
+      "round": "7",
+      "dancer1": "David Ezequiel Chartoriski",
+      "dancer2": "Yelena Odintsova",
+      "judges": [
+        {
+          "name": "Cristina Fontana",
+          "score": 5.85,
+          "dropped": true
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 7.3,
+          "dropped": true
+        },
+        {
+          "name": "Julián Sanchez",
+          "score": 6.93,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7.3,
+          "dropped": false
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 7.1,
+          "dropped": false
+        }
+      ],
+      "average": 7.11,
+      "officialAverage": 7.11,
+      "rankInBlock": 19,
+      "rankOverall": 45,
+      "classified": true,
+      "cutoffDelta": 0.107,
+      "spread": 1.45,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 43.6,
+      "stageStandings": [
+        {
+          "stage": "cuartos",
+          "average": 7.11,
+          "percentile": 43.6
+        }
+      ],
+      "overall": 43.6,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 107,
+      "round": "7",
+      "dancer1": "Valentín Arias Delgado",
+      "dancer2": "Diana Paola Franco Durango",
+      "judges": [
+        {
+          "name": "Cristina Fontana",
+          "score": 7.1,
+          "dropped": true
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 7.1,
+          "dropped": false
+        },
+        {
+          "name": "Julián Sanchez",
+          "score": 6.91,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7,
+          "dropped": false
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 6.9,
+          "dropped": true
+        }
+      ],
+      "average": 7.003,
+      "officialAverage": 7.003,
+      "rankInBlock": 20,
+      "rankOverall": 52,
+      "classified": true,
+      "cutoffDelta": 0,
+      "spread": 0.2,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 34.6,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.433,
+          "percentile": 68.1
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.003,
+          "percentile": 34.6
+        }
+      ],
+      "overall": 51.4,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 87,
+      "round": "7",
+      "dancer1": "Pablo Nahuel Conde",
+      "dancer2": "Constanza Cenzano",
+      "judges": [
+        {
+          "name": "Cristina Fontana",
+          "score": 7.28,
+          "dropped": true
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 7,
+          "dropped": false
+        },
+        {
+          "name": "Julián Sanchez",
+          "score": 6.85,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 5.85,
+          "dropped": true
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 6.99,
+          "dropped": false
+        }
+      ],
+      "average": 6.947,
+      "officialAverage": 6.947,
+      "rankInBlock": 21,
+      "rankOverall": 53,
+      "classified": false,
+      "cutoffDelta": -0.056,
+      "spread": 1.43,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 33.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.463,
+          "percentile": 70.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.947,
+          "percentile": 33.3
+        }
+      ],
+      "overall": 51.9,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 386,
+      "round": "6",
+      "dancer1": "Matteo Antonietti",
+      "dancer2": "Añes Arredondo",
+      "judges": [
+        {
+          "name": "Cristina Fontana",
+          "score": 6.45,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 7.3,
+          "dropped": false
+        },
+        {
+          "name": "Julián Sanchez",
+          "score": 7,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7.65,
+          "dropped": true
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 6,
+          "dropped": true
+        }
+      ],
+      "average": 6.917,
+      "officialAverage": 6.917,
+      "rankInBlock": 22,
+      "rankOverall": 54,
+      "classified": false,
+      "cutoffDelta": -0.086,
+      "spread": 1.65,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 32.1,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.237,
+          "percentile": 54.1
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.917,
+          "percentile": 32.1
+        }
+      ],
+      "overall": 43.1,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 373,
+      "round": "6",
+      "dancer1": "Luis Emilio Cappelletti",
+      "dancer2": "Vittoria Franchina",
+      "judges": [
+        {
+          "name": "Cristina Fontana",
+          "score": 7.7,
+          "dropped": true
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 7.25,
+          "dropped": false
+        },
+        {
+          "name": "Julián Sanchez",
+          "score": 6.4,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7,
+          "dropped": false
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 5.8,
+          "dropped": true
+        }
+      ],
+      "average": 6.883,
+      "officialAverage": 6.883,
+      "rankInBlock": 23,
+      "rankOverall": 57,
+      "classified": false,
+      "cutoffDelta": -0.12,
+      "spread": 1.9,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 28.2,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.35,
+          "percentile": 63
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.883,
+          "percentile": 28.2
+        }
+      ],
+      "overall": 45.6,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 430,
+      "round": "6",
+      "dancer1": "Ilia Senatorov",
+      "dancer2": "Maria Korsakova",
+      "judges": [
+        {
+          "name": "Cristina Fontana",
+          "score": 7.3,
+          "dropped": true
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 7.15,
+          "dropped": false
+        },
+        {
+          "name": "Julián Sanchez",
+          "score": 6.95,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 5.4,
+          "dropped": true
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 6.5,
+          "dropped": false
+        }
+      ],
+      "average": 6.867,
+      "officialAverage": 6.867,
+      "rankInBlock": 24,
+      "rankOverall": 58,
+      "classified": false,
+      "cutoffDelta": -0.136,
+      "spread": 1.9,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 26.9,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.403,
+          "percentile": 66.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.867,
+          "percentile": 26.9
+        }
+      ],
+      "overall": 46.8,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 647,
+      "round": "6",
+      "dancer1": "Andres Gonzalez Ballesteros",
+      "dancer2": "Sara Gòmez Quiroz",
+      "judges": [
+        {
+          "name": "Cristina Fontana",
+          "score": 7.05,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 7.2,
+          "dropped": true
+        },
+        {
+          "name": "Julián Sanchez",
+          "score": 6.69,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 6.8,
+          "dropped": false
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 5.9,
+          "dropped": true
+        }
+      ],
+      "average": 6.847,
+      "officialAverage": 6.847,
+      "rankInBlock": 25,
+      "rankOverall": 59,
+      "classified": false,
+      "cutoffDelta": -0.156,
+      "spread": 1.3,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 25.6,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.45,
+          "percentile": 69.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.847,
+          "percentile": 25.6
+        }
+      ],
+      "overall": 47.6,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 542,
+      "round": "5",
+      "dancer1": "Andrea Vighi",
+      "dancer2": "Chiara Benati",
+      "judges": [
+        {
+          "name": "Cristina Fontana",
+          "score": 6.8,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 6,
+          "dropped": true
+        },
+        {
+          "name": "Julián Sanchez",
+          "score": 7,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7.9,
+          "dropped": true
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 6.7,
+          "dropped": false
+        }
+      ],
+      "average": 6.833,
+      "officialAverage": 6.833,
+      "rankInBlock": 26,
+      "rankOverall": 60,
+      "classified": false,
+      "cutoffDelta": -0.17,
+      "spread": 1.9,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 24.4,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.483,
+          "percentile": 74.1
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.833,
+          "percentile": 24.4
+        }
+      ],
+      "overall": 49.3,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 237,
+      "round": "7",
+      "dancer1": "Bubis Mikhail",
+      "dancer2": "Sofia Titova",
+      "judges": [
+        {
+          "name": "Cristina Fontana",
+          "score": 7.15,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 7.55,
+          "dropped": true
+        },
+        {
+          "name": "Julián Sanchez",
+          "score": 6.35,
+          "dropped": true
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 6.6,
+          "dropped": false
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 6.7,
+          "dropped": false
+        }
+      ],
+      "average": 6.817,
+      "officialAverage": 6.817,
+      "rankInBlock": 27,
+      "rankOverall": 61,
+      "classified": false,
+      "cutoffDelta": -0.186,
+      "spread": 1.2,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 23.1,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.193,
+          "percentile": 50.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.817,
+          "percentile": 23.1
+        }
+      ],
+      "overall": 36.8,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 680,
+      "round": "5",
+      "dancer1": "Ignacio Agustin Fonseca",
+      "dancer2": "Julieta Clara Yanes",
+      "judges": [
+        {
+          "name": "Cristina Fontana",
+          "score": 6.2,
+          "dropped": true
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 6.9,
+          "dropped": false
+        },
+        {
+          "name": "Julián Sanchez",
+          "score": 6.7,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7.7,
+          "dropped": true
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 6.6,
+          "dropped": false
+        }
+      ],
+      "average": 6.733,
+      "officialAverage": 6.733,
+      "rankInBlock": 28,
+      "rankOverall": 63,
+      "classified": false,
+      "cutoffDelta": -0.27,
+      "spread": 1.5,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 20.5,
+      "stageStandings": [
+        {
+          "stage": "cuartos",
+          "average": 6.733,
+          "percentile": 20.5
+        }
+      ],
+      "overall": 20.5,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 598,
+      "round": "7",
+      "dancer1": "Iván Cristoff Veleff",
+      "dancer2": "Paulina Aguinalde",
+      "judges": [
+        {
+          "name": "Cristina Fontana",
+          "score": 6.25,
+          "dropped": true
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 7,
+          "dropped": false
+        },
+        {
+          "name": "Julián Sanchez",
+          "score": 6.7,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7.1,
+          "dropped": true
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 6.4,
+          "dropped": false
+        }
+      ],
+      "average": 6.7,
+      "officialAverage": 6.7,
+      "rankInBlock": 29,
+      "rankOverall": 66,
+      "classified": false,
+      "cutoffDelta": -0.303,
+      "spread": 0.85,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 16.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.267,
+          "percentile": 56.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.7,
+          "percentile": 16.7
+        }
+      ],
+      "overall": 36.5,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 438,
+      "round": "6",
+      "dancer1": "Fabian Francisco Rodriguez",
+      "dancer2": "Eliana Gisela Mola",
+      "judges": [
+        {
+          "name": "Cristina Fontana",
+          "score": 6.9,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 7.1,
+          "dropped": true
+        },
+        {
+          "name": "Julián Sanchez",
+          "score": 6.3,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 6,
+          "dropped": true
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 6.8,
+          "dropped": false
+        }
+      ],
+      "average": 6.667,
+      "officialAverage": 6.667,
+      "rankInBlock": 30,
+      "rankOverall": 67,
+      "classified": false,
+      "cutoffDelta": -0.336,
+      "spread": 1.1,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 15.4,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.4,
+          "percentile": 65.2
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.667,
+          "percentile": 15.4
+        }
+      ],
+      "overall": 40.3,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 44,
+      "round": "5",
+      "dancer1": "Leonel Herrera",
+      "dancer2": "Maira Sanchez",
+      "judges": [
+        {
+          "name": "Cristina Fontana",
+          "score": 6.3,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 7,
+          "dropped": false
+        },
+        {
+          "name": "Julián Sanchez",
+          "score": 6.5,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7.1,
+          "dropped": true
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 6,
+          "dropped": true
+        }
+      ],
+      "average": 6.6,
+      "officialAverage": 6.6,
+      "rankInBlock": 31,
+      "rankOverall": 69,
+      "classified": false,
+      "cutoffDelta": -0.403,
+      "spread": 1.1,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 12.8,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.4,
+          "percentile": 65.2
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.6,
+          "percentile": 12.8
+        }
+      ],
+      "overall": 39,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 128,
+      "round": "5",
+      "dancer1": "Valentin Mayores",
+      "dancer2": "Constanza Cano Morel",
+      "judges": [
+        {
+          "name": "Cristina Fontana",
+          "score": 6.2,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 7.1,
+          "dropped": true
+        },
+        {
+          "name": "Julián Sanchez",
+          "score": 7,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 6.1,
+          "dropped": true
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 6.2,
+          "dropped": false
+        }
+      ],
+      "average": 6.467,
+      "officialAverage": 6.467,
+      "rankInBlock": 32,
+      "rankOverall": 71,
+      "classified": false,
+      "cutoffDelta": -0.536,
+      "spread": 1,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 10.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.533,
+          "percentile": 77
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.467,
+          "percentile": 10.3
+        }
+      ],
+      "overall": 43.7,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 491,
+      "round": "5",
+      "dancer1": "Luciano Castro",
+      "dancer2": "Eliana Villarruel",
+      "judges": [
+        {
+          "name": "Cristina Fontana",
+          "score": 6.1,
+          "dropped": true
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 6.7,
+          "dropped": true
+        },
+        {
+          "name": "Julián Sanchez",
+          "score": 6.25,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 6.6,
+          "dropped": false
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 6.3,
+          "dropped": false
+        }
+      ],
+      "average": 6.383,
+      "officialAverage": 6.383,
+      "rankInBlock": 33,
+      "rankOverall": 72,
+      "classified": false,
+      "cutoffDelta": -0.62,
+      "spread": 0.6,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 9,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.297,
+          "percentile": 57.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.383,
+          "percentile": 9
+        }
+      ],
+      "overall": 33.4,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 27,
+      "round": "5",
+      "dancer1": "Alexander Latorre Valero",
+      "dancer2": "Paulina Posadas Dagio",
+      "judges": [
+        {
+          "name": "Cristina Fontana",
+          "score": 6.05,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 6,
+          "dropped": true
+        },
+        {
+          "name": "Julián Sanchez",
+          "score": 6.3,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7.05,
+          "dropped": true
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 6.2,
+          "dropped": false
+        }
+      ],
+      "average": 6.183,
+      "officialAverage": 6.183,
+      "rankInBlock": 34,
+      "rankOverall": 73,
+      "classified": false,
+      "cutoffDelta": -0.82,
+      "spread": 1.05,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 7.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.15,
+          "percentile": 47.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.183,
+          "percentile": 7.7
+        }
+      ],
+      "overall": 27.6,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 217,
+      "round": "5",
+      "dancer1": "Federico Borquez",
+      "dancer2": "Agostina Cala",
+      "judges": [
+        {
+          "name": "Cristina Fontana",
+          "score": 5.2,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 6.8,
+          "dropped": true
+        },
+        {
+          "name": "Julián Sanchez",
+          "score": 6.5,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 6.5,
+          "dropped": false
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 5.1,
+          "dropped": true
+        }
+      ],
+      "average": 6.067,
+      "officialAverage": 6.067,
+      "rankInBlock": 35,
+      "rankOverall": 74,
+      "classified": false,
+      "cutoffDelta": -0.936,
+      "spread": 1.7,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 6.4,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.403,
+          "percentile": 66.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.067,
+          "percentile": 6.4
+        }
+      ],
+      "overall": 36.6,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 602,
+      "round": "7",
+      "dancer1": "Luis Rodriguez Garcia",
+      "dancer2": "Ana Belen Ortiz",
+      "judges": [
+        {
+          "name": "Cristina Fontana",
+          "score": 5.4,
+          "dropped": true
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 6.4,
+          "dropped": true
+        },
+        {
+          "name": "Julián Sanchez",
+          "score": 6.17,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 6,
+          "dropped": false
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 5.9,
+          "dropped": false
+        }
+      ],
+      "average": 6.023,
+      "officialAverage": 6.023,
+      "rankInBlock": 36,
+      "rankOverall": 75,
+      "classified": false,
+      "cutoffDelta": -0.98,
+      "spread": 1,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 5.1,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.083,
+          "percentile": 43.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 6.023,
+          "percentile": 5.1
+        }
+      ],
+      "overall": 24.4,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 329,
+      "round": "7",
+      "dancer1": "Giuliano Calvimonte",
+      "dancer2": "Roxane Camargo",
+      "judges": [
+        {
+          "name": "Cristina Fontana",
+          "score": 5.8,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 7,
+          "dropped": true
+        },
+        {
+          "name": "Julián Sanchez",
+          "score": 6.4,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 5,
+          "dropped": true
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 5.8,
+          "dropped": false
+        }
+      ],
+      "average": 6,
+      "officialAverage": 6,
+      "rankInBlock": 37,
+      "rankOverall": 76,
+      "classified": false,
+      "cutoffDelta": -1.003,
+      "spread": 2,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 3.8,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.433,
+          "percentile": 68.1
+        },
+        {
+          "stage": "cuartos",
+          "average": 6,
+          "percentile": 3.8
+        }
+      ],
+      "overall": 35.9,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 687,
+      "round": "6",
+      "dancer1": "Hong Su Kim",
+      "dancer2": "Jinju Lim",
+      "judges": [
+        {
+          "name": "Cristina Fontana",
+          "score": 5.4,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 6.5,
+          "dropped": false
+        },
+        {
+          "name": "Julián Sanchez",
+          "score": 6.7,
+          "dropped": true
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 5.15,
+          "dropped": false
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 5.1,
+          "dropped": true
+        }
+      ],
+      "average": 5.683,
+      "officialAverage": 5.683,
+      "rankInBlock": 38,
+      "rankOverall": 77,
+      "classified": false,
+      "cutoffDelta": -1.32,
+      "spread": 1.6,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 2.6,
+      "stageStandings": [
+        {
+          "stage": "cuartos",
+          "average": 5.683,
+          "percentile": 2.6
+        }
+      ],
+      "overall": 2.6,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 558,
+      "round": "6",
+      "dancer1": "Dylan Fragoli",
+      "dancer2": "Joselyn Porcel",
+      "judges": [
+        {
+          "name": "Cristina Fontana",
+          "score": 5.4,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 6,
+          "dropped": true
+        },
+        {
+          "name": "Julián Sanchez",
+          "score": 5.9,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 5.05,
+          "dropped": true
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 5.5,
+          "dropped": false
+        }
+      ],
+      "average": 5.6,
+      "officialAverage": 5.6,
+      "rankInBlock": 39,
+      "rankOverall": 78,
+      "classified": false,
+      "cutoffDelta": -1.403,
+      "spread": 0.95,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 1.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.067,
+          "percentile": 41.5
+        },
+        {
+          "stage": "cuartos",
+          "average": 5.6,
+          "percentile": 1.3
+        }
+      ],
+      "overall": 21.4,
+      "lastStageReached": "cuartos"
+    },
+    {
+      "coupleId": 681,
+      "round": "5",
+      "dancer1": "Jesus Matias Aranguren Giménez",
+      "dancer2": "Jael Montilla Noguera",
+      "judges": [
+        {
+          "name": "Cristina Fontana",
+          "score": 5.2,
+          "dropped": false
+        },
+        {
+          "name": "Alejandra Gutty",
+          "score": 5.9,
+          "dropped": false
+        },
+        {
+          "name": "Julián Sanchez",
+          "score": 6.1,
+          "dropped": true
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 5,
+          "dropped": true
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 5.5,
+          "dropped": false
+        }
+      ],
+      "average": 5.533,
+      "officialAverage": 5.533,
+      "rankInBlock": 40,
+      "rankOverall": 79,
+      "classified": false,
+      "cutoffDelta": -1.47,
+      "spread": 1.1,
+      "blockId": "B",
+      "averageMismatch": false,
+      "originStage": "cuartos",
+      "stagePercentile": 0,
+      "stageStandings": [
+        {
+          "stage": "cuartos",
+          "average": 5.533,
+          "percentile": 0
+        }
+      ],
+      "overall": 0,
+      "lastStageReached": "cuartos"
+    }
+  ],
+  "mismatches": []
+}

@@ -1,4 +1,4 @@
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, readFile, unlink, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import type {
   AverageMismatch,
@@ -13,7 +13,7 @@ import type {
   YearCatalog,
 } from "../src/types.ts";
 import type { ParsedBlock } from "./parse-pdf.ts";
-import { attachOverallRanks, qualifyBlock } from "./qualify.ts";
+import { attachOverallRanks, qualifyBlock, qualifyFromHighlights } from "./qualify.ts";
 
 function catalogKey(entry: { year: number; category?: Category }): string {
   return `${entry.year}:${entry.category ?? "pista"}`;
@@ -106,6 +106,18 @@ export async function writeYearOutputs(
     }
   }
 
+  const written = new Set(datasets.map((d) => d.stage));
+  for (const stage of ["clasificatoria", "cuartos", "semifinal", "final"] as const) {
+    if (written.has(stage)) continue;
+    const name = `results-${stage}.json`;
+    await unlink(join(yearPublic, name)).catch(() => undefined);
+    await unlink(join(yearProcessed, name)).catch(() => undefined);
+    if (alsoLegacy && category === "pista") {
+      await unlink(join(processedDir, name)).catch(() => undefined);
+      await unlink(join(publicDataDir, name)).catch(() => undefined);
+    }
+  }
+
   const man = `${JSON.stringify(manifest, null, 2)}\n`;
   await writeFile(join(yearPublic, "manifest.json"), man);
   await writeFile(join(yearProcessed, "manifest.json"), man);
@@ -150,7 +162,17 @@ export function buildDataset(
   unique.sort((a, b) => a.id.localeCompare(b.id));
 
   for (const block of unique) {
-    const qualified = qualifyBlock(block.couples);
+    const useHighlights = year === 2026 && block.highlightsDetected;
+    const qualified = useHighlights
+      ? qualifyFromHighlights(block.couples, (c) => c.highlighted)
+      : stage === "final" && year === 2026
+        ? qualifyFromHighlights(block.couples, () => true)
+        : qualifyBlock(block.couples);
+    if (year === 2026 && !useHighlights && stage !== "final") {
+      console.warn(
+        `[${year} ${category} ${stage} ${block.id}] No PDF row highlights found — falling back to top-50% cutoff.`,
+      );
+    }
     for (const couple of block.couples) {
       const mismatch =
         Math.abs(couple.average - couple.officialAverage) > 0.002;
@@ -163,7 +185,11 @@ export function buildDataset(
         });
       }
       const rankInBlock = qualified.ranks.get(couple.coupleId) ?? 0;
-      const classified = couple.average >= qualified.cutoff;
+      const classified = useHighlights
+        ? couple.highlighted
+        : stage === "final" && year === 2026
+          ? true
+          : couple.average >= qualified.cutoff;
       rows.push({
         coupleId: couple.coupleId,
         round: couple.round,
@@ -224,7 +250,8 @@ export function sourcePageFor(
   const pages: Record<string, string> = {
     "pista-2026-clasificatoria":
       "https://tangoba.org/resultados-clasificatoria-tango-de-pista-2026/",
-    "pista-2026-cuartos": "https://tangoba.org/resultados-cuartos-final-tango-de-pista-2026/",
+    "pista-2026-cuartos":
+      "https://tangoba.org/resultados-cuartos-de-final-tango-de-pista-2026/",
     "pista-2026-semifinal": "https://tangoba.org/resultados-semifinal-tango-de-pista-2026/",
     "pista-2026-final": "https://tangoba.org/resultados-final-tango-de-pista-2026/",
     "pista-2025-clasificatoria":
@@ -239,7 +266,7 @@ export function sourcePageFor(
     "escenario-2026-clasificatoria":
       "https://tangoba.org/resultados-clasificatoria-tango-escenario-2026/",
     "escenario-2026-cuartos":
-      "https://tangoba.org/resultados-cuartos-tango-escenario-2026/",
+      "https://tangoba.org/resultados-cuartos-de-final-tango-escenario-2026/",
     "escenario-2026-semifinal":
       "https://tangoba.org/resultados-semifinal-tango-escenario-2026/",
     "escenario-2026-final": "https://tangoba.org/resultados-final-tango-escenario-2026/",

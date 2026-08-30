@@ -81,7 +81,7 @@ A GitHub Action (`.github/workflows/ingest.yml`) refreshes results every 15 minu
 
 ## Scoring
 
-*Puntuación recortada*: drop one highest and one lowest judge mark, average the rest. Qualification is the **top 50% of each block A–D**, not a global ranking. Pink/red PDF colors cannot be recovered from text — classified flags come from that 50% rule. Spread is max − min of the five marks.
+*Puntuación recortada*: drop one highest and one lowest judge mark, average the rest. Qualification is the **official PDF row highlight** (rosa / violeta) in each block A–D, not a global ranking. Dropped high/low marks use a different cell tint and are ignored. Spread is max − min of the five marks.
 
 ## GitHub Pages
 

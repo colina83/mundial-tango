@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-28T02:19:45.448Z",
+  "generatedAt": "2026-08-30T01:44:22.430Z",
   "year": 2026,
   "stage": "cuartos",
   "category": "pista",
   "scoring": "trimmed",
-  "sourcePage": "https://tangoba.org/resultados-cuartos-final-tango-de-pista-2026/",
+  "sourcePage": "https://tangoba.org/resultados-cuartos-de-final-tango-de-pista-2026/",
   "sourceCategoryPage": "https://tangoba.org/category/resultados/",
   "sourceLabel": "Tango BA",
   "disclaimer": "Compañero extraoficial de fans. No afiliado a Tango BA ni al Mundial de Baile. Fuente: Tango BA.",
@@ -106,13 +106,13 @@
           "percentile": 100
         },
         {
-          "stage": "final",
-          "average": 7.723,
-          "percentile": 100
+          "stage": "semifinal",
+          "average": 8.74,
+          "percentile": 99.4
         }
       ],
-      "overall": 99.6,
-      "lastStageReached": "final"
+      "overall": 99.4,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 1,
@@ -169,13 +169,13 @@
           "percentile": 99.7
         },
         {
-          "stage": "final",
-          "average": 7.677,
-          "percentile": 99.7
+          "stage": "semifinal",
+          "average": 8.575,
+          "percentile": 96.2
         }
       ],
-      "overall": 99.6,
-      "lastStageReached": "final"
+      "overall": 98.4,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 104,
@@ -232,13 +232,13 @@
           "percentile": 99.3
         },
         {
-          "stage": "final",
-          "average": 7.65,
-          "percentile": 99.3
+          "stage": "semifinal",
+          "average": 8.303,
+          "percentile": 67.7
         }
       ],
-      "overall": 96.8,
-      "lastStageReached": "final"
+      "overall": 86.3,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 159,
@@ -295,13 +295,13 @@
           "percentile": 99
         },
         {
-          "stage": "final",
-          "average": 7.633,
-          "percentile": 99
+          "stage": "semifinal",
+          "average": 8.413,
+          "percentile": 86.1
         }
       ],
-      "overall": 98.1,
-      "lastStageReached": "final"
+      "overall": 93.8,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 335,
@@ -358,13 +358,13 @@
           "percentile": 98.3
         },
         {
-          "stage": "final",
-          "average": 7.617,
-          "percentile": 98.3
+          "stage": "semifinal",
+          "average": 8.528,
+          "percentile": 93.7
         }
       ],
-      "overall": 98.7,
-      "lastStageReached": "final"
+      "overall": 97.2,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 460,
@@ -421,13 +421,13 @@
           "percentile": 97.9
         },
         {
-          "stage": "final",
-          "average": 7.6,
-          "percentile": 97.9
+          "stage": "semifinal",
+          "average": 8.84,
+          "percentile": 100
         }
       ],
-      "overall": 98.6,
-      "lastStageReached": "final"
+      "overall": 99.3,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 424,
@@ -484,13 +484,13 @@
           "percentile": 97.3
         },
         {
-          "stage": "final",
-          "average": 7.557,
-          "percentile": 97.3
+          "stage": "semifinal",
+          "average": 8.638,
+          "percentile": 96.8
         }
       ],
-      "overall": 98,
-      "lastStageReached": "final"
+      "overall": 97.8,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 545,
@@ -547,13 +547,13 @@
           "percentile": 96.6
         },
         {
-          "stage": "final",
-          "average": 7.54,
-          "percentile": 96.6
+          "stage": "semifinal",
+          "average": 8.558,
+          "percentile": 95.6
         }
       ],
-      "overall": 97.2,
-      "lastStageReached": "final"
+      "overall": 96.9,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 23,
@@ -610,13 +610,13 @@
           "percentile": 95.5
         },
         {
-          "stage": "final",
-          "average": 7.527,
-          "percentile": 95.5
+          "stage": "semifinal",
+          "average": 8.345,
+          "percentile": 77.2
         }
       ],
-      "overall": 87.8,
-      "lastStageReached": "final"
+      "overall": 81.7,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 139,
@@ -673,13 +673,13 @@
           "percentile": 95.2
         },
         {
-          "stage": "final",
-          "average": 7.523,
-          "percentile": 95.2
+          "stage": "semifinal",
+          "average": 8.52,
+          "percentile": 93
         }
       ],
-      "overall": 96.7,
-      "lastStageReached": "final"
+      "overall": 96,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 518,
@@ -736,13 +736,13 @@
           "percentile": 94.8
         },
         {
-          "stage": "final",
-          "average": 7.513,
-          "percentile": 94.8
+          "stage": "semifinal",
+          "average": 8.172,
+          "percentile": 40.5
         }
       ],
-      "overall": 93,
-      "lastStageReached": "final"
+      "overall": 74.9,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 244,
@@ -799,13 +799,13 @@
           "percentile": 94.5
         },
         {
-          "stage": "final",
-          "average": 7.51,
-          "percentile": 94.5
+          "stage": "semifinal",
+          "average": 8.497,
+          "percentile": 91.8
         }
       ],
-      "overall": 90.3,
-      "lastStageReached": "final"
+      "overall": 89.4,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 141,
@@ -862,13 +862,13 @@
           "percentile": 94.2
         },
         {
-          "stage": "final",
-          "average": 7.5,
-          "percentile": 94.2
+          "stage": "semifinal",
+          "average": 8.548,
+          "percentile": 94.9
         }
       ],
-      "overall": 95.6,
-      "lastStageReached": "final"
+      "overall": 95.8,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 257,
@@ -925,13 +925,13 @@
           "percentile": 93.8
         },
         {
-          "stage": "final",
-          "average": 7.493,
-          "percentile": 93.8
+          "stage": "semifinal",
+          "average": 7.928,
+          "percentile": 5.7
         }
       ],
-      "overall": 92.6,
-      "lastStageReached": "final"
+      "overall": 63.3,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 26,
@@ -988,13 +988,13 @@
           "percentile": 92.8
         },
         {
-          "stage": "final",
-          "average": 7.483,
-          "percentile": 92.8
+          "stage": "semifinal",
+          "average": 8.273,
+          "percentile": 59.5
         }
       ],
-      "overall": 93,
-      "lastStageReached": "final"
+      "overall": 81.9,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 386,
@@ -1051,13 +1051,13 @@
           "percentile": 92.1
         },
         {
-          "stage": "final",
-          "average": 7.477,
-          "percentile": 92.1
+          "stage": "semifinal",
+          "average": 8.468,
+          "percentile": 89.9
         }
       ],
-      "overall": 93.9,
-      "lastStageReached": "final"
+      "overall": 93.2,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 440,
@@ -1114,13 +1114,13 @@
           "percentile": 91.1
         },
         {
-          "stage": "final",
-          "average": 7.457,
-          "percentile": 91.1
+          "stage": "semifinal",
+          "average": 8.683,
+          "percentile": 97.5
         }
       ],
-      "overall": 93.3,
-      "lastStageReached": "final"
+      "overall": 95.5,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 248,
@@ -1177,13 +1177,13 @@
           "percentile": 90.7
         },
         {
-          "stage": "final",
-          "average": 7.437,
-          "percentile": 90.7
+          "stage": "semifinal",
+          "average": 8.375,
+          "percentile": 79.7
         }
       ],
-      "overall": 93.6,
-      "lastStageReached": "final"
+      "overall": 89.9,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 145,
@@ -1240,13 +1240,13 @@
           "percentile": 90.4
         },
         {
-          "stage": "final",
-          "average": 7.433,
-          "percentile": 90.4
+          "stage": "semifinal",
+          "average": 8.445,
+          "percentile": 88.6
         }
       ],
-      "overall": 92.3,
-      "lastStageReached": "final"
+      "overall": 91.7,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 682,
@@ -1298,13 +1298,13 @@
           "percentile": 90.4
         },
         {
-          "stage": "final",
-          "average": 7.433,
-          "percentile": 90.4
+          "stage": "semifinal",
+          "average": 8.063,
+          "percentile": 23.4
         }
       ],
-      "overall": 90.4,
-      "lastStageReached": "final"
+      "overall": 56.9,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 229,
@@ -1361,13 +1361,13 @@
           "percentile": 90.4
         },
         {
-          "stage": "final",
-          "average": 7.433,
-          "percentile": 90.4
+          "stage": "semifinal",
+          "average": 7.93,
+          "percentile": 6.3
         }
       ],
-      "overall": 74.2,
-      "lastStageReached": "final"
+      "overall": 46.1,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 5,
@@ -1424,13 +1424,13 @@
           "percentile": 89.3
         },
         {
-          "stage": "final",
-          "average": 7.427,
-          "percentile": 89.3
+          "stage": "semifinal",
+          "average": 8.37,
+          "percentile": 79.1
         }
       ],
-      "overall": 88,
-      "lastStageReached": "final"
+      "overall": 84.6,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 162,
@@ -1487,13 +1487,13 @@
           "percentile": 88.3
         },
         {
-          "stage": "final",
-          "average": 7.41,
-          "percentile": 88.3
+          "stage": "semifinal",
+          "average": 8.24,
+          "percentile": 55.7
         }
       ],
-      "overall": 84.4,
-      "lastStageReached": "final"
+      "overall": 73.6,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 227,
@@ -1550,13 +1550,13 @@
           "percentile": 88
         },
         {
-          "stage": "final",
-          "average": 7.407,
-          "percentile": 88
+          "stage": "semifinal",
+          "average": 8.083,
+          "percentile": 26.6
         }
       ],
-      "overall": 79.1,
-      "lastStageReached": "final"
+      "overall": 58.6,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 69,
@@ -1613,13 +1613,13 @@
           "percentile": 87.6
         },
         {
-          "stage": "final",
-          "average": 7.403,
-          "percentile": 87.6
+          "stage": "semifinal",
+          "average": 8.317,
+          "percentile": 72.2
         }
       ],
-      "overall": 86.5,
-      "lastStageReached": "final"
+      "overall": 81.4,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 187,
@@ -1676,13 +1676,13 @@
           "percentile": 86.3
         },
         {
-          "stage": "final",
-          "average": 7.397,
-          "percentile": 86.3
+          "stage": "semifinal",
+          "average": 8.057,
+          "percentile": 20.9
         }
       ],
-      "overall": 83.9,
-      "lastStageReached": "final"
+      "overall": 62.1,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 447,
@@ -1739,13 +1739,13 @@
           "percentile": 85.9
         },
         {
-          "stage": "final",
-          "average": 7.393,
-          "percentile": 85.9
+          "stage": "semifinal",
+          "average": 8.473,
+          "percentile": 90.5
         }
       ],
-      "overall": 89.7,
-      "lastStageReached": "final"
+      "overall": 91.3,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 133,
@@ -1802,13 +1802,13 @@
           "percentile": 85.6
         },
         {
-          "stage": "final",
-          "average": 7.383,
-          "percentile": 85.6
+          "stage": "semifinal",
+          "average": 8.448,
+          "percentile": 89.2
         }
       ],
-      "overall": 84.7,
-      "lastStageReached": "final"
+      "overall": 85.9,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 29,
@@ -1865,13 +1865,13 @@
           "percentile": 84.9
         },
         {
-          "stage": "final",
-          "average": 7.38,
-          "percentile": 84.9
+          "stage": "semifinal",
+          "average": 8.203,
+          "percentile": 48.7
         }
       ],
-      "overall": 86.7,
-      "lastStageReached": "final"
+      "overall": 74.6,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 79,
@@ -1928,13 +1928,13 @@
           "percentile": 84.2
         },
         {
-          "stage": "final",
-          "average": 7.373,
-          "percentile": 84.2
+          "stage": "semifinal",
+          "average": 8.333,
+          "percentile": 74.1
         }
       ],
-      "overall": 86.1,
-      "lastStageReached": "final"
+      "overall": 82.7,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 541,
@@ -1991,13 +1991,13 @@
           "percentile": 83.8
         },
         {
-          "stage": "final",
-          "average": 7.367,
-          "percentile": 83.8
+          "stage": "semifinal",
+          "average": 8.303,
+          "percentile": 67.7
         }
       ],
-      "overall": 74.8,
-      "lastStageReached": "final"
+      "overall": 69.4,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 469,
@@ -2054,13 +2054,13 @@
           "percentile": 83.2
         },
         {
-          "stage": "final",
-          "average": 7.36,
-          "percentile": 83.2
+          "stage": "semifinal",
+          "average": 8.305,
+          "percentile": 69.6
         }
       ],
-      "overall": 84,
-      "lastStageReached": "final"
+      "overall": 79.4,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 452,
@@ -2117,13 +2117,13 @@
           "percentile": 83.2
         },
         {
-          "stage": "final",
-          "average": 7.36,
-          "percentile": 83.2
+          "stage": "semifinal",
+          "average": 8.355,
+          "percentile": 77.8
         }
       ],
-      "overall": 85.1,
-      "lastStageReached": "final"
+      "overall": 83.3,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 692,
@@ -2175,13 +2175,13 @@
           "percentile": 83.2
         },
         {
-          "stage": "final",
-          "average": 7.36,
-          "percentile": 83.2
+          "stage": "semifinal",
+          "average": 8.365,
+          "percentile": 78.5
         }
       ],
-      "overall": 83.2,
-      "lastStageReached": "final"
+      "overall": 80.9,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 118,
@@ -2238,13 +2238,13 @@
           "percentile": 81.8
         },
         {
-          "stage": "final",
-          "average": 7.357,
-          "percentile": 81.8
+          "stage": "semifinal",
+          "average": 8.053,
+          "percentile": 20.3
         }
       ],
-      "overall": 74.4,
-      "lastStageReached": "final"
+      "overall": 53.9,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 151,
@@ -2301,13 +2301,13 @@
           "percentile": 81.4
         },
         {
-          "stage": "final",
-          "average": 7.35,
-          "percentile": 81.4
+          "stage": "semifinal",
+          "average": 8.025,
+          "percentile": 16.5
         }
       ],
-      "overall": 84.9,
-      "lastStageReached": "final"
+      "overall": 63.3,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 125,
@@ -2364,13 +2364,13 @@
           "percentile": 81.4
         },
         {
-          "stage": "final",
-          "average": 7.35,
-          "percentile": 81.4
+          "stage": "semifinal",
+          "average": 7.797,
+          "percentile": 1.9
         }
       ],
-      "overall": 70.9,
-      "lastStageReached": "final"
+      "overall": 44.4,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 696,
@@ -2422,13 +2422,13 @@
           "percentile": 81.4
         },
         {
-          "stage": "final",
-          "average": 7.35,
-          "percentile": 81.4
+          "stage": "semifinal",
+          "average": 8.298,
+          "percentile": 66.5
         }
       ],
-      "overall": 81.4,
-      "lastStageReached": "final"
+      "overall": 74,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 451,
@@ -2485,13 +2485,13 @@
           "percentile": 80.4
         },
         {
-          "stage": "final",
-          "average": 7.347,
-          "percentile": 80.4
+          "stage": "semifinal",
+          "average": 8.313,
+          "percentile": 70.9
         }
       ],
-      "overall": 77.9,
-      "lastStageReached": "final"
+      "overall": 74.8,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 580,
@@ -2548,13 +2548,13 @@
           "percentile": 80.1
         },
         {
-          "stage": "final",
-          "average": 7.34,
-          "percentile": 80.1
+          "stage": "semifinal",
+          "average": 8.108,
+          "percentile": 29.1
         }
       ],
-      "overall": 76.7,
-      "lastStageReached": "final"
+      "overall": 59.7,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 54,
@@ -2611,13 +2611,13 @@
           "percentile": 80.1
         },
         {
-          "stage": "final",
-          "average": 7.34,
-          "percentile": 80.1
+          "stage": "semifinal",
+          "average": 8.13,
+          "percentile": 34.8
         }
       ],
-      "overall": 83.6,
-      "lastStageReached": "final"
+      "overall": 68.5,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 529,
@@ -2674,13 +2674,13 @@
           "percentile": 80.1
         },
         {
-          "stage": "final",
-          "average": 7.34,
-          "percentile": 80.1
+          "stage": "semifinal",
+          "average": 7.725,
+          "percentile": 0.6
         }
       ],
-      "overall": 75.5,
-      "lastStageReached": "final"
+      "overall": 49,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 565,
@@ -2737,13 +2737,13 @@
           "percentile": 78.7
         },
         {
-          "stage": "final",
-          "average": 7.337,
-          "percentile": 78.7
+          "stage": "semifinal",
+          "average": 8.285,
+          "percentile": 63.9
         }
       ],
-      "overall": 65.7,
-      "lastStageReached": "final"
+      "overall": 60.8,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 393,
@@ -2800,13 +2800,13 @@
           "percentile": 78.4
         },
         {
-          "stage": "final",
-          "average": 7.333,
-          "percentile": 78.4
+          "stage": "semifinal",
+          "average": 8.338,
+          "percentile": 75.3
         }
       ],
-      "overall": 83.5,
-      "lastStageReached": "final"
+      "overall": 82.5,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 431,
@@ -2863,13 +2863,13 @@
           "percentile": 78.4
         },
         {
-          "stage": "final",
-          "average": 7.333,
-          "percentile": 78.4
+          "stage": "semifinal",
+          "average": 8.235,
+          "percentile": 52.5
         }
       ],
-      "overall": 79.9,
-      "lastStageReached": "final"
+      "overall": 71.3,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 533,
@@ -2926,13 +2926,13 @@
           "percentile": 77.3
         },
         {
-          "stage": "final",
-          "average": 7.327,
-          "percentile": 77.3
+          "stage": "semifinal",
+          "average": 8.183,
+          "percentile": 43.7
         }
       ],
-      "overall": 82.2,
-      "lastStageReached": "final"
+      "overall": 71,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 75,
@@ -2989,13 +2989,13 @@
           "percentile": 77
         },
         {
-          "stage": "final",
-          "average": 7.323,
-          "percentile": 77
+          "stage": "semifinal",
+          "average": 7.995,
+          "percentile": 12.7
         }
       ],
-      "overall": 80.6,
-      "lastStageReached": "final"
+      "overall": 59.1,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 149,
@@ -3052,13 +3052,13 @@
           "percentile": 77
         },
         {
-          "stage": "final",
-          "average": 7.323,
-          "percentile": 77
+          "stage": "semifinal",
+          "average": 8.273,
+          "percentile": 59.5
         }
       ],
-      "overall": 76.9,
-      "lastStageReached": "final"
+      "overall": 71.1,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 720,
@@ -3115,13 +3115,13 @@
           "percentile": 75.9
         },
         {
-          "stage": "final",
-          "average": 7.32,
-          "percentile": 75.9
+          "stage": "semifinal",
+          "average": 8.378,
+          "percentile": 80.4
         }
       ],
-      "overall": 81.2,
-      "lastStageReached": "final"
+      "overall": 82.7,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 405,
@@ -3178,13 +3178,13 @@
           "percentile": 75.3
         },
         {
-          "stage": "final",
-          "average": 7.317,
-          "percentile": 75.3
+          "stage": "semifinal",
+          "average": 7.985,
+          "percentile": 12
         }
       ],
-      "overall": 81,
-      "lastStageReached": "final"
+      "overall": 59.9,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 422,
@@ -3241,13 +3241,13 @@
           "percentile": 74.2
         },
         {
-          "stage": "final",
-          "average": 7.31,
-          "percentile": 74.2
+          "stage": "semifinal",
+          "average": 8.183,
+          "percentile": 43.7
         }
       ],
-      "overall": 72.3,
-      "lastStageReached": "final"
+      "overall": 62.2,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 676,
@@ -3299,13 +3299,13 @@
           "percentile": 74.2
         },
         {
-          "stage": "final",
-          "average": 7.31,
-          "percentile": 74.2
+          "stage": "semifinal",
+          "average": 8.28,
+          "percentile": 62
         }
       ],
-      "overall": 74.2,
-      "lastStageReached": "final"
+      "overall": 68.1,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 519,
@@ -3362,13 +3362,13 @@
           "percentile": 72.9
         },
         {
-          "stage": "final",
-          "average": 7.3,
-          "percentile": 72.9
+          "stage": "semifinal",
+          "average": 8.23,
+          "percentile": 51.3
         }
       ],
-      "overall": 80.9,
-      "lastStageReached": "final"
+      "overall": 73.7,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 70,
@@ -3425,13 +3425,13 @@
           "percentile": 72.2
         },
         {
-          "stage": "final",
-          "average": 7.293,
-          "percentile": 72.2
+          "stage": "semifinal",
+          "average": 8.285,
+          "percentile": 63.9
         }
       ],
-      "overall": 76.6,
-      "lastStageReached": "final"
+      "overall": 73.9,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 498,
@@ -3488,13 +3488,13 @@
           "percentile": 71.8
         },
         {
-          "stage": "final",
-          "average": 7.29,
-          "percentile": 71.8
+          "stage": "semifinal",
+          "average": 7.85,
+          "percentile": 3.2
         }
       ],
-      "overall": 66.1,
-      "lastStageReached": "final"
+      "overall": 43.2,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 694,
@@ -3546,13 +3546,13 @@
           "percentile": 71.5
         },
         {
-          "stage": "final",
-          "average": 7.277,
-          "percentile": 71.5
+          "stage": "semifinal",
+          "average": 8.1,
+          "percentile": 27.8
         }
       ],
-      "overall": 71.5,
-      "lastStageReached": "final"
+      "overall": 49.7,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 427,
@@ -3609,13 +3609,13 @@
           "percentile": 71.5
         },
         {
-          "stage": "final",
-          "average": 7.277,
-          "percentile": 71.5
+          "stage": "semifinal",
+          "average": 8.08,
+          "percentile": 25.9
         }
       ],
-      "overall": 74.4,
-      "lastStageReached": "final"
+      "overall": 59.2,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 418,
@@ -3672,13 +3672,13 @@
           "percentile": 70.1
         },
         {
-          "stage": "final",
-          "average": 7.267,
-          "percentile": 70.1
+          "stage": "semifinal",
+          "average": 7.933,
+          "percentile": 7
         }
       ],
-      "overall": 59.6,
-      "lastStageReached": "final"
+      "overall": 38.6,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 148,
@@ -3735,13 +3735,13 @@
           "percentile": 70.1
         },
         {
-          "stage": "final",
-          "average": 7.267,
-          "percentile": 70.1
+          "stage": "semifinal",
+          "average": 8.155,
+          "percentile": 38
         }
       ],
-      "overall": 58.3,
-      "lastStageReached": "final"
+      "overall": 47.6,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 177,
@@ -3798,13 +3798,13 @@
           "percentile": 68.7
         },
         {
-          "stage": "final",
-          "average": 7.263,
-          "percentile": 68.7
+          "stage": "semifinal",
+          "average": 7.887,
+          "percentile": 5.1
         }
       ],
-      "overall": 75.4,
-      "lastStageReached": "final"
+      "overall": 54.2,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 701,
@@ -3861,13 +3861,13 @@
           "percentile": 67.4
         },
         {
-          "stage": "final",
-          "average": 7.257,
-          "percentile": 67.4
+          "stage": "semifinal",
+          "average": 8.253,
+          "percentile": 57.6
         }
       ],
-      "overall": 75.9,
-      "lastStageReached": "final"
+      "overall": 72.7,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 103,
@@ -3924,13 +3924,13 @@
           "percentile": 66.7
         },
         {
-          "stage": "final",
-          "average": 7.25,
-          "percentile": 66.7
+          "stage": "semifinal",
+          "average": 8.235,
+          "percentile": 52.5
         }
       ],
-      "overall": 68.8,
-      "lastStageReached": "final"
+      "overall": 64.1,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 685,
@@ -3982,13 +3982,13 @@
           "percentile": 66.7
         },
         {
-          "stage": "final",
-          "average": 7.25,
-          "percentile": 66.7
+          "stage": "semifinal",
+          "average": 8.15,
+          "percentile": 37.3
         }
       ],
-      "overall": 66.7,
-      "lastStageReached": "final"
+      "overall": 52,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 489,
@@ -4045,13 +4045,13 @@
           "percentile": 65.3
         },
         {
-          "stage": "final",
-          "average": 7.247,
-          "percentile": 65.3
+          "stage": "semifinal",
+          "average": 8.113,
+          "percentile": 30.4
         }
       ],
-      "overall": 66.4,
-      "lastStageReached": "final"
+      "overall": 54.8,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 35,
@@ -4108,13 +4108,13 @@
           "percentile": 64.9
         },
         {
-          "stage": "final",
-          "average": 7.243,
-          "percentile": 64.9
+          "stage": "semifinal",
+          "average": 8.05,
+          "percentile": 19
         }
       ],
-      "overall": 71.8,
-      "lastStageReached": "final"
+      "overall": 56.5,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 329,
@@ -4171,13 +4171,13 @@
           "percentile": 63.6
         },
         {
-          "stage": "final",
-          "average": 7.233,
-          "percentile": 63.6
+          "stage": "semifinal",
+          "average": 8.245,
+          "percentile": 56.3
         }
       ],
-      "overall": 68.6,
-      "lastStageReached": "final"
+      "overall": 66.2,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 107,
@@ -4234,13 +4234,13 @@
           "percentile": 63.6
         },
         {
-          "stage": "final",
-          "average": 7.233,
-          "percentile": 63.6
+          "stage": "semifinal",
+          "average": 8.24,
+          "percentile": 55.7
         }
       ],
-      "overall": 69.5,
-      "lastStageReached": "final"
+      "overall": 66.9,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 176,
@@ -4297,13 +4297,13 @@
           "percentile": 62.9
         },
         {
-          "stage": "final",
-          "average": 7.23,
-          "percentile": 62.9
+          "stage": "semifinal",
+          "average": 8.05,
+          "percentile": 19
         }
       ],
-      "overall": 72.8,
-      "lastStageReached": "final"
+      "overall": 58.1,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 153,
@@ -4360,13 +4360,13 @@
           "percentile": 61.5
         },
         {
-          "stage": "final",
-          "average": 7.223,
-          "percentile": 61.5
+          "stage": "semifinal",
+          "average": 8.018,
+          "percentile": 15.8
         }
       ],
-      "overall": 54.2,
-      "lastStageReached": "final"
+      "overall": 39,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 192,
@@ -4423,13 +4423,13 @@
           "percentile": 60.5
         },
         {
-          "stage": "final",
-          "average": 7.217,
-          "percentile": 60.5
+          "stage": "semifinal",
+          "average": 8.16,
+          "percentile": 38.6
         }
       ],
-      "overall": 66.2,
-      "lastStageReached": "final"
+      "overall": 58.9,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 534,
@@ -4486,13 +4486,13 @@
           "percentile": 60.1
         },
         {
-          "stage": "final",
-          "average": 7.213,
-          "percentile": 60.1
+          "stage": "semifinal",
+          "average": 8,
+          "percentile": 13.3
         }
       ],
-      "overall": 59.1,
-      "lastStageReached": "final"
+      "overall": 43.5,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 647,
@@ -4549,13 +4549,13 @@
           "percentile": 59.5
         },
         {
-          "stage": "final",
-          "average": 7.21,
-          "percentile": 59.5
+          "stage": "semifinal",
+          "average": 8.22,
+          "percentile": 50.6
         }
       ],
-      "overall": 69.6,
-      "lastStageReached": "final"
+      "overall": 66.7,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 300,
@@ -4612,13 +4612,13 @@
           "percentile": 59.5
         },
         {
-          "stage": "final",
-          "average": 7.21,
-          "percentile": 59.5
+          "stage": "semifinal",
+          "average": 7.968,
+          "percentile": 9.5
         }
       ],
-      "overall": 67.9,
-      "lastStageReached": "final"
+      "overall": 51.2,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 246,
@@ -4675,13 +4675,13 @@
           "percentile": 58.1
         },
         {
-          "stage": "final",
-          "average": 7.207,
-          "percentile": 58.1
+          "stage": "semifinal",
+          "average": 8.13,
+          "percentile": 34.8
         }
       ],
-      "overall": 62.6,
-      "lastStageReached": "final"
+      "overall": 54.8,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 102,
@@ -4738,13 +4738,13 @@
           "percentile": 58.1
         },
         {
-          "stage": "final",
-          "average": 7.207,
-          "percentile": 58.1
+          "stage": "semifinal",
+          "average": 7.968,
+          "percentile": 9.5
         }
       ],
-      "overall": 60.2,
-      "lastStageReached": "final"
+      "overall": 44,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 124,
@@ -4799,15 +4799,10 @@
           "stage": "cuartos",
           "average": 7.2,
           "percentile": 56.7
-        },
-        {
-          "stage": "final",
-          "average": 7.2,
-          "percentile": 56.7
         }
       ],
-      "overall": 58.2,
-      "lastStageReached": "final"
+      "overall": 59,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 517,
@@ -4862,15 +4857,10 @@
           "stage": "cuartos",
           "average": 7.187,
           "percentile": 55.7
-        },
-        {
-          "stage": "final",
-          "average": 7.187,
-          "percentile": 55.7
         }
       ],
-      "overall": 64.5,
-      "lastStageReached": "final"
+      "overall": 69,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 408,
@@ -4925,15 +4915,10 @@
           "stage": "cuartos",
           "average": 7.183,
           "percentile": 55.3
-        },
-        {
-          "stage": "final",
-          "average": 7.183,
-          "percentile": 55.3
         }
       ],
-      "overall": 55.4,
-      "lastStageReached": "final"
+      "overall": 55.5,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 100,
@@ -4988,15 +4973,10 @@
           "stage": "cuartos",
           "average": 7.183,
           "percentile": 55.3
-        },
-        {
-          "stage": "final",
-          "average": 7.183,
-          "percentile": 55.3
         }
       ],
-      "overall": 65.8,
-      "lastStageReached": "final"
+      "overall": 71.1,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 420,
@@ -5051,15 +5031,10 @@
           "stage": "cuartos",
           "average": 7.177,
           "percentile": 54
-        },
-        {
-          "stage": "final",
-          "average": 7.177,
-          "percentile": 54
         }
       ],
-      "overall": 61.6,
-      "lastStageReached": "final"
+      "overall": 65.4,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 233,
@@ -5114,15 +5089,10 @@
           "stage": "cuartos",
           "average": 7.177,
           "percentile": 54
-        },
-        {
-          "stage": "final",
-          "average": 7.177,
-          "percentile": 54
         }
       ],
-      "overall": 54.6,
-      "lastStageReached": "final"
+      "overall": 54.9,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 443,
@@ -5177,15 +5147,10 @@
           "stage": "cuartos",
           "average": 7.177,
           "percentile": 54
-        },
-        {
-          "stage": "final",
-          "average": 7.177,
-          "percentile": 54
         }
       ],
-      "overall": 60.1,
-      "lastStageReached": "final"
+      "overall": 63.2,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 274,
@@ -5240,15 +5205,10 @@
           "stage": "cuartos",
           "average": 7.167,
           "percentile": 51.5
-        },
-        {
-          "stage": "final",
-          "average": 7.167,
-          "percentile": 51.5
         }
       ],
-      "overall": 51.8,
-      "lastStageReached": "final"
+      "overall": 52,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 25,
@@ -5303,15 +5263,10 @@
           "stage": "cuartos",
           "average": 7.16,
           "percentile": 50.5
-        },
-        {
-          "stage": "final",
-          "average": 7.16,
-          "percentile": 50.5
         }
       ],
-      "overall": 55.4,
-      "lastStageReached": "final"
+      "overall": 57.8,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 688,
@@ -5361,15 +5316,10 @@
           "stage": "cuartos",
           "average": 7.157,
           "percentile": 50.2
-        },
-        {
-          "stage": "final",
-          "average": 7.157,
-          "percentile": 50.2
         }
       ],
       "overall": 50.2,
-      "lastStageReached": "final"
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 10,
@@ -5424,15 +5374,10 @@
           "stage": "cuartos",
           "average": 7.15,
           "percentile": 49.8
-        },
-        {
-          "stage": "final",
-          "average": 7.15,
-          "percentile": 49.8
         }
       ],
-      "overall": 45.5,
-      "lastStageReached": "final"
+      "overall": 43.3,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 82,
@@ -5487,15 +5432,10 @@
           "stage": "cuartos",
           "average": 7.15,
           "percentile": 49.8
-        },
-        {
-          "stage": "final",
-          "average": 7.15,
-          "percentile": 49.8
         }
       ],
-      "overall": 58.2,
-      "lastStageReached": "final"
+      "overall": 62.4,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 226,
@@ -5550,15 +5490,10 @@
           "stage": "cuartos",
           "average": 7.147,
           "percentile": 48.8
-        },
-        {
-          "stage": "final",
-          "average": 7.147,
-          "percentile": 48.8
         }
       ],
-      "overall": 56.9,
-      "lastStageReached": "final"
+      "overall": 60.9,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 406,
@@ -5613,15 +5548,10 @@
           "stage": "cuartos",
           "average": 7.14,
           "percentile": 47.1
-        },
-        {
-          "stage": "final",
-          "average": 7.14,
-          "percentile": 47.1
         }
       ],
-      "overall": 57.6,
-      "lastStageReached": "final"
+      "overall": 62.9,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 155,
@@ -5676,15 +5606,10 @@
           "stage": "cuartos",
           "average": 7.14,
           "percentile": 47.1
-        },
-        {
-          "stage": "final",
-          "average": 7.14,
-          "percentile": 47.1
         }
       ],
-      "overall": 54.4,
-      "lastStageReached": "final"
+      "overall": 58,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 376,
@@ -5739,15 +5664,10 @@
           "stage": "cuartos",
           "average": 7.133,
           "percentile": 46
-        },
-        {
-          "stage": "final",
-          "average": 7.133,
-          "percentile": 46
         }
       ],
-      "overall": 54.3,
-      "lastStageReached": "final"
+      "overall": 58.5,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 57,
@@ -5802,15 +5722,10 @@
           "stage": "cuartos",
           "average": 7.133,
           "percentile": 46
-        },
-        {
-          "stage": "final",
-          "average": 7.133,
-          "percentile": 46
         }
       ],
-      "overall": 50.3,
-      "lastStageReached": "final"
+      "overall": 52.5,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 350,
@@ -5865,15 +5780,10 @@
           "stage": "cuartos",
           "average": 7.133,
           "percentile": 46
-        },
-        {
-          "stage": "final",
-          "average": 7.133,
-          "percentile": 46
         }
       ],
-      "overall": 42.2,
-      "lastStageReached": "final"
+      "overall": 40.4,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 568,
@@ -5928,15 +5838,10 @@
           "stage": "cuartos",
           "average": 7.13,
           "percentile": 44.3
-        },
-        {
-          "stage": "final",
-          "average": 7.13,
-          "percentile": 44.3
         }
       ],
-      "overall": 51.8,
-      "lastStageReached": "final"
+      "overall": 55.5,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 344,
@@ -5991,15 +5896,10 @@
           "stage": "cuartos",
           "average": 7.13,
           "percentile": 44.3
-        },
-        {
-          "stage": "final",
-          "average": 7.13,
-          "percentile": 44.3
         }
       ],
-      "overall": 47,
-      "lastStageReached": "final"
+      "overall": 48.3,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 417,
@@ -6054,15 +5954,10 @@
           "stage": "cuartos",
           "average": 7.127,
           "percentile": 43.6
-        },
-        {
-          "stage": "final",
-          "average": 7.127,
-          "percentile": 43.6
         }
       ],
-      "overall": 51.5,
-      "lastStageReached": "final"
+      "overall": 55.5,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 60,
@@ -6117,15 +6012,10 @@
           "stage": "cuartos",
           "average": 7.123,
           "percentile": 42.6
-        },
-        {
-          "stage": "final",
-          "average": 7.123,
-          "percentile": 42.6
         }
       ],
-      "overall": 49.5,
-      "lastStageReached": "final"
+      "overall": 53,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 429,
@@ -6180,15 +6070,10 @@
           "stage": "cuartos",
           "average": 7.123,
           "percentile": 42.6
-        },
-        {
-          "stage": "final",
-          "average": 7.123,
-          "percentile": 42.6
         }
       ],
-      "overall": 54,
-      "lastStageReached": "final"
+      "overall": 59.7,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 412,
@@ -6243,15 +6128,10 @@
           "stage": "cuartos",
           "average": 7.117,
           "percentile": 40.9
-        },
-        {
-          "stage": "final",
-          "average": 7.117,
-          "percentile": 40.9
         }
       ],
-      "overall": 50.1,
-      "lastStageReached": "final"
+      "overall": 54.8,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 699,
@@ -6301,15 +6181,10 @@
           "stage": "cuartos",
           "average": 7.117,
           "percentile": 40.9
-        },
-        {
-          "stage": "final",
-          "average": 7.117,
-          "percentile": 40.9
         }
       ],
       "overall": 40.9,
-      "lastStageReached": "final"
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 138,
@@ -6364,15 +6239,10 @@
           "stage": "cuartos",
           "average": 7.117,
           "percentile": 40.9
-        },
-        {
-          "stage": "final",
-          "average": 7.117,
-          "percentile": 40.9
         }
       ],
-      "overall": 49.5,
-      "lastStageReached": "final"
+      "overall": 53.8,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 656,
@@ -6427,15 +6297,10 @@
           "stage": "cuartos",
           "average": 7.107,
           "percentile": 38.8
-        },
-        {
-          "stage": "final",
-          "average": 7.107,
-          "percentile": 38.8
         }
       ],
-      "overall": 54.7,
-      "lastStageReached": "final"
+      "overall": 62.6,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 553,
@@ -6490,15 +6355,10 @@
           "stage": "cuartos",
           "average": 7.103,
           "percentile": 38.5
-        },
-        {
-          "stage": "final",
-          "average": 7.103,
-          "percentile": 38.5
         }
       ],
-      "overall": 50.5,
-      "lastStageReached": "final"
+      "overall": 56.6,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 9,
@@ -6553,15 +6413,10 @@
           "stage": "cuartos",
           "average": 7.093,
           "percentile": 36.8
-        },
-        {
-          "stage": "final",
-          "average": 7.093,
-          "percentile": 36.8
         }
       ],
-      "overall": 44.4,
-      "lastStageReached": "final"
+      "overall": 48.3,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 247,
@@ -6616,15 +6471,10 @@
           "stage": "cuartos",
           "average": 7.09,
           "percentile": 36.4
-        },
-        {
-          "stage": "final",
-          "average": 7.09,
-          "percentile": 36.4
         }
       ],
-      "overall": 48.7,
-      "lastStageReached": "final"
+      "overall": 54.9,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 267,
@@ -6679,15 +6529,10 @@
           "stage": "cuartos",
           "average": 7.09,
           "percentile": 36.4
-        },
-        {
-          "stage": "final",
-          "average": 7.09,
-          "percentile": 36.4
         }
       ],
-      "overall": 50.9,
-      "lastStageReached": "final"
+      "overall": 58.1,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 564,
@@ -6742,15 +6587,10 @@
           "stage": "cuartos",
           "average": 7.083,
           "percentile": 35.1
-        },
-        {
-          "stage": "final",
-          "average": 7.083,
-          "percentile": 35.1
         }
       ],
-      "overall": 49.6,
-      "lastStageReached": "final"
+      "overall": 56.9,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 156,
@@ -6805,15 +6645,10 @@
           "stage": "cuartos",
           "average": 7.083,
           "percentile": 35.1
-        },
-        {
-          "stage": "final",
-          "average": 7.083,
-          "percentile": 35.1
         }
       ],
-      "overall": 47.1,
-      "lastStageReached": "final"
+      "overall": 53.1,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 33,
@@ -6868,15 +6703,10 @@
           "stage": "cuartos",
           "average": 7.083,
           "percentile": 35.1
-        },
-        {
-          "stage": "final",
-          "average": 7.083,
-          "percentile": 35.1
         }
       ],
-      "overall": 41.3,
-      "lastStageReached": "final"
+      "overall": 44.4,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 327,
@@ -6931,15 +6761,10 @@
           "stage": "cuartos",
           "average": 7.083,
           "percentile": 35.1
-        },
-        {
-          "stage": "final",
-          "average": 7.083,
-          "percentile": 35.1
         }
       ],
-      "overall": 45.3,
-      "lastStageReached": "final"
+      "overall": 50.5,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 659,
@@ -6994,15 +6819,10 @@
           "stage": "cuartos",
           "average": 7.08,
           "percentile": 33.7
-        },
-        {
-          "stage": "final",
-          "average": 7.08,
-          "percentile": 33.7
         }
       ],
-      "overall": 41.8,
-      "lastStageReached": "final"
+      "overall": 45.8,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 645,
@@ -7057,15 +6877,10 @@
           "stage": "cuartos",
           "average": 7.073,
           "percentile": 32.3
-        },
-        {
-          "stage": "final",
-          "average": 7.073,
-          "percentile": 32.3
         }
       ],
-      "overall": 48.4,
-      "lastStageReached": "final"
+      "overall": 56.5,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 496,
@@ -7120,15 +6935,10 @@
           "stage": "cuartos",
           "average": 7.07,
           "percentile": 31.3
-        },
-        {
-          "stage": "final",
-          "average": 7.07,
-          "percentile": 31.3
         }
       ],
-      "overall": 37.5,
-      "lastStageReached": "final"
+      "overall": 40.6,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 410,
@@ -7183,15 +6993,10 @@
           "stage": "cuartos",
           "average": 7.067,
           "percentile": 29.2
-        },
-        {
-          "stage": "final",
-          "average": 7.067,
-          "percentile": 29.2
         }
       ],
-      "overall": 41.9,
-      "lastStageReached": "final"
+      "overall": 48.3,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 679,
@@ -7241,15 +7046,10 @@
           "stage": "cuartos",
           "average": 7.067,
           "percentile": 29.2
-        },
-        {
-          "stage": "final",
-          "average": 7.067,
-          "percentile": 29.2
         }
       ],
       "overall": 29.2,
-      "lastStageReached": "final"
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 377,
@@ -7304,15 +7104,10 @@
           "stage": "cuartos",
           "average": 7.05,
           "percentile": 26.8
-        },
-        {
-          "stage": "final",
-          "average": 7.05,
-          "percentile": 26.8
         }
       ],
-      "overall": 48.3,
-      "lastStageReached": "final"
+      "overall": 59,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 223,
@@ -7367,15 +7162,10 @@
           "stage": "cuartos",
           "average": 7.033,
           "percentile": 24.7
-        },
-        {
-          "stage": "final",
-          "average": 7.033,
-          "percentile": 24.7
         }
       ],
-      "overall": 45,
-      "lastStageReached": "final"
+      "overall": 55.1,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 428,
@@ -7430,15 +7220,10 @@
           "stage": "cuartos",
           "average": 7.023,
           "percentile": 24.1
-        },
-        {
-          "stage": "final",
-          "average": 7.023,
-          "percentile": 24.1
         }
       ],
-      "overall": 27.9,
-      "lastStageReached": "final"
+      "overall": 29.8,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 200,
@@ -7493,15 +7278,10 @@
           "stage": "cuartos",
           "average": 7.02,
           "percentile": 23.7
-        },
-        {
-          "stage": "final",
-          "average": 7.02,
-          "percentile": 23.7
         }
       ],
-      "overall": 39.6,
-      "lastStageReached": "final"
+      "overall": 47.6,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 41,
@@ -7556,15 +7336,10 @@
           "stage": "cuartos",
           "average": 7.02,
           "percentile": 23.7
-        },
-        {
-          "stage": "final",
-          "average": 7.02,
-          "percentile": 23.7
         }
       ],
-      "overall": 35.8,
-      "lastStageReached": "final"
+      "overall": 41.8,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 608,
@@ -7619,15 +7394,10 @@
           "stage": "cuartos",
           "average": 7.017,
           "percentile": 23
-        },
-        {
-          "stage": "final",
-          "average": 7.017,
-          "percentile": 23
         }
       ],
-      "overall": 43.9,
-      "lastStageReached": "final"
+      "overall": 54.4,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 687,
@@ -7682,15 +7452,10 @@
           "stage": "cuartos",
           "average": 7.017,
           "percentile": 23
-        },
-        {
-          "stage": "final",
-          "average": 7.017,
-          "percentile": 23
         }
       ],
-      "overall": 28.2,
-      "lastStageReached": "final"
+      "overall": 30.8,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 175,
@@ -7745,15 +7510,10 @@
           "stage": "cuartos",
           "average": 7.01,
           "percentile": 21.3
-        },
-        {
-          "stage": "final",
-          "average": 7.01,
-          "percentile": 21.3
         }
       ],
-      "overall": 41.8,
-      "lastStageReached": "final"
+      "overall": 52.1,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 559,
@@ -7808,15 +7568,10 @@
           "stage": "cuartos",
           "average": 7,
           "percentile": 20.6
-        },
-        {
-          "stage": "final",
-          "average": 7,
-          "percentile": 20.6
         }
       ],
-      "overall": 34.8,
-      "lastStageReached": "final"
+      "overall": 41.9,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 128,
@@ -7871,15 +7626,10 @@
           "stage": "cuartos",
           "average": 7,
           "percentile": 20.6
-        },
-        {
-          "stage": "final",
-          "average": 7,
-          "percentile": 20.6
         }
       ],
-      "overall": 30.3,
-      "lastStageReached": "final"
+      "overall": 35.2,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 173,
@@ -7934,15 +7684,10 @@
           "stage": "cuartos",
           "average": 7,
           "percentile": 20.6
-        },
-        {
-          "stage": "final",
-          "average": 7,
-          "percentile": 20.6
         }
       ],
-      "overall": 33.1,
-      "lastStageReached": "final"
+      "overall": 39.4,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 134,
@@ -7997,15 +7742,10 @@
           "stage": "cuartos",
           "average": 6.987,
           "percentile": 18.6
-        },
-        {
-          "stage": "final",
-          "average": 6.987,
-          "percentile": 18.6
         }
       ],
-      "overall": 35.3,
-      "lastStageReached": "final"
+      "overall": 43.6,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 238,
@@ -8060,15 +7800,10 @@
           "stage": "cuartos",
           "average": 6.983,
           "percentile": 18.2
-        },
-        {
-          "stage": "final",
-          "average": 6.983,
-          "percentile": 18.2
         }
       ],
-      "overall": 44.3,
-      "lastStageReached": "final"
+      "overall": 57.4,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 30,
@@ -8123,15 +7858,10 @@
           "stage": "cuartos",
           "average": 6.983,
           "percentile": 18.2
-        },
-        {
-          "stage": "final",
-          "average": 6.983,
-          "percentile": 18.2
         }
       ],
-      "overall": 36.7,
-      "lastStageReached": "final"
+      "overall": 46,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 404,
@@ -8186,15 +7916,10 @@
           "stage": "cuartos",
           "average": 6.983,
           "percentile": 18.2
-        },
-        {
-          "stage": "final",
-          "average": 6.983,
-          "percentile": 18.2
         }
       ],
-      "overall": 35.4,
-      "lastStageReached": "final"
+      "overall": 44,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 397,
@@ -8249,15 +7974,10 @@
           "stage": "cuartos",
           "average": 6.977,
           "percentile": 15.5
-        },
-        {
-          "stage": "final",
-          "average": 6.977,
-          "percentile": 15.5
         }
       ],
-      "overall": 37.4,
-      "lastStageReached": "final"
+      "overall": 48.4,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 473,
@@ -8312,15 +8032,10 @@
           "stage": "cuartos",
           "average": 6.95,
           "percentile": 13.4
-        },
-        {
-          "stage": "final",
-          "average": 6.95,
-          "percentile": 13.4
         }
       ],
-      "overall": 23.9,
-      "lastStageReached": "final"
+      "overall": 29.2,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 234,
@@ -8375,15 +8090,10 @@
           "stage": "cuartos",
           "average": 6.95,
           "percentile": 13.4
-        },
-        {
-          "stage": "final",
-          "average": 6.95,
-          "percentile": 13.4
         }
       ],
-      "overall": 29.5,
-      "lastStageReached": "final"
+      "overall": 37.5,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 313,
@@ -8438,15 +8148,10 @@
           "stage": "cuartos",
           "average": 6.937,
           "percentile": 12.4
-        },
-        {
-          "stage": "final",
-          "average": 6.937,
-          "percentile": 12.4
         }
       ],
-      "overall": 22.6,
-      "lastStageReached": "final"
+      "overall": 27.7,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 681,
@@ -8496,15 +8201,10 @@
           "stage": "cuartos",
           "average": 6.933,
           "percentile": 11.7
-        },
-        {
-          "stage": "final",
-          "average": 6.933,
-          "percentile": 11.7
         }
       ],
       "overall": 11.7,
-      "lastStageReached": "final"
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 644,
@@ -8559,15 +8259,10 @@
           "stage": "cuartos",
           "average": 6.9,
           "percentile": 7.9
-        },
-        {
-          "stage": "final",
-          "average": 6.9,
-          "percentile": 7.9
         }
       ],
-      "overall": 31.1,
-      "lastStageReached": "final"
+      "overall": 42.8,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 68,
@@ -8622,15 +8317,10 @@
           "stage": "cuartos",
           "average": 6.9,
           "percentile": 7.9
-        },
-        {
-          "stage": "final",
-          "average": 6.9,
-          "percentile": 7.9
         }
       ],
-      "overall": 25.7,
-      "lastStageReached": "final"
+      "overall": 34.6,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 515,
@@ -8685,15 +8375,10 @@
           "stage": "cuartos",
           "average": 6.9,
           "percentile": 7.9
-        },
-        {
-          "stage": "final",
-          "average": 6.9,
-          "percentile": 7.9
         }
       ],
-      "overall": 16.8,
-      "lastStageReached": "final"
+      "overall": 21.3,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 21,
@@ -8748,15 +8433,10 @@
           "stage": "cuartos",
           "average": 6.88,
           "percentile": 6.5
-        },
-        {
-          "stage": "final",
-          "average": 6.88,
-          "percentile": 6.5
         }
       ],
-      "overall": 29.9,
-      "lastStageReached": "final"
+      "overall": 41.6,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 174,
@@ -8811,15 +8491,10 @@
           "stage": "cuartos",
           "average": 6.86,
           "percentile": 5.5
-        },
-        {
-          "stage": "final",
-          "average": 6.86,
-          "percentile": 5.5
         }
       ],
-      "overall": 21.9,
-      "lastStageReached": "final"
+      "overall": 30.1,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 592,
@@ -8874,15 +8549,10 @@
           "stage": "cuartos",
           "average": 6.827,
           "percentile": 4.5
-        },
-        {
-          "stage": "final",
-          "average": 6.827,
-          "percentile": 4.5
         }
       ],
-      "overall": 29.2,
-      "lastStageReached": "final"
+      "overall": 41.6,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 476,
@@ -8937,15 +8607,10 @@
           "stage": "cuartos",
           "average": 6.827,
           "percentile": 4.5
-        },
-        {
-          "stage": "final",
-          "average": 6.827,
-          "percentile": 4.5
         }
       ],
-      "overall": 26.7,
-      "lastStageReached": "final"
+      "overall": 37.8,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 115,
@@ -9000,15 +8665,10 @@
           "stage": "cuartos",
           "average": 6.793,
           "percentile": 3.4
-        },
-        {
-          "stage": "final",
-          "average": 6.793,
-          "percentile": 3.4
         }
       ],
-      "overall": 15.1,
-      "lastStageReached": "final"
+      "overall": 21,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 479,
@@ -9063,15 +8723,10 @@
           "stage": "cuartos",
           "average": 6.773,
           "percentile": 3.1
-        },
-        {
-          "stage": "final",
-          "average": 6.773,
-          "percentile": 3.1
         }
       ],
-      "overall": 20.4,
-      "lastStageReached": "final"
+      "overall": 29.1,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 421,
@@ -9126,15 +8781,10 @@
           "stage": "cuartos",
           "average": 6.733,
           "percentile": 2.4
-        },
-        {
-          "stage": "final",
-          "average": 6.733,
-          "percentile": 2.4
         }
       ],
-      "overall": 22.7,
-      "lastStageReached": "final"
+      "overall": 32.9,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 512,
@@ -9189,15 +8839,10 @@
           "stage": "cuartos",
           "average": 6.717,
           "percentile": 2.1
-        },
-        {
-          "stage": "final",
-          "average": 6.717,
-          "percentile": 2.1
         }
       ],
-      "overall": 17.3,
-      "lastStageReached": "final"
+      "overall": 24.9,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 58,
@@ -9252,15 +8897,10 @@
           "stage": "cuartos",
           "average": 6.677,
           "percentile": 1.7
-        },
-        {
-          "stage": "final",
-          "average": 6.677,
-          "percentile": 1.7
         }
       ],
-      "overall": 21,
-      "lastStageReached": "final"
+      "overall": 30.7,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 17,
@@ -9315,15 +8955,10 @@
           "stage": "cuartos",
           "average": 6.6,
           "percentile": 0.7
-        },
-        {
-          "stage": "final",
-          "average": 6.6,
-          "percentile": 0.7
         }
       ],
-      "overall": 21.1,
-      "lastStageReached": "final"
+      "overall": 31.3,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 500,
@@ -9378,15 +9013,10 @@
           "stage": "cuartos",
           "average": 6.59,
           "percentile": 0.3
-        },
-        {
-          "stage": "final",
-          "average": 6.59,
-          "percentile": 0.3
         }
       ],
-      "overall": 23.9,
-      "lastStageReached": "final"
+      "overall": 35.7,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 212,
@@ -9441,15 +9071,10 @@
           "stage": "cuartos",
           "average": 6.557,
           "percentile": 0
-        },
-        {
-          "stage": "final",
-          "average": 6.557,
-          "percentile": 0
         }
       ],
-      "overall": 19.7,
-      "lastStageReached": "final"
+      "overall": 29.5,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 273,
@@ -9506,13 +9131,13 @@
           "percentile": 99
         },
         {
-          "stage": "final",
-          "average": 7.633,
-          "percentile": 99
+          "stage": "semifinal",
+          "average": 8.388,
+          "percentile": 81
         }
       ],
-      "overall": 98,
-      "lastStageReached": "final"
+      "overall": 92,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 665,
@@ -9569,13 +9194,13 @@
           "percentile": 97.6
         },
         {
-          "stage": "final",
-          "average": 7.58,
-          "percentile": 97.6
+          "stage": "semifinal",
+          "average": 8.695,
+          "percentile": 98.1
         }
       ],
-      "overall": 96.6,
-      "lastStageReached": "final"
+      "overall": 96.7,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 347,
@@ -9632,13 +9257,13 @@
           "percentile": 96.9
         },
         {
-          "stage": "final",
-          "average": 7.547,
-          "percentile": 96.9
+          "stage": "semifinal",
+          "average": 8.478,
+          "percentile": 91.1
         }
       ],
-      "overall": 96.4,
-      "lastStageReached": "final"
+      "overall": 94.5,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 715,
@@ -9690,13 +9315,13 @@
           "percentile": 96.2
         },
         {
-          "stage": "final",
-          "average": 7.537,
-          "percentile": 96.2
+          "stage": "semifinal",
+          "average": 8.438,
+          "percentile": 88
         }
       ],
-      "overall": 96.2,
-      "lastStageReached": "final"
+      "overall": 92.1,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 675,
@@ -9748,13 +9373,13 @@
           "percentile": 95.9
         },
         {
-          "stage": "final",
-          "average": 7.533,
-          "percentile": 95.9
+          "stage": "semifinal",
+          "average": 8.498,
+          "percentile": 92.4
         }
       ],
-      "overall": 95.9,
-      "lastStageReached": "final"
+      "overall": 94.2,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 120,
@@ -9811,13 +9436,13 @@
           "percentile": 93.8
         },
         {
-          "stage": "final",
-          "average": 7.493,
-          "percentile": 93.8
+          "stage": "semifinal",
+          "average": 8.53,
+          "percentile": 94.3
         }
       ],
-      "overall": 86,
-      "lastStageReached": "final"
+      "overall": 86.2,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 714,
@@ -9869,13 +9494,13 @@
           "percentile": 93.1
         },
         {
-          "stage": "final",
-          "average": 7.487,
-          "percentile": 93.1
+          "stage": "semifinal",
+          "average": 8.395,
+          "percentile": 84.2
         }
       ],
-      "overall": 93.1,
-      "lastStageReached": "final"
+      "overall": 88.7,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 166,
@@ -9932,13 +9557,13 @@
           "percentile": 92.4
         },
         {
-          "stage": "final",
-          "average": 7.48,
-          "percentile": 92.4
+          "stage": "semifinal",
+          "average": 8.413,
+          "percentile": 86.1
         }
       ],
-      "overall": 94.7,
-      "lastStageReached": "final"
+      "overall": 92.6,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 259,
@@ -9995,13 +9620,13 @@
           "percentile": 91.8
         },
         {
-          "stage": "final",
-          "average": 7.473,
-          "percentile": 91.8
+          "stage": "semifinal",
+          "average": 8.313,
+          "percentile": 70.9
         }
       ],
-      "overall": 93.7,
-      "lastStageReached": "final"
+      "overall": 86.7,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 573,
@@ -10058,13 +9683,13 @@
           "percentile": 91.4
         },
         {
-          "stage": "final",
-          "average": 7.46,
-          "percentile": 91.4
+          "stage": "semifinal",
+          "average": 8.295,
+          "percentile": 65.2
         }
       ],
-      "overall": 91.2,
-      "lastStageReached": "final"
+      "overall": 82.5,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 95,
@@ -10121,13 +9746,13 @@
           "percentile": 89
         },
         {
-          "stage": "final",
-          "average": 7.423,
-          "percentile": 89
+          "stage": "semifinal",
+          "average": 8.408,
+          "percentile": 84.8
         }
       ],
-      "overall": 88.9,
-      "lastStageReached": "final"
+      "overall": 87.5,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 370,
@@ -10184,13 +9809,13 @@
           "percentile": 88.7
         },
         {
-          "stage": "final",
-          "average": 7.42,
-          "percentile": 88.7
+          "stage": "semifinal",
+          "average": 8.278,
+          "percentile": 60.1
         }
       ],
-      "overall": 89.3,
-      "lastStageReached": "final"
+      "overall": 79.8,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 31,
@@ -10247,13 +9872,13 @@
           "percentile": 87.3
         },
         {
-          "stage": "final",
-          "average": 7.4,
-          "percentile": 87.3
+          "stage": "semifinal",
+          "average": 8.2,
+          "percentile": 48.1
         }
       ],
-      "overall": 88,
-      "lastStageReached": "final"
+      "overall": 75,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 381,
@@ -10310,13 +9935,13 @@
           "percentile": 87.3
         },
         {
-          "stage": "final",
-          "average": 7.4,
-          "percentile": 87.3
+          "stage": "semifinal",
+          "average": 8.18,
+          "percentile": 42.4
         }
       ],
-      "overall": 77,
-      "lastStageReached": "final"
+      "overall": 62,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 678,
@@ -10373,13 +9998,13 @@
           "percentile": 87.3
         },
         {
-          "stage": "final",
-          "average": 7.4,
-          "percentile": 87.3
+          "stage": "semifinal",
+          "average": 8.193,
+          "percentile": 45.6
         }
       ],
-      "overall": 88.9,
-      "lastStageReached": "final"
+      "overall": 75,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 66,
@@ -10436,13 +10061,13 @@
           "percentile": 85.6
         },
         {
-          "stage": "final",
-          "average": 7.383,
-          "percentile": 85.6
+          "stage": "semifinal",
+          "average": 8.32,
+          "percentile": 72.8
         }
       ],
-      "overall": 85.1,
-      "lastStageReached": "final"
+      "overall": 80.8,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 211,
@@ -10499,13 +10124,13 @@
           "percentile": 84.9
         },
         {
-          "stage": "final",
-          "average": 7.38,
-          "percentile": 84.9
+          "stage": "semifinal",
+          "average": 8.415,
+          "percentile": 86.7
         }
       ],
-      "overall": 86.2,
-      "lastStageReached": "final"
+      "overall": 86.8,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 208,
@@ -10562,13 +10187,13 @@
           "percentile": 83.5
         },
         {
-          "stage": "final",
-          "average": 7.363,
-          "percentile": 83.5
+          "stage": "semifinal",
+          "average": 8.395,
+          "percentile": 84.2
         }
       ],
-      "overall": 88.4,
-      "lastStageReached": "final"
+      "overall": 88.6,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 250,
@@ -10625,13 +10250,13 @@
           "percentile": 83.2
         },
         {
-          "stage": "final",
-          "average": 7.36,
-          "percentile": 83.2
+          "stage": "semifinal",
+          "average": 8.075,
+          "percentile": 24.7
         }
       ],
-      "overall": 86.6,
-      "lastStageReached": "final"
+      "overall": 67.1,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 542,
@@ -10688,13 +10313,13 @@
           "percentile": 80.1
         },
         {
-          "stage": "final",
-          "average": 7.34,
-          "percentile": 80.1
+          "stage": "semifinal",
+          "average": 8.285,
+          "percentile": 63.9
         }
       ],
-      "overall": 84.4,
-      "lastStageReached": "final"
+      "overall": 79,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 263,
@@ -10751,13 +10376,13 @@
           "percentile": 78.4
         },
         {
-          "stage": "final",
-          "average": 7.333,
-          "percentile": 78.4
+          "stage": "semifinal",
+          "average": 8.032,
+          "percentile": 17.1
         }
       ],
-      "overall": 84.6,
-      "lastStageReached": "final"
+      "overall": 64.1,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 552,
@@ -10814,13 +10439,13 @@
           "percentile": 77
         },
         {
-          "stage": "final",
-          "average": 7.323,
-          "percentile": 77
+          "stage": "semifinal",
+          "average": 8.317,
+          "percentile": 72.2
         }
       ],
-      "overall": 83,
-      "lastStageReached": "final"
+      "overall": 81.4,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 204,
@@ -10877,13 +10502,13 @@
           "percentile": 75.9
         },
         {
-          "stage": "final",
-          "average": 7.32,
-          "percentile": 75.9
+          "stage": "semifinal",
+          "average": 8.28,
+          "percentile": 62
         }
       ],
-      "overall": 78.1,
-      "lastStageReached": "final"
+      "overall": 73.4,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 585,
@@ -10940,13 +10565,13 @@
           "percentile": 75.3
         },
         {
-          "stage": "final",
-          "average": 7.317,
-          "percentile": 75.3
+          "stage": "semifinal",
+          "average": 8.305,
+          "percentile": 69.6
         }
       ],
-      "overall": 73.1,
-      "lastStageReached": "final"
+      "overall": 71.2,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 342,
@@ -11003,13 +10628,13 @@
           "percentile": 75.3
         },
         {
-          "stage": "final",
-          "average": 7.317,
-          "percentile": 75.3
+          "stage": "semifinal",
+          "average": 8.337,
+          "percentile": 74.7
         }
       ],
-      "overall": 81.5,
-      "lastStageReached": "final"
+      "overall": 81.3,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 254,
@@ -11066,13 +10691,13 @@
           "percentile": 73.5
         },
         {
-          "stage": "final",
-          "average": 7.307,
-          "percentile": 73.5
+          "stage": "semifinal",
+          "average": 8.343,
+          "percentile": 75.9
         }
       ],
-      "overall": 81.4,
-      "lastStageReached": "final"
+      "overall": 82.2,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 441,
@@ -11129,13 +10754,13 @@
           "percentile": 73.2
         },
         {
-          "stage": "final",
-          "average": 7.303,
-          "percentile": 73.2
+          "stage": "semifinal",
+          "average": 8.087,
+          "percentile": 27.2
         }
       ],
-      "overall": 73.2,
-      "lastStageReached": "final"
+      "overall": 57.9,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 315,
@@ -11192,13 +10817,13 @@
           "percentile": 72.9
         },
         {
-          "stage": "final",
-          "average": 7.3,
-          "percentile": 72.9
+          "stage": "semifinal",
+          "average": 8.328,
+          "percentile": 73.4
         }
       ],
-      "overall": 80,
-      "lastStageReached": "final"
+      "overall": 80.1,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 236,
@@ -11255,13 +10880,13 @@
           "percentile": 70.8
         },
         {
-          "stage": "final",
-          "average": 7.273,
-          "percentile": 70.8
+          "stage": "semifinal",
+          "average": 8.28,
+          "percentile": 62
         }
       ],
-      "overall": 78.9,
-      "lastStageReached": "final"
+      "overall": 75.9,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 116,
@@ -11318,13 +10943,13 @@
           "percentile": 70.8
         },
         {
-          "stage": "final",
-          "average": 7.273,
-          "percentile": 70.8
+          "stage": "semifinal",
+          "average": 8.305,
+          "percentile": 69.6
         }
       ],
-      "overall": 73.8,
-      "lastStageReached": "final"
+      "overall": 73.4,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 389,
@@ -11381,13 +11006,13 @@
           "percentile": 70.1
         },
         {
-          "stage": "final",
-          "average": 7.267,
-          "percentile": 70.1
+          "stage": "semifinal",
+          "average": 8.208,
+          "percentile": 50
         }
       ],
-      "overall": 71.9,
-      "lastStageReached": "final"
+      "overall": 65.2,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 600,
@@ -11444,13 +11069,13 @@
           "percentile": 70.1
         },
         {
-          "stage": "final",
-          "average": 7.267,
-          "percentile": 70.1
+          "stage": "semifinal",
+          "average": 8.133,
+          "percentile": 35.4
         }
       ],
-      "overall": 73.4,
-      "lastStageReached": "final"
+      "overall": 61.9,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 277,
@@ -11507,13 +11132,13 @@
           "percentile": 68.7
         },
         {
-          "stage": "final",
-          "average": 7.263,
-          "percentile": 68.7
+          "stage": "semifinal",
+          "average": 8.2,
+          "percentile": 48.1
         }
       ],
-      "overall": 77.3,
-      "lastStageReached": "final"
+      "overall": 70.4,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 311,
@@ -11570,13 +11195,13 @@
           "percentile": 68.7
         },
         {
-          "stage": "final",
-          "average": 7.263,
-          "percentile": 68.7
+          "stage": "semifinal",
+          "average": 8.075,
+          "percentile": 24.7
         }
       ],
-      "overall": 72.6,
-      "lastStageReached": "final"
+      "overall": 57.9,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 157,
@@ -11633,13 +11258,13 @@
           "percentile": 67.7
         },
         {
-          "stage": "final",
-          "average": 7.26,
-          "percentile": 67.7
+          "stage": "semifinal",
+          "average": 8.198,
+          "percentile": 46.8
         }
       ],
-      "overall": 70.7,
-      "lastStageReached": "final"
+      "overall": 63.7,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 276,
@@ -11696,13 +11321,13 @@
           "percentile": 67.4
         },
         {
-          "stage": "final",
-          "average": 7.257,
-          "percentile": 67.4
+          "stage": "semifinal",
+          "average": 8.175,
+          "percentile": 41.1
         }
       ],
-      "overall": 69.8,
-      "lastStageReached": "final"
+      "overall": 61,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 348,
@@ -11759,13 +11384,13 @@
           "percentile": 66.7
         },
         {
-          "stage": "final",
-          "average": 7.25,
-          "percentile": 66.7
+          "stage": "semifinal",
+          "average": 8.168,
+          "percentile": 39.9
         }
       ],
-      "overall": 71.7,
-      "lastStageReached": "final"
+      "overall": 62.7,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 330,
@@ -11822,13 +11447,13 @@
           "percentile": 66.7
         },
         {
-          "stage": "final",
-          "average": 7.25,
-          "percentile": 66.7
+          "stage": "semifinal",
+          "average": 8.167,
+          "percentile": 39.2
         }
       ],
-      "overall": 72.3,
-      "lastStageReached": "final"
+      "overall": 63.1,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 169,
@@ -11885,13 +11510,13 @@
           "percentile": 64.6
         },
         {
-          "stage": "final",
-          "average": 7.24,
-          "percentile": 64.6
+          "stage": "semifinal",
+          "average": 8.188,
+          "percentile": 44.3
         }
       ],
-      "overall": 72,
-      "lastStageReached": "final"
+      "overall": 65.3,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 293,
@@ -11948,13 +11573,13 @@
           "percentile": 64.6
         },
         {
-          "stage": "final",
-          "average": 7.24,
-          "percentile": 64.6
+          "stage": "semifinal",
+          "average": 8.395,
+          "percentile": 84.2
         }
       ],
-      "overall": 74.1,
-      "lastStageReached": "final"
+      "overall": 80.6,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 390,
@@ -12011,13 +11636,13 @@
           "percentile": 63.9
         },
         {
-          "stage": "final",
-          "average": 7.237,
-          "percentile": 63.9
+          "stage": "semifinal",
+          "average": 8.395,
+          "percentile": 84.2
         }
       ],
-      "overall": 74.6,
-      "lastStageReached": "final"
+      "overall": 81.4,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 264,
@@ -12074,13 +11699,13 @@
           "percentile": 62.9
         },
         {
-          "stage": "final",
-          "average": 7.23,
-          "percentile": 62.9
+          "stage": "semifinal",
+          "average": 8.018,
+          "percentile": 15.8
         }
       ],
-      "overall": 62.3,
-      "lastStageReached": "final"
+      "overall": 46.6,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 698,
@@ -12132,13 +11757,13 @@
           "percentile": 62.9
         },
         {
-          "stage": "final",
-          "average": 7.23,
-          "percentile": 62.9
+          "stage": "semifinal",
+          "average": 8.125,
+          "percentile": 33.5
         }
       ],
-      "overall": 62.9,
-      "lastStageReached": "final"
+      "overall": 48.2,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 51,
@@ -12195,13 +11820,13 @@
           "percentile": 61.9
         },
         {
-          "stage": "final",
-          "average": 7.227,
-          "percentile": 61.9
+          "stage": "semifinal",
+          "average": 8.063,
+          "percentile": 23.4
         }
       ],
-      "overall": 68.6,
-      "lastStageReached": "final"
+      "overall": 55.8,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 657,
@@ -12258,13 +11883,13 @@
           "percentile": 61.2
         },
         {
-          "stage": "final",
-          "average": 7.22,
-          "percentile": 61.2
+          "stage": "semifinal",
+          "average": 8.265,
+          "percentile": 58.2
         }
       ],
-      "overall": 64.9,
-      "lastStageReached": "final"
+      "overall": 63.9,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 228,
@@ -12321,13 +11946,13 @@
           "percentile": 61.2
         },
         {
-          "stage": "final",
-          "average": 7.22,
-          "percentile": 61.2
+          "stage": "semifinal",
+          "average": 8.238,
+          "percentile": 53.8
         }
       ],
-      "overall": 58.7,
-      "lastStageReached": "final"
+      "overall": 56.2,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 693,
@@ -12384,13 +12009,13 @@
           "percentile": 60.1
         },
         {
-          "stage": "final",
-          "average": 7.213,
-          "percentile": 60.1
+          "stage": "semifinal",
+          "average": 8.19,
+          "percentile": 44.9
         }
       ],
-      "overall": 60.8,
-      "lastStageReached": "final"
+      "overall": 55.8,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 400,
@@ -12447,13 +12072,13 @@
           "percentile": 59.5
         },
         {
-          "stage": "final",
-          "average": 7.21,
-          "percentile": 59.5
+          "stage": "semifinal",
+          "average": 8.18,
+          "percentile": 42.4
         }
       ],
-      "overall": 60.3,
-      "lastStageReached": "final"
+      "overall": 54.6,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 572,
@@ -12510,13 +12135,13 @@
           "percentile": 59.5
         },
         {
-          "stage": "final",
-          "average": 7.21,
-          "percentile": 59.5
+          "stage": "semifinal",
+          "average": 8.42,
+          "percentile": 87.3
         }
       ],
-      "overall": 71.7,
-      "lastStageReached": "final"
+      "overall": 80.9,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 368,
@@ -12573,13 +12198,13 @@
           "percentile": 58.1
         },
         {
-          "stage": "final",
-          "average": 7.207,
-          "percentile": 58.1
+          "stage": "semifinal",
+          "average": 8.123,
+          "percentile": 32.9
         }
       ],
-      "overall": 66.5,
-      "lastStageReached": "final"
+      "overall": 58.1,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 308,
@@ -12636,13 +12261,13 @@
           "percentile": 57
         },
         {
-          "stage": "final",
-          "average": 7.203,
-          "percentile": 57
+          "stage": "semifinal",
+          "average": 7.935,
+          "percentile": 7.6
         }
       ],
-      "overall": 64.6,
-      "lastStageReached": "final"
+      "overall": 48.1,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 423,
@@ -12699,13 +12324,13 @@
           "percentile": 56.4
         },
         {
-          "stage": "final",
-          "average": 7.193,
-          "percentile": 56.4
+          "stage": "semifinal",
+          "average": 7.975,
+          "percentile": 10.8
         }
       ],
-      "overall": 65.5,
-      "lastStageReached": "final"
+      "overall": 50.3,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 522,
@@ -12762,13 +12387,13 @@
           "percentile": 56
         },
         {
-          "stage": "final",
-          "average": 7.19,
-          "percentile": 56
+          "stage": "semifinal",
+          "average": 8.113,
+          "percentile": 30.4
         }
       ],
-      "overall": 70,
-      "lastStageReached": "final"
+      "overall": 61.5,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 379,
@@ -12825,13 +12450,13 @@
           "percentile": 55.3
         },
         {
-          "stage": "final",
-          "average": 7.183,
-          "percentile": 55.3
+          "stage": "semifinal",
+          "average": 8.063,
+          "percentile": 23.4
         }
       ],
-      "overall": 62.4,
-      "lastStageReached": "final"
+      "overall": 51.8,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 301,
@@ -12888,13 +12513,13 @@
           "percentile": 54.3
         },
         {
-          "stage": "final",
-          "average": 7.18,
-          "percentile": 54.3
+          "stage": "semifinal",
+          "average": 8.248,
+          "percentile": 57
         }
       ],
-      "overall": 65.5,
-      "lastStageReached": "final"
+      "overall": 66.4,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 711,
@@ -12946,13 +12571,13 @@
           "percentile": 52.9
         },
         {
-          "stage": "final",
-          "average": 7.173,
-          "percentile": 52.9
+          "stage": "semifinal",
+          "average": 8.195,
+          "percentile": 46.2
         }
       ],
-      "overall": 52.9,
-      "lastStageReached": "final"
+      "overall": 49.6,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 462,
@@ -13009,13 +12634,13 @@
           "percentile": 52.6
         },
         {
-          "stage": "final",
-          "average": 7.17,
-          "percentile": 52.6
+          "stage": "semifinal",
+          "average": 8.24,
+          "percentile": 55.7
         }
       ],
-      "overall": 63.7,
-      "lastStageReached": "final"
+      "overall": 64.8,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 142,
@@ -13072,13 +12697,13 @@
           "percentile": 52.6
         },
         {
-          "stage": "final",
-          "average": 7.17,
-          "percentile": 52.6
+          "stage": "semifinal",
+          "average": 7.975,
+          "percentile": 10.8
         }
       ],
-      "overall": 57,
-      "lastStageReached": "final"
+      "overall": 43.1,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 524,
@@ -13135,13 +12760,13 @@
           "percentile": 52.6
         },
         {
-          "stage": "final",
-          "average": 7.17,
-          "percentile": 52.6
+          "stage": "semifinal",
+          "average": 8.05,
+          "percentile": 19
         }
       ],
-      "overall": 63,
-      "lastStageReached": "final"
+      "overall": 51.8,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 372,
@@ -13198,13 +12823,13 @@
           "percentile": 51.2
         },
         {
-          "stage": "final",
-          "average": 7.163,
-          "percentile": 51.2
+          "stage": "semifinal",
+          "average": 7.943,
+          "percentile": 8.2
         }
       ],
-      "overall": 57,
-      "lastStageReached": "final"
+      "overall": 42.7,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 260,
@@ -13261,13 +12886,13 @@
           "percentile": 51.2
         },
         {
-          "stage": "final",
-          "average": 7.163,
-          "percentile": 51.2
+          "stage": "semifinal",
+          "average": 8.123,
+          "percentile": 32.9
         }
       ],
-      "overall": 53.8,
-      "lastStageReached": "final"
+      "overall": 47.7,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 660,
@@ -13324,13 +12949,13 @@
           "percentile": 49.8
         },
         {
-          "stage": "final",
-          "average": 7.15,
-          "percentile": 49.8
+          "stage": "semifinal",
+          "average": 8.118,
+          "percentile": 31
         }
       ],
-      "overall": 60.3,
-      "lastStageReached": "final"
+      "overall": 54,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 332,
@@ -13387,13 +13012,13 @@
           "percentile": 48.5
         },
         {
-          "stage": "final",
-          "average": 7.143,
-          "percentile": 48.5
+          "stage": "semifinal",
+          "average": 8.238,
+          "percentile": 53.8
         }
       ],
-      "overall": 60.9,
-      "lastStageReached": "final"
+      "overall": 62.7,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 292,
@@ -13450,13 +13075,13 @@
           "percentile": 48.5
         },
         {
-          "stage": "final",
-          "average": 7.143,
-          "percentile": 48.5
+          "stage": "semifinal",
+          "average": 7.818,
+          "percentile": 2.5
         }
       ],
-      "overall": 50.8,
-      "lastStageReached": "final"
+      "overall": 35.4,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 575,
@@ -13513,13 +13138,13 @@
           "percentile": 48.5
         },
         {
-          "stage": "final",
-          "average": 7.143,
-          "percentile": 48.5
+          "stage": "semifinal",
+          "average": 7.855,
+          "percentile": 4.4
         }
       ],
-      "overall": 54.6,
-      "lastStageReached": "final"
+      "overall": 39.9,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 196,
@@ -13576,13 +13201,13 @@
           "percentile": 48.5
         },
         {
-          "stage": "final",
-          "average": 7.143,
-          "percentile": 48.5
+          "stage": "semifinal",
+          "average": 7.853,
+          "percentile": 3.8
         }
       ],
-      "overall": 58.6,
-      "lastStageReached": "final"
+      "overall": 43.7,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 683,
@@ -13634,13 +13259,13 @@
           "percentile": 46.4
         },
         {
-          "stage": "final",
-          "average": 7.137,
-          "percentile": 46.4
+          "stage": "semifinal",
+          "average": 8.015,
+          "percentile": 13.9
         }
       ],
-      "overall": 46.4,
-      "lastStageReached": "final"
+      "overall": 30.2,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 278,
@@ -13697,13 +13322,13 @@
           "percentile": 46
         },
         {
-          "stage": "final",
-          "average": 7.133,
-          "percentile": 46
+          "stage": "semifinal",
+          "average": 7.78,
+          "percentile": 1.3
         }
       ],
-      "overall": 59.6,
-      "lastStageReached": "final"
+      "overall": 44.7,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 710,
@@ -13755,13 +13380,13 @@
           "percentile": 46
         },
         {
-          "stage": "final",
-          "average": 7.133,
-          "percentile": 46
+          "stage": "semifinal",
+          "average": 8.137,
+          "percentile": 36.1
         }
       ],
-      "overall": 46,
-      "lastStageReached": "final"
+      "overall": 41.1,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 185,
@@ -13818,13 +13443,13 @@
           "percentile": 43.6
         },
         {
-          "stage": "final",
-          "average": 7.127,
-          "percentile": 43.6
+          "stage": "semifinal",
+          "average": 8.058,
+          "percentile": 21.5
         }
       ],
-      "overall": 50.6,
-      "lastStageReached": "final"
+      "overall": 43.2,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 337,
@@ -13881,13 +13506,13 @@
           "percentile": 43.6
         },
         {
-          "stage": "final",
-          "average": 7.127,
-          "percentile": 43.6
+          "stage": "semifinal",
+          "average": 8.078,
+          "percentile": 25.3
         }
       ],
-      "overall": 58.2,
-      "lastStageReached": "final"
+      "overall": 52.1,
+      "lastStageReached": "semifinal"
     },
     {
       "coupleId": 373,
@@ -13942,15 +13567,10 @@
           "stage": "cuartos",
           "average": 7.12,
           "percentile": 41.9
-        },
-        {
-          "stage": "final",
-          "average": 7.12,
-          "percentile": 41.9
         }
       ],
-      "overall": 51,
-      "lastStageReached": "final"
+      "overall": 55.5,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 242,
@@ -14005,15 +13625,10 @@
           "stage": "cuartos",
           "average": 7.12,
           "percentile": 41.9
-        },
-        {
-          "stage": "final",
-          "average": 7.12,
-          "percentile": 41.9
         }
       ],
-      "overall": 52.6,
-      "lastStageReached": "final"
+      "overall": 58,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 461,
@@ -14068,15 +13683,10 @@
           "stage": "cuartos",
           "average": 7.12,
           "percentile": 41.9
-        },
-        {
-          "stage": "final",
-          "average": 7.12,
-          "percentile": 41.9
         }
       ],
-      "overall": 56.7,
-      "lastStageReached": "final"
+      "overall": 64.2,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 161,
@@ -14131,15 +13741,10 @@
           "stage": "cuartos",
           "average": 7.117,
           "percentile": 40.9
-        },
-        {
-          "stage": "final",
-          "average": 7.117,
-          "percentile": 40.9
         }
       ],
-      "overall": 53.9,
-      "lastStageReached": "final"
+      "overall": 60.4,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 163,
@@ -14194,15 +13799,10 @@
           "stage": "cuartos",
           "average": 7.117,
           "percentile": 40.9
-        },
-        {
-          "stage": "final",
-          "average": 7.117,
-          "percentile": 40.9
         }
       ],
-      "overall": 47.7,
-      "lastStageReached": "final"
+      "overall": 51.1,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 215,
@@ -14257,15 +13857,10 @@
           "stage": "cuartos",
           "average": 7.11,
           "percentile": 39.2
-        },
-        {
-          "stage": "final",
-          "average": 7.11,
-          "percentile": 39.2
         }
       ],
-      "overall": 57.4,
-      "lastStageReached": "final"
+      "overall": 66.6,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 237,
@@ -14320,15 +13915,10 @@
           "stage": "cuartos",
           "average": 7.1,
           "percentile": 38.1
-        },
-        {
-          "stage": "final",
-          "average": 7.1,
-          "percentile": 38.1
         }
       ],
-      "overall": 47.3,
-      "lastStageReached": "final"
+      "overall": 52,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 384,
@@ -14383,15 +13973,10 @@
           "stage": "cuartos",
           "average": 7.1,
           "percentile": 38.1
-        },
-        {
-          "stage": "final",
-          "average": 7.1,
-          "percentile": 38.1
         }
       ],
-      "overall": 42,
-      "lastStageReached": "final"
+      "overall": 44,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 425,
@@ -14446,15 +14031,10 @@
           "stage": "cuartos",
           "average": 7.097,
           "percentile": 37.5
-        },
-        {
-          "stage": "final",
-          "average": 7.097,
-          "percentile": 37.5
         }
       ],
-      "overall": 56.6,
-      "lastStageReached": "final"
+      "overall": 66.1,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 339,
@@ -14509,15 +14089,10 @@
           "stage": "cuartos",
           "average": 7.097,
           "percentile": 37.5
-        },
-        {
-          "stage": "final",
-          "average": 7.097,
-          "percentile": 37.5
         }
       ],
-      "overall": 54.4,
-      "lastStageReached": "final"
+      "overall": 62.8,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 490,
@@ -14572,15 +14147,10 @@
           "stage": "cuartos",
           "average": 7.09,
           "percentile": 36.4
-        },
-        {
-          "stage": "final",
-          "average": 7.09,
-          "percentile": 36.4
         }
       ],
-      "overall": 47.2,
-      "lastStageReached": "final"
+      "overall": 52.7,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 480,
@@ -14635,15 +14205,10 @@
           "stage": "cuartos",
           "average": 7.087,
           "percentile": 35.4
-        },
-        {
-          "stage": "final",
-          "average": 7.087,
-          "percentile": 35.4
         }
       ],
-      "overall": 49.3,
-      "lastStageReached": "final"
+      "overall": 56.2,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 61,
@@ -14698,15 +14263,10 @@
           "stage": "cuartos",
           "average": 7.08,
           "percentile": 33.7
-        },
-        {
-          "stage": "final",
-          "average": 7.08,
-          "percentile": 33.7
         }
       ],
-      "overall": 35.3,
-      "lastStageReached": "final"
+      "overall": 36.2,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 365,
@@ -14761,15 +14321,10 @@
           "stage": "cuartos",
           "average": 7.08,
           "percentile": 33.7
-        },
-        {
-          "stage": "final",
-          "average": 7.08,
-          "percentile": 33.7
         }
       ],
-      "overall": 52.1,
-      "lastStageReached": "final"
+      "overall": 61.4,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 36,
@@ -14824,15 +14379,10 @@
           "stage": "cuartos",
           "average": 7.077,
           "percentile": 32.6
-        },
-        {
-          "stage": "final",
-          "average": 7.077,
-          "percentile": 32.6
         }
       ],
-      "overall": 45,
-      "lastStageReached": "final"
+      "overall": 51.2,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 634,
@@ -14887,15 +14437,10 @@
           "stage": "cuartos",
           "average": 7.073,
           "percentile": 32.3
-        },
-        {
-          "stage": "final",
-          "average": 7.073,
-          "percentile": 32.3
         }
       ],
-      "overall": 42.7,
-      "lastStageReached": "final"
+      "overall": 48,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 322,
@@ -14950,15 +14495,10 @@
           "stage": "cuartos",
           "average": 7.073,
           "percentile": 32.3
-        },
-        {
-          "stage": "final",
-          "average": 7.073,
-          "percentile": 32.3
         }
       ],
-      "overall": 53.3,
-      "lastStageReached": "final"
+      "overall": 63.8,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 129,
@@ -15013,15 +14553,10 @@
           "stage": "cuartos",
           "average": 7.07,
           "percentile": 31.3
-        },
-        {
-          "stage": "final",
-          "average": 7.07,
-          "percentile": 31.3
         }
       ],
-      "overall": 44.3,
-      "lastStageReached": "final"
+      "overall": 50.9,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 567,
@@ -15076,15 +14611,10 @@
           "stage": "cuartos",
           "average": 7.07,
           "percentile": 31.3
-        },
-        {
-          "stage": "final",
-          "average": 7.07,
-          "percentile": 31.3
         }
       ],
-      "overall": 48.6,
-      "lastStageReached": "final"
+      "overall": 57.3,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 485,
@@ -15139,15 +14669,10 @@
           "stage": "cuartos",
           "average": 7.07,
           "percentile": 31.3
-        },
-        {
-          "stage": "final",
-          "average": 7.07,
-          "percentile": 31.3
         }
       ],
-      "overall": 38.3,
-      "lastStageReached": "final"
+      "overall": 41.9,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 160,
@@ -15202,15 +14727,10 @@
           "stage": "cuartos",
           "average": 7.07,
           "percentile": 31.3
-        },
-        {
-          "stage": "final",
-          "average": 7.07,
-          "percentile": 31.3
         }
       ],
-      "overall": 39.6,
-      "lastStageReached": "final"
+      "overall": 43.7,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 209,
@@ -15265,15 +14785,10 @@
           "stage": "cuartos",
           "average": 7.07,
           "percentile": 31.3
-        },
-        {
-          "stage": "final",
-          "average": 7.07,
-          "percentile": 31.3
         }
       ],
-      "overall": 50.7,
-      "lastStageReached": "final"
+      "overall": 60.4,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 188,
@@ -15328,15 +14843,10 @@
           "stage": "cuartos",
           "average": 7.067,
           "percentile": 29.2
-        },
-        {
-          "stage": "final",
-          "average": 7.067,
-          "percentile": 29.2
         }
       ],
-      "overall": 39.9,
-      "lastStageReached": "final"
+      "overall": 45.2,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 504,
@@ -15391,15 +14901,10 @@
           "stage": "cuartos",
           "average": 7.067,
           "percentile": 29.2
-        },
-        {
-          "stage": "final",
-          "average": 7.067,
-          "percentile": 29.2
         }
       ],
-      "overall": 49.9,
-      "lastStageReached": "final"
+      "overall": 60.2,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 290,
@@ -15454,15 +14959,10 @@
           "stage": "cuartos",
           "average": 7.06,
           "percentile": 27.8
-        },
-        {
-          "stage": "final",
-          "average": 7.06,
-          "percentile": 27.8
         }
       ],
-      "overall": 37.3,
-      "lastStageReached": "final"
+      "overall": 42.1,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 217,
@@ -15517,15 +15017,10 @@
           "stage": "cuartos",
           "average": 7.057,
           "percentile": 27.5
-        },
-        {
-          "stage": "final",
-          "average": 7.057,
-          "percentile": 27.5
         }
       ],
-      "overall": 46.4,
-      "lastStageReached": "final"
+      "overall": 55.9,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 448,
@@ -15580,15 +15075,10 @@
           "stage": "cuartos",
           "average": 7.057,
           "percentile": 27.5
-        },
-        {
-          "stage": "final",
-          "average": 7.057,
-          "percentile": 27.5
         }
       ],
-      "overall": 43.2,
-      "lastStageReached": "final"
+      "overall": 51.1,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 48,
@@ -15643,15 +15133,10 @@
           "stage": "cuartos",
           "average": 7.047,
           "percentile": 26.5
-        },
-        {
-          "stage": "final",
-          "average": 7.047,
-          "percentile": 26.5
         }
       ],
-      "overall": 42.8,
-      "lastStageReached": "final"
+      "overall": 51,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 130,
@@ -15706,15 +15191,10 @@
           "stage": "cuartos",
           "average": 7.047,
           "percentile": 26.5
-        },
-        {
-          "stage": "final",
-          "average": 7.047,
-          "percentile": 26.5
         }
       ],
-      "overall": 44.6,
-      "lastStageReached": "final"
+      "overall": 53.6,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 113,
@@ -15769,15 +15249,10 @@
           "stage": "cuartos",
           "average": 7.047,
           "percentile": 26.5
-        },
-        {
-          "stage": "final",
-          "average": 7.047,
-          "percentile": 26.5
         }
       ],
-      "overall": 37,
-      "lastStageReached": "final"
+      "overall": 42.2,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 40,
@@ -15832,15 +15307,10 @@
           "stage": "cuartos",
           "average": 7.043,
           "percentile": 25.4
-        },
-        {
-          "stage": "final",
-          "average": 7.043,
-          "percentile": 25.4
         }
       ],
-      "overall": 39,
-      "lastStageReached": "final"
+      "overall": 45.8,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 550,
@@ -15895,15 +15365,10 @@
           "stage": "cuartos",
           "average": 7.037,
           "percentile": 25.1
-        },
-        {
-          "stage": "final",
-          "average": 7.037,
-          "percentile": 25.1
         }
       ],
-      "overall": 38.7,
-      "lastStageReached": "final"
+      "overall": 45.5,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 464,
@@ -15958,15 +15423,10 @@
           "stage": "cuartos",
           "average": 7.033,
           "percentile": 24.7
-        },
-        {
-          "stage": "final",
-          "average": 7.033,
-          "percentile": 24.7
         }
       ],
-      "overall": 38,
-      "lastStageReached": "final"
+      "overall": 44.6,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 71,
@@ -16021,15 +15481,10 @@
           "stage": "cuartos",
           "average": 7.017,
           "percentile": 23
-        },
-        {
-          "stage": "final",
-          "average": 7.017,
-          "percentile": 23
         }
       ],
-      "overall": 35.7,
-      "lastStageReached": "final"
+      "overall": 42.1,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 356,
@@ -16084,15 +15539,10 @@
           "stage": "cuartos",
           "average": 7.017,
           "percentile": 23
-        },
-        {
-          "stage": "final",
-          "average": 7.017,
-          "percentile": 23
         }
       ],
-      "overall": 44.5,
-      "lastStageReached": "final"
+      "overall": 55.3,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 704,
@@ -16142,15 +15592,10 @@
           "stage": "cuartos",
           "average": 7.017,
           "percentile": 23
-        },
-        {
-          "stage": "final",
-          "average": 7.017,
-          "percentile": 23
         }
       ],
       "overall": 23,
-      "lastStageReached": "final"
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 388,
@@ -16205,15 +15650,10 @@
           "stage": "cuartos",
           "average": 7.01,
           "percentile": 21.3
-        },
-        {
-          "stage": "final",
-          "average": 7.01,
-          "percentile": 21.3
         }
       ],
-      "overall": 38.9,
-      "lastStageReached": "final"
+      "overall": 47.7,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 488,
@@ -16268,15 +15708,10 @@
           "stage": "cuartos",
           "average": 7,
           "percentile": 20.6
-        },
-        {
-          "stage": "final",
-          "average": 7,
-          "percentile": 20.6
         }
       ],
-      "overall": 31.6,
-      "lastStageReached": "final"
+      "overall": 37.2,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 725,
@@ -16331,15 +15766,10 @@
           "stage": "cuartos",
           "average": 6.993,
           "percentile": 19.2
-        },
-        {
-          "stage": "final",
-          "average": 6.993,
-          "percentile": 19.2
         }
       ],
-      "overall": 36,
-      "lastStageReached": "final"
+      "overall": 44.5,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 538,
@@ -16394,15 +15824,10 @@
           "stage": "cuartos",
           "average": 6.99,
           "percentile": 18.9
-        },
-        {
-          "stage": "final",
-          "average": 6.99,
-          "percentile": 18.9
         }
       ],
-      "overall": 34.2,
-      "lastStageReached": "final"
+      "overall": 41.9,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 483,
@@ -16457,15 +15882,10 @@
           "stage": "cuartos",
           "average": 6.983,
           "percentile": 18.2
-        },
-        {
-          "stage": "final",
-          "average": 6.983,
-          "percentile": 18.2
         }
       ],
-      "overall": 38.4,
-      "lastStageReached": "final"
+      "overall": 48.5,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 222,
@@ -16520,15 +15940,10 @@
           "stage": "cuartos",
           "average": 6.983,
           "percentile": 18.2
-        },
-        {
-          "stage": "final",
-          "average": 6.983,
-          "percentile": 18.2
         }
       ],
-      "overall": 33,
-      "lastStageReached": "final"
+      "overall": 40.4,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 351,
@@ -16583,15 +15998,10 @@
           "stage": "cuartos",
           "average": 6.98,
           "percentile": 16.5
-        },
-        {
-          "stage": "final",
-          "average": 6.98,
-          "percentile": 16.5
         }
       ],
-      "overall": 32,
-      "lastStageReached": "final"
+      "overall": 39.8,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 407,
@@ -16646,15 +16056,10 @@
           "stage": "cuartos",
           "average": 6.98,
           "percentile": 16.5
-        },
-        {
-          "stage": "final",
-          "average": 6.98,
-          "percentile": 16.5
         }
       ],
-      "overall": 32.5,
-      "lastStageReached": "final"
+      "overall": 40.5,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 399,
@@ -16709,15 +16114,10 @@
           "stage": "cuartos",
           "average": 6.98,
           "percentile": 16.5
-        },
-        {
-          "stage": "final",
-          "average": 6.98,
-          "percentile": 16.5
         }
       ],
-      "overall": 32.5,
-      "lastStageReached": "final"
+      "overall": 40.5,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 309,
@@ -16772,15 +16172,10 @@
           "stage": "cuartos",
           "average": 6.977,
           "percentile": 15.5
-        },
-        {
-          "stage": "final",
-          "average": 6.977,
-          "percentile": 15.5
         }
       ],
-      "overall": 27.2,
-      "lastStageReached": "final"
+      "overall": 33.1,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 484,
@@ -16835,15 +16230,10 @@
           "stage": "cuartos",
           "average": 6.973,
           "percentile": 14.8
-        },
-        {
-          "stage": "final",
-          "average": 6.973,
-          "percentile": 14.8
         }
       ],
-      "overall": 21.4,
-      "lastStageReached": "final"
+      "overall": 24.8,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 285,
@@ -16898,15 +16288,10 @@
           "stage": "cuartos",
           "average": 6.97,
           "percentile": 14.4
-        },
-        {
-          "stage": "final",
-          "average": 6.97,
-          "percentile": 14.4
         }
       ],
-      "overall": 38.7,
-      "lastStageReached": "final"
+      "overall": 50.9,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 83,
@@ -16961,15 +16346,10 @@
           "stage": "cuartos",
           "average": 6.967,
           "percentile": 14.1
-        },
-        {
-          "stage": "final",
-          "average": 6.967,
-          "percentile": 14.1
         }
       ],
-      "overall": 24.4,
-      "lastStageReached": "final"
+      "overall": 29.6,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 392,
@@ -17024,15 +16404,10 @@
           "stage": "cuartos",
           "average": 6.96,
           "percentile": 13.7
-        },
-        {
-          "stage": "final",
-          "average": 6.96,
-          "percentile": 13.7
         }
       ],
-      "overall": 30.8,
-      "lastStageReached": "final"
+      "overall": 39.3,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 487,
@@ -17087,15 +16462,10 @@
           "stage": "cuartos",
           "average": 6.95,
           "percentile": 13.4
-        },
-        {
-          "stage": "final",
-          "average": 6.95,
-          "percentile": 13.4
         }
       ],
-      "overall": 32.3,
-      "lastStageReached": "final"
+      "overall": 41.7,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 256,
@@ -17150,15 +16520,10 @@
           "stage": "cuartos",
           "average": 6.937,
           "percentile": 12.4
-        },
-        {
-          "stage": "final",
-          "average": 6.937,
-          "percentile": 12.4
         }
       ],
-      "overall": 33.3,
-      "lastStageReached": "final"
+      "overall": 43.7,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 454,
@@ -17213,15 +16578,10 @@
           "stage": "cuartos",
           "average": 6.933,
           "percentile": 11.7
-        },
-        {
-          "stage": "final",
-          "average": 6.933,
-          "percentile": 11.7
         }
       ],
-      "overall": 19.4,
-      "lastStageReached": "final"
+      "overall": 23.2,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 666,
@@ -17276,15 +16636,10 @@
           "stage": "cuartos",
           "average": 6.933,
           "percentile": 11.7
-        },
-        {
-          "stage": "final",
-          "average": 6.933,
-          "percentile": 11.7
         }
       ],
-      "overall": 26,
-      "lastStageReached": "final"
+      "overall": 33.2,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 181,
@@ -17339,15 +16694,10 @@
           "stage": "cuartos",
           "average": 6.933,
           "percentile": 11.7
-        },
-        {
-          "stage": "final",
-          "average": 6.933,
-          "percentile": 11.7
         }
       ],
-      "overall": 33.7,
-      "lastStageReached": "final"
+      "overall": 44.7,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 587,
@@ -17402,15 +16752,10 @@
           "stage": "cuartos",
           "average": 6.93,
           "percentile": 10.3
-        },
-        {
-          "stage": "final",
-          "average": 6.93,
-          "percentile": 10.3
         }
       ],
-      "overall": 26.3,
-      "lastStageReached": "final"
+      "overall": 34.3,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 328,
@@ -17465,15 +16810,10 @@
           "stage": "cuartos",
           "average": 6.927,
           "percentile": 10
-        },
-        {
-          "stage": "final",
-          "average": 6.927,
-          "percentile": 10
         }
       ],
-      "overall": 24.9,
-      "lastStageReached": "final"
+      "overall": 32.4,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 302,
@@ -17528,15 +16868,10 @@
           "stage": "cuartos",
           "average": 6.927,
           "percentile": 10
-        },
-        {
-          "stage": "final",
-          "average": 6.927,
-          "percentile": 10
         }
       ],
-      "overall": 29.5,
-      "lastStageReached": "final"
+      "overall": 39.3,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 402,
@@ -17591,15 +16926,10 @@
           "stage": "cuartos",
           "average": 6.92,
           "percentile": 9.3
-        },
-        {
-          "stage": "final",
-          "average": 6.92,
-          "percentile": 9.3
         }
       ],
-      "overall": 26.7,
-      "lastStageReached": "final"
+      "overall": 35.4,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 581,
@@ -17654,15 +16984,10 @@
           "stage": "cuartos",
           "average": 6.92,
           "percentile": 9.3
-        },
-        {
-          "stage": "final",
-          "average": 6.92,
-          "percentile": 9.3
         }
       ],
-      "overall": 32.5,
-      "lastStageReached": "final"
+      "overall": 44.1,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 164,
@@ -17717,15 +17042,10 @@
           "stage": "cuartos",
           "average": 6.917,
           "percentile": 8.6
-        },
-        {
-          "stage": "final",
-          "average": 6.917,
-          "percentile": 8.6
         }
       ],
-      "overall": 32.9,
-      "lastStageReached": "final"
+      "overall": 45.1,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 198,
@@ -17780,15 +17100,10 @@
           "stage": "cuartos",
           "average": 6.907,
           "percentile": 8.2
-        },
-        {
-          "stage": "final",
-          "average": 6.907,
-          "percentile": 8.2
         }
       ],
-      "overall": 29.6,
-      "lastStageReached": "final"
+      "overall": 40.3,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 4,
@@ -17843,15 +17158,10 @@
           "stage": "cuartos",
           "average": 6.9,
           "percentile": 7.9
-        },
-        {
-          "stage": "final",
-          "average": 6.9,
-          "percentile": 7.9
         }
       ],
-      "overall": 26,
-      "lastStageReached": "final"
+      "overall": 35.1,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 303,
@@ -17906,15 +17216,10 @@
           "stage": "cuartos",
           "average": 6.88,
           "percentile": 6.5
-        },
-        {
-          "stage": "final",
-          "average": 6.88,
-          "percentile": 6.5
         }
       ],
-      "overall": 24,
-      "lastStageReached": "final"
+      "overall": 32.8,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 549,
@@ -17969,15 +17274,10 @@
           "stage": "cuartos",
           "average": 6.873,
           "percentile": 5.8
-        },
-        {
-          "stage": "final",
-          "average": 6.873,
-          "percentile": 5.8
         }
       ],
-      "overall": 21.3,
-      "lastStageReached": "final"
+      "overall": 29.1,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 132,
@@ -18032,15 +17332,10 @@
           "stage": "cuartos",
           "average": 6.837,
           "percentile": 5.2
-        },
-        {
-          "stage": "final",
-          "average": 6.837,
-          "percentile": 5.2
         }
       ],
-      "overall": 28,
-      "lastStageReached": "final"
+      "overall": 39.5,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 363,
@@ -18095,15 +17390,10 @@
           "stage": "cuartos",
           "average": 6.833,
           "percentile": 4.8
-        },
-        {
-          "stage": "final",
-          "average": 6.833,
-          "percentile": 4.8
         }
       ],
-      "overall": 25.6,
-      "lastStageReached": "final"
+      "overall": 36.1,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 255,
@@ -18158,15 +17448,10 @@
           "stage": "cuartos",
           "average": 6.813,
           "percentile": 3.8
-        },
-        {
-          "stage": "final",
-          "average": 6.813,
-          "percentile": 3.8
         }
       ],
-      "overall": 28.1,
-      "lastStageReached": "final"
+      "overall": 40.3,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 218,
@@ -18221,15 +17506,10 @@
           "stage": "cuartos",
           "average": 6.74,
           "percentile": 2.7
-        },
-        {
-          "stage": "final",
-          "average": 6.74,
-          "percentile": 2.7
         }
       ],
-      "overall": 18.4,
-      "lastStageReached": "final"
+      "overall": 26.3,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 282,
@@ -18284,15 +17564,10 @@
           "stage": "cuartos",
           "average": 6.667,
           "percentile": 1.4
-        },
-        {
-          "stage": "final",
-          "average": 6.667,
-          "percentile": 1.4
         }
       ],
-      "overall": 22,
-      "lastStageReached": "final"
+      "overall": 32.3,
+      "lastStageReached": "cuartos"
     },
     {
       "coupleId": 220,
@@ -18347,15 +17622,10 @@
           "stage": "cuartos",
           "average": 6.667,
           "percentile": 1.4
-        },
-        {
-          "stage": "final",
-          "average": 6.667,
-          "percentile": 1.4
         }
       ],
-      "overall": 20.8,
-      "lastStageReached": "final"
+      "overall": 30.6,
+      "lastStageReached": "cuartos"
     }
   ],
   "mismatches": []
