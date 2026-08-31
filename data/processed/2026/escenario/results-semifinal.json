@@ -1,0 +1,2732 @@
+{
+  "generatedAt": "2026-08-31T00:25:35.966Z",
+  "year": 2026,
+  "stage": "semifinal",
+  "category": "escenario",
+  "scoring": "trimmed",
+  "sourcePage": "https://tangoba.org/resultados-semifinal-tango-escenario-2026/",
+  "sourceCategoryPage": "https://tangoba.org/category/resultados/",
+  "sourceLabel": "Tango BA",
+  "disclaimer": "Compañero extraoficial de fans. No afiliado a Tango BA ni al Mundial de Baile. Fuente: Tango BA.",
+  "blocks": [
+    {
+      "id": "_",
+      "date": "2026-08-30",
+      "dateLabel": "30 de agosto",
+      "judges": [
+        "Natalia Turelli",
+        "Julián Sancehz",
+        "Vanesa Villalba",
+        "Germán Cornejo",
+        "Guillermina Quiroga",
+        "Ricardo Astrada"
+      ],
+      "sourcePdf": {
+        "filename": "Jurados-_-Escenario-Semis-2026-30_8-A-Copia-de-JURADOS-_-RONDAS-TODAS-308.pdf",
+        "url": null,
+        "sha256": "18f5ea1b9756b00fba1960379c5349e627266694932e20bb39f24427a9e6e48d"
+      },
+      "cutoff": 8.3,
+      "classifiedCount": 17,
+      "coupleCount": 40
+    }
+  ],
+  "rows": [
+    {
+      "coupleId": 586,
+      "round": "3",
+      "dancer1": "Diego Ortega",
+      "dancer2": "Aldana Silveyra",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 8.95,
+          "dropped": false
+        },
+        {
+          "name": "Julián Sancehz",
+          "score": 8.95,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 9,
+          "dropped": true
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 8.95,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7.95,
+          "dropped": true
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 9,
+          "dropped": false
+        }
+      ],
+      "average": 8.962,
+      "officialAverage": 8.963,
+      "rankInBlock": 1,
+      "rankOverall": 1,
+      "classified": true,
+      "cutoffDelta": 0.662,
+      "spread": 1.05,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 100,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.8,
+          "percentile": 94.1
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.98,
+          "percentile": 100
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.962,
+          "percentile": 100
+        }
+      ],
+      "overall": 98,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 547,
+      "round": "3",
+      "dancer1": "Nicolas Schell",
+      "dancer2": "Nair Schinca",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 8.95,
+          "dropped": false
+        },
+        {
+          "name": "Julián Sancehz",
+          "score": 8.75,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 8.95,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 8.85,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 8.57,
+          "dropped": true
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 8.99,
+          "dropped": true
+        }
+      ],
+      "average": 8.875,
+      "officialAverage": 8.875,
+      "rankInBlock": 2,
+      "rankOverall": 2,
+      "classified": true,
+      "cutoffDelta": 0.575,
+      "spread": 0.42,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 97.4,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.957,
+          "percentile": 100
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.83,
+          "percentile": 92.3
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.875,
+          "percentile": 97.4
+        }
+      ],
+      "overall": 96.6,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 365,
+      "round": "3",
+      "dancer1": "Facundo Cabral",
+      "dancer2": "Mara Navarro",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 8.94,
+          "dropped": false
+        },
+        {
+          "name": "Julián Sancehz",
+          "score": 8.7,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 9,
+          "dropped": true
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 8.8,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7.3,
+          "dropped": true
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 9,
+          "dropped": false
+        }
+      ],
+      "average": 8.86,
+      "officialAverage": 8.86,
+      "rankInBlock": 3,
+      "rankOverall": 3,
+      "classified": true,
+      "cutoffDelta": 0.56,
+      "spread": 1.7,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 94.9,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.807,
+          "percentile": 95.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.903,
+          "percentile": 96.2
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.86,
+          "percentile": 94.9
+        }
+      ],
+      "overall": 95.6,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 448,
+      "round": "2",
+      "dancer1": "Jorge Calabrigo",
+      "dancer2": "Tiziana Silva",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 8.93,
+          "dropped": false
+        },
+        {
+          "name": "Julián Sancehz",
+          "score": 8.3,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 8.95,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 8.74,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7.9,
+          "dropped": true
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 9,
+          "dropped": true
+        }
+      ],
+      "average": 8.73,
+      "officialAverage": 8.73,
+      "rankInBlock": 4,
+      "rankOverall": 4,
+      "classified": true,
+      "cutoffDelta": 0.43,
+      "spread": 1.1,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 92.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.793,
+          "percentile": 93.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.973,
+          "percentile": 98.7
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.73,
+          "percentile": 92.3
+        }
+      ],
+      "overall": 94.8,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 453,
+      "round": "3",
+      "dancer1": "Fabrizio Muñoz Lopez",
+      "dancer2": "Federica Tobares",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 8.77,
+          "dropped": false
+        },
+        {
+          "name": "Julián Sancehz",
+          "score": 8.7,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 8.75,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 8.55,
+          "dropped": true
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 8.55,
+          "dropped": false
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 8.98,
+          "dropped": true
+        }
+      ],
+      "average": 8.692,
+      "officialAverage": 8.693,
+      "rankInBlock": 5,
+      "rankOverall": 5,
+      "classified": true,
+      "cutoffDelta": 0.392,
+      "spread": 0.43,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 89.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.55,
+          "percentile": 77.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.8,
+          "percentile": 91
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.692,
+          "percentile": 89.7
+        }
+      ],
+      "overall": 86.2,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 513,
+      "round": "3",
+      "dancer1": "Facundo Vilches",
+      "dancer2": "Irina Cristoff Veleff",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 8.86,
+          "dropped": false
+        },
+        {
+          "name": "Julián Sancehz",
+          "score": 8.65,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 8.48,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 8.19,
+          "dropped": true
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 8.6,
+          "dropped": false
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 8.98,
+          "dropped": true
+        }
+      ],
+      "average": 8.647,
+      "officialAverage": 8.648,
+      "rankInBlock": 6,
+      "rankOverall": 6,
+      "classified": true,
+      "cutoffDelta": 0.347,
+      "spread": 0.79,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 87.2,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.81,
+          "percentile": 96.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.54,
+          "percentile": 78.2
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.647,
+          "percentile": 87.2
+        }
+      ],
+      "overall": 87.2,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 471,
+      "round": "2",
+      "dancer1": "Franco Rubén Sosa",
+      "dancer2": "Romina Moreno Guzmán",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 8.77,
+          "dropped": false
+        },
+        {
+          "name": "Julián Sancehz",
+          "score": 8.41,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 8.6,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 8.75,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 6.7,
+          "dropped": true
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 9,
+          "dropped": true
+        }
+      ],
+      "average": 8.633,
+      "officialAverage": 8.633,
+      "rankInBlock": 7,
+      "rankOverall": 7,
+      "classified": true,
+      "cutoffDelta": 0.333,
+      "spread": 2.3,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 84.6,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.833,
+          "percentile": 97.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.733,
+          "percentile": 89.7
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.633,
+          "percentile": 84.6
+        }
+      ],
+      "overall": 90.7,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 92,
+      "round": "2",
+      "dancer1": "Carlos Cisneros",
+      "dancer2": "Juan Segui",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 8.69,
+          "dropped": false
+        },
+        {
+          "name": "Julián Sancehz",
+          "score": 8.5,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 8.9,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 8.3,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7.53,
+          "dropped": true
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 8.98,
+          "dropped": true
+        }
+      ],
+      "average": 8.598,
+      "officialAverage": 8.598,
+      "rankInBlock": 8,
+      "rankOverall": 8,
+      "classified": true,
+      "cutoffDelta": 0.298,
+      "spread": 1.45,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 82.1,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.85,
+          "percentile": 98.5
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.593,
+          "percentile": 82.1
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.598,
+          "percentile": 82.1
+        }
+      ],
+      "overall": 87.6,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 462,
+      "round": "1",
+      "dancer1": "Lautaro Levato",
+      "dancer2": "Milagros Quintana",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 8.94,
+          "dropped": false
+        },
+        {
+          "name": "Julián Sancehz",
+          "score": 8.35,
+          "dropped": true
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 8.38,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 8.4,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 8.65,
+          "dropped": false
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 8.99,
+          "dropped": true
+        }
+      ],
+      "average": 8.593,
+      "officialAverage": 8.593,
+      "rankInBlock": 9,
+      "rankOverall": 9,
+      "classified": true,
+      "cutoffDelta": 0.293,
+      "spread": 0.64,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 79.5,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.567,
+          "percentile": 80.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.887,
+          "percentile": 93.6
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.593,
+          "percentile": 79.5
+        }
+      ],
+      "overall": 84.6,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 117,
+      "round": "1",
+      "dancer1": "Lisandro Eberle",
+      "dancer2": "Guadalupe Ponzelli",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 8.67,
+          "dropped": false
+        },
+        {
+          "name": "Julián Sancehz",
+          "score": 8.15,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 8.9,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 8.6,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 8,
+          "dropped": true
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 8.98,
+          "dropped": true
+        }
+      ],
+      "average": 8.58,
+      "officialAverage": 8.58,
+      "rankInBlock": 10,
+      "rankOverall": 10,
+      "classified": true,
+      "cutoffDelta": 0.28,
+      "spread": 0.98,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 76.9,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.763,
+          "percentile": 89.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.73,
+          "percentile": 88.5
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.58,
+          "percentile": 76.9
+        }
+      ],
+      "overall": 85,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 554,
+      "round": "2",
+      "dancer1": "Ariel Leguizamon",
+      "dancer2": "Yesica Esquivel",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 8.78,
+          "dropped": false
+        },
+        {
+          "name": "Julián Sancehz",
+          "score": 7.7,
+          "dropped": true
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 8.5,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 8.35,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 8.3,
+          "dropped": false
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 8.99,
+          "dropped": true
+        }
+      ],
+      "average": 8.483,
+      "officialAverage": 8.483,
+      "rankInBlock": 11,
+      "rankOverall": 11,
+      "classified": true,
+      "cutoffDelta": 0.183,
+      "spread": 1.29,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 74.4,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.883,
+          "percentile": 99.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.583,
+          "percentile": 80.8
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.483,
+          "percentile": 74.4
+        }
+      ],
+      "overall": 84.8,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 477,
+      "round": "2",
+      "dancer1": "Franco Cocheret",
+      "dancer2": "Juliana Mansilla",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 8.55,
+          "dropped": false
+        },
+        {
+          "name": "Julián Sancehz",
+          "score": 8.5,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 8.71,
+          "dropped": true
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 8.37,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7.45,
+          "dropped": true
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 8.2,
+          "dropped": false
+        }
+      ],
+      "average": 8.405,
+      "officialAverage": 8.405,
+      "rankInBlock": 12,
+      "rankOverall": 12,
+      "classified": true,
+      "cutoffDelta": 0.105,
+      "spread": 1.26,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 71.8,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.747,
+          "percentile": 88.1
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.21,
+          "percentile": 50
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.405,
+          "percentile": 71.8
+        }
+      ],
+      "overall": 70,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 284,
+      "round": "3",
+      "dancer1": "Julio JoséSeffino",
+      "dancer2": "Aldana Belén Tade",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 8.62,
+          "dropped": false
+        },
+        {
+          "name": "Julián Sancehz",
+          "score": 8.3,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 8.32,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 8.33,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 8.15,
+          "dropped": true
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 8.99,
+          "dropped": true
+        }
+      ],
+      "average": 8.393,
+      "officialAverage": 8.393,
+      "rankInBlock": 13,
+      "rankOverall": 13,
+      "classified": true,
+      "cutoffDelta": 0.093,
+      "spread": 0.84,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 69.2,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.83,
+          "percentile": 97
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.5,
+          "percentile": 74.4
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.393,
+          "percentile": 69.2
+        }
+      ],
+      "overall": 80.2,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 79,
+      "round": "3",
+      "dancer1": "Juan Cupini",
+      "dancer2": "Erica Rossi",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 8.57,
+          "dropped": false
+        },
+        {
+          "name": "Julián Sancehz",
+          "score": 8,
+          "dropped": true
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 8.42,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 8.5,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 8.05,
+          "dropped": false
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 8.9,
+          "dropped": true
+        }
+      ],
+      "average": 8.385,
+      "officialAverage": 8.385,
+      "rankInBlock": 14,
+      "rankOverall": 14,
+      "classified": true,
+      "cutoffDelta": 0.085,
+      "spread": 0.9,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 66.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.56,
+          "percentile": 78.5
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.233,
+          "percentile": 55.1
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.385,
+          "percentile": 66.7
+        }
+      ],
+      "overall": 66.8,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 436,
+      "round": "1",
+      "dancer1": "Nelson Nahuel Leiva",
+      "dancer2": "Evangelina Soledad Martinez",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 8.7,
+          "dropped": false
+        },
+        {
+          "name": "Julián Sancehz",
+          "score": 8.25,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 8.42,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 8,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7.8,
+          "dropped": true
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 8.9,
+          "dropped": true
+        }
+      ],
+      "average": 8.343,
+      "officialAverage": 8.343,
+      "rankInBlock": 15,
+      "rankOverall": 15,
+      "classified": true,
+      "cutoffDelta": 0.043,
+      "spread": 1.1,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 64.1,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.767,
+          "percentile": 90.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.55,
+          "percentile": 79.5
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.343,
+          "percentile": 64.1
+        }
+      ],
+      "overall": 78,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 481,
+      "round": "2",
+      "dancer1": "Ulises García",
+      "dancer2": "Florencia Campo",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 8.56,
+          "dropped": true
+        },
+        {
+          "name": "Julián Sancehz",
+          "score": 8.45,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 8.32,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 7.79,
+          "dropped": true
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 8.5,
+          "dropped": false
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 8.1,
+          "dropped": false
+        }
+      ],
+      "average": 8.343,
+      "officialAverage": 8.343,
+      "rankInBlock": 15,
+      "rankOverall": 15,
+      "classified": true,
+      "cutoffDelta": 0.043,
+      "spread": 0.77,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 64.1,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.373,
+          "percentile": 63.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.42,
+          "percentile": 71.8
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.343,
+          "percentile": 64.1
+        }
+      ],
+      "overall": 66.5,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 509,
+      "round": "1",
+      "dancer1": "Lucas Guevara",
+      "dancer2": "Daniela Bravo",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 8.5,
+          "dropped": false
+        },
+        {
+          "name": "Julián Sancehz",
+          "score": 8.15,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 8.35,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 8.2,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7.5,
+          "dropped": true
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 8.9,
+          "dropped": true
+        }
+      ],
+      "average": 8.3,
+      "officialAverage": 8.3,
+      "rankInBlock": 17,
+      "rankOverall": 17,
+      "classified": true,
+      "cutoffDelta": 0,
+      "spread": 1.4,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 59,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.627,
+          "percentile": 83
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.417,
+          "percentile": 69.2
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.3,
+          "percentile": 59
+        }
+      ],
+      "overall": 70.4,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 516,
+      "round": "3",
+      "dancer1": "Federico Paleo",
+      "dancer2": "Luciana Francheli",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 8.55,
+          "dropped": false
+        },
+        {
+          "name": "Julián Sancehz",
+          "score": 8,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 8.25,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 8.36,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7.5,
+          "dropped": true
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 8.7,
+          "dropped": true
+        }
+      ],
+      "average": 8.29,
+      "officialAverage": 8.29,
+      "rankInBlock": 18,
+      "rankOverall": 18,
+      "classified": false,
+      "cutoffDelta": -0.01,
+      "spread": 1.2,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 56.4,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.7,
+          "percentile": 85.2
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.623,
+          "percentile": 83.3
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.29,
+          "percentile": 56.4
+        }
+      ],
+      "overall": 75,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 440,
+      "round": "2",
+      "dancer1": "Stanislav Fursov",
+      "dancer2": "Ekaterina Simonova",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 8.7,
+          "dropped": false
+        },
+        {
+          "name": "Julián Sancehz",
+          "score": 8.25,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 7.95,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 8.15,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7.18,
+          "dropped": true
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 8.98,
+          "dropped": true
+        }
+      ],
+      "average": 8.263,
+      "officialAverage": 8.263,
+      "rankInBlock": 19,
+      "rankOverall": 19,
+      "classified": false,
+      "cutoffDelta": -0.037,
+      "spread": 1.8,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 53.8,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.713,
+          "percentile": 85.9
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.41,
+          "percentile": 67.9
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.263,
+          "percentile": 53.8
+        }
+      ],
+      "overall": 69.2,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 715,
+      "round": "3",
+      "dancer1": "Juan Fernando Cabral",
+      "dancer2": "Laura Cecilia Castiñeiras",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 8.35,
+          "dropped": false
+        },
+        {
+          "name": "Julián Sancehz",
+          "score": 7.81,
+          "dropped": true
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 8.35,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 8.68,
+          "dropped": true
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 8.25,
+          "dropped": false
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 8,
+          "dropped": false
+        }
+      ],
+      "average": 8.238,
+      "officialAverage": 8.238,
+      "rankInBlock": 20,
+      "rankOverall": 20,
+      "classified": false,
+      "cutoffDelta": -0.062,
+      "spread": 0.87,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 51.3,
+      "stageStandings": [
+        {
+          "stage": "semifinal",
+          "average": 8.238,
+          "percentile": 51.3
+        }
+      ],
+      "overall": 51.3,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 521,
+      "round": "1",
+      "dancer1": "Sebastian Fernandez",
+      "dancer2": "Mariia Marinova",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 8.95,
+          "dropped": false
+        },
+        {
+          "name": "Julián Sancehz",
+          "score": 7.85,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 7.4,
+          "dropped": true
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 8.65,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7.4,
+          "dropped": false
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 8.97,
+          "dropped": true
+        }
+      ],
+      "average": 8.212,
+      "officialAverage": 8.213,
+      "rankInBlock": 21,
+      "rankOverall": 21,
+      "classified": false,
+      "cutoffDelta": -0.088,
+      "spread": 1.57,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 48.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.773,
+          "percentile": 91.1
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.947,
+          "percentile": 97.4
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.212,
+          "percentile": 48.7
+        }
+      ],
+      "overall": 79.1,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 3,
+      "round": "2",
+      "dancer1": "Jesus Taborda",
+      "dancer2": "Carla Dominguez",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 8.8,
+          "dropped": true
+        },
+        {
+          "name": "Julián Sancehz",
+          "score": 8.1,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 8.75,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 8.1,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7.28,
+          "dropped": true
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 7.8,
+          "dropped": false
+        }
+      ],
+      "average": 8.188,
+      "officialAverage": 8.188,
+      "rankInBlock": 22,
+      "rankOverall": 22,
+      "classified": false,
+      "cutoffDelta": -0.112,
+      "spread": 1.52,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 46.2,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.793,
+          "percentile": 93.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.533,
+          "percentile": 76.9
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.188,
+          "percentile": 46.2
+        }
+      ],
+      "overall": 72.1,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 678,
+      "round": "2",
+      "dancer1": "Francis Damian Aguilar",
+      "dancer2": "Sophie Sperling",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 8.75,
+          "dropped": true
+        },
+        {
+          "name": "Julián Sancehz",
+          "score": 8.2,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 8.5,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 8.5,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7.5,
+          "dropped": false
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 7,
+          "dropped": true
+        }
+      ],
+      "average": 8.175,
+      "officialAverage": 8.175,
+      "rankInBlock": 23,
+      "rankOverall": 23,
+      "classified": false,
+      "cutoffDelta": -0.125,
+      "spread": 1.75,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 43.6,
+      "stageStandings": [
+        {
+          "stage": "cuartos",
+          "average": 7.897,
+          "percentile": 94.9
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.175,
+          "percentile": 43.6
+        }
+      ],
+      "overall": 69.3,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 342,
+      "round": "3",
+      "dancer1": "Ramiro Nicolas Almiron",
+      "dancer2": "Laly Torres",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 8.69,
+          "dropped": true
+        },
+        {
+          "name": "Julián Sancehz",
+          "score": 7.7,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 8.68,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 8.36,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7.65,
+          "dropped": true
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 7.88,
+          "dropped": false
+        }
+      ],
+      "average": 8.155,
+      "officialAverage": 8.155,
+      "rankInBlock": 24,
+      "rankOverall": 24,
+      "classified": false,
+      "cutoffDelta": -0.145,
+      "spread": 1.04,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 41,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.567,
+          "percentile": 80.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.727,
+          "percentile": 87.2
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.155,
+          "percentile": 41
+        }
+      ],
+      "overall": 69.6,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 406,
+      "round": "3",
+      "dancer1": "Adriel Cristhian Bournissen",
+      "dancer2": "María Soledad Mallo",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 8.2,
+          "dropped": false
+        },
+        {
+          "name": "Julián Sancehz",
+          "score": 7.85,
+          "dropped": true
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 8.1,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 8.18,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 8.3,
+          "dropped": true
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 7.95,
+          "dropped": false
+        }
+      ],
+      "average": 8.108,
+      "officialAverage": 8.108,
+      "rankInBlock": 25,
+      "rankOverall": 25,
+      "classified": false,
+      "cutoffDelta": -0.192,
+      "spread": 0.45,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 38.5,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.663,
+          "percentile": 84.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.35,
+          "percentile": 62.8
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.108,
+          "percentile": 38.5
+        }
+      ],
+      "overall": 61.9,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 682,
+      "round": "3",
+      "dancer1": "Jorge Andres Padilla Mayo",
+      "dancer2": "Ana Zoraida Gomez Diaz",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 8.35,
+          "dropped": false
+        },
+        {
+          "name": "Julián Sancehz",
+          "score": 7.8,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 8.15,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 8.47,
+          "dropped": true
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 8.1,
+          "dropped": false
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 7.1,
+          "dropped": true
+        }
+      ],
+      "average": 8.1,
+      "officialAverage": 8.1,
+      "rankInBlock": 26,
+      "rankOverall": 26,
+      "classified": false,
+      "cutoffDelta": -0.2,
+      "spread": 1.37,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 35.9,
+      "stageStandings": [
+        {
+          "stage": "cuartos",
+          "average": 7.217,
+          "percentile": 53.8
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.1,
+          "percentile": 35.9
+        }
+      ],
+      "overall": 44.8,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 493,
+      "round": "3",
+      "dancer1": "Ivan Vivas",
+      "dancer2": "Camila Pina",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 8.55,
+          "dropped": true
+        },
+        {
+          "name": "Julián Sancehz",
+          "score": 8.27,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 8.15,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 8.34,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7.55,
+          "dropped": false
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 7.5,
+          "dropped": true
+        }
+      ],
+      "average": 8.078,
+      "officialAverage": 8.078,
+      "rankInBlock": 27,
+      "rankOverall": 27,
+      "classified": false,
+      "cutoffDelta": -0.222,
+      "spread": 1.05,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 33.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.78,
+          "percentile": 91.9
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.167,
+          "percentile": 48.7
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.078,
+          "percentile": 33.3
+        }
+      ],
+      "overall": 58,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 133,
+      "round": "1",
+      "dancer1": "Alexander Moncada Rojas",
+      "dancer2": "Martina Waldman",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 8.47,
+          "dropped": true
+        },
+        {
+          "name": "Julián Sancehz",
+          "score": 7.9,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 8.25,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 8.1,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7.2,
+          "dropped": true
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 7.9,
+          "dropped": false
+        }
+      ],
+      "average": 8.038,
+      "officialAverage": 8.038,
+      "rankInBlock": 28,
+      "rankOverall": 28,
+      "classified": false,
+      "cutoffDelta": -0.262,
+      "spread": 1.27,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 30.8,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.483,
+          "percentile": 74.1
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.657,
+          "percentile": 84.6
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.038,
+          "percentile": 30.8
+        }
+      ],
+      "overall": 63.2,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 141,
+      "round": "2",
+      "dancer1": "Cristian Lopez",
+      "dancer2": "Naoko Tsutsumizaki",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 8.1,
+          "dropped": true
+        },
+        {
+          "name": "Julián Sancehz",
+          "score": 7.9,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 8.05,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 8.1,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7.05,
+          "dropped": true
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 7.95,
+          "dropped": false
+        }
+      ],
+      "average": 8,
+      "officialAverage": 8,
+      "rankInBlock": 29,
+      "rankOverall": 29,
+      "classified": false,
+      "cutoffDelta": -0.3,
+      "spread": 1.05,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 28.2,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.733,
+          "percentile": 87.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.333,
+          "percentile": 61.5
+        },
+        {
+          "stage": "semifinal",
+          "average": 8,
+          "percentile": 28.2
+        }
+      ],
+      "overall": 59,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 149,
+      "round": "1",
+      "dancer1": "Gabriel Salvi",
+      "dancer2": "Carolina Leonardelli",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 8.35,
+          "dropped": true
+        },
+        {
+          "name": "Julián Sancehz",
+          "score": 7.55,
+          "dropped": true
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 8.3,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 7.75,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7.7,
+          "dropped": false
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 8.2,
+          "dropped": false
+        }
+      ],
+      "average": 7.988,
+      "officialAverage": 7.988,
+      "rankInBlock": 30,
+      "rankOverall": 30,
+      "classified": false,
+      "cutoffDelta": -0.312,
+      "spread": 0.8,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 25.6,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.64,
+          "percentile": 83.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.387,
+          "percentile": 65.4
+        },
+        {
+          "stage": "semifinal",
+          "average": 7.988,
+          "percentile": 25.6
+        }
+      ],
+      "overall": 58.2,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 693,
+      "round": "2",
+      "dancer1": "David Ezequiel Chartoriski",
+      "dancer2": "Yelena Odintsova",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 8.15,
+          "dropped": false
+        },
+        {
+          "name": "Julián Sancehz",
+          "score": 7.87,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 8.35,
+          "dropped": true
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 7.85,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7.35,
+          "dropped": true
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 7.8,
+          "dropped": false
+        }
+      ],
+      "average": 7.917,
+      "officialAverage": 7.918,
+      "rankInBlock": 31,
+      "rankOverall": 31,
+      "classified": false,
+      "cutoffDelta": -0.383,
+      "spread": 1,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 23.1,
+      "stageStandings": [
+        {
+          "stage": "cuartos",
+          "average": 7.11,
+          "percentile": 43.6
+        },
+        {
+          "stage": "semifinal",
+          "average": 7.917,
+          "percentile": 23.1
+        }
+      ],
+      "overall": 33.4,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 594,
+      "round": "3",
+      "dancer1": "Sebastian Acosta",
+      "dancer2": "Kathia Cabral",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 8.45,
+          "dropped": true
+        },
+        {
+          "name": "Julián Sancehz",
+          "score": 7.75,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 8.05,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 8.18,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7.53,
+          "dropped": false
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 7.2,
+          "dropped": true
+        }
+      ],
+      "average": 7.878,
+      "officialAverage": 7.878,
+      "rankInBlock": 32,
+      "rankOverall": 32,
+      "classified": false,
+      "cutoffDelta": -0.422,
+      "spread": 1.25,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 20.5,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.483,
+          "percentile": 74.1
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.42,
+          "percentile": 71.8
+        },
+        {
+          "stage": "semifinal",
+          "average": 7.878,
+          "percentile": 20.5
+        }
+      ],
+      "overall": 55.5,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 95,
+      "round": "2",
+      "dancer1": "Jesus Luis Paez",
+      "dancer2": "Iara Duarte",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 8.5,
+          "dropped": true
+        },
+        {
+          "name": "Julián Sancehz",
+          "score": 8,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 7.6,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 7.79,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7,
+          "dropped": true
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 7.9,
+          "dropped": false
+        }
+      ],
+      "average": 7.823,
+      "officialAverage": 7.823,
+      "rankInBlock": 33,
+      "rankOverall": 33,
+      "classified": false,
+      "cutoffDelta": -0.477,
+      "spread": 1.5,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 17.9,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.437,
+          "percentile": 68.9
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.523,
+          "percentile": 75.6
+        },
+        {
+          "stage": "semifinal",
+          "average": 7.823,
+          "percentile": 17.9
+        }
+      ],
+      "overall": 54.1,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 590,
+      "round": "1",
+      "dancer1": "Federico Leonardo Luna",
+      "dancer2": "Aldana Jimenez",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 8.15,
+          "dropped": true
+        },
+        {
+          "name": "Julián Sancehz",
+          "score": 7.72,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 7.7,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 7.8,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7.65,
+          "dropped": true
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 7.88,
+          "dropped": false
+        }
+      ],
+      "average": 7.775,
+      "officialAverage": 7.775,
+      "rankInBlock": 34,
+      "rankOverall": 34,
+      "classified": false,
+      "cutoffDelta": -0.525,
+      "spread": 0.5,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 15.4,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.733,
+          "percentile": 87.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.253,
+          "percentile": 56.4
+        },
+        {
+          "stage": "semifinal",
+          "average": 7.775,
+          "percentile": 15.4
+        }
+      ],
+      "overall": 53.1,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 107,
+      "round": "1",
+      "dancer1": "Valentín Arias Delgado",
+      "dancer2": "Diana Paola Franco Durango",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 8.2,
+          "dropped": true
+        },
+        {
+          "name": "Julián Sancehz",
+          "score": 7.8,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 7.75,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 7.7,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 6.25,
+          "dropped": true
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 7.8,
+          "dropped": false
+        }
+      ],
+      "average": 7.763,
+      "officialAverage": 7.763,
+      "rankInBlock": 35,
+      "rankOverall": 35,
+      "classified": false,
+      "cutoffDelta": -0.537,
+      "spread": 1.95,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 12.8,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.433,
+          "percentile": 68.1
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.003,
+          "percentile": 34.6
+        },
+        {
+          "stage": "semifinal",
+          "average": 7.763,
+          "percentile": 12.8
+        }
+      ],
+      "overall": 38.5,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 49,
+      "round": "1",
+      "dancer1": "Hernan David Lopez",
+      "dancer2": "Camila Ayelen Luna",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 8.3,
+          "dropped": true
+        },
+        {
+          "name": "Julián Sancehz",
+          "score": 7.87,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 7.6,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 7.78,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7.68,
+          "dropped": false
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 6.9,
+          "dropped": true
+        }
+      ],
+      "average": 7.733,
+      "officialAverage": 7.733,
+      "rankInBlock": 36,
+      "rankOverall": 36,
+      "classified": false,
+      "cutoffDelta": -0.567,
+      "spread": 1.4,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 10.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.5,
+          "percentile": 74.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.217,
+          "percentile": 53.8
+        },
+        {
+          "stage": "semifinal",
+          "average": 7.733,
+          "percentile": 10.3
+        }
+      ],
+      "overall": 46.3,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 249,
+      "round": "1",
+      "dancer1": "Matías Gabriel Casali",
+      "dancer2": "María Sol Menescardi",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 8.25,
+          "dropped": true
+        },
+        {
+          "name": "Julián Sancehz",
+          "score": 7.61,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 7.67,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 7.5,
+          "dropped": true
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7.55,
+          "dropped": false
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 8,
+          "dropped": false
+        }
+      ],
+      "average": 7.708,
+      "officialAverage": 7.708,
+      "rankInBlock": 37,
+      "rankOverall": 37,
+      "classified": false,
+      "cutoffDelta": -0.592,
+      "spread": 0.75,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 7.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.507,
+          "percentile": 75.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.167,
+          "percentile": 48.7
+        },
+        {
+          "stage": "semifinal",
+          "average": 7.708,
+          "percentile": 7.7
+        }
+      ],
+      "overall": 44,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 403,
+      "round": "2",
+      "dancer1": "Franco Emanuel Palleiro",
+      "dancer2": "Oriana Abril Herenu",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 8.75,
+          "dropped": true
+        },
+        {
+          "name": "Julián Sancehz",
+          "score": 7.81,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 7.51,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 7.6,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7.3,
+          "dropped": false
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 6.7,
+          "dropped": true
+        }
+      ],
+      "average": 7.555,
+      "officialAverage": 7.555,
+      "rankInBlock": 38,
+      "rankOverall": 38,
+      "classified": false,
+      "cutoffDelta": -0.745,
+      "spread": 2.05,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 5.1,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.563,
+          "percentile": 79.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.217,
+          "percentile": 53.8
+        },
+        {
+          "stage": "semifinal",
+          "average": 7.555,
+          "percentile": 5.1
+        }
+      ],
+      "overall": 46.1,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 177,
+      "round": "2",
+      "dancer1": "Alexander Komogortsev",
+      "dancer2": "Kristina Komogortseva",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 8.75,
+          "dropped": true
+        },
+        {
+          "name": "Julián Sancehz",
+          "score": 7.64,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 7.43,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 8.05,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7,
+          "dropped": false
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 6.5,
+          "dropped": true
+        }
+      ],
+      "average": 7.53,
+      "officialAverage": 7.53,
+      "rankInBlock": 39,
+      "rankOverall": 39,
+      "classified": false,
+      "cutoffDelta": -0.77,
+      "spread": 2.25,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 2.6,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.327,
+          "percentile": 60
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.393,
+          "percentile": 66.7
+        },
+        {
+          "stage": "semifinal",
+          "average": 7.53,
+          "percentile": 2.6
+        }
+      ],
+      "overall": 43.1,
+      "lastStageReached": "semifinal"
+    },
+    {
+      "coupleId": 277,
+      "round": "1",
+      "dancer1": "Eduardo Roman",
+      "dancer2": "Tamara Borda",
+      "judges": [
+        {
+          "name": "Natalia Turelli",
+          "score": 8.74,
+          "dropped": true
+        },
+        {
+          "name": "Julián Sancehz",
+          "score": 7.35,
+          "dropped": false
+        },
+        {
+          "name": "Vanesa Villalba",
+          "score": 7.62,
+          "dropped": false
+        },
+        {
+          "name": "Germán Cornejo",
+          "score": 7.8,
+          "dropped": false
+        },
+        {
+          "name": "Guillermina Quiroga",
+          "score": 7.25,
+          "dropped": false
+        },
+        {
+          "name": "Ricardo Astrada",
+          "score": 6.7,
+          "dropped": true
+        }
+      ],
+      "average": 7.505,
+      "officialAverage": 7.505,
+      "rankInBlock": 40,
+      "rankOverall": 40,
+      "classified": false,
+      "cutoffDelta": -0.795,
+      "spread": 2.04,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "semifinal",
+      "stagePercentile": 0,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.343,
+          "percentile": 61.5
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.443,
+          "percentile": 73.1
+        },
+        {
+          "stage": "semifinal",
+          "average": 7.505,
+          "percentile": 0
+        }
+      ],
+      "overall": 44.9,
+      "lastStageReached": "semifinal"
+    }
+  ],
+  "mismatches": []
+}

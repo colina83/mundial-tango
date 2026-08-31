@@ -86,6 +86,14 @@ test("pdfMatchesStage keeps cuartos sheets out of final ingest", () => {
   assert.equal(pdfMatchesStage(finalSheet, "final"), true);
 });
 
+test("Escenario Semis filenames are accepted as semifinal results", () => {
+  const semis =
+    "https://tangoba.org/wp-content/uploads/2026/08/Jurados-_-Escenario-Semis-2026-30_8-A-Copia-de-JURADOS-_-RONDAS-TODAS-308.pdf";
+  assert.equal(isLikelyResultsPdf(semis, "escenario"), true);
+  assert.equal(pdfMatchesStage(semis, "semifinal"), true);
+  assert.equal(pdfMatchesStage(semis, "final"), false);
+});
+
 test("2026 cuartos source pages use the published de-final URLs", () => {
   assert.equal(
     sourcePageFor(2026, "cuartos", "pista"),
@@ -133,6 +141,10 @@ test("2026 published JSON classified counts come from highlights, not 50%", asyn
     escCuartos.blocks.map((b) => b.classifiedCount),
     [20, 20],
   );
+
+  const escSemifinal = await load("public/data/2026/escenario/results-semifinal.json");
+  assert.equal(escSemifinal.blocks[0]!.classifiedCount, 17);
+  assert.notEqual(17, Math.ceil(escSemifinal.rows.length / 2));
 });
 
 test("publishedStages hides a fake final copied from cuartos", () => {

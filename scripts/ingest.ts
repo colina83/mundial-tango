@@ -188,6 +188,7 @@ export function isLikelyResultsPdf(
     u.includes("clasificator") ||
     u.includes("cuartos") ||
     u.includes("semifinal") ||
+    u.includes("semis") ||
     (u.includes("final") &&
       (u.includes("pista") || u.includes("escenario") || u.includes("jurados"))) ||
     (u.includes("pista") && (u.includes("resultado") || u.includes("ronda"))) ||
@@ -205,13 +206,14 @@ export function isStagePdfFilename(
 /** Keep each live ingest from swallowing another stage’s sheets (cuartos-final URLs, etc.). */
 export function pdfMatchesStage(urlOrFilename: string, stage: Stage): boolean {
   const u = urlOrFilename.toLowerCase();
+  const isSemifinal = u.includes("semifinal") || u.includes("semis");
   if (stage === "clasificatoria") return u.includes("clasificator") && !u.includes("senior");
-  if (stage === "cuartos") return u.includes("cuartos") && !u.includes("semifinal") && !u.includes("senior");
-  if (stage === "semifinal") return u.includes("semifinal") && !u.includes("senior");
+  if (stage === "cuartos") return u.includes("cuartos") && !isSemifinal && !u.includes("senior");
+  if (stage === "semifinal") return isSemifinal && !u.includes("senior");
   return (
     u.includes("final") &&
     !u.includes("cuartos") &&
-    !u.includes("semifinal") &&
+    !isSemifinal &&
     !u.includes("clasificator") &&
     !u.includes("senior")
   );

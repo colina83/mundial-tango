@@ -144,7 +144,7 @@ test("learned model must clear the predeclared baseline threshold", () => {
   assert.equal(chooseModel(validation).model, "semifinal-rank");
 });
 
-test("forecast is deterministic and waits for Escenario semifinal", async () => {
+test("forecast is deterministic for categories with semifinal results", async () => {
   const directory = await mkdtemp(join(tmpdir(), "pulso-top3-"));
   const firstPath = join(directory, "first.json");
   const secondPath = join(directory, "second.json");
@@ -152,8 +152,9 @@ test("forecast is deterministic and waits for Escenario semifinal", async () => 
     const first = await generateForecast(firstPath);
     const second = await generateForecast(secondPath);
     assert.equal(first.categories.pista.status, "ready");
-    assert.equal(first.categories.escenario.status, "pending");
+    assert.equal(first.categories.escenario.status, "ready");
     assert.deepEqual(first.categories.pista, second.categories.pista);
+    assert.deepEqual(first.categories.escenario, second.categories.escenario);
     assert.deepEqual(first.validation, second.validation);
     const saved = await readFile(firstPath, "utf8");
     assert.doesNotThrow(() => JSON.parse(saved));
