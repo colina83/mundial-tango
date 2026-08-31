@@ -58,6 +58,22 @@ a:hover {
   text-decoration: underline;
 }
 
+.seo-snapshot {
+  width: min(960px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 32px 0 64px;
+}
+
+.seo-snapshot header,
+.seo-snapshot article,
+.seo-snapshot section {
+  margin-bottom: 20px;
+}
+
+.seo-snapshot li {
+  margin: 8px 0;
+}
+
 h1,
 h2,
 h3 {

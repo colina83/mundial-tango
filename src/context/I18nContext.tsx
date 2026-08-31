@@ -8,6 +8,7 @@ import {
   type ReactNode,
 } from "react";
 import { translations, type Lang, type MessageKey } from "../i18n";
+import { localeFromPath, localizedPath } from "../lib/locale";
 
 const STORAGE_KEY = "mundial-tango.lang.v2";
 
@@ -20,6 +21,8 @@ type I18nValue = {
 const I18nContext = createContext<I18nValue | null>(null);
 
 function readLang(): Lang {
+  const routeLang = localeFromPath(window.location.pathname, import.meta.env.BASE_URL);
+  if (routeLang) return routeLang;
   try {
     const stored = localStorage.getItem(STORAGE_KEY);
     if (stored === "en" || stored === "es") return stored;
@@ -42,6 +45,10 @@ export function I18nProvider({ children }: { children: ReactNode }) {
       localStorage.setItem(STORAGE_KEY, next);
     } catch {
       /* ignore */
+    }
+    const target = localizedPath(window.location.pathname, next, import.meta.env.BASE_URL);
+    if (target !== window.location.pathname) {
+      window.location.assign(`${target}${window.location.search}${window.location.hash}`);
     }
   }, []);
 

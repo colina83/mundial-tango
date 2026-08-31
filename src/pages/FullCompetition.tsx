@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
+import { Seo } from "../components/Seo";
 import { useData } from "../context/DataContext";
 import { useI18n } from "../context/I18nContext";
 import { fold, formatAverage, formatOverall } from "../lib/format";
@@ -161,6 +162,12 @@ export function FullCompetition() {
 
   return (
     <div className="page full-comp">
+      <Seo
+        view="full"
+        year={year}
+        category={category}
+        stage={stages[stages.length - 1]}
+      />
       <h1>{t("fullTitle")}</h1>
       <p className="muted">{t("fullHint")}</p>
 

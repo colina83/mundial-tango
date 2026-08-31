@@ -1,5 +1,6 @@
 import { useMemo, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
+import { Seo } from "../components/Seo";
 import { CoupleCard } from "../components/CoupleCard";
 import { ScoreBoxplot } from "../components/ScoreBoxplot";
 import { SurvivalTicks } from "../components/SurvivalPanel";
@@ -68,7 +69,7 @@ function SortHeader({
 }
 
 export function Rankings() {
-  const { data, year, category, survival, survivalById } = useData();
+  const { data, year, category, activeStage, survival, survivalById } = useData();
   const { t } = useI18n();
   const { isPinned, toggle } = useWatchlist();
   const [params, setParams] = useSearchParams();
@@ -153,6 +154,12 @@ export function Rankings() {
 
   return (
     <div className="page rankings">
+      <Seo view="rankings" year={year} category={category} stage={activeStage} />
+      <header className="section-heading">
+        <h1>
+          {t("navRankings")} · {category === "pista" ? t("categoryPista") : t("categoryEscenario")} {year}
+        </h1>
+      </header>
       <div className="sticky-search">
         <input
           className="search-input"

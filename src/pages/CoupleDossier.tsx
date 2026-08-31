@@ -1,6 +1,7 @@
 import { Link, useParams } from "react-router-dom";
 import { ScoreBoxplot } from "../components/ScoreBoxplot";
 import { ScoreMarks } from "../components/ScoreMarks";
+import { Seo } from "../components/Seo";
 import { SurvivalPanel } from "../components/SurvivalPanel";
 import { useData } from "../context/DataContext";
 import { useI18n } from "../context/I18nContext";
@@ -58,19 +59,28 @@ export function CoupleDossier() {
 
   return (
     <div className="page dossier">
+      <Seo
+        view="couple"
+        year={year}
+        category={category}
+        stage={data.stage}
+        coupleId={row.coupleId}
+        dancer1={row.dancer1}
+        dancer2={row.dancer2}
+      />
       <Link className="text-link" to={`${base}/rankings`}>
         ← {t("backRankings")}
       </Link>
       <section className="panel dossier-hero">
         <div className="dossier-id">
           {showBlock && <span className="block-flag">{t("block")} {row.blockId}</span>}
-          <h1>#{row.coupleId}</h1>
+          <strong>#{row.coupleId}</strong>
         </div>
-        <p className="dossier-names">
+        <h1 className="dossier-names">
           <span>{row.dancer1}</span>
           <span className="amp">&</span>
           <span>{row.dancer2}</span>
-        </p>
+        </h1>
         <div className="badges">
           {row.classified ? (
             <span className="badge badge-pink">{t("classifiedBadge")}</span>
