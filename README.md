@@ -151,6 +151,19 @@ Close times are optional ISO timestamps and are independent by category. Set `PI
 
 Ballots are immutable JSON objects containing the submitted name, country, and optional tango community. Public API responses expose only aggregate couple totals; raw IP addresses are never stored. The server stores an HMAC of the IP for a 24-hour rate limit and an HMAC of the normalized identity for duplicate detection. An HttpOnly browser token lets the original browser see its submitted ballot, but submitted ballots cannot be changed. After the event, delete the `top3:*` Redis keys according to the desired retention policy.
 
+## Search visibility
+
+The canonical site is [pulso-mundial-tango.vercel.app](https://pulso-mundial-tango.vercel.app). Production builds generate crawlable English and Spanish pages under `/en/` and `/es/`, plus `sitemap.xml`, `robots.txt`, canonical links, `hreflang`, social metadata, and structured data. The generated sitemap follows the committed results catalog, so result-ingest deployments automatically expose newly published stages and couples.
+
+After deploying:
+
+1. Add `https://pulso-mundial-tango.vercel.app` as a URL-prefix property in Google Search Console and Bing Webmaster Tools.
+2. Complete the ownership verification offered by each service.
+3. Submit `https://pulso-mundial-tango.vercel.app/sitemap.xml`.
+4. Request indexing for `/es/2026/pista`, `/es/2026/escenario`, and their English equivalents.
+
+Search ranking is controlled by search engines; metadata and sitemaps improve discovery but cannot guarantee placement for every query.
+
 ## License
 
 [MIT](LICENSE). Competition results remain © Tango BA; this repo only redistributes public PDFs for an unofficial companion.

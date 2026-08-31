@@ -9,10 +9,12 @@ import {
 } from "react-router-dom";
 import { Analytics } from "@vercel/analytics/react";
 import { Layout } from "./components/Layout";
+import { Seo } from "./components/Seo";
 import { DataProvider } from "./context/DataContext";
 import { I18nProvider } from "./context/I18nContext";
 import { PicksProvider } from "./context/PicksContext";
 import { WatchlistProvider } from "./context/WatchlistContext";
+import { localizedBasename } from "./lib/locale";
 import { hasPicks, hasWatchlist, isCategory, isTrackedYear } from "./lib/year";
 import { CoupleDossier } from "./pages/CoupleDossier";
 import { Dashboard } from "./pages/Dashboard";
@@ -28,7 +30,7 @@ const Stats = lazy(async () => {
   return { default: mod.Stats };
 });
 
-const basename = import.meta.env.BASE_URL.replace(/\/$/, "") || "/";
+const basename = localizedBasename(import.meta.env.BASE_URL, window.location.pathname);
 
 function YearShell() {
   const { year, category } = useParams();
@@ -81,7 +83,8 @@ export default function App() {
     <I18nProvider>
       <PicksProvider>
         <WatchlistProvider>
-          <BrowserRouter basename={basename === "/" ? undefined : basename}>
+          <BrowserRouter basename={basename}>
+            <Seo />
             <Routes>
             <Route path="/" element={<YearLanding />} />
             <Route path="rankings" element={<Navigate to="/2026/pista/rankings" replace />} />

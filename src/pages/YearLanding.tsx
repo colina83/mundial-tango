@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { Seo } from "../components/Seo";
 import { useI18n } from "../context/I18nContext";
 import { CATEGORIES, isCategory, yearPath, publishedStagesFromCatalog } from "../lib/year";
 import type { CatalogYear, Category, Stage, YearCatalog } from "../types";
@@ -57,6 +58,7 @@ export function YearLanding() {
 
   return (
     <div className="app-shell is-gate">
+      <Seo view="landing" />
       <header className="topbar">
         <div className="topbar-inner">
           <span className="brand">

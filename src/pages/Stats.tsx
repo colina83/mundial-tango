@@ -11,6 +11,7 @@ import {
   YAxis,
 } from "recharts";
 import { Link } from "react-router-dom";
+import { Seo } from "../components/Seo";
 import { useData } from "../context/DataContext";
 import { useI18n } from "../context/I18nContext";
 import { formatAverage } from "../lib/format";
@@ -46,6 +47,12 @@ export function Stats() {
 
   return (
     <div className="page stats">
+      <Seo view="stats" year={year} category={category} stage={data.stage} />
+      <header className="section-heading">
+        <h1>
+          {t("navStats")} · {category === "pista" ? t("categoryPista") : t("categoryEscenario")} {year}
+        </h1>
+      </header>
       {showBlocks && (
         <div className="filters">
           <select

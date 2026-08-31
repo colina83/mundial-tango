@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /data/
+Disallow: /*?*
+
+Sitemap: https://pulso-mundial-tango.vercel.app/sitemap.xml

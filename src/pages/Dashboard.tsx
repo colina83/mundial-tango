@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { CoupleCard } from "../components/CoupleCard";
 import { PodiumGrid } from "../components/Podium";
+import { Seo } from "../components/Seo";
 import { useData } from "../context/DataContext";
 import { useI18n } from "../context/I18nContext";
 import { useWatchlist } from "../context/WatchlistContext";
@@ -52,6 +53,7 @@ export function Dashboard() {
 
   return (
     <div className="page dashboard">
+      <Seo view="dashboard" year={year} category={category} stage={activeStage} />
       <section className="hero-panel">
         <div className="hero-kicker">{t("liveStage")}</div>
         <h1>
