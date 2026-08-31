@@ -4,7 +4,7 @@ import { TurnstileWidget } from "../components/TurnstileWidget";
 import { PicksApiError, usePicks } from "../context/PicksContext";
 import { useData } from "../context/DataContext";
 import { useI18n } from "../context/I18nContext";
-import { coupleName, fold, formatIngestTime } from "../lib/format";
+import { coupleName, formatIngestTime } from "../lib/format";
 import { countryOptions } from "../lib/countries";
 import type {
   BallotConfirmation,
@@ -13,7 +13,7 @@ import type {
   PicksSnapshot,
   VoterInput,
 } from "../lib/picks";
-import { assignNextPick, movePick } from "../lib/picks";
+import { movePick } from "../lib/picks";
 import type { MessageKey } from "../i18n";
 import type { Category, Dataset, StageManifest } from "../types";
 
@@ -82,8 +82,6 @@ export function Picks() {
   const [error, setError] = useState<MessageKey | null>(null);
   const [turnstileToken, setTurnstileToken] = useState("");
   const [challengeKey, setChallengeKey] = useState(0);
-  const [drawerOpen, setDrawerOpen] = useState(false);
-  const [browseQuery, setBrowseQuery] = useState("");
 
   const refresh = useCallback(async () => {
     setLoading(true);
@@ -123,29 +121,8 @@ export function Picks() {
     void refresh();
   }, [refresh]);
 
-  useEffect(() => {
-    if (!drawerOpen) return;
-    const closeOnEscape = (event: KeyboardEvent) => {
-      if (event.key === "Escape") setDrawerOpen(false);
-    };
-    document.addEventListener("keydown", closeOnEscape);
-    return () => document.removeEventListener("keydown", closeOnEscape);
-  }, [drawerOpen]);
-
   const countries = useMemo(() => countryOptions(lang), [lang]);
   const selectedIds = slots.flatMap((slot) => (slot ? [slot.coupleId] : []));
-  const browseCandidates = useMemo(() => {
-    const query = fold(browseQuery);
-    return (snapshot?.candidates ?? [])
-      .filter(
-        (candidate) =>
-          !query ||
-          String(candidate.coupleId).includes(query) ||
-          fold(candidate.dancer1).includes(query) ||
-          fold(candidate.dancer2).includes(query),
-      )
-      .slice(0, 100);
-  }, [browseQuery, snapshot?.candidates]);
 
   const onTurnstileError = useCallback(() => setError("picksErrorSecurity"), []);
   const onTurnstileToken = useCallback((token: string) => setTurnstileToken(token), []);
@@ -157,11 +134,6 @@ export function Picks() {
 
   function moveSlot(index: number, direction: -1 | 1) {
     setSlots((current) => movePick(current, index, direction));
-  }
-
-  function chooseFromDrawer(candidate: PickCandidate) {
-    setSlots((current) => assignNextPick(current, candidate));
-    setDrawerOpen(false);
   }
 
   function apiErrorKey(cause: unknown): MessageKey {
@@ -264,9 +236,6 @@ export function Picks() {
                     {t("picksCandidatePool")} {t(stageKey)}
                   </p>
                 </div>
-                <button type="button" className="btn" onClick={() => setDrawerOpen(true)}>
-                  {t("picksBrowse")}
-                </button>
               </div>
               <form className="picks-form" onSubmit={submit}>
                 <div className="picks-fields">
@@ -437,51 +406,6 @@ export function Picks() {
         </section>
       </div>
 
-      {drawerOpen && (
-        <div className="picks-drawer-backdrop" role="presentation" onMouseDown={() => setDrawerOpen(false)}>
-          <section
-            className="picks-drawer"
-            role="dialog"
-            aria-modal="true"
-            aria-labelledby="picks-drawer-title"
-            onMouseDown={(event) => event.stopPropagation()}
-          >
-            <header>
-              <div>
-                <h2 id="picks-drawer-title">{t("picksParticipants")}</h2>
-                <p>{snapshot.candidates.length} {t("couples")}</p>
-              </div>
-              <button type="button" onClick={() => setDrawerOpen(false)} aria-label={t("picksClose")}>
-                ×
-              </button>
-            </header>
-            <input
-              autoFocus
-              className="search-input"
-              value={browseQuery}
-              placeholder={t("searchPlaceholder")}
-              onChange={(event) => setBrowseQuery(event.target.value)}
-            />
-            <div className="picks-participant-list">
-              {browseCandidates.map((candidate) => {
-                const selected = selectedIds.includes(candidate.coupleId);
-                return (
-                  <button
-                    type="button"
-                    disabled={selected || slots.every(Boolean)}
-                    key={candidate.coupleId}
-                    onClick={() => chooseFromDrawer(candidate)}
-                  >
-                    <strong>#{candidate.coupleId}</strong>
-                    <span>{coupleName(candidate)}</span>
-                    <small>{selected ? t("picksSelected") : t("picksAdd")}</small>
-                  </button>
-                );
-              })}
-            </div>
-          </section>
-        </div>
-      )}
     </div>
   );
 }
