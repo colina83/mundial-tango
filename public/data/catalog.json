@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T02:24:38.376Z",
+  "updatedAt": "2026-09-02T02:55:29.432Z",
   "years": [
     {
       "year": 2026,
@@ -29,12 +29,14 @@
       "stages": [
         "clasificatoria",
         "cuartos",
-        "semifinal"
+        "semifinal",
+        "final"
       ],
       "rowCounts": {
         "clasificatoria": 545,
         "cuartos": 292,
-        "semifinal": 159
+        "semifinal": 159,
+        "final": 39
       }
     },
     {

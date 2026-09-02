@@ -1,0 +1,2980 @@
+{
+  "generatedAt": "2026-09-02T02:55:02.350Z",
+  "year": 2026,
+  "stage": "final",
+  "category": "pista",
+  "scoring": "trimmed",
+  "sourcePage": "https://tangoba.org/resultados-final-tango-de-pista-2026/",
+  "sourceCategoryPage": "https://tangoba.org/category/resultados/",
+  "sourceLabel": "Tango BA",
+  "disclaimer": "Compañero extraoficial de fans. No afiliado a Tango BA ni al Mundial de Baile. Fuente: Tango BA.",
+  "blocks": [
+    {
+      "id": "_",
+      "date": "2026-09-01",
+      "dateLabel": "1 de septiembre",
+      "judges": [
+        "Inés Muzzopappa",
+        "Andrés Cejas",
+        "Sabrina Veliz",
+        "Daniel Nacucchio",
+        "Graciela Gonzalez",
+        "Fernando Carrasco",
+        "Josefina Bermudez Avila"
+      ],
+      "sourcePdf": {
+        "filename": "Jurados-_-Pista-FINAL-2026-Copia-de-JURADOS-_-RONDAS-TODAS-1-9.pdf",
+        "url": null,
+        "sha256": "7e92ca82c6a8426f57149c23dd794405c70f14df67812314bf5ca2f4e7f85973"
+      },
+      "cutoff": 8.694,
+      "classifiedCount": 39,
+      "coupleCount": 39
+    }
+  ],
+  "rows": [
+    {
+      "coupleId": 460,
+      "round": "4",
+      "dancer1": "Lucas Gauto",
+      "dancer2": "Naima Gerasopoulou",
+      "judges": [
+        {
+          "name": "Inés Muzzopappa",
+          "score": 9.8,
+          "dropped": false
+        },
+        {
+          "name": "Andrés Cejas",
+          "score": 9.37,
+          "dropped": true
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 9.89,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.86,
+          "dropped": false
+        },
+        {
+          "name": "Graciela Gonzalez",
+          "score": 9.8,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.99,
+          "dropped": true
+        },
+        {
+          "name": "Josefina Bermudez Avila",
+          "score": 9.94,
+          "dropped": false
+        }
+      ],
+      "average": 9.858,
+      "officialAverage": 9.858,
+      "rankInBlock": 1,
+      "rankOverall": 1,
+      "classified": true,
+      "cutoffDelta": 1.164,
+      "spread": 0.62,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 100,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.883,
+          "percentile": 100
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.6,
+          "percentile": 97.9
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.84,
+          "percentile": 100
+        },
+        {
+          "stage": "final",
+          "average": 9.858,
+          "percentile": 100
+        }
+      ],
+      "overall": 99.5,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 91,
+      "round": "1",
+      "dancer1": "Rodrigo Nicolas Palacios",
+      "dancer2": "Indira Hiayes",
+      "judges": [
+        {
+          "name": "Inés Muzzopappa",
+          "score": 9.4,
+          "dropped": false
+        },
+        {
+          "name": "Andrés Cejas",
+          "score": 8.95,
+          "dropped": true
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 9.9,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.8,
+          "dropped": false
+        },
+        {
+          "name": "Graciela Gonzalez",
+          "score": 9.95,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.98,
+          "dropped": true
+        },
+        {
+          "name": "Josefina Bermudez Avila",
+          "score": 9.93,
+          "dropped": false
+        }
+      ],
+      "average": 9.796,
+      "officialAverage": 9.796,
+      "rankInBlock": 2,
+      "rankOverall": 2,
+      "classified": true,
+      "cutoffDelta": 1.102,
+      "spread": 1.03,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 97.4,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.697,
+          "percentile": 98.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.723,
+          "percentile": 100
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.74,
+          "percentile": 99.4
+        },
+        {
+          "stage": "final",
+          "average": 9.796,
+          "percentile": 97.4
+        }
+      ],
+      "overall": 98.9,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 139,
+      "round": "5",
+      "dancer1": "London",
+      "dancer2": "Sol",
+      "judges": [
+        {
+          "name": "Inés Muzzopappa",
+          "score": 9.37,
+          "dropped": true
+        },
+        {
+          "name": "Andrés Cejas",
+          "score": 9.58,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 9.68,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.78,
+          "dropped": false
+        },
+        {
+          "name": "Graciela Gonzalez",
+          "score": 9.68,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.97,
+          "dropped": true
+        },
+        {
+          "name": "Josefina Bermudez Avila",
+          "score": 9.81,
+          "dropped": false
+        }
+      ],
+      "average": 9.706,
+      "officialAverage": 9.706,
+      "rankInBlock": 3,
+      "rankOverall": 3,
+      "classified": true,
+      "cutoffDelta": 1.012,
+      "spread": 0.6,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 94.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.78,
+          "percentile": 99.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.523,
+          "percentile": 95.2
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.52,
+          "percentile": 93
+        },
+        {
+          "stage": "final",
+          "average": 9.706,
+          "percentile": 94.7
+        }
+      ],
+      "overall": 95.7,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 1,
+      "round": "4",
+      "dancer1": "Erik Deslarmes",
+      "dancer2": "Nadia Aguilar",
+      "judges": [
+        {
+          "name": "Inés Muzzopappa",
+          "score": 9.73,
+          "dropped": false
+        },
+        {
+          "name": "Andrés Cejas",
+          "score": 9.4,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 9.35,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.87,
+          "dropped": false
+        },
+        {
+          "name": "Graciela Gonzalez",
+          "score": 8.1,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.85,
+          "dropped": false
+        },
+        {
+          "name": "Josefina Bermudez Avila",
+          "score": 9.91,
+          "dropped": true
+        }
+      ],
+      "average": 9.64,
+      "officialAverage": 9.64,
+      "rankInBlock": 4,
+      "rankOverall": 4,
+      "classified": true,
+      "cutoffDelta": 0.946,
+      "spread": 1.81,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 92.1,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.717,
+          "percentile": 99.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.677,
+          "percentile": 99.7
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.575,
+          "percentile": 96.2
+        },
+        {
+          "stage": "final",
+          "average": 9.64,
+          "percentile": 92.1
+        }
+      ],
+      "overall": 96.8,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 545,
+      "round": "1",
+      "dancer1": "Leonardo Pankow",
+      "dancer2": "Valentina Massari",
+      "judges": [
+        {
+          "name": "Inés Muzzopappa",
+          "score": 9.35,
+          "dropped": true
+        },
+        {
+          "name": "Andrés Cejas",
+          "score": 9.6,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 9.6,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.75,
+          "dropped": false
+        },
+        {
+          "name": "Graciela Gonzalez",
+          "score": 9.65,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.6,
+          "dropped": false
+        },
+        {
+          "name": "Josefina Bermudez Avila",
+          "score": 9.89,
+          "dropped": true
+        }
+      ],
+      "average": 9.64,
+      "officialAverage": 9.64,
+      "rankInBlock": 4,
+      "rankOverall": 4,
+      "classified": true,
+      "cutoffDelta": 0.946,
+      "spread": 0.54,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 92.1,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.667,
+          "percentile": 98.5
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.54,
+          "percentile": 96.6
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.558,
+          "percentile": 95.6
+        },
+        {
+          "stage": "final",
+          "average": 9.64,
+          "percentile": 92.1
+        }
+      ],
+      "overall": 95.7,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 424,
+      "round": "2",
+      "dancer1": "Juan David Vargas",
+      "dancer2": "Ornella Simonetto",
+      "judges": [
+        {
+          "name": "Inés Muzzopappa",
+          "score": 9.82,
+          "dropped": false
+        },
+        {
+          "name": "Andrés Cejas",
+          "score": 8.78,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 9.75,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.8,
+          "dropped": false
+        },
+        {
+          "name": "Graciela Gonzalez",
+          "score": 8.6,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.95,
+          "dropped": true
+        },
+        {
+          "name": "Josefina Bermudez Avila",
+          "score": 9.87,
+          "dropped": false
+        }
+      ],
+      "average": 9.604,
+      "officialAverage": 9.604,
+      "rankInBlock": 6,
+      "rankOverall": 6,
+      "classified": true,
+      "cutoffDelta": 0.91,
+      "spread": 1.35,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 86.8,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.717,
+          "percentile": 99.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.557,
+          "percentile": 97.3
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.638,
+          "percentile": 96.8
+        },
+        {
+          "stage": "final",
+          "average": 9.604,
+          "percentile": 86.8
+        }
+      ],
+      "overall": 95.1,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 273,
+      "round": "1",
+      "dancer1": "Gustavo Chaile",
+      "dancer2": "Mayela Aponte",
+      "judges": [
+        {
+          "name": "Inés Muzzopappa",
+          "score": 9.73,
+          "dropped": false
+        },
+        {
+          "name": "Andrés Cejas",
+          "score": 9.2,
+          "dropped": true
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 9.65,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.7,
+          "dropped": false
+        },
+        {
+          "name": "Graciela Gonzalez",
+          "score": 9.75,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.55,
+          "dropped": false
+        },
+        {
+          "name": "Josefina Bermudez Avila",
+          "score": 9.35,
+          "dropped": false
+        }
+      ],
+      "average": 9.596,
+      "officialAverage": 9.596,
+      "rankInBlock": 7,
+      "rankOverall": 7,
+      "classified": true,
+      "cutoffDelta": 0.902,
+      "spread": 0.55,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 84.2,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.533,
+          "percentile": 96
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.633,
+          "percentile": 99
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.388,
+          "percentile": 81
+        },
+        {
+          "stage": "final",
+          "average": 9.596,
+          "percentile": 84.2
+        }
+      ],
+      "overall": 90.1,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 675,
+      "round": "5",
+      "dancer1": "Artem Luchin",
+      "dancer2": "Polina Luchina",
+      "judges": [
+        {
+          "name": "Inés Muzzopappa",
+          "score": 8.35,
+          "dropped": true
+        },
+        {
+          "name": "Andrés Cejas",
+          "score": 9.02,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 9.7,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.82,
+          "dropped": false
+        },
+        {
+          "name": "Graciela Gonzalez",
+          "score": 9.63,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.85,
+          "dropped": true
+        },
+        {
+          "name": "Josefina Bermudez Avila",
+          "score": 9.75,
+          "dropped": false
+        }
+      ],
+      "average": 9.584,
+      "officialAverage": 9.584,
+      "rankInBlock": 8,
+      "rankOverall": 8,
+      "classified": true,
+      "cutoffDelta": 0.89,
+      "spread": 1.5,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 81.6,
+      "stageStandings": [
+        {
+          "stage": "cuartos",
+          "average": 7.533,
+          "percentile": 95.9
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.498,
+          "percentile": 92.4
+        },
+        {
+          "stage": "final",
+          "average": 9.584,
+          "percentile": 81.6
+        }
+      ],
+      "overall": 90,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 141,
+      "round": "2",
+      "dancer1": "Cristian Lopez",
+      "dancer2": "Naoko Tsutsumizaki",
+      "judges": [
+        {
+          "name": "Inés Muzzopappa",
+          "score": 8.98,
+          "dropped": false
+        },
+        {
+          "name": "Andrés Cejas",
+          "score": 9.18,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 9.58,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.88,
+          "dropped": false
+        },
+        {
+          "name": "Graciela Gonzalez",
+          "score": 8.5,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.98,
+          "dropped": true
+        },
+        {
+          "name": "Josefina Bermudez Avila",
+          "score": 9.89,
+          "dropped": false
+        }
+      ],
+      "average": 9.502,
+      "officialAverage": 9.502,
+      "rankInBlock": 9,
+      "rankOverall": 9,
+      "classified": true,
+      "cutoffDelta": 0.808,
+      "spread": 1.48,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 78.9,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.65,
+          "percentile": 98.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.5,
+          "percentile": 94.2
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.548,
+          "percentile": 94.9
+        },
+        {
+          "stage": "final",
+          "average": 9.502,
+          "percentile": 78.9
+        }
+      ],
+      "overall": 91.6,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 440,
+      "round": "4",
+      "dancer1": "Stanislav Fursov",
+      "dancer2": "Ekaterina Simonova",
+      "judges": [
+        {
+          "name": "Inés Muzzopappa",
+          "score": 8.26,
+          "dropped": true
+        },
+        {
+          "name": "Andrés Cejas",
+          "score": 9.5,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 9.47,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.87,
+          "dropped": true
+        },
+        {
+          "name": "Graciela Gonzalez",
+          "score": 8.7,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.75,
+          "dropped": false
+        },
+        {
+          "name": "Josefina Bermudez Avila",
+          "score": 9.8,
+          "dropped": false
+        }
+      ],
+      "average": 9.444,
+      "officialAverage": 9.444,
+      "rankInBlock": 10,
+      "rankOverall": 10,
+      "classified": true,
+      "cutoffDelta": 0.75,
+      "spread": 1.61,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 76.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.6,
+          "percentile": 97.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.457,
+          "percentile": 91.1
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.683,
+          "percentile": 97.5
+        },
+        {
+          "stage": "final",
+          "average": 9.444,
+          "percentile": 76.3
+        }
+      ],
+      "overall": 90.7,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 703,
+      "round": "3",
+      "dancer1": "Lucas Martin",
+      "dancer2": "Victoria Pesci",
+      "judges": [
+        {
+          "name": "Inés Muzzopappa",
+          "score": 9.43,
+          "dropped": false
+        },
+        {
+          "name": "Andrés Cejas",
+          "score": 9.36,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 9.15,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.81,
+          "dropped": true
+        },
+        {
+          "name": "Graciela Gonzalez",
+          "score": 8.6,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.74,
+          "dropped": false
+        },
+        {
+          "name": "Josefina Bermudez Avila",
+          "score": 9.45,
+          "dropped": false
+        }
+      ],
+      "average": 9.426,
+      "officialAverage": 9.426,
+      "rankInBlock": 11,
+      "rankOverall": 11,
+      "classified": true,
+      "cutoffDelta": 0.732,
+      "spread": 1.21,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 73.7,
+      "stageStandings": [
+        {
+          "stage": "semifinal",
+          "average": 8.395,
+          "percentile": 84.2
+        },
+        {
+          "stage": "final",
+          "average": 9.426,
+          "percentile": 73.7
+        }
+      ],
+      "overall": 79,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 386,
+      "round": "5",
+      "dancer1": "Matteo Antonietti",
+      "dancer2": "Añes Arredondo",
+      "judges": [
+        {
+          "name": "Inés Muzzopappa",
+          "score": 8.72,
+          "dropped": true
+        },
+        {
+          "name": "Andrés Cejas",
+          "score": 9.29,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 9.48,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.29,
+          "dropped": false
+        },
+        {
+          "name": "Graciela Gonzalez",
+          "score": 9.66,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.7,
+          "dropped": true
+        },
+        {
+          "name": "Josefina Bermudez Avila",
+          "score": 9.4,
+          "dropped": false
+        }
+      ],
+      "average": 9.424,
+      "officialAverage": 9.424,
+      "rankInBlock": 12,
+      "rankOverall": 12,
+      "classified": true,
+      "cutoffDelta": 0.73,
+      "spread": 0.98,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 71.1,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.587,
+          "percentile": 97.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.477,
+          "percentile": 92.1
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.468,
+          "percentile": 89.9
+        },
+        {
+          "stage": "final",
+          "average": 9.424,
+          "percentile": 71.1
+        }
+      ],
+      "overall": 87.7,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 714,
+      "round": "4",
+      "dancer1": "Rodrigo Videla",
+      "dancer2": "Marina Teves",
+      "judges": [
+        {
+          "name": "Inés Muzzopappa",
+          "score": 8.81,
+          "dropped": false
+        },
+        {
+          "name": "Andrés Cejas",
+          "score": 7.9,
+          "dropped": true
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 9.25,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.85,
+          "dropped": true
+        },
+        {
+          "name": "Graciela Gonzalez",
+          "score": 9.6,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.78,
+          "dropped": false
+        },
+        {
+          "name": "Josefina Bermudez Avila",
+          "score": 9.65,
+          "dropped": false
+        }
+      ],
+      "average": 9.418,
+      "officialAverage": 9.418,
+      "rankInBlock": 13,
+      "rankOverall": 13,
+      "classified": true,
+      "cutoffDelta": 0.724,
+      "spread": 1.95,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 68.4,
+      "stageStandings": [
+        {
+          "stage": "cuartos",
+          "average": 7.487,
+          "percentile": 93.1
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.395,
+          "percentile": 84.2
+        },
+        {
+          "stage": "final",
+          "average": 9.418,
+          "percentile": 68.4
+        }
+      ],
+      "overall": 81.9,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 690,
+      "round": "3",
+      "dancer1": "Ezequiel Núñez",
+      "dancer2": "Haruna Izutani",
+      "judges": [
+        {
+          "name": "Inés Muzzopappa",
+          "score": 9.81,
+          "dropped": false
+        },
+        {
+          "name": "Andrés Cejas",
+          "score": 8.73,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 9.5,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.83,
+          "dropped": false
+        },
+        {
+          "name": "Graciela Gonzalez",
+          "score": 8.65,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.1,
+          "dropped": false
+        },
+        {
+          "name": "Josefina Bermudez Avila",
+          "score": 9.89,
+          "dropped": true
+        }
+      ],
+      "average": 9.394,
+      "officialAverage": 9.394,
+      "rankInBlock": 14,
+      "rankOverall": 14,
+      "classified": true,
+      "cutoffDelta": 0.7,
+      "spread": 1.24,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 65.8,
+      "stageStandings": [
+        {
+          "stage": "final",
+          "average": 9.394,
+          "percentile": 65.8
+        }
+      ],
+      "overall": 65.8,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 133,
+      "round": "5",
+      "dancer1": "Alexander Moncada Rojas",
+      "dancer2": "Martina Waldman",
+      "judges": [
+        {
+          "name": "Inés Muzzopappa",
+          "score": 8.71,
+          "dropped": false
+        },
+        {
+          "name": "Andrés Cejas",
+          "score": 9.19,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 9.45,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.81,
+          "dropped": true
+        },
+        {
+          "name": "Graciela Gonzalez",
+          "score": 8.1,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.8,
+          "dropped": false
+        },
+        {
+          "name": "Josefina Bermudez Avila",
+          "score": 9.75,
+          "dropped": false
+        }
+      ],
+      "average": 9.38,
+      "officialAverage": 9.38,
+      "rankInBlock": 15,
+      "rankOverall": 15,
+      "classified": true,
+      "cutoffDelta": 0.686,
+      "spread": 1.71,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 63.2,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.267,
+          "percentile": 82.9
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.383,
+          "percentile": 85.6
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.448,
+          "percentile": 89.2
+        },
+        {
+          "stage": "final",
+          "average": 9.38,
+          "percentile": 63.2
+        }
+      ],
+      "overall": 80.2,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 712,
+      "round": "2",
+      "dancer1": "Juan Ignacio Braida",
+      "dancer2": "Natasha Kaliszuk Lee",
+      "judges": [
+        {
+          "name": "Inés Muzzopappa",
+          "score": 9.71,
+          "dropped": false
+        },
+        {
+          "name": "Andrés Cejas",
+          "score": 9.28,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 9.45,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.73,
+          "dropped": false
+        },
+        {
+          "name": "Graciela Gonzalez",
+          "score": 8.7,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 8.3,
+          "dropped": true
+        },
+        {
+          "name": "Josefina Bermudez Avila",
+          "score": 9.9,
+          "dropped": true
+        }
+      ],
+      "average": 9.374,
+      "officialAverage": 9.374,
+      "rankInBlock": 16,
+      "rankOverall": 16,
+      "classified": true,
+      "cutoffDelta": 0.68,
+      "spread": 1.6,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 60.5,
+      "stageStandings": [
+        {
+          "stage": "semifinal",
+          "average": 8.71,
+          "percentile": 98.7
+        },
+        {
+          "stage": "final",
+          "average": 9.374,
+          "percentile": 60.5
+        }
+      ],
+      "overall": 79.6,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 335,
+      "round": "4",
+      "dancer1": "Dmitrii Liferov",
+      "dancer2": "Dana Son",
+      "judges": [
+        {
+          "name": "Inés Muzzopappa",
+          "score": 8.64,
+          "dropped": true
+        },
+        {
+          "name": "Andrés Cejas",
+          "score": 9.31,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 9.5,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.2,
+          "dropped": false
+        },
+        {
+          "name": "Graciela Gonzalez",
+          "score": 9.65,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.8,
+          "dropped": true
+        },
+        {
+          "name": "Josefina Bermudez Avila",
+          "score": 9.15,
+          "dropped": false
+        }
+      ],
+      "average": 9.362,
+      "officialAverage": 9.362,
+      "rankInBlock": 17,
+      "rankOverall": 17,
+      "classified": true,
+      "cutoffDelta": 0.668,
+      "spread": 1.16,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 57.9,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.767,
+          "percentile": 99.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.617,
+          "percentile": 98.3
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.528,
+          "percentile": 93.7
+        },
+        {
+          "stage": "final",
+          "average": 9.362,
+          "percentile": 57.9
+        }
+      ],
+      "overall": 87.4,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 166,
+      "round": "2",
+      "dancer1": "Ariel Taritolay",
+      "dancer2": "Laura Casco Zorzon",
+      "judges": [
+        {
+          "name": "Inés Muzzopappa",
+          "score": 9.42,
+          "dropped": false
+        },
+        {
+          "name": "Andrés Cejas",
+          "score": 9.08,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 9.65,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.25,
+          "dropped": false
+        },
+        {
+          "name": "Graciela Gonzalez",
+          "score": 8.1,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.9,
+          "dropped": true
+        },
+        {
+          "name": "Josefina Bermudez Avila",
+          "score": 9.4,
+          "dropped": false
+        }
+      ],
+      "average": 9.36,
+      "officialAverage": 9.36,
+      "rankInBlock": 18,
+      "rankOverall": 18,
+      "classified": true,
+      "cutoffDelta": 0.666,
+      "spread": 1.8,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 55.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.717,
+          "percentile": 99.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.48,
+          "percentile": 92.4
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.413,
+          "percentile": 86.1
+        },
+        {
+          "stage": "final",
+          "average": 9.36,
+          "percentile": 55.3
+        }
+      ],
+      "overall": 83.3,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 248,
+      "round": "3",
+      "dancer1": "Ivan Franco",
+      "dancer2": "Magali Tokian",
+      "judges": [
+        {
+          "name": "Inés Muzzopappa",
+          "score": 9.32,
+          "dropped": false
+        },
+        {
+          "name": "Andrés Cejas",
+          "score": 9.34,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 9.53,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 8.89,
+          "dropped": false
+        },
+        {
+          "name": "Graciela Gonzalez",
+          "score": 8.45,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.85,
+          "dropped": true
+        },
+        {
+          "name": "Josefina Bermudez Avila",
+          "score": 9.67,
+          "dropped": false
+        }
+      ],
+      "average": 9.35,
+      "officialAverage": 9.35,
+      "rankInBlock": 19,
+      "rankOverall": 19,
+      "classified": true,
+      "cutoffDelta": 0.656,
+      "spread": 1.4,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 52.6,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.727,
+          "percentile": 99.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.437,
+          "percentile": 90.7
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.375,
+          "percentile": 79.7
+        },
+        {
+          "stage": "final",
+          "average": 9.35,
+          "percentile": 52.6
+        }
+      ],
+      "overall": 80.6,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 145,
+      "round": "1",
+      "dancer1": "Marcelo Javier Torres",
+      "dancer2": "Francisca Alarcon Irrazabal",
+      "judges": [
+        {
+          "name": "Inés Muzzopappa",
+          "score": 9.43,
+          "dropped": false
+        },
+        {
+          "name": "Andrés Cejas",
+          "score": 9.25,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 8.85,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.7,
+          "dropped": true
+        },
+        {
+          "name": "Graciela Gonzalez",
+          "score": 8.4,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.6,
+          "dropped": false
+        },
+        {
+          "name": "Josefina Bermudez Avila",
+          "score": 9.55,
+          "dropped": false
+        }
+      ],
+      "average": 9.336,
+      "officialAverage": 9.336,
+      "rankInBlock": 20,
+      "rankOverall": 20,
+      "classified": true,
+      "cutoffDelta": 0.642,
+      "spread": 1.3,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 50,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.533,
+          "percentile": 96
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.433,
+          "percentile": 90.4
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.445,
+          "percentile": 88.6
+        },
+        {
+          "stage": "final",
+          "average": 9.336,
+          "percentile": 50
+        }
+      ],
+      "overall": 81.3,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 719,
+      "round": "1",
+      "dancer1": "Matias Gutierrez",
+      "dancer2": "Aldana Belen Figueroa",
+      "judges": [
+        {
+          "name": "Inés Muzzopappa",
+          "score": 9.83,
+          "dropped": true
+        },
+        {
+          "name": "Andrés Cejas",
+          "score": 9.05,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 8.99,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.3,
+          "dropped": false
+        },
+        {
+          "name": "Graciela Gonzalez",
+          "score": 8.15,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.75,
+          "dropped": false
+        },
+        {
+          "name": "Josefina Bermudez Avila",
+          "score": 9.55,
+          "dropped": false
+        }
+      ],
+      "average": 9.328,
+      "officialAverage": 9.328,
+      "rankInBlock": 21,
+      "rankOverall": 21,
+      "classified": true,
+      "cutoffDelta": 0.634,
+      "spread": 1.68,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 47.4,
+      "stageStandings": [
+        {
+          "stage": "final",
+          "average": 9.328,
+          "percentile": 47.4
+        }
+      ],
+      "overall": 47.4,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 447,
+      "round": "5",
+      "dancer1": "Valentin Bobkov",
+      "dancer2": "Katerina Tsybrova",
+      "judges": [
+        {
+          "name": "Inés Muzzopappa",
+          "score": 8.66,
+          "dropped": true
+        },
+        {
+          "name": "Andrés Cejas",
+          "score": 9.07,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 9.35,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.18,
+          "dropped": false
+        },
+        {
+          "name": "Graciela Gonzalez",
+          "score": 9.05,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.55,
+          "dropped": false
+        },
+        {
+          "name": "Josefina Bermudez Avila",
+          "score": 9.6,
+          "dropped": true
+        }
+      ],
+      "average": 9.24,
+      "officialAverage": 9.24,
+      "rankInBlock": 22,
+      "rankOverall": 22,
+      "classified": true,
+      "cutoffDelta": 0.546,
+      "spread": 0.94,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 44.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.583,
+          "percentile": 97.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.393,
+          "percentile": 85.9
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.473,
+          "percentile": 90.5
+        },
+        {
+          "stage": "final",
+          "average": 9.24,
+          "percentile": 44.7
+        }
+      ],
+      "overall": 79.6,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 120,
+      "round": "3",
+      "dancer1": "Andrei Panferov",
+      "dancer2": "Ekaterina Petrova",
+      "judges": [
+        {
+          "name": "Inés Muzzopappa",
+          "score": 8.76,
+          "dropped": false
+        },
+        {
+          "name": "Andrés Cejas",
+          "score": 9.03,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 9.4,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.29,
+          "dropped": false
+        },
+        {
+          "name": "Graciela Gonzalez",
+          "score": 8.5,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.68,
+          "dropped": true
+        },
+        {
+          "name": "Josefina Bermudez Avila",
+          "score": 9.6,
+          "dropped": false
+        }
+      ],
+      "average": 9.216,
+      "officialAverage": 9.216,
+      "rankInBlock": 23,
+      "rankOverall": 23,
+      "classified": true,
+      "cutoffDelta": 0.522,
+      "spread": 1.18,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 42.1,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.133,
+          "percentile": 70.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.493,
+          "percentile": 93.8
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.53,
+          "percentile": 94.3
+        },
+        {
+          "stage": "final",
+          "average": 9.216,
+          "percentile": 42.1
+        }
+      ],
+      "overall": 75.2,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 208,
+      "round": "4",
+      "dancer1": "Facundo Barrionuevo",
+      "dancer2": "Agustina Juanbelz",
+      "judges": [
+        {
+          "name": "Inés Muzzopappa",
+          "score": 8.41,
+          "dropped": true
+        },
+        {
+          "name": "Andrés Cejas",
+          "score": 9.29,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 9.1,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.19,
+          "dropped": false
+        },
+        {
+          "name": "Graciela Gonzalez",
+          "score": 9.7,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.2,
+          "dropped": false
+        },
+        {
+          "name": "Josefina Bermudez Avila",
+          "score": 9.15,
+          "dropped": false
+        }
+      ],
+      "average": 9.186,
+      "officialAverage": 9.186,
+      "rankInBlock": 24,
+      "rankOverall": 24,
+      "classified": true,
+      "cutoffDelta": 0.492,
+      "spread": 1.29,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 39.5,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.64,
+          "percentile": 98.2
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.363,
+          "percentile": 83.5
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.395,
+          "percentile": 84.2
+        },
+        {
+          "stage": "final",
+          "average": 9.186,
+          "percentile": 39.5
+        }
+      ],
+      "overall": 76.4,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 572,
+      "round": "3",
+      "dancer1": "Carlos Estigarribia",
+      "dancer2": "Letizia Messina",
+      "judges": [
+        {
+          "name": "Inés Muzzopappa",
+          "score": 8.54,
+          "dropped": false
+        },
+        {
+          "name": "Andrés Cejas",
+          "score": 9.14,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 9.48,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.31,
+          "dropped": false
+        },
+        {
+          "name": "Graciela Gonzalez",
+          "score": 8.4,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.67,
+          "dropped": true
+        },
+        {
+          "name": "Josefina Bermudez Avila",
+          "score": 9.25,
+          "dropped": false
+        }
+      ],
+      "average": 9.144,
+      "officialAverage": 9.144,
+      "rankInBlock": 25,
+      "rankOverall": 25,
+      "classified": true,
+      "cutoffDelta": 0.45,
+      "spread": 1.27,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 36.8,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.533,
+          "percentile": 96
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.21,
+          "percentile": 59.5
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.42,
+          "percentile": 87.3
+        },
+        {
+          "stage": "final",
+          "average": 9.144,
+          "percentile": 36.8
+        }
+      ],
+      "overall": 69.9,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 211,
+      "round": "4",
+      "dancer1": "Eric Dinzel",
+      "dancer2": "Flavia Kohut",
+      "judges": [
+        {
+          "name": "Inés Muzzopappa",
+          "score": 9.28,
+          "dropped": false
+        },
+        {
+          "name": "Andrés Cejas",
+          "score": 9.28,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 9.65,
+          "dropped": true
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.05,
+          "dropped": false
+        },
+        {
+          "name": "Graciela Gonzalez",
+          "score": 8.9,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.1,
+          "dropped": false
+        },
+        {
+          "name": "Josefina Bermudez Avila",
+          "score": 8.99,
+          "dropped": false
+        }
+      ],
+      "average": 9.14,
+      "officialAverage": 9.14,
+      "rankInBlock": 26,
+      "rankOverall": 26,
+      "classified": true,
+      "cutoffDelta": 0.446,
+      "spread": 0.75,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 34.2,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.367,
+          "percentile": 88.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.38,
+          "percentile": 84.9
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.415,
+          "percentile": 86.7
+        },
+        {
+          "stage": "final",
+          "average": 9.14,
+          "percentile": 34.2
+        }
+      ],
+      "overall": 73.6,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 293,
+      "round": "1",
+      "dancer1": "Hernan Rodriguez",
+      "dancer2": "Maria Florencia Labiano",
+      "judges": [
+        {
+          "name": "Inés Muzzopappa",
+          "score": 8.82,
+          "dropped": true
+        },
+        {
+          "name": "Andrés Cejas",
+          "score": 8.85,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 8.83,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.6,
+          "dropped": false
+        },
+        {
+          "name": "Graciela Gonzalez",
+          "score": 9.85,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.4,
+          "dropped": false
+        },
+        {
+          "name": "Josefina Bermudez Avila",
+          "score": 8.85,
+          "dropped": false
+        }
+      ],
+      "average": 9.106,
+      "officialAverage": 9.106,
+      "rankInBlock": 27,
+      "rankOverall": 27,
+      "classified": true,
+      "cutoffDelta": 0.412,
+      "spread": 1.03,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 31.6,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.44,
+          "percentile": 93
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.24,
+          "percentile": 64.6
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.395,
+          "percentile": 84.2
+        },
+        {
+          "stage": "final",
+          "average": 9.106,
+          "percentile": 31.6
+        }
+      ],
+      "overall": 68.4,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 244,
+      "round": "5",
+      "dancer1": "Alejandro Ferreyra",
+      "dancer2": "Fernanda Grosso",
+      "judges": [
+        {
+          "name": "Inés Muzzopappa",
+          "score": 8.45,
+          "dropped": false
+        },
+        {
+          "name": "Andrés Cejas",
+          "score": 9.43,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 8.93,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.69,
+          "dropped": false
+        },
+        {
+          "name": "Graciela Gonzalez",
+          "score": 8.15,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.78,
+          "dropped": true
+        },
+        {
+          "name": "Josefina Bermudez Avila",
+          "score": 8.99,
+          "dropped": false
+        }
+      ],
+      "average": 9.098,
+      "officialAverage": 9.098,
+      "rankInBlock": 28,
+      "rankOverall": 28,
+      "classified": true,
+      "cutoffDelta": 0.404,
+      "spread": 1.63,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 28.9,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.257,
+          "percentile": 82
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.51,
+          "percentile": 94.5
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.497,
+          "percentile": 91.8
+        },
+        {
+          "stage": "final",
+          "average": 9.098,
+          "percentile": 28.9
+        }
+      ],
+      "overall": 74.3,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 715,
+      "round": "2",
+      "dancer1": "Juan Fernando Cabral",
+      "dancer2": "Laura Cecilia Castiñeiras",
+      "judges": [
+        {
+          "name": "Inés Muzzopappa",
+          "score": 8.72,
+          "dropped": false
+        },
+        {
+          "name": "Andrés Cejas",
+          "score": 9.14,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 8.95,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 8.8,
+          "dropped": false
+        },
+        {
+          "name": "Graciela Gonzalez",
+          "score": 8.2,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.6,
+          "dropped": false
+        },
+        {
+          "name": "Josefina Bermudez Avila",
+          "score": 9.7,
+          "dropped": true
+        }
+      ],
+      "average": 9.042,
+      "officialAverage": 9.042,
+      "rankInBlock": 29,
+      "rankOverall": 29,
+      "classified": true,
+      "cutoffDelta": 0.348,
+      "spread": 1.5,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 26.3,
+      "stageStandings": [
+        {
+          "stage": "cuartos",
+          "average": 7.537,
+          "percentile": 96.2
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.438,
+          "percentile": 88
+        },
+        {
+          "stage": "final",
+          "average": 9.042,
+          "percentile": 26.3
+        }
+      ],
+      "overall": 70.2,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 347,
+      "round": "5",
+      "dancer1": "Lucio Galván",
+      "dancer2": "Sol Alzarán",
+      "judges": [
+        {
+          "name": "Inés Muzzopappa",
+          "score": 8.53,
+          "dropped": false
+        },
+        {
+          "name": "Andrés Cejas",
+          "score": 8.99,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 8.7,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.22,
+          "dropped": false
+        },
+        {
+          "name": "Graciela Gonzalez",
+          "score": 8.05,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.88,
+          "dropped": true
+        },
+        {
+          "name": "Josefina Bermudez Avila",
+          "score": 9.7,
+          "dropped": false
+        }
+      ],
+      "average": 9.028,
+      "officialAverage": 9.028,
+      "rankInBlock": 30,
+      "rankOverall": 30,
+      "classified": true,
+      "cutoffDelta": 0.334,
+      "spread": 1.83,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 23.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.527,
+          "percentile": 95.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.547,
+          "percentile": 96.9
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.478,
+          "percentile": 91.1
+        },
+        {
+          "stage": "final",
+          "average": 9.028,
+          "percentile": 23.7
+        }
+      ],
+      "overall": 76.8,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 718,
+      "round": "5",
+      "dancer1": "Aldo Adrian Romero",
+      "dancer2": "Marcela Pilatti",
+      "judges": [
+        {
+          "name": "Inés Muzzopappa",
+          "score": 9.12,
+          "dropped": false
+        },
+        {
+          "name": "Andrés Cejas",
+          "score": 8.92,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 8.85,
+          "dropped": true
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 8.99,
+          "dropped": false
+        },
+        {
+          "name": "Graciela Gonzalez",
+          "score": 9.64,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.25,
+          "dropped": false
+        },
+        {
+          "name": "Josefina Bermudez Avila",
+          "score": 8.85,
+          "dropped": false
+        }
+      ],
+      "average": 9.026,
+      "officialAverage": 9.026,
+      "rankInBlock": 31,
+      "rankOverall": 31,
+      "classified": true,
+      "cutoffDelta": 0.332,
+      "spread": 0.79,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 21.1,
+      "stageStandings": [
+        {
+          "stage": "final",
+          "average": 9.026,
+          "percentile": 21.1
+        }
+      ],
+      "overall": 21.1,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 5,
+      "round": "4",
+      "dancer1": "Ferrol Matthew Poluan",
+      "dancer2": "Muliany Rambe",
+      "judges": [
+        {
+          "name": "Inés Muzzopappa",
+          "score": 8.32,
+          "dropped": true
+        },
+        {
+          "name": "Andrés Cejas",
+          "score": 8.88,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 8.95,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.15,
+          "dropped": false
+        },
+        {
+          "name": "Graciela Gonzalez",
+          "score": 8.85,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.55,
+          "dropped": true
+        },
+        {
+          "name": "Josefina Bermudez Avila",
+          "score": 9.2,
+          "dropped": false
+        }
+      ],
+      "average": 9.006,
+      "officialAverage": 9.006,
+      "rankInBlock": 32,
+      "rankOverall": 32,
+      "classified": true,
+      "cutoffDelta": 0.312,
+      "spread": 1.23,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 18.4,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.3,
+          "percentile": 85.5
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.427,
+          "percentile": 89.3
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.37,
+          "percentile": 79.1
+        },
+        {
+          "stage": "final",
+          "average": 9.006,
+          "percentile": 18.4
+        }
+      ],
+      "overall": 68.1,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 159,
+      "round": "1",
+      "dancer1": "Cristian Correa",
+      "dancer2": "Miriam Copello",
+      "judges": [
+        {
+          "name": "Inés Muzzopappa",
+          "score": 8.95,
+          "dropped": false
+        },
+        {
+          "name": "Andrés Cejas",
+          "score": 8.9,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 8.95,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.2,
+          "dropped": false
+        },
+        {
+          "name": "Graciela Gonzalez",
+          "score": 8.05,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.5,
+          "dropped": true
+        },
+        {
+          "name": "Josefina Bermudez Avila",
+          "score": 8.9,
+          "dropped": false
+        }
+      ],
+      "average": 8.98,
+      "officialAverage": 8.98,
+      "rankInBlock": 33,
+      "rankOverall": 33,
+      "classified": true,
+      "cutoffDelta": 0.286,
+      "spread": 1.45,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 15.8,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.543,
+          "percentile": 96.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.633,
+          "percentile": 99
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.413,
+          "percentile": 86.1
+        },
+        {
+          "stage": "final",
+          "average": 8.98,
+          "percentile": 15.8
+        }
+      ],
+      "overall": 74.3,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 95,
+      "round": "3",
+      "dancer1": "Jesus Luis Paez",
+      "dancer2": "Iara Duarte",
+      "judges": [
+        {
+          "name": "Inés Muzzopappa",
+          "score": 8.74,
+          "dropped": false
+        },
+        {
+          "name": "Andrés Cejas",
+          "score": 8.7,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 8.65,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.2,
+          "dropped": false
+        },
+        {
+          "name": "Graciela Gonzalez",
+          "score": 8.55,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.69,
+          "dropped": true
+        },
+        {
+          "name": "Josefina Bermudez Avila",
+          "score": 9.6,
+          "dropped": false
+        }
+      ],
+      "average": 8.978,
+      "officialAverage": 8.978,
+      "rankInBlock": 34,
+      "rankOverall": 34,
+      "classified": true,
+      "cutoffDelta": 0.284,
+      "spread": 1.14,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 13.2,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.367,
+          "percentile": 88.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.423,
+          "percentile": 89
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.408,
+          "percentile": 84.8
+        },
+        {
+          "stage": "final",
+          "average": 8.978,
+          "percentile": 13.2
+        }
+      ],
+      "overall": 69,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 700,
+      "round": "2",
+      "dancer1": "Adrien Bariki Alaoui",
+      "dancer2": "Iro Davlanti Lo",
+      "judges": [
+        {
+          "name": "Inés Muzzopappa",
+          "score": 8.81,
+          "dropped": false
+        },
+        {
+          "name": "Andrés Cejas",
+          "score": 8.8,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 9.15,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 8.9,
+          "dropped": false
+        },
+        {
+          "name": "Graciela Gonzalez",
+          "score": 8.05,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.8,
+          "dropped": true
+        },
+        {
+          "name": "Josefina Bermudez Avila",
+          "score": 8.9,
+          "dropped": false
+        }
+      ],
+      "average": 8.912,
+      "officialAverage": 8.912,
+      "rankInBlock": 35,
+      "rankOverall": 35,
+      "classified": true,
+      "cutoffDelta": 0.218,
+      "spread": 1.75,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 10.5,
+      "stageStandings": [
+        {
+          "stage": "final",
+          "average": 8.912,
+          "percentile": 10.5
+        }
+      ],
+      "overall": 10.5,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 452,
+      "round": "3",
+      "dancer1": "Diego Ezequiel Pérez",
+      "dancer2": "María Soledad Cantarini",
+      "judges": [
+        {
+          "name": "Inés Muzzopappa",
+          "score": 8.62,
+          "dropped": true
+        },
+        {
+          "name": "Andrés Cejas",
+          "score": 8.68,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 8.83,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.36,
+          "dropped": false
+        },
+        {
+          "name": "Graciela Gonzalez",
+          "score": 8.7,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.63,
+          "dropped": true
+        },
+        {
+          "name": "Josefina Bermudez Avila",
+          "score": 8.95,
+          "dropped": false
+        }
+      ],
+      "average": 8.904,
+      "officialAverage": 8.904,
+      "rankInBlock": 36,
+      "rankOverall": 36,
+      "classified": true,
+      "cutoffDelta": 0.21,
+      "spread": 1.01,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 7.9,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.367,
+          "percentile": 88.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.36,
+          "percentile": 83.2
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.355,
+          "percentile": 77.8
+        },
+        {
+          "stage": "final",
+          "average": 8.904,
+          "percentile": 7.9
+        }
+      ],
+      "overall": 64.4,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 720,
+      "round": "2",
+      "dancer1": "Damian Mechura",
+      "dancer2": "Veronica Vazquez",
+      "judges": [
+        {
+          "name": "Inés Muzzopappa",
+          "score": 8.64,
+          "dropped": false
+        },
+        {
+          "name": "Andrés Cejas",
+          "score": 8.75,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 8.99,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 8.98,
+          "dropped": false
+        },
+        {
+          "name": "Graciela Gonzalez",
+          "score": 8.15,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 9.65,
+          "dropped": true
+        },
+        {
+          "name": "Josefina Bermudez Avila",
+          "score": 9.1,
+          "dropped": false
+        }
+      ],
+      "average": 8.892,
+      "officialAverage": 8.892,
+      "rankInBlock": 37,
+      "rankOverall": 37,
+      "classified": true,
+      "cutoffDelta": 0.198,
+      "spread": 1.5,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 5.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.417,
+          "percentile": 91.9
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.32,
+          "percentile": 75.9
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.378,
+          "percentile": 80.4
+        },
+        {
+          "stage": "final",
+          "average": 8.892,
+          "percentile": 5.3
+        }
+      ],
+      "overall": 63.4,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 692,
+      "round": "1",
+      "dancer1": "Ruslan Bektimirov",
+      "dancer2": "Iullia Osina",
+      "judges": [
+        {
+          "name": "Inés Muzzopappa",
+          "score": 9.1,
+          "dropped": true
+        },
+        {
+          "name": "Andrés Cejas",
+          "score": 8,
+          "dropped": true
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 8.8,
+          "dropped": false
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 9.1,
+          "dropped": false
+        },
+        {
+          "name": "Graciela Gonzalez",
+          "score": 8.29,
+          "dropped": false
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 8.8,
+          "dropped": false
+        },
+        {
+          "name": "Josefina Bermudez Avila",
+          "score": 8.6,
+          "dropped": false
+        }
+      ],
+      "average": 8.718,
+      "officialAverage": 8.718,
+      "rankInBlock": 38,
+      "rankOverall": 38,
+      "classified": true,
+      "cutoffDelta": 0.024,
+      "spread": 1.1,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 2.6,
+      "stageStandings": [
+        {
+          "stage": "cuartos",
+          "average": 7.36,
+          "percentile": 83.2
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.365,
+          "percentile": 78.5
+        },
+        {
+          "stage": "final",
+          "average": 8.718,
+          "percentile": 2.6
+        }
+      ],
+      "overall": 54.8,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 390,
+      "round": "2",
+      "dancer1": "Maxi Copello",
+      "dancer2": "Karu Terenzio",
+      "judges": [
+        {
+          "name": "Inés Muzzopappa",
+          "score": 8.12,
+          "dropped": false
+        },
+        {
+          "name": "Andrés Cejas",
+          "score": 8.95,
+          "dropped": false
+        },
+        {
+          "name": "Sabrina Veliz",
+          "score": 9.3,
+          "dropped": true
+        },
+        {
+          "name": "Daniel Nacucchio",
+          "score": 8.7,
+          "dropped": false
+        },
+        {
+          "name": "Graciela Gonzalez",
+          "score": 7.8,
+          "dropped": true
+        },
+        {
+          "name": "Fernando Carrasco",
+          "score": 8.9,
+          "dropped": false
+        },
+        {
+          "name": "Josefina Bermudez Avila",
+          "score": 8.8,
+          "dropped": false
+        }
+      ],
+      "average": 8.694,
+      "officialAverage": 8.694,
+      "rankInBlock": 39,
+      "rankOverall": 39,
+      "classified": true,
+      "cutoffDelta": 0,
+      "spread": 1.5,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 0,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.54,
+          "percentile": 96.1
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.237,
+          "percentile": 63.9
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.395,
+          "percentile": 84.2
+        },
+        {
+          "stage": "final",
+          "average": 8.694,
+          "percentile": 0
+        }
+      ],
+      "overall": 61.1,
+      "lastStageReached": "final"
+    }
+  ],
+  "mismatches": []
+}
