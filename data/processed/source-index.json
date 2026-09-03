@@ -130,5 +130,9 @@
   "final::https://tangoba.org/wp-content/uploads/2026/09/Jurados-_-Pista-FINAL-2026-Copia-de-JURADOS-_-RONDAS-TODAS-1-9.pdf": {
     "sha256": "7e92ca82c6a8426f57149c23dd794405c70f14df67812314bf5ca2f4e7f85973",
     "filename": "Jurados-_-Pista-FINAL-2026-Copia-de-JURADOS-_-RONDAS-TODAS-1-9.pdf"
+  },
+  "escenario::final::https://tangoba.org/wp-content/uploads/2026/09/Jurados-_-Escenario-Final-2026-2_9-Copia-de-JURADOS-_-RONDAS-TODAS-2_9.pdf": {
+    "sha256": "99e02df2da0b2e1e7e385c6fba3edb9cdd20c86e2c094b025b0f3267b58ba83c",
+    "filename": "Jurados-_-Escenario-Final-2026-2_9-Copia-de-JURADOS-_-RONDAS-TODAS-2_9.pdf"
   }
 }

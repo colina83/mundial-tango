@@ -1,0 +1,1553 @@
+{
+  "generatedAt": "2026-09-03T02:41:48.400Z",
+  "year": 2026,
+  "stage": "final",
+  "category": "escenario",
+  "scoring": "trimmed",
+  "sourcePage": "https://tangoba.org/resultados-final-tango-escenario-2026/",
+  "sourceCategoryPage": "https://tangoba.org/category/resultados/",
+  "sourceLabel": "Tango BA",
+  "disclaimer": "Compañero extraoficial de fans. No afiliado a Tango BA ni al Mundial de Baile. Fuente: Tango BA.",
+  "blocks": [
+    {
+      "id": "_",
+      "date": "2026-09-02",
+      "dateLabel": "2 de septiembre",
+      "judges": [
+        "Jonathan Spitell",
+        "Verónica Gardella",
+        "Juan Paulo Horvath",
+        "Claudia Códega",
+        "Gisela Galeassi",
+        "Mario Morales",
+        "Pablo Verón"
+      ],
+      "sourcePdf": {
+        "filename": "Jurados-_-Escenario-Final-2026-2_9-Copia-de-JURADOS-_-RONDAS-TODAS-2_9.pdf",
+        "url": null,
+        "sha256": "99e02df2da0b2e1e7e385c6fba3edb9cdd20c86e2c094b025b0f3267b58ba83c"
+      },
+      "cutoff": 9.56,
+      "classifiedCount": 5,
+      "coupleCount": 20
+    }
+  ],
+  "rows": [
+    {
+      "coupleId": 547,
+      "round": "2",
+      "dancer1": "Nicolas Schell",
+      "dancer2": "Nair Schinca",
+      "judges": [
+        {
+          "name": "Jonathan Spitell",
+          "score": 9.9,
+          "dropped": false
+        },
+        {
+          "name": "Verónica Gardella",
+          "score": 10,
+          "dropped": true
+        },
+        {
+          "name": "Juan Paulo Horvath",
+          "score": 9.8,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.49,
+          "dropped": true
+        },
+        {
+          "name": "Gisela Galeassi",
+          "score": 9.65,
+          "dropped": false
+        },
+        {
+          "name": "Mario Morales",
+          "score": 9.7,
+          "dropped": false
+        },
+        {
+          "name": "Pablo Verón",
+          "score": 9.63,
+          "dropped": false
+        }
+      ],
+      "average": 9.736,
+      "officialAverage": 9.736,
+      "rankInBlock": 1,
+      "rankOverall": 1,
+      "classified": true,
+      "cutoffDelta": 0.176,
+      "spread": 0.51,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 100,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.957,
+          "percentile": 100
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.83,
+          "percentile": 92.3
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.875,
+          "percentile": 97.4
+        },
+        {
+          "stage": "final",
+          "average": 9.736,
+          "percentile": 100
+        }
+      ],
+      "overall": 97.4,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 586,
+      "round": "1",
+      "dancer1": "Diego Ortega",
+      "dancer2": "Aldana Silveyra",
+      "judges": [
+        {
+          "name": "Jonathan Spitell",
+          "score": 9.8,
+          "dropped": false
+        },
+        {
+          "name": "Verónica Gardella",
+          "score": 9.8,
+          "dropped": false
+        },
+        {
+          "name": "Juan Paulo Horvath",
+          "score": 9.69,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9,
+          "dropped": true
+        },
+        {
+          "name": "Gisela Galeassi",
+          "score": 9.97,
+          "dropped": true
+        },
+        {
+          "name": "Mario Morales",
+          "score": 9.6,
+          "dropped": false
+        },
+        {
+          "name": "Pablo Verón",
+          "score": 9.6,
+          "dropped": false
+        }
+      ],
+      "average": 9.698,
+      "officialAverage": 9.698,
+      "rankInBlock": 2,
+      "rankOverall": 2,
+      "classified": true,
+      "cutoffDelta": 0.138,
+      "spread": 0.97,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 94.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.8,
+          "percentile": 94.1
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.98,
+          "percentile": 100
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.962,
+          "percentile": 100
+        },
+        {
+          "stage": "final",
+          "average": 9.698,
+          "percentile": 94.7
+        }
+      ],
+      "overall": 97.2,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 365,
+      "round": "2",
+      "dancer1": "Facundo Cabral",
+      "dancer2": "Mara Navarro",
+      "judges": [
+        {
+          "name": "Jonathan Spitell",
+          "score": 9.81,
+          "dropped": false
+        },
+        {
+          "name": "Verónica Gardella",
+          "score": 9.7,
+          "dropped": false
+        },
+        {
+          "name": "Juan Paulo Horvath",
+          "score": 9.82,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.43,
+          "dropped": false
+        },
+        {
+          "name": "Gisela Galeassi",
+          "score": 9.95,
+          "dropped": true
+        },
+        {
+          "name": "Mario Morales",
+          "score": 9.6,
+          "dropped": false
+        },
+        {
+          "name": "Pablo Verón",
+          "score": 9.3,
+          "dropped": true
+        }
+      ],
+      "average": 9.672,
+      "officialAverage": 9.672,
+      "rankInBlock": 3,
+      "rankOverall": 3,
+      "classified": true,
+      "cutoffDelta": 0.112,
+      "spread": 0.65,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 89.5,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.807,
+          "percentile": 95.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.903,
+          "percentile": 96.2
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.86,
+          "percentile": 94.9
+        },
+        {
+          "stage": "final",
+          "average": 9.672,
+          "percentile": 89.5
+        }
+      ],
+      "overall": 94.1,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 717,
+      "round": "1",
+      "dancer1": "Federico Ibañez",
+      "dancer2": "Nuria Lazo",
+      "judges": [
+        {
+          "name": "Jonathan Spitell",
+          "score": 9.75,
+          "dropped": false
+        },
+        {
+          "name": "Verónica Gardella",
+          "score": 9.5,
+          "dropped": false
+        },
+        {
+          "name": "Juan Paulo Horvath",
+          "score": 9.68,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.01,
+          "dropped": true
+        },
+        {
+          "name": "Gisela Galeassi",
+          "score": 9.73,
+          "dropped": false
+        },
+        {
+          "name": "Mario Morales",
+          "score": 9.6,
+          "dropped": false
+        },
+        {
+          "name": "Pablo Verón",
+          "score": 9.93,
+          "dropped": true
+        }
+      ],
+      "average": 9.652,
+      "officialAverage": 9.652,
+      "rankInBlock": 4,
+      "rankOverall": 4,
+      "classified": true,
+      "cutoffDelta": 0.092,
+      "spread": 0.92,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 84.2,
+      "stageStandings": [
+        {
+          "stage": "final",
+          "average": 9.652,
+          "percentile": 84.2
+        }
+      ],
+      "overall": 84.2,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 554,
+      "round": "1",
+      "dancer1": "Ariel Leguizamon",
+      "dancer2": "Yesica Esquivel",
+      "judges": [
+        {
+          "name": "Jonathan Spitell",
+          "score": 9.72,
+          "dropped": false
+        },
+        {
+          "name": "Verónica Gardella",
+          "score": 9.75,
+          "dropped": false
+        },
+        {
+          "name": "Juan Paulo Horvath",
+          "score": 9.67,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.1,
+          "dropped": true
+        },
+        {
+          "name": "Gisela Galeassi",
+          "score": 9.35,
+          "dropped": false
+        },
+        {
+          "name": "Mario Morales",
+          "score": 9.31,
+          "dropped": false
+        },
+        {
+          "name": "Pablo Verón",
+          "score": 9.9,
+          "dropped": true
+        }
+      ],
+      "average": 9.56,
+      "officialAverage": 9.56,
+      "rankInBlock": 5,
+      "rankOverall": 5,
+      "classified": true,
+      "cutoffDelta": 0,
+      "spread": 0.8,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 78.9,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.883,
+          "percentile": 99.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.583,
+          "percentile": 80.8
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.483,
+          "percentile": 74.4
+        },
+        {
+          "stage": "final",
+          "average": 9.56,
+          "percentile": 78.9
+        }
+      ],
+      "overall": 83.4,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 284,
+      "round": "2",
+      "dancer1": "Julio JoséSeffino",
+      "dancer2": "Aldana Belén Tade",
+      "judges": [
+        {
+          "name": "Jonathan Spitell",
+          "score": 9.7,
+          "dropped": false
+        },
+        {
+          "name": "Verónica Gardella",
+          "score": 9.9,
+          "dropped": true
+        },
+        {
+          "name": "Juan Paulo Horvath",
+          "score": 9.6,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.15,
+          "dropped": true
+        },
+        {
+          "name": "Gisela Galeassi",
+          "score": 9.42,
+          "dropped": false
+        },
+        {
+          "name": "Mario Morales",
+          "score": 9.3,
+          "dropped": false
+        },
+        {
+          "name": "Pablo Verón",
+          "score": 9.75,
+          "dropped": false
+        }
+      ],
+      "average": 9.554,
+      "officialAverage": 9.554,
+      "rankInBlock": 6,
+      "rankOverall": 6,
+      "classified": false,
+      "cutoffDelta": -0.006,
+      "spread": 0.75,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 73.7,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.83,
+          "percentile": 97
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.5,
+          "percentile": 74.4
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.393,
+          "percentile": 69.2
+        },
+        {
+          "stage": "final",
+          "average": 9.554,
+          "percentile": 73.7
+        }
+      ],
+      "overall": 78.6,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 513,
+      "round": "1",
+      "dancer1": "Facundo Vilches",
+      "dancer2": "Irina Cristoff Veleff",
+      "judges": [
+        {
+          "name": "Jonathan Spitell",
+          "score": 9.8,
+          "dropped": true
+        },
+        {
+          "name": "Verónica Gardella",
+          "score": 9.4,
+          "dropped": false
+        },
+        {
+          "name": "Juan Paulo Horvath",
+          "score": 9.66,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.03,
+          "dropped": true
+        },
+        {
+          "name": "Gisela Galeassi",
+          "score": 9.28,
+          "dropped": false
+        },
+        {
+          "name": "Mario Morales",
+          "score": 9.35,
+          "dropped": false
+        },
+        {
+          "name": "Pablo Verón",
+          "score": 9.8,
+          "dropped": false
+        }
+      ],
+      "average": 9.498,
+      "officialAverage": 9.498,
+      "rankInBlock": 7,
+      "rankOverall": 7,
+      "classified": false,
+      "cutoffDelta": -0.062,
+      "spread": 0.77,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 68.4,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.81,
+          "percentile": 96.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.54,
+          "percentile": 78.2
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.647,
+          "percentile": 87.2
+        },
+        {
+          "stage": "final",
+          "average": 9.498,
+          "percentile": 68.4
+        }
+      ],
+      "overall": 82.5,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 117,
+      "round": "2",
+      "dancer1": "Lisandro Eberle",
+      "dancer2": "Guadalupe Ponzelli",
+      "judges": [
+        {
+          "name": "Jonathan Spitell",
+          "score": 9.65,
+          "dropped": true
+        },
+        {
+          "name": "Verónica Gardella",
+          "score": 9.3,
+          "dropped": false
+        },
+        {
+          "name": "Juan Paulo Horvath",
+          "score": 9.65,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.02,
+          "dropped": true
+        },
+        {
+          "name": "Gisela Galeassi",
+          "score": 9.6,
+          "dropped": false
+        },
+        {
+          "name": "Mario Morales",
+          "score": 9.4,
+          "dropped": false
+        },
+        {
+          "name": "Pablo Verón",
+          "score": 9.45,
+          "dropped": false
+        }
+      ],
+      "average": 9.48,
+      "officialAverage": 9.48,
+      "rankInBlock": 8,
+      "rankOverall": 8,
+      "classified": false,
+      "cutoffDelta": -0.08,
+      "spread": 0.63,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 63.2,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.763,
+          "percentile": 89.6
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.73,
+          "percentile": 88.5
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.58,
+          "percentile": 76.9
+        },
+        {
+          "stage": "final",
+          "average": 9.48,
+          "percentile": 63.2
+        }
+      ],
+      "overall": 79.6,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 462,
+      "round": "2",
+      "dancer1": "Lautaro Levato",
+      "dancer2": "Milagros Quintana",
+      "judges": [
+        {
+          "name": "Jonathan Spitell",
+          "score": 9.66,
+          "dropped": false
+        },
+        {
+          "name": "Verónica Gardella",
+          "score": 9.4,
+          "dropped": false
+        },
+        {
+          "name": "Juan Paulo Horvath",
+          "score": 9.71,
+          "dropped": true
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.22,
+          "dropped": true
+        },
+        {
+          "name": "Gisela Galeassi",
+          "score": 9.41,
+          "dropped": false
+        },
+        {
+          "name": "Mario Morales",
+          "score": 9.4,
+          "dropped": false
+        },
+        {
+          "name": "Pablo Verón",
+          "score": 9.3,
+          "dropped": false
+        }
+      ],
+      "average": 9.434,
+      "officialAverage": 9.434,
+      "rankInBlock": 9,
+      "rankOverall": 9,
+      "classified": false,
+      "cutoffDelta": -0.126,
+      "spread": 0.49,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 57.9,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.567,
+          "percentile": 80.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.887,
+          "percentile": 93.6
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.593,
+          "percentile": 79.5
+        },
+        {
+          "stage": "final",
+          "average": 9.434,
+          "percentile": 57.9
+        }
+      ],
+      "overall": 77.9,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 477,
+      "round": "2",
+      "dancer1": "Franco Cocheret",
+      "dancer2": "Juliana Mansilla",
+      "judges": [
+        {
+          "name": "Jonathan Spitell",
+          "score": 9.43,
+          "dropped": true
+        },
+        {
+          "name": "Verónica Gardella",
+          "score": 9.2,
+          "dropped": false
+        },
+        {
+          "name": "Juan Paulo Horvath",
+          "score": 9.4,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.01,
+          "dropped": true
+        },
+        {
+          "name": "Gisela Galeassi",
+          "score": 9.28,
+          "dropped": false
+        },
+        {
+          "name": "Mario Morales",
+          "score": 9.38,
+          "dropped": false
+        },
+        {
+          "name": "Pablo Verón",
+          "score": 9.35,
+          "dropped": false
+        }
+      ],
+      "average": 9.322,
+      "officialAverage": 9.322,
+      "rankInBlock": 10,
+      "rankOverall": 10,
+      "classified": false,
+      "cutoffDelta": -0.238,
+      "spread": 0.42,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 52.6,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.747,
+          "percentile": 88.1
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.21,
+          "percentile": 50
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.405,
+          "percentile": 71.8
+        },
+        {
+          "stage": "final",
+          "average": 9.322,
+          "percentile": 52.6
+        }
+      ],
+      "overall": 65.6,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 448,
+      "round": "1",
+      "dancer1": "Jorge Calabrigo",
+      "dancer2": "Tiziana Silva",
+      "judges": [
+        {
+          "name": "Jonathan Spitell",
+          "score": 9.45,
+          "dropped": false
+        },
+        {
+          "name": "Verónica Gardella",
+          "score": 8.5,
+          "dropped": true
+        },
+        {
+          "name": "Juan Paulo Horvath",
+          "score": 9.72,
+          "dropped": true
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.2,
+          "dropped": false
+        },
+        {
+          "name": "Gisela Galeassi",
+          "score": 9.64,
+          "dropped": false
+        },
+        {
+          "name": "Mario Morales",
+          "score": 9.3,
+          "dropped": false
+        },
+        {
+          "name": "Pablo Verón",
+          "score": 9,
+          "dropped": false
+        }
+      ],
+      "average": 9.318,
+      "officialAverage": 9.318,
+      "rankInBlock": 11,
+      "rankOverall": 11,
+      "classified": false,
+      "cutoffDelta": -0.242,
+      "spread": 1.22,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 47.4,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.793,
+          "percentile": 93.3
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.973,
+          "percentile": 98.7
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.73,
+          "percentile": 92.3
+        },
+        {
+          "stage": "final",
+          "average": 9.318,
+          "percentile": 47.4
+        }
+      ],
+      "overall": 82.9,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 79,
+      "round": "2",
+      "dancer1": "Juan Cupini",
+      "dancer2": "Erica Rossi",
+      "judges": [
+        {
+          "name": "Jonathan Spitell",
+          "score": 9.65,
+          "dropped": true
+        },
+        {
+          "name": "Verónica Gardella",
+          "score": 9,
+          "dropped": true
+        },
+        {
+          "name": "Juan Paulo Horvath",
+          "score": 9.65,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.11,
+          "dropped": false
+        },
+        {
+          "name": "Gisela Galeassi",
+          "score": 9.32,
+          "dropped": false
+        },
+        {
+          "name": "Mario Morales",
+          "score": 9.3,
+          "dropped": false
+        },
+        {
+          "name": "Pablo Verón",
+          "score": 9.2,
+          "dropped": false
+        }
+      ],
+      "average": 9.316,
+      "officialAverage": 9.316,
+      "rankInBlock": 12,
+      "rankOverall": 12,
+      "classified": false,
+      "cutoffDelta": -0.244,
+      "spread": 0.65,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 42.1,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.56,
+          "percentile": 78.5
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.233,
+          "percentile": 55.1
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.385,
+          "percentile": 66.7
+        },
+        {
+          "stage": "final",
+          "average": 9.316,
+          "percentile": 42.1
+        }
+      ],
+      "overall": 60.6,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 509,
+      "round": "1",
+      "dancer1": "Lucas Guevara",
+      "dancer2": "Daniela Bravo",
+      "judges": [
+        {
+          "name": "Jonathan Spitell",
+          "score": 9.53,
+          "dropped": true
+        },
+        {
+          "name": "Verónica Gardella",
+          "score": 9.45,
+          "dropped": false
+        },
+        {
+          "name": "Juan Paulo Horvath",
+          "score": 8.99,
+          "dropped": true
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.02,
+          "dropped": false
+        },
+        {
+          "name": "Gisela Galeassi",
+          "score": 9.3,
+          "dropped": false
+        },
+        {
+          "name": "Mario Morales",
+          "score": 9.29,
+          "dropped": false
+        },
+        {
+          "name": "Pablo Verón",
+          "score": 9.5,
+          "dropped": false
+        }
+      ],
+      "average": 9.312,
+      "officialAverage": 9.312,
+      "rankInBlock": 13,
+      "rankOverall": 13,
+      "classified": false,
+      "cutoffDelta": -0.248,
+      "spread": 0.54,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 36.8,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.627,
+          "percentile": 83
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.417,
+          "percentile": 69.2
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.3,
+          "percentile": 59
+        },
+        {
+          "stage": "final",
+          "average": 9.312,
+          "percentile": 36.8
+        }
+      ],
+      "overall": 62,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 92,
+      "round": "1",
+      "dancer1": "Carlos Cisneros",
+      "dancer2": "Juan Segui",
+      "judges": [
+        {
+          "name": "Jonathan Spitell",
+          "score": 9.55,
+          "dropped": false
+        },
+        {
+          "name": "Verónica Gardella",
+          "score": 9,
+          "dropped": false
+        },
+        {
+          "name": "Juan Paulo Horvath",
+          "score": 9.63,
+          "dropped": true
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 8.9,
+          "dropped": false
+        },
+        {
+          "name": "Gisela Galeassi",
+          "score": 9.55,
+          "dropped": false
+        },
+        {
+          "name": "Mario Morales",
+          "score": 9.28,
+          "dropped": false
+        },
+        {
+          "name": "Pablo Verón",
+          "score": 8.5,
+          "dropped": true
+        }
+      ],
+      "average": 9.256,
+      "officialAverage": 9.256,
+      "rankInBlock": 14,
+      "rankOverall": 14,
+      "classified": false,
+      "cutoffDelta": -0.304,
+      "spread": 1.13,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 31.6,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.85,
+          "percentile": 98.5
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.593,
+          "percentile": 82.1
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.598,
+          "percentile": 82.1
+        },
+        {
+          "stage": "final",
+          "average": 9.256,
+          "percentile": 31.6
+        }
+      ],
+      "overall": 73.6,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 471,
+      "round": "1",
+      "dancer1": "Franco Rubén Sosa",
+      "dancer2": "Romina Moreno Guzmán",
+      "judges": [
+        {
+          "name": "Jonathan Spitell",
+          "score": 9.5,
+          "dropped": false
+        },
+        {
+          "name": "Verónica Gardella",
+          "score": 9.1,
+          "dropped": false
+        },
+        {
+          "name": "Juan Paulo Horvath",
+          "score": 9.65,
+          "dropped": true
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 8.72,
+          "dropped": true
+        },
+        {
+          "name": "Gisela Galeassi",
+          "score": 9.11,
+          "dropped": false
+        },
+        {
+          "name": "Mario Morales",
+          "score": 9.26,
+          "dropped": false
+        },
+        {
+          "name": "Pablo Verón",
+          "score": 9.2,
+          "dropped": false
+        }
+      ],
+      "average": 9.234,
+      "officialAverage": 9.234,
+      "rankInBlock": 15,
+      "rankOverall": 15,
+      "classified": false,
+      "cutoffDelta": -0.326,
+      "spread": 0.93,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 26.3,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.833,
+          "percentile": 97.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.733,
+          "percentile": 89.7
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.633,
+          "percentile": 84.6
+        },
+        {
+          "stage": "final",
+          "average": 9.234,
+          "percentile": 26.3
+        }
+      ],
+      "overall": 74.6,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 453,
+      "round": "1",
+      "dancer1": "Fabrizio Muñoz Lopez",
+      "dancer2": "Federica Tobares",
+      "judges": [
+        {
+          "name": "Jonathan Spitell",
+          "score": 9.15,
+          "dropped": false
+        },
+        {
+          "name": "Verónica Gardella",
+          "score": 8.8,
+          "dropped": true
+        },
+        {
+          "name": "Juan Paulo Horvath",
+          "score": 9.55,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 8.99,
+          "dropped": false
+        },
+        {
+          "name": "Gisela Galeassi",
+          "score": 9.15,
+          "dropped": false
+        },
+        {
+          "name": "Mario Morales",
+          "score": 9.3,
+          "dropped": false
+        },
+        {
+          "name": "Pablo Verón",
+          "score": 9.56,
+          "dropped": true
+        }
+      ],
+      "average": 9.228,
+      "officialAverage": 9.228,
+      "rankInBlock": 16,
+      "rankOverall": 16,
+      "classified": false,
+      "cutoffDelta": -0.332,
+      "spread": 0.76,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 21.1,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.55,
+          "percentile": 77.8
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.8,
+          "percentile": 91
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.692,
+          "percentile": 89.7
+        },
+        {
+          "stage": "final",
+          "average": 9.228,
+          "percentile": 21.1
+        }
+      ],
+      "overall": 69.9,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 436,
+      "round": "2",
+      "dancer1": "Nelson Nahuel Leiva",
+      "dancer2": "Evangelina Soledad Martinez",
+      "judges": [
+        {
+          "name": "Jonathan Spitell",
+          "score": 9.4,
+          "dropped": false
+        },
+        {
+          "name": "Verónica Gardella",
+          "score": 8.85,
+          "dropped": true
+        },
+        {
+          "name": "Juan Paulo Horvath",
+          "score": 9.22,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 8.98,
+          "dropped": false
+        },
+        {
+          "name": "Gisela Galeassi",
+          "score": 9.2,
+          "dropped": false
+        },
+        {
+          "name": "Mario Morales",
+          "score": 9.26,
+          "dropped": false
+        },
+        {
+          "name": "Pablo Verón",
+          "score": 9.9,
+          "dropped": true
+        }
+      ],
+      "average": 9.212,
+      "officialAverage": 9.212,
+      "rankInBlock": 17,
+      "rankOverall": 17,
+      "classified": false,
+      "cutoffDelta": -0.348,
+      "spread": 1.05,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 15.8,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.767,
+          "percentile": 90.4
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.55,
+          "percentile": 79.5
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.343,
+          "percentile": 64.1
+        },
+        {
+          "stage": "final",
+          "average": 9.212,
+          "percentile": 15.8
+        }
+      ],
+      "overall": 62.5,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 481,
+      "round": "1",
+      "dancer1": "Ulises García",
+      "dancer2": "Florencia Campo",
+      "judges": [
+        {
+          "name": "Jonathan Spitell",
+          "score": 9.1,
+          "dropped": false
+        },
+        {
+          "name": "Verónica Gardella",
+          "score": 8.9,
+          "dropped": false
+        },
+        {
+          "name": "Juan Paulo Horvath",
+          "score": 9.15,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 8.9,
+          "dropped": false
+        },
+        {
+          "name": "Gisela Galeassi",
+          "score": 8.75,
+          "dropped": true
+        },
+        {
+          "name": "Mario Morales",
+          "score": 9.27,
+          "dropped": true
+        },
+        {
+          "name": "Pablo Verón",
+          "score": 9.2,
+          "dropped": false
+        }
+      ],
+      "average": 9.05,
+      "officialAverage": 9.05,
+      "rankInBlock": 18,
+      "rankOverall": 18,
+      "classified": false,
+      "cutoffDelta": -0.51,
+      "spread": 0.52,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 10.5,
+      "stageStandings": [
+        {
+          "stage": "clasificatoria",
+          "average": 7.373,
+          "percentile": 63.7
+        },
+        {
+          "stage": "cuartos",
+          "average": 7.42,
+          "percentile": 71.8
+        },
+        {
+          "stage": "semifinal",
+          "average": 8.343,
+          "percentile": 64.1
+        },
+        {
+          "stage": "final",
+          "average": 9.05,
+          "percentile": 10.5
+        }
+      ],
+      "overall": 52.5,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 701,
+      "round": "2",
+      "dancer1": "Sebastian Avendaño",
+      "dancer2": "Tania Gutierrez",
+      "judges": [
+        {
+          "name": "Jonathan Spitell",
+          "score": 8.95,
+          "dropped": false
+        },
+        {
+          "name": "Verónica Gardella",
+          "score": 8.1,
+          "dropped": true
+        },
+        {
+          "name": "Juan Paulo Horvath",
+          "score": 8.65,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 9.01,
+          "dropped": false
+        },
+        {
+          "name": "Gisela Galeassi",
+          "score": 8.88,
+          "dropped": false
+        },
+        {
+          "name": "Mario Morales",
+          "score": 9.27,
+          "dropped": true
+        },
+        {
+          "name": "Pablo Verón",
+          "score": 8.9,
+          "dropped": false
+        }
+      ],
+      "average": 8.878,
+      "officialAverage": 8.878,
+      "rankInBlock": 19,
+      "rankOverall": 19,
+      "classified": false,
+      "cutoffDelta": -0.682,
+      "spread": 1.17,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 5.3,
+      "stageStandings": [
+        {
+          "stage": "final",
+          "average": 8.878,
+          "percentile": 5.3
+        }
+      ],
+      "overall": 5.3,
+      "lastStageReached": "final"
+    },
+    {
+      "coupleId": 691,
+      "round": "2",
+      "dancer1": "Leandro Matias Robledo",
+      "dancer2": "Makiko Minato",
+      "judges": [
+        {
+          "name": "Jonathan Spitell",
+          "score": 8.5,
+          "dropped": false
+        },
+        {
+          "name": "Verónica Gardella",
+          "score": 8,
+          "dropped": true
+        },
+        {
+          "name": "Juan Paulo Horvath",
+          "score": 8.53,
+          "dropped": false
+        },
+        {
+          "name": "Claudia Códega",
+          "score": 8.74,
+          "dropped": false
+        },
+        {
+          "name": "Gisela Galeassi",
+          "score": 8.7,
+          "dropped": false
+        },
+        {
+          "name": "Mario Morales",
+          "score": 9.28,
+          "dropped": false
+        },
+        {
+          "name": "Pablo Verón",
+          "score": 9.6,
+          "dropped": true
+        }
+      ],
+      "average": 8.75,
+      "officialAverage": 8.75,
+      "rankInBlock": 20,
+      "rankOverall": 20,
+      "classified": false,
+      "cutoffDelta": -0.81,
+      "spread": 1.6,
+      "blockId": "_",
+      "averageMismatch": false,
+      "originStage": "final",
+      "stagePercentile": 0,
+      "stageStandings": [
+        {
+          "stage": "final",
+          "average": 8.75,
+          "percentile": 0
+        }
+      ],
+      "overall": 0,
+      "lastStageReached": "final"
+    }
+  ],
+  "mismatches": []
+}

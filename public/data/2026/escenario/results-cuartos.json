@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T01:58:17.213Z",
+  "generatedAt": "2026-09-03T02:41:32.791Z",
   "year": 2026,
   "stage": "cuartos",
   "category": "escenario",
@@ -109,10 +109,15 @@
           "stage": "semifinal",
           "average": 8.962,
           "percentile": 100
+        },
+        {
+          "stage": "final",
+          "average": 9.698,
+          "percentile": 94.7
         }
       ],
-      "overall": 98,
-      "lastStageReached": "semifinal"
+      "overall": 97.2,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 448,
@@ -172,10 +177,15 @@
           "stage": "semifinal",
           "average": 8.73,
           "percentile": 92.3
+        },
+        {
+          "stage": "final",
+          "average": 9.318,
+          "percentile": 47.4
         }
       ],
-      "overall": 94.8,
-      "lastStageReached": "semifinal"
+      "overall": 82.9,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 521,
@@ -298,10 +308,15 @@
           "stage": "semifinal",
           "average": 8.86,
           "percentile": 94.9
+        },
+        {
+          "stage": "final",
+          "average": 9.672,
+          "percentile": 89.5
         }
       ],
-      "overall": 95.6,
-      "lastStageReached": "semifinal"
+      "overall": 94.1,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 678,
@@ -419,10 +434,15 @@
           "stage": "semifinal",
           "average": 8.593,
           "percentile": 79.5
+        },
+        {
+          "stage": "final",
+          "average": 9.434,
+          "percentile": 57.9
         }
       ],
-      "overall": 84.6,
-      "lastStageReached": "semifinal"
+      "overall": 77.9,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 471,
@@ -482,10 +502,15 @@
           "stage": "semifinal",
           "average": 8.633,
           "percentile": 84.6
+        },
+        {
+          "stage": "final",
+          "average": 9.234,
+          "percentile": 26.3
         }
       ],
-      "overall": 90.7,
-      "lastStageReached": "semifinal"
+      "overall": 74.6,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 117,
@@ -545,10 +570,15 @@
           "stage": "semifinal",
           "average": 8.58,
           "percentile": 76.9
+        },
+        {
+          "stage": "final",
+          "average": 9.48,
+          "percentile": 63.2
         }
       ],
-      "overall": 85,
-      "lastStageReached": "semifinal"
+      "overall": 79.6,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 342,
@@ -855,10 +885,15 @@
           "stage": "semifinal",
           "average": 8.598,
           "percentile": 82.1
+        },
+        {
+          "stage": "final",
+          "average": 9.256,
+          "percentile": 31.6
         }
       ],
-      "overall": 87.6,
-      "lastStageReached": "semifinal"
+      "overall": 73.6,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 436,
@@ -918,10 +953,15 @@
           "stage": "semifinal",
           "average": 8.343,
           "percentile": 64.1
+        },
+        {
+          "stage": "final",
+          "average": 9.212,
+          "percentile": 15.8
         }
       ],
-      "overall": 78,
-      "lastStageReached": "semifinal"
+      "overall": 62.5,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 513,
@@ -981,10 +1021,15 @@
           "stage": "semifinal",
           "average": 8.647,
           "percentile": 87.2
+        },
+        {
+          "stage": "final",
+          "average": 9.498,
+          "percentile": 68.4
         }
       ],
-      "overall": 87.2,
-      "lastStageReached": "semifinal"
+      "overall": 82.5,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 95,
@@ -2441,10 +2486,15 @@
           "stage": "semifinal",
           "average": 8.875,
           "percentile": 97.4
+        },
+        {
+          "stage": "final",
+          "average": 9.736,
+          "percentile": 100
         }
       ],
-      "overall": 96.6,
-      "lastStageReached": "semifinal"
+      "overall": 97.4,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 453,
@@ -2504,10 +2554,15 @@
           "stage": "semifinal",
           "average": 8.692,
           "percentile": 89.7
+        },
+        {
+          "stage": "final",
+          "average": 9.228,
+          "percentile": 21.1
         }
       ],
-      "overall": 86.2,
-      "lastStageReached": "semifinal"
+      "overall": 69.9,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 554,
@@ -2567,10 +2622,15 @@
           "stage": "semifinal",
           "average": 8.483,
           "percentile": 74.4
+        },
+        {
+          "stage": "final",
+          "average": 9.56,
+          "percentile": 78.9
         }
       ],
-      "overall": 84.8,
-      "lastStageReached": "semifinal"
+      "overall": 83.4,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 3,
@@ -2693,10 +2753,15 @@
           "stage": "semifinal",
           "average": 8.393,
           "percentile": 69.2
+        },
+        {
+          "stage": "final",
+          "average": 9.554,
+          "percentile": 73.7
         }
       ],
-      "overall": 80.2,
-      "lastStageReached": "semifinal"
+      "overall": 78.6,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 481,
@@ -2756,10 +2821,15 @@
           "stage": "semifinal",
           "average": 8.343,
           "percentile": 64.1
+        },
+        {
+          "stage": "final",
+          "average": 9.05,
+          "percentile": 10.5
         }
       ],
-      "overall": 66.5,
-      "lastStageReached": "semifinal"
+      "overall": 52.5,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 509,
@@ -2819,10 +2889,15 @@
           "stage": "semifinal",
           "average": 8.3,
           "percentile": 59
+        },
+        {
+          "stage": "final",
+          "average": 9.312,
+          "percentile": 36.8
         }
       ],
-      "overall": 70.4,
-      "lastStageReached": "semifinal"
+      "overall": 62,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 440,
@@ -3134,10 +3209,15 @@
           "stage": "semifinal",
           "average": 8.385,
           "percentile": 66.7
+        },
+        {
+          "stage": "final",
+          "average": 9.316,
+          "percentile": 42.1
         }
       ],
-      "overall": 66.8,
-      "lastStageReached": "semifinal"
+      "overall": 60.6,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 403,
@@ -3381,10 +3461,15 @@
           "stage": "semifinal",
           "average": 8.405,
           "percentile": 71.8
+        },
+        {
+          "stage": "final",
+          "average": 9.322,
+          "percentile": 52.6
         }
       ],
-      "overall": 70,
-      "lastStageReached": "semifinal"
+      "overall": 65.6,
+      "lastStageReached": "final"
     },
     {
       "coupleId": 493,
