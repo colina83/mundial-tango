@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-09-27T12:52:31.317Z",
+  "updatedAt": "2026-09-27T13:03:18.859Z",
   "stages": [
     {
       "stage": "clasificatoria",
-      "generatedAt": "2026-09-27T12:52:19.140Z",
+      "generatedAt": "2026-09-27T13:03:06.421Z",
       "rowCount": 545
     },
     {
       "stage": "cuartos",
-      "generatedAt": "2026-09-27T12:52:22.678Z",
+      "generatedAt": "2026-09-27T13:03:09.951Z",
       "rowCount": 292
     },
     {
       "stage": "semifinal",
-      "generatedAt": "2026-09-27T12:52:26.127Z",
+      "generatedAt": "2026-09-27T13:03:13.423Z",
       "rowCount": 159
     },
     {
       "stage": "final",
-      "generatedAt": "2026-09-27T12:52:31.315Z",
+      "generatedAt": "2026-09-27T13:03:18.857Z",
       "rowCount": 39
     }
   ]
